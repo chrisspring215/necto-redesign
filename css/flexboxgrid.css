@@ -1,5 +1,11 @@
 /* Uncomment and set these variables to customize the grid. */
 
+/* Fix for Firefox 34+ Breaks without min-width/height=0 */
+* {
+    min-width: 0;
+    min-height: 0;
+}
+
 .container-fluid {
   margin-right: auto;
   margin-left: auto;
@@ -21,8 +27,8 @@
   flex-direction: row;
   -ms-flex-wrap: wrap;
   flex-wrap: wrap;
-  margin-right: -1rem;
-  margin-left: -1rem;
+  /* margin-right: -1rem;
+  margin-left: -1rem; Chris Removed, horizontal bar at bottom */
 }
 
 .row.reverse {
@@ -58,6 +64,7 @@
   flex: 0 0 auto;
   padding-right: 1rem;
   padding-left: 1rem;
+  background: red;
 }
 
 .col-xs {
@@ -272,6 +279,7 @@
     flex: 0 0 auto;
     padding-right: 1rem;
     padding-left: 1rem;
+    background: blue;
   }
 
   .col-sm {
@@ -487,6 +495,7 @@
     flex: 0 0 auto;
     padding-right: 1rem;
     padding-left: 1rem;
+    background: green;
   }
 
   .col-md {
@@ -702,6 +711,7 @@
     flex: 0 0 auto;
     padding-right: 1rem;
     padding-left: 1rem;
+    background: aqua;
   }
 
   .col-lg {

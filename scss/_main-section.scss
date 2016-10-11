@@ -1,0 +1,91 @@
+p {
+	color: $white;
+	font-weight: 300;
+}
+
+img {
+	width: 100%;
+}
+
+
+.hero-image {
+	background-image: url("../img/AFC_8747.jpg");
+	background-size: 100% auto;
+    background-repeat: no-repeat;
+    padding-top: 2em;
+    padding-bottom: 2em;
+    height: 7em;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-flex-direction: row;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    -webkit-flex-wrap: nowrap;
+    -ms-flex-wrap: nowrap;
+    flex-wrap: nowrap;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-align-content: stretch;
+    -ms-flex-line-pack: stretch;
+    align-content: stretch;
+    -webkit-align-items: flex-start;
+    -ms-flex-align: start;
+    align-items: flex-start;
+    border-top: 4px solid $blue;
+    border-bottom: 4px solid $blue;
+
+    h1 {
+    	margin: 0;
+    	
+    	text-align: center;
+    	font-size: 2.5em;
+    	line-height: 3rem;
+    	margin-right: 15%;
+    	margin-left: 15%;
+    	padding: .25em;
+    	border: 4px solid $pink;
+
+    	color: $yellow;
+    	text-shadow: 3px 3px 0px rgb(237, 25, 104);
+
+		-webkit-order: 0;
+		-ms-flex-order: 0;
+		order: 0;
+		-webkit-flex: 0 1 auto;
+		-ms-flex: 0 1 auto;
+		flex: 0 1 auto;
+		-webkit-align-self: center;
+		-ms-flex-item-align: center;
+		align-self: center;
+    }
+}
+
+.home-page-section {
+
+	h2
+	{
+		font-size: 2em;
+		margin: 0 0 .5em 0;
+		padding: 8px 16px;
+		color: $darkest;
+		background: $pink;
+
+border-style: solid; border-width: 0px 0px 36px; -moz-border-image: url(drips.svg) 0 0 36 repeat round; -webkit-border-image: url(drips.svg) 0 0 36 repeat round; -o-border-image: url(drips.svg) 0 0 36 repeat round; border-image: url(drips.svg) 0 0 36 repeat round;
+		
+		text-align: center;
+	    display: block;
+	    line-height: 1em;
+	    position: relative;
+	    left: -16px;
+	    width: 100%;
+	}
+
+	h3
+	{
+		font-size: 2em;
+		margin: 0;
+		color: $yellow;
+	}
+}

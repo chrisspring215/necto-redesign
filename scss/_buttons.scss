@@ -1,0 +1,31 @@
+.button {
+	text-decoration: none;
+	background: $pink;
+	margin: 0 .25em;
+	font-weight: bold;
+	
+
+	button
+	{
+		display: block;
+		width: 100%;
+		text-align: right;
+		background-color: none;
+		border: none;
+		border: .2em solid $white;
+		padding: 8px 12px;
+		background: -webkit-linear-gradient($darkest, $darkest - 10); /* For Safari 5.1 to 6.0 */
+        background: -o-linear-gradient($darkest, $darkest - 10); /* For Opera 11.1 to 12.0 */
+        background: -moz-linear-gradient($darkest, $darkest - 10); /* For Firefox 3.6 to 15 */
+        background: linear-gradient($darkest, $darkest - 10); /* Standard syntax */
+		border-radius: .1em;
+
+	}
+	span
+	{
+		background: -webkit-linear-gradient($blue, $blue - 10);
+		-webkit-background-clip: text;
+		-webkit-text-fill-color: transparent;
+	}
+}
+

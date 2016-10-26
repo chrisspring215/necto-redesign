@@ -1596,6 +1596,39 @@ body {
   font-family: "Oswald", sans-serif;
 }
 
+/* line 1, ../scss/_buttons.scss */
+.button {
+  text-decoration: none;
+  background: #ed1968;
+  margin: 0 .25em;
+  font-weight: bold;
+}
+/* line 9, ../scss/_buttons.scss */
+.button button {
+  display: block;
+  width: 100%;
+  text-align: right;
+  background-color: none;
+  border: none;
+  border: 0.2em solid #eeeeee;
+  padding: 8px 12px;
+  background: -webkit-linear-gradient(#222222, #181818);
+  /* For Safari 5.1 to 6.0 */
+  background: -o-linear-gradient(#222222, #181818);
+  /* For Opera 11.1 to 12.0 */
+  background: -moz-linear-gradient(#222222, #181818);
+  /* For Firefox 3.6 to 15 */
+  background: linear-gradient(#222222, #181818);
+  /* Standard syntax */
+  border-radius: .1em;
+}
+/* line 25, ../scss/_buttons.scss */
+.button span {
+  background: -webkit-linear-gradient(#3bddff, #31d3f5);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
 /* line 1, ../scss/_body.scss */
 html {
   height: 100%;
@@ -1606,6 +1639,7 @@ body {
   background: #222222;
   position: relative;
   min-height: 100%;
+  with: 100vw;
 }
 
 /* line 1, ../scss/_header.scss */
@@ -1657,8 +1691,9 @@ img {
   align-items: flex-start;
   border-top: 4px solid #3bddff;
   border-bottom: 4px solid #3bddff;
+  box-shadow: 0px 4px 2px #222222;
 }
-/* line 39, ../scss/_main-section.scss */
+/* line 40, ../scss/_main-section.scss */
 .hero-image h1 {
   margin: 0;
   text-align: center;
@@ -1681,31 +1716,75 @@ img {
   align-self: center;
 }
 
-/* line 68, ../scss/_main-section.scss */
-.home-page-section h2 {
+/* line 69, ../scss/_main-section.scss */
+.home-page-section-header h2 {
   font-size: 2em;
-  margin: 0 0 .5em 0;
-  padding: 8px 16px;
+  padding: 8px 16px 8px 16px;
+  margin: 0;
   color: #222222;
-  background: #ed1968;
-  border-style: solid;
-  border-width: 0px 0px 36px;
-  -moz-border-image: url(drips.svg) 0 0 36 repeat round;
-  -webkit-border-image: url(drips.svg) 0 0 36 repeat round;
-  -o-border-image: url(drips.svg) 0 0 36 repeat round;
-  border-image: url(drips.svg) 0 0 36 repeat round;
-  text-align: center;
   display: block;
   line-height: 1em;
   position: relative;
   left: -16px;
   width: 100%;
-}
-/* line 86, ../scss/_main-section.scss */
-.home-page-section h3 {
-  font-size: 2em;
   margin: 0;
-  color: #ffe928;
+  box-shadow: 0px 4px 2px #222222;
+  background: #ed1968;
+  /* For browsers that do not support gradients */
+  background: -webkit-linear-gradient(#ed1968, #d90554);
+  /* For Safari 5.1 to 6.0 */
+  background: -o-linear-gradient(#ed1968, #d90554);
+  /* For Opera 11.1 to 12.0 */
+  background: -moz-linear-gradient(#ed1968, #d90554);
+  /* For Firefox 3.6 to 15 */
+  background: linear-gradient(#ed1968, #d90554);
+  /* Standard syntax */
+}
+/* line 89, ../scss/_main-section.scss */
+.home-page-section-header h2 span {
+  background: -webkit-linear-gradient(#222222, #2c2c2c);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+/* line 100, ../scss/_main-section.scss */
+.home-page-event-content {
+  margin: 0;
+  border-bottom: 2px solid #363636;
+}
+/* line 106, ../scss/_main-section.scss */
+.home-page-event-content .home-page-event {
+  padding: 1em 0 .5em 0;
+}
+/* line 110, ../scss/_main-section.scss */
+.home-page-event-content h3 {
+  font-size: 2em;
+  margin: 0 0 .5em 0;
+  padding: 0;
+  margin-top: -1.75em;
+}
+/* line 117, ../scss/_main-section.scss */
+.home-page-event-content h3 .weekly-name {
+  background: -webkit-linear-gradient(#ffe928, #cdb700);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+/* line 123, ../scss/_main-section.scss */
+.home-page-event-content h3 .weekly-day {
+  background: -webkit-linear-gradient(#3bddff, #09abcd);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+/* line 130, ../scss/_main-section.scss */
+.home-page-event-content p {
+  margin: 0;
+  padding: 0;
+  font-weight: thin;
+}
+/* line 136, ../scss/_main-section.scss */
+.home-page-event-content p strong {
+  color: #ed1968;
+  font-weight: normal;
 }
 
 /* line 1, ../scss/_footer.scss */
@@ -1728,7 +1807,7 @@ footer {
 /*
  * Hide visually and from screen readers
  */
-/* line 561, ../scss/main.scss */
+/* line 562, ../scss/main.scss */
 .hidden {
   display: none !important;
 }
@@ -1737,7 +1816,7 @@ footer {
  * Hide only visually, but have it available for screen readers:
  * http://snook.ca/archives/html_and_css/hiding-content-for-accessibility
  */
-/* line 570, ../scss/main.scss */
+/* line 571, ../scss/main.scss */
 .visuallyhidden {
   border: 0;
   clip: rect(0 0 0 0);
@@ -1754,7 +1833,7 @@ footer {
  * to be focusable when navigated to via the keyboard:
  * https://www.drupal.org/node/897638
  */
-/* line 588, ../scss/main.scss */
+/* line 589, ../scss/main.scss */
 .visuallyhidden.focusable:active,
 .visuallyhidden.focusable:focus {
   clip: auto;
@@ -1768,7 +1847,7 @@ footer {
 /*
  * Hide visually and from screen readers, but maintain layout
  */
-/* line 601, ../scss/main.scss */
+/* line 602, ../scss/main.scss */
 .invisible {
   visibility: hidden;
 }
@@ -1784,7 +1863,7 @@ footer {
  * 2. The use of `table` rather than `block` is only necessary if using
  *    `:before` to contain the top-margins of child elements.
  */
-/* line 618, ../scss/main.scss */
+/* line 619, ../scss/main.scss */
 .clearfix:before,
 .clearfix:after {
   content: " ";
@@ -1793,7 +1872,7 @@ footer {
   /* 2 */
 }
 
-/* line 623, ../scss/main.scss */
+/* line 624, ../scss/main.scss */
 .clearfix:after {
   clear: both;
 }
@@ -1815,7 +1894,7 @@ footer {
    http://www.phpied.com/delay-loading-your-print-css/
    ========================================================================== */
 @media print {
-  /* line 655, ../scss/main.scss */
+  /* line 656, ../scss/main.scss */
   *,
   *:before,
   *:after,
@@ -1829,18 +1908,18 @@ footer {
     text-shadow: none !important;
   }
 
-  /* line 664, ../scss/main.scss */
+  /* line 665, ../scss/main.scss */
   a,
   a:visited {
     text-decoration: underline;
   }
 
-  /* line 668, ../scss/main.scss */
+  /* line 669, ../scss/main.scss */
   a[href]:after {
     content: " (" attr(href) ")";
   }
 
-  /* line 672, ../scss/main.scss */
+  /* line 673, ../scss/main.scss */
   abbr[title]:after {
     content: " (" attr(title) ")";
   }
@@ -1849,13 +1928,13 @@ footer {
    * Don't show links that are fragment identifiers,
    * or use the `javascript:` pseudo protocol
    */
-  /* line 682, ../scss/main.scss */
+  /* line 683, ../scss/main.scss */
   a[href^="#"]:after,
   a[href^="javascript:"]:after {
     content: "";
   }
 
-  /* line 687, ../scss/main.scss */
+  /* line 688, ../scss/main.scss */
   pre,
   blockquote {
     border: 1px solid #999;
@@ -1866,23 +1945,23 @@ footer {
    * Printing Tables:
    * http://css-discuss.incutio.com/wiki/Printing_Tables
    */
-  /* line 697, ../scss/main.scss */
+  /* line 698, ../scss/main.scss */
   thead {
     display: table-header-group;
   }
 
-  /* line 702, ../scss/main.scss */
+  /* line 703, ../scss/main.scss */
   tr,
   img {
     page-break-inside: avoid;
   }
 
-  /* line 706, ../scss/main.scss */
+  /* line 707, ../scss/main.scss */
   img {
     max-width: 100% !important;
   }
 
-  /* line 712, ../scss/main.scss */
+  /* line 713, ../scss/main.scss */
   p,
   h2,
   h3 {
@@ -1890,7 +1969,7 @@ footer {
     widows: 3;
   }
 
-  /* line 718, ../scss/main.scss */
+  /* line 719, ../scss/main.scss */
   h2,
   h3 {
     page-break-after: avoid;

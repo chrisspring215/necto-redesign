@@ -35,6 +35,7 @@ img {
     align-items: flex-start;
     border-top: 4px solid $blue;
     border-bottom: 4px solid $blue;
+    box-shadow: $boxShadow;
 
     h1 {
     	margin: 0;
@@ -62,30 +63,81 @@ img {
     }
 }
 
-.home-page-section {
+.home-page-section-header
+{   
+    h2
+    {
+        font-size: 2em;
+        padding: 8px 16px 8px 16px;
+        margin: 0;
+        color: $darkest;
+        display: block;
+        line-height: 1em;
+        position: relative;
+        left: -16px;
+        width: 100%;
+        margin: 0;
+        box-shadow: $boxShadow;
 
-	h2
-	{
+        background: $pink; /* For browsers that do not support gradients */
+        background: -webkit-linear-gradient($pink, $pink - 20); /* For Safari 5.1 to 6.0 */
+        background: -o-linear-gradient($pink, $pink - 20); /* For Opera 11.1 to 12.0 */
+        background: -moz-linear-gradient($pink, $pink - 20); /* For Firefox 3.6 to 15 */
+        background: linear-gradient($pink, $pink - 20); /* Standard syntax */
+
+        span
+        {
+
+        background: -webkit-linear-gradient($darkest, $darkest + 10);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+
+        }
+
+    }
+}
+
+.home-page-event-content {
+
+    margin: 0;
+    border-bottom: 2px solid $darkest + 20;
+
+    .home-page-event
+    {
+        padding: 1em 0 .5em 0;
+    }
+
+	h3 {
 		font-size: 2em;
 		margin: 0 0 .5em 0;
-		padding: 8px 16px;
-		color: $darkest;
-		background: $pink;
+        padding: 0;
+        margin-top: -1.75em; 
 
-border-style: solid; border-width: 0px 0px 36px; -moz-border-image: url(drips.svg) 0 0 36 repeat round; -webkit-border-image: url(drips.svg) 0 0 36 repeat round; -o-border-image: url(drips.svg) 0 0 36 repeat round; border-image: url(drips.svg) 0 0 36 repeat round;
-		
-		text-align: center;
-	    display: block;
-	    line-height: 1em;
-	    position: relative;
-	    left: -16px;
-	    width: 100%;
+        .weekly-name
+        {
+            background: -webkit-linear-gradient($yellow, $yellow - 50);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+
+        .weekly-day {
+            background: -webkit-linear-gradient($blue, $blue - 50);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
 	}
 
-	h3
-	{
-		font-size: 2em;
-		margin: 0;
-		color: $yellow;
-	}
+    p {
+        margin: 0;
+        padding: 0;
+        font-weight: thin;
+
+        strong
+        {
+            color: $pink;
+            font-weight: normal;
+        }
+    }
+
+
 }

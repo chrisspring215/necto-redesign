@@ -7,58 +7,41 @@ img {
 	width: 100%;
 }
 
+main {
+
+
+  background: url("../img/hero.jpg") no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+
+  margin-top: -5vh;
+}
 
 .hero-image {
-	background-image: url("../img/hero.jpg");
-	background-size: cover;
-
-
-
-    background-repeat: no-repeat;
-    padding-top: 2em;
-    padding-bottom: 2em;
-
-    display: -ms-flexbox;
-    display: -webkit-flex;
-    display: flex;
-    -webkit-flex-direction: row;
-    -ms-flex-direction: row;
-    flex-direction: row;
-    -webkit-flex-wrap: nowrap;
-    -ms-flex-wrap: nowrap;
-    flex-wrap: nowrap;
-    -webkit-justify-content: center;
-    -ms-flex-pack: center;
-    justify-content: center;
-    -webkit-align-content: stretch;
-    -ms-flex-line-pack: stretch;
-    align-content: stretch;
-    -webkit-align-items: flex-start;
-    -ms-flex-align: start;
-    align-items: flex-start;
-    border-bottom: 4px solid $blue;
+    padding-bottom: 0em;
+    padding-top: 5vh;
+    margin-top: 28px;
     box-shadow: $boxShadow;
-
-    height: 85vh;
-
+    height: 95vh;
+    
     h1 {
-    	margin: 0;
-    	display: block;
-    	text-align: center;
-    	font-size: 3.5em;
-    	line-height: 3.5rem;
-    	margin-right: 15%;
-    	margin-left: 15%;
-
-    	padding: .25em;
-
-    	border: 8px solid $pink;
-        border-radius: .1em;
-        box-shadow:  $boxShadow;
+        
+        margin-right: 15%;
+        margin-left: 15%;
+        padding: .25em;
     	
-        color: $yellow;
-    	text-shadow: 3px 3px 0px rgb(237, 25, 104);
-
+    	text-align: center;
+    	font-size: 3rem;
+    	line-height: 3rem;
+        color: $pink;
+        text-shadow: 3px 3px 0px rgb(255,255,255);
+    	
+    	border-top: 8px dotted $yellow;
+        border-bottom: 8px dotted $yellow;
+        border-radius: .1em;
+    	
 		-webkit-order: 0;
 		-ms-flex-order: 0;
 		order: 0;
@@ -68,11 +51,10 @@ img {
 		-webkit-align-self: center;
 		-ms-flex-item-align: center;
 		align-self: center;
-        position: relative;
-        top: - 10vh;
-
 
     }
+
+    
 }
 
 .home-page-section-header
@@ -90,16 +72,13 @@ img {
         width: 100%;
         margin: 0;
         box-shadow: $boxShadow;
-
         background: $pink; /* For browsers that do not support gradients */
         background: -webkit-linear-gradient($pink, $pink - 20); /* For Safari 5.1 to 6.0 */
         background: -o-linear-gradient($pink, $pink - 20); /* For Opera 11.1 to 12.0 */
         background: -moz-linear-gradient($pink, $pink - 20); /* For Firefox 3.6 to 15 */
         background: linear-gradient($pink, $pink - 20); /* Standard syntax */
-
         span
         {
-
         background: -webkit-linear-gradient($darkest, $darkest + 10);
         -webkit-background-clip: text;
         -webkit-text-fill-color: transparent;
@@ -108,28 +87,39 @@ img {
 
     }
 }
+.chris {
+    /*
+    visibility: hidden;
+    height: 0;
+    */
+}
 
 .home-page-event-content {
-
+    background: $darkest;
     margin: 0;
     border-bottom: 2px solid $darkest + 20;
 
-    .home-page-event
-    {
-        padding: 1em 0 .5em 0;
-    }
 
 	h3 {
-		font-size: 2em;
+		font-size: 1.5em;
 		margin: 0 0 .5em 0;
         padding: 0;
-        margin-top: -1.75em; 
+        margin-top: -1.4em;
+        background: $darkest;
+        position: relative;
+        background: rgba(0, 0, 0, .65);
+   
+
+        margin-left: -16px;
+        padding-left: 16px;
+        margin-right: -16px;
 
         .weekly-name
         {
             background: -webkit-linear-gradient($yellow, $yellow - 50);
             -webkit-background-clip: text;
             -webkit-text-fill-color: transparent;
+
         }
 
         .weekly-day {

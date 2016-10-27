@@ -1615,19 +1615,13 @@ body {
   text-align: right;
   background-color: none;
   border: none;
-  border: 0.2em solid #eeeeee;
+  background: none;
+  border-style: solid;
+  border-width: .2em;
   padding: 8px 12px;
-  background: -webkit-linear-gradient(#222222, #181818);
-  /* For Safari 5.1 to 6.0 */
-  background: -o-linear-gradient(#222222, #181818);
-  /* For Opera 11.1 to 12.0 */
-  background: -moz-linear-gradient(#222222, #181818);
-  /* For Firefox 3.6 to 15 */
-  background: linear-gradient(#222222, #181818);
-  /* Standard syntax */
   border-radius: .1em;
 }
-/* line 25, ../scss/_buttons.scss */
+/* line 23, ../scss/_buttons.scss */
 .button span {
   background: -webkit-linear-gradient(#3bddff, #31d3f5);
   -webkit-background-clip: text;
@@ -1671,50 +1665,37 @@ img {
   width: 100%;
 }
 
-/* line 11, ../scss/_main-section.scss */
-.hero-image {
-  background-image: url("../img/hero.jpg");
+/* line 10, ../scss/_main-section.scss */
+main {
+  background: url("../img/hero.jpg") no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
   background-size: cover;
-  background-repeat: no-repeat;
-  padding-top: 2em;
-  padding-bottom: 2em;
-  display: -ms-flexbox;
-  display: -webkit-flex;
-  display: flex;
-  -webkit-flex-direction: row;
-  -ms-flex-direction: row;
-  flex-direction: row;
-  -webkit-flex-wrap: nowrap;
-  -ms-flex-wrap: nowrap;
-  flex-wrap: nowrap;
-  -webkit-justify-content: center;
-  -ms-flex-pack: center;
-  justify-content: center;
-  -webkit-align-content: stretch;
-  -ms-flex-line-pack: stretch;
-  align-content: stretch;
-  -webkit-align-items: flex-start;
-  -ms-flex-align: start;
-  align-items: flex-start;
-  border-bottom: 4px solid #3bddff;
-  box-shadow: 0px 4px 2px #2c2c2c;
-  height: 85vh;
+  margin-top: -5vh;
 }
-/* line 44, ../scss/_main-section.scss */
+
+/* line 22, ../scss/_main-section.scss */
+.hero-image {
+  padding-bottom: 0em;
+  padding-top: 5vh;
+  margin-top: 28px;
+  box-shadow: 0px 4px 2px #2c2c2c;
+  height: 95vh;
+}
+/* line 29, ../scss/_main-section.scss */
 .hero-image h1 {
-  margin: 0;
-  display: block;
-  text-align: center;
-  font-size: 3.5em;
-  line-height: 3.5rem;
   margin-right: 15%;
   margin-left: 15%;
   padding: .25em;
-  border: 8px solid #ed1968;
+  text-align: center;
+  font-size: 3rem;
+  line-height: 3rem;
+  color: #ed1968;
+  text-shadow: 3px 3px 0px white;
+  border-top: 8px dotted #ffe928;
+  border-bottom: 8px dotted #ffe928;
   border-radius: .1em;
-  box-shadow: 0px 4px 2px #2c2c2c;
-  color: #ffe928;
-  text-shadow: 3px 3px 0px #ed1968;
   -webkit-order: 0;
   -ms-flex-order: 0;
   order: 0;
@@ -1724,11 +1705,9 @@ img {
   -webkit-align-self: center;
   -ms-flex-item-align: center;
   align-self: center;
-  position: relative;
-  top: -10vh;
 }
 
-/* line 81, ../scss/_main-section.scss */
+/* line 63, ../scss/_main-section.scss */
 .home-page-section-header h2 {
   font-size: 2em;
   padding: 8px 16px 8px 16px;
@@ -1752,48 +1731,59 @@ img {
   background: linear-gradient(#ed1968, #d90554);
   /* Standard syntax */
 }
-/* line 101, ../scss/_main-section.scss */
+/* line 81, ../scss/_main-section.scss */
 .home-page-section-header h2 span {
   background: -webkit-linear-gradient(#222222, #2c2c2c);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
 
-/* line 112, ../scss/_main-section.scss */
+/* line 90, ../scss/_main-section.scss */
+.chris {
+  /*
+  visibility: hidden;
+  height: 0;
+  */
+}
+
+/* line 97, ../scss/_main-section.scss */
 .home-page-event-content {
+  background: #222222;
   margin: 0;
   border-bottom: 2px solid #363636;
 }
-/* line 118, ../scss/_main-section.scss */
-.home-page-event-content .home-page-event {
-  padding: 1em 0 .5em 0;
-}
-/* line 122, ../scss/_main-section.scss */
+/* line 103, ../scss/_main-section.scss */
 .home-page-event-content h3 {
-  font-size: 2em;
+  font-size: 1.5em;
   margin: 0 0 .5em 0;
   padding: 0;
-  margin-top: -1.75em;
+  margin-top: -1.4em;
+  background: #222222;
+  position: relative;
+  background: rgba(0, 0, 0, 0.65);
+  margin-left: -16px;
+  padding-left: 16px;
+  margin-right: -16px;
 }
-/* line 129, ../scss/_main-section.scss */
+/* line 118, ../scss/_main-section.scss */
 .home-page-event-content h3 .weekly-name {
   background: -webkit-linear-gradient(#ffe928, #cdb700);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
-/* line 135, ../scss/_main-section.scss */
+/* line 125, ../scss/_main-section.scss */
 .home-page-event-content h3 .weekly-day {
   background: -webkit-linear-gradient(#3bddff, #09abcd);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
-/* line 142, ../scss/_main-section.scss */
+/* line 132, ../scss/_main-section.scss */
 .home-page-event-content p {
   margin: 0;
   padding: 0;
   font-weight: thin;
 }
-/* line 148, ../scss/_main-section.scss */
+/* line 138, ../scss/_main-section.scss */
 .home-page-event-content p strong {
   color: #ed1968;
   font-weight: normal;

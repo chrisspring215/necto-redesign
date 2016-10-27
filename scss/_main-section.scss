@@ -9,12 +9,15 @@ img {
 
 
 .hero-image {
-	background-image: url("../img/AFC_8747.jpg");
-	background-size: 100% auto;
+	background-image: url("../img/hero.jpg");
+	background-size: cover;
+
+
+
     background-repeat: no-repeat;
     padding-top: 2em;
     padding-bottom: 2em;
-    height: 7em;
+
     display: -ms-flexbox;
     display: -webkit-flex;
     display: flex;
@@ -33,22 +36,27 @@ img {
     -webkit-align-items: flex-start;
     -ms-flex-align: start;
     align-items: flex-start;
-    border-top: 4px solid $blue;
     border-bottom: 4px solid $blue;
     box-shadow: $boxShadow;
 
+    height: 85vh;
+
     h1 {
     	margin: 0;
-    	
+    	display: block;
     	text-align: center;
-    	font-size: 2.5em;
-    	line-height: 3rem;
+    	font-size: 3.5em;
+    	line-height: 3.5rem;
     	margin-right: 15%;
     	margin-left: 15%;
-    	padding: .25em;
-    	border: 4px solid $pink;
 
-    	color: $yellow;
+    	padding: .25em;
+
+    	border: 8px solid $pink;
+        border-radius: .1em;
+        box-shadow:  $boxShadow;
+    	
+        color: $yellow;
     	text-shadow: 3px 3px 0px rgb(237, 25, 104);
 
 		-webkit-order: 0;
@@ -60,6 +68,10 @@ img {
 		-webkit-align-self: center;
 		-ms-flex-item-align: center;
 		align-self: center;
+        position: relative;
+        top: - 10vh;
+
+
     }
 }
 

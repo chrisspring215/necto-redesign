@@ -5,5 +5,8 @@ header {
 	height: 2.25rem;
 	line-height: 2.25rem;
 
-	font-weight: bold;
+	font-family: $eyechart;
+	font-weight: normal;
+	border-bottom: 4px solid $blue;
+	box-shadow: $boxShadow;
 }

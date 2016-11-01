@@ -1605,10 +1605,10 @@ body {
 .button {
   text-decoration: none;
   background: #ed1968;
-  margin: 0 .25em;
+  margin: 0 0 0 1.5em;
   font-weight: bold;
 }
-/* line 9, ../scss/_buttons.scss */
+/* line 8, ../scss/_buttons.scss */
 .button button {
   display: block;
   width: 100%;
@@ -1672,18 +1672,17 @@ main {
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
-  margin-top: -5vh;
+  /* margin-top: -5vh; */
 }
 
-/* line 22, ../scss/_main-section.scss */
+/* line 21, ../scss/_main-section.scss */
 .hero-image {
   padding-bottom: 0em;
   padding-top: 5vh;
-  margin-top: 28px;
   box-shadow: 0px 4px 2px #2c2c2c;
-  height: 95vh;
+  height: 100vh;
 }
-/* line 29, ../scss/_main-section.scss */
+/* line 27, ../scss/_main-section.scss */
 .hero-image h1 {
   margin-right: 15%;
   margin-left: 15%;
@@ -1691,8 +1690,8 @@ main {
   text-align: center;
   font-size: 3rem;
   line-height: 3rem;
-  color: #ed1968;
-  text-shadow: 3px 3px 0px white;
+  color: #3bddff;
+  text-shadow: 3px 3px 0px #ffe928;
   border-top: 8px dotted #ffe928;
   border-bottom: 8px dotted #ffe928;
   border-radius: .1em;
@@ -1706,8 +1705,16 @@ main {
   -ms-flex-item-align: center;
   align-self: center;
 }
+/* line 55, ../scss/_main-section.scss */
+.hero-image button {
+  border: none;
+  box-shadow: 4px 4px 0px #3bddff;
+  background-color: #ed1968;
+  color: #eeeeee;
+  opacity: .90;
+}
 
-/* line 63, ../scss/_main-section.scss */
+/* line 72, ../scss/_main-section.scss */
 .home-page-section-header h2 {
   font-size: 2em;
   padding: 8px 16px 8px 16px;
@@ -1731,14 +1738,14 @@ main {
   background: linear-gradient(#ed1968, #d90554);
   /* Standard syntax */
 }
-/* line 81, ../scss/_main-section.scss */
+/* line 90, ../scss/_main-section.scss */
 .home-page-section-header h2 span {
   background: -webkit-linear-gradient(#222222, #2c2c2c);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
 
-/* line 90, ../scss/_main-section.scss */
+/* line 99, ../scss/_main-section.scss */
 .chris {
   /*
   visibility: hidden;
@@ -1746,13 +1753,13 @@ main {
   */
 }
 
-/* line 97, ../scss/_main-section.scss */
+/* line 106, ../scss/_main-section.scss */
 .home-page-event-content {
   background: #222222;
   margin: 0;
   border-bottom: 2px solid #363636;
 }
-/* line 103, ../scss/_main-section.scss */
+/* line 112, ../scss/_main-section.scss */
 .home-page-event-content h3 {
   font-size: 1.5em;
   margin: 0 0 .5em 0;
@@ -1765,25 +1772,25 @@ main {
   padding-left: 16px;
   margin-right: -16px;
 }
-/* line 118, ../scss/_main-section.scss */
+/* line 127, ../scss/_main-section.scss */
 .home-page-event-content h3 .weekly-name {
   background: -webkit-linear-gradient(#ffe928, #cdb700);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
-/* line 125, ../scss/_main-section.scss */
+/* line 134, ../scss/_main-section.scss */
 .home-page-event-content h3 .weekly-day {
   background: -webkit-linear-gradient(#3bddff, #09abcd);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
-/* line 132, ../scss/_main-section.scss */
+/* line 141, ../scss/_main-section.scss */
 .home-page-event-content p {
   margin: 0;
   padding: 0;
   font-weight: thin;
 }
-/* line 138, ../scss/_main-section.scss */
+/* line 147, ../scss/_main-section.scss */
 .home-page-event-content p strong {
   color: #ed1968;
   font-weight: normal;

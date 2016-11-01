@@ -9,22 +9,20 @@ img {
 
 main {
 
-
   background: url("../img/hero.jpg") no-repeat center center fixed; 
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
 
-  margin-top: -5vh;
+  /* margin-top: -5vh; */
 }
 
 .hero-image {
     padding-bottom: 0em;
     padding-top: 5vh;
-    margin-top: 28px;
-    box-shadow: $boxShadow;
-    height: 95vh;
+    box-shadow: $boxShadowDark;
+    height: 100vh;
     
     h1 {
         
@@ -35,8 +33,8 @@ main {
     	text-align: center;
     	font-size: 3rem;
     	line-height: 3rem;
-        color: $pink;
-        text-shadow: 3px 3px 0px rgb(255,255,255);
+        color: $blue;
+        text-shadow: $textShadowYellow;
     	
     	border-top: 8px dotted $yellow;
         border-bottom: 8px dotted $yellow;
@@ -51,8 +49,19 @@ main {
 		-webkit-align-self: center;
 		-ms-flex-item-align: center;
 		align-self: center;
+    }
+
+
+    button {
+        
+        border: none;
+        box-shadow: $boxShadowBlue;
+        background-color: $pink;
+        color: $white;
+        opacity: .90;
 
     }
+
 
     
 }
@@ -71,7 +80,7 @@ main {
         left: -16px;
         width: 100%;
         margin: 0;
-        box-shadow: $boxShadow;
+        box-shadow: $boxShadowDark;
         background: $pink; /* For browsers that do not support gradients */
         background: -webkit-linear-gradient($pink, $pink - 20); /* For Safari 5.1 to 6.0 */
         background: -o-linear-gradient($pink, $pink - 20); /* For Opera 11.1 to 12.0 */

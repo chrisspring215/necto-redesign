@@ -1,6 +1,6 @@
 header {
 	background-color: $darkest;
-	color: $pink;
+	color: $white;
 	margin-bottom: 0;
 	height: 2.25rem;
 	line-height: 2.25rem;
@@ -9,4 +9,10 @@ header {
 	font-weight: normal;
 	border-bottom: 4px solid $blue;
 	box-shadow: $boxShadowDark;
+	position: fixed;
+	z-index: 1000;
+
+	top: 0;
+	width: 100%;
+
 }

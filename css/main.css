@@ -1644,14 +1644,18 @@ body {
 /* line 1, ../scss/_header.scss */
 header {
   background-color: #222222;
-  color: #ed1968;
+  color: #eeeeee;
   margin-bottom: 0;
   height: 2.25rem;
   line-height: 2.25rem;
   font-family: eyechart;
   font-weight: normal;
   border-bottom: 4px solid #3bddff;
-  box-shadow: 0px 4px 2px #2c2c2c;
+  box-shadow: 0px 4px 2px rgba(0, 0, 0, 0.25);
+  position: fixed;
+  z-index: 1000;
+  top: 0;
+  width: 100%;
 }
 
 /* line 1, ../scss/_main-section.scss */
@@ -1665,7 +1669,14 @@ img {
   width: 100%;
 }
 
-/* line 10, ../scss/_main-section.scss */
+/* line 11, ../scss/_main-section.scss */
+a {
+  color: #3bddff;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+/* line 17, ../scss/_main-section.scss */
 main {
   background: url("../img/hero.jpg") no-repeat center center fixed;
   -webkit-background-size: cover;
@@ -1675,14 +1686,14 @@ main {
   /* margin-top: -5vh; */
 }
 
-/* line 21, ../scss/_main-section.scss */
+/* line 28, ../scss/_main-section.scss */
 .hero-image {
   padding-bottom: 0em;
   padding-top: 5vh;
-  box-shadow: 0px 4px 2px #2c2c2c;
+  box-shadow: 0px 4px 2px rgba(0, 0, 0, 0.25);
   height: 100vh;
 }
-/* line 27, ../scss/_main-section.scss */
+/* line 34, ../scss/_main-section.scss */
 .hero-image h1 {
   margin-right: 15%;
   margin-left: 15%;
@@ -1705,95 +1716,139 @@ main {
   -ms-flex-item-align: center;
   align-self: center;
 }
-/* line 55, ../scss/_main-section.scss */
+/* line 62, ../scss/_main-section.scss */
 .hero-image button {
   border: none;
-  box-shadow: 4px 4px 0px #3bddff;
+  box-shadow: 4px 4px 0px #ffe928;
   background-color: #ed1968;
   color: #eeeeee;
   opacity: .90;
+  -webkit-transition: color 200ms ease-in, background-color 200ms ease-in, box-shadow 200ms ease-in;
+  transition: color 200ms ease-in, background-color 200ms ease-in, box-shadow 200ms ease-in;
+}
+/* line 72, ../scss/_main-section.scss */
+.hero-image button:hover, .hero-image button:focus, .hero-image button:active {
+  color: #eeeeee;
+  background-color: #00a1c3;
+  box-shadow: 4px 4px 0px #3bddff;
+  -webkit-transition: color 300ms ease-out, background-color 300ms ease-out, box-shadow 300ms ease-out;
+  transition: color 300ms ease-out, background-color 300ms ease-out, box-shadow 300ms ease-out;
 }
 
-/* line 72, ../scss/_main-section.scss */
+/* line 88, ../scss/_main-section.scss */
+.return-to-top {
+  background: #222222;
+}
+/* line 92, ../scss/_main-section.scss */
+.return-to-top a {
+  background: #00a1c3;
+  color: #eeeeee;
+  border: #3bddff solid 2px;
+  border-radius: .1em;
+  position: relative;
+  float: right;
+  margin-right: 16px;
+  margin-top: 16px;
+}
+
+/* line 105, ../scss/_main-section.scss */
+.home-page-section-header {
+  background: #222222;
+  box-shadow: 0px 4px 2px rgba(0, 0, 0, 0.25);
+}
+/* line 111, ../scss/_main-section.scss */
 .home-page-section-header h2 {
-  font-size: 2em;
-  padding: 8px 16px 8px 16px;
+  padding: 16px;
+  padding-top: 1em;
   margin: 0;
-  color: #222222;
   display: block;
-  line-height: 1em;
   position: relative;
   left: -16px;
   width: 100%;
-  margin: 0;
-  box-shadow: 0px 4px 2px #2c2c2c;
-  background: #ed1968;
-  /* For browsers that do not support gradients */
-  background: -webkit-linear-gradient(#ed1968, #d90554);
-  /* For Safari 5.1 to 6.0 */
-  background: -o-linear-gradient(#ed1968, #d90554);
-  /* For Opera 11.1 to 12.0 */
-  background: -moz-linear-gradient(#ed1968, #d90554);
-  /* For Firefox 3.6 to 15 */
-  background: linear-gradient(#ed1968, #d90554);
-  /* Standard syntax */
-}
-/* line 90, ../scss/_main-section.scss */
-.home-page-section-header h2 span {
-  background: -webkit-linear-gradient(#222222, #2c2c2c);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
+  color: #ffe928;
+  text-shadow: 3px 3px 0px #ed1968;
+  font-size: 2em;
+  line-height: 1em;
 }
 
-/* line 99, ../scss/_main-section.scss */
-.chris {
-  /*
-  visibility: hidden;
-  height: 0;
-  */
+/* line 130, ../scss/_main-section.scss */
+.home-page-event {
+  border-bottom: 2px solid #585858;
 }
 
-/* line 106, ../scss/_main-section.scss */
+/* line 134, ../scss/_main-section.scss */
 .home-page-event-content {
   background: #222222;
-  margin: 0;
-  border-bottom: 2px solid #363636;
+  padding-bottom: 1.75em;
 }
-/* line 112, ../scss/_main-section.scss */
+/* line 139, ../scss/_main-section.scss */
 .home-page-event-content h3 {
   font-size: 1.5em;
-  margin: 0 0 .5em 0;
-  padding: 0;
-  margin-top: -1.4em;
-  background: #222222;
-  position: relative;
-  background: rgba(0, 0, 0, 0.65);
-  margin-left: -16px;
-  padding-left: 16px;
-  margin-right: -16px;
+  margin: 0 0 0 0;
+  padding-top: .75em;
+  padding-bottom: .25em;
+  /*background: $blue;*/
 }
-/* line 127, ../scss/_main-section.scss */
+/* line 149, ../scss/_main-section.scss */
 .home-page-event-content h3 .weekly-name {
-  background: -webkit-linear-gradient(#ffe928, #cdb700);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
+  color: #3bddff;
+  font-variant: small-caps;
+  font-weight: 700;
 }
-/* line 134, ../scss/_main-section.scss */
+/* line 155, ../scss/_main-section.scss */
 .home-page-event-content h3 .weekly-day {
-  background: -webkit-linear-gradient(#3bddff, #09abcd);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
+  color: #eeeeee;
+  font-variant: small-caps;
+  font-weight: 700;
 }
-/* line 141, ../scss/_main-section.scss */
+/* line 162, ../scss/_main-section.scss */
+.home-page-event-content img {
+  border: 1px solid #2c2c2c;
+  margin-bottom: .5em;
+  box-shadow: 0px 4px 2px rgba(0, 0, 0, 0.25);
+}
+/* line 168, ../scss/_main-section.scss */
 .home-page-event-content p {
   margin: 0;
   padding: 0;
   font-weight: thin;
 }
-/* line 147, ../scss/_main-section.scss */
+/* line 174, ../scss/_main-section.scss */
 .home-page-event-content p strong {
   color: #ed1968;
   font-weight: normal;
+}
+/* line 180, ../scss/_main-section.scss */
+.home-page-event-content .col-xs-6 {
+  padding: 0;
+}
+/* line 185, ../scss/_main-section.scss */
+.home-page-event-content .button, .home-page-event-content button {
+  margin-right: 0;
+  margin-left: 0;
+  margin-top: 8px;
+  background: none;
+  color: #ffe928;
+  border-color: #3bddff;
+  font-weight: 900;
+  text-align: center;
+  -webkit-transition: color 200ms, border-color 300ms;
+  transition: color 200ms, border-color 300ms;
+}
+/* line 197, ../scss/_main-section.scss */
+.home-page-event-content .button:hover, .home-page-event-content .button:focus, .home-page-event-content .button:active, .home-page-event-content button:hover, .home-page-event-content button:focus, .home-page-event-content button:active {
+  color: #ed1968;
+  border-color: #ffe928;
+  -webkit-transition: color 200ms, border-color 300ms;
+  transition: color 200ms, border-color 300ms;
+}
+/* line 206, ../scss/_main-section.scss */
+.home-page-event-content .button:nth-child(odd) {
+  padding-right: 8px;
+}
+/* line 211, ../scss/_main-section.scss */
+.home-page-event-content .button:nth-child(even) {
+  padding-left: 8px;
 }
 
 /* line 1, ../scss/_footer.scss */

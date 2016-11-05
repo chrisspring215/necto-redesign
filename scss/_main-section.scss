@@ -7,6 +7,13 @@ img {
 	width: 100%;
 }
 
+a
+{
+    color: $blue;
+    text-decoration: none;
+    font-weight: 500;
+}
+
 main {
 
   background: url("../img/hero.jpg") no-repeat center center fixed; 
@@ -53,12 +60,23 @@ main {
 
 
     button {
-        
         border: none;
-        box-shadow: $boxShadowBlue;
+        box-shadow: $boxShadowYellow;
         background-color: $pink;
         color: $white;
         opacity: .90;
+        -webkit-transition:  color 200ms ease-in, background-color 200ms ease-in, box-shadow 200ms ease-in;
+        transition:          color 200ms ease-in, background-color 200ms ease-in, box-shadow 200ms ease-in;
+
+
+        &:hover, &:focus, &:active {
+            color: $white;
+            background-color: $blue - 60;
+            box-shadow: $boxShadowBlue;
+
+            -webkit-transition:  color 300ms ease-out, background-color 300ms ease-out, box-shadow 300ms ease-out;
+            transition:          color 300ms ease-out, background-color 300ms ease-out, box-shadow 300ms ease-out;
+        }
 
     }
 
@@ -66,77 +84,86 @@ main {
     
 }
 
+.return-to-top
+{
+    background: $darkest;
+    
+    a
+    {
+        background: $blue - 60;
+        color: $white;
+        border: $blue solid 2px;
+        border-radius: .1em;
+        position: relative;
+        float: right;
+        margin-right: 16px;
+        margin-top: 16px;
+    }
+}
+
 .home-page-section-header
 {   
+
+    background: $darkest;
+    box-shadow: $boxShadowDark;
+
     h2
     {
-        font-size: 2em;
-        padding: 8px 16px 8px 16px;
+        
+        padding: 16px;
+        padding-top: 1em;
         margin: 0;
-        color: $darkest;
+
         display: block;
-        line-height: 1em;
         position: relative;
         left: -16px;
         width: 100%;
-        margin: 0;
-        box-shadow: $boxShadowDark;
-        background: $pink; /* For browsers that do not support gradients */
-        background: -webkit-linear-gradient($pink, $pink - 20); /* For Safari 5.1 to 6.0 */
-        background: -o-linear-gradient($pink, $pink - 20); /* For Opera 11.1 to 12.0 */
-        background: -moz-linear-gradient($pink, $pink - 20); /* For Firefox 3.6 to 15 */
-        background: linear-gradient($pink, $pink - 20); /* Standard syntax */
-        span
-        {
-        background: -webkit-linear-gradient($darkest, $darkest + 10);
-        -webkit-background-clip: text;
-        -webkit-text-fill-color: transparent;
 
-        }
-
+        color: $yellow;
+        text-shadow: $textShadowPink;
+        font-size: 2em;
+        line-height: 1em;
+        
     }
 }
-.chris {
-    /*
-    visibility: hidden;
-    height: 0;
-    */
+
+.home-page-event {
+    border-bottom: 2px solid $white - 150;
 }
 
 .home-page-event-content {
     background: $darkest;
-    margin: 0;
-    border-bottom: 2px solid $darkest + 20;
-
+    padding-bottom: 1.75em;
+    
 
 	h3 {
 		font-size: 1.5em;
-		margin: 0 0 .5em 0;
-        padding: 0;
-        margin-top: -1.4em;
-        background: $darkest;
-        position: relative;
-        background: rgba(0, 0, 0, .65);
-   
+		margin: 0 0 0 0;
+        padding-top: .75em;
+        padding-bottom: .25em;
 
-        margin-left: -16px;
-        padding-left: 16px;
-        margin-right: -16px;
+        /*background: $blue;*/
+
 
         .weekly-name
         {
-            background: -webkit-linear-gradient($yellow, $yellow - 50);
-            -webkit-background-clip: text;
-            -webkit-text-fill-color: transparent;
-
+            color: $blue;
+            font-variant: small-caps;
+            font-weight: 700;
         }
 
         .weekly-day {
-            background: -webkit-linear-gradient($blue, $blue - 50);
-            -webkit-background-clip: text;
-            -webkit-text-fill-color: transparent;
+            color: $white;
+            font-variant: small-caps;
+            font-weight: 700;
         }
 	}
+
+    img {
+        border: 1px solid $darkest + 10;
+        margin-bottom: .5em;
+        box-shadow: $boxShadowDark;
+    }
 
     p {
         margin: 0;
@@ -148,6 +175,41 @@ main {
             color: $pink;
             font-weight: normal;
         }
+    }
+
+    .col-xs-6 {
+        padding: 0;
+    }
+
+    .button, button
+    {
+        margin-right: 0;
+        margin-left: 0;
+        margin-top: 8px;
+        background: none;
+        color: $yellow;
+        border-color: $blue;
+        font-weight: 900;
+        text-align: center;
+        -webkit-transition:  color 200ms, border-color 300ms;
+        transition:          color 200ms, border-color 300ms;
+
+        &:hover, &:focus, &:active {
+            color: $pink;
+            border-color: $yellow;
+            -webkit-transition:  color 200ms, border-color 300ms;
+            transition:          color 200ms, border-color 300ms;
+        }
+    }
+
+    .button:nth-child(odd)
+    {
+        padding-right: 8px;
+    }
+
+    .button:nth-child(even)
+    {
+        padding-left: 8px;
     }
 
 

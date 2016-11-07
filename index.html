@@ -1,31 +1,3 @@
-
-Skip to content
-This repository
-
-    Pull requests
-    Issues
-    Gist
-
-    @chrisspring215
-
-1
-0
-
-    0
-
-chrisspring215/necto-redesign
-Code
-Issues 0
-Pull requests 0
-Projects 0
-Wiki
-Pulse
-Graphs
-Settings
-necto-redesign/index.html
-a6901c2 2 days ago
-@chrisspring215 chrisspring215 front page styles.:
-148 lines (123 sloc) 7.05 KB
 <!doctype html>
 <html class="no-js" lang="">
     <head>
@@ -54,99 +26,112 @@ a6901c2 2 days ago
 
         <!-- Add your site or application content here -->
 
-    <header class="row">
-        <div class="col-xs-12">
-            <span>NECTO</span>
-        </div>
+    <header class="row mobile">
+      <div class="col-xs-12">
+        <span>NECTO
+          <nav class="global-nav">
+            <ul>
+              <li><a href="">CALENDAR</a></li>
+              <li><a href="">BOTTLE SERVICE/VIP</a></li>
+              <li><a href="">PRIVATE RENTAL</a></li>
+              <li><a href="">DIRECTIONS</a></li>
+              <li><a href="">CONTACT</a></li>
+              <li><a href="">TICKETS</a></li>
+            </ul>
+          </nav>
+          <nav class="weekly-nav">
+            <ul>
+              <li><a href="">FACTORY MONDAY</a></li>
+              <li><a href="">MIX THURSDAY</a></li>
+              <li><a href="">PRIDE FRIDAY</a></li>
+              <li><a href="">FREQUENCY SATURDAY</a></li>
+            </ul>
+          </nav>
+        </span>
+
+      </div>
     </header>
 
-    <main>
+    <main class="row">
+      <div class="col-xs-12 hero-image mobile-hero"> 
+        <h1>ENHANCE<br>YOUR<br>NIGHT<br>LIFE<br></h1>
+        <nav>
+          <a href="#weekly-events"           class="button"><button>WEEKLY EVENTS</button></a>
+          <a href="#special-events"          class="button"><button>SPECIAL EVENTS</button></a>
+          <a href="calendar.html"            class="button"><button>CALENDAR</button></a>
+          <a href="bottle-service-vip.html"  class="button"><button>VIP</button></a>
+        </nav>
+      </div>
 
-        <!-- Hero Image -->
-        <div class="hero-image">
-            <h1>ENHANCE<br>YOUR<br>NIGHT<br>LIFE<br></h1>
-            <nav class="row">
-                <div class="col-xs-12">
-                    <a href="#weekly-events" class="button"><button>WEEKLY EVENTS</button></a>
-                </div>
-                <div class="col-xs-12">
-                    <a href="#special-events"  class="button"><button>SPECIAL EVENTS</button></a>
-                </div>
-                <div class="col-xs-12">
-                    <a href="calendar.html"  class="button"><button>CALENDAR</button></a>
-                </div>
-                <div class="col-xs-12">
-                    <a href="bottle-service-vip.html"  class="button"><button>VIP</button></a>
-                </div>
+      <div class="col-xs-12 hero-image full-hero"> 
+        <h1>ENHANCE<br>YOUR<br>NIGHT<br>LIFE<br></h1>
+        <nav>
+          <a href="#weekly-events"           class="button"><button>WEEKLY EVENTS</button></a>
+          <a href="#special-events"          class="button"><button>SPECIAL EVENTS</button></a>
+          <a href="calendar.html"            class="button"><button>CALENDAR</button></a>
+          <a href="bottle-service-vip.html"  class="button"><button>VIP</button></a>
+        </nav>
+      </div>
 
-            </nav>
-        </div>        
-
-        <div id="weekly-events"  class="col-xs-12 home-page-section-header">
-
-            <h2><span>WEEKLY EVENTS<span></h2>
+      <div id="weekly-events" class="home-page-section-header">
+        <div class="col-xs-12">
+          <h2><span>WEEKLY EVENTS<span></h2>
         </div>
+      </div>
 
-        <div id="first-weekly">
-            <div class="home-page-event">
-                <div class="col-xs-12 home-page-event-content">      
-                    <h3><a href=""><span class="weekly-name">Factory</span> <span class="weekly-day">Mondays</span></a></h3>
-                    <img src="img/factory-monday.jpg">
-                    <p>Factory is one of the longest running Goth-Industrial nights in the US. Always featuring local talents spinning <strong>Goth-Industrial</strong>, <strong>EBM</strong>, <strong>Alternative</strong>, <strong>Cyberpunk</strong> and <strong>Synth-pop</strong> in the Main Room. Madisi plays <strong>bass driven dance music</strong> in the Red Room. Hosted by MC Yoda.</p>
-                    <div class="row">
-                        <a href="" class="button col-xs-6"><button>VIEW FACTORY</button></a>
-                        <a href="" class="button col-xs-6"><button>REQUEST VIP</button></a>
-                    </div>
-                    
-                </div>
+<div class="home-page-section-content row center-md">
+<div class="col-xs-12 col-md-10">
+<div class="row">
+      <section class="home-page-event col-xs-12 col-md">
+          <div class="home-page-event-content box">      
+            <h3><a href=""><span class="weekly-name">Factory</span> <span class="weekly-day">Mondays</span></a></h3>
+            <img src="img/factory-monday.jpg">
+            <p>Factory is one of the longest running Goth-Industrial nights in the US. Always featuring local talents spinning <strong>Goth-Industrial</strong>, <strong>EBM</strong>, <strong>Alternative</strong>, <strong>Cyberpunk</strong> and <strong>Synth-pop</strong> in the Main Room. Madisi plays <strong>bass driven dance music</strong> in the Red Room. Hosted by MC Yoda.</p>
+            <div class="row">
+                <a href="" class="button col-xs-6 col-md-12"><button>VIEW FACTORY</button></a>
+                <a href="" class="button col-xs-6 home-page-event-vip-button"><button>REQUEST VIP</button></a>
             </div>
         </div>
+      </section>
 
-        <div id="first-weekly">
-            <div class="home-page-event">
-                <div class="col-xs-12 home-page-event-content">      
-                    <h3><span class="weekly-name">Mix</span> <span class="weekly-day">Thursday</span></h3>
-                    <img src="img/mix-thursday.jpg">
-                    <p>Factory is one of the longest running Goth-Industrial nights in the US. Always featuring local talents spinning <strong>Goth-Industrial</strong>, <strong>EBM</strong>, <strong>Alternative</strong>, <strong>Cyberpunk</strong> and <strong>Synth-pop</strong> in the Main Room. Madisi plays <strong>bass driven dance music</strong> in the Red Room. Hosted by MC Yoda.</p>
-                    <div class="row">
-                        <a href="" class="button col-xs-6"><button>VIEW MIX</button></a>
-                        <a href="" class="button col-xs-6"><button>REQUEST VIP</button></a>
-                    </div>
-                    
-                </div>
+      <section class="home-page-event col-xs-12 col-md">
+          <div class="home-page-event-content box">      
+            <h3><a href=""><span class="weekly-name">Factory</span> <span class="weekly-day">Mondays</span></a></h3>
+            <img src="img/factory-monday.jpg">
+            <p>Factory is one of the longest running Goth-Industrial nights in the US. Always featuring local talents spinning <strong>Goth-Industrial</strong>, <strong>EBM</strong>, <strong>Alternative</strong>, <strong>Cyberpunk</strong> and <strong>Synth-pop</strong> in the Main Room. Madisi plays <strong>bass driven dance music</strong> in the Red Room. Hosted by MC Yoda.</p>
+            <div class="row">
+                <a href="" class="button col-xs-6 col-md-12"><button>VIEW FACTORY</button></a>
+                <a href="" class="button col-xs-6 home-page-event-vip-button"><button>REQUEST VIP</button></a>
             </div>
         </div>
+      </section>
 
-        <div id="first-weekly">
-            <div class="home-page-event">
-                <div class="col-xs-12 home-page-event-content">      
-                    <h3><span class="weekly-name">Pride</span> <span class="weekly-day">Friday</span></h3>
-                    <img src="img/pride-friday.jpg">
-                    <p>Factory is one of the longest running Goth-Industrial nights in the US. Always featuring local talents spinning <strong>Goth-Industrial</strong>, <strong>EBM</strong>, <strong>Alternative</strong>, <strong>Cyberpunk</strong> and <strong>Synth-pop</strong> in the Main Room. Madisi plays <strong>bass driven dance music</strong> in the Red Room. Hosted by MC Yoda.</p>
-                    <div class="row">
-                        <a href="" class="button col-xs-6"><button>VIEW PRIDE</button></a>
-                        <a href="" class="button col-xs-6"><button>REQUEST VIP</button></a>
-                    </div>
-                    
-                </div>
+      <section class="home-page-event col-xs-12 col-md">
+          <div class="home-page-event-content box">      
+            <h3><a href=""><span class="weekly-name">Factory</span> <span class="weekly-day">Mondays</span></a></h3>
+            <img src="img/factory-monday.jpg">
+            <p>Factory is one of the longest running Goth-Industrial nights in the US. Always featuring local talents spinning <strong>Goth-Industrial</strong>, <strong>EBM</strong>, <strong>Alternative</strong>, <strong>Cyberpunk</strong> and <strong>Synth-pop</strong> in the Main Room. Madisi plays <strong>bass driven dance music</strong> in the Red Room. Hosted by MC Yoda.</p>
+            <div class="row">
+                <a href="" class="button col-xs-6 col-md-12"><button>VIEW FACTORY</button></a>
+                <a href="" class="button col-xs-6 home-page-event-vip-button"><button>REQUEST VIP</button></a>
             </div>
         </div>
+      </section>
 
-        <div id="first-weekly">
-            <div class="home-page-event">
-                <div class="col-xs-12 home-page-event-content">      
-                    <h3><span class="weekly-name">Frequency</span> <span class="weekly-day">Saturday</span></h3>
-                    <img src="img/frequency-saturday.jpg">
-                    <p>Factory is one of the longest running Goth-Industrial nights in the US. Always featuring local talents spinning <strong>Goth-Industrial</strong>, <strong>EBM</strong>, <strong>Alternative</strong>, <strong>Cyberpunk</strong> and <strong>Synth-pop</strong> in the Main Room. Madisi plays <strong>bass driven dance music</strong> in the Red Room. Hosted by MC Yoda.</p>
-                    <div class="row">
-                        <a href="" class="button col-xs-6"><button>VIEW FREQUENCY</button></a>
-                        <a href="" class="button col-xs-6"><button>REQUEST VIP</button></a>
-                    </div>
-                    
-                </div>
+      <section class="home-page-event col-xs-12 col-md">
+          <div class="home-page-event-content box">      
+            <h3><a href=""><span class="weekly-name">Factory</span> <span class="weekly-day">Mondays</span></a></h3>
+            <img src="img/factory-monday.jpg">
+            <p>Factory is one of the longest running Goth-Industrial nights in the US. Always featuring local talents spinning <strong>Goth-Industrial</strong>, <strong>EBM</strong>, <strong>Alternative</strong>, <strong>Cyberpunk</strong> and <strong>Synth-pop</strong> in the Main Room. Madisi plays <strong>bass driven dance music</strong> in the Red Room. Hosted by MC Yoda.</p>
+            <div class="row">
+                <a href="" class="button col-xs-6 col-md-12"><button>VIEW FACTORY</button></a>
+                <a href="" class="button col-xs-6 home-page-event-vip-button"><button>REQUEST VIP</button></a>
             </div>
         </div>
-
+      </section>
+</div>
+</div>  
+</div>
 
     </main>
 <!--

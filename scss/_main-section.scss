@@ -84,6 +84,10 @@ main {
     
 }
 
+.full-hero {
+    display: none;
+}
+
 .return-to-top
 {
     background: $darkest;
@@ -103,9 +107,9 @@ main {
 
 .home-page-section-header
 {   
-
     background: $darkest;
     box-shadow: $boxShadowDark;
+    width: 100%;
 
     h2
     {
@@ -127,8 +131,13 @@ main {
     }
 }
 
+.home-page-section-content {
+    background: $darkest;
+}
+
 .home-page-event {
     border-bottom: 2px solid $white - 150;
+    text-align: left
 }
 
 .home-page-event-content {
@@ -150,6 +159,7 @@ main {
             color: $blue;
             font-variant: small-caps;
             font-weight: 700;
+
         }
 
         .weekly-day {
@@ -211,6 +221,29 @@ main {
     {
         padding-left: 8px;
     }
+}
 
+@media only screen and (min-width: 48em) {
+
+    .mobile-hero, .home-page-event-vip-button
+    {
+        display: none;
+    }
+
+    .full-hero {
+        display: block;
+        background: url("../img/full-hero.jpg") no-repeat center center fixed; 
+          -webkit-background-size: cover;
+          -moz-background-size: cover;
+          -o-background-size: cover;
+          background-size: cover;
+    }
+}
+
+@media only screen and (min-width: 62em) {
+
+}
+
+@media only screen and (min-width: 75em) {
 
 }

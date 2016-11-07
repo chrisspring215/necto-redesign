@@ -1658,6 +1658,61 @@ header {
   width: 100%;
 }
 
+@media only screen and (min-width: 48em) {
+  /* line 21, ../scss/_header.scss */
+  header {
+    height: 4.25rem;
+  }
+  /* line 24, ../scss/_header.scss */
+  header span {
+    display: inline;
+    margin-top: 1rem;
+  }
+  /* line 28, ../scss/_header.scss */
+  header .global-nav, header .weekly-nav {
+    display: inline;
+    float: right;
+    font-family: "Oswald", sans-serif;
+  }
+  /* line 34, ../scss/_header.scss */
+  header .weekly-nav {
+    margin-top: -0.75rem;
+    color: #ffe928;
+  }
+  /* line 39, ../scss/_header.scss */
+  header .global-nav ul, header .weekly-nav ul {
+    display: inline;
+  }
+  /* line 43, ../scss/_header.scss */
+  header .global-nav ul li, header .weekly-nav ul li {
+    display: inline;
+    margin-left: 1em;
+  }
+  /* line 48, ../scss/_header.scss */
+  header .global-nav ul li a {
+    color: #ed1968;
+    -webkit-transition: color 300ms ease-in;
+    transition: color 300ms ease-in;
+  }
+  /* line 53, ../scss/_header.scss */
+  header .global-nav ul li a:hover {
+    color: #3bddff;
+    -webkit-transition: color 200ms ease-in;
+    transition: color 200ms ease-in;
+  }
+  /* line 60, ../scss/_header.scss */
+  header .weekly-nav ul li a {
+    color: #ffe928;
+    -webkit-transition: color 300ms ease-in;
+    transition: color 300ms ease-in;
+  }
+  /* line 65, ../scss/_header.scss */
+  header .weekly-nav ul li a:hover {
+    color: #3bddff;
+    -webkit-transition: color 200ms ease-in;
+    transition: color 200ms ease-in;
+  }
+}
 /* line 1, ../scss/_main-section.scss */
 p {
   color: #eeeeee;
@@ -1735,11 +1790,16 @@ main {
   transition: color 300ms ease-out, background-color 300ms ease-out, box-shadow 300ms ease-out;
 }
 
-/* line 88, ../scss/_main-section.scss */
+/* line 87, ../scss/_main-section.scss */
+.full-hero {
+  display: none;
+}
+
+/* line 92, ../scss/_main-section.scss */
 .return-to-top {
   background: #222222;
 }
-/* line 92, ../scss/_main-section.scss */
+/* line 96, ../scss/_main-section.scss */
 .return-to-top a {
   background: #00a1c3;
   color: #eeeeee;
@@ -1751,12 +1811,13 @@ main {
   margin-top: 16px;
 }
 
-/* line 105, ../scss/_main-section.scss */
+/* line 109, ../scss/_main-section.scss */
 .home-page-section-header {
   background: #222222;
   box-shadow: 0px 4px 2px rgba(0, 0, 0, 0.25);
+  width: 100%;
 }
-/* line 111, ../scss/_main-section.scss */
+/* line 115, ../scss/_main-section.scss */
 .home-page-section-header h2 {
   padding: 16px;
   padding-top: 1em;
@@ -1771,17 +1832,23 @@ main {
   line-height: 1em;
 }
 
-/* line 130, ../scss/_main-section.scss */
-.home-page-event {
-  border-bottom: 2px solid #585858;
+/* line 134, ../scss/_main-section.scss */
+.home-page-section-content {
+  background: #222222;
 }
 
-/* line 134, ../scss/_main-section.scss */
+/* line 138, ../scss/_main-section.scss */
+.home-page-event {
+  border-bottom: 2px solid #585858;
+  text-align: left;
+}
+
+/* line 143, ../scss/_main-section.scss */
 .home-page-event-content {
   background: #222222;
   padding-bottom: 1.75em;
 }
-/* line 139, ../scss/_main-section.scss */
+/* line 148, ../scss/_main-section.scss */
 .home-page-event-content h3 {
   font-size: 1.5em;
   margin: 0 0 0 0;
@@ -1789,40 +1856,40 @@ main {
   padding-bottom: .25em;
   /*background: $blue;*/
 }
-/* line 149, ../scss/_main-section.scss */
+/* line 158, ../scss/_main-section.scss */
 .home-page-event-content h3 .weekly-name {
   color: #3bddff;
   font-variant: small-caps;
   font-weight: 700;
 }
-/* line 155, ../scss/_main-section.scss */
+/* line 165, ../scss/_main-section.scss */
 .home-page-event-content h3 .weekly-day {
   color: #eeeeee;
   font-variant: small-caps;
   font-weight: 700;
 }
-/* line 162, ../scss/_main-section.scss */
+/* line 172, ../scss/_main-section.scss */
 .home-page-event-content img {
   border: 1px solid #2c2c2c;
   margin-bottom: .5em;
   box-shadow: 0px 4px 2px rgba(0, 0, 0, 0.25);
 }
-/* line 168, ../scss/_main-section.scss */
+/* line 178, ../scss/_main-section.scss */
 .home-page-event-content p {
   margin: 0;
   padding: 0;
   font-weight: thin;
 }
-/* line 174, ../scss/_main-section.scss */
+/* line 184, ../scss/_main-section.scss */
 .home-page-event-content p strong {
   color: #ed1968;
   font-weight: normal;
 }
-/* line 180, ../scss/_main-section.scss */
+/* line 190, ../scss/_main-section.scss */
 .home-page-event-content .col-xs-6 {
   padding: 0;
 }
-/* line 185, ../scss/_main-section.scss */
+/* line 195, ../scss/_main-section.scss */
 .home-page-event-content .button, .home-page-event-content button {
   margin-right: 0;
   margin-left: 0;
@@ -1835,22 +1902,38 @@ main {
   -webkit-transition: color 200ms, border-color 300ms;
   transition: color 200ms, border-color 300ms;
 }
-/* line 197, ../scss/_main-section.scss */
+/* line 207, ../scss/_main-section.scss */
 .home-page-event-content .button:hover, .home-page-event-content .button:focus, .home-page-event-content .button:active, .home-page-event-content button:hover, .home-page-event-content button:focus, .home-page-event-content button:active {
   color: #ed1968;
   border-color: #ffe928;
   -webkit-transition: color 200ms, border-color 300ms;
   transition: color 200ms, border-color 300ms;
 }
-/* line 206, ../scss/_main-section.scss */
+/* line 216, ../scss/_main-section.scss */
 .home-page-event-content .button:nth-child(odd) {
   padding-right: 8px;
 }
-/* line 211, ../scss/_main-section.scss */
+/* line 221, ../scss/_main-section.scss */
 .home-page-event-content .button:nth-child(even) {
   padding-left: 8px;
 }
 
+@media only screen and (min-width: 48em) {
+  /* line 229, ../scss/_main-section.scss */
+  .mobile-hero, .home-page-event-vip-button {
+    display: none;
+  }
+
+  /* line 233, ../scss/_main-section.scss */
+  .full-hero {
+    display: block;
+    background: url("../img/full-hero.jpg") no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+  }
+}
 /* line 1, ../scss/_footer.scss */
 footer {
   background-color: #3bddff;

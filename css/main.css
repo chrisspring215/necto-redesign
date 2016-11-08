@@ -1658,59 +1658,42 @@ header {
   width: 100%;
 }
 
+/* line 20, ../scss/_header.scss */
+.mobile-global-nav {
+  display: inline;
+}
+
+/* line 24, ../scss/_header.scss */
+.full-global-nav {
+  display: none;
+}
+
 @media only screen and (min-width: 48em) {
-  /* line 21, ../scss/_header.scss */
+  /* line 30, ../scss/_header.scss */
   header {
     height: 4.25rem;
   }
-  /* line 24, ../scss/_header.scss */
+  /* line 33, ../scss/_header.scss */
   header span {
     display: inline;
     margin-top: 1rem;
   }
-  /* line 28, ../scss/_header.scss */
-  header .global-nav, header .weekly-nav {
-    display: inline;
+
+  /* line 40, ../scss/_header.scss */
+  .mobile-global-nav {
+    display: none;
+  }
+
+  /* line 45, ../scss/_header.scss */
+  .full-global-nav, .full-global-nav ul, .full-global-nav ul li {
+    display: inline-block;
     float: right;
     font-family: "Oswald", sans-serif;
   }
-  /* line 34, ../scss/_header.scss */
-  header .weekly-nav {
-    margin-top: -0.75rem;
-    color: #ffe928;
-  }
-  /* line 39, ../scss/_header.scss */
-  header .global-nav ul, header .weekly-nav ul {
-    display: inline;
-  }
-  /* line 43, ../scss/_header.scss */
-  header .global-nav ul li, header .weekly-nav ul li {
-    display: inline;
-    margin-left: 1em;
-  }
-  /* line 48, ../scss/_header.scss */
-  header .global-nav ul li a {
-    color: #ed1968;
-    -webkit-transition: color 300ms ease-in;
-    transition: color 300ms ease-in;
-  }
   /* line 53, ../scss/_header.scss */
-  header .global-nav ul li a:hover {
-    color: #3bddff;
-    -webkit-transition: color 200ms ease-in;
-    transition: color 200ms ease-in;
-  }
-  /* line 60, ../scss/_header.scss */
-  header .weekly-nav ul li a {
-    color: #ffe928;
-    -webkit-transition: color 300ms ease-in;
-    transition: color 300ms ease-in;
-  }
-  /* line 65, ../scss/_header.scss */
-  header .weekly-nav ul li a:hover {
-    color: #3bddff;
-    -webkit-transition: color 200ms ease-in;
-    transition: color 200ms ease-in;
+  .full-global-nav .global-nav a, .full-global-nav ul .global-nav a, .full-global-nav ul li .global-nav a {
+    color: #ed1968;
+    margin-left: 1.25em;
   }
 }
 /* line 1, ../scss/_main-section.scss */

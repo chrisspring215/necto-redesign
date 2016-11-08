@@ -16,59 +16,48 @@ header {
 	width: 100%;
 
 }
+.mobile-global-nav
+	{
+		display: inline;
+	}
+.full-global-nav
+	{
+		display: none;
+	}
 
 @media only screen and (min-width: 48em) {
-	header {
-		height: 4.25rem;
+	header
+	{
+	height: 4.25rem;
 
 		span {
 			display: inline;
 			margin-top: 1rem;
 		}
-		.global-nav, .weekly-nav {
-			display: inline;
-			float: right;
-			font-family: $font-main;
-		}
+	}
 
-		.weekly-nav {
-			margin-top: -.75rem;
-			color: $yellow;
-		}
+	.mobile-global-nav
+	{
+		display: none;
+	}
 
-		.global-nav ul, .weekly-nav ul {
-			display: inline;
-		}
+	.full-global-nav, .full-global-nav ul, .full-global-nav ul li
+	{
+		display: inline-block;
+		float: right;
+		font-family: $font-main;
 
-		.global-nav ul li, .weekly-nav ul li {
-			display: inline;
-			margin-left: 1em;
-		}
-
-		.global-nav ul li a {
-			color: $pink;
-			-webkit-transition:  color 300ms ease-in;
-    		transition:          color 300ms ease-in;
-
-			&:hover {
-				color: $blue;
-				-webkit-transition:  color 200ms ease-in;
-    			transition:  color 200ms ease-in;
-    		}
-		}
-
-		.weekly-nav ul li a {
-			color: $yellow;
-			-webkit-transition:  color 300ms ease-in;
-    		transition:          color 300ms ease-in;
-
-			&:hover {
-				color: $blue;
-				-webkit-transition:  color 200ms ease-in;
-    			transition: color 200ms ease-in;
-    		}
+		.global-nav
+		{
+			a
+			{
+				color: $pink;
+				margin-left: 1.25em;
+			}
+			
 		}
 	}
+
 }
 
 @media only screen and (min-width: 62em) {

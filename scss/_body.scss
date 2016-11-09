@@ -9,3 +9,21 @@ body {
 	with: 100vw;
 
 }
+
+/* THIS ONLY WORKS ON DESKTOP RIGHT NOW. You need to set up MQs for small screens that do not change the margings individually */
+
+.collapse
+{
+	padding-right: 8px;
+	padding-left: 8px;
+}
+
+.collapse:first-child
+{
+	margin-left: -8px;
+}
+
+.collapse:last-child
+{
+	padding-right: 8px;
+}

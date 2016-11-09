@@ -40,7 +40,7 @@ main {
     	text-align: center;
     	font-size: 3rem;
     	line-height: 3rem;
-        color: $blue;
+        color: $blue - 40;
         text-shadow: $textShadowYellow;
     	
     	border-top: 8px dotted $yellow;
@@ -77,11 +77,7 @@ main {
             -webkit-transition:  color 300ms ease-out, background-color 300ms ease-out, box-shadow 300ms ease-out;
             transition:          color 300ms ease-out, background-color 300ms ease-out, box-shadow 300ms ease-out;
         }
-
     }
-
-
-    
 }
 
 .full-hero {
@@ -133,6 +129,10 @@ main {
 
 .home-page-section-content {
     background: $darkest;
+
+   
+
+
 }
 
 .home-page-event {
@@ -145,7 +145,8 @@ main {
     padding-bottom: 1.75em;
     
 
-	h3 {
+	h3
+    {
 		font-size: 1.5em;
 		margin: 0 0 0 0;
         padding-top: .75em;
@@ -168,6 +169,12 @@ main {
             font-weight: 700;
         }
 	}
+
+
+    .special-event-date
+    {
+        color: $white;
+    }
 
     img {
         border: 1px solid $darkest + 10;
@@ -233,10 +240,36 @@ main {
     .full-hero {
         display: block;
         background: url("../img/full-hero.jpg") no-repeat center center fixed; 
-          -webkit-background-size: cover;
-          -moz-background-size: cover;
-          -o-background-size: cover;
-          background-size: cover;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+
+        h1
+        {
+            border: none;
+            margin-top: 10rem;
+            font-size: 8vw;
+            line-height: 8vw;
+            color: $blue - 40;
+        }
+
+        .button
+        {
+            background: none;
+        }
+
+        button
+        {
+            text-align: center;
+        }
+
+        .full-social .button
+        {
+            margin-top: 4em;
+            font-weight: 100;
+            color: $white;
+        }
     }
 }
 

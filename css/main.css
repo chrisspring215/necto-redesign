@@ -1641,6 +1641,23 @@ body {
   with: 100vw;
 }
 
+/* THIS ONLY WORKS ON DESKTOP RIGHT NOW. You need to set up MQs for small screens that do not change the margings individually */
+/* line 16, ../scss/_body.scss */
+.collapse {
+  padding-right: 8px;
+  padding-left: 8px;
+}
+
+/* line 22, ../scss/_body.scss */
+.collapse:first-child {
+  margin-left: -8px;
+}
+
+/* line 27, ../scss/_body.scss */
+.collapse:last-child {
+  padding-right: 8px;
+}
+
 /* line 1, ../scss/_header.scss */
 header {
   background-color: #222222;
@@ -1658,42 +1675,84 @@ header {
   width: 100%;
 }
 
-/* line 20, ../scss/_header.scss */
+/* line 21, ../scss/_header.scss */
 .mobile-global-nav {
   display: inline;
 }
+/* line 26, ../scss/_header.scss */
+.mobile-global-nav .global-nav {
+  font-family: "Oswald", sans-serif;
+  float: right;
+}
+/* line 31, ../scss/_header.scss */
+.mobile-global-nav .global-nav a {
+  color: #ed1968;
+}
 
-/* line 24, ../scss/_header.scss */
+/* line 39, ../scss/_header.scss */
 .full-global-nav {
   display: none;
 }
 
 @media only screen and (min-width: 48em) {
-  /* line 30, ../scss/_header.scss */
+  /* line 45, ../scss/_header.scss */
   header {
     height: 4.25rem;
   }
-  /* line 33, ../scss/_header.scss */
+  /* line 48, ../scss/_header.scss */
   header span {
     display: inline;
-    margin-top: 1rem;
   }
 
-  /* line 40, ../scss/_header.scss */
+  /* line 54, ../scss/_header.scss */
+  .global-nav, .weekly-nav {
+    display: inline;
+    float: right;
+    font-family: "Oswald", sans-serif;
+  }
+  /* line 60, ../scss/_header.scss */
+  .global-nav a, .weekly-nav a {
+    margin-left: 1em;
+  }
+
+  /* line 68, ../scss/_header.scss */
+  .global-nav a {
+    color: #3bddff;
+    -webkit-transition: color 300ms ease;
+    transition: color 300ms ease;
+  }
+  /* line 74, ../scss/_header.scss */
+  .global-nav a:hover, .global-nav a:active, .global-nav a:focus {
+    color: #eeeeee;
+    -webkit-transition: color 200ms ease;
+    transition: color 200ms ease;
+  }
+
+  /* line 83, ../scss/_header.scss */
+  .weekly-nav {
+    margin-top: -0.75em;
+  }
+  /* line 87, ../scss/_header.scss */
+  .weekly-nav a {
+    color: #ed1968;
+    -webkit-transition: color 300ms ease;
+    transition: color 300ms ease;
+  }
+  /* line 93, ../scss/_header.scss */
+  .weekly-nav a:hover, .weekly-nav a:active, .weekly-nav a:focus {
+    color: #eeeeee;
+    -webkit-transition: color 200ms ease;
+    transition: color 200ms ease;
+  }
+
+  /* line 103, ../scss/_header.scss */
   .mobile-global-nav {
     display: none;
   }
 
-  /* line 45, ../scss/_header.scss */
-  .full-global-nav, .full-global-nav ul, .full-global-nav ul li {
+  /* line 108, ../scss/_header.scss */
+  .full-global-nav {
     display: inline-block;
-    float: right;
-    font-family: "Oswald", sans-serif;
-  }
-  /* line 53, ../scss/_header.scss */
-  .full-global-nav .global-nav a, .full-global-nav ul .global-nav a, .full-global-nav ul li .global-nav a {
-    color: #ed1968;
-    margin-left: 1.25em;
   }
 }
 /* line 1, ../scss/_main-section.scss */
@@ -1739,7 +1798,7 @@ main {
   text-align: center;
   font-size: 3rem;
   line-height: 3rem;
-  color: #3bddff;
+  color: #13b5d7;
   text-shadow: 3px 3px 0px #ffe928;
   border-top: 8px dotted #ffe928;
   border-bottom: 8px dotted #ffe928;
@@ -1773,16 +1832,16 @@ main {
   transition: color 300ms ease-out, background-color 300ms ease-out, box-shadow 300ms ease-out;
 }
 
-/* line 87, ../scss/_main-section.scss */
+/* line 83, ../scss/_main-section.scss */
 .full-hero {
   display: none;
 }
 
-/* line 92, ../scss/_main-section.scss */
+/* line 88, ../scss/_main-section.scss */
 .return-to-top {
   background: #222222;
 }
-/* line 96, ../scss/_main-section.scss */
+/* line 92, ../scss/_main-section.scss */
 .return-to-top a {
   background: #00a1c3;
   color: #eeeeee;
@@ -1794,13 +1853,13 @@ main {
   margin-top: 16px;
 }
 
-/* line 109, ../scss/_main-section.scss */
+/* line 105, ../scss/_main-section.scss */
 .home-page-section-header {
   background: #222222;
   box-shadow: 0px 4px 2px rgba(0, 0, 0, 0.25);
   width: 100%;
 }
-/* line 115, ../scss/_main-section.scss */
+/* line 111, ../scss/_main-section.scss */
 .home-page-section-header h2 {
   padding: 16px;
   padding-top: 1em;
@@ -1815,7 +1874,7 @@ main {
   line-height: 1em;
 }
 
-/* line 134, ../scss/_main-section.scss */
+/* line 130, ../scss/_main-section.scss */
 .home-page-section-content {
   background: #222222;
 }
@@ -1831,7 +1890,7 @@ main {
   background: #222222;
   padding-bottom: 1.75em;
 }
-/* line 148, ../scss/_main-section.scss */
+/* line 149, ../scss/_main-section.scss */
 .home-page-event-content h3 {
   font-size: 1.5em;
   margin: 0 0 0 0;
@@ -1839,40 +1898,44 @@ main {
   padding-bottom: .25em;
   /*background: $blue;*/
 }
-/* line 158, ../scss/_main-section.scss */
+/* line 159, ../scss/_main-section.scss */
 .home-page-event-content h3 .weekly-name {
   color: #3bddff;
   font-variant: small-caps;
   font-weight: 700;
 }
-/* line 165, ../scss/_main-section.scss */
+/* line 166, ../scss/_main-section.scss */
 .home-page-event-content h3 .weekly-day {
   color: #eeeeee;
   font-variant: small-caps;
   font-weight: 700;
 }
-/* line 172, ../scss/_main-section.scss */
+/* line 175, ../scss/_main-section.scss */
+.home-page-event-content .special-event-date {
+  color: #eeeeee;
+}
+/* line 179, ../scss/_main-section.scss */
 .home-page-event-content img {
   border: 1px solid #2c2c2c;
   margin-bottom: .5em;
   box-shadow: 0px 4px 2px rgba(0, 0, 0, 0.25);
 }
-/* line 178, ../scss/_main-section.scss */
+/* line 185, ../scss/_main-section.scss */
 .home-page-event-content p {
   margin: 0;
   padding: 0;
   font-weight: thin;
 }
-/* line 184, ../scss/_main-section.scss */
+/* line 191, ../scss/_main-section.scss */
 .home-page-event-content p strong {
   color: #ed1968;
   font-weight: normal;
 }
-/* line 190, ../scss/_main-section.scss */
+/* line 197, ../scss/_main-section.scss */
 .home-page-event-content .col-xs-6 {
   padding: 0;
 }
-/* line 195, ../scss/_main-section.scss */
+/* line 202, ../scss/_main-section.scss */
 .home-page-event-content .button, .home-page-event-content button {
   margin-right: 0;
   margin-left: 0;
@@ -1885,29 +1948,29 @@ main {
   -webkit-transition: color 200ms, border-color 300ms;
   transition: color 200ms, border-color 300ms;
 }
-/* line 207, ../scss/_main-section.scss */
+/* line 214, ../scss/_main-section.scss */
 .home-page-event-content .button:hover, .home-page-event-content .button:focus, .home-page-event-content .button:active, .home-page-event-content button:hover, .home-page-event-content button:focus, .home-page-event-content button:active {
   color: #ed1968;
   border-color: #ffe928;
   -webkit-transition: color 200ms, border-color 300ms;
   transition: color 200ms, border-color 300ms;
 }
-/* line 216, ../scss/_main-section.scss */
+/* line 223, ../scss/_main-section.scss */
 .home-page-event-content .button:nth-child(odd) {
   padding-right: 8px;
 }
-/* line 221, ../scss/_main-section.scss */
+/* line 228, ../scss/_main-section.scss */
 .home-page-event-content .button:nth-child(even) {
   padding-left: 8px;
 }
 
 @media only screen and (min-width: 48em) {
-  /* line 229, ../scss/_main-section.scss */
+  /* line 236, ../scss/_main-section.scss */
   .mobile-hero, .home-page-event-vip-button {
     display: none;
   }
 
-  /* line 233, ../scss/_main-section.scss */
+  /* line 240, ../scss/_main-section.scss */
   .full-hero {
     display: block;
     background: url("../img/full-hero.jpg") no-repeat center center fixed;
@@ -1915,6 +1978,28 @@ main {
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
+  }
+  /* line 249, ../scss/_main-section.scss */
+  .full-hero h1 {
+    border: none;
+    margin-top: 10rem;
+    font-size: 8vw;
+    line-height: 8vw;
+    color: #13b5d7;
+  }
+  /* line 258, ../scss/_main-section.scss */
+  .full-hero .button {
+    background: none;
+  }
+  /* line 263, ../scss/_main-section.scss */
+  .full-hero button {
+    text-align: center;
+  }
+  /* line 268, ../scss/_main-section.scss */
+  .full-hero .full-social .button {
+    margin-top: 4em;
+    font-weight: 100;
+    color: #eeeeee;
   }
 }
 /* line 1, ../scss/_footer.scss */

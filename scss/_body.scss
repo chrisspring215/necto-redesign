@@ -6,8 +6,11 @@ body {
 	background: $darkest;
 	position: relative;
 	min-height: 100%;
-	with: 100vw;
+	width: 100vw;
 	height: 100vh;
+
+	background: url("../img/mobile-hero.jpg") no-repeat center center; 
+	background-size: cover;
 
 }
 
@@ -27,4 +30,15 @@ body {
 .collapse:last-child
 {
 	padding-right: 8px;
+}
+
+
+
+
+@media only screen and (min-width: 48em) {
+
+	body {
+		background: url("../img/full-hero.jpg") no-repeat center center; 
+		background-size: cover;
+	}
 }

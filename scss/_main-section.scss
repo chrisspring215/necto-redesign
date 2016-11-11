@@ -27,13 +27,7 @@ main {
 }
 */
 
-main {
 
-  background: url("../img/mobile-hero.jpg") no-repeat center center fixed;
-  background-size: cover;
-
-  /* margin-top: -5vh; */
-}
 
 .hero-image {
     padding-bottom: 0em;
@@ -255,11 +249,8 @@ main {
 
     .full-hero {
         display: block;
-        background: url("../img/full-hero.jpg") no-repeat center center; 
 
-        background-size: cover;
 
-        height: 100vh;
 
         h1
         {

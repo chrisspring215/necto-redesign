@@ -1638,27 +1638,36 @@ body {
   background: #222222;
   position: relative;
   min-height: 100%;
-  with: 100vw;
+  width: 100vw;
   height: 100vh;
+  background: url("../img/mobile-hero.jpg") no-repeat center center;
+  background-size: cover;
 }
 
 /* THIS ONLY WORKS ON DESKTOP RIGHT NOW. You need to set up MQs for small screens that do not change the margings individually */
-/* line 17, ../scss/_body.scss */
+/* line 20, ../scss/_body.scss */
 .collapse {
   padding-right: 8px;
   padding-left: 8px;
 }
 
-/* line 23, ../scss/_body.scss */
+/* line 26, ../scss/_body.scss */
 .collapse:first-child {
   margin-left: -8px;
 }
 
-/* line 28, ../scss/_body.scss */
+/* line 31, ../scss/_body.scss */
 .collapse:last-child {
   padding-right: 8px;
 }
 
+@media only screen and (min-width: 48em) {
+  /* line 40, ../scss/_body.scss */
+  body {
+    background: url("../img/full-hero.jpg") no-repeat center center;
+    background-size: cover;
+  }
+}
 /* line 1, ../scss/_header.scss */
 header {
   background-color: #222222;
@@ -1786,21 +1795,14 @@ main {
 
 }
 */
-/* line 30, ../scss/_main-section.scss */
-main {
-  background: url("../img/mobile-hero.jpg") no-repeat center center fixed;
-  background-size: cover;
-  /* margin-top: -5vh; */
-}
-
-/* line 38, ../scss/_main-section.scss */
+/* line 32, ../scss/_main-section.scss */
 .hero-image {
   padding-bottom: 0em;
   padding-top: 5vh;
   box-shadow: 0px 4px 2px rgba(0, 0, 0, 0.25);
   height: 100vh;
 }
-/* line 44, ../scss/_main-section.scss */
+/* line 38, ../scss/_main-section.scss */
 .hero-image h1 {
   margin-right: 10%;
   margin-left: 10%;
@@ -1826,7 +1828,7 @@ main {
 		align-self: center;
         */
 }
-/* line 75, ../scss/_main-section.scss */
+/* line 69, ../scss/_main-section.scss */
 .hero-image button {
   border: none;
   box-shadow: 4px 4px 0px #ffe928;
@@ -1836,7 +1838,7 @@ main {
   -webkit-transition: color 200ms ease-in, background-color 200ms ease-in, box-shadow 200ms ease-in;
   transition: color 200ms ease-in, background-color 200ms ease-in, box-shadow 200ms ease-in;
 }
-/* line 85, ../scss/_main-section.scss */
+/* line 79, ../scss/_main-section.scss */
 .hero-image button:hover, .hero-image button:focus, .hero-image button:active {
   color: #eeeeee;
   background-color: #00a1c3;
@@ -1845,16 +1847,16 @@ main {
   transition: color 300ms ease-out, background-color 300ms ease-out, box-shadow 300ms ease-out;
 }
 
-/* line 96, ../scss/_main-section.scss */
+/* line 90, ../scss/_main-section.scss */
 .full-hero {
   display: none;
 }
 
-/* line 101, ../scss/_main-section.scss */
+/* line 95, ../scss/_main-section.scss */
 .return-to-top {
   background: #222222;
 }
-/* line 105, ../scss/_main-section.scss */
+/* line 99, ../scss/_main-section.scss */
 .return-to-top a {
   background: #00a1c3;
   color: #eeeeee;
@@ -1866,13 +1868,13 @@ main {
   margin-top: 16px;
 }
 
-/* line 118, ../scss/_main-section.scss */
+/* line 112, ../scss/_main-section.scss */
 .home-page-section-header {
   background: #222222;
   box-shadow: 0px 4px 2px rgba(0, 0, 0, 0.25);
   width: 100%;
 }
-/* line 124, ../scss/_main-section.scss */
+/* line 118, ../scss/_main-section.scss */
 .home-page-section-header h2 {
   margin: 0;
   display: block;
@@ -1888,23 +1890,23 @@ main {
   padding-top: 2em;
 }
 
-/* line 146, ../scss/_main-section.scss */
+/* line 140, ../scss/_main-section.scss */
 .home-page-section-content {
   background: #222222;
 }
 
-/* line 154, ../scss/_main-section.scss */
+/* line 148, ../scss/_main-section.scss */
 .home-page-event {
   border-bottom: 2px solid #585858;
   text-align: left;
 }
 
-/* line 159, ../scss/_main-section.scss */
+/* line 153, ../scss/_main-section.scss */
 .home-page-event-content {
   background: #222222;
   padding-bottom: 1.75em;
 }
-/* line 165, ../scss/_main-section.scss */
+/* line 159, ../scss/_main-section.scss */
 .home-page-event-content h3 {
   font-size: 1.5em;
   margin: 0 0 0 0;
@@ -1912,44 +1914,44 @@ main {
   padding-bottom: .25em;
   /*background: $blue;*/
 }
-/* line 175, ../scss/_main-section.scss */
+/* line 169, ../scss/_main-section.scss */
 .home-page-event-content h3 .weekly-name {
   color: #3bddff;
   font-variant: small-caps;
   font-weight: 700;
 }
-/* line 182, ../scss/_main-section.scss */
+/* line 176, ../scss/_main-section.scss */
 .home-page-event-content h3 .weekly-day {
   color: #eeeeee;
   font-variant: small-caps;
   font-weight: 700;
 }
-/* line 191, ../scss/_main-section.scss */
+/* line 185, ../scss/_main-section.scss */
 .home-page-event-content .special-event-date {
   color: #eeeeee;
 }
-/* line 195, ../scss/_main-section.scss */
+/* line 189, ../scss/_main-section.scss */
 .home-page-event-content img {
   border: 1px solid #2c2c2c;
   margin-bottom: .5em;
   box-shadow: 0px 4px 2px rgba(0, 0, 0, 0.25);
 }
-/* line 201, ../scss/_main-section.scss */
+/* line 195, ../scss/_main-section.scss */
 .home-page-event-content p {
   margin: 0;
   padding: 0;
   font-weight: thin;
 }
-/* line 207, ../scss/_main-section.scss */
+/* line 201, ../scss/_main-section.scss */
 .home-page-event-content p strong {
   color: #ed1968;
   font-weight: normal;
 }
-/* line 213, ../scss/_main-section.scss */
+/* line 207, ../scss/_main-section.scss */
 .home-page-event-content .col-xs-6 {
   padding: 0;
 }
-/* line 218, ../scss/_main-section.scss */
+/* line 212, ../scss/_main-section.scss */
 .home-page-event-content .button, .home-page-event-content button {
   margin-right: 0;
   margin-left: 0;
@@ -1962,36 +1964,33 @@ main {
   -webkit-transition: color 200ms, border-color 300ms;
   transition: color 200ms, border-color 300ms;
 }
-/* line 230, ../scss/_main-section.scss */
+/* line 224, ../scss/_main-section.scss */
 .home-page-event-content .button:hover, .home-page-event-content .button:focus, .home-page-event-content .button:active, .home-page-event-content button:hover, .home-page-event-content button:focus, .home-page-event-content button:active {
   color: #ed1968;
   border-color: #ffe928;
   -webkit-transition: color 200ms, border-color 300ms;
   transition: color 200ms, border-color 300ms;
 }
-/* line 239, ../scss/_main-section.scss */
+/* line 233, ../scss/_main-section.scss */
 .home-page-event-content .button:nth-child(odd) {
   padding-right: 8px;
 }
-/* line 244, ../scss/_main-section.scss */
+/* line 238, ../scss/_main-section.scss */
 .home-page-event-content .button:nth-child(even) {
   padding-left: 8px;
 }
 
 @media only screen and (min-width: 48em) {
-  /* line 252, ../scss/_main-section.scss */
+  /* line 246, ../scss/_main-section.scss */
   .mobile-hero, .home-page-event-vip-button {
     display: none;
   }
 
-  /* line 256, ../scss/_main-section.scss */
+  /* line 250, ../scss/_main-section.scss */
   .full-hero {
     display: block;
-    background: url("../img/full-hero.jpg") no-repeat center center;
-    background-size: cover;
-    height: 100vh;
   }
-  /* line 265, ../scss/_main-section.scss */
+  /* line 256, ../scss/_main-section.scss */
   .full-hero h1 {
     border: none;
     margin-top: 10rem;
@@ -1999,15 +1998,15 @@ main {
     line-height: 8vw;
     color: #13b5d7;
   }
-  /* line 274, ../scss/_main-section.scss */
+  /* line 265, ../scss/_main-section.scss */
   .full-hero .button {
     background: none;
   }
-  /* line 279, ../scss/_main-section.scss */
+  /* line 270, ../scss/_main-section.scss */
   .full-hero button {
     text-align: center;
   }
-  /* line 284, ../scss/_main-section.scss */
+  /* line 275, ../scss/_main-section.scss */
   .full-hero .full-social .button {
     margin-top: 4em;
     font-weight: 100;

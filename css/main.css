@@ -1987,7 +1987,7 @@ main {
   /* line 256, ../scss/_main-section.scss */
   .full-hero {
     display: block;
-    background: url("../img/full-hero.jpg") no-repeat center center fixed;
+    background: url("../img/full-hero.jpg") no-repeat center center;
     background-size: cover;
     height: 100vh;
   }

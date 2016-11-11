@@ -14,12 +14,22 @@ a
     font-weight: 500;
 }
 
+/*
 main {
 
   background: url("../img/hero.jpg") no-repeat center center fixed; 
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
+  background-size: cover;
+
+
+}
+*/
+
+main {
+
+  background: url("../img/mobile-hero.jpg") no-repeat center center fixed;
   background-size: cover;
 
   /* margin-top: -5vh; */
@@ -48,7 +58,7 @@ main {
     	border-top: 8px dotted $yellow;
         border-bottom: 8px dotted $yellow;
         border-radius: .1em;
-    	
+    	/*
 		-webkit-order: 0;
 		-ms-flex-order: 0;
 		order: 0;
@@ -58,6 +68,7 @@ main {
 		-webkit-align-self: center;
 		-ms-flex-item-align: center;
 		align-self: center;
+        */
     }
 
 
@@ -111,9 +122,6 @@ main {
 
     h2
     {
-        
-        padding: 16px;
-        padding-top: 1em;
         margin: 0;
 
         display: block;
@@ -125,6 +133,12 @@ main {
         text-shadow: $textShadowPink;
         font-size: 2em;
         line-height: 1em;
+
+        padding: {
+            left: 16px;
+            right: 16px;
+            top: 2em;
+        }
         
     }
 }

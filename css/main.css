@@ -1639,21 +1639,22 @@ body {
   position: relative;
   min-height: 100%;
   with: 100vw;
+  height: 100vh;
 }
 
 /* THIS ONLY WORKS ON DESKTOP RIGHT NOW. You need to set up MQs for small screens that do not change the margings individually */
-/* line 16, ../scss/_body.scss */
+/* line 17, ../scss/_body.scss */
 .collapse {
   padding-right: 8px;
   padding-left: 8px;
 }
 
-/* line 22, ../scss/_body.scss */
+/* line 23, ../scss/_body.scss */
 .collapse:first-child {
   margin-left: -8px;
 }
 
-/* line 27, ../scss/_body.scss */
+/* line 28, ../scss/_body.scss */
 .collapse:last-child {
   padding-right: 8px;
 }
@@ -1988,8 +1989,9 @@ main {
     display: block;
     background: url("../img/full-hero.jpg") no-repeat center center fixed;
     background-size: cover;
+    height: 100vh;
   }
-  /* line 263, ../scss/_main-section.scss */
+  /* line 265, ../scss/_main-section.scss */
   .full-hero h1 {
     border: none;
     margin-top: 10rem;
@@ -1997,15 +1999,15 @@ main {
     line-height: 8vw;
     color: #13b5d7;
   }
-  /* line 272, ../scss/_main-section.scss */
+  /* line 274, ../scss/_main-section.scss */
   .full-hero .button {
     background: none;
   }
-  /* line 277, ../scss/_main-section.scss */
+  /* line 279, ../scss/_main-section.scss */
   .full-hero button {
     text-align: center;
   }
-  /* line 282, ../scss/_main-section.scss */
+  /* line 284, ../scss/_main-section.scss */
   .full-hero .full-social .button {
     margin-top: 4em;
     font-weight: 100;

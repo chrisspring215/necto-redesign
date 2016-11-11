@@ -22,8 +22,6 @@ main {
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
-
-
 }
 */
 
@@ -34,6 +32,7 @@ main {
     padding-top: 5vh;
     box-shadow: $boxShadowDark;
     height: 100vh;
+
     
     h1 {
         
@@ -91,23 +90,6 @@ main {
     display: none;
 }
 
-.return-to-top
-{
-    background: $darkest;
-    
-    a
-    {
-        background: $blue - 60;
-        color: $white;
-        border: $blue solid 2px;
-        border-radius: .1em;
-        position: relative;
-        float: right;
-        margin-right: 16px;
-        margin-top: 16px;
-    }
-}
-
 .home-page-section-header
 {   
     background: $darkest;
@@ -116,7 +98,8 @@ main {
 
     h2
     {
-        margin: 0;
+        margin-top: 0em;
+        margin-bottom: .75em;
 
         display: block;
         position: relative;
@@ -128,9 +111,10 @@ main {
         font-size: 2em;
         line-height: 1em;
 
+
         padding: {
             left: 16px;
-            right: 16px;
+            right: 0px;
             top: 2em;
         }
         
@@ -140,13 +124,12 @@ main {
 .home-page-section-content {
     background: $darkest;
 
-   
 
 
 }
 
 .home-page-event {
-    border-bottom: 2px solid $white - 150;
+    
     text-align: left
 }
 
@@ -159,7 +142,7 @@ main {
     {
 		font-size: 1.5em;
 		margin: 0 0 0 0;
-        padding-top: .75em;
+        padding-top: 0;
         padding-bottom: .25em;
 
         /*background: $blue;*/
@@ -249,7 +232,9 @@ main {
 
     .full-hero {
         display: block;
-
+        padding-right: 0;
+        margin-right: 0;
+        width: 100%;
 
 
         h1

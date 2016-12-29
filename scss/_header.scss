@@ -14,5 +14,107 @@ header {
 
 	top: 0;
 	width: 100%;
+}
 
+
+.mobile-global-nav
+{
+	display: inline;
+	
+
+	.global-nav
+	{
+		font-family: $font-main;
+		float: right;
+		
+		a
+		{
+			color: $pink;
+		}
+		
+	}
+}
+
+.full-global-nav
+{
+	display: none;
+}
+
+@media only screen and (min-width: 48em) {
+	header
+	{
+	height: 4.25rem;
+
+		span {
+			display: inline;
+		}
+	}
+
+	.global-nav, .weekly-nav
+	{
+		display: inline;
+		float: right;
+		font-family: $font-main;
+		
+		a
+		{
+			margin-left: 1em;			
+		}
+	}
+
+	.global-nav
+	{
+		a
+		{
+			color: $blue;
+			-webkit-transition:  color 300ms ease;
+        	transition:          color 300ms ease;
+
+			&:hover, &:active, &:focus
+			{
+				color: $white;
+				-webkit-transition:  color 200ms ease;
+        		transition:          color 200ms ease;
+			}
+		}
+	}
+
+	.weekly-nav
+	{
+		margin-top: -.75em;
+
+		a
+		{
+			color: $pink;
+			-webkit-transition:  color 300ms ease;
+        	transition:          color 300ms ease;
+
+			&:hover, &:active, &:focus
+			{
+				color: $white;
+				-webkit-transition:  color 200ms ease;
+        		transition:          color 200ms ease;
+			}
+		}
+	}
+
+
+	.mobile-global-nav
+	{
+		display: none;
+	}
+
+	.full-global-nav
+	{
+		display: inline-block;
+		
+
+	}
+
+}
+
+@media only screen and (min-width: 62em) {
+}
+
+@media only screen and (min-width: 75em) {
 }

@@ -1,6 +1,7 @@
 p {
 	color: $white;
 	font-weight: 300;
+    margin-bottom: 1em;
 }
 
 img {
@@ -14,6 +15,19 @@ a
     font-weight: 500;
 }
 
+p {
+    margin-top: 0em;
+    margin-bottom: .5em;
+    padding: 0;
+    font-weight: thin;
+
+    strong
+    {
+        color: $pink;
+        font-weight: normal;
+    }
+}
+/*
 main {
 
   background: url("../img/hero.jpg") no-repeat center center fixed; 
@@ -21,32 +35,36 @@ main {
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
-
-  /* margin-top: -5vh; */
 }
+*/
+
+
 
 .hero-image {
     padding-bottom: 0em;
     padding-top: 5vh;
     box-shadow: $boxShadowDark;
     height: 100vh;
+
     
     h1 {
         
-        margin-right: 15%;
-        margin-left: 15%;
-        padding: .25em;
+        margin-right: 10%;
+        margin-left: 10%;
+        margin-bottom: 0;
+        padding: .25em 0;
+
     	
     	text-align: center;
-    	font-size: 3rem;
-    	line-height: 3rem;
-        color: $blue;
+    	font-size: 2.75rem;
+    	line-height: 3.5rem;
+        color: $blue - 40;
         text-shadow: $textShadowYellow;
     	
     	border-top: 8px dotted $yellow;
         border-bottom: 8px dotted $yellow;
         border-radius: .1em;
-    	
+    	/*
 		-webkit-order: 0;
 		-ms-flex-order: 0;
 		order: 0;
@@ -56,15 +74,19 @@ main {
 		-webkit-align-self: center;
 		-ms-flex-item-align: center;
 		align-self: center;
+        */
     }
 
 
-    button {
+
+    .button {
         border: none;
         box-shadow: $boxShadowYellow;
         background-color: $pink;
         color: $white;
         opacity: .90;
+        margin: 1em 0; 
+        
         -webkit-transition:  color 200ms ease-in, background-color 200ms ease-in, box-shadow 200ms ease-in;
         transition:          color 200ms ease-in, background-color 200ms ease-in, box-shadow 200ms ease-in;
 
@@ -77,42 +99,23 @@ main {
             -webkit-transition:  color 300ms ease-out, background-color 300ms ease-out, box-shadow 300ms ease-out;
             transition:          color 300ms ease-out, background-color 300ms ease-out, box-shadow 300ms ease-out;
         }
-
     }
-
-
-    
 }
 
-.return-to-top
-{
-    background: $darkest;
-    
-    a
-    {
-        background: $blue - 60;
-        color: $white;
-        border: $blue solid 2px;
-        border-radius: .1em;
-        position: relative;
-        float: right;
-        margin-right: 16px;
-        margin-top: 16px;
-    }
+.full-hero {
+    display: none;
 }
 
 .home-page-section-header
 {   
-
     background: $darkest;
     box-shadow: $boxShadowDark;
+    width: 100%;
 
     h2
     {
-        
-        padding: 16px;
-        padding-top: 1em;
-        margin: 0;
+        margin-top: 0em;
+        margin-bottom: .75em;
 
         display: block;
         position: relative;
@@ -123,12 +126,24 @@ main {
         text-shadow: $textShadowPink;
         font-size: 2em;
         line-height: 1em;
+
+
+        padding: {
+            left: 16px;
+            right: 0px;
+            top: 2em;
+        }
         
     }
 }
 
+.home-page-section-content {
+    background: $darkest
+}
+
 .home-page-event {
-    border-bottom: 2px solid $white - 150;
+    
+    text-align: left
 }
 
 .home-page-event-content {
@@ -136,55 +151,52 @@ main {
     padding-bottom: 1.75em;
     
 
-	h3 {
+	h3
+    {
 		font-size: 1.5em;
 		margin: 0 0 0 0;
-        padding-top: .75em;
+        padding-top: 0;
         padding-bottom: .25em;
 
         /*background: $blue;*/
 
 
-        .weekly-name
+        .weekly-name, .event-name
         {
             color: $blue;
             font-variant: small-caps;
             font-weight: 700;
+
         }
 
-        .weekly-day {
+        .weekly-day, .event-day {
             color: $white;
             font-variant: small-caps;
             font-weight: 700;
         }
 	}
 
+
+    .special-event-date
+    {
+        color: $white;
+    }
+
     img {
-        border: 1px solid $darkest + 10;
+
+        border: 0px solid $darkest + 10;
         margin-bottom: .5em;
         box-shadow: $boxShadowDark;
     }
 
-    p {
-        margin: 0;
-        padding: 0;
-        font-weight: thin;
-
-        strong
-        {
-            color: $pink;
-            font-weight: normal;
-        }
-    }
-
+/*
     .col-xs-6 {
         padding: 0;
     }
-
+*/
     .button, button
     {
-        margin-right: 0;
-        margin-left: 0;
+
         margin-top: 8px;
         background: none;
         color: $yellow;
@@ -202,15 +214,72 @@ main {
         }
     }
 
-    .button:nth-child(odd)
+    .event-nav
     {
-        padding-right: 8px;
+        text-align: center;
+        margin-top: -.37em;
+
+        a {
+            
+            color: $yellow;
+            font-size: .75em;
+            padding: .5em 0;
+            background: $pink
+        }
+
+        a:nth-child(2) {
+            border-left: 2px solid #222;
+            border-right: 2px solid #222;
+        }
     }
 
-    .button:nth-child(even)
+}
+
+@media only screen and (min-width: 48em) {
+
+    .mobile-hero, .home-page-event-vip-button
     {
-        padding-left: 8px;
+        display: none;
     }
 
+    .full-hero {
+        display: block;
+        padding-right: 0;
+        margin-right: 0;
+        width: 100%;
+
+
+        h1
+        {
+            border: none;
+            margin-top: 10rem;
+            font-size: 8vw;
+            line-height: 8vw;
+            color: $blue - 40;
+        }
+
+        .button
+        {
+            background: $pink;
+            text-align: center;
+            margin: 0.5em;
+        }
+
+        .full-social .button
+        {
+            margin-top: 4em;
+            font-weight: 100;
+            color: $white;
+            background: none;
+            box-shadow: none;
+        }
+    }
+}
+
+@media only screen and (min-width: 62em) {
+
+}
+
+@media only screen and (min-width: 75em) {
 
 }

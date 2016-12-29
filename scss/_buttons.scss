@@ -1,23 +1,20 @@
 .button {
 	text-decoration: none;
 	background: $pink;
-	margin: 0 0 0 1.5em ;
+	margin: 0 0 0 0;
 	font-weight: bold;
-	
-	button
-	{
-		display: block;
-		width: 100%;
-		text-align: right;
-		background-color: none;
-		border: none;
-		background: none;
-		border-style: solid;
-		border-width: .2em;
-		padding: 8px 12px;
-		border-radius: .1em;
 
-	}
+	display: block;
+	/*width: 100%;*/
+	text-align: right;
+	background-color: none;
+	border: none;
+	background: none;
+	border-style: solid;
+	border-width: .2em;
+	padding: 8px 12px;
+	border-radius: .1em;
+	
 
 	span
 	{

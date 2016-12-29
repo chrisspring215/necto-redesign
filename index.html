@@ -19,105 +19,194 @@
         <link href="https://fonts.googleapis.com/css?family=Oswald:300,400,700" rel="stylesheet"> 
         
     </head>
-    <body>
+    <body style="background-color: #333;">
         <!--[if lt IE 8]>
             <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
         <![endif]-->
 
-        <!-- Add your site or application content here -->
-
-    <header class="row">
-        <div class="col-xs-12">
-            <span>NECTO</span>
-        </div>
+    <!-- MOBILE GLOBAL NAV -->
+    <header class="row mobile-global-nav">
+      <div class="col-xs-12">
+        <span>NECTO</span>
+        <nav class="global-nav">
+         <a href="">MENU</a>
+        </nav>
+      </div>
     </header>
 
-    <main>
+    <!-- DESKTOP GLOBAL NAV -->
+    <header class="row full-global-nav">
+      <div class="col-xs-12">
+        <span>NECTO</span>
+          <nav class="global-nav">
+            <a href="">CALENDAR</a>
+            <a href="">BOTTLE SERVICE/VIP</a>
+            <a href="">PRIVATE RENTAL</a>
+            <a href="">DIRECTIONS</a>
+            <a href="">CONTACT</a>
+            <a href="">TICKETS</a>
+          </nav>
+          <br>
+          <nav class="weekly-nav">
+            <a href="">FACTORY MONDAY</a>
+            <a href="">MIX THURSDAY</a>
+            <a href="">PRIDE FRIDAY</a>
+            <a href="">FREQUENCY SATURDAY</a>
+          </nav>
+      </div>
+    </header>
 
-        <!-- Hero Image -->
-        <div class="hero-image">
-            <h1>ENHANCE<br>YOUR<br>NIGHT<br>LIFE<br></h1>
-            <nav class="row">
-                <div class="col-xs-12">
-                    <a href="#weekly-events" class="button"><button>WEEKLY EVENTS</button></a>
-                </div>
-                <div class="col-xs-12">
-                    <a href="#special-events"  class="button"><button>SPECIAL EVENTS</button></a>
-                </div>
-                <div class="col-xs-12">
-                    <a href="calendar.html"  class="button"><button>CALENDAR</button></a>
-                </div>
-                <div class="col-xs-12">
-                    <a href="bottle-service-vip.html"  class="button"><button>VIP</button></a>
-                </div>
+    <!-- MOBILE HERO -->
+    <main class="row">
+      <div class="col-xs-12 hero-image mobile-hero"> 
+        <h1>ENHANCE YOUR NIGHT SMAL</h1>
+        <nav>
+          <a href="#weekly-events"           class="button">WEEKLY EVENTS</a>
+          <a href="#special-events"          class="button">SPECIAL EVENTS</a>
+          <a href="calendar.html"            class="button">CALENDAR</a>
+          <a href="bottle-service-vip.html"  class="button">VIP</a>
+        </nav>
+      </div>
 
-            </nav>
-        </div>        
-
-        <div id="weekly-events"  class="col-xs-12 home-page-section-header">
-
-            <h2><span>WEEKLY EVENTS<span></h2>
+      <!-- DESKTOP HERO -->
+      <div class="col-xs-12 hero-image full-hero">
+        <h1>ENHANCE YOUR NIGHTLRGE</h1>
+        <nav class="row center-sm">
+          <a href="#weekly-events" class="col-sm-2 button">WEEKLY EVENTS</a>
+          <a href="#special-events" class="col-sm-2 button">SPECIAL EVENTS</a>
+          <a href="" class="col-sm-2 button">CALENDAR</a>
+          <a href="" class="col-sm-2 button">VIP</a>
+        </nav>
+        <nav class="row center-sm full-social">
+          <a href="" class="col-sm-1 button">FACEBOOK</a>
+          <a href="" class="col-sm-1 button">TWITTER</a>
+          <a href="" class="col-sm-1 button">YOUTUBE</a>
+          <a href="" class="col-sm-1 button">INSTAGRAM</a>
+        </nav>
+      </div>
+      
+      <!-- WEEKLY EVENTS -->
+      <div class="home-page-section-header row" id="weekly-events">
+        <div class="col-xs-12 col-sm-10 col-md-offset-1">
+          <h2><span>WEEKLY EVENTS</span></h2>
         </div>
+      </div>
 
-        <div id="first-weekly">
-            <div class="home-page-event">
-                <div class="col-xs-12 home-page-event-content">      
-                    <h3><a href=""><span class="weekly-name">Factory</span> <span class="weekly-day">Mondays</span></a></h3>
-                    <img src="img/factory-monday.jpg">
-                    <p>Factory is one of the longest running Goth-Industrial nights in the US. Always featuring local talents spinning <strong>Goth-Industrial</strong>, <strong>EBM</strong>, <strong>Alternative</strong>, <strong>Cyberpunk</strong> and <strong>Synth-pop</strong> in the Main Room. Madisi plays <strong>bass driven dance music</strong> in the Red Room. Hosted by MC Yoda.</p>
-                    <div class="row">
-                        <a href="" class="button col-xs-6"><button>VIEW FACTORY</button></a>
-                        <a href="" class="button col-xs-6"><button>REQUEST VIP</button></a>
-                    </div>
-                    
+      <div class="home-page-section-content row">
+        <div class="col-xs-12 col-md-10 col-md-offset-1">
+          <div class="row around-sm">
+
+            <div class="col-xs-12 col-sm-3 collapse">
+              <section class="home-page-event">
+                <div class="home-page-event-content">      
+                  <h3><a href=""><span class="weekly-name">Factory</span> <span class="weekly-day">Monday</span></a></h3>
+                  <img src="img/factory-monday.jpg">
+                  <p>Factory is one of the longest running Goth-Industrial nights in the US. Always featuring local talents spinning <strong>Goth-Industrial</strong>, <strong>EBM</strong>, <strong>Alternative</strong>, <strong>Cyberpunk</strong> and <strong>Synth-pop</strong> in the Main Room. Madisi plays <strong>bass driven dance music</strong> in the Red Room. Hosted by MC Yoda.</p>
+                  <div class="row">
+                      <a href="" class="button col-xs-12">VIEW FACTORY</a>
+                  </div>
                 </div>
+              </section>
             </div>
+
+
+            <div class="col-xs-12 col-sm-3 collapse">
+              <section class="home-page-event">
+                <div class="home-page-event-content">      
+                  <h3><a href=""><span class="weekly-name">Mix</span> <span class="weekly-day">Thursday</span></a></h3>
+                  <img src="img/mix-thursday.jpg">
+                  <p>We’re mixing it up each &amp; every Thursday, with a blend of concerts by renowned artists, special events, unique parties, and even functions that you can book. Heard about a DJ at Necto? It was probably on a Thursday - check our calendar to see what’s happening this week.</p>
+                  <div class="row">
+                      <a href="" class="button col-xs-12">VIEW MIX</a>
+                  </div>
+                </div>
+              </section>
+            </div>
+
+
+            <div class="col-xs-12 col-sm-3 collapse">
+              <section class="home-page-event">
+                <div class="home-page-event-content">      
+                  <h3><a href=""><span class="weekly-name">Pride</span> <span class="weekly-day">Friday</span></a></h3>
+                  <img src="img/pride-friday.jpg">
+                  <p>The One-and-Only Gay Night. DJ Jace in the Main Room spins the hottest Pop, Top 40 &amp; EDM. DJ Digi Mark plays Retro 80's to Top 40 Pop videos in the Red Room. Hosted by Chanel Hunter & Jadein Black at the Largest weekly LGBTQ Party in Michigan!</p>
+                  <div class="row">
+                      <a href="" class="button col-xs-12">VIEW PRIDE</a>
+                  </div>
+                </div>
+              </section>
+            </div>
+
+
+            <div class="col-xs-12 col-sm-3 collapse">
+              <section class="home-page-event">
+                <div class="home-page-event-content">      
+                  <h3><a href=""><span class="weekly-name">Frequency</span> <span class="weekly-day">Saturday</span></a></h3>
+                  <img src="img/frequency-saturday.jpg">
+                  <p>DJ Hardy &amp; MC Yoda host the hottest club night around. The dance floor will be packed from the best Top 40, House &amp; Hip Hop Tracks. Don't let your weekend down. Let's get Turnt!</p>
+                  <div class="row">
+                      <a href="" class="button col-xs-12">VIEW FREQUENCY</a>
+                  </div>
+                </div>
+              </section>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- SPECIAL EVENTS -->
+      <div class="home-page-section-header row" id="special-events">
+
+        <!-- Special Events Header -->
+        <div class="col-xs-12 col-sm-10 col-md-offset-1">
+          <h2><span>SPECIAL EVENTS</span></h2>
         </div>
 
-        <div id="first-weekly">
-            <div class="home-page-event">
-                <div class="col-xs-12 home-page-event-content">      
-                    <h3><span class="weekly-name">Mix</span> <span class="weekly-day">Thursday</span></h3>
-                    <img src="img/mix-thursday.jpg">
-                    <p>Factory is one of the longest running Goth-Industrial nights in the US. Always featuring local talents spinning <strong>Goth-Industrial</strong>, <strong>EBM</strong>, <strong>Alternative</strong>, <strong>Cyberpunk</strong> and <strong>Synth-pop</strong> in the Main Room. Madisi plays <strong>bass driven dance music</strong> in the Red Room. Hosted by MC Yoda.</p>
-                    <div class="row">
-                        <a href="" class="button col-xs-6"><button>VIEW MIX</button></a>
-                        <a href="" class="button col-xs-6"><button>REQUEST VIP</button></a>
-                    </div>
-                    
-                </div>
-            </div>
+        <!-- Special Event Start -->
+        <div class="home-page-event-content col-xs-12 col-sm-6 col-md-5 col-md-offset-1">
+          <h3><span class="event-name">eventName</span>&nbsp;<span class="event-day">eventDate</span></h3>
+          <img src="img/event-images/cal-lemaitre-at-necto-nightclub-ann-arbor.jpg">
+          <div class="row event-nav">
+            <a href="" class="col-xs-4">VIEW EVENT</a>
+            <a href="" class="col-xs-4 ">REQUEST VIP</a>
+            <a href="" class="col-xs-4 ">BUY TICKETS</a>
+          </div>
         </div>
+        <!-- Special Event End -->
 
-        <div id="first-weekly">
-            <div class="home-page-event">
-                <div class="col-xs-12 home-page-event-content">      
-                    <h3><span class="weekly-name">Pride</span> <span class="weekly-day">Friday</span></h3>
-                    <img src="img/pride-friday.jpg">
-                    <p>Factory is one of the longest running Goth-Industrial nights in the US. Always featuring local talents spinning <strong>Goth-Industrial</strong>, <strong>EBM</strong>, <strong>Alternative</strong>, <strong>Cyberpunk</strong> and <strong>Synth-pop</strong> in the Main Room. Madisi plays <strong>bass driven dance music</strong> in the Red Room. Hosted by MC Yoda.</p>
-                    <div class="row">
-                        <a href="" class="button col-xs-6"><button>VIEW PRIDE</button></a>
-                        <a href="" class="button col-xs-6"><button>REQUEST VIP</button></a>
-                    </div>
-                    
-                </div>
-            </div>
-        </div>
 
-        <div id="first-weekly">
-            <div class="home-page-event">
-                <div class="col-xs-12 home-page-event-content">      
-                    <h3><span class="weekly-name">Frequency</span> <span class="weekly-day">Saturday</span></h3>
-                    <img src="img/frequency-saturday.jpg">
-                    <p>Factory is one of the longest running Goth-Industrial nights in the US. Always featuring local talents spinning <strong>Goth-Industrial</strong>, <strong>EBM</strong>, <strong>Alternative</strong>, <strong>Cyberpunk</strong> and <strong>Synth-pop</strong> in the Main Room. Madisi plays <strong>bass driven dance music</strong> in the Red Room. Hosted by MC Yoda.</p>
-                    <div class="row">
-                        <a href="" class="button col-xs-6"><button>VIEW FREQUENCY</button></a>
-                        <a href="" class="button col-xs-6"><button>REQUEST VIP</button></a>
-                    </div>
-                    
+
+
+
+
+      </div>
+
+      
+<!--
+      <div class="home-page-section-content row">
+        <div class="col-xs-12  col-md-offset-1">
+
+            <div class="col-xs-12 col-sm-5 collapse">
+              <section class="home-page-event">
+                <div class="home-page-event-content">      
+                  <h3><a href=""><span class="weekly-name">Lemaitre</span> <span class="weekly-day">Wed, Nov 9th</span></a></h3>
+                  <img src="img/event-images/cal-lemaitre-at-necto-nightclub-ann-arbor.jpg">
+                  <div class="row">
+                      <a href="" class="button col-xs-6">VIEW FACTORY</a>
+                      <a href="" class="button col-xs-6">REQUEST VIP</a>
+                  </div>
                 </div>
+              </section>
             </div>
+
         </div>
+      </div>
+
+-->
+
+
+
+     
 
 
     </main>

@@ -6,6 +6,41 @@ body {
 	background: $darkest;
 	position: relative;
 	min-height: 100%;
-	with: 100vw;
+	height: 100vh;
 
+	background: url("../img/mobile-hero.jpg") no-repeat center center; 
+	background-size: cover;
+	background-color: $darkest;
+
+}
+
+.collapse
+{
+	padding-right: 0px;
+	padding-left:  0px;
+}
+
+
+
+@media only screen and (min-width: 48em) {
+
+	body {
+		background: url("../img/full-hero.jpg") no-repeat center center; 
+		background-size: cover;
+	}
+	.collapse
+	{
+		padding-right: 8px;
+		padding-left: 8px;
+	}
+
+	.collapse:first-child
+	{
+		margin-left: -8px;
+	}
+
+	.collapse:last-child
+	{
+		padding-right: 8px;
+	}
 }

@@ -1605,13 +1605,10 @@ body {
 .button {
   text-decoration: none;
   background: #ed1968;
-  margin: 0 0 0 1.5em;
+  margin: 0 0 0 0;
   font-weight: bold;
-}
-/* line 8, ../scss/_buttons.scss */
-.button button {
   display: block;
-  width: 100%;
+  /*width: 100%;*/
   text-align: right;
   background-color: none;
   border: none;
@@ -1621,7 +1618,7 @@ body {
   padding: 8px 12px;
   border-radius: .1em;
 }
-/* line 23, ../scss/_buttons.scss */
+/* line 20, ../scss/_buttons.scss */
 .button span {
   background: -webkit-linear-gradient(#3bddff, #31d3f5);
   -webkit-background-clip: text;
@@ -1638,9 +1635,41 @@ body {
   background: #222222;
   position: relative;
   min-height: 100%;
-  with: 100vw;
+  height: 100vh;
+  background: url("../img/mobile-hero.jpg") no-repeat center center;
+  background-size: cover;
+  background-color: #222222;
 }
 
+/* line 18, ../scss/_body.scss */
+.collapse {
+  padding-right: 0px;
+  padding-left: 0px;
+}
+
+@media only screen and (min-width: 48em) {
+  /* line 27, ../scss/_body.scss */
+  body {
+    background: url("../img/full-hero.jpg") no-repeat center center;
+    background-size: cover;
+  }
+
+  /* line 32, ../scss/_body.scss */
+  .collapse {
+    padding-right: 8px;
+    padding-left: 8px;
+  }
+
+  /* line 38, ../scss/_body.scss */
+  .collapse:first-child {
+    margin-left: -8px;
+  }
+
+  /* line 43, ../scss/_body.scss */
+  .collapse:last-child {
+    padding-right: 8px;
+  }
+}
 /* line 1, ../scss/_header.scss */
 header {
   background-color: #222222;
@@ -1658,76 +1687,174 @@ header {
   width: 100%;
 }
 
+/* line 21, ../scss/_header.scss */
+.mobile-global-nav {
+  display: inline;
+}
+/* line 26, ../scss/_header.scss */
+.mobile-global-nav .global-nav {
+  font-family: "Oswald", sans-serif;
+  float: right;
+}
+/* line 31, ../scss/_header.scss */
+.mobile-global-nav .global-nav a {
+  color: #ed1968;
+}
+
+/* line 39, ../scss/_header.scss */
+.full-global-nav {
+  display: none;
+}
+
+@media only screen and (min-width: 48em) {
+  /* line 45, ../scss/_header.scss */
+  header {
+    height: 4.25rem;
+  }
+  /* line 48, ../scss/_header.scss */
+  header span {
+    display: inline;
+  }
+
+  /* line 54, ../scss/_header.scss */
+  .global-nav, .weekly-nav {
+    display: inline;
+    float: right;
+    font-family: "Oswald", sans-serif;
+  }
+  /* line 60, ../scss/_header.scss */
+  .global-nav a, .weekly-nav a {
+    margin-left: 1em;
+  }
+
+  /* line 68, ../scss/_header.scss */
+  .global-nav a {
+    color: #3bddff;
+    -webkit-transition: color 300ms ease;
+    transition: color 300ms ease;
+  }
+  /* line 74, ../scss/_header.scss */
+  .global-nav a:hover, .global-nav a:active, .global-nav a:focus {
+    color: #eeeeee;
+    -webkit-transition: color 200ms ease;
+    transition: color 200ms ease;
+  }
+
+  /* line 83, ../scss/_header.scss */
+  .weekly-nav {
+    margin-top: -0.75em;
+  }
+  /* line 87, ../scss/_header.scss */
+  .weekly-nav a {
+    color: #ed1968;
+    -webkit-transition: color 300ms ease;
+    transition: color 300ms ease;
+  }
+  /* line 93, ../scss/_header.scss */
+  .weekly-nav a:hover, .weekly-nav a:active, .weekly-nav a:focus {
+    color: #eeeeee;
+    -webkit-transition: color 200ms ease;
+    transition: color 200ms ease;
+  }
+
+  /* line 103, ../scss/_header.scss */
+  .mobile-global-nav {
+    display: none;
+  }
+
+  /* line 108, ../scss/_header.scss */
+  .full-global-nav {
+    display: inline-block;
+  }
+}
 /* line 1, ../scss/_main-section.scss */
 p {
   color: #eeeeee;
   font-weight: 300;
+  margin-bottom: 1em;
 }
 
-/* line 6, ../scss/_main-section.scss */
+/* line 7, ../scss/_main-section.scss */
 img {
   width: 100%;
 }
 
-/* line 11, ../scss/_main-section.scss */
+/* line 12, ../scss/_main-section.scss */
 a {
   color: #3bddff;
   text-decoration: none;
   font-weight: 500;
 }
 
-/* line 17, ../scss/_main-section.scss */
+/* line 18, ../scss/_main-section.scss */
+p {
+  margin-top: 0em;
+  margin-bottom: .5em;
+  padding: 0;
+  font-weight: thin;
+}
+/* line 25, ../scss/_main-section.scss */
+p strong {
+  color: #ed1968;
+  font-weight: normal;
+}
+
+/*
 main {
-  background: url("../img/hero.jpg") no-repeat center center fixed;
+
+  background: url("../img/hero.jpg") no-repeat center center fixed; 
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
-  /* margin-top: -5vh; */
 }
-
-/* line 28, ../scss/_main-section.scss */
+*/
+/* line 43, ../scss/_main-section.scss */
 .hero-image {
   padding-bottom: 0em;
   padding-top: 5vh;
   box-shadow: 0px 4px 2px rgba(0, 0, 0, 0.25);
   height: 100vh;
 }
-/* line 34, ../scss/_main-section.scss */
+/* line 50, ../scss/_main-section.scss */
 .hero-image h1 {
-  margin-right: 15%;
-  margin-left: 15%;
-  padding: .25em;
+  margin-right: 10%;
+  margin-left: 10%;
+  margin-bottom: 0;
+  padding: .25em 0;
   text-align: center;
-  font-size: 3rem;
-  line-height: 3rem;
-  color: #3bddff;
+  font-size: 2.75rem;
+  line-height: 3.5rem;
+  color: #13b5d7;
   text-shadow: 3px 3px 0px #ffe928;
   border-top: 8px dotted #ffe928;
   border-bottom: 8px dotted #ffe928;
   border-radius: .1em;
-  -webkit-order: 0;
-  -ms-flex-order: 0;
-  order: 0;
-  -webkit-flex: 0 1 auto;
-  -ms-flex: 0 1 auto;
-  flex: 0 1 auto;
-  -webkit-align-self: center;
-  -ms-flex-item-align: center;
-  align-self: center;
+    	/*
+		-webkit-order: 0;
+		-ms-flex-order: 0;
+		order: 0;
+		-webkit-flex: 0 1 auto;
+		-ms-flex: 0 1 auto;
+		flex: 0 1 auto;
+		-webkit-align-self: center;
+		-ms-flex-item-align: center;
+		align-self: center;
+        */
 }
-/* line 62, ../scss/_main-section.scss */
-.hero-image button {
+/* line 82, ../scss/_main-section.scss */
+.hero-image .button {
   border: none;
   box-shadow: 4px 4px 0px #ffe928;
   background-color: #ed1968;
   color: #eeeeee;
   opacity: .90;
+  margin: 1em 0;
   -webkit-transition: color 200ms ease-in, background-color 200ms ease-in, box-shadow 200ms ease-in;
   transition: color 200ms ease-in, background-color 200ms ease-in, box-shadow 200ms ease-in;
 }
-/* line 72, ../scss/_main-section.scss */
-.hero-image button:hover, .hero-image button:focus, .hero-image button:active {
+/* line 94, ../scss/_main-section.scss */
+.hero-image .button:hover, .hero-image .button:focus, .hero-image .button:active {
   color: #eeeeee;
   background-color: #00a1c3;
   box-shadow: 4px 4px 0px #3bddff;
@@ -1735,32 +1862,21 @@ main {
   transition: color 300ms ease-out, background-color 300ms ease-out, box-shadow 300ms ease-out;
 }
 
-/* line 88, ../scss/_main-section.scss */
-.return-to-top {
-  background: #222222;
-}
-/* line 92, ../scss/_main-section.scss */
-.return-to-top a {
-  background: #00a1c3;
-  color: #eeeeee;
-  border: #3bddff solid 2px;
-  border-radius: .1em;
-  position: relative;
-  float: right;
-  margin-right: 16px;
-  margin-top: 16px;
+/* line 105, ../scss/_main-section.scss */
+.full-hero {
+  display: none;
 }
 
-/* line 105, ../scss/_main-section.scss */
+/* line 110, ../scss/_main-section.scss */
 .home-page-section-header {
   background: #222222;
   box-shadow: 0px 4px 2px rgba(0, 0, 0, 0.25);
+  width: 100%;
 }
-/* line 111, ../scss/_main-section.scss */
+/* line 116, ../scss/_main-section.scss */
 .home-page-section-header h2 {
-  padding: 16px;
-  padding-top: 1em;
-  margin: 0;
+  margin-top: 0em;
+  margin-bottom: .75em;
   display: block;
   position: relative;
   left: -16px;
@@ -1769,63 +1885,63 @@ main {
   text-shadow: 3px 3px 0px #ed1968;
   font-size: 2em;
   line-height: 1em;
+  padding-left: 16px;
+  padding-right: 0px;
+  padding-top: 2em;
 }
 
-/* line 130, ../scss/_main-section.scss */
+/* line 140, ../scss/_main-section.scss */
+.home-page-section-content {
+  background: #222222;
+}
+
+/* line 144, ../scss/_main-section.scss */
 .home-page-event {
-  border-bottom: 2px solid #585858;
+  text-align: left;
 }
 
-/* line 134, ../scss/_main-section.scss */
+/* line 149, ../scss/_main-section.scss */
 .home-page-event-content {
   background: #222222;
   padding-bottom: 1.75em;
+  /*
+      .col-xs-6 {
+          padding: 0;
+      }
+  */
 }
-/* line 139, ../scss/_main-section.scss */
+/* line 155, ../scss/_main-section.scss */
 .home-page-event-content h3 {
   font-size: 1.5em;
   margin: 0 0 0 0;
-  padding-top: .75em;
+  padding-top: 0;
   padding-bottom: .25em;
   /*background: $blue;*/
 }
-/* line 149, ../scss/_main-section.scss */
-.home-page-event-content h3 .weekly-name {
+/* line 165, ../scss/_main-section.scss */
+.home-page-event-content h3 .weekly-name, .home-page-event-content h3 .event-name {
   color: #3bddff;
   font-variant: small-caps;
   font-weight: 700;
 }
-/* line 155, ../scss/_main-section.scss */
-.home-page-event-content h3 .weekly-day {
+/* line 172, ../scss/_main-section.scss */
+.home-page-event-content h3 .weekly-day, .home-page-event-content h3 .event-day {
   color: #eeeeee;
   font-variant: small-caps;
   font-weight: 700;
 }
-/* line 162, ../scss/_main-section.scss */
+/* line 181, ../scss/_main-section.scss */
+.home-page-event-content .special-event-date {
+  color: #eeeeee;
+}
+/* line 185, ../scss/_main-section.scss */
 .home-page-event-content img {
-  border: 1px solid #2c2c2c;
+  border: 0px solid #2c2c2c;
   margin-bottom: .5em;
   box-shadow: 0px 4px 2px rgba(0, 0, 0, 0.25);
 }
-/* line 168, ../scss/_main-section.scss */
-.home-page-event-content p {
-  margin: 0;
-  padding: 0;
-  font-weight: thin;
-}
-/* line 174, ../scss/_main-section.scss */
-.home-page-event-content p strong {
-  color: #ed1968;
-  font-weight: normal;
-}
-/* line 180, ../scss/_main-section.scss */
-.home-page-event-content .col-xs-6 {
-  padding: 0;
-}
-/* line 185, ../scss/_main-section.scss */
+/* line 198, ../scss/_main-section.scss */
 .home-page-event-content .button, .home-page-event-content button {
-  margin-right: 0;
-  margin-left: 0;
   margin-top: 8px;
   background: none;
   color: #ffe928;
@@ -1835,22 +1951,67 @@ main {
   -webkit-transition: color 200ms, border-color 300ms;
   transition: color 200ms, border-color 300ms;
 }
-/* line 197, ../scss/_main-section.scss */
+/* line 209, ../scss/_main-section.scss */
 .home-page-event-content .button:hover, .home-page-event-content .button:focus, .home-page-event-content .button:active, .home-page-event-content button:hover, .home-page-event-content button:focus, .home-page-event-content button:active {
   color: #ed1968;
   border-color: #ffe928;
   -webkit-transition: color 200ms, border-color 300ms;
   transition: color 200ms, border-color 300ms;
 }
-/* line 206, ../scss/_main-section.scss */
-.home-page-event-content .button:nth-child(odd) {
-  padding-right: 8px;
+/* line 218, ../scss/_main-section.scss */
+.home-page-event-content .event-nav {
+  text-align: center;
+  margin-top: -0.37em;
 }
-/* line 211, ../scss/_main-section.scss */
-.home-page-event-content .button:nth-child(even) {
-  padding-left: 8px;
+/* line 222, ../scss/_main-section.scss */
+.home-page-event-content .event-nav a {
+  color: #ffe928;
+  font-size: .75em;
+  padding: .5em 0;
+  background: #ed1968;
+}
+/* line 230, ../scss/_main-section.scss */
+.home-page-event-content .event-nav a:nth-child(2) {
+  border-left: 2px solid #222;
+  border-right: 2px solid #222;
 }
 
+@media only screen and (min-width: 48em) {
+  /* line 241, ../scss/_main-section.scss */
+  .mobile-hero, .home-page-event-vip-button {
+    display: none;
+  }
+
+  /* line 245, ../scss/_main-section.scss */
+  .full-hero {
+    display: block;
+    padding-right: 0;
+    margin-right: 0;
+    width: 100%;
+  }
+  /* line 253, ../scss/_main-section.scss */
+  .full-hero h1 {
+    border: none;
+    margin-top: 10rem;
+    font-size: 8vw;
+    line-height: 8vw;
+    color: #13b5d7;
+  }
+  /* line 262, ../scss/_main-section.scss */
+  .full-hero .button {
+    background: #ed1968;
+    text-align: center;
+    margin: 0.5em;
+  }
+  /* line 269, ../scss/_main-section.scss */
+  .full-hero .full-social .button {
+    margin-top: 4em;
+    font-weight: 100;
+    color: #eeeeee;
+    background: none;
+    box-shadow: none;
+  }
+}
 /* line 1, ../scss/_footer.scss */
 footer {
   background-color: #3bddff;

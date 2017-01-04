@@ -149,7 +149,6 @@ main {
 .home-page-event-content {
     background: $darkest;
     padding-bottom: 1.75em;
-    
 
 	h3
     {
@@ -174,8 +173,16 @@ main {
             font-variant: small-caps;
             font-weight: 700;
         }
+
+        .event-day {
+            font-size: .75em;
+        }
 	}
 
+    .home-page-weekly-link
+    {
+        float: right;
+    }
 
     .special-event-date
     {
@@ -217,19 +224,43 @@ main {
     .event-nav
     {
         text-align: center;
-        margin-top: -.37em;
 
-        a {
-            
+        a {  
             color: $yellow;
-            font-size: .75em;
+            font-size: 1em;
             padding: .5em 0;
-            background: $pink
+            background: none;
+
+            border: 3px solid $blue;
+
+            -webkit-transition:  background 200ms;
+            transition:          background 200ms;
+        }
+
+        a:nth-child(1) {
+            border-right: 1.5px solid $blue;
+            border-top-left-radius: .1em;
+            border-bottom-left-radius: .1em;
         }
 
         a:nth-child(2) {
-            border-left: 2px solid #222;
-            border-right: 2px solid #222;
+            border-right: 2px solid $blue;
+            border-left: 2px solid $blue;
+        
+        }
+
+        a:nth-child(3) {
+            border-left: 1.5px solid $blue;
+            border-top-right-radius: .1em;
+            border-bottom-right-radius: .1em;
+        }
+
+        a:hover {  
+            padding: .5em 0;
+            background: $pink;
+            -webkit-transition:  background 200ms;
+            transition:          background 200ms;
+
         }
     }
 

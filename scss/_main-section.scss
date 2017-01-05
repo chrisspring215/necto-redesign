@@ -182,6 +182,23 @@ main {
     .home-page-weekly-link
     {
         float: right;
+        background-color: none; 
+        border: 3px solid $blue;
+        color: $yellow;
+        border-radius: .1em;
+        padding: .3em .6em;
+        -webkit-transition:  color 200ms, border 300ms, background-color 300ms;
+        transition:          color 200ms, border 300ms, background-color 300ms;
+        margin-bottom: 2em;
+
+        &:hover {
+            background-color: $pink;
+            border: 3px solid $white;
+            color: $yellow;
+
+            -webkit-transition:  color 200ms, border 300ms, background-color 300ms;
+            transition:          color 200ms, border 300ms, background-color 300ms;
+        }
     }
 
     .special-event-date

@@ -105,41 +105,25 @@ main {
 .full-hero {
     display: none;
 }
+.home-page-section
+{
+    border-bottom: 3px outset $darkest;
+    box-shadow: 0px 3px 6px $pink;
+    padding-top: 3em;
+    padding-bottom: 3em;
+}
 
 .home-page-section-header
 {   
-    background: $darkest;
-    box-shadow: $boxShadowDark;
+    display: block;
     width: 100%;
-
-    h2
-    {
-        margin-top: 0em;
-        margin-bottom: .75em;
-
-        display: block;
-        position: relative;
-        left: -16px;
-        width: 100%;
-
-        color: $yellow;
-        text-shadow: $textShadowPink;
-        font-size: 2em;
-        line-height: 1em;
-
-
-        padding: {
-            left: 16px;
-            right: 0px;
-            top: 2em;
-        }
+    color: $yellow;
+    text-shadow: $textShadowPink;
+    font-size: 2em;
+    line-height: 1em;
         
-    }
 }
 
-.home-page-section-content {
-    background: $darkest
-}
 
 .home-page-event {
     
@@ -147,7 +131,7 @@ main {
 }
 
 .home-page-event-content {
-    background: $darkest;
+
     padding-bottom: 1.75em;
 
 	h3
@@ -156,8 +140,6 @@ main {
 		margin: 0 0 0 0;
         padding-top: 0;
         padding-bottom: .25em;
-
-        /*background: $blue;*/
 
 
         .weekly-name, .event-name
@@ -182,7 +164,7 @@ main {
     .home-page-weekly-link
     {
         float: right;
-        background-color: none; 
+
         border: 3px solid $blue;
         color: $yellow;
         border-radius: .1em;
@@ -295,7 +277,6 @@ main {
         padding-right: 0;
         margin-right: 0;
         width: 100%;
-
 
         h1
         {

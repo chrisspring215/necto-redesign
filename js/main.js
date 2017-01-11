@@ -1,5 +1,5 @@
 // A temp element to pump test content into.
-var homepageSpecialEvents = document.getElementById('homepageSpecialEvents')
+var homepageSpecialEvents = document.getElementById('homepageSpecialEvents');
 var currentDate = new Date();
 
 
@@ -39,7 +39,7 @@ var events = [
     },
 
     {
-    	"eventDate"    : new Date("Jan 12, 2017 11:13:00"),
+    	"eventDate"    : new Date("Jan 12, 2017 20:00:00"),
         "eventName"    : "Chris",
         "eventArtist"  : "Chris Collins",
         "eventDesc"    : "Some info about the event.",
@@ -51,6 +51,21 @@ var events = [
         "eventImgWide" : 'img/event-images/cal-lemaitre-at-necto-nightclub-ann-arbor.jpg',
         "eventDay"	   : 0, // Do not modify
         "pastEvent"	   : false // Do not modify
+    },
+
+    {
+        "eventDate"    : new Date("Jan 12, 2017 20:00:00"),
+        "eventName"    : "Chris",
+        "eventArtist"  : "Chris Collins",
+        "eventDesc"    : "Some info about the event.",
+        "eventCover"   : '$1 before 10pm & $3 after 10pm',
+        "eventLink"    : 'https://www.eventlink.com',
+        "eventSocial"  : 'https://www.facebook.com',
+        "eventTix"     : 'https://www.Tixlink.com',
+        "eventImgTall" : 'img/event-images/cal-lemaitre-at-necto-nightclub-ann-arbor.jpg',
+        "eventImgWide" : 'img/event-images/cal-lemaitre-at-necto-nightclub-ann-arbor.jpg',
+        "eventDay"     : 0, // Do not modify
+        "pastEvent"    : false // Do not modify
     },
 
     {
@@ -73,7 +88,7 @@ var events = [
 var eventsLength = events.length;
 
 // Sets the eventDay to push out Upcomming Events to Weekly Pages
-for (i = 0; i < eventsLength; i++) {
+for (var i = 0; i < eventsLength; i++) {
 	events[i].eventDay = events[i].eventDate.getDay();
 }
 
@@ -99,7 +114,7 @@ for (i = 0; i <= eventsLength - 1; i++) {
 
 // Populates the event list on the homepage
 for (i = 0; i <= upcomingEvents.length - 1; i++) {
-	homepageSpecialEvents.innerHTML = homepageSpecialEvents.innerHTML + '<div class="home-page-event-content col-xs-12 col-sm-6 "><h3><a href="' + upcomingEvents[i].eventLink + '"><span class="event-day">' + upcomingEvents[i].eventDate.getMonth()+1 + '/' + upcomingEvents[i].eventDate.getDate() + '/' + upcomingEvents[i].eventDate.getFullYear() + '&nbsp;&nbsp;' + upcomingEvents[i].eventDate.toLocaleTimeString([], {hour: '2-digit', minute:'2-digit'}) +'</span>&nbsp;<span class="event-name">' + upcomingEvents[i].eventName + '</span></a></h3><a href="' + upcomingEvents[i].eventLink + '"><img src="' + upcomingEvents[i].eventImgWide + '"></a><div class="row event-nav"><a href="' + upcomingEvents[i].eventLink + '" class="col-xs-4">VIEW EVENT</a><a href="bottle-service.com" class="col-xs-4 ">REQUEST VIP</a><a href="' + upcomingEvents[i].eventTix + '" class="col-xs-4 ">BUY TICKETS</a></div></div>'
+	homepageSpecialEvents.innerHTML = homepageSpecialEvents.innerHTML + '<div class="home-page-event-content col-xs-12 col-sm-6 "><h3><a href="' + upcomingEvents[i].eventLink + '"><span class="event-day">' + upcomingEvents[i].eventDate.getMonth()+1 + '/' + upcomingEvents[i].eventDate.getDate() + '/' + upcomingEvents[i].eventDate.getFullYear() + '&nbsp;&nbsp;' + upcomingEvents[i].eventDate.toLocaleTimeString([], {hour: '2-digit', minute:'2-digit'}) +'</span>&nbsp;<span class="event-name">' + upcomingEvents[i].eventName + '</span></a></h3><a href="' + upcomingEvents[i].eventLink + '"><img src="' + upcomingEvents[i].eventImgWide + '"></a><div class="row event-nav"><a href="' + upcomingEvents[i].eventLink + '" class="col-xs-4">VIEW EVENT</a><a href="bottle-service.com" class="col-xs-4 ">REQUEST VIP</a><a href="' + upcomingEvents[i].eventTix + '" class="col-xs-4 ">BUY TICKETS</a></div></div>';
 }
 
 

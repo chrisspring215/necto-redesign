@@ -114,13 +114,27 @@ for (i = 0; i <= eventsLength - 1; i++) {
 
 // Populates the event list on the homepage
 for (i = 0; i <= upcomingEvents.length - 1; i++) {
-	homepageSpecialEvents.innerHTML = homepageSpecialEvents.innerHTML + '<div class="home-page-event-content col-xs-12 col-sm-6 "><h3><a href="' + upcomingEvents[i].eventLink + '"><span class="event-day">' + upcomingEvents[i].eventDate.getMonth()+1 + '/' + upcomingEvents[i].eventDate.getDate() + '/' + upcomingEvents[i].eventDate.getFullYear() + '&nbsp;&nbsp;' + upcomingEvents[i].eventDate.toLocaleTimeString([], {hour: '2-digit', minute:'2-digit'}) +'</span>&nbsp;<span class="event-name">' + upcomingEvents[i].eventName + '</span></a></h3><a href="' + upcomingEvents[i].eventLink + '"><img src="' + upcomingEvents[i].eventImgWide + '"></a><div class="row event-nav"><a href="' + upcomingEvents[i].eventLink + '" class="col-xs-4">VIEW EVENT</a><a href="bottle-service.com" class="col-xs-4 ">REQUEST VIP</a><a href="' + upcomingEvents[i].eventTix + '" class="col-xs-4 ">BUY TICKETS</a></div></div>';
+	homepageSpecialEvents.innerHTML = homepageSpecialEvents.innerHTML +
+    '<div class="home-page-event-content col-xs-12 col-sm-6 "><h3><a href="'+
+    upcomingEvents[i].eventLink +
+    '"><span class="event-day">' +
+    upcomingEvents[i].eventDate.getMonth()+1 +
+    '/' + upcomingEvents[i].eventDate.getDate() +
+    '/' + upcomingEvents[i].eventDate.getFullYear()
+    + '&nbsp;&nbsp;' + upcomingEvents[i].eventDate.toLocaleTimeString([], {hour: '2-digit', minute:'2-digit'})
+    +'</span>&nbsp;<span class="event-name">' +
+    upcomingEvents[i].eventName +
+    '</span></a></h3><a href="' + upcomingEvents[i].eventLink +
+    '"><img src="' + upcomingEvents[i].eventImgWide + '" alt="A event poster for ' +  upcomingEvents[i].eventArtist + ', performing at the Necto Nightclub in Ann Arbor on ' + upcomingEvents[i].eventDate.getMonth()+1 +
+    '/' + upcomingEvents[i].eventDate.getDate() +
+    '/' + upcomingEvents[i].eventDate.getFullYear() + '."></a><div class="row event-nav"><a href="' + upcomingEvents[i].eventLink +
+    '" class="col-xs-4">VIEW EVENT</a><a href="bottle-service.com" class="col-xs-4 ">REQUEST VIP</a><a href="' +
+    upcomingEvents[i].eventTix + '" class="col-xs-4 ">BUY TICKETS</a></div></div>';
 }
 
 
-// A test for checking  what you are changeing
+// A test for checking  what you are changing
 for (i = 0; i < eventsLength; i++) {
 
 }
 
-alert('Working');

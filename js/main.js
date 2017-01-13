@@ -1,3 +1,5 @@
+/** EVENT POPULATION **/
+
 // Assigns a var to the special events list on the homepage
 //TODO: Repeat this for cal, past events page
 var homepageSpecialEvents = document.getElementById('homepageSpecialEvents');
@@ -152,17 +154,121 @@ function populateFrontPageEvents() {
     }
 }
 
-// Sets Navigation varibles to build the header nav on all pages
-var desktopHeaderNav = [
+/** NAVIGATION POPULATION **/
+//  TODO: You need to decide on how you want to do the mobile Dropdown Global nav. 
 
+// Header Navs
+var desktopHeaderMainNav = document.getElementById('desktopHeaderMainNav');
+var desktopHeaderWeeklyNav = document.getElementById('desktopHeaderWeeklyNav');
+
+// Footer Navs
+var footerWeeklyNav = document.getElementById('footerWeeklyNav');
+var footerMainNav = document.getElementById('footerMainNav');
+var footerSecondaryNav = document.getElementById('footerSecondaryNav');
+
+
+
+// Sets Navigation varibles to build the Main Nav on all pages
+var mainNavigation = [
     {
-        "linkUrl"    : 'firstlink.com',
-        "anchorName" : 'firstLink',
+        "linkUrl"    : 'calendar.html',
+        "anchorName" : 'CALENDAR',
+    },
+    {
+        "linkUrl"    : 'bottle-service-vip-reservations.html',
+        "anchorName" : 'BOTTLE SERVICE/VIP',
+    },
+    {
+        "linkUrl"    : 'private-event-night-club-rental.html',
+        "anchorName" : 'PRIVATE RENTAL',
+    },
+    {
+        "linkUrl"    : 'directions.html',
+        "anchorName" : 'DIRECTIONS',
+    },
+    {
+        "linkUrl"    : 'contact.html',
+        "anchorName" : 'CONTACT',
+    },
+    {
+        "linkUrl"    : 'https://www.eventbrite.com/d/mi--ann-arbor/necto/?mode=search',
+        "anchorName" : 'TICKETS',
     }
 ];
 
+// Sets Navigation varibles to build the Weekly Nav on all pages
+// TODO: Use this in the Weekly links too
+var weeklyNavigation = [
+    {
+        "linkUrl"    : 'factory-monday.html',
+        "anchorName" : 'FACTORY MONDAY',
+    },
+    {
+        "linkUrl"    : 'mix-thursday.html',
+        "anchorName" : 'MIX THURSDAY',
+    },
+    {
+        "linkUrl"    : 'pride-friday.html',
+        "anchorName" : 'PRIDE FRIDAY',
+    },
+    {
+        "linkUrl"    : 'frequency-saturday.html',
+        "anchorName" : 'FREQUENCY SATURDAY',
+    }
+];
+
+// Sets Navigation varibles to build the Secondary Nav on all pages
+var secondaryNavigation = [
+    {
+        "linkUrl"    : 'about-the-necto.html',
+        "anchorName" : 'ABOUT',
+    },
+    {
+        "linkUrl"    : 'necto-press.html',
+        "anchorName" : 'PRESS',
+    },
+    {
+        "linkUrl"    : 'faq.html',
+        "anchorName" : 'FAQ',
+    },
+    {
+        "linkUrl"    : 'necto-policies.html',
+        "anchorName" : 'POLICIES',
+    },
+    {
+        "linkUrl"    : 'necto-booking.html',
+        "anchorName" : 'BOOKING',
+    },
+];
+
 // Builds both header and footer navigation on all pages.
+//  TODO: Add queries that tell where a visitor came from: ?=somePage. 
 function buildNavs() {
-    alert()
+
+    // Sets the destop Main Header Nav
+    for (var i = 0; i <= mainNavigation.length -1; i++) {
+        desktopHeaderMainNav.innerHTML = desktopHeaderMainNav.innerHTML + '<a href="' + mainNavigation[i].linkUrl + '">' + mainNavigation[i].anchorName + '</a>'
+    };
+
+    // Sets the destop Weekly Header Nav
+    for (var i = 0; i <= weeklyNavigation.length -1; i++) {
+        desktopHeaderWeeklyNav.innerHTML = desktopHeaderWeeklyNav.innerHTML + '<a href="' + weeklyNavigation[i].linkUrl + '">' + weeklyNavigation[i].anchorName + '</a>'
+    };
+
+    // Sets the Weekly Footer Nav
+    for (var i = 0; i <= weeklyNavigation.length -1; i++) {
+        footerWeeklyNav.innerHTML = footerWeeklyNav.innerHTML + '<li><a href="' + weeklyNavigation[i].linkUrl + '">' + weeklyNavigation[i].anchorName + '</a></li>'
+    };
+
+    // Sets the Main Footer Nav
+    for (var i = 0; i <= mainNavigation.length -1; i++) {
+        footerMainNav.innerHTML = footerMainNav.innerHTML + '<li><a href="' + mainNavigation[i].linkUrl + '">' + mainNavigation[i].anchorName + '</a></li>'
+    };
+
+    // Sets the Secondary Footer Nav
+    for (var i = 0; i <= secondaryNavigation.length -1; i++) {
+        footerSecondaryNav.innerHTML = footerSecondaryNav.innerHTML + '<li><a href="' + secondaryNavigation[i].linkUrl + '">' + secondaryNavigation[i].anchorName + '</a></li>'
+    };
+
 }
 

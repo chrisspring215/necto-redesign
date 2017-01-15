@@ -9,7 +9,7 @@ var homepageSpecialEvents = document.getElementById('homepageSpecialEvents');
 var currentDate = new Date();
 
 // Sets the default hours an event should display for after start
-var displayForXHours = 6;
+var displayForXHours = 1;
 
 // An array containg future events to be placed in the eventList
 var upcomingEvents = [];
@@ -36,7 +36,7 @@ var events = [
     },
 
     {
-        "eventDate"    : new Date("Jan 15, 2017 18:22:00"),
+        "eventDate"    : new Date("Jan 15, 2017 18:24:00"),
         "eventName"    : "Emily",
         "eventArtist"  : "Emily",
         "eventDesc"    : "Some info about the event.",
@@ -51,7 +51,7 @@ var events = [
     },
 
     {
-        "eventDate"    : new Date("Jan 14, 2017 18:00:00"),
+        "eventDate"    : new Date("Jan 14, 2017 18:34:00"),
         "eventName"    : "Emily",
         "eventArtist"  : "Emily",
         "eventDesc"    : "Some info about the event.",

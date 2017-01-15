@@ -8,6 +8,9 @@ var homepageSpecialEvents = document.getElementById('homepageSpecialEvents');
 // TODO: Needs to factor in that an event typically goes until 2 am
 var currentDate = new Date();
 
+// Sets the default hours an event should display for after start
+var displayForXHours = 6;
+
 // An array containg future events to be placed in the eventList
 var upcomingEvents = [];
 
@@ -18,59 +21,14 @@ var pastEvents = [];
 // TODO: Add meta data tags for the indivual event pages
 var events = [
     {
-    	"eventDate"    : new Date("Jan 8, 2017 11:13:00"),
-        "eventName"    : "first",
-        "eventArtist"  : "Chris Collins",
+        "eventDate"    : new Date("Jan 16, 2017 18:22:00"),
+        "eventName"    : "Emily",
+        "eventArtist"  : "Emily",
         "eventDesc"    : "Some info about the event.",
         "eventCover"   : '$1 before 10pm & $3 after 10pm',
         "eventLink"    : 'https://www.facebook.com/events/352741681775405/',
         "eventSocial"  : 'https://www.facebook.com/events/352741681775405/',
-        "eventTix"	   : 'https://www.facebook.com/events/352741681775405/',
-        "eventImgTall" : '/event-images/imaeg.jpg',
-        "eventImgWide" : '/event-images/imaeg.jpg',
-        "eventDay"	   : 0, // Do not modify
-        "pastEvent"	   : false // Do not modify
-    },
-
-    {
-    	"eventDate"    : new Date("Jan 8, 2017 11:13:00"),
-        "eventName"    : "first",
-        "eventArtist"  : "Chris Collins",
-        "eventDesc"    : "Some info about the event.",
-        "eventCover"   : '$1 before 10pm & $3 after 10pm',
-        "eventLink"    : 'https://www.facebook.com/events/352741681775405/',
-        "eventSocial"  : 'https://www.facebook.com/events/352741681775405/',
-        "eventTix"	   : 'https://www.facebook.com/events/352741681775405/',
-        "eventImgTall" : '/event-images/imaeg.jpg',
-        "eventImgWide" : '/event-images/imaeg.jpg',
-        "eventDay"	   : 0, // Do not modify
-        "pastEvent"	   : false // Do not modify
-    },
-
-    {
-    	"eventDate"    : new Date("Jan 16, 2017 20:00:00"),
-        "eventName"    : "Dave",
-        "eventArtist"  : "Dave",
-        "eventDesc"    : "Some info about the event.",
-        "eventCover"   : '$1 before 10pm & $3 after 10pm',
-        "eventLink"    : 'https://www.eventlink.com',
-        "eventSocial"  : 'https://www.facebook.com',
-        "eventTix"	   : 'https://www.Tixlink.com',
-        "eventImgTall" : 'img/event-images/cal-lemaitre-at-necto-nightclub-ann-arbor.jpg',
-        "eventImgWide" : 'img/event-images/cal-lemaitre-at-necto-nightclub-ann-arbor.jpg',
-        "eventDay"	   : 0, // Do not modify
-        "pastEvent"	   : false // Do not modify
-    },
-
-    {
-        "eventDate"    : new Date("Jan 17, 2017 20:00:00"),
-        "eventName"    : "Bruce",
-        "eventArtist"  : "Bruce",
-        "eventDesc"    : "Some info about the event.",
-        "eventCover"   : '$1 before 10pm & $3 after 10pm',
-        "eventLink"    : 'https://www.eventlink.com',
-        "eventSocial"  : 'https://www.facebook.com',
-        "eventTix"     : 'https://www.Tixlink.com',
+        "eventTix"     : 'https://www.facebook.com/events/352741681775405/',
         "eventImgTall" : 'img/event-images/cal-lemaitre-at-necto-nightclub-ann-arbor.jpg',
         "eventImgWide" : 'img/event-images/cal-lemaitre-at-necto-nightclub-ann-arbor.jpg',
         "eventDay"     : 0, // Do not modify
@@ -78,18 +36,33 @@ var events = [
     },
 
     {
-    	"eventDate"    : new Date("Jan 18, 2017 11:13:00"),
+        "eventDate"    : new Date("Jan 15, 2017 18:22:00"),
         "eventName"    : "Emily",
         "eventArtist"  : "Emily",
         "eventDesc"    : "Some info about the event.",
         "eventCover"   : '$1 before 10pm & $3 after 10pm',
         "eventLink"    : 'https://www.facebook.com/events/352741681775405/',
         "eventSocial"  : 'https://www.facebook.com/events/352741681775405/',
-        "eventTix"	   : 'https://www.facebook.com/events/352741681775405/',
+        "eventTix"     : 'https://www.facebook.com/events/352741681775405/',
         "eventImgTall" : 'img/event-images/cal-lemaitre-at-necto-nightclub-ann-arbor.jpg',
         "eventImgWide" : 'img/event-images/cal-lemaitre-at-necto-nightclub-ann-arbor.jpg',
-        "eventDay"	   : 0, // Do not modify
-        "pastEvent"	   : false // Do not modify
+        "eventDay"     : 0, // Do not modify
+        "pastEvent"    : false // Do not modify
+    },
+
+    {
+        "eventDate"    : new Date("Jan 14, 2017 18:00:00"),
+        "eventName"    : "Emily",
+        "eventArtist"  : "Emily",
+        "eventDesc"    : "Some info about the event.",
+        "eventCover"   : '$1 before 10pm & $3 after 10pm',
+        "eventLink"    : 'https://www.facebook.com/events/352741681775405/',
+        "eventSocial"  : 'https://www.facebook.com/events/352741681775405/',
+        "eventTix"     : 'https://www.facebook.com/events/352741681775405/',
+        "eventImgTall" : 'img/event-images/cal-lemaitre-at-necto-nightclub-ann-arbor.jpg',
+        "eventImgWide" : 'img/event-images/cal-lemaitre-at-necto-nightclub-ann-arbor.jpg',
+        "eventDay"     : 0, // Do not modify
+        "pastEvent"    : false // Do not modify
     }
 ];
 
@@ -98,27 +71,35 @@ var eventsLength = events.length;
 
 // Sets the eventDay to push out Upcomming Events to Weekly Pages
 for (var i = 0; i < eventsLength; i++) {
-	events[i].eventDay = events[i].eventDate.getDay();
+    events[i].eventDay = events[i].eventDate.getDay();
 }
 
 // Sets the pastEvent status for displaying on the Front Page, Weekly Page, Cal and Past Events.
+// This is compairing the event's time to the current time minus some hours so that it does not disapear
+// After midnight
 for (i = 0; i < eventsLength; i++) {
-	if (events[i].eventDate >= currentDate) {
-		events[i].pastEvent = false;
-	}
 
-	else {
-		events[i].pastEvent = true;
-	}
+    var endDate = events[i].eventDate.setHours(events[i].eventDate.getHours() + displayForXHours);
+
+
+    if (endDate >= currentDate) {
+        events[i].eventDate.setHours(events[i].eventDate.getHours() - displayForXHours);
+        events[i].pastEvent = false;
+    }
+
+    else {
+        events[i].eventDate.setHours(events[i].eventDate.getHours() - displayForXHours);
+        events[i].pastEvent = true;
+    }
 }
 
 // Pushes upcoming events into the upcoming evens array
 for (i = 0; i <= eventsLength - 1; i++) {
-	if (events[i].pastEvent === false) {
-		upcomingEvents.push(events[i]);
-	}
-	else {		
-	}
+    if (events[i].pastEvent === false) {
+        upcomingEvents.push(events[i]);
+    }
+    else {      
+    }
 }
 
 // Pushes upcoming events into the past evens array
@@ -133,9 +114,11 @@ for (i = 0; i <= eventsLength - 1; i++) {
 //Is called ont he home page and populates the front page events list.
 //Use this for the Past events page and cal too.
 function populateFrontPageEvents() {
+    upcomingEvents.reverse();
+
     // Populates the event list on the homepage
     for (i = 0; i <= upcomingEvents.length - 1; i++) {
-    	homepageSpecialEvents.innerHTML = homepageSpecialEvents.innerHTML +
+        homepageSpecialEvents.innerHTML = homepageSpecialEvents.innerHTML +
         '<div class="home-page-event-content col-xs-12 col-sm-6 "><h3><a href="'+
         upcomingEvents[i].eventLink +
         '"><span class="event-day">' +
@@ -247,8 +230,8 @@ function buildNavs() {
 
     // Sets the destop Main Header Nav
     for (var i = 0; i <= mainNavigation.length -1; i++) {
-        desktopHeaderMainNav.innerHTML = desktopHeaderMainNav.innerHTML + '<a href="' + mainNavigation[i].linkUrl + '">' + mainNavigation[i].anchorName + '</a>'
-    };
+        desktopHeaderMainNav.innerHTML = desktopHeaderMainNav.innerHTML + '<a href="' + mainNavigation[i].linkUrl + '">' + mainNavigation[i].anchorName + '</a>';
+    }
 
     // Sets the destop Weekly Header Nav
     for (var i = 0; i <= weeklyNavigation.length -1; i++) {

@@ -1701,22 +1701,23 @@ header {
   display: block;
   z-index: 1000;
   position: fixed;
+  -webkit-backface-visibility: hidden;
   top: 36px;
   width: 100%;
   background: #111111;
 }
-/* line 34, ../scss/_header.scss */
+/* line 35, ../scss/_header.scss */
 .mobile-global-nav-modal ul {
   margin-top: 0;
   margin-bottom: 0;
   background-color: #111111;
 }
-/* line 40, ../scss/_header.scss */
+/* line 41, ../scss/_header.scss */
 .mobile-global-nav-modal li {
   text-align: right;
   border-bottom: 1px solid #252525;
 }
-/* line 45, ../scss/_header.scss */
+/* line 46, ../scss/_header.scss */
 .mobile-global-nav-modal a {
   display: block;
   width: 100%;
@@ -1726,82 +1727,82 @@ header {
   color: #3bddff;
 }
 
-/* line 56, ../scss/_header.scss */
+/* line 57, ../scss/_header.scss */
 .mobile-global-nav {
   display: inline;
 }
-/* line 61, ../scss/_header.scss */
+/* line 62, ../scss/_header.scss */
 .mobile-global-nav .global-nav {
   font-family: "Oswald", sans-serif;
   float: right;
 }
-/* line 66, ../scss/_header.scss */
+/* line 67, ../scss/_header.scss */
 .mobile-global-nav .global-nav a {
   color: #ed1968;
 }
 
-/* line 73, ../scss/_header.scss */
+/* line 74, ../scss/_header.scss */
 .full-global-nav {
   display: none;
 }
 
 @media only screen and (min-width: 48em) {
-  /* line 79, ../scss/_header.scss */
+  /* line 80, ../scss/_header.scss */
   header {
     height: 4.25rem;
   }
-  /* line 82, ../scss/_header.scss */
+  /* line 83, ../scss/_header.scss */
   header span {
     display: inline;
   }
 
-  /* line 88, ../scss/_header.scss */
+  /* line 89, ../scss/_header.scss */
   .global-nav, .weekly-nav {
     display: inline;
     float: right;
     font-family: "Oswald", sans-serif;
   }
-  /* line 94, ../scss/_header.scss */
+  /* line 95, ../scss/_header.scss */
   .global-nav a, .weekly-nav a {
     margin-left: 1em;
   }
 
-  /* line 102, ../scss/_header.scss */
+  /* line 103, ../scss/_header.scss */
   .global-nav a {
     color: #3bddff;
     -webkit-transition: color 300ms ease;
     transition: color 300ms ease;
   }
-  /* line 108, ../scss/_header.scss */
+  /* line 109, ../scss/_header.scss */
   .global-nav a:hover, .global-nav a:active, .global-nav a:focus {
     color: #eeeeee;
     -webkit-transition: color 200ms ease;
     transition: color 200ms ease;
   }
 
-  /* line 117, ../scss/_header.scss */
+  /* line 118, ../scss/_header.scss */
   .weekly-nav {
     margin-top: -0.75em;
   }
-  /* line 121, ../scss/_header.scss */
+  /* line 122, ../scss/_header.scss */
   .weekly-nav a {
     color: #ed1968;
     -webkit-transition: color 300ms ease;
     transition: color 300ms ease;
   }
-  /* line 127, ../scss/_header.scss */
+  /* line 128, ../scss/_header.scss */
   .weekly-nav a:hover, .weekly-nav a:active, .weekly-nav a:focus {
     color: #eeeeee;
     -webkit-transition: color 200ms ease;
     transition: color 200ms ease;
   }
 
-  /* line 137, ../scss/_header.scss */
+  /* line 138, ../scss/_header.scss */
   .mobile-global-nav {
     display: none;
   }
 
-  /* line 142, ../scss/_header.scss */
+  /* line 143, ../scss/_header.scss */
   .full-global-nav {
     display: inline-block;
   }

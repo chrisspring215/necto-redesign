@@ -1700,7 +1700,7 @@ header {
 .mobile-global-nav-modal {
   display: block;
   z-index: 1000;
-  position: absolute;
+  position: fixed;
   top: 36px;
   width: 100%;
   background: #111111;

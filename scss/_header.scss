@@ -16,6 +16,41 @@ header {
 	width: 100%;
 }
 
+.mobile-global-nav-modal-hidden
+{
+	display: none;
+}
+
+.mobile-global-nav-modal
+{
+	display: block;
+	z-index: 1000;
+	position: absolute;
+	top: 36px;
+	width: 100%;
+	background: $darkest;
+
+	ul
+	{
+		margin-top: 0;
+		margin-bottom: 0;
+		background-color: $darkest;
+	}
+
+	li {
+		text-align: right;
+		border-bottom: 1px solid $darkest + 20;
+	}
+
+	a {
+		display: block;
+		width: 100%;
+		padding-top: .4em;
+		padding-bottom: .4em;
+		font-size: 1em;
+		color: $blue;
+	}
+}
 
 .mobile-global-nav
 {
@@ -31,7 +66,6 @@ header {
 		{
 			color: $pink;
 		}
-		
 	}
 }
 

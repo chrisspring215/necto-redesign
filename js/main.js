@@ -1,3 +1,21 @@
+/** MOBILE NAV **/
+
+// Sets Vars for the Open button and the menu
+var mobileGlobalNav = document.getElementById('mobileGlobalNav');
+var mobileMenuButton = document.getElementById('mobileMenuButton');
+
+// Opens the menu and changes the onclick to close the menu
+function openMobileNav() {
+    mobileGlobalNav.setAttribute('class', 'mobile-global-nav-modal');
+    mobileMenuButton.setAttribute('onclick', 'closeMobileNav()');
+}
+
+// Closes the menu and changes the onclick to open the menu
+function closeMobileNav() {
+    mobileGlobalNav.setAttribute('class', 'mobile-global-nav-modal-hidden');
+    mobileMenuButton.setAttribute('onclick', 'openMobileNav()');
+}
+
 /** EVENT POPULATION **/
 
 // Assigns a var to the special events list on the homepage

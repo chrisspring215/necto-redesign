@@ -1686,38 +1686,53 @@ header {
   border-bottom: 4px solid #3bddff;
   box-shadow: 0px 4px 2px rgba(0, 0, 0, 0.25);
   position: fixed;
-  z-index: 1000;
+  z-index: 100;
   top: 0;
   width: 100%;
 }
 
-/* line 20, ../scss/_header.scss */
-.mobile-global-nav-modal-hidden {
-  display: none;
+/* line 19, ../scss/_header.scss */
+.top-bar {
+  z-index: 1000;
+  background-color: #111111;
+  border-bottom: 2px solid #3bddff;
 }
 
-/* line 25, ../scss/_header.scss */
-.mobile-global-nav-modal {
-  display: block;
-  z-index: 1000;
+@-moz-keyframes slidein {
+  /* line 27, ../scss/_header.scss */
+  0% {
+    opacity: 0;
+    top: -320px;
+  }
+
+  /* line 32, ../scss/_header.scss */
+  100% {
+    opacity: 1;
+    top: 36px;
+  }
+}
+
+/* line 39, ../scss/_header.scss */
+.mobile-global-nav-modal-hidden {
+  z-index: 50;
+  font-family: "Oswald", sans-serif;
   position: fixed;
-  top: 36px;
   width: 100%;
   background: #111111;
+  top: -320px;
 }
-/* line 34, ../scss/_header.scss */
-.mobile-global-nav-modal ul {
+/* line 48, ../scss/_header.scss */
+.mobile-global-nav-modal-hidden ul {
   margin-top: 0;
   margin-bottom: 0;
-  background-color: #111111;
 }
-/* line 40, ../scss/_header.scss */
-.mobile-global-nav-modal li {
+/* line 53, ../scss/_header.scss */
+.mobile-global-nav-modal-hidden li {
   text-align: right;
   border-bottom: 1px solid #252525;
 }
-/* line 45, ../scss/_header.scss */
-.mobile-global-nav-modal a {
+/* line 58, ../scss/_header.scss */
+.mobile-global-nav-modal-hidden a {
   display: block;
   width: 100%;
   padding-top: .4em;
@@ -1726,82 +1741,126 @@ header {
   color: #3bddff;
 }
 
-/* line 56, ../scss/_header.scss */
+/* line 69, ../scss/_header.scss */
+.mobile-global-nav-modal {
+  z-index: -50;
+  font-family: "Oswald", sans-serif;
+  position: fixed;
+  width: 100%;
+  -moz-animation: slidein .25s ease-out;
+  top: 36px;
+  box-shadow: 0px 4px 2px rgba(0, 0, 0, 0.25);
+}
+/* line 79, ../scss/_header.scss */
+.mobile-global-nav-modal ul {
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-right: 0;
+  padding-left: 0;
+}
+/* line 87, ../scss/_header.scss */
+.mobile-global-nav-modal a {
+  display: block;
+  width: 100%;
+  padding-top: .4em;
+  padding-bottom: .4em;
+  font-size: 1em;
+  color: #eeeeee;
+  text-transform: uppercase;
+}
+/* line 98, ../scss/_header.scss */
+.mobile-global-nav-modal li {
+  text-align: right;
+  border-bottom: 1px solid #1b1b1b;
+  padding-right: 1rem;
+  box-shadow: 0px 4px 2px rgba(0, 0, 0, 0.25);
+  background: #111111;
+}
+/* line 105, ../scss/_header.scss */
+.mobile-global-nav-modal li:hover {
+  background: #ffe928;
+}
+/* line 108, ../scss/_header.scss */
+.mobile-global-nav-modal li:hover a {
+  color: #111111;
+}
+
+/* line 119, ../scss/_header.scss */
 .mobile-global-nav {
   display: inline;
 }
-/* line 61, ../scss/_header.scss */
+/* line 124, ../scss/_header.scss */
 .mobile-global-nav .global-nav {
   font-family: "Oswald", sans-serif;
   float: right;
 }
-/* line 66, ../scss/_header.scss */
-.mobile-global-nav .global-nav a {
+/* line 129, ../scss/_header.scss */
+.mobile-global-nav .global-nav a, .mobile-global-nav .global-nav span {
   color: #ed1968;
 }
 
-/* line 73, ../scss/_header.scss */
+/* line 136, ../scss/_header.scss */
 .full-global-nav {
   display: none;
 }
 
+/* line 143, ../scss/_header.scss */
+.global-nav a {
+  color: #3bddff;
+  -webkit-transition: color 300ms ease;
+  transition: color 300ms ease;
+}
+/* line 149, ../scss/_header.scss */
+.global-nav a:hover, .global-nav a:active, .global-nav a:focus {
+  color: #eeeeee;
+  -webkit-transition: color 200ms ease;
+  transition: color 200ms ease;
+}
+
 @media only screen and (min-width: 48em) {
-  /* line 79, ../scss/_header.scss */
+  /* line 159, ../scss/_header.scss */
   header {
     height: 4.25rem;
   }
-  /* line 82, ../scss/_header.scss */
+  /* line 162, ../scss/_header.scss */
   header span {
     display: inline;
   }
 
-  /* line 88, ../scss/_header.scss */
+  /* line 168, ../scss/_header.scss */
   .global-nav, .weekly-nav {
     display: inline;
     float: right;
     font-family: "Oswald", sans-serif;
   }
-  /* line 94, ../scss/_header.scss */
+  /* line 174, ../scss/_header.scss */
   .global-nav a, .weekly-nav a {
     margin-left: 1em;
   }
 
-  /* line 102, ../scss/_header.scss */
-  .global-nav a {
-    color: #3bddff;
-    -webkit-transition: color 300ms ease;
-    transition: color 300ms ease;
-  }
-  /* line 108, ../scss/_header.scss */
-  .global-nav a:hover, .global-nav a:active, .global-nav a:focus {
-    color: #eeeeee;
-    -webkit-transition: color 200ms ease;
-    transition: color 200ms ease;
-  }
-
-  /* line 117, ../scss/_header.scss */
+  /* line 182, ../scss/_header.scss */
   .weekly-nav {
     margin-top: -0.75em;
   }
-  /* line 121, ../scss/_header.scss */
+  /* line 186, ../scss/_header.scss */
   .weekly-nav a {
     color: #ed1968;
     -webkit-transition: color 300ms ease;
     transition: color 300ms ease;
   }
-  /* line 127, ../scss/_header.scss */
+  /* line 192, ../scss/_header.scss */
   .weekly-nav a:hover, .weekly-nav a:active, .weekly-nav a:focus {
     color: #eeeeee;
     -webkit-transition: color 200ms ease;
     transition: color 200ms ease;
   }
 
-  /* line 137, ../scss/_header.scss */
+  /* line 202, ../scss/_header.scss */
   .mobile-global-nav {
     display: none;
   }
 
-  /* line 142, ../scss/_header.scss */
+  /* line 207, ../scss/_header.scss */
   .full-global-nav {
     display: inline-block;
   }

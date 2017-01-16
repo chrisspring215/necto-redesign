@@ -10,31 +10,44 @@ header {
 	border-bottom: 4px solid $blue;
 	box-shadow: $boxShadowDark;
 	position: fixed;
-	z-index: 1000;
+	z-index: 100;
 
 	top: 0;
 	width: 100%;
 }
 
-.mobile-global-nav-modal-hidden
-{
-	display: none;
+.top-bar {
+	z-index: 1000;
+	background-color: $darkest;
+	border-bottom: 2px solid $blue;
+
 }
 
-.mobile-global-nav-modal
+@-moz-keyframes slidein {
+  0% {
+    opacity: 0;
+    top: -320px;
+  }
+
+  100% {
+  	opacity: 1;
+    top: 36px;
+  }
+}
+
+.mobile-global-nav-modal-hidden
 {
-	display: block;
-	z-index: 1000;
+	z-index: 50;
+	font-family: $font-main;
 	position: fixed;
-	top: 36px;
 	width: 100%;
 	background: $darkest;
+	top: -320px;
 
 	ul
 	{
 		margin-top: 0;
 		margin-bottom: 0;
-		background-color: $darkest;
 	}
 
 	li {
@@ -52,6 +65,56 @@ header {
 	}
 }
 
+.mobile-global-nav-modal
+{
+	z-index: -50;
+	font-family: $font-main;
+	position: fixed;
+	width: 100%;
+	-moz-animation: slidein .25s ease-out;
+	top: 36px;
+	box-shadow: $boxShadowDark;
+
+	ul
+	{
+		margin-top: 0;
+		margin-bottom: 0;
+		
+		padding-right: 0;
+		padding-left: 0;
+	}
+
+	a {
+		display: block;
+		width: 100%;
+		padding-top: .4em;
+		padding-bottom: .4em;
+		font-size: 1em;
+		color: $white;
+		text-transform: uppercase;
+
+	}
+
+	li {
+		text-align: right;
+		border-bottom: 1px solid $darkest + 10;
+		padding-right: 1rem;
+		box-shadow: $boxShadowDark;
+		background: $darkest;
+		&:hover
+		{
+			background: $yellow;
+
+			a{
+				color: $darkest;
+			}
+			
+		}
+	}
+
+	
+}
+
 .mobile-global-nav
 {
 	display: inline;
@@ -62,7 +125,7 @@ header {
 		font-family: $font-main;
 		float: right;
 		
-		a
+		a, span
 		{
 			color: $pink;
 		}
@@ -73,6 +136,23 @@ header {
 {
 	display: none;
 }
+
+.global-nav
+	{
+		a
+		{
+			color: $blue;
+			-webkit-transition:  color 300ms ease;
+        	transition:          color 300ms ease;
+
+			&:hover, &:active, &:focus
+			{
+				color: $white;
+				-webkit-transition:  color 200ms ease;
+        		transition:          color 200ms ease;
+			}
+		}
+	}
 
 @media only screen and (min-width: 48em) {
 	header
@@ -96,22 +176,7 @@ header {
 		}
 	}
 
-	.global-nav
-	{
-		a
-		{
-			color: $blue;
-			-webkit-transition:  color 300ms ease;
-        	transition:          color 300ms ease;
-
-			&:hover, &:active, &:focus
-			{
-				color: $white;
-				-webkit-transition:  color 200ms ease;
-        		transition:          color 200ms ease;
-			}
-		}
-	}
+	
 
 	.weekly-nav
 	{

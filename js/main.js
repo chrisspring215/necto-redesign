@@ -8,12 +8,14 @@ var mobileMenuButton = document.getElementById('mobileMenuButton');
 function openMobileNav() {
     mobileGlobalNav.setAttribute('class', 'mobile-global-nav-modal');
     mobileMenuButton.setAttribute('onclick', 'closeMobileNav()');
+    mobileMenuButton.innerHTML = 'CLOSE';
 }
 
 // Closes the menu and changes the onclick to open the menu
 function closeMobileNav() {
     mobileGlobalNav.setAttribute('class', 'mobile-global-nav-modal-hidden');
     mobileMenuButton.setAttribute('onclick', 'openMobileNav()');
+    mobileMenuButton.innerHTML = 'MENU';
 }
 
 /** EVENT POPULATION **/
@@ -39,7 +41,7 @@ var pastEvents = [];
 // TODO: Add meta data tags for the indivual event pages
 var events = [
     {
-        "eventDate"    : new Date("Jan 16, 2017 18:22:00"),
+        "eventDate"    : new Date("Jan 19, 2017 18:22:00"),
         "eventName"    : "Emily",
         "eventArtist"  : "Emily",
         "eventDesc"    : "Some info about the event.",

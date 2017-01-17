@@ -4,14 +4,12 @@ header {
 	margin-bottom: 0;
 	height: 2.25rem;
 	line-height: 2.25rem;
-
 	font-family: $eyechart;
 	font-weight: normal;
 	border-bottom: 4px solid $blue;
 	box-shadow: $boxShadowDark;
 	position: fixed;
 	z-index: 100;
-
 	top: 0;
 	width: 100%;
 }
@@ -24,6 +22,18 @@ header {
 }
 
 @-moz-keyframes slidein {
+  0% {
+    opacity: 0;
+    top: -320px;
+  }
+
+  100% {
+  	opacity: 1;
+    top: 36px;
+  }
+}
+
+@-webkit-keyframes slidein {
   0% {
     opacity: 0;
     top: -320px;
@@ -72,6 +82,7 @@ header {
 	position: fixed;
 	width: 100%;
 	-moz-animation: slidein .25s ease-out;
+	-webkit-animation: slidein .25s ease-out;
 	top: 36px;
 	box-shadow: $boxShadowDark;
 
@@ -142,19 +153,18 @@ header {
 		a
 		{
 			color: $blue;
-			-webkit-transition:  color 300ms ease;
-        	transition:          color 300ms ease;
+        	transition: color 300ms ease;
 
 			&:hover, &:active, &:focus
 			{
 				color: $white;
-				-webkit-transition:  color 200ms ease;
-        		transition:          color 200ms ease;
+        		transition: color 200ms ease;
 			}
 		}
 	}
 
 @media only screen and (min-width: 48em) {
+
 	header
 	{
 	height: 4.25rem;
@@ -176,8 +186,6 @@ header {
 		}
 	}
 
-	
-
 	.weekly-nav
 	{
 		margin-top: -.75em;
@@ -197,7 +205,6 @@ header {
 		}
 	}
 
-
 	.mobile-global-nav
 	{
 		display: none;
@@ -206,8 +213,13 @@ header {
 	.full-global-nav
 	{
 		display: inline-block;
-		
 
+		.logo{
+			display: block;
+			position: absolute;
+			color: $white;
+			padding-top: 1em;
+		}
 	}
 
 }

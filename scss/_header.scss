@@ -78,7 +78,7 @@ header {
 		display: block;
 		width: 100%;
 		font-size: 1em;
-		color: $pink;
+		color: $yellow;
 		text-transform: uppercase;
 
 	}
@@ -92,8 +92,8 @@ header {
 		background: $darkest;
 		list-style-type: none;
 		text-transform: uppercase;
-		padding-top: .2em;
-		padding-bottom: .2em;
+		padding-top: .1em;
+		padding-bottom: .1em;
 
 		&:hover
 		{

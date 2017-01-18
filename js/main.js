@@ -256,6 +256,7 @@ function buildNavs() {
     for (var i = 0; i <= weeklyNavigation.length -1; i++) {
         mobileHeaderNav.innerHTML = mobileHeaderNav.innerHTML + '<li class="weeklyMobileNavLink"><a href="' + weeklyNavigation[i].linkUrl + '">' + weeklyNavigation[i].anchorName + '</a></li>';
     }
+    
 
     // Sets the mobile Main Header Nav (main)
     for (var i = 0; i <= mainNavigation.length -1; i++) {

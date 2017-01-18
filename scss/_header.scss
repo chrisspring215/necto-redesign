@@ -51,28 +51,8 @@ header {
 	font-family: $font-main;
 	position: fixed;
 	width: 100%;
-	background: $darkest;
-	top: -320px;
 
-	ul
-	{
-		margin-top: 0;
-		margin-bottom: 0;
-	}
-
-	li {
-		text-align: right;
-		border-bottom: 1px solid $darkest + 20;
-	}
-
-	a {
-		display: block;
-		width: 100%;
-		padding-top: .4em;
-		padding-bottom: .4em;
-		font-size: 1em;
-		color: $blue;
-	}
+	top: -600px;
 }
 
 .mobile-global-nav-modal
@@ -90,7 +70,6 @@ header {
 	{
 		margin-top: 0;
 		margin-bottom: 0;
-		
 		padding-right: 0;
 		padding-left: 0;
 	}
@@ -98,32 +77,38 @@ header {
 	a {
 		display: block;
 		width: 100%;
-		padding-top: .4em;
-		padding-bottom: .4em;
 		font-size: 1em;
-		color: $white;
+		color: $pink;
 		text-transform: uppercase;
 
 	}
 
 	li {
+
 		text-align: right;
 		border-bottom: 1px solid $darkest + 10;
 		padding-right: 1rem;
 		box-shadow: $boxShadowDark;
 		background: $darkest;
+		list-style-type: none;
+		text-transform: uppercase;
+		padding-top: .4em;
+		padding-bottom: .4em;
+
 		&:hover
 		{
 			background: $yellow;
+			color: $darkest;
 
 			a{
 				color: $darkest;
 			}
-			
 		}
 	}
-
-	
+	.weeklyMobileNavLink a
+	{
+		color: $blue;
+	}
 }
 
 .mobile-global-nav

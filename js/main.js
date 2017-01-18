@@ -18,6 +18,10 @@ function closeMobileNav() {
     mobileMenuButton.innerHTML = 'MENU';
 }
 
+function displayWeeklys() {
+    alert('hello')
+}
+
 /** EVENT POPULATION **/
 
 // Assigns a var to the special events list on the homepage
@@ -247,6 +251,23 @@ var secondaryNavigation = [
 // Builds both header and footer navigation on all pages.
 //  TODO: Add queries that tell where a visitor came from: ?=somePage. 
 function buildNavs() {
+
+    // Sets the mobile Main Header Nav (weeklys)
+    for (var i = 0; i <= weeklyNavigation.length -1; i++) {
+        mobileHeaderNav.innerHTML = mobileHeaderNav.innerHTML + '<li class="weeklyMobileNavLink"><a href="' + weeklyNavigation[i].linkUrl + '">' + weeklyNavigation[i].anchorName + '</a></li>';
+    }
+
+    // Sets the mobile Main Header Nav (main)
+    for (var i = 0; i <= mainNavigation.length -1; i++) {
+        mobileHeaderNav.innerHTML = mobileHeaderNav.innerHTML + '<li><a href="' + mainNavigation[i].linkUrl + '">' + mainNavigation[i].anchorName + '</a></li>';
+    }
+    
+    
+
+    
+
+    
+    
 
     // Sets the destop Main Header Nav
     for (var i = 0; i <= mainNavigation.length -1; i++) {

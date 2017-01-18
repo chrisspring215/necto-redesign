@@ -22,4 +22,13 @@ footer {
 		padding-left: 0;		
 	}
 
+	a {
+	color: $blue;
+	transition: color 100ms ease;
+	}
+
+	a:hover {
+		color: $yellow;
+		transition: color 100ms ease;
+	}
 }

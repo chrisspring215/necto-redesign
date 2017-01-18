@@ -1,0 +1,19 @@
+{
+    "name": "Necto Nightclub",
+    "icons": [
+        {
+            "src": "/favicon/android-chrome-192x192.png",
+            "sizes": "192x192",
+            "type": "image/png"
+        },
+        {
+            "src": "/favicon/android-chrome-256x256.png",
+            "sizes": "256x256",
+            "type": "image/png"
+        }
+    ],
+    "theme_color": "#3bddff",
+    "background_color": "#3bddff",
+    "start_url": "https://www.necto.com/",
+    "display": "standalone"
+}

@@ -14,6 +14,10 @@ header {
 	width: 100%;
 }
 
+.logo {
+	color: $white;
+}
+
 .top-bar {
 	z-index: 1000;
 	background-color: $darkest;
@@ -202,7 +206,6 @@ header {
 		.logo{
 			display: block;
 			position: absolute;
-			color: $white;
 			padding-top: 1em;
 		}
 	}

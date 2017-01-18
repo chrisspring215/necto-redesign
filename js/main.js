@@ -18,10 +18,6 @@ function closeMobileNav() {
     mobileMenuButton.innerHTML = 'MENU';
 }
 
-function displayWeeklys() {
-    alert('hello')
-}
-
 /** EVENT POPULATION **/
 
 // Assigns a var to the special events list on the homepage
@@ -29,11 +25,10 @@ function displayWeeklys() {
 var homepageSpecialEvents = document.getElementById('homepageSpecialEvents');
 
 // Uses this to determin if an event is in the future or past
-// TODO: Needs to factor in that an event typically goes until 2 am
 var currentDate = new Date();
 
 // Sets the default hours an event should display for after start
-var displayForXHours = 1;
+var displayForXHours = 6;
 
 // An array containg future events to be placed in the eventList
 var upcomingEvents = [];
@@ -135,7 +130,7 @@ for (i = 0; i <= eventsLength - 1; i++) {
     }
 }
 
-//Is called ont he home page and populates the front page events list.
+//Is called on the home page and populates the front page events list.
 //Use this for the Past events page and cal too.
 function populateFrontPageEvents() {
     upcomingEvents.reverse();
@@ -150,7 +145,7 @@ function populateFrontPageEvents() {
         '/' + upcomingEvents[i].eventDate.getDate() +
         '/' + upcomingEvents[i].eventDate.getFullYear()
         + '&nbsp;&nbsp;' + upcomingEvents[i].eventDate.toLocaleTimeString([], {hour: '2-digit', minute:'2-digit'})
-        +'</span>&nbsp;<span class="event-name">' +
+        +'</span><br><span class="event-name">' +
         upcomingEvents[i].eventName +
         '</span></a></h3><a href="' + upcomingEvents[i].eventLink +
         '"><img src="' + upcomingEvents[i].eventImgWide + '" alt="A event poster for ' +  upcomingEvents[i].eventArtist + ', performing at the Necto Nightclub in Ann Arbor, Michigan on ' + upcomingEvents[i].eventDate.getMonth()+1 +
@@ -162,11 +157,11 @@ function populateFrontPageEvents() {
 }
 
 /** NAVIGATION POPULATION **/
-//  TODO: You need to decide on how you want to do the mobile Dropdown Global nav. 
 
 // Header Navs
 var desktopHeaderMainNav = document.getElementById('desktopHeaderMainNav');
 var desktopHeaderWeeklyNav = document.getElementById('desktopHeaderWeeklyNav');
+var mobileHeaderNav = document.getElementById('mobileHeaderNav');
 
 // Footer Navs
 var footerWeeklyNav = document.getElementById('footerWeeklyNav');
@@ -256,44 +251,34 @@ function buildNavs() {
     for (var i = 0; i <= weeklyNavigation.length -1; i++) {
         mobileHeaderNav.innerHTML = mobileHeaderNav.innerHTML + '<li class="weeklyMobileNavLink"><a href="' + weeklyNavigation[i].linkUrl + '">' + weeklyNavigation[i].anchorName + '</a></li>';
     }
-    
 
     // Sets the mobile Main Header Nav (main)
-    for (var i = 0; i <= mainNavigation.length -1; i++) {
+    for (i = 0; i <= mainNavigation.length -1; i++) {
         mobileHeaderNav.innerHTML = mobileHeaderNav.innerHTML + '<li><a href="' + mainNavigation[i].linkUrl + '">' + mainNavigation[i].anchorName + '</a></li>';
     }
     
-    
-
-    
-
-    
-    
-
     // Sets the destop Main Header Nav
-    for (var i = 0; i <= mainNavigation.length -1; i++) {
+    for (i = 0; i <= mainNavigation.length -1; i++) {
         desktopHeaderMainNav.innerHTML = desktopHeaderMainNav.innerHTML + '<a href="' + mainNavigation[i].linkUrl + '">' + mainNavigation[i].anchorName + '</a>';
     }
 
     // Sets the destop Weekly Header Nav
-    for (var i = 0; i <= weeklyNavigation.length -1; i++) {
-        desktopHeaderWeeklyNav.innerHTML = desktopHeaderWeeklyNav.innerHTML + '<a href="' + weeklyNavigation[i].linkUrl + '">' + weeklyNavigation[i].anchorName + '</a>'
-    };
+    for (i = 0; i <= weeklyNavigation.length -1; i++) {
+        desktopHeaderWeeklyNav.innerHTML = desktopHeaderWeeklyNav.innerHTML + '<a href="' + weeklyNavigation[i].linkUrl + '">' + weeklyNavigation[i].anchorName + '</a>';
+    }
 
     // Sets the Weekly Footer Nav
-    for (var i = 0; i <= weeklyNavigation.length -1; i++) {
-        footerWeeklyNav.innerHTML = footerWeeklyNav.innerHTML + '<li><a href="' + weeklyNavigation[i].linkUrl + '">' + weeklyNavigation[i].anchorName + '</a></li>'
-    };
+    for (i = 0; i <= weeklyNavigation.length -1; i++) {
+        footerWeeklyNav.innerHTML = footerWeeklyNav.innerHTML + '<li><a href="' + weeklyNavigation[i].linkUrl + '">' + weeklyNavigation[i].anchorName + '</a></li>';
+    }
 
     // Sets the Main Footer Nav
-    for (var i = 0; i <= mainNavigation.length -1; i++) {
-        footerMainNav.innerHTML = footerMainNav.innerHTML + '<li><a href="' + mainNavigation[i].linkUrl + '">' + mainNavigation[i].anchorName + '</a></li>'
-    };
+    for (i = 0; i <= mainNavigation.length -1; i++) {
+        footerMainNav.innerHTML = footerMainNav.innerHTML + '<li><a href="' + mainNavigation[i].linkUrl + '">' + mainNavigation[i].anchorName + '</a></li>';
+    }
 
     // Sets the Secondary Footer Nav
-    for (var i = 0; i <= secondaryNavigation.length -1; i++) {
-        footerSecondaryNav.innerHTML = footerSecondaryNav.innerHTML + '<li><a href="' + secondaryNavigation[i].linkUrl + '">' + secondaryNavigation[i].anchorName + '</a></li>'
-    };
-
+    for (i = 0; i <= secondaryNavigation.length -1; i++) {
+        footerSecondaryNav.innerHTML = footerSecondaryNav.innerHTML + '<li><a href="' + secondaryNavigation[i].linkUrl + '">' + secondaryNavigation[i].anchorName + '</a></li>';
+    }
 }
-

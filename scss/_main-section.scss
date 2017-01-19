@@ -17,9 +17,10 @@ a
 
 p {
     margin-top: 0em;
-    margin-bottom: .5em;
+    margin-bottom: 1em;
     padding: 0;
-    font-weight: thin;
+    font-weight: 300;
+    line-height: 1.5em;
 
     strong
     {
@@ -38,78 +39,106 @@ main {
 }
 */
 
+.mobile-social
+{
+    display: block;
 
+    text-align: center;
+    margin-top: 2em;
 
-.hero-image {
+    a {
+        color: $white;
+        padding: 0 1em;
+        text-shadow: 3px 3px 3px #333;
+
+        &:hover
+        {
+            color: $blue;
+        }
+    }
+}
+
+.hero-image
+{
     padding-bottom: 0em;
     padding-top: 5vh;
     box-shadow: $boxShadowDark;
     height: 100vh;
-
     
-    h1 {
+    h1
+    {
         
         margin-right: 10%;
         margin-left: 10%;
         margin-bottom: 0;
         padding: .25em 0;
-
-    	
     	text-align: center;
     	font-size: 2.75rem;
     	line-height: 3.5rem;
         color: $blue - 40;
         text-shadow: $textShadowYellow;
-    	
     	border-top: 8px dotted $yellow;
         border-bottom: 8px dotted $yellow;
         border-radius: .1em;
-    	/*
-		-webkit-order: 0;
-		-ms-flex-order: 0;
-		order: 0;
-		-webkit-flex: 0 1 auto;
-		-ms-flex: 0 1 auto;
-		flex: 0 1 auto;
-		-webkit-align-self: center;
-		-ms-flex-item-align: center;
-		align-self: center;
-        */
     }
 
-
-
-    .button {
+    .button
+    {
         border: none;
         box-shadow: $boxShadowYellow;
         background-color: $pink;
         color: $white;
         opacity: .90;
-        margin: 1em 0; 
-        
+        margin: 1em 0;       
         -webkit-transition:  color 200ms ease-in, background-color 200ms ease-in, box-shadow 200ms ease-in;
         transition:          color 200ms ease-in, background-color 200ms ease-in, box-shadow 200ms ease-in;
-
 
         &:hover, &:focus, &:active {
             color: $white;
             background-color: $blue - 60;
             box-shadow: $boxShadowBlue;
-
             -webkit-transition:  color 300ms ease-out, background-color 300ms ease-out, box-shadow 300ms ease-out;
             transition:          color 300ms ease-out, background-color 300ms ease-out, box-shadow 300ms ease-out;
         }
     }
 }
 
-.full-hero {
+.full-hero
+{
     display: none;
 }
+
 .home-page-section
 {
-    border-bottom: 6px solid $pink;
+    border-bottom: 2px solid $pink;
     padding-top: 3em;
     padding-bottom: 3em;
+
+    .page-section-nav
+    {
+        text-align: center
+    }
+
+    .standard-button
+    {
+        display: inline-block;
+        width: 50%;
+        margin-top: 1em;
+        border: 3px solid $blue;
+        color: $yellow;
+        background-color: none;
+        border-radius: .1em;
+        padding: .5em .6em;
+        -webkit-transition:  background-color, 300ms;
+        transition:          background-color, 300ms;
+
+        &:hover, &:focus, &:active 
+        {
+            background-color: $pink;
+            -webkit-transition:  background-color, 300ms;
+            transition:          background-color, 300ms;
+        }
+    }
 }
 
 .home-page-section-header
@@ -119,18 +148,16 @@ main {
     color: $yellow;
     text-shadow: $textShadowPink;
     font-size: 2em;
-    line-height: 1em;
-        
+    line-height: 1em;    
 }
 
-
-.home-page-event {
-    
-    text-align: left
+.home-page-event
+{
+    text-align: left;
 }
 
-.home-page-event-content {
-
+.home-page-event-content
+{
     padding-bottom: 1.75em;
 
 	h3
@@ -143,16 +170,16 @@ main {
 
         .weekly-name, .event-name
         {
-            color: $blue;
+            color: $white;
             font-variant: small-caps;
-            font-weight: 700;
-
+            font-weight: 900;
+            font-size: 1.3em;
         }
 
         .weekly-day, .event-day {
-            color: $white;
+            color: $pink;
             font-variant: small-caps;
-            font-weight: 700;
+            font-weight: 400;
         }
 
         .event-day {
@@ -187,18 +214,14 @@ main {
         color: $white;
     }
 
-    img {
+    img
+    {
 
-        border: 0px solid $darkest + 10;
+        border: 1px solid #333;
         margin-bottom: .5em;
         box-shadow: $boxShadowDark;
     }
 
-/*
-    .col-xs-6 {
-        padding: 0;
-    }
-*/
     .button, button
     {
 
@@ -228,9 +251,7 @@ main {
             font-size: 1em;
             padding: .5em 0;
             background: none;
-
             border: 3px solid $blue;
-
             -webkit-transition:  background 200ms;
             transition:          background 200ms;
         }
@@ -258,10 +279,8 @@ main {
             background: $pink;
             -webkit-transition:  background 200ms;
             transition:          background 200ms;
-
         }
     }
-
 }
 
 @media only screen and (min-width: 48em) {
@@ -293,16 +312,29 @@ main {
             margin: 0.5em;
         }
 
-        .full-social .button
+        .full-social
         {
             margin-top: 4em;
             font-weight: bold;
-            color: $white;
-            background: none;
-            box-shadow: none;
+
+            a {
+                color: $white;
+                padding: 0 1em;
+                text-shadow: 3px 3px 3px #333;
+                transition: color 200ms ease-out;
+
+                &:hover
+                {
+                    color: $blue;
+                    transition: color 200ms ease-out;
+                }
+            }
         }
     }
 }
+
+
+
 
 @media only screen and (min-width: 62em) {
 

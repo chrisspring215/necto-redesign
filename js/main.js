@@ -1,23 +1,3 @@
-/** MOBILE NAV **/
-
-// Sets Vars for the Open button and the menu
-var mobileGlobalNav = document.getElementById('mobileGlobalNav');
-var mobileMenuButton = document.getElementById('mobileMenuButton');
-
-// Opens the menu and changes the onclick to close the menu
-function openMobileNav() {
-    mobileGlobalNav.setAttribute('class', 'mobile-global-nav-modal');
-    mobileMenuButton.setAttribute('onclick', 'closeMobileNav()');
-    mobileMenuButton.innerHTML = 'CLOSE';
-}
-
-// Closes the menu and changes the onclick to open the menu
-function closeMobileNav() {
-    mobileGlobalNav.setAttribute('class', 'mobile-global-nav-modal-hidden');
-    mobileMenuButton.setAttribute('onclick', 'openMobileNav()');
-    mobileMenuButton.innerHTML = 'MENU';
-}
-
 /** EVENT POPULATION **/
 
 // Assigns a var to the special events list on the homepage
@@ -40,9 +20,9 @@ var pastEvents = [];
 // TODO: Add meta data tags for the indivual event pages
 var events = [
     {
-        "eventDate"    : new Date("Jan 19, 2017 18:22:00"),
-        "eventName"    : "Emily",
-        "eventArtist"  : "Emily",
+        "eventDate"    : new Date("Jan 30, 2017 18:22:00"),
+        "eventName"    : "Lemaitre: We Got You Tour",
+        "eventArtist"  : "Lemaitre",
         "eventDesc"    : "Some info about the event.",
         "eventCover"   : '$1 before 10pm & $3 after 10pm',
         "eventLink"    : 'https://www.facebook.com/events/352741681775405/',
@@ -55,31 +35,31 @@ var events = [
     },
 
     {
-        "eventDate"    : new Date("Jan 15, 2017 18:24:00"),
-        "eventName"    : "Emily",
+        "eventDate"    : new Date("Jan 28, 2017 18:24:00"),
+        "eventName"    : "MEDMA/dARt: Groove",
         "eventArtist"  : "Emily",
         "eventDesc"    : "Some info about the event.",
         "eventCover"   : '$1 before 10pm & $3 after 10pm',
         "eventLink"    : 'https://www.facebook.com/events/352741681775405/',
         "eventSocial"  : 'https://www.facebook.com/events/352741681775405/',
         "eventTix"     : 'https://www.facebook.com/events/352741681775405/',
-        "eventImgTall" : 'img/event-images/cal-lemaitre-at-necto-nightclub-ann-arbor.jpg',
-        "eventImgWide" : 'img/event-images/cal-lemaitre-at-necto-nightclub-ann-arbor.jpg',
+        "eventImgTall" : 'img/event-images/cal-medma-groove-d-art-at-necto-night-club-ann-arbor.jpg',
+        "eventImgWide" : 'img/event-images/cal-medma-groove-d-art-at-necto-night-club-ann-arbor.jpg',
         "eventDay"     : 0, // Do not modify
         "pastEvent"    : false // Do not modify
     },
 
     {
-        "eventDate"    : new Date("Jan 14, 2017 18:34:00"),
-        "eventName"    : "Emily",
+        "eventDate"    : new Date("Jan 27, 2017 18:34:00"),
+        "eventName"    : "Factory Xmass: Dark Noel",
         "eventArtist"  : "Emily",
         "eventDesc"    : "Some info about the event.",
         "eventCover"   : '$1 before 10pm & $3 after 10pm',
         "eventLink"    : 'https://www.facebook.com/events/352741681775405/',
         "eventSocial"  : 'https://www.facebook.com/events/352741681775405/',
         "eventTix"     : 'https://www.facebook.com/events/352741681775405/',
-        "eventImgTall" : 'img/event-images/cal-lemaitre-at-necto-nightclub-ann-arbor.jpg',
-        "eventImgWide" : 'img/event-images/cal-lemaitre-at-necto-nightclub-ann-arbor.jpg',
+        "eventImgTall" : 'img/event-images/cal-dark-noel-at-necto-nightclub-ann-arbor.jpg',
+        "eventImgWide" : 'img/event-images/cal-dark-noel-at-necto-nightclub-ann-arbor.jpg',
         "eventDay"     : 0, // Do not modify
         "pastEvent"    : false // Do not modify
     }
@@ -281,4 +261,24 @@ function buildNavs() {
     for (i = 0; i <= secondaryNavigation.length -1; i++) {
         footerSecondaryNav.innerHTML = footerSecondaryNav.innerHTML + '<li><a href="' + secondaryNavigation[i].linkUrl + '">' + secondaryNavigation[i].anchorName + '</a></li>';
     }
+}
+
+/** MOBILE NAV **/
+
+// Sets Vars for the Open button and the menu
+var mobileGlobalNav = document.getElementById('mobileGlobalNav');
+var mobileMenuButton = document.getElementById('mobileMenuButton');
+
+// Opens the menu and changes the onclick to close the menu
+function openMobileNav() {
+    mobileGlobalNav.setAttribute('class', 'mobile-global-nav-modal');
+    mobileMenuButton.setAttribute('onclick', 'closeMobileNav()');
+    mobileMenuButton.innerHTML = 'CLOSE';
+}
+
+// Closes the menu and changes the onclick to open the menu
+function closeMobileNav() {
+    mobileGlobalNav.setAttribute('class', 'mobile-global-nav-modal-hidden');
+    mobileMenuButton.setAttribute('onclick', 'openMobileNav()');
+    mobileMenuButton.innerHTML = 'MENU';
 }

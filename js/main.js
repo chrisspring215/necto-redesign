@@ -20,25 +20,11 @@ var pastEvents = [];
 // TODO: Add meta data tags for the indivual event pages
 var events = [
     {
-        "eventDate"    : new Date("Jan 30, 2017 18:22:00"),
-        "eventName"    : "Lemaitre: We Got You Tour",
-        "eventArtist"  : "Lemaitre",
-        "eventDesc"    : "Some info about the event.",
-        "eventCover"   : '$1 before 10pm & $3 after 10pm',
-        "eventLink"    : 'https://www.facebook.com/events/352741681775405/',
-        "eventSocial"  : 'https://www.facebook.com/events/352741681775405/',
-        "eventTix"     : 'https://www.facebook.com/events/352741681775405/',
-        "eventImgTall" : 'img/event-images/cal-lemaitre-at-necto-nightclub-ann-arbor.jpg',
-        "eventImgWide" : 'img/event-images/cal-lemaitre-at-necto-nightclub-ann-arbor.jpg',
-        "eventDay"     : 0, // Do not modify
-        "pastEvent"    : false // Do not modify
-    },
-
-    {
-        "eventDate"    : new Date("Jan 28, 2017 18:24:00"),
+        "eventDate"    : new Date("Jan 29, 2017 18:24:00"),
         "eventName"    : "MEDMA/dARt: Groove",
         "eventArtist"  : "Emily",
-        "eventDesc"    : "Some info about the event.",
+        "eventDesc"    : "This will be the grand finale to Spotlight, MPowered’s premiere music and filmmaking competition, which will be held from January 14th-19th. Select participants will be presented prizes at the M-Oscars Award Ceremony on January 19th, which will be followed by the concert at Necto Nightclub.",
+        "eventDescLong": "This will be the grand finale to Spotlight, MPowered’s premiere music and filmmaking competition, which will be held from January 14th-19th. Select participants will be presented prizes at the M-Oscars Award Ceremony on January 19th, which will be followed by the concert at Necto Nightclub.",
         "eventCover"   : '$1 before 10pm & $3 after 10pm',
         "eventLink"    : 'https://www.facebook.com/events/352741681775405/',
         "eventSocial"  : 'https://www.facebook.com/events/352741681775405/',
@@ -50,16 +36,33 @@ var events = [
     },
 
     {
-        "eventDate"    : new Date("Jan 27, 2017 18:34:00"),
-        "eventName"    : "Factory Xmass: Dark Noel",
+        "eventDate"    : new Date("Jan 28, 2017 18:24:00"),
+        "eventName"    : "MEDMA/dARt: Groove",
         "eventArtist"  : "Emily",
-        "eventDesc"    : "Some info about the event.",
+        "eventDesc"    : "This will be the grand finale to Spotlight, MPowered’s premiere music and filmmaking competition, which will be held from January 14th-19th. Select participants will be presented prizes at the M-Oscars Award Ceremony on January 19th, which will be followed by the concert at Necto Nightclub.",
+        "eventDescLong": "This will be the grand finale to Spotlight, MPowered’s premiere music and filmmaking competition, which will be held from January 14th-19th. Select participants will be presented prizes at the M-Oscars Award Ceremony on January 19th, which will be followed by the concert at Necto Nightclub.",
         "eventCover"   : '$1 before 10pm & $3 after 10pm',
         "eventLink"    : 'https://www.facebook.com/events/352741681775405/',
         "eventSocial"  : 'https://www.facebook.com/events/352741681775405/',
         "eventTix"     : 'https://www.facebook.com/events/352741681775405/',
-        "eventImgTall" : 'img/event-images/cal-dark-noel-at-necto-nightclub-ann-arbor.jpg',
-        "eventImgWide" : 'img/event-images/cal-dark-noel-at-necto-nightclub-ann-arbor.jpg',
+        "eventImgTall" : 'img/event-images/cal-medma-groove-d-art-at-necto-night-club-ann-arbor.jpg',
+        "eventImgWide" : 'img/event-images/cal-medma-groove-d-art-at-necto-night-club-ann-arbor.jpg',
+        "eventDay"     : 0, // Do not modify
+        "pastEvent"    : false // Do not modify
+    },
+
+    {
+        "eventDate"    : new Date("Jan 26, 2017 18:24:00"),
+        "eventName"    : "MEDMA/dARt: Groove",
+        "eventArtist"  : "Emily",
+        "eventDesc"    : "This will be the grand finale to Spotlight, MPowered’s premiere music and filmmaking competition, which will be held from January 14th-19th. Select participants will be presented prizes at the M-Oscars Award Ceremony on January 19th, which will be followed by the concert at Necto Nightclub.",
+        "eventDescLong": "This will be the grand finale to Spotlight, MPowered’s premiere music and filmmaking competition, which will be held from January 14th-19th. Select participants will be presented prizes at the M-Oscars Award Ceremony on January 19th, which will be followed by the concert at Necto Nightclub.",
+        "eventCover"   : '$1 before 10pm & $3 after 10pm',
+        "eventLink"    : 'https://www.facebook.com/events/352741681775405/',
+        "eventSocial"  : 'https://www.facebook.com/events/352741681775405/',
+        "eventTix"     : 'https://www.facebook.com/events/352741681775405/',
+        "eventImgTall" : 'img/event-images/cal-medma-groove-d-art-at-necto-night-club-ann-arbor.jpg',
+        "eventImgWide" : 'img/event-images/cal-medma-groove-d-art-at-necto-night-club-ann-arbor.jpg',
         "eventDay"     : 0, // Do not modify
         "pastEvent"    : false // Do not modify
     }
@@ -79,7 +82,6 @@ for (var i = 0; i < eventsLength; i++) {
 for (i = 0; i < eventsLength; i++) {
 
     var endDate = events[i].eventDate.setHours(events[i].eventDate.getHours() + displayForXHours);
-
 
     if (endDate >= currentDate) {
         events[i].eventDate.setHours(events[i].eventDate.getHours() - displayForXHours);
@@ -117,6 +119,7 @@ function populateFrontPageEvents() {
 
     // Populates the event list on the homepage
     for (i = 0; i <= upcomingEvents.length - 1; i++) {
+        if (upcomingEvents[i].eventTix != 'none') {
         homepageSpecialEvents.innerHTML = homepageSpecialEvents.innerHTML +
         '<div class="home-page-event-content col-xs-12 col-sm-6 "><h3><a href="'+
         upcomingEvents[i].eventLink +
@@ -133,8 +136,92 @@ function populateFrontPageEvents() {
         '/' + upcomingEvents[i].eventDate.getFullYear() + '." /></a><div class="row event-nav"><a href="' + upcomingEvents[i].eventLink +
         '" class="col-xs-4">VIEW EVENT</a><a href="bottle-service.com" class="col-xs-4 ">REQUEST VIP</a><a href="' +
         upcomingEvents[i].eventTix + '" class="col-xs-4 ">BUY TICKETS</a></div></div>';
+        }
+        else {
+            homepageSpecialEvents.innerHTML = homepageSpecialEvents.innerHTML +
+        '<div class="home-page-event-content col-xs-12 col-sm-6 "><h3><a href="'+
+        upcomingEvents[i].eventLink +
+        '"><span class="event-day">' +
+        upcomingEvents[i].eventDate.getMonth()+1 +
+        '/' + upcomingEvents[i].eventDate.getDate() +
+        '/' + upcomingEvents[i].eventDate.getFullYear()
+        + '&nbsp;&nbsp;' + upcomingEvents[i].eventDate.toLocaleTimeString([], {hour: '2-digit', minute:'2-digit'})
+        +'</span><br><span class="event-name">' +
+        upcomingEvents[i].eventName +
+        '</span></a></h3><a href="' + upcomingEvents[i].eventLink +
+        '"><img src="' + upcomingEvents[i].eventImgWide + '" alt="A event poster for ' +  upcomingEvents[i].eventArtist + ', performing at the Necto Nightclub in Ann Arbor, Michigan on ' + upcomingEvents[i].eventDate.getMonth()+1 +
+        '/' + upcomingEvents[i].eventDate.getDate() +
+        '/' + upcomingEvents[i].eventDate.getFullYear() + '." /></a><div class="row event-nav"><a href="' + upcomingEvents[i].eventLink +
+        '" class="col-xs-6">VIEW EVENT</a><a href="bottle-service.com" class="col-xs-6 ">REQUEST VIP</a>';
+        }     
     }
 }
+
+//** CAL PAGE POPULATION **//
+
+
+
+//Is called on the cal page and populates the cal page events list.
+function populateCalPageEvents() {
+    upcomingEvents.reverse();
+
+    //This loops up in days
+    for (i = currentDate; i >= currentDate.getDate() + 30; i++) {
+        alert(new Date(currentDate.setDate(currentDate.getDate() + 1 )))
+    }
+
+    // Populates the event list on the cal page
+    for (i = 0; i <= upcomingEvents.length - 1; i++) {
+
+        //TODO: Need to figure out a way to populate a list with the weeklys and then go back and
+        // fill in and overwrite if an event should take over
+
+        /*
+        if (upcomingEvents[i].eventTix != 'none') {
+        homepageSpecialEvents.innerHTML = homepageSpecialEvents.innerHTML +
+        '<div class="home-page-event-content col-xs-12"><h3><a href="'+
+        upcomingEvents[i].eventLink +
+        '"><span class="event-day">' +
+        days[upcomingEvents[i].eventDate.getDay()] + '&nbsp;-&nbsp;' +upcomingEvents[i].eventDate.getMonth() + 1 +
+        '/' + upcomingEvents[i].eventDate.getDate() +
+        '/' + upcomingEvents[i].eventDate.getFullYear()
+        + '&nbsp;&nbsp;' + upcomingEvents[i].eventDate.toLocaleTimeString([], {hour: '2-digit', minute:'2-digit'})
+        +'</span><br><span class="event-name">' +
+        upcomingEvents[i].eventName +
+        '</span></a></h3><a href="' + upcomingEvents[i].eventLink +
+        '"><img src="' + upcomingEvents[i].eventImgWide + '" alt="A event poster for ' +  upcomingEvents[i].eventArtist + ', performing at the Necto Nightclub in Ann Arbor, Michigan on ' + upcomingEvents[i].eventDate.getMonth()+1 +
+        '/' + upcomingEvents[i].eventDate.getDate() +
+        '/' + upcomingEvents[i].eventDate.getFullYear() + '." /></a><p>' + upcomingEvents[i].eventDesc + '</p><div class="row event-nav"><a href="' + upcomingEvents[i].eventLink +
+        '" class="col-xs-4">VIEW EVENT</a><a href="bottle-service.com" class="col-xs-4 ">REQUEST VIP</a><a href="' +
+        upcomingEvents[i].eventTix + '" class="col-xs-4 ">BUY TICKETS</a></div></div><hr>';
+        }
+        else {
+            homepageSpecialEvents.innerHTML = homepageSpecialEvents.innerHTML +
+        '<div class="home-page-event-content col-xs-12"><h3><a href="'+
+        upcomingEvents[i].eventLink +
+        '"><span class="event-day">' +
+        upcomingEvents[i].eventDate.getMonth()+1 +
+        '/' + upcomingEvents[i].eventDate.getDate() +
+        '/' + upcomingEvents[i].eventDate.getFullYear()
+        + '&nbsp;&nbsp;' + upcomingEvents[i].eventDate.toLocaleTimeString([], {hour: '2-digit', minute:'2-digit'})
+        +'</span><br><span class="event-name">' +
+        upcomingEvents[i].eventName +
+        '</span></a></h3><a href="' + upcomingEvents[i].eventLink +
+        '"><img src="' + upcomingEvents[i].eventImgWide + '" alt="A event poster for ' +  upcomingEvents[i].eventArtist + ', performing at the Necto Nightclub in Ann Arbor, Michigan on ' + upcomingEvents[i].eventDate.getMonth()+1 +
+        '/' + upcomingEvents[i].eventDate.getDate() +
+        '/' + upcomingEvents[i].eventDate.getFullYear() + '." /></a><div class="row event-nav"><a href="' + upcomingEvents[i].eventLink +
+        '" class="col-xs-6">VIEW EVENT</a><a href="bottle-service.com" class="col-xs-6 ">REQUEST VIP</a>';
+        }    
+        */ 
+    }
+}
+
+
+
+
+
+
+
 
 /** NAVIGATION POPULATION **/
 
@@ -147,8 +234,6 @@ var mobileHeaderNav = document.getElementById('mobileHeaderNav');
 var footerWeeklyNav = document.getElementById('footerWeeklyNav');
 var footerMainNav = document.getElementById('footerMainNav');
 var footerSecondaryNav = document.getElementById('footerSecondaryNav');
-
-
 
 // Sets Navigation varibles to build the Main Nav on all pages
 var mainNavigation = [

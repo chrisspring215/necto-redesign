@@ -1,8 +1,4 @@
-p {
-	color: $white;
-	font-weight: 300;
-    margin-bottom: 1em;
-}
+
 
 img {
 	width: 100%;
@@ -16,6 +12,7 @@ a
 }
 
 p {
+    color: $white;
     margin-top: 0em;
     margin-bottom: 1em;
     padding: 0;
@@ -25,7 +22,12 @@ p {
     strong
     {
         color: $pink;
-        font-weight: normal;
+        font-weight: 300;
+    }
+
+    a
+    {
+        font-weight: 300;
     }
 }
 /*
@@ -108,7 +110,7 @@ main {
     display: none;
 }
 
-.home-page-section
+.page-section
 {
     border-bottom: 2px solid $pink;
     padding-top: 3em;
@@ -141,7 +143,7 @@ main {
     }
 }
 
-.home-page-section-header
+.page-section-header
 {   
     display: block;
     width: 100%;
@@ -268,10 +270,11 @@ main {
         
         }
 
-        a:nth-child(3) {
+        a:nth-last-child(1) {
             border-left: 1.5px solid $blue;
-            border-top-right-radius: .1em;
-            border-bottom-right-radius: .1em;
+            border-right:3px solid $blue;
+            border-top-right-radius: .2em;
+            border-bottom-right-radius: .2em;
         }
 
         a:hover {  

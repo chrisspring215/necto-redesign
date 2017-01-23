@@ -4,6 +4,9 @@
 //TODO: Repeat this for cal, past events page
 var homepageSpecialEvents = document.getElementById('homepageSpecialEvents');
 
+// Assigns a var to the cal events list on the cal page
+var calendarEvents = document.getElementById('calendarEvents');
+
 // Uses this to determin if an event is in the future or past
 var currentDate = new Date();
 
@@ -16,28 +19,15 @@ var upcomingEvents = [];
 // An array of past events to be placed in the Past Events list on the the Past events page
 var pastEvents = [];
 
+// Sets a var for an empty array to be populated with weekly events n-th days in the future
+var calWeeklyEventsList = [];
+
 // The master list of all special past and present events
 // TODO: Add meta data tags for the indivual event pages
 var events = [
     {
-        "eventDate"    : new Date("Jan 29, 2017 18:24:00"),
-        "eventName"    : "MEDMA/dARt: Groove",
-        "eventArtist"  : "Emily",
-        "eventDesc"    : "This will be the grand finale to Spotlight, MPowered’s premiere music and filmmaking competition, which will be held from January 14th-19th. Select participants will be presented prizes at the M-Oscars Award Ceremony on January 19th, which will be followed by the concert at Necto Nightclub.",
-        "eventDescLong": "This will be the grand finale to Spotlight, MPowered’s premiere music and filmmaking competition, which will be held from January 14th-19th. Select participants will be presented prizes at the M-Oscars Award Ceremony on January 19th, which will be followed by the concert at Necto Nightclub.",
-        "eventCover"   : '$1 before 10pm & $3 after 10pm',
-        "eventLink"    : 'https://www.facebook.com/events/352741681775405/',
-        "eventSocial"  : 'https://www.facebook.com/events/352741681775405/',
-        "eventTix"     : 'https://www.facebook.com/events/352741681775405/',
-        "eventImgTall" : 'img/event-images/cal-medma-groove-d-art-at-necto-night-club-ann-arbor.jpg',
-        "eventImgWide" : 'img/event-images/cal-medma-groove-d-art-at-necto-night-club-ann-arbor.jpg',
-        "eventDay"     : 0, // Do not modify
-        "pastEvent"    : false // Do not modify
-    },
-
-    {
-        "eventDate"    : new Date("Jan 28, 2017 18:24:00"),
-        "eventName"    : "MEDMA/dARt: Groove",
+        "eventDate"    : new Date("jan 27, 2017 18:24:00"),
+        "eventName"    : "ljhsadfljhasbdfjklsadbfjsakd ljhsadfljhasbdfjklsadbfjsakd ljhsadfljhasbdfjklsadbfjsakd ljhsadfljhasbdfjklsadbfjsakd",
         "eventArtist"  : "Emily",
         "eventDesc"    : "This will be the grand finale to Spotlight, MPowered’s premiere music and filmmaking competition, which will be held from January 14th-19th. Select participants will be presented prizes at the M-Oscars Award Ceremony on January 19th, which will be followed by the concert at Necto Nightclub.",
         "eventDescLong": "This will be the grand finale to Spotlight, MPowered’s premiere music and filmmaking competition, which will be held from January 14th-19th. Select participants will be presented prizes at the M-Oscars Award Ceremony on January 19th, which will be followed by the concert at Necto Nightclub.",
@@ -53,7 +43,23 @@ var events = [
 
     {
         "eventDate"    : new Date("Jan 26, 2017 18:24:00"),
-        "eventName"    : "MEDMA/dARt: Groove",
+        "eventName"    : "2nd",
+        "eventArtist"  : "Emily",
+        "eventDesc"    : "This will be the grand finale to Spotlight, MPowered’s premiere music and filmmaking competition, which will be held from January 14th-19th. Select participants will be presented prizes at the M-Oscars Award Ceremony on January 19th, which will be followed by the concert at Necto Nightclub.",
+        "eventDescLong": "This will be the grand finale to Spotlight, MPowered’s premiere music and filmmaking competition, which will be held from January 14th-19th. Select participants will be presented prizes at the M-Oscars Award Ceremony on January 19th, which will be followed by the concert at Necto Nightclub.",
+        "eventCover"   : '$1 before 10pm & $3 after 10pm',
+        "eventLink"    : 'https://www.facebook.com/events/352741681775405/',
+        "eventSocial"  : 'https://www.facebook.com/events/352741681775405/',
+        "eventTix"     : 'https://www.facebook.com/events/352741681775405/',
+        "eventImgTall" : 'img/event-images/cal-medma-groove-d-art-at-necto-night-club-ann-arbor.jpg',
+        "eventImgWide" : 'img/event-images/cal-medma-groove-d-art-at-necto-night-club-ann-arbor.jpg',
+        "eventDay"     : 0, // Do not modify
+        "pastEvent"    : false // Do not modify
+    },
+
+    {
+        "eventDate"    : new Date("Jan 25, 2017 18:24:00"),
+        "eventName"    : "1st",
         "eventArtist"  : "Emily",
         "eventDesc"    : "This will be the grand finale to Spotlight, MPowered’s premiere music and filmmaking competition, which will be held from January 14th-19th. Select participants will be presented prizes at the M-Oscars Award Ceremony on January 19th, which will be followed by the concert at Necto Nightclub.",
         "eventDescLong": "This will be the grand finale to Spotlight, MPowered’s premiere music and filmmaking competition, which will be held from January 14th-19th. Select participants will be presented prizes at the M-Oscars Award Ceremony on January 19th, which will be followed by the concert at Necto Nightclub.",
@@ -66,6 +72,38 @@ var events = [
         "eventDay"     : 0, // Do not modify
         "pastEvent"    : false // Do not modify
     }
+];
+
+// The basic Weekly Events
+var weeklyEvents = [
+    {
+        "eventName"    : "Factory Monday",
+        "eventDesc"    : "This will be the grand finale to Spotlight, MPowered’s premiere music and filmmaking competition, which will be held from January 14th-19th. Select participants will be presented prizes at the M-Oscars Award Ceremony on January 19th, which will be followed by the concert at Necto Nightclub.",
+        "eventLink"    : 'factory-monday.html',
+        "eventImgWide" : 'img/event-images/cal-medma-groove-d-art-at-necto-night-club-ann-arbor.jpg',
+        "eventDay"     : 1, // Do not modify
+    },
+    {
+        "eventName"    : "Mix Thursday",
+        "eventDesc"    : "This will be the grand finale to Spotlight, MPowered’s premiere music and filmmaking competition, which will be held from January 14th-19th. Select participants will be presented prizes at the M-Oscars Award Ceremony on January 19th, which will be followed by the concert at Necto Nightclub.",
+        "eventLink"    : 'factory-monday.html',
+        "eventImgWide" : 'img/event-images/cal-medma-groove-d-art-at-necto-night-club-ann-arbor.jpg',
+        "eventDay"     : 4, // Do not modify
+    },
+    {
+        "eventName"    : "Pride Friday",
+        "eventDesc"    : "This will be the grand finale to Spotlight, MPowered’s premiere music and filmmaking competition, which will be held from January 14th-19th. Select participants will be presented prizes at the M-Oscars Award Ceremony on January 19th, which will be followed by the concert at Necto Nightclub.",
+        "eventLink"    : 'factory-monday.html',
+        "eventImgWide" : 'img/event-images/cal-medma-groove-d-art-at-necto-night-club-ann-arbor.jpg',
+        "eventDay"     : 5, // Do not modify
+    },
+    {
+        "eventName"    : "Frequency Saturday",
+        "eventDesc"    : "This will be the grand finale to Spotlight, MPowered’s premiere music and filmmaking competition, which will be held from January 14th-19th. Select participants will be presented prizes at the M-Oscars Award Ceremony on January 19th, which will be followed by the concert at Necto Nightclub.",
+        "eventLink"    : 'factory-monday.html',
+        "eventImgWide" : 'img/event-images/cal-medma-groove-d-art-at-necto-night-club-ann-arbor.jpg',
+        "eventDay"     : 6, // Do not modify
+    },
 ];
 
 // The total number of events
@@ -158,70 +196,50 @@ function populateFrontPageEvents() {
 }
 
 //** CAL PAGE POPULATION **//
-
-
-
 //Is called on the cal page and populates the cal page events list.
 function populateCalPageEvents() {
     upcomingEvents.reverse();
+    
+    // Builds the array of Weekly Events that will later have the upcoming events pushed into it.
+    for (i = 0; i <= 10; i++) {
+        var calEndDate = new Date();
+        var weeklyCalEntry = calEndDate.setDate(calEndDate.getDate() + i);
+        var weeklyCalEntryString = new Date(weeklyCalEntry);
 
-    //This loops up in days
-    for (i = currentDate; i >= currentDate.getDate() + 30; i++) {
-        alert(new Date(currentDate.setDate(currentDate.getDate() + 1 )))
+        if (weeklyCalEntryString.getDay() === 1) {
+            calWeeklyEventsList.push({'eventDate' : weeklyCalEntryString.setTime(weeklyCalEntryString.getTime(20,30,00,0)), 'eventName' : weeklyEvents[0].eventName});
+        }
+
+        else if (weeklyCalEntryString.getDay() === 4) {
+            calWeeklyEventsList.push({'eventDate' : weeklyCalEntryString, 'eventName' : weeklyEvents[1].eventName});
+        }
+
+        else if (weeklyCalEntryString.getDay() === 5) {
+            calWeeklyEventsList.push({'eventDate' : weeklyCalEntryString, 'eventName' : weeklyEvents[2].eventName});
+        }
+
+        else if (weeklyCalEntryString.getDay() === 6) {
+            calWeeklyEventsList.push({'eventDate' : weeklyCalEntryString, 'eventName' : weeklyEvents[3].eventName});
+        }     
     }
 
-    // Populates the event list on the cal page
+    // Adds upcoming events to the weekly events
     for (i = 0; i <= upcomingEvents.length - 1; i++) {
+            calWeeklyEventsList.push(upcomingEvents[i])
+    }
 
-        //TODO: Need to figure out a way to populate a list with the weeklys and then go back and
-        // fill in and overwrite if an event should take over
+    // Sorts the cal events
+    calWeeklyEventsList.sort(function(a,b){
+        var c = new Date(a.eventDate);
+        var d = new Date(b.eventDate);
+        return c-d;
+        });
 
-        /*
-        if (upcomingEvents[i].eventTix != 'none') {
-        homepageSpecialEvents.innerHTML = homepageSpecialEvents.innerHTML +
-        '<div class="home-page-event-content col-xs-12"><h3><a href="'+
-        upcomingEvents[i].eventLink +
-        '"><span class="event-day">' +
-        days[upcomingEvents[i].eventDate.getDay()] + '&nbsp;-&nbsp;' +upcomingEvents[i].eventDate.getMonth() + 1 +
-        '/' + upcomingEvents[i].eventDate.getDate() +
-        '/' + upcomingEvents[i].eventDate.getFullYear()
-        + '&nbsp;&nbsp;' + upcomingEvents[i].eventDate.toLocaleTimeString([], {hour: '2-digit', minute:'2-digit'})
-        +'</span><br><span class="event-name">' +
-        upcomingEvents[i].eventName +
-        '</span></a></h3><a href="' + upcomingEvents[i].eventLink +
-        '"><img src="' + upcomingEvents[i].eventImgWide + '" alt="A event poster for ' +  upcomingEvents[i].eventArtist + ', performing at the Necto Nightclub in Ann Arbor, Michigan on ' + upcomingEvents[i].eventDate.getMonth()+1 +
-        '/' + upcomingEvents[i].eventDate.getDate() +
-        '/' + upcomingEvents[i].eventDate.getFullYear() + '." /></a><p>' + upcomingEvents[i].eventDesc + '</p><div class="row event-nav"><a href="' + upcomingEvents[i].eventLink +
-        '" class="col-xs-4">VIEW EVENT</a><a href="bottle-service.com" class="col-xs-4 ">REQUEST VIP</a><a href="' +
-        upcomingEvents[i].eventTix + '" class="col-xs-4 ">BUY TICKETS</a></div></div><hr>';
-        }
-        else {
-            homepageSpecialEvents.innerHTML = homepageSpecialEvents.innerHTML +
-        '<div class="home-page-event-content col-xs-12"><h3><a href="'+
-        upcomingEvents[i].eventLink +
-        '"><span class="event-day">' +
-        upcomingEvents[i].eventDate.getMonth()+1 +
-        '/' + upcomingEvents[i].eventDate.getDate() +
-        '/' + upcomingEvents[i].eventDate.getFullYear()
-        + '&nbsp;&nbsp;' + upcomingEvents[i].eventDate.toLocaleTimeString([], {hour: '2-digit', minute:'2-digit'})
-        +'</span><br><span class="event-name">' +
-        upcomingEvents[i].eventName +
-        '</span></a></h3><a href="' + upcomingEvents[i].eventLink +
-        '"><img src="' + upcomingEvents[i].eventImgWide + '" alt="A event poster for ' +  upcomingEvents[i].eventArtist + ', performing at the Necto Nightclub in Ann Arbor, Michigan on ' + upcomingEvents[i].eventDate.getMonth()+1 +
-        '/' + upcomingEvents[i].eventDate.getDate() +
-        '/' + upcomingEvents[i].eventDate.getFullYear() + '." /></a><div class="row event-nav"><a href="' + upcomingEvents[i].eventLink +
-        '" class="col-xs-6">VIEW EVENT</a><a href="bottle-service.com" class="col-xs-6 ">REQUEST VIP</a>';
-        }    
-        */ 
+    // Pushes Cal events into the cal page
+    for (i = 0; i <= calWeeklyEventsList.length - 1; i++) {
+        calendarEvents.innerHTML = calendarEvents.innerHTML + '<div style="color: white;">' + calWeeklyEventsList[i].eventDate + '<br>' + calWeeklyEventsList[i].eventName + '<br><br></div>';
     }
 }
-
-
-
-
-
-
-
 
 /** NAVIGATION POPULATION **/
 

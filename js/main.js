@@ -237,7 +237,9 @@ function populateCalPageEvents() {
 
     // Pushes Cal events into the cal page
     for (i = 0; i <= calWeeklyEventsList.length - 1; i++) {
-        calendarEvents.innerHTML = calendarEvents.innerHTML + '<div style="color: white;">' + calWeeklyEventsList[i].eventDate + '<br>' + calWeeklyEventsList[i].eventName + '<br><br></div>';
+        //calendarEvents.innerHTML = calendarEvents.innerHTML + '<div style="color: white;">' + calWeeklyEventsList[i].eventDate + '<br>' + calWeeklyEventsList[i].eventName + '<br><br></div>';
+        calendarEvents.innerHTML = calendarEvents.innerHTML + '<div class="home-page-event-content col-xs-12 col-sm-12 "><h3><a href="' + calWeeklyEventsList[i].eventLink + '"><span class="event-day">' + calWeeklyEventsList[i].eventDate + '</span><br><span class="event-name">' + calWeeklyEventsList[i].eventName + '</span></a></h3><a href="' + calWeeklyEventsList[i].eventLink + '"><img src="' + calWeeklyEventsList[i].eventImgWide + '" alt=""></a><div class="row event-nav"><a href="' + calWeeklyEventsList[i].eventLink + '"class="col-xs-4">VIEW EVENT</a><a href="bottle-service.com" class="col-xs-4 ">REQUEST VIP</a><a href="tickets.html" class="col-xs-4 ">BUY TICKETS</a></div></div>';
+
     }
 }
 

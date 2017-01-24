@@ -26,65 +26,151 @@ var calWeeklyEventsList = [];
 // TODO: Add meta data tags for the indivual event pages
 var events = [
     {
-        "eventDate"    : new Date("mar 27, 2017 20:00:00"),
-        "eventName"    : "ljhsadfljhasbdfjklsadbfjsakd",
-        "eventArtist"  : "Emily",
-        "eventDesc"    : "This will be the grand finale to Spotlight, MPowered’s premiere music and filmmaking competition, which will be held from January 14th-19th. Select participants will be presented prizes at the M-Oscars Award Ceremony on January 19th, which will be followed by the concert at Necto Nightclub.",
-        "eventDescLong": "This will be the grand finale to Spotlight, MPowered’s premiere music and filmmaking competition, which will be held from January 14th-19th. Select participants will be presented prizes at the M-Oscars Award Ceremony on January 19th, which will be followed by the concert at Necto Nightclub.",
-        "eventCover"   : '$1 before 10pm & $3 after 10pm',
-        "eventLink"    : 'https://www.facebook.com/events/352741681775405/',
-        "eventSocial"  : 'https://www.facebook.com/events/352741681775405/',
-        "eventTix"     : 'https://www.facebook.com/events/352741681775405/',
-        "eventImgTall" : 'img/event-images/cal-medma-groove-d-art-at-necto-night-club-ann-arbor.jpg',
-        "eventImgWide" : 'img/event-images/cal-medma-groove-d-art-at-necto-night-club-ann-arbor.jpg',
+        "eventDate"    : new Date("mar 17, 2017 17:00:00"),
+        "eventName"    : "Courtney Act &amp; Tatianna",
+        "eventArtist"  : "Courtney Act &amp; Tatianna",
+        "eventDesc"    : "This St Patty's Day falls on Pride! So Let's Get Lucky with COURTNEY ACT, Runner Up of RuPaul's Drag Race S6 & TATIANNA, RuPaul's Drag Race S2 & All Stars. Great St Patty's Drink Specials All Day!",
+        "eventDescLong": "",
+        "eventCover"   : 'Cover from 5pm - 9pm : FREE for 21+ | $15 for 18-20',
+        "eventLink"    : 'special-events/' + 'courtney-act-tatianna-at-necto-nightclub-ann-arbor-michigan-mar-17th-2017.html',
+        "eventSocial"  : 'https://www.facebook.com/events/1840982122782083/',
+        "eventTix"     : 'none',
+        "eventImgTall" : 'img/event-images/' + 'cal-courtney-act-tatianna-at-necto-night-club-ann-arbor.jpg',
+        "eventImgWide" : 'img/event-images/' + 'cal-courtney-act-tatianna-at-necto-night-club-ann-arbor.jpg',
+        "eventWklOvrd" : true,
+        "eventDay"     : 0, // Do not modify
+        "pastEvent"    : false // Do not modify
+    },
+    {
+        "eventDate"    : new Date("feb 27, 2017 21:00:00"),
+        "eventName"    : "Mardi Gras: French Quarter Vampire Voodoo",
+        "eventArtist"  : "Factory Mardi Gras",
+        "eventDesc"    : "What's Vampire Voodoo? An altered state somewhere between Interview with a Vampire, From Dust till Dawn & Angel Heart. Let's party French Quarter style with Void 6, MC Yoda, DJ Madisi & all the Factory Fam.",
+        "eventDescLong": "",
+        "eventCover"   : '$1 before 10pm and $3 after 10pm',
+        "eventLink"    : 'special-events/' + 'mardi-gras-at-necto-nightclub-ann-arbor-michigan-feb-25th-2017.html',
+        "eventSocial"  : 'https://www.facebook.com/events/640451952805391/',
+        "eventTix"     : 'none',
+        "eventImgTall" : 'img/event-images/' + 'cal-mardi-gras-vampire-voodoo-at-necto-night-club-ann-arbor.jpg',
+        "eventImgWide" : 'img/event-images/' + 'cal-mardi-gras-vampire-voodoo-at-necto-night-club-ann-arbor.jpg',
+        "eventWklOvrd" : true,
+        "eventDay"     : 0, // Do not modify
+        "pastEvent"    : false // Do not modify
+    },
+    {
+        "eventDate"    : new Date("feb 25, 2017 21:00:00"),
+        "eventName"    : "Mardi Gras: Bourbon Street Blow Out",
+        "eventArtist"  : "Frequency Mardi Gras",
+        "eventDesc"    : "Let's get a little crazy New Orlean's style! Join DJ Hardy & MC Yoda as we celebrate Mardi Gras! Lots of beads & French Quarter drink menu all night!",
+        "eventDescLong": "",
+        "eventCover"   : 'Free before 10pm. Ladies get in Free before 11pm. $5 for 21+ and $10 for 18 - 20',
+        "eventLink"    : 'special-events/' + 'mardi-gras-at-necto-nightclub-ann-arbor-michigan-feb-25th-2017.html',
+        "eventSocial"  : 'https://www.facebook.com/events/1308490445874744/',
+        "eventTix"     : 'none',
+        "eventImgTall" : 'img/event-images/' + 'cal-mardi-gras-2017-at-necto-night-club-ann-arbor.jpg',
+        "eventImgWide" : 'img/event-images/' + 'cal-mardi-gras-2017-at-necto-night-club-ann-arbor.jpg',
+        "eventWklOvrd" : true,
+        "eventDay"     : 0, // Do not modify
+        "pastEvent"    : false // Do not modify
+    },
+    {
+        "eventDate"    : new Date("feb 24, 2017 21:00:00"),
+        "eventName"    : "Mardi Gras : Laissez les bons temps rouler!",
+        "eventArtist"  : "Ivy Winters",
+        "eventDesc"    : "Join Special Guest Ivy Winters, Miss Congeniality from RuPauls Drag Race S5!!! Also featuring DJ Jace, DJ DigiMark, Chanel Hunter & Jadein Black for Pride's annual Mardi Gras Party. Lots of beads & New Orlean's inspired drinks.",
+        "eventDescLong": "",
+        "eventCover"   : 'Free before 10pm. With College ID cover is Free before 11pm. $5 for 21+ and $10 for 18 - 20',
+        "eventLink"    : 'special-events/' + 'ivy-winters-mardi-gras-at-necto-nightclub-ann-arbor-michigan-feb-24th-2017.html',
+        "eventSocial"  : 'https://www.facebook.com/events/148044559024977/',
+        "eventTix"     : 'none',
+        "eventImgTall" : 'img/event-images/' + 'cal-ivy-winters-mardi-gras-at-necto-night-club-ann-arbor.jpg',
+        "eventImgWide" : 'img/event-images/' + 'cal-ivy-winters-mardi-gras-at-necto-night-club-ann-arbor.jpg',
+        "eventWklOvrd" : true,
         "eventDay"     : 0, // Do not modify
         "pastEvent"    : false // Do not modify
     },
 
     {
-        "eventDate"    : new Date("jan 27, 2017 19:30:00"),
-        "eventName"    : "ljhsadfljhasbdfjklsadbfjsakd",
-        "eventArtist"  : "Emily",
-        "eventDesc"    : "This will be the grand finale to Spotlight, MPowered’s premiere music and filmmaking competition, which will be held from January 14th-19th. Select participants will be presented prizes at the M-Oscars Award Ceremony on January 19th, which will be followed by the concert at Necto Nightclub.",
-        "eventDescLong": "This will be the grand finale to Spotlight, MPowered’s premiere music and filmmaking competition, which will be held from January 14th-19th. Select participants will be presented prizes at the M-Oscars Award Ceremony on January 19th, which will be followed by the concert at Necto Nightclub.",
-        "eventCover"   : '$1 before 10pm & $3 after 10pm',
-        "eventLink"    : 'https://www.facebook.com/events/352741681775405/',
-        "eventSocial"  : 'https://www.facebook.com/events/352741681775405/',
-        "eventTix"     : 'https://www.facebook.com/events/352741681775405/',
-        "eventImgTall" : 'img/event-images/cal-medma-groove-d-art-at-necto-night-club-ann-arbor.jpg',
-        "eventImgWide" : 'img/event-images/cal-medma-groove-d-art-at-necto-night-club-ann-arbor.jpg',
+        "eventDate"    : new Date("feb 23, 2017 21:00:00"),
+        "eventName"    : "Rezz",
+        "eventArtist"  : "Rezz",
+        "eventDesc"    : "Niagara Falls native Isabelle Rezazadeh, aka REZZ, is quickly making a name for herself thanks to her genre-smashing brand of dark and sinister techno. Pegged as being an artist to watch in 2016 by music industry masses in the know, Rezz has proven that she is a force to be reckoned with. Despite being self-taught, her edgy and hard-hitting productions have caught the attention of Skrillex's Nest and drawn comparisons to Gesaffelstein and Trent Reznor.",
+        "eventDescLong": "",
+        "eventCover"   : 'Pre-sale tickets are $15 - $18 | limited 4 pack tickets $45 | At doors $20-$25',
+        "eventLink"    : 'special-events/' + 'rezz-at-necto-nightclub-ann-arbor-michigan-feb-23rd-2017.html',
+        "eventSocial"  : 'https://www.facebook.com/events/1831441243800571/',
+        "eventTix"     : 'http://www.clubtix.com/rezz-at-necto-ann-arbor-tickets-493993?p=24795',
+        "eventImgTall" : 'img/event-images/' + 'cal-rezz-at-necto-nightclub-ann-arbor.jpeg',
+        "eventImgWide" : 'img/event-images/' + 'cal-rezz-at-necto-nightclub-ann-arbor.jpeg',
+        "eventWklOvrd" : true,
         "eventDay"     : 0, // Do not modify
         "pastEvent"    : false // Do not modify
     },
 
     {
-        "eventDate"    : new Date("Jan 26, 2017 19:00:00"),
-        "eventName"    : "2nd",
-        "eventArtist"  : "Emily",
-        "eventDesc"    : "This will be the grand finale to Spotlight, MPowered’s premiere music and filmmaking competition, which will be held from January 14th-19th. Select participants will be presented prizes at the M-Oscars Award Ceremony on January 19th, which will be followed by the concert at Necto Nightclub.",
-        "eventDescLong": "This will be the grand finale to Spotlight, MPowered’s premiere music and filmmaking competition, which will be held from January 14th-19th. Select participants will be presented prizes at the M-Oscars Award Ceremony on January 19th, which will be followed by the concert at Necto Nightclub.",
-        "eventCover"   : '$1 before 10pm & $3 after 10pm',
-        "eventLink"    : 'https://www.facebook.com/events/352741681775405/',
-        "eventSocial"  : 'https://www.facebook.com/events/352741681775405/',
-        "eventTix"     : 'https://www.facebook.com/events/352741681775405/',
-        "eventImgTall" : 'img/event-images/cal-medma-groove-d-art-at-necto-night-club-ann-arbor.jpg',
-        "eventImgWide" : 'img/event-images/cal-medma-groove-d-art-at-necto-night-club-ann-arbor.jpg',
-        "eventDay"     : 0, // Do not modify
-        "pastEvent"    : false // Do not modify
-    },
-
-    {
-        "eventDate"    : new Date("Jan 25, 2017 23:00:00"),
-        "eventName"    : "1st",
-        "eventArtist"  : "Emily",
-        "eventDesc"    : "This will be the grand finale to Spotlight, MPowered’s premiere music and filmmaking competition, which will be held from January 14th-19th. Select participants will be presented prizes at the M-Oscars Award Ceremony on January 19th, which will be followed by the concert at Necto Nightclub.",
-        "eventDescLong": "This will be the grand finale to Spotlight, MPowered’s premiere music and filmmaking competition, which will be held from January 14th-19th. Select participants will be presented prizes at the M-Oscars Award Ceremony on January 19th, which will be followed by the concert at Necto Nightclub.",
-        "eventCover"   : '$1 before 10pm & $3 after 10pm',
-        "eventLink"    : 'https://www.facebook.com/events/352741681775405/',
+        "eventDate"    : new Date("feb 13, 2017 21:00:00"),
+        "eventName"    : "My Bloody Valentine",
+        "eventArtist"  : "My Bloody Valentine",
+        "eventDesc"    : "Roses are red, violets are black, Factory parties are fun when we all get drunk! Get pics all night by Bruno.",
+        "eventDescLong": "",
+        "eventCover"   : '$1 before 10PM, $3 after 10PM',
+        "eventLink"    : 'special-events/' + 'https://www.facebook.com/events/352741681775405/',
         "eventSocial"  : 'https://www.facebook.com/events/352741681775405/',
         "eventTix"     : 'none',
-        "eventImgTall" : 'img/event-images/cal-medma-groove-d-art-at-necto-night-club-ann-arbor.jpg',
-        "eventImgWide" : 'img/event-images/cal-medma-groove-d-art-at-necto-night-club-ann-arbor.jpg',
+        "eventImgTall" : 'img/event-images/' + 'cal-my-bloody-valentine-at-necto-night-club-ann-arbor.jpg',
+        "eventImgWide" : 'img/event-images/' + 'cal-my-bloody-valentine-at-necto-night-club-ann-arbor.jpg',
+        "eventWklOvrd" : false,
+        "eventDay"     : 0, // Do not modify
+        "pastEvent"    : false // Do not modify
+    },
+
+    {
+        "eventDate"    : new Date("feb 10, 2017 21:00:00"),
+        "eventName"    : "Jinkx Monsoon",
+        "eventArtist"  : "Jinkx Monsoon",
+        "eventDesc"    : "Join us as we welcome the Winner of RuPaul's Drag Race S5... Jinkx Monsoon!!! Let's hang out this Friday with Seattle's hottest, youngest MILF, and the hardest working single mother in show business!",
+        "eventDescLong": "",
+        "eventCover"   : '$1 before 10pm & $3 after 10pm',
+        "eventLink"    : 'special-events/' + 'jinkx-monsoon-at-necto-nightclub-ann-arbor-michigan-feb-10th-2017.html',
+        "eventSocial"  : 'https://www.facebook.com/events/167805097036112/',
+        "eventTix"     : 'none',
+        "eventImgTall" : 'img/event-images/' + 'cal-medma-groove-d-art-at-necto-night-club-ann-arbor.jpg',
+        "eventImgWide" : 'img/event-images/' + 'cal-jinkx-monsoon-at-necto-night-club-ann-arbor.jpg',
+        "eventWklOvrd" : true,
+        "eventDay"     : 0, // Do not modify
+        "pastEvent"    : false // Do not modify
+    },
+
+    {
+        "eventDate"    : new Date("Jan 29, 2017 18:00:00"),
+        "eventName"    : "Miss Necto Professional/Amateur Pageant 2017",
+        "eventArtist"  : "Miss Necto Pageant",
+        "eventDesc"    : "Join us Sunday January 29th, 2017 as we join the huntsman for the 3rd annual Miss Necto Professional/ Amateur Pageant! This year's theme is Evil Queens!",
+        "eventDescLong": "",
+        "eventCover"   : 'Pre-sale single ticket - $15 | 2 Tickets - $20 | 4 Pack Tickets - $30',
+        "eventLink"    : 'special-events/' + 'miss-necto-professional-amateur-pageant-2017-at-necto-nightclub-ann-arbor-michigan-jan-29th-2017.html',
+        "eventSocial"  : 'https://www.facebook.com/events/235480763538626/',
+        "eventTix"     : 'https://www.eventbrite.com/e/miss-necto-proam-pageant-2017-evil-queens-tickets-29831519879',
+        "eventImgTall" : 'img/event-images/' + 'cal-medma-groove-d-art-at-necto-night-club-ann-arbor.jpg',
+        "eventImgWide" : 'img/event-images/' + 'cal-miss-necto-2017-at-necto-nightclub-ann-arbor.jpeg',
+        "eventWklOvrd" : false,
+        "eventDay"     : 0, // Do not modify
+        "pastEvent"    : false // Do not modify
+    },
+
+    {
+        "eventDate"    : new Date("Jan 26, 2017 21:00:00"),
+        "eventName"    : "Worthy: One on One Tour with Golf Clap",
+        "eventArtist"  : "Worthy w/ Golf Clap",
+        "eventDesc"    : 'Worthy (Dirtybird • Anabatic) is doing a 32-city "One-On-One". The tour will last from his Holy Ship performance in early Jan all the way to Miami Music Week in March. Joining Worthy with Detroit‘s own Golf Clap & ADMN',
+        "eventDescLong": '',
+        "eventCover"   : 'Pre-sale Early Bird $15 | 4 Pack $40 | Day of Show $20',
+        "eventLink"    : 'special-events/' + 'worthy-golf-clap-at-necto-nightclub-ann-arbor-michigan-jan-26th-2017.html',
+        "eventSocial"  : 'https://www.facebook.com/events/981986061934932/',
+        "eventTix"     : 'https://www.eventbrite.com/e/worthy-one-on-one-tour-with-golf-clap-tickets-29881447213',
+        "eventImgTall" : 'img/event-images/' + 'cal-medma-groove-d-art-at-necto-night-club-ann-arbor.jpg',
+        "eventImgWide" : 'img/event-images/' + 'cal-worthy-golf-clap-at-necto-nightclub-ann-arbor.jpeg',
+        "eventWklOvrd" : true,
         "eventDay"     : 0, // Do not modify
         "pastEvent"    : false // Do not modify
     }
@@ -96,7 +182,7 @@ var weeklyEvents = [
         "eventName"    : "Factory Monday",
         "eventDesc"    : "Factory is one of the longest running Goth-Industrial nights in the US. Always featuring local talents spinning Goth-Industrial, EBM, Alternative, Cyberpunk and Synth-pop in the Main Room. Madisi plays bass driven dance music in the Red Room. Hosted by MC Yoda.",
         "eventLink"    : 'factory-monday.html',
-        "eventImgWide" : 'img/factory-monday.jpg',
+        "eventImgWide" : 'img/factory-monday-necto-nightclub-calendar.jpg',
         "eventTime"    : '9:00 PM',
         "eventDay"     : 1, // Do not modify
     },
@@ -104,7 +190,7 @@ var weeklyEvents = [
         "eventName"    : "Mix Thursday",
         "eventDesc"    : "We’re mixing it up each and every Thursday, with a blend of concerts by renowned artists, special events, unique parties, and even functions that you can book. Heard about a DJ at Necto? It was probably on a Thursday - check our calendar to see what’s happening this week.",
         "eventLink"    : 'mix-thursday.html',
-        "eventImgWide" : 'img/mix-thursday.jpg',
+        "eventImgWide" : 'img/mix-thursday-necto-nightclub-calendar.jpg',
         "eventTime"    : '9:00 PM',
         "eventDay"     : 4, // Do not modify
     },
@@ -112,7 +198,7 @@ var weeklyEvents = [
         "eventName"    : "Pride Friday",
         "eventDesc"    : "The One-and-Only Gay Night. DJ Jace in the Main Room spins the hottest Pop, Top 40 and EDM. DJ Digi Mark plays Retro 80's to Top 40 Pop videos in the Red Room. Hosted by Chanel Hunter and Jadein Black at the Largest weekly LGBTQ Party in Michigan!",
         "eventLink"    : 'pride-friday.html',
-        "eventImgWide" : 'img/pride-friday.jpg',
+        "eventImgWide" : 'img/pride-friday-necto-nightclub-calendar.jpg',
         "eventTime"    : '9:00 PM',
         "eventDay"     : 5, // Do not modify
     },
@@ -120,7 +206,7 @@ var weeklyEvents = [
         "eventName"    : "Frequency Saturday",
         "eventDesc"    : "DJ Hardy and MC Yoda host the hottest club night around. The dance floor will be packed from the best Top 40, House and Hip Hop Tracks. Don't let your weekend down. Let's get Turnt!",
         "eventLink"    : 'frequency-saturday.html',
-        "eventImgWide" : 'img/frequency-saturday.jpg',
+        "eventImgWide" : 'img/frequency-saturday-necto-nightclub-calendar.jpg',
         "eventTime"    : '9:00 PM',
         "eventDay"     : 6, // Do not modify
     }
@@ -229,22 +315,43 @@ function populateCalPageEvents() {
         return c-d;
     });
 
-    //TODO: Figure out a way to remove the weekly event if need be if a special event falls on the same day.
-
     // Pushes Cal events into the cal page
+    function buildCal(a) {
+        calendarEvents.innerHTML = a;
+    }
+
+    // Removes Weekly if a special event is set to overide
     for (i = 0; i <= calWeeklyEventsList.length - 1; i++) {
         
+        // If a Special Event is set to Override, remove the previous weekly entry
+        if (calWeeklyEventsList[i].eventWklOvrd === true) {
+            calWeeklyEventsList.splice(i-1, 1)
+        }
+        // Else, Do nothing
+        else {           
+        }
+    }
+
+    // Fixes the Special Event Dates for the cal and builds the Event entry. Push to the buildCal function.
+    for (i = 0; i <= calWeeklyEventsList.length - 1; i++) {
+
         if (calWeeklyEventsList[i].eventTix != undefined) {
             
+            if (calWeeklyEventsList[i].eventTix != 'none') {
             var formatedDate = calWeeklyEventsList[i].eventDate.toDateString();
             var formatedTime = calWeeklyEventsList[i].eventDate.toLocaleTimeString([], {hour: '2-digit', minute:'2-digit'});
-            calendarEvents.innerHTML = calendarEvents.innerHTML + '<div class="home-page-event-content col-xs-12 col-sm-12 "><h3><a href="' + calWeeklyEventsList[i].eventLink + '"><span class="event-day">' + formatedDate + ', ' + formatedTime + '</span><br><span class="event-name">' + calWeeklyEventsList[i].eventName + '</span></a></h3><a href="' + calWeeklyEventsList[i].eventLink + '"><img src="' + calWeeklyEventsList[i].eventImgWide + '" alt=""></a><p>' + calWeeklyEventsList[i].eventDesc + '</p><div class="row event-nav"><a href="' + calWeeklyEventsList[i].eventLink + '"class="col-xs-4">VIEW EVENT</a><a href="bottle-service.com" class="col-xs-4 ">REQUEST VIP</a><a href="tickets.html" class="col-xs-4 ">BUY TICKETS</a></div></div><br><br>';
+            buildCal(calendarEvents.innerHTML + '<div class="home-page-event-content col-xs-12 col-sm-12 "><h3><a href="' + calWeeklyEventsList[i].eventLink + '"><span class="event-day">' + formatedDate + ', ' + formatedTime + '</span><br><span class="event-name">' + calWeeklyEventsList[i].eventName + '</span></a></h3><a href="' + calWeeklyEventsList[i].eventLink + '"><img src="' + calWeeklyEventsList[i].eventImgWide + '" alt="An event poster for ' + calWeeklyEventsList[i].eventArtist + ' performing at the Necto Nightclub in Ann Arbor, Michigan on ' +  calWeeklyEventsList[i].eventDate.getMonth() + 1 + '/' + calWeeklyEventsList[i].eventDate.getDate() + '/' + calWeeklyEventsList[i].eventDate.getFullYear() + '."></a><p>' + calWeeklyEventsList[i].eventDesc + '</p><div class="row event-nav"><a href="' + calWeeklyEventsList[i].eventLink + '"class="col-xs-4">VIEW EVENT</a><a href="bottle-service.com" class="col-xs-4 ">REQUEST VIP</a><a href="' + calWeeklyEventsList[i].eventTix + '" class="col-xs-4 ">BUY TICKETS</a></div></div><br><br>');
+            }
 
+            else {
+            var formatedDate = calWeeklyEventsList[i].eventDate.toDateString();
+            var formatedTime = calWeeklyEventsList[i].eventDate.toLocaleTimeString([], {hour: '2-digit', minute:'2-digit'});
+            buildCal(calendarEvents.innerHTML + '<div class="home-page-event-content col-xs-12 col-sm-12 "><h3><a href="' + calWeeklyEventsList[i].eventLink + '"><span class="event-day">' + formatedDate + ', ' + formatedTime + '</span><br><span class="event-name">' + calWeeklyEventsList[i].eventName + '</span></a></h3><a href="' + calWeeklyEventsList[i].eventLink + '"><img src="' + calWeeklyEventsList[i].eventImgWide + '" alt="An event poster for ' + calWeeklyEventsList[i].eventArtist + ' performing at the Necto Nightclub in Ann Arbor, Michigan on ' +  calWeeklyEventsList[i].eventDate.getMonth() + 1 + '/' + calWeeklyEventsList[i].eventDate.getDate() + '/' + calWeeklyEventsList[i].eventDate.getFullYear() + '."></a><p>' + calWeeklyEventsList[i].eventDesc + '</p><div class="row event-nav"><a href="' + calWeeklyEventsList[i].eventLink + '"class="col-xs-6">VIEW EVENT</a><a href="bottle-service.com" class="col-xs-6 ">REQUEST VIP</a></div></div><br><br>');
+            }
         }
 
         else {
-            calendarEvents.innerHTML = calendarEvents.innerHTML + '<div class="home-page-event-content col-xs-12 col-sm-12 "><h3><a href="' + calWeeklyEventsList[i].eventLink + '"><span class="event-day">' + calWeeklyEventsList[i].eventDate + ', ' + calWeeklyEventsList[i].eventTime + '</span><br><span class="event-name">' + calWeeklyEventsList[i].eventName + '</span></a></h3><a href="' + calWeeklyEventsList[i].eventLink + '"><img src="' + calWeeklyEventsList[i].eventImgWide + '" alt=""></a><p>' + calWeeklyEventsList[i].eventDesc + '</p><div class="row event-nav"><a href="' + calWeeklyEventsList[i].eventLink + '"class="col-xs-4">VIEW EVENT</a><a href="bottle-service.com" class="col-xs-4 ">REQUEST VIP</a><a href="tickets.html" class="col-xs-4 ">BUY TICKETS</a></div></div><br><br>';
-
+            buildCal(calendarEvents.innerHTML + '<div class="home-page-event-content col-xs-12 col-sm-12 "><h3><a href="' + calWeeklyEventsList[i].eventLink + '"><span class="event-day">' + calWeeklyEventsList[i].eventDate + ', ' + calWeeklyEventsList[i].eventTime + '</span><br><span class="event-name">' + calWeeklyEventsList[i].eventName + '</span></a></h3><a href="' + calWeeklyEventsList[i].eventLink + '"><img src="' + calWeeklyEventsList[i].eventImgWide + '" alt="A image of ' + calWeeklyEventsList[i].eventName + ', a weekly event at the Necto Nightclub in Ann Arbor, Michigan."></a><p>' + calWeeklyEventsList[i].eventDesc + '</p><div class="row event-nav"><a href="' + calWeeklyEventsList[i].eventLink + '"class="col-xs-6">VIEW EVENT</a><a href="bottle-service.com" class="col-xs-6 ">REQUEST VIP</a></div></div><br><br>');
         }
     }
 }

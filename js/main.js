@@ -26,8 +26,8 @@ var calWeeklyEventsList = [];
 // TODO: Add meta data tags for the indivual event pages
 var events = [
     {
-        "eventDate"    : new Date("jan 27, 2017 18:24:00"),
-        "eventName"    : "ljhsadfljhasbdfjklsadbfjsakd ljhsadfljhasbdfjklsadbfjsakd ljhsadfljhasbdfjklsadbfjsakd ljhsadfljhasbdfjklsadbfjsakd",
+        "eventDate"    : new Date("mar 27, 2017 20:00:00"),
+        "eventName"    : "ljhsadfljhasbdfjklsadbfjsakd",
         "eventArtist"  : "Emily",
         "eventDesc"    : "This will be the grand finale to Spotlight, MPowered’s premiere music and filmmaking competition, which will be held from January 14th-19th. Select participants will be presented prizes at the M-Oscars Award Ceremony on January 19th, which will be followed by the concert at Necto Nightclub.",
         "eventDescLong": "This will be the grand finale to Spotlight, MPowered’s premiere music and filmmaking competition, which will be held from January 14th-19th. Select participants will be presented prizes at the M-Oscars Award Ceremony on January 19th, which will be followed by the concert at Necto Nightclub.",
@@ -42,7 +42,23 @@ var events = [
     },
 
     {
-        "eventDate"    : new Date("Jan 26, 2017 18:24:00"),
+        "eventDate"    : new Date("jan 27, 2017 19:30:00"),
+        "eventName"    : "ljhsadfljhasbdfjklsadbfjsakd",
+        "eventArtist"  : "Emily",
+        "eventDesc"    : "This will be the grand finale to Spotlight, MPowered’s premiere music and filmmaking competition, which will be held from January 14th-19th. Select participants will be presented prizes at the M-Oscars Award Ceremony on January 19th, which will be followed by the concert at Necto Nightclub.",
+        "eventDescLong": "This will be the grand finale to Spotlight, MPowered’s premiere music and filmmaking competition, which will be held from January 14th-19th. Select participants will be presented prizes at the M-Oscars Award Ceremony on January 19th, which will be followed by the concert at Necto Nightclub.",
+        "eventCover"   : '$1 before 10pm & $3 after 10pm',
+        "eventLink"    : 'https://www.facebook.com/events/352741681775405/',
+        "eventSocial"  : 'https://www.facebook.com/events/352741681775405/',
+        "eventTix"     : 'https://www.facebook.com/events/352741681775405/',
+        "eventImgTall" : 'img/event-images/cal-medma-groove-d-art-at-necto-night-club-ann-arbor.jpg',
+        "eventImgWide" : 'img/event-images/cal-medma-groove-d-art-at-necto-night-club-ann-arbor.jpg',
+        "eventDay"     : 0, // Do not modify
+        "pastEvent"    : false // Do not modify
+    },
+
+    {
+        "eventDate"    : new Date("Jan 26, 2017 19:00:00"),
         "eventName"    : "2nd",
         "eventArtist"  : "Emily",
         "eventDesc"    : "This will be the grand finale to Spotlight, MPowered’s premiere music and filmmaking competition, which will be held from January 14th-19th. Select participants will be presented prizes at the M-Oscars Award Ceremony on January 19th, which will be followed by the concert at Necto Nightclub.",
@@ -58,7 +74,7 @@ var events = [
     },
 
     {
-        "eventDate"    : new Date("Jan 25, 2017 18:24:00"),
+        "eventDate"    : new Date("Jan 25, 2017 23:00:00"),
         "eventName"    : "1st",
         "eventArtist"  : "Emily",
         "eventDesc"    : "This will be the grand finale to Spotlight, MPowered’s premiere music and filmmaking competition, which will be held from January 14th-19th. Select participants will be presented prizes at the M-Oscars Award Ceremony on January 19th, which will be followed by the concert at Necto Nightclub.",
@@ -66,7 +82,7 @@ var events = [
         "eventCover"   : '$1 before 10pm & $3 after 10pm',
         "eventLink"    : 'https://www.facebook.com/events/352741681775405/',
         "eventSocial"  : 'https://www.facebook.com/events/352741681775405/',
-        "eventTix"     : 'https://www.facebook.com/events/352741681775405/',
+        "eventTix"     : 'none',
         "eventImgTall" : 'img/event-images/cal-medma-groove-d-art-at-necto-night-club-ann-arbor.jpg',
         "eventImgWide" : 'img/event-images/cal-medma-groove-d-art-at-necto-night-club-ann-arbor.jpg',
         "eventDay"     : 0, // Do not modify
@@ -78,32 +94,36 @@ var events = [
 var weeklyEvents = [
     {
         "eventName"    : "Factory Monday",
-        "eventDesc"    : "This will be the grand finale to Spotlight, MPowered’s premiere music and filmmaking competition, which will be held from January 14th-19th. Select participants will be presented prizes at the M-Oscars Award Ceremony on January 19th, which will be followed by the concert at Necto Nightclub.",
+        "eventDesc"    : "Factory is one of the longest running Goth-Industrial nights in the US. Always featuring local talents spinning Goth-Industrial, EBM, Alternative, Cyberpunk and Synth-pop in the Main Room. Madisi plays bass driven dance music in the Red Room. Hosted by MC Yoda.",
         "eventLink"    : 'factory-monday.html',
-        "eventImgWide" : 'img/event-images/cal-medma-groove-d-art-at-necto-night-club-ann-arbor.jpg',
+        "eventImgWide" : 'img/factory-monday.jpg',
+        "eventTime"    : '9:00 PM',
         "eventDay"     : 1, // Do not modify
     },
     {
         "eventName"    : "Mix Thursday",
-        "eventDesc"    : "This will be the grand finale to Spotlight, MPowered’s premiere music and filmmaking competition, which will be held from January 14th-19th. Select participants will be presented prizes at the M-Oscars Award Ceremony on January 19th, which will be followed by the concert at Necto Nightclub.",
-        "eventLink"    : 'factory-monday.html',
-        "eventImgWide" : 'img/event-images/cal-medma-groove-d-art-at-necto-night-club-ann-arbor.jpg',
+        "eventDesc"    : "We’re mixing it up each and every Thursday, with a blend of concerts by renowned artists, special events, unique parties, and even functions that you can book. Heard about a DJ at Necto? It was probably on a Thursday - check our calendar to see what’s happening this week.",
+        "eventLink"    : 'mix-thursday.html',
+        "eventImgWide" : 'img/mix-thursday.jpg',
+        "eventTime"    : '9:00 PM',
         "eventDay"     : 4, // Do not modify
     },
     {
         "eventName"    : "Pride Friday",
-        "eventDesc"    : "This will be the grand finale to Spotlight, MPowered’s premiere music and filmmaking competition, which will be held from January 14th-19th. Select participants will be presented prizes at the M-Oscars Award Ceremony on January 19th, which will be followed by the concert at Necto Nightclub.",
-        "eventLink"    : 'factory-monday.html',
-        "eventImgWide" : 'img/event-images/cal-medma-groove-d-art-at-necto-night-club-ann-arbor.jpg',
+        "eventDesc"    : "The One-and-Only Gay Night. DJ Jace in the Main Room spins the hottest Pop, Top 40 and EDM. DJ Digi Mark plays Retro 80's to Top 40 Pop videos in the Red Room. Hosted by Chanel Hunter and Jadein Black at the Largest weekly LGBTQ Party in Michigan!",
+        "eventLink"    : 'pride-friday.html',
+        "eventImgWide" : 'img/pride-friday.jpg',
+        "eventTime"    : '9:00 PM',
         "eventDay"     : 5, // Do not modify
     },
     {
         "eventName"    : "Frequency Saturday",
-        "eventDesc"    : "This will be the grand finale to Spotlight, MPowered’s premiere music and filmmaking competition, which will be held from January 14th-19th. Select participants will be presented prizes at the M-Oscars Award Ceremony on January 19th, which will be followed by the concert at Necto Nightclub.",
-        "eventLink"    : 'factory-monday.html',
-        "eventImgWide" : 'img/event-images/cal-medma-groove-d-art-at-necto-night-club-ann-arbor.jpg',
+        "eventDesc"    : "DJ Hardy and MC Yoda host the hottest club night around. The dance floor will be packed from the best Top 40, House and Hip Hop Tracks. Don't let your weekend down. Let's get Turnt!",
+        "eventLink"    : 'frequency-saturday.html',
+        "eventImgWide" : 'img/frequency-saturday.jpg',
+        "eventTime"    : '9:00 PM',
         "eventDay"     : 6, // Do not modify
-    },
+    }
 ];
 
 // The total number of events
@@ -132,7 +152,7 @@ for (i = 0; i < eventsLength; i++) {
     }
 }
 
-// Pushes upcoming events into the upcoming evens array
+// Pushes upcoming events into the upcoming events array
 for (i = 0; i <= eventsLength - 1; i++) {
     if (events[i].pastEvent === false) {
         upcomingEvents.push(events[i]);
@@ -157,40 +177,15 @@ function populateFrontPageEvents() {
 
     // Populates the event list on the homepage
     for (i = 0; i <= upcomingEvents.length - 1; i++) {
+        
         if (upcomingEvents[i].eventTix != 'none') {
-        homepageSpecialEvents.innerHTML = homepageSpecialEvents.innerHTML +
-        '<div class="home-page-event-content col-xs-12 col-sm-6 "><h3><a href="'+
-        upcomingEvents[i].eventLink +
-        '"><span class="event-day">' +
-        upcomingEvents[i].eventDate.getMonth()+1 +
-        '/' + upcomingEvents[i].eventDate.getDate() +
-        '/' + upcomingEvents[i].eventDate.getFullYear()
-        + '&nbsp;&nbsp;' + upcomingEvents[i].eventDate.toLocaleTimeString([], {hour: '2-digit', minute:'2-digit'})
-        +'</span><br><span class="event-name">' +
-        upcomingEvents[i].eventName +
-        '</span></a></h3><a href="' + upcomingEvents[i].eventLink +
-        '"><img src="' + upcomingEvents[i].eventImgWide + '" alt="A event poster for ' +  upcomingEvents[i].eventArtist + ', performing at the Necto Nightclub in Ann Arbor, Michigan on ' + upcomingEvents[i].eventDate.getMonth()+1 +
-        '/' + upcomingEvents[i].eventDate.getDate() +
-        '/' + upcomingEvents[i].eventDate.getFullYear() + '." /></a><div class="row event-nav"><a href="' + upcomingEvents[i].eventLink +
-        '" class="col-xs-4">VIEW EVENT</a><a href="bottle-service.com" class="col-xs-4 ">REQUEST VIP</a><a href="' +
-        upcomingEvents[i].eventTix + '" class="col-xs-4 ">BUY TICKETS</a></div></div>';
+            //            homepageSpecialEvents.innerHTML = homepageSpecialEvents.innerHTML + '<div class="home-page-event-content col-xs-12 col-sm-6 "><h3><a href="' + upcomingEvents[i].eventLink + '"><span class="event-day">' + upcomingEvents[i].eventDate.getMonth() + 1 + '/' + upcomingEvents[i].eventDate.getDate() + '/' + upcomingEvents[i].eventDate.getFullYear() + '&nbsp;&nbsp;' + upcomingEvents[i].eventDate.toLocaleTimeString([], {hour: '2-digit', minute:'2-digit'}) + '</span><br><span class="event-name">' + upcomingEvents[i].eventName + '</span></a></h3><a href="' + upcomingEvents[i].eventLink + '"><img src="' + upcomingEvents[i].eventImgWide + '" alt="A event poster for ' +  upcomingEvents[i].eventArtist + ', performing at the Necto Nightclub in Ann Arbor, Michigan on ' + upcomingEvents[i].eventDate.getMonth() + 1 + '/' + upcomingEvents[i].eventDate.getDate() + '/' + upcomingEvents[i].eventDate.getFullYear() + '." /></a><div class="row event-nav"><a href="' + upcomingEvents[i].eventLink + '" class="col-xs-4">VIEW EVENT</a><a href="bottle-service.com" class="col-xs-4 ">REQUEST VIP</a><a href="' + upcomingEvents[i].eventTix + '" class="col-xs-4 ">BUY TICKETS</a></div></div>';
+
+            homepageSpecialEvents.innerHTML = homepageSpecialEvents.innerHTML + '<div class="home-page-event-content col-xs-12 col-sm-6 "><h3><a href="' + upcomingEvents[i].eventLink + '"><span class="event-day">' + upcomingEvents[i].eventDate.toDateString() + ', ' + upcomingEvents[i].eventDate.toLocaleTimeString().replace(/([\d]+:[\d]{2})(:[\d]{2})(.*)/, "$1$3") + '</span><br><span class="event-name">' + upcomingEvents[i].eventName + '</span></a></h3><a href="' + upcomingEvents[i].eventLink + '"><img src="' + upcomingEvents[i].eventImgWide + '" alt="A event poster for ' +  upcomingEvents[i].eventArtist + ', performing at the Necto Nightclub in Ann Arbor, Michigan on ' + upcomingEvents[i].eventDate.getMonth() + 1 + '/' + upcomingEvents[i].eventDate.getDate() + '/' + upcomingEvents[i].eventDate.getFullYear() + '." /></a><div class="row event-nav"><a href="' + upcomingEvents[i].eventLink + '" class="col-xs-4">VIEW EVENT</a><a href="bottle-service.com" class="col-xs-4 ">REQUEST VIP</a><a href="' + upcomingEvents[i].eventTix + '" class="col-xs-4 ">BUY TICKETS</a></div></div>';
         }
+
         else {
-            homepageSpecialEvents.innerHTML = homepageSpecialEvents.innerHTML +
-        '<div class="home-page-event-content col-xs-12 col-sm-6 "><h3><a href="'+
-        upcomingEvents[i].eventLink +
-        '"><span class="event-day">' +
-        upcomingEvents[i].eventDate.getMonth()+1 +
-        '/' + upcomingEvents[i].eventDate.getDate() +
-        '/' + upcomingEvents[i].eventDate.getFullYear()
-        + '&nbsp;&nbsp;' + upcomingEvents[i].eventDate.toLocaleTimeString([], {hour: '2-digit', minute:'2-digit'})
-        +'</span><br><span class="event-name">' +
-        upcomingEvents[i].eventName +
-        '</span></a></h3><a href="' + upcomingEvents[i].eventLink +
-        '"><img src="' + upcomingEvents[i].eventImgWide + '" alt="A event poster for ' +  upcomingEvents[i].eventArtist + ', performing at the Necto Nightclub in Ann Arbor, Michigan on ' + upcomingEvents[i].eventDate.getMonth()+1 +
-        '/' + upcomingEvents[i].eventDate.getDate() +
-        '/' + upcomingEvents[i].eventDate.getFullYear() + '." /></a><div class="row event-nav"><a href="' + upcomingEvents[i].eventLink +
-        '" class="col-xs-6">VIEW EVENT</a><a href="bottle-service.com" class="col-xs-6 ">REQUEST VIP</a>';
+            homepageSpecialEvents.innerHTML = homepageSpecialEvents.innerHTML + '<div class="home-page-event-content col-xs-12 col-sm-6 "><h3><a href="' + upcomingEvents[i].eventLink + '"><span class="event-day">' + upcomingEvents[i].eventDate.toDateString() + ', ' + upcomingEvents[i].eventDate.toLocaleTimeString().replace(/([\d]+:[\d]{2})(:[\d]{2})(.*)/, "$1$3") + '</span><br><span class="event-name">' + upcomingEvents[i].eventName + '</span></a></h3><a href="' + upcomingEvents[i].eventLink + '"><img src="' + upcomingEvents[i].eventImgWide + '" alt="A event poster for ' +  upcomingEvents[i].eventArtist + ', performing at the Necto Nightclub in Ann Arbor, Michigan on ' + upcomingEvents[i].eventDate.getMonth() + 1 + '/' + upcomingEvents[i].eventDate.getDate() + '/' + upcomingEvents[i].eventDate.getFullYear() + '." /></a><div class="row event-nav"><a href="' + upcomingEvents[i].eventLink + '" class="col-xs-6">VIEW EVENT</a><a href="bottle-service.com" class="col-xs-6 ">REQUEST VIP</a>';
         }     
     }
 }
@@ -201,26 +196,25 @@ function populateCalPageEvents() {
     upcomingEvents.reverse();
     
     // Builds the array of Weekly Events that will later have the upcoming events pushed into it.
-    for (i = 0; i <= 10; i++) {
+    for (i = 0; i <= 50; i++) {
+
         var calEndDate = new Date();
         var weeklyCalEntry = calEndDate.setDate(calEndDate.getDate() + i);
         var weeklyCalEntryString = new Date(weeklyCalEntry);
 
         if (weeklyCalEntryString.getDay() === 1) {
-            calWeeklyEventsList.push({'eventDate' : weeklyCalEntryString.setTime(weeklyCalEntryString.getTime(20,30,00,0)), 'eventName' : weeklyEvents[0].eventName});
+            calWeeklyEventsList.push({'eventDate' : weeklyCalEntryString.toDateString(), 'eventName' : weeklyEvents[0].eventName, 'eventDesc' : weeklyEvents[0].eventDesc, 'eventImgWide' : weeklyEvents[0].eventImgWide, 'eventTime' : weeklyEvents[0].eventTime, 'eventLink' : weeklyEvents[0].eventLink});
         }
 
         else if (weeklyCalEntryString.getDay() === 4) {
-            calWeeklyEventsList.push({'eventDate' : weeklyCalEntryString, 'eventName' : weeklyEvents[1].eventName});
-        }
+            calWeeklyEventsList.push({'eventDate' : weeklyCalEntryString.toDateString(), 'eventName' : weeklyEvents[1].eventName, 'eventDesc' : weeklyEvents[1].eventDesc, 'eventImgWide' : weeklyEvents[1].eventImgWide, 'eventTime' : weeklyEvents[1].eventTime, 'eventLink' : weeklyEvents[1].eventLink});        }
 
         else if (weeklyCalEntryString.getDay() === 5) {
-            calWeeklyEventsList.push({'eventDate' : weeklyCalEntryString, 'eventName' : weeklyEvents[2].eventName});
-        }
+            calWeeklyEventsList.push({'eventDate' : weeklyCalEntryString.toDateString(), 'eventName' : weeklyEvents[2].eventName, 'eventDesc' : weeklyEvents[2].eventDesc, 'eventImgWide' : weeklyEvents[2].eventImgWide, 'eventTime' : weeklyEvents[2].eventTime, 'eventLink' : weeklyEvents[2].eventLink});        }
 
         else if (weeklyCalEntryString.getDay() === 6) {
-            calWeeklyEventsList.push({'eventDate' : weeklyCalEntryString, 'eventName' : weeklyEvents[3].eventName});
-        }     
+            calWeeklyEventsList.push({'eventDate' : weeklyCalEntryString.toDateString(), 'eventName' : weeklyEvents[3].eventName, 'eventDesc' : weeklyEvents[3].eventDesc, 'eventImgWide' : weeklyEvents[3].eventImgWide, 'eventTime' : weeklyEvents[3].eventTime, 'eventLink' : weeklyEvents[3].eventLink});        }
+
     }
 
     // Adds upcoming events to the weekly events
@@ -233,13 +227,25 @@ function populateCalPageEvents() {
         var c = new Date(a.eventDate);
         var d = new Date(b.eventDate);
         return c-d;
-        });
+    });
+
+    //TODO: Figure out a way to remove the weekly event if need be if a special event falls on the same day.
 
     // Pushes Cal events into the cal page
     for (i = 0; i <= calWeeklyEventsList.length - 1; i++) {
-        //calendarEvents.innerHTML = calendarEvents.innerHTML + '<div style="color: white;">' + calWeeklyEventsList[i].eventDate + '<br>' + calWeeklyEventsList[i].eventName + '<br><br></div>';
-        calendarEvents.innerHTML = calendarEvents.innerHTML + '<div class="home-page-event-content col-xs-12 col-sm-12 "><h3><a href="' + calWeeklyEventsList[i].eventLink + '"><span class="event-day">' + calWeeklyEventsList[i].eventDate + '</span><br><span class="event-name">' + calWeeklyEventsList[i].eventName + '</span></a></h3><a href="' + calWeeklyEventsList[i].eventLink + '"><img src="' + calWeeklyEventsList[i].eventImgWide + '" alt=""></a><div class="row event-nav"><a href="' + calWeeklyEventsList[i].eventLink + '"class="col-xs-4">VIEW EVENT</a><a href="bottle-service.com" class="col-xs-4 ">REQUEST VIP</a><a href="tickets.html" class="col-xs-4 ">BUY TICKETS</a></div></div>';
+        
+        if (calWeeklyEventsList[i].eventTix != undefined) {
+            
+            var formatedDate = calWeeklyEventsList[i].eventDate.toDateString();
+            var formatedTime = calWeeklyEventsList[i].eventDate.toLocaleTimeString([], {hour: '2-digit', minute:'2-digit'});
+            calendarEvents.innerHTML = calendarEvents.innerHTML + '<div class="home-page-event-content col-xs-12 col-sm-12 "><h3><a href="' + calWeeklyEventsList[i].eventLink + '"><span class="event-day">' + formatedDate + ', ' + formatedTime + '</span><br><span class="event-name">' + calWeeklyEventsList[i].eventName + '</span></a></h3><a href="' + calWeeklyEventsList[i].eventLink + '"><img src="' + calWeeklyEventsList[i].eventImgWide + '" alt=""></a><p>' + calWeeklyEventsList[i].eventDesc + '</p><div class="row event-nav"><a href="' + calWeeklyEventsList[i].eventLink + '"class="col-xs-4">VIEW EVENT</a><a href="bottle-service.com" class="col-xs-4 ">REQUEST VIP</a><a href="tickets.html" class="col-xs-4 ">BUY TICKETS</a></div></div><br><br>';
 
+        }
+
+        else {
+            calendarEvents.innerHTML = calendarEvents.innerHTML + '<div class="home-page-event-content col-xs-12 col-sm-12 "><h3><a href="' + calWeeklyEventsList[i].eventLink + '"><span class="event-day">' + calWeeklyEventsList[i].eventDate + ', ' + calWeeklyEventsList[i].eventTime + '</span><br><span class="event-name">' + calWeeklyEventsList[i].eventName + '</span></a></h3><a href="' + calWeeklyEventsList[i].eventLink + '"><img src="' + calWeeklyEventsList[i].eventImgWide + '" alt=""></a><p>' + calWeeklyEventsList[i].eventDesc + '</p><div class="row event-nav"><a href="' + calWeeklyEventsList[i].eventLink + '"class="col-xs-4">VIEW EVENT</a><a href="bottle-service.com" class="col-xs-4 ">REQUEST VIP</a><a href="tickets.html" class="col-xs-4 ">BUY TICKETS</a></div></div><br><br>';
+
+        }
     }
 }
 

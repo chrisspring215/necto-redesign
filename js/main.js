@@ -8,6 +8,8 @@ else {
     baseTag.setAttribute('href', 'file:///Users/cacollins/Documents/necto-redesign/index.html')
 }
 
+
+
 /** EVENT POPULATION **/
 
 // Assigns a var to the special events list on the homepage

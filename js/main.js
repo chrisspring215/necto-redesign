@@ -1,3 +1,9 @@
+/* BASE HEAD - FOR TESTING ONLY*/
+var localTesting;
+var gitHbTesting;
+
+alert(window.location.hostname)
+
 /** EVENT POPULATION **/
 
 // Assigns a var to the special events list on the homepage

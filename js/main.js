@@ -1,4 +1,5 @@
 /* BASE HEAD - FOR TESTING ONLY*/
+// This can be removed or you can add another IFELSE for hostname === necto.com
 
 var baseTag = document.getElementById('baseTag')
 if (window.location.hostname === 'chrisspring215.github.io') {
@@ -172,6 +173,38 @@ var events = [
 
     {
         "eventDate"    : new Date("Jan 26, 2017 21:00:00"),
+        "eventName"    : "Worthy: One on One Tour with Golf Clap",
+        "eventArtist"  : "Worthy w/ Golf Clap",
+        "eventDesc"    : 'Worthy (Dirtybird • Anabatic) is doing a 32-city "One-On-One". The tour will last from his Holy Ship performance in early Jan all the way to Miami Music Week in March. Joining Worthy with Detroit‘s own Golf Clap & ADMN',
+        "eventDescLong": '',
+        "eventCover"   : 'Pre-sale Early Bird $15 | 4 Pack $40 | Day of Show $20',
+        "eventLink"    : 'special-events/' + 'worthy-golf-clap-at-necto-nightclub-ann-arbor-michigan-jan-26th-2017.html',
+        "eventSocial"  : 'https://www.facebook.com/events/981986061934932/',
+        "eventTix"     : 'https://www.eventbrite.com/e/worthy-one-on-one-tour-with-golf-clap-tickets-29881447213',
+        "eventImgTall" : 'img/event-images/' + 'cal-medma-groove-d-art-at-necto-night-club-ann-arbor.jpg',
+        "eventImgWide" : 'img/event-images/' + 'cal-worthy-golf-clap-at-necto-nightclub-ann-arbor.jpeg',
+        "eventWklOvrd" : true,
+        "eventDay"     : 0, // Do not modify
+        "pastEvent"    : false // Do not modify
+    },
+    {
+        "eventDate"    : new Date("Jan 12, 2017 21:00:00"),
+        "eventName"    : "Worthy: One on One Tour with Golf Clap",
+        "eventArtist"  : "Worthy w/ Golf Clap",
+        "eventDesc"    : 'Worthy (Dirtybird • Anabatic) is doing a 32-city "One-On-One". The tour will last from his Holy Ship performance in early Jan all the way to Miami Music Week in March. Joining Worthy with Detroit‘s own Golf Clap & ADMN',
+        "eventDescLong": '',
+        "eventCover"   : 'Pre-sale Early Bird $15 | 4 Pack $40 | Day of Show $20',
+        "eventLink"    : 'special-events/' + 'worthy-golf-clap-at-necto-nightclub-ann-arbor-michigan-jan-26th-2017.html',
+        "eventSocial"  : 'https://www.facebook.com/events/981986061934932/',
+        "eventTix"     : 'https://www.eventbrite.com/e/worthy-one-on-one-tour-with-golf-clap-tickets-29881447213',
+        "eventImgTall" : 'img/event-images/' + 'cal-medma-groove-d-art-at-necto-night-club-ann-arbor.jpg',
+        "eventImgWide" : 'img/event-images/' + 'cal-worthy-golf-clap-at-necto-nightclub-ann-arbor.jpeg',
+        "eventWklOvrd" : true,
+        "eventDay"     : 0, // Do not modify
+        "pastEvent"    : false // Do not modify
+    },
+    {
+        "eventDate"    : new Date("Jan 10, 2017 21:00:00"),
         "eventName"    : "Worthy: One on One Tour with Golf Clap",
         "eventArtist"  : "Worthy w/ Golf Clap",
         "eventDesc"    : 'Worthy (Dirtybird • Anabatic) is doing a 32-city "One-On-One". The tour will last from his Holy Ship performance in early Jan all the way to Miami Music Week in March. Joining Worthy with Detroit‘s own Golf Clap & ADMN',
@@ -365,6 +398,18 @@ function populateCalPageEvents() {
         else {
             buildCal(calendarEvents.innerHTML + '<div class="home-page-event-content col-xs-12 col-sm-12 "><h3><a href="' + calWeeklyEventsList[i].eventLink + '"><span class="event-day">' + calWeeklyEventsList[i].eventDate + ', ' + calWeeklyEventsList[i].eventTime + '</span><br><span class="event-name">' + calWeeklyEventsList[i].eventName + '</span></a></h3><a href="' + calWeeklyEventsList[i].eventLink + '"><img src="' + calWeeklyEventsList[i].eventImgWide + '" alt="A image of ' + calWeeklyEventsList[i].eventName + ', a weekly event at the Necto Nightclub in Ann Arbor, Michigan."></a><p>' + calWeeklyEventsList[i].eventDesc + '</p><div class="row event-nav"><a href="' + calWeeklyEventsList[i].eventLink + '"class="col-xs-6">VIEW EVENT</a><a href="bottle-service.com" class="col-xs-6 ">REQUEST VIP</a></div></div><br><br>');
         }
+    }
+}
+
+/** PAST EVENTS PAGE POPULATION **/
+
+var pastEventsList = document.getElementById('pastEventsList')
+
+function populatePastEventsPageEvents() {
+
+    for (i = 0; i <= pastEvents.length - 1; i++) {
+        
+        pastEventsList.innerHTML = pastEventsList.innerHTML + pastEvents[i].eventDate.toDateString() + pastEvents[i].eventName + '<br>'
     }
 }
 

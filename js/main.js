@@ -1,8 +1,12 @@
 /* BASE HEAD - FOR TESTING ONLY*/
-var localTesting;
-var gitHbTesting;
 
-alert(window.location.hostname)
+var baseTag = document.getElementById('baseTag')
+if (window.location.hostname === 'chrisspring215.github.io') {
+    baseTag.setAttribute('href', 'https://chrisspring215.github.io/necto-redesign/')
+}
+else {
+    baseTag.setAttribute('href', 'file:///Users/cacollins/Documents/necto-redesign/index.html')
+}
 
 /** EVENT POPULATION **/
 

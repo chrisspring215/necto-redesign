@@ -409,7 +409,7 @@ function populatePastEventsPageEvents() {
 
     for (i = 0; i <= pastEvents.length - 1; i++) {
         
-        pastEventsList.innerHTML = pastEventsList.innerHTML + pastEvents[i].eventDate.toDateString() + pastEvents[i].eventName + '<br>'
+        pastEventsList.innerHTML = pastEventsList.innerHTML + '<span class="past-events-date">' + pastEvents[i].eventDate.toDateString() + '&nbsp;&nbsp;</span><span class="past-events-event"><a href="' + pastEvents[i].eventLink + '">' + pastEvents[i].eventName + '</a></span><br>'
     }
 }
 

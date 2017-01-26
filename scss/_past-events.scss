@@ -1,0 +1,29 @@
+.past-events-date
+{
+	color: $pink;
+}
+
+#pastEventsList
+{	
+	margin-bottom: 3em;
+
+	a
+	{
+		color: $blue;
+		-webkit-transition:  color 200ms ease-in;
+		transition:  color 200ms ease-in;
+
+
+		&:hover
+		{
+			color: $yellow;
+			-webkit-transition:  color 300ms ease-out;
+			transition:          color 300ms ease-out
+		}
+	}
+
+	.past-events-event
+	{
+		line-height: 1.75em;
+	}
+}

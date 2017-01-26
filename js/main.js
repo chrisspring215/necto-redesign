@@ -162,7 +162,7 @@ var events = [
         "eventTix"     : 'https://www.eventbrite.com/e/miss-necto-proam-pageant-2017-evil-queens-tickets-29831519879',
         "eventImgTall" : 'img/event-images/' + 'cal-medma-groove-d-art-at-necto-night-club-ann-arbor.jpg',
         "eventImgWide" : 'img/event-images/' + 'cal-jinkx-monsoon-at-necto-night-club-ann-arbor.jpg',
-        "eventWklOvrd" : true,
+        "eventWklOvrd" : false,
         "eventDay"     : 0, // Do not modify
         "pastEvent"    : false // Do not modify
     },

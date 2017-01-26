@@ -52,6 +52,7 @@ main {
         color: $white;
         padding: 0 1em;
         text-shadow: 3px 3px 3px #333;
+        line-height: 2em;
 
         &:hover
         {
@@ -67,15 +68,17 @@ main {
     box-shadow: $boxShadowDark;
     height: 100vh;
     
-    h1
+    span
     {
-        
+        display: block;
         margin-right: 10%;
         margin-left: 10%;
         margin-bottom: 0;
+        margin-top: .5em;
         padding: .25em 0;
     	text-align: center;
     	font-size: 2.75rem;
+        font-weight: 900;
     	line-height: 3.5rem;
         color: $blue - 40;
         text-shadow: $textShadowYellow;
@@ -299,7 +302,7 @@ main {
         margin-right: 0;
         width: 100%;
 
-        h1
+        span
         {
             border: none;
             margin-top: 10rem;

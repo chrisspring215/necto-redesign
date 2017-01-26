@@ -9,10 +9,7 @@ else {
     baseTag.setAttribute('href', 'file:///Users/cacollins/Documents/necto-redesign/index.html')
 }
 
-
-
 /** EVENT POPULATION **/
-
 // Assigns a var to the special events list on the homepage
 //TODO: Repeat this for cal, past events page
 var homepageSpecialEvents = document.getElementById('homepageSpecialEvents');
@@ -153,6 +150,24 @@ var events = [
         "eventDay"     : 0, // Do not modify
         "pastEvent"    : false // Do not modify
     },
+    {
+        "eventDate"    : new Date("jan 30, 2017 21:00:00"),
+        "eventName"    : "specialEventName",
+        "eventArtist"  : "specialEventArtist",
+        "eventDesc"    : "specialEventShortDesc",
+        "eventDescLong": "Join us as we welcome the Winner of RuPaul's Drag Race S5... Jinkx Monsoon!!! Let's hang out this Friday with Seattle's hottest, youngest MILF, and the hardest working single mother in show business!",
+        "eventCover"   : 'specialEventCover',
+        "eventLink"    : 'special-events/' + '01-special-event-jan-30-2017-at-necto-nightclub-ann-arbor-michigan.html',
+        "eventSocial"  : 'https://www.facebook.com/events/167805097036112/',
+        "eventTix"     : 'https://www.eventbrite.com/e/miss-necto-proam-pageant-2017-evil-queens-tickets-29831519879',
+        "eventImgTall" : 'img/event-images/' + 'cal-medma-groove-d-art-at-necto-night-club-ann-arbor.jpg',
+        "eventImgWide" : 'img/event-images/' + 'cal-jinkx-monsoon-at-necto-night-club-ann-arbor.jpg',
+        "eventWklOvrd" : true,
+        "eventDay"     : 0, // Do not modify
+        "pastEvent"    : false // Do not modify
+    },
+
+
 
     {
         "eventDate"    : new Date("Jan 29, 2017 18:00:00"),
@@ -402,19 +417,36 @@ function populateCalPageEvents() {
 }
 
 /** PAST EVENTS PAGE POPULATION **/
-
 var pastEventsList = document.getElementById('pastEventsList')
-
 function populatePastEventsPageEvents() {
-
     for (i = 0; i <= pastEvents.length - 1; i++) {
-        
         pastEventsList.innerHTML = pastEventsList.innerHTML + '<span class="past-events-date">' + pastEvents[i].eventDate.toDateString() + '&nbsp;&nbsp;</span><span class="past-events-event"><a href="' + pastEvents[i].eventLink + '">' + pastEvents[i].eventName + '</a></span><br>'
     }
 }
 
-/** NAVIGATION POPULATION **/
+/** SPECIAL EVENT PAGE POPULATION **/
+var specialEventPageContent = document.getElementById('specialEventPageContent')
 
+function specialEventPage() {
+
+    var specialEventURL = window.location.href.split('/');
+
+    for (i = 0; i <= events.length - 1; i++) {
+        if (specialEventURL[specialEventURL.length - 2] + '/' + specialEventURL[specialEventURL.length - 1] === events[i].eventLink) {
+
+            if (events[i].eventTix !== 'none') {
+                specialEventPageContent.innerHTML =  '<span class="special-event-date">' + events[i].eventDate.toDateString() + ', ' + events[i].eventDate.toLocaleTimeString() + '</span>' + '<br>' + '<h1 class="special-event-name">' + events[i].eventName + '</h1><br><img class="special-event-img" src="' + events[i].eventImgWide + '"><br>' + '<div class="row event-nav"><a href="bottle-service.com" class="col-xs-6 ">REQUEST VIP</a><a href="' + events[i].eventTix + '" class="col-xs-6 ">BUY TICKETS</a></div>' + '<p class="special-event-desc">' + events[i].eventDescLong + '</p>' + '<p>Follow this event on Facebook <a href="' + events[i].eventSocial + '" class="special-event-social"><b>here</b></a>.</p><h3>Cover:</h3><p class="special-event-cover">' + events[i].eventCover + '</h3>';
+            }
+
+            else {
+                specialEventPageContent.innerHTML =  '<span class="special-event-date">' + events[i].eventDate.toDateString() + ', ' + events[i].eventDate.toLocaleTimeString() + '</span>' + '<br>' + '<h1 class="special-event-name">' + events[i].eventName + '</h1><br><img class="special-event-img" src="' + events[i].eventImgWide + '"><br>' + '<div class="row event-nav"><a href="bottle-service.com" class="col-xs-12 ">REQUEST VIP</a></div>' + '<p class="special-event-desc">' + events[i].eventDescLong + '</p>' + '<p>Follow this event on Facebook <a href="' + events[i].eventSocial + '" class="special-event-social"><b>here</b></a>.</p><h3>Cover:</h3><p class="special-event-cover">' + events[i].eventCover + '</h3>'
+
+            }
+        }
+    }
+}
+
+/** NAVIGATION POPULATION **/
 // Header Navs
 var desktopHeaderMainNav = document.getElementById('desktopHeaderMainNav');
 var desktopHeaderWeeklyNav = document.getElementById('desktopHeaderWeeklyNav');

@@ -1,0 +1,79 @@
+.special-event-date {
+	color: $pink;
+}
+
+.special-event-name {
+	color: $white;
+	margin-top: 0;
+	margin-bottom: 0;
+}
+
+.special-event-img
+{
+	border: 1px solid #333;
+	margin-top: -.5em;
+}
+
+.special-event-desc {
+	color: $white;
+}
+
+.special-event-cover {
+	color: $white;
+}
+
+#specialEventPageContent h3 {
+	color: $pink;
+	line-height: 1em;
+	margin: 0;
+	font-weight: 500;
+}
+
+#specialEventPageContent
+{
+	margin-top: 2em;
+	margin-bottom: 3em;
+
+	.event-nav
+    {
+        text-align: center;
+        margin-bottom: 1em;
+
+        a {  
+            color: $yellow;
+            font-size: 1em;
+            padding: .5em 0;
+            background: none;
+            border: 3px solid $blue;
+            -webkit-transition:  background 200ms;
+            transition:          background 200ms;
+        }
+
+        a:nth-child(1) {
+            border-right: 2px solid $blue;
+            border-top-left-radius: .1em;
+            border-bottom-left-radius: .1em;
+        }
+
+        a:nth-child(2) {
+            border-right: 2px solid $blue;
+            border-left: 2px solid $blue;
+        
+        }
+
+        a:nth-last-child(1) {
+            border-left: 2px solid $blue;
+            border-right:3px solid $blue;
+            border-top-right-radius: .2em;
+            border-bottom-right-radius: .2em;
+        }
+
+        a:hover {  
+            padding: .5em 0;
+            background: $pink;
+            -webkit-transition:  background 200ms;
+            transition:          background 200ms;
+        }
+    }
+
+}

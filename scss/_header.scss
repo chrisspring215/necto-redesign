@@ -4,7 +4,6 @@ header {
 	margin-bottom: 0;
 	height: 2.25rem;
 	line-height: 2.25rem;
-	font-family: $eyechart;
 	font-weight: normal;
 	border-bottom: 4px solid $blue;
 	box-shadow: $boxShadowDark;
@@ -14,8 +13,12 @@ header {
 	width: 100%;
 }
 
-.logo {
-	color: $white;
+.logo img
+{
+width: 90px;
+border: none;
+margin-top: 0em;
+margin-bottom: 0;
 }
 
 .top-bar {
@@ -160,6 +163,14 @@ header {
 
 		span {
 			display: inline;
+		}
+
+		.logo img
+		{
+			width: 90px;
+			border: none;
+			margin-top: 0em;
+			margin-bottom: .5em;
 		}
 	}
 

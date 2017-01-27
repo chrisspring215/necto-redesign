@@ -332,7 +332,9 @@ function populateCalPageEvents() {
     upcomingEvents.reverse();
     
     // Builds the array of Weekly Events that will later have the upcoming events pushed into it.
-    for (i = 0; i <= 50; i++) {
+    // Setting the condition number (i <= 10) will change how many weekly events are added
+    // to the cal. Special events will still display if they occur after this cut off.
+    for (i = 0; i <= 10; i++) {
 
         var calEndDate = new Date();
         var weeklyCalEntry = calEndDate.setDate(calEndDate.getDate() + i);
@@ -420,21 +422,34 @@ var specialEventPageContent = document.getElementById('specialEventPageContent')
 
 function specialEventPage() {
 
+    // Grabs the URL and searches for a match in the Events Array then displays the content for the Event page
     var specialEventURL = window.location.href.split('/');
 
     for (i = 0; i <= events.length - 1; i++) {
+
+        function buildSpecialPageMeta(date, artist) {
+            document.getElementById('pageTitle').innerHTML = artist + ' | ' + date + ' | Necto Nightclub, Ann Arbor, Michigan.';
+            document.getElementById('pageDesc').content = artist + ' live on ' + date + ' at the Necto Nightclub in Ann Arbor Michigan.';
+
+
+        }
+
         if (specialEventURL[specialEventURL.length - 2] + '/' + specialEventURL[specialEventURL.length - 1] === events[i].eventLink) {
 
+            // Does it have tix or no tix?
             if (events[i].eventTix !== 'none') {
                 specialEventPageContent.innerHTML =  '<span class="special-event-date">' + events[i].eventDate.toDateString() + ', ' + events[i].eventDate.toLocaleTimeString() + '</span>' + '<br>' + '<h1 class="special-event-name">' + events[i].eventName + '</h1><br><img class="special-event-img" src="' + events[i].eventImgWide + '"><br>' + '<div class="row event-nav"><a href="bottle-service.com" class="col-xs-6 ">REQUEST VIP</a><a href="' + events[i].eventTix + '" class="col-xs-6 ">BUY TICKETS</a></div>' + '<p class="special-event-desc">' + events[i].eventDescLong + '</p>' + '<p>Follow this event on Facebook <a href="' + events[i].eventSocial + '" class="special-event-social"><b>here</b></a>.</p><h3>Cover:</h3><p class="special-event-cover">' + events[i].eventCover + '</h3>';
+                buildSpecialPageMeta(events[i].eventDate.toDateString(), events[i].eventArtist);
             }
 
             else {
                 specialEventPageContent.innerHTML =  '<span class="special-event-date">' + events[i].eventDate.toDateString() + ', ' + events[i].eventDate.toLocaleTimeString() + '</span>' + '<br>' + '<h1 class="special-event-name">' + events[i].eventName + '</h1><br><img class="special-event-img" src="' + events[i].eventImgWide + '"><br>' + '<div class="row event-nav"><a href="bottle-service.com" class="col-xs-12 ">REQUEST VIP</a></div>' + '<p class="special-event-desc">' + events[i].eventDescLong + '</p>' + '<p>Follow this event on Facebook <a href="' + events[i].eventSocial + '" class="special-event-social"><b>here</b></a>.</p><h3>Cover:</h3><p class="special-event-cover">' + events[i].eventCover + '</h3>'
-
+                buildSpecialPageMeta(events[i].eventDate.toDateString(), events[i].eventArtist);
             }
         }
     }
+
+
 }
 
 /** NAVIGATION POPULATION **/

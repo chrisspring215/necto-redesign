@@ -1,0 +1,109 @@
+.weekly-page-side-bar-scection
+{
+	border-bottom: 2px solid $pink;
+	margin-bottom: 1.5em;
+	padding-bottom: .5em;
+
+	h2
+	{
+	padding-bottom: .25em;
+	}
+
+	a
+	{
+		display: block;
+		margin-bottom: .25em;
+	}
+
+	br
+	{
+		margin-bottom: .6em;
+	}
+}
+
+.weekly-page-social-links
+{	
+	margin-top: 2em;
+	a
+	{
+		display: inline;
+		text-align: center;
+
+		img
+		{
+			width: 20%;
+			border: none;	
+		}
+	}
+}
+
+.weekly-page-side-bar-scection:nth-last-child(1) {
+	border: none;
+}
+
+.weekly-page-side-bar-scection:first-child {
+	margin-top: 1.5em;
+}
+
+.weekly-mailing
+{
+	.ss-q-title
+	{
+		color: $white;
+	}
+
+	input[type="email"]
+    {
+        background: none;
+        border: 3px solid $pink;
+        color: white;
+        padding: .2em .4em;
+        display: block;
+        width: 75%;
+    }   
+
+    input[type="submit"]
+    {
+        background: none;
+        display: block;
+        margin-top: 1em;
+        width: 200%;
+        border: 3px solid $blue;
+        color: $yellow;
+        border-radius: .1em;
+        padding: .5em .6em;
+        -webkit-transition:  background-color, 300ms;
+        transition:          background-color, 300ms;
+
+        &:hover, &:focus, &:active 
+        {
+            background-color: $pink;
+            -webkit-transition:  background-color, 300ms;
+            transition:          background-color, 300ms;
+        }
+    }
+}
+
+
+@media only screen and (min-width: 48em) {
+
+	.weekly-page-side-bar-scection
+	{
+		padding-bottom: 0;
+
+		a
+		{
+			padding-bottom: .5em;
+		}
+	}
+
+	.weekly-page-side-bar-scection:first-child
+	{
+		margin-top: 0;
+	}
+
+	.weekly-page-social-links
+	{	
+		margin-top: 0;
+	}
+}

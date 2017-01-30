@@ -156,6 +156,22 @@ main {
     line-height: 1em;    
 }
 
+.page-section-sub-header
+{
+    display: block;
+    width: 100%;
+    color: $yellow;
+    text-shadow: $textShadowPink;
+    font-size: 1.5em;
+    line-height: 1em; 
+    margin-bottom: .25em;
+    
+}
+
+.page-section-sub-header:nth-child(1) {
+    margin-top: 0;
+}
+
 .home-page-event
 {
     text-align: left;

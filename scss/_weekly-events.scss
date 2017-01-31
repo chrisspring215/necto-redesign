@@ -12,13 +12,25 @@
 	a
 	{
 		display: block;
-		margin-bottom: .25em;
+		margin-bottom: .75em;
+		transition: color 100ms ease;
+
+		&:hover
+		{
+			color: $yellow;
+			transition: color 200ms ease;
+		}
 	}
 
 	br
 	{
 		margin-bottom: .6em;
 	}
+}
+
+.weekly-main-content-section
+{
+	border-bottom: 2px solid $pink;
 }
 
 .weekly-page-social-links
@@ -29,10 +41,11 @@
 		display: inline;
 		text-align: center;
 
-		img
+		svg
 		{
 			width: 20%;
-			border: none;	
+			border: none;
+			padding: 10px 10px 10px 0;
 		}
 	}
 }
@@ -94,6 +107,7 @@
 		a
 		{
 			padding-bottom: .5em;
+			font-size: 1.3em;
 		}
 	}
 

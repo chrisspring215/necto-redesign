@@ -26,6 +26,9 @@ margin-bottom: 0;
 	background-color: $darkest;
 	border-bottom: 2px solid $blue;
 
+	padding-right: 6px;
+	padding-left: 6px;
+
 }
 
 @-moz-keyframes slidein {
@@ -177,7 +180,9 @@ margin-bottom: 0;
 	.global-nav, .weekly-nav
 	{
 		display: inline;
+		position: relative;
 		float: right;
+		right: 18px;
 		font-family: $font-main;
 		
 		a
@@ -212,7 +217,8 @@ margin-bottom: 0;
 
 	.full-global-nav
 	{
-		display: inline-block;
+		display: block;
+		padding-left: 12px;
 
 		.logo{
 			display: block;

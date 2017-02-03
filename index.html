@@ -58,83 +58,81 @@
       <![endif]-->
 
     <!-- MOBILE GLOBAL NAV -->
-    <header class="row mobile-global-nav">
-      <div class="col-xs-12 top-bar">
+    <header class="mobile-global-nav">
+      <div class="top-bar">
         <a href="" class="logo"><img src="img/necto-logo.png" alt="The logo for the Necto Nightclub in Ann Arbor, Michigan."></a>
         <nav class="global-nav" >
           <span id="mobileMenuButton" onclick="openMobileNav()">MENU</span>
         </nav>
       </div>
       <div class="mobile-global-nav-modal-hidden row" id="mobileGlobalNav">
-      <ul id="mobileHeaderNav" class="col-xs-12">
-      <li id="weeklyMobileNavcontainer" class="weeklyMobileNavLink"></li>
-      </ul>
-      
-    </div>
+        <ul id="mobileHeaderNav">
+          <li id="weeklyMobileNavcontainer" class="weeklyMobileNavLink"></li>
+        </ul> 
+      </div>
     </header>
 
     <!-- DESKTOP GLOBAL NAV -->
-    <header class="row full-global-nav">
-      <div class="col-xs-12">
+    <header class="full-global-nav">
         <a href="" class="logo"><img src="img/necto-logo.png" alt="The logo for the Necto Nightclub in Ann Arbor, Michigan."></a>
-        <nav class="global-nav" id="desktopHeaderMainNav">
-        </nav>
+        <nav class="global-nav" id="desktopHeaderMainNav"></nav>
         <br>
-        <nav class="weekly-nav" id="desktopHeaderWeeklyNav">
-        </nav>
-      </div>
+        <nav class="weekly-nav" id="desktopHeaderWeeklyNav"></nav>
     </header>
 
     <main>
 
       <!-- Heros -->
-      <div class="row">
-
-        <!-- MOBILE HERO -->
-        <div class="col-xs-12 hero-image mobile-hero"> 
-          <span>ENHANCE YOUR NIGHTLIFE</span>
-          <nav>
-            <a href="index.html#weekly-events"  class="button">WEEKLY EVENTS</a>
-            <a href="index.html#special-events" class="button">SPECIAL EVENTS</a>
-            <a href="calendar.html"             class="button">CALENDAR</a>
-            <a href="bottle-service-vip.html"   class="button">VIP</a>
-          </nav>
-          <nav class="mobile-social">
-            <a href="https://www.facebook.com/NectoNightclub/" class="col-sm-1">FACEBOOK</a>
-            <a href="https://twitter.com/Necto?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor" class="col-sm-1">TWITTER</a>
-            <a href="http://www.youtube.com/user/NectoVoltage" class="col-sm-1">YOUTUBE</a>
-            <a href="http://instagram.com/nectonightclub" class="col-sm-1">INSTAGRAM</a>
-          </nav>
-        </div>
-
-        <!-- DESKTOP HERO -->
-        <div class="col-xs-12 hero-image full-hero">
-          <span>ENHANCE YOUR NIGHTLIFE</span>
-          <nav class="row center-sm">
-            <a href="index.html#weekly-events" class="col-sm-2 button">WEEKLY EVENTS</a>
-            <a href="index.html#special-events" class="col-sm-2 button">SPECIAL EVENTS</a>
-            <a href="calendar.html" class="col-sm-2 button">CALENDAR</a>
-            <a href="bottle-service-vip-reservations.html" class="col-sm-2 button">VIP</a>
-          </nav>
-          <nav class="row center-sm full-social">
-            <a href="https://www.facebook.com/NectoNightclub/" class="col-sm-1">FACEBOOK</a>
-            <a href="https://twitter.com/Necto?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor" class="col-sm-1">TWITTER</a>
-            <a href="http://www.youtube.com/user/NectoVoltage" class="col-sm-1">YOUTUBE</a>
-            <a href="http://instagram.com/nectonightclub" class="col-sm-1">INSTAGRAM</a>
-          </nav>
+      <!-- MOBILE HERO -->
+      <div class="hero-image mobile-hero">
+        <div class="row centered-cols">
+          <div class="col col-12-xs"> 
+            <span>ENHANCE YOUR NIGHTLIFE</span>
+            <nav>
+              <a href="index.html#weekly-events"  class="button">WEEKLY EVENTS</a>
+              <a href="index.html#special-events" class="button">SPECIAL EVENTS</a>
+              <a href="calendar.html"             class="button">CALENDAR</a>
+              <a href="bottle-service-vip.html"   class="button">BOOK VIP</a>
+            </nav>
+            <nav class="mobile-social">
+              <a href="https://www.facebook.com/NectoNightclub/" class="col col-1-xs">FACEBOOK</a>
+              <a href="https://twitter.com/Necto?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor" class="col col-1-xs">TWITTER</a>
+              <a href="http://www.youtube.com/user/NectoVoltage" class="col col-1-xs">YOUTUBE</a>
+              <a href="http://instagram.com/nectonightclub" class="col col-1-xs">INSTAGRAM</a>
+            </nav>
+          </div>
         </div>
       </div>
+
+        <!-- DESKTOP HERO -->
+      <div class="hero-image full-hero">
+        <div class="row centered-cols">
+          <div class="col col-12-xs"> 
+            <span>ENHANCE YOUR NIGHTLIFE</span>
+            <nav class="row centered-cols">
+              <a href="index.html#weekly-events" class="col col-2-xs button">WEEKLY EVENTS</a>
+              <a href="index.html#special-events" class="col col-2-xs button">SPECIAL EVENTS</a>
+              <a href="calendar.html" class="col col-2-xs button">CALENDAR</a>
+              <a href="bottle-service-vip-reservations.html" class="col col-2-xs button">BOOK VIP</a>
+            </nav>
+            <nav class="row centered-cols full-social">
+              <a href="https://www.facebook.com/NectoNightclub/" class="col col-xs-10">FACEBOOK</a>
+              <a href="https://twitter.com/Necto?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor" class="col col-xs-1">TWITTER</a>
+              <a href="http://www.youtube.com/user/NectoVoltage" class="col col-xs-1">YOUTUBE</a>
+              <a href="http://instagram.com/nectonightclub" class="col col-xs-1">INSTAGRAM</a>
+            </nav>
+          </div>
+        </div>
+      </div>
+
       <!-- End Heros -->
 
       <!-- WEEKLY EVENTS -->
       <div class="row page-section"  id="weekly-events">  
-        <div class="col-xs-12 col-sm-10 col-md-offset-2">
+        <div class="col col-12-xs col-12-sm">
           <h2 class="page-section-header">WEEKLY EVENTS</h2>
         </div>
-
-        <div class="row">
-          <!-- A WEEKLY EVENT -->
-          <div class="col-xs-12 col-md-2 col-md-offset-2">
+          <div class="col col-12-xs col-3-md">
             <section class="home-page-event">
               <div class="home-page-event-content">      
                 <h3><a href=""><span class="weekly-name">Factory</span> <span class="weekly-day">Monday</span></a></h3>
@@ -146,7 +144,7 @@
           </div>
 
           <!-- A WEEKLY EVENT -->
-          <div class="col-xs-12  col-md-2">
+          <div class="col col-12-xs col-3-md">
             <section class="home-page-event">
               <div class="home-page-event-content">      
                 <h3><a href=""><span class="weekly-name">Mix</span> <span class="weekly-day">Thursday</span></a></h3>
@@ -158,7 +156,7 @@
           </div>
 
           <!-- A WEEKLY EVENT -->
-          <div class="col-xs-12 col-md-2">
+          <div class="col col-12-xs col-3-md">
             <section class="home-page-event">
               <div class="home-page-event-content">      
                 <h3><a href=""><span class="weekly-name">Pride</span> <span class="weekly-day">Friday</span></a></h3>
@@ -170,7 +168,7 @@
           </div>
 
           <!-- A WEEKLY EVENT -->
-          <div class="col-xs-12  col-md-2">
+          <div class="col col-12-xs col-3-md">
             <section class="home-page-event">
               <div class="home-page-event-content">      
                 <h3><a href=""><span class="weekly-name">Frequency</span> <span class="weekly-day">Saturday</span></a></h3>
@@ -180,7 +178,7 @@
               </div>
             </section>
           </div>
-        </div>
+
 
       </div>
       <!-- END WEEKLY EVENTS -->

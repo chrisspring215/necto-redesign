@@ -144,7 +144,7 @@ var events = [
     {
         "eventDate"    : new Date("feb 6, 2017 21:00:00"),
         "eventName"    : "Chris",
-        "eventArtist"  : "specialEventArtist",
+        "eventArtist"  : "Chris",
         "eventDesc"    : "specialEventShortDesc",
         "eventDescLong": "Join us as we welcome the Winner of RuPaul's Drag Race S5... Jinkx Monsoon!!! Let's hang out this Friday with Seattle's hottest, youngest MILF, and the hardest working single mother in show business!",
         "eventCover"   : 'specialEventCover',

@@ -142,8 +142,8 @@ var events = [
         "pastEvent"    : false // Do not modify
     },
     {
-        "eventDate"    : new Date("jan 30, 2017 21:00:00"),
-        "eventName"    : "specialEventName",
+        "eventDate"    : new Date("feb 6, 2017 21:00:00"),
+        "eventName"    : "Chris",
         "eventArtist"  : "specialEventArtist",
         "eventDesc"    : "specialEventShortDesc",
         "eventDescLong": "Join us as we welcome the Winner of RuPaul's Drag Race S5... Jinkx Monsoon!!! Let's hang out this Friday with Seattle's hottest, youngest MILF, and the hardest working single mother in show business!",
@@ -446,8 +446,11 @@ function specialEventPage() {
         function buildSpecialPageMeta(date, artist) {
             document.getElementById('pageTitle').innerHTML = artist + ' | ' + date + ' | Necto Nightclub, Ann Arbor, Michigan.';
             document.getElementById('pageDesc').content = artist + ' live on ' + date + ' at the Necto Nightclub in Ann Arbor Michigan.';
-
-
+            document.getElementById('ogTitle').content = artist + ' live on ' + date + ' at the Necto Nightclub in Ann Arbor Michigan.';
+            document.getElementById('ogURL').content = window.location;
+            document.getElementById('ogImg').content = events[i].eventImgWide;
+            document.getElementById('twitterTitle').content = artist + ' | ' + date + ' | Necto Nightclub, Ann Arbor, Michigan.';
+            document.getElementById('twitterDesc').content = artist + ' live on ' + date + ' at the Necto Nightclub in Ann Arbor Michigan.';
         }
 
         if (specialEventURL[specialEventURL.length - 2] + '/' + specialEventURL[specialEventURL.length - 1] === events[i].eventLink) {
@@ -485,6 +488,8 @@ function populateWeeklyUpcomingEvents(day) {
         }
     }
 }
+
+
 
 /** NAVIGATION POPULATION **/
 // Header Navs

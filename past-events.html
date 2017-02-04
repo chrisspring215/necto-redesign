@@ -42,6 +42,21 @@
       <link href="favicon/favicon.ico" rel="shortcut icon">
       <meta name="msapplication-config" content="favicon/browserconfig.xml">
       <meta name="theme-color" content="#3bddff">
+
+      <!-- Facebook OG Data -->
+      <meta property="og:type" content="place">
+      <meta property="og:title" content="Past Events - Necto Nightclub">
+      <meta property="og:url" content="https://www.necto.com/past-events.html">
+      <meta property="og:image" content="https://www.necto.com/img/full-hero.jpg">
+      <meta property="place:location:latitude" content="42.279187">
+      <meta property="place:location:longitude" content="-83.742423">
+
+      <!-- Twitter Card Data -->
+      <meta name="twitter:card" content="summary">
+      <meta name="twitter:site" content="@Necto">
+      <meta name="twitter:title" content="Past Events - Necto Nightclub">
+      <meta name="twitter:description" content="Links to past events at the Necto Nightclub in Ann Arbor Michigan.">
+
       <!--
       <script src="js/vendor/modernizr-2.8.3.min.js"></script>
       -->
@@ -101,15 +116,18 @@
 
     <footer>
       <div class="row">
-
         <div class="col col-12-xs col-3-sm">
-          <address>
-            <span class="name">Necto Nightclub</span><br>
-            <a href="directions.html">516 E. Liberty<br>Ann&nbsp;Arbor, MI. 48104</a><br>
-            Info: <a href="tel:17349945436">734-994-5436</a><br>
-            Office: <a href="tel:17349945835">734-994-5835</a><br>
-            Email: <a href="mailto:info@necto.com">info@necto.com</a>
-          </address>
+          <div itemscope itemtype="http://schema.org/Organization">
+              <span itemprop="name">Necto Nightclub</span><br>
+              <div itemprop="address" itemscope itemtype="http://schema.org/PostalAddress">
+                  <a href="directions.html"><span itemprop="streetAddress">516 E. Liberty</span><br>
+                  <span itemprop="addressLocality">Ann Arbor</span><span>, </span><span itemprop="addressRegion">MI</span> 
+                  <span itemprop="postalCode">48104</span></a>
+              </div>
+              Info:  <span itemprop="telephone"><a href="tel:17349945436">734-994-5436</a></span><br>
+              Phone: <span itemprop="telephone"><a href="tel:17349945835">734-994-5835</a></span><br>
+              Phone: <span itemprop="email"><a href="mailto:info@necto.com">info@necto.com</a></span>
+          </div>
         </div>
 
         <div class="col col-12-xs col-3-sm">

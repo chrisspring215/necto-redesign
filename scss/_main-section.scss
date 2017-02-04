@@ -1,5 +1,6 @@
 
 
+
 img {
 	width: 100%;
 }
@@ -267,7 +268,7 @@ main {
     {
         text-align: center;
 
-        a {  
+        a { 
             color: $yellow;
             font-size: 1em;
             padding: .5em 0;
@@ -276,6 +277,7 @@ main {
             -webkit-transition:  background 200ms;
             transition:          background 200ms;
         }
+
 
         a:nth-child(1) {
             border-right: 1.5px solid $blue;

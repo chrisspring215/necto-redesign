@@ -1,3 +1,11 @@
+/* apply a natural box layout model to all elements, but allowing components to change */
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
 /* Base Padding for Rows */
 $baseRowPadding: 12%;
 
@@ -31,6 +39,9 @@ $baseColumnPadding: 12px;
 /* Removes padding in Nested Rows */
 .row .row { padding-left: 0%; padding-right: 0%; }
 .row .col .row {margin-left: -$baseColumnPadding; margin-right: -$baseColumnPadding; }
+.row .row .row { margin-left: 0%; margin-right: 0%; }
+
+
 
 
 /* STANDARD WIDTHS */

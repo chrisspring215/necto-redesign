@@ -35,7 +35,7 @@ var events = [
         "eventCover"   : 'Cover from 5pm - 9pm : FREE for 21+ | $15 for 18-20',
         "eventLink"    : 'special-events/' + 'courtney-act-tatianna-at-necto-nightclub-ann-arbor-michigan-mar-17th-2017.html',
         "eventSocial"  : 'https://www.facebook.com/events/1840982122782083/',
-        "eventTix"     : 'none',
+        "eventTix"     : 'https://www.eventbrite.com/e/lost-boys-tour-esseks-perkulat0r-necto-ann-arbor-mi-tickets-31650652955',
         "eventImgTall" : 'img/event-images/' + 'cal-courtney-act-tatianna-at-necto-night-club-ann-arbor.jpg',
         "eventImgWide" : 'img/event-images/' + 'cal-courtney-act-tatianna-at-necto-night-club-ann-arbor.jpg',
         "eventWklOvrd" : true,
@@ -197,7 +197,7 @@ var events = [
         "eventName"    : "Miss Necto Professional/Amateur Pageant 2017",
         "eventArtist"  : "Miss Necto Pageant",
         "eventDesc"    : "Join us Sunday January 29th, 2017 as we join the huntsman for the 3rd annual Miss Necto Professional/ Amateur Pageant! This year's theme is Evil Queens!",
-        "eventDescLong": "",
+        "eventDescLong": "Join us Sunday January 29th, 2017 as we join the huntsman for the 3rd annual Miss Necto Professional/ Amateur Pageant! This year's theme is Evil Queens!",
         "eventCover"   : 'Pre-sale single ticket - $15 | 2 Tickets - $20 | 4 Pack Tickets - $30',
         "eventLink"    : 'special-events/' + 'miss-necto-professional-amateur-pageant-2017-at-necto-nightclub-ann-arbor-michigan-jan-29th-2017.html',
         "eventSocial"  : 'https://www.facebook.com/events/235480763538626/',
@@ -208,55 +208,71 @@ var events = [
         "eventDay"     : 0, // Do not modify
         "pastEvent"    : false // Do not modify
     },
-
     {
         "eventDate"    : new Date("Jan 26, 2017 21:00:00"),
         "eventName"    : "Worthy: One on One Tour with Golf Clap",
         "eventArtist"  : "Worthy w/ Golf Clap",
         "eventDesc"    : 'Worthy (Dirtybird • Anabatic) is doing a 32-city "One-On-One". The tour will last from his Holy Ship performance in early Jan all the way to Miami Music Week in March. Joining Worthy with Detroit‘s own Golf Clap & ADMN',
-        "eventDescLong": '',
+        "eventDescLong": 'Worthy (Dirtybird • Anabatic) is doing a 32-city &#34;One-On-One&#34;. The tour will last from his Holy Ship performance in early Jan all the way to Miami Music Week in March. Joining Worthy is Detroit&#39;s own Golf Clap & ADMN',
         "eventCover"   : 'Pre-sale Early Bird $15 | 4 Pack $40 | Day of Show $20',
         "eventLink"    : 'special-events/' + 'worthy-golf-clap-at-necto-nightclub-ann-arbor-michigan-jan-26th-2017.html',
         "eventSocial"  : 'https://www.facebook.com/events/981986061934932/',
         "eventTix"     : 'https://www.eventbrite.com/e/worthy-one-on-one-tour-with-golf-clap-tickets-29881447213',
-        "eventImgTall" : 'img/event-images/' + 'cal-medma-groove-d-art-at-necto-night-club-ann-arbor.jpg',
+        "eventImgTall" : 'img/event-images/' + 'cal-worthy-golf-clap-at-necto-nightclub-ann-arbor.jpeg',
         "eventImgWide" : 'img/event-images/' + 'cal-worthy-golf-clap-at-necto-nightclub-ann-arbor.jpeg',
         "eventWklOvrd" : true,
         "eventDay"     : 0, // Do not modify
         "pastEvent"    : false // Do not modify
     },
     {
-        "eventDate"    : new Date("Jan 12, 2017 21:00:00"),
-        "eventName"    : "Worthy: One on One Tour with Golf Clap",
-        "eventArtist"  : "Worthy w/ Golf Clap",
-        "eventDesc"    : 'Worthy (Dirtybird • Anabatic) is doing a 32-city "One-On-One". The tour will last from his Holy Ship performance in early Jan all the way to Miami Music Week in March. Joining Worthy with Detroit‘s own Golf Clap & ADMN',
-        "eventDescLong": '',
-        "eventCover"   : 'Pre-sale Early Bird $15 | 4 Pack $40 | Day of Show $20',
-        "eventLink"    : 'special-events/' + 'worthy-golf-clap-at-necto-nightclub-ann-arbor-michigan-jan-26th-2017.html',
-        "eventSocial"  : 'https://www.facebook.com/events/981986061934932/',
+        "eventDate"    : new Date("Jan 21, 2017 22:00:00"),
+        "eventName"    : "MEDMA x Groove x D/Art in the Red Room",
+        "eventArtist"  : "MEDMA/Groove/D/Art",
+        "eventDesc"    : 'Groove Performance Group and D/ART will be collaborating with Michigan Electronic Dance Music Association (MEDMA) to create live installation artwork and impromptu found instrument performances to the tune of every house genre under the sun... all hosted at Necto Nightclub&#39;s Red Room.',
+        "eventDescLong": 'Groove Performance Group and D/ART will be collaborating with Michigan Electronic Dance Music Association (MEDMA) to create live installation artwork and impromptu found instrument performances to the tune of every house genre under the sun... all hosted at Necto Nightclub&#39;s Red Room.</br>MEDMA is also proudly featuring three DJ debuts: a phenomal soul and lo fi house b2b st with V (Victoria Gabrielle Johnson) and Morning News (Colin Rankin), along with our closing set by Board member Fabian Fuxa. MEDMA powerhouse veterans Lumière (Matt Solarz) and Jackson Alan (Jackson Codiga) will bring it all during peak hours.',
+        "eventCover"   : 'Ladies get in Free before 11pm | $5 for 21 + | $10 for 18 - 20',
+        "eventLink"    : 'special-events/' + 'medma-groove-d-art-at-necto-nightclub-ann-arbor-michigan-jan-21st-2017.html',
+        "eventSocial"  : 'https://www.facebook.com/events/374941016189201/',
         "eventTix"     : 'https://www.eventbrite.com/e/worthy-one-on-one-tour-with-golf-clap-tickets-29881447213',
-        "eventImgTall" : 'img/event-images/' + 'cal-medma-groove-d-art-at-necto-night-club-ann-arbor.jpg',
-        "eventImgWide" : 'img/event-images/' + 'cal-worthy-golf-clap-at-necto-nightclub-ann-arbor.jpeg',
+        "eventImgTall" : 'img/event-images/' + 'medma-groove-d-art-at-necto-night-club-ann-arbor.jpeg',
+        "eventImgWide" : 'img/event-images/' + 'medma-groove-d-art-at-necto-night-club-ann-arbor.jpeg',
         "eventWklOvrd" : true,
         "eventDay"     : 0, // Do not modify
         "pastEvent"    : false // Do not modify
     },
     {
-        "eventDate"    : new Date("Jan 10, 2017 21:00:00"),
-        "eventName"    : "Worthy: One on One Tour with Golf Clap",
-        "eventArtist"  : "Worthy w/ Golf Clap",
-        "eventDesc"    : 'Worthy (Dirtybird • Anabatic) is doing a 32-city "One-On-One". The tour will last from his Holy Ship performance in early Jan all the way to Miami Music Week in March. Joining Worthy with Detroit‘s own Golf Clap & ADMN',
-        "eventDescLong": '',
-        "eventCover"   : 'Pre-sale Early Bird $15 | 4 Pack $40 | Day of Show $20',
-        "eventLink"    : 'special-events/' + 'worthy-golf-clap-at-necto-nightclub-ann-arbor-michigan-jan-26th-2017.html',
-        "eventSocial"  : 'https://www.facebook.com/events/981986061934932/',
-        "eventTix"     : 'https://www.eventbrite.com/e/worthy-one-on-one-tour-with-golf-clap-tickets-29881447213',
-        "eventImgTall" : 'img/event-images/' + 'cal-medma-groove-d-art-at-necto-night-club-ann-arbor.jpg',
-        "eventImgWide" : 'img/event-images/' + 'cal-worthy-golf-clap-at-necto-nightclub-ann-arbor.jpeg',
+        "eventDate"    : new Date("Jan 19, 2017 22:00:00"),
+        "eventName"    : "Quinn XCII with Ayokay presented by Spotlight",
+        "eventArtist"  : "Quinn XCII / Ayokay",
+        "eventDesc"    : 'Quinn XCII and ayokay cannot wait to come back to the town that helped shape their music, and are excited to support students who are constantly seeking knowledge in music, film, and entrepreneurship.',
+        "eventDescLong": 'This will be the grand finale to Spotlight, MPowered’s premiere music and filmmaking competition, which will be held from January 14th-19th. Select participants will be presented prizes at the M-Oscars Award Ceremony on January 19th, which will be followed by the concert at Necto Nightclub. Quinn XCII and ayokay cannot wait to come back to the town that helped shape their music, and are excited to support students who are constantly seeking knowledge in music, film, and entrepreneurship.',
+        "eventCover"   : 'Pre-sale Early Bird $20 | 4 Pack $60 | General Admission $25 | Day of Show $30',
+        "eventLink"    : 'special-events/' + 'katya-at-necto-nightclub-ann-arbor-michigan-jan-13th-2017.html',
+        "eventSocial"  : 'https://www.facebook.com/events/197464524043644/',
+        "eventTix"     : 'https://www.eventbrite.com/e/quinn-xcii-with-ayokay-presented-by-spotlight-tickets-29803552227',
+        "eventImgTall" : 'img/event-images/' + 'quinn-xcii-ayokay-at-necto-nightclub-ann-arbor.jpeg',
+        "eventImgWide" : 'img/event-images/' + 'quinn-xcii-ayokay-at-necto-nightclub-ann-arbor.jpeg',
         "eventWklOvrd" : true,
         "eventDay"     : 0, // Do not modify
         "pastEvent"    : false // Do not modify
-    }
+    },
+    {
+        "eventDate"    : new Date("Jan 13, 2017 21:00:00"),
+        "eventName"    : "Dragster featuring... KATYA ",
+        "eventArtist"  : "Katya",
+        "eventDesc"    : 'Join us as we welcome back RuPauls Drag Race S7 Fan Favorite & Runner Up of All Stars... Katya! Katya is just your average run-of-the-mill Russian bisexual transvestite hooker at the intersection of glamour and comedy. You can find her at Necto, selling her ass & having fun with her fans.',
+        "eventDescLong": 'Join us as we welcome back RuPauls Drag Race S7 Fan Favorite & Runner Up of All Stars... Katya! Katya is just your average run-of-the-mill Russian bisexual transvestite hooker at the intersection of glamour and comedy. You can find her at Necto, selling her ass & having fun with her fans.',
+        "eventCover"   : 'Pre-sale Early Bird $20 | 4 Pack $60 | General Admission $25 | Day of Show $30',
+        "eventLink"    : 'special-events/' + 'quinn-xcii-ayokay-at-necto-nightclub-ann-arbor-michigan-jan-19th-2017.html',
+        "eventSocial"  : 'https://www.facebook.com/events/872461432894909/',
+        "eventTix"     : 'none',
+        "eventImgTall" : 'img/event-images/' + 'katya-at-necto-nightclub-ann-arbor.jpeg',
+        "eventImgWide" : 'img/event-images/' + 'katya-at-necto-nightclub-ann-arbor.jpeg',
+        "eventWklOvrd" : true,
+        "eventDay"     : 0, // Do not modify
+        "pastEvent"    : false // Do not modify
+    },
+
 ];
 
 // The basic Weekly Events

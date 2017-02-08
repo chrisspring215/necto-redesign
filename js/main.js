@@ -272,7 +272,134 @@ var events = [
         "eventDay"     : 0, // Do not modify
         "pastEvent"    : false // Do not modify
     },
-
+    {
+        "eventDate"    : new Date("Jan 12, 2017 21:00:00"),
+        "eventName"    : "Two Friends",
+        "eventArtist"  : "Two Friends",
+        "eventDesc"    : 'Matt Halper and Eli Sones, the young masterminds behind Two Friends, have quickly revamped from high school bedroom producers to one of the most promising dance music duos of 2016. Known for their viral remixes of “Trap Queen”, “I Miss You” and “Cool”, the two have, in unprecedented time, mastered a wide range of genres from deep, melodic house to harder progressive cuts. With their Spotify and SoundCloud views now exceeding 35 million and with nineteen #1’s on Hype Machine, the boys are well on their way to becoming the next big dance act to come out of America.',
+        "eventDescLong": 'Matt Halper and Eli Sones, the young masterminds behind Two Friends, have quickly revamped from high school bedroom producers to one of the most promising dance music duos of 2016. Known for their viral remixes of “Trap Queen”, “I Miss You” and “Cool”, the two have, in unprecedented time, mastered a wide range of genres from deep, melodic house to harder progressive cuts. With their Spotify and SoundCloud views now exceeding 35 million and with nineteen #1’s on Hype Machine, the boys are well on their way to becoming the next big dance act to come out of America.',
+        "eventCover"   : 'Pre-sale Early Bird $10 | 4 Pack $20 | General Admission $15',
+        "eventLink"    : 'special-events/' + 'two-friends-at-necto-nightclub-ann-arbor-michigan-jan-12th-2017.html',
+        "eventSocial"  : 'https://www.facebook.com/events/1299649313440032/',
+        "eventTix"     : 'https://www.eventbrite.com/e/two-friends-back-to-school-bash-tickets-29881316823',
+        "eventImgTall" : 'img/event-images/' + 'two-friends-at-necto-nightclub-ann-arbor.jpg',
+        "eventImgWide" : 'img/event-images/' + 'two-friends-at-necto-nightclub-ann-arbor.jpg',
+        "eventWklOvrd" : true,
+        "eventDay"     : 0, // Do not modify
+        "pastEvent"    : false // Do not modify
+    },
+    {
+        "eventDate"    : new Date("Jan 5, 2017 22:00:00"),
+        "eventName"    : "Throwback Thursday",
+        "eventArtist"  : "Throwback Thursday",
+        "eventDesc"    : 'THROWBACK THURSDAY<br>All Your Favorite Music from the 80s, 90s & early 00s<br>FREE for 21+ | $10 for 18-20<br><br>KEVIN MICHAEL<br><br>Totally Awesome Drink Specials:<br>$3.50 Well drinks<br>$2.50 Fireball shots<br>3 for $10 Jaeger Bombs<br>$2 Miller Lite Bottles',
+        "eventDescLong": 'THROWBACK THURSDAY<br>All Your Favorite Music from the 80s, 90s & early 00s<br>FREE for 21+ | $10 for 18-20<br><br>KEVIN MICHAEL<br><br>Totally Awesome Drink Specials:<br>$3.50 Well drinks<br>$2.50 Fireball shots<br>3 for $10 Jaeger Bombs<br>$2 Miller Lite Bottles',
+        "eventCover"   : 'FREE for 21+ | $10 for 18-20',
+        "eventLink"    : 'special-events/' + 'throwback-thursday-at-necto-nightclub-ann-arbor-michigan-jan-5-2017.html',
+        "eventSocial"  : 'https://www.facebook.com/events/105488613282374/',
+        "eventTix"     : 'none',
+        "eventImgTall" : 'img/event-images/' + 'throwback-thursday-at-necto-night-club-ann-arbor.jpg',
+        "eventImgWide" : 'img/event-images/' + 'throwback-thursday-at-necto-night-club-ann-arbor.jpg',
+        "eventWklOvrd" : true,
+        "eventDay"     : 0, // Do not modify
+        "pastEvent"    : false // Do not modify
+    },
+    {
+        "eventDate"    : new Date("Dec 31, 2016 21:00:00"),
+        "eventName"    : "New Years Eve: 2017",
+        "eventArtist"  : "New Years Eve: 2017",
+        "eventDesc"    : 'All that Glitters! Ring in the New Year with your favorite Southeast Michigan Nightclub... Necto! Join DJ Hardy, Nick D & MC Yoda in the Main Room spinning Top 40 & House. Ayinde Audio in the Red Room playing the best music from the late 80s, 90s & early 2000s.',
+        "eventDescLong": 'All that Glitters! Ring in the New Year with your favorite Southeast Michigan Nightclub... Necto! Join DJ Hardy, Nick D & MC Yoda in the Main Room spinning Top 40 & House. Ayinde Audio in the Red Room playing the best music from the late 80s, 90s & early 2000s.',
+        "eventCover"   : 'Pre-sale $30 for a single ticket',
+        "eventLink"    : 'special-events/' + 'new-years-eve-2017-ann-arbor-necto-nightclub.html',
+        "eventSocial"  : 'https://www.facebook.com/events/221900801590054/',
+        "eventTix"     : 'https://www.eventbrite.com/e/new-years-eve-2017-tickets-29809040643',
+        "eventImgTall" : 'img/event-images/' + 'new-years-eve-2017-at-necto-nightclub-ann-arbor.jpeg',
+        "eventImgWide" : 'img/event-images/' + 'new-years-eve-2017-at-necto-nightclub-ann-arbor.jpeg',
+        "eventWklOvrd" : true,
+        "eventDay"     : 0, // Do not modify
+        "pastEvent"    : false // Do not modify
+    },
+    {
+        "eventDate"    : new Date("Dec 29, 2016 22:00:00"),
+        "eventName"    : "Throwback Thursday",
+        "eventArtist"  : "Throwback Thursday",
+        "eventDesc"    : 'THROWBACK THURSDAY<br>All Your Favorite Music from the 80s, 90s & early 00s<br>FREE for 21+ | $10 for 18-20<br><br>KEVIN MICHAEL<br><br>Totally Awesome Drink Specials:<br>$3.50 Well drinks<br>$2.50 Fireball shots<br>3 for $10 Jaeger Bombs<br>$2 Miller Lite Bottles',
+        "eventDescLong": 'THROWBACK THURSDAY<br>All Your Favorite Music from the 80s, 90s & early 00s<br>FREE for 21+ | $10 for 18-20<br><br>KEVIN MICHAEL<br><br>Totally Awesome Drink Specials:<br>$3.50 Well drinks<br>$2.50 Fireball shots<br>3 for $10 Jaeger Bombs<br>$2 Miller Lite Bottles',
+        "eventCover"   : 'FREE for 21+ | $10 for 18-20',
+        "eventLink"    : 'special-events/' + 'throwback-thursday-at-necto-nightclub-ann-arbor-michigan-dec-29-2016.html',
+        "eventSocial"  : 'https://www.facebook.com/events/1137219513065902/',
+        "eventTix"     : 'none',
+        "eventImgTall" : 'img/event-images/' + 'throwback-thursday-at-necto-night-club-ann-arbor.jpg',
+        "eventImgWide" : 'img/event-images/' + 'throwback-thursday-at-necto-night-club-ann-arbor.jpg',
+        "eventWklOvrd" : true,
+        "eventDay"     : 0, // Do not modify
+        "pastEvent"    : false // Do not modify
+    },
+    {
+        "eventDate"    : new Date("Dec 23, 2016 21:00:00"),
+        "eventName"    : "Pride Noel",
+        "eventArtist"  : "Pride Noel",
+        "eventDesc"    : 'What&#039; s under your tree? Join us for Necto Pride&#039; s annual holiday event. Surround yourself in the sweaty love of Sandy Claws & her amazing elves! Holiday photos will be taken by Bruno all night.',
+        "eventDescLong": 'What&#039; s under your tree? Join us for Necto Pride&#039; s annual holiday event. Surround yourself in the sweaty love of Sandy Claws & her amazing elves! Holiday photos will be taken by Bruno all night.',
+        "eventCover"   : 'Free before 10pm | Free with College ID before 11pm | $5 for 21+ | $10 for 18-20',
+        "eventLink"    : 'special-events/' + 'pride-noel-at-necto-nightclub-ann-arbor-michigan-dec-23rd-2016.html',
+        "eventSocial"  : 'https://www.facebook.com/events/134439123706957/',
+        "eventTix"     : 'none',
+        "eventImgTall" : 'img/event-images/' + 'pride-noel-at-necto-nightclub-ann-arbor.jpg',
+        "eventImgWide" : 'img/event-images/' + 'pride-noel-at-necto-nightclub-ann-arbor.jpg',
+        "eventWklOvrd" : true,
+        "eventDay"     : 0, // Do not modify
+        "pastEvent"    : false // Do not modify
+    },
+    {
+        "eventDate"    : new Date("Dec 22, 2016 22:00:00"),
+        "eventName"    : "Throwback Thursday",
+        "eventArtist"  : "Throwback Thursday",
+        "eventDesc"    : 'THROWBACK THURSDAY<br>All Your Favorite Music from the 80s, 90s & early 00s<br>FREE for 21+ | $10 for 18-20<br><br>KEVIN MICHAEL<br><br>Totally Awesome Drink Specials:<br>$3.50 Well drinks<br>$2.50 Fireball shots<br>3 for $10 Jaeger Bombs<br>$2 Miller Lite Bottles',
+        "eventDescLong": 'THROWBACK THURSDAY<br>All Your Favorite Music from the 80s, 90s & early 00s<br>FREE for 21+ | $10 for 18-20<br><br>KEVIN MICHAEL<br><br>Totally Awesome Drink Specials:<br>$3.50 Well drinks<br>$2.50 Fireball shots<br>3 for $10 Jaeger Bombs<br>$2 Miller Lite Bottles',
+        "eventCover"   : 'FREE for 21+ | $10 for 18-20',
+        "eventLink"    : 'special-events/' + 'throwback-thursday-at-necto-nightclub-ann-arbor-michigan-dec-22-2016.html',
+        "eventSocial"  : 'https://www.facebook.com/events/1736467956681248/',
+        "eventTix"     : 'none',
+        "eventImgTall" : 'img/event-images/' + 'throwback-thursday-dec-22-at-necto-nightclub-ann-arbor.jpg',
+        "eventImgWide" : 'img/event-images/' + 'throwback-thursday-dec-22-at-necto-nightclub-ann-arbor.jpg',
+        "eventWklOvrd" : true,
+        "eventDay"     : 0, // Do not modify
+        "pastEvent"    : false // Do not modify
+    },
+    {
+        "eventDate"    : new Date("Dec 17, 2016 22:00:00"),
+        "eventName"    : "Plastic Passion",
+        "eventArtist"  : "Plastic Passion",
+        "eventDesc"    : 'Plastic Passion brings your favorite Retro 70s/80s/90s New Wave, Post-Punk, Brit-Pop, Industrial, Electro, Manchester, Eurotrash, Acid House, Goth Rock, Shoegazer & more. Featuring DJ Josh & Friends!',
+        "eventDescLong": 'Plastic Passion brings your favorite Retro 70s/80s/90s New Wave, Post-Punk, Brit-Pop, Industrial, Electro, Manchester, Eurotrash, Acid House, Goth Rock, Shoegazer & more. Featuring DJ Josh & Friends!',
+        "eventCover"   : '',
+        "eventLink"    : 'special-events/' + 'plastic-passion-reunion-at-necto-nightclub-ann-arbor-michigan-dec-17th-2016.html',
+        "eventSocial"  : 'https://www.facebook.com/events/460675907436417/',
+        "eventTix"     : 'none',
+        "eventImgTall" : 'img/event-images/' + 'plastic-passion-renuion-at-necto-nightclub-ann-arbor.jpg',
+        "eventImgWide" : 'img/event-images/' + 'plastic-passion-renuion-at-necto-nightclub-ann-arbor.jpg',
+        "eventWklOvrd" : true,
+        "eventDay"     : 0, // Do not modify
+        "pastEvent"    : false // Do not modify
+    },
+    {
+        "eventDate"    : new Date("Dec 16, 2016 21:00:00"),
+        "eventName"    : "Naomi Smalls",
+        "eventArtist"  : "Naomi Smalls",
+        "eventDesc"    : 'Naomi Smalls is a 7 ft. glamazon, inspired by 90s supermodels, pop culture and fashion.Although she may be young, Naomi is a force to be reckoned with. Ultra tall and slim, with a keen eye for fashion, she has a body and heart manufactured for the runway. Watch Naomi strut at this special holiday event at Necto. One show only. Starts at 10:30pm with a Meet & Greet after midnight.',
+        "eventDescLong": 'Naomi Smalls is a 7 ft. glamazon, inspired by 90s supermodels, pop culture and fashion.Although she may be young, Naomi is a force to be reckoned with. Ultra tall and slim, with a keen eye for fashion, she has a body and heart manufactured for the runway. Watch Naomi strut at this special holiday event at Necto. One show only. Starts at 10:30pm with a Meet & Greet after midnight.',
+        "eventCover"   : '',
+        "eventLink"    : 'special-events/' + 'naomi-smalls-at-necto-nightclub-ann-arbor-michigan-dec-16th-2016.html',
+        "eventSocial"  : 'https://www.facebook.com/events/460675907436417/',
+        "eventTix"     : 'none',
+        "eventImgTall" : 'img/event-images/' + 'naomi-smalls-at-necto-nightclub-ann-arbor.jpg',
+        "eventImgWide" : 'img/event-images/' + 'naomi-smalls-at-necto-nightclub-ann-arbor.jpg',
+        "eventWklOvrd" : true,
+        "eventDay"     : 0, // Do not modify
+        "pastEvent"    : false // Do not modify
+    },
 ];
 
 // The basic Weekly Events
@@ -477,7 +604,7 @@ function populateCalPageEvents() {
 var pastEventsList = document.getElementById('pastEventsList')
 function populatePastEventsPageEvents() {
     for (i = 0; i <= pastEvents.length - 1; i++) {
-        pastEventsList.innerHTML = pastEventsList.innerHTML + '<span class="past-events-date">' + pastEvents[i].eventDate.toDateString() + '&nbsp;&nbsp;</span><span class="past-events-event"><a href="' + pastEvents[i].eventLink + '">' + pastEvents[i].eventName + '</a></span><br>'
+        pastEventsList.innerHTML = pastEventsList.innerHTML + '<span class="past-events-date">' + pastEvents[i].eventDate.toDateString() + '&nbsp;&nbsp;</span><span class="past-events-event"><a href="' + pastEvents[i].eventLink + '"><br>' + pastEvents[i].eventName + '</a></span><br style="margin-bottom: .75em">'
     }
 }
 

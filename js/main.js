@@ -400,7 +400,55 @@ var events = [
         "eventDay"     : 0, // Do not modify
         "pastEvent"    : false // Do not modify
     },
+    {
+        "eventDate"    : new Date("Dec 15, 2016 21:00:00"),
+        "eventName"    : "CloZee & Psymbionic - Biohackers Tour",
+        "eventArtist"  : "CloZee & Psymbionic",
+        "eventDesc"    : 'Hailing from Toulouse, CloZee is Chloé, a young music producer who seamlessly combines technical precision with a wild imagination. An accomplished instrumentalist, she began playing the classical guitar at 11. Influenced by edIT, Bonobo, The Widdler and Amon Tobin, she started producing electronic music at the age of 16.<br>In 2014, she won the Best International Newcomer of 2013 at the UK Glitch-Hop Award.<br>Her tracks defy genres, oscillating between World Bass, Tribal Trap, Glitch-Hop, Trip-Hop, and Downtempo. She created her own place in the glitch community, thanks to a unique, highly surprising style, mixing powerful basslines, funky off beat percussion and emotional cinematic sounds. A musical identity which led her to play in the USA (including the festivals Coachella, Lightning In A Bottle, Shambhala...), Canada, India, Berlin, and more than 30 cities in France, alongside artists like Bonobo, Gramatik, Chet Faker, Tipper, TOKiMONSTA, Tipper, Big Gigantic, GRiZ. Psymbionic: Cresting the modern wave of electronic producers, Psymbionic creates aural experiences that explore the range of multi-tempo Bass Music within an influential and dynamic culture. With an ear for situational relevance, Psymbionic enjoys turning non-traditional sound design and infectious rhythms into dancefloor heat, while also maintaining his history in the downtempo, emotive side of the electronic sound. John Burcham has been moving bodies and turning heads as Psymbionic for several years in all corners of the USA, playing with acts such as Bassnectar, STS9, Big Gigantic, ill.Gates, Excision, EOTO, and Tipper. His passion and innovation in the music world are showcased through album releases on Muti Music and MalLabel, as well as in his role as label manager for the popular Electronic imprint Gravitas Recordings.',
+        "eventDescLong": 'Hailing from Toulouse, CloZee is Chloé, a young music producer who seamlessly combines technical precision with a wild imagination. An accomplished instrumentalist, she began playing the classical guitar at 11. Influenced by edIT, Bonobo, The Widdler and Amon Tobin, she started producing electronic music at the age of 16.<br>In 2014, she won the Best International Newcomer of 2013 at the UK Glitch-Hop Award.<br>Her tracks defy genres, oscillating between World Bass, Tribal Trap, Glitch-Hop, Trip-Hop, and Downtempo. She created her own place in the glitch community, thanks to a unique, highly surprising style, mixing powerful basslines, funky off beat percussion and emotional cinematic sounds. A musical identity which led her to play in the USA (including the festivals Coachella, Lightning In A Bottle, Shambhala...), Canada, India, Berlin, and more than 30 cities in France, alongside artists like Bonobo, Gramatik, Chet Faker, Tipper, TOKiMONSTA, Tipper, Big Gigantic, GRiZ. Psymbionic: Cresting the modern wave of electronic producers, Psymbionic creates aural experiences that explore the range of multi-tempo Bass Music within an influential and dynamic culture. With an ear for situational relevance, Psymbionic enjoys turning non-traditional sound design and infectious rhythms into dancefloor heat, while also maintaining his history in the downtempo, emotive side of the electronic sound. John Burcham has been moving bodies and turning heads as Psymbionic for several years in all corners of the USA, playing with acts such as Bassnectar, STS9, Big Gigantic, ill.Gates, Excision, EOTO, and Tipper. His passion and innovation in the music world are showcased through album releases on Muti Music and MalLabel, as well as in his role as label manager for the popular Electronic imprint Gravitas Recordings.',
+        "eventCover"   : '$10 adv | $15 DOS | 4 pack presale for $30',
+        "eventLink"    : 'special-events/' + 'clozee-and-psymbionic-at-necto-nightclub-ann-arbor-michigan-dec-15th-2016.html',
+        "eventSocial"  : 'https://www.facebook.com/events/1417695524925106/',
+        "eventTix"     : 'http://bit.ly/CloZPsymA2',
+        "eventImgTall" : 'img/event-images/' + 'cal-clozee-and-psymbionic-at-necto-night-club-ann-arbor.jpg',
+        "eventImgWide" : 'img/event-images/' + 'cal-clozee-and-psymbionic-at-necto-night-club-ann-arbor.jpg',
+        "eventWklOvrd" : false,
+        "eventDay"     : 0, // Do not modify
+        "pastEvent"    : false // Do not modify
+    },
+        {
+        "eventDate"    : new Date("Dec 10, 2016 20:00:00"),
+        "eventName"    : "Dance Break by EnCore",
+        "eventArtist"  : "Dance Break by EnCore",
+
+        "eventDesc"    : 'Have you been spending hours searching for the perfect Spotify playlist to take your mind off your busy end-of-the-semester life? We have a better idea... Come check out DANCE BREAK by EnCore, a collaborative dance show including some of the hottest premiere dance crews from the University of Michigan and surrounding areas. 11 Crews - 2 Hours.',
+
+        "eventDescLong": 'Have you been spending hours searching for the perfect Spotify playlist to take your mind off your busy end-of-the-semester life? We have a better idea... Come check out DANCE BREAK by EnCore, a collaborative dance show including some of the hottest premiere dance crews from the University of Michigan and surrounding areas. 11 Crews - 2 Hours.',
+
+        "eventCover"   : 'Pre-sale $5 | Tickets at doors $7',
+        "eventLink"    : 'special-events/' + 'dance-break-by-encore-at-necto-nightclub-ann-arbor-michigan-dec-10th-2016.html',
+        "eventSocial"  : 'https://www.facebook.com/events/319372518455926/',
+        "eventTix"     : 'none',
+        "eventImgTall" : 'img/event-images/' + 'dance-break-encore-at-necto-nightclub-ann-arbor.jpg',
+        "eventImgWide" : 'img/event-images/' + 'dance-break-encore-at-necto-nightclub-ann-arbor.jpg',
+        "eventWklOvrd" : true,
+        "eventDay"     : 0, // Do not modify
+        "pastEvent"    : false // Do not modify
+    },
 ];
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 // The basic Weekly Events
 var weeklyEvents = [

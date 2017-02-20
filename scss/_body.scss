@@ -28,6 +28,13 @@ body
 		}
 	}
 
+	h2
+	{
+		color: $yellow;
+		margin-bottom: 0;
+		font-weight: 500;
+	}
+
 }
 
 .mobile-hero
@@ -60,12 +67,7 @@ hr
 	border-color: #333;
 }
 
-h2
-{
-	color: $yellow;
-	margin-bottom: 0;
-	font-weight: 500;
-}
+
 
 ul
 {

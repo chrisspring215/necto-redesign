@@ -1276,41 +1276,59 @@ hr {
   border-color: #333;
 }
 
+/* line 64, ../scss/_body.scss */
+h2 {
+  color: #ffe928;
+  margin-bottom: 0;
+  font-weight: 500;
+}
+
+/* line 71, ../scss/_body.scss */
+ul {
+  color: #eeeeee;
+  font-weight: 300;
+}
+
 @media only screen and (min-width: 48em) {
-  /* line 70, ../scss/_body.scss */
+  /* line 84, ../scss/_body.scss */
   .sub-page {
     margin-top: 6em;
   }
 
-  /* line 75, ../scss/_body.scss */
+  /* line 89, ../scss/_body.scss */
   .full-hero {
     background: url("../img/full-hero.jpg") no-repeat center center;
     background-size: cover;
   }
 
-  /* line 81, ../scss/_body.scss */
+  /* line 95, ../scss/_body.scss */
   p {
     font-size: 1.3em;
   }
 
-  /* line 86, ../scss/_body.scss */
+  /* line 100, ../scss/_body.scss */
   .collapse:nth-child(1) {
     padding-left: 8px;
     padding-right: 8px;
     margin-left: -8px;
   }
 
-  /* line 93, ../scss/_body.scss */
+  /* line 107, ../scss/_body.scss */
   .collapse:nth-child(2), .collapse:nth-child(3) {
     padding-left: 8px;
     padding-right: 8px;
   }
 
-  /* line 100, ../scss/_body.scss */
+  /* line 114, ../scss/_body.scss */
   .collapse:nth-child(4) {
     padding-left: 8px;
     padding-right: 8px;
     margin-right: 8px;
+  }
+
+  /* line 120, ../scss/_body.scss */
+  ul {
+    font-size: 1.3em;
   }
 }
 /* line 1, ../scss/_header.scss */
@@ -1880,13 +1898,14 @@ footer address .name {
 footer ul {
   list-style-type: none;
   padding-left: 0;
+  font-size: 1em;
 }
-/* line 25, ../scss/_footer.scss */
+/* line 26, ../scss/_footer.scss */
 footer a {
   color: #3bddff;
   transition: color 100ms ease;
 }
-/* line 30, ../scss/_footer.scss */
+/* line 31, ../scss/_footer.scss */
 footer a:hover {
   color: #ffe928;
   transition: color 200ms ease;

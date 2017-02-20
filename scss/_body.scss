@@ -60,6 +60,20 @@ hr
 	border-color: #333;
 }
 
+h2
+{
+	color: $yellow;
+	margin-bottom: 0;
+	font-weight: 500;
+}
+
+ul
+{
+color: $white;
+font-weight: 300;
+}
+
+
 @media only screen and (min-width: 48em) {
 
 	body {
@@ -102,4 +116,9 @@ hr
 		padding-right: 8px;
 		margin-right: 8px;
 	}
+	ul
+	{
+	font-size: 1.3em;
+	}
+	
 }

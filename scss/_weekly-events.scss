@@ -58,21 +58,27 @@
 	margin-top: 1.5em;
 }
 
-.weekly-mailing
+form
 {
+	label
+	{
+		color: $white;
+		margin-bottom: .75em;
+	}
 	.ss-q-title
 	{
 		color: $white;
 	}
 
-	input[type="email"]
+
+	input[type="email"], input[type="text"],  input[type="tel"], textarea
     {
         background: none;
         border: 3px solid $pink;
         color: white;
         padding: .2em .4em;
         display: block;
-        width: 75%;
+        width: 100%;
     }   
 
     input[type="submit"]
@@ -80,7 +86,7 @@
         background: none;
         display: block;
         margin-top: 1em;
-        width: 200%;
+        width: 100%;
         border: 3px solid $blue;
         color: $yellow;
         border-radius: .1em;

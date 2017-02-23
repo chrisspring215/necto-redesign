@@ -117,8 +117,8 @@ main {
 .page-section
 {
     border-bottom: 2px solid $pink;
-    padding-top: 3em;
-    padding-bottom: 3em;
+    padding-top: 1.5em;
+    padding-bottom: 1.5em;
 
     .page-section-nav
     {
@@ -144,6 +144,12 @@ main {
             -webkit-transition:  background-color, 300ms;
             transition:          background-color, 300ms;
         }
+    }
+
+    h3
+    {
+        color: $pink;
+        margin-bottom: 0;
     }
 }
 
@@ -354,6 +360,12 @@ main {
                 }
             }
         }
+    }
+
+    .page-section
+    {
+        padding-top: 3em;
+        padding-bottom: 3em;
     }
 }
 

@@ -12,6 +12,6 @@ function valid()
 	else
 		{
 			document.getElementById("submit").disabled = true;
-			submit.value = "PLEASE FILL OUT ALL FIELDS";
+			submit.value = "FILL OUT ALL FIELDS";
 		}
 }

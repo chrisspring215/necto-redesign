@@ -1560,19 +1560,40 @@ header {
   }
 }
 
-/* line 4, /Users/cacollins/Documents/necto-redesign/scss/_main-section.scss */
+/* line 1, /Users/cacollins/Documents/necto-redesign/scss/_main-section.scss */
+.video-container {
+  position: relative;
+  padding-bottom: 56.25%;
+  padding-top: 0px;
+  height: 0;
+  overflow: hidden;
+  border: 1px solid #333;
+}
+
+/* line 8, /Users/cacollins/Documents/necto-redesign/scss/_main-section.scss */
+.video-container iframe,
+.video-container object,
+.video-container embed {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+/* line 19, /Users/cacollins/Documents/necto-redesign/scss/_main-section.scss */
 img {
   width: 100%;
 }
 
-/* line 8, /Users/cacollins/Documents/necto-redesign/scss/_main-section.scss */
+/* line 23, /Users/cacollins/Documents/necto-redesign/scss/_main-section.scss */
 a {
   color: #3BDDFF;
   text-decoration: none;
   font-weight: 500;
 }
 
-/* line 15, /Users/cacollins/Documents/necto-redesign/scss/_main-section.scss */
+/* line 30, /Users/cacollins/Documents/necto-redesign/scss/_main-section.scss */
 p {
   color: #eee;
   margin-top: 0em;
@@ -1582,13 +1603,13 @@ p {
   line-height: 1.5em;
 }
 
-/* line 23, /Users/cacollins/Documents/necto-redesign/scss/_main-section.scss */
+/* line 38, /Users/cacollins/Documents/necto-redesign/scss/_main-section.scss */
 p strong {
   color: #ED1968;
   font-weight: 300;
 }
 
-/* line 29, /Users/cacollins/Documents/necto-redesign/scss/_main-section.scss */
+/* line 44, /Users/cacollins/Documents/necto-redesign/scss/_main-section.scss */
 p a {
   font-weight: 300;
 }
@@ -1603,14 +1624,14 @@ main {
   background-size: cover;
 }
 */
-/* line 45, /Users/cacollins/Documents/necto-redesign/scss/_main-section.scss */
+/* line 60, /Users/cacollins/Documents/necto-redesign/scss/_main-section.scss */
 .mobile-social {
   display: block;
   text-align: center;
   margin-top: 2em;
 }
 
-/* line 52, /Users/cacollins/Documents/necto-redesign/scss/_main-section.scss */
+/* line 67, /Users/cacollins/Documents/necto-redesign/scss/_main-section.scss */
 .mobile-social a {
   color: #eee;
   padding: 0 1em;
@@ -1618,12 +1639,12 @@ main {
   line-height: 2em;
 }
 
-/* line 58, /Users/cacollins/Documents/necto-redesign/scss/_main-section.scss */
+/* line 73, /Users/cacollins/Documents/necto-redesign/scss/_main-section.scss */
 .mobile-social a:hover {
   color: #3BDDFF;
 }
 
-/* line 65, /Users/cacollins/Documents/necto-redesign/scss/_main-section.scss */
+/* line 80, /Users/cacollins/Documents/necto-redesign/scss/_main-section.scss */
 .hero-image {
   padding-bottom: 0em;
   padding-top: 5vh;
@@ -1631,7 +1652,7 @@ main {
   height: 100vh;
 }
 
-/* line 72, /Users/cacollins/Documents/necto-redesign/scss/_main-section.scss */
+/* line 87, /Users/cacollins/Documents/necto-redesign/scss/_main-section.scss */
 .hero-image span {
   display: block;
   margin-right: 10%;
@@ -1650,7 +1671,7 @@ main {
   border-radius: .1em;
 }
 
-/* line 91, /Users/cacollins/Documents/necto-redesign/scss/_main-section.scss */
+/* line 106, /Users/cacollins/Documents/necto-redesign/scss/_main-section.scss */
 .hero-image .button {
   border: none;
   box-shadow: 4px 4px 0px #ffe928;
@@ -1662,7 +1683,7 @@ main {
   transition: color 200ms ease-in, background-color 200ms ease-in, box-shadow 200ms ease-in;
 }
 
-/* line 102, /Users/cacollins/Documents/necto-redesign/scss/_main-section.scss */
+/* line 117, /Users/cacollins/Documents/necto-redesign/scss/_main-section.scss */
 .hero-image .button:hover, .hero-image .button:focus, .hero-image .button:active {
   color: #eee;
   background-color: #00a1c3;
@@ -1671,24 +1692,24 @@ main {
   transition: color 300ms ease-out, background-color 300ms ease-out, box-shadow 300ms ease-out;
 }
 
-/* line 112, /Users/cacollins/Documents/necto-redesign/scss/_main-section.scss */
+/* line 127, /Users/cacollins/Documents/necto-redesign/scss/_main-section.scss */
 .full-hero {
   display: none;
 }
 
-/* line 117, /Users/cacollins/Documents/necto-redesign/scss/_main-section.scss */
+/* line 132, /Users/cacollins/Documents/necto-redesign/scss/_main-section.scss */
 .page-section {
   border-bottom: 2px solid #ED1968;
   padding-top: 1.5em;
   padding-bottom: 1.5em;
 }
 
-/* line 123, /Users/cacollins/Documents/necto-redesign/scss/_main-section.scss */
+/* line 138, /Users/cacollins/Documents/necto-redesign/scss/_main-section.scss */
 .page-section .page-section-nav {
   text-align: center;
 }
 
-/* line 128, /Users/cacollins/Documents/necto-redesign/scss/_main-section.scss */
+/* line 143, /Users/cacollins/Documents/necto-redesign/scss/_main-section.scss */
 .page-section .standard-button {
   display: inline-block;
   width: 50%;
@@ -1702,20 +1723,20 @@ main {
   transition: background-color, 300ms;
 }
 
-/* line 141, /Users/cacollins/Documents/necto-redesign/scss/_main-section.scss */
+/* line 156, /Users/cacollins/Documents/necto-redesign/scss/_main-section.scss */
 .page-section .standard-button:hover, .page-section .standard-button:focus, .page-section .standard-button:active {
   background-color: #ED1968;
   -webkit-transition: background-color, 300ms;
   transition: background-color, 300ms;
 }
 
-/* line 149, /Users/cacollins/Documents/necto-redesign/scss/_main-section.scss */
+/* line 164, /Users/cacollins/Documents/necto-redesign/scss/_main-section.scss */
 .page-section h3 {
   color: #ED1968;
   margin-bottom: 0;
 }
 
-/* line 156, /Users/cacollins/Documents/necto-redesign/scss/_main-section.scss */
+/* line 171, /Users/cacollins/Documents/necto-redesign/scss/_main-section.scss */
 .page-section-header {
   display: block;
   width: 100%;
@@ -1725,7 +1746,7 @@ main {
   line-height: 1em;
 }
 
-/* line 166, /Users/cacollins/Documents/necto-redesign/scss/_main-section.scss */
+/* line 181, /Users/cacollins/Documents/necto-redesign/scss/_main-section.scss */
 .page-section-sub-header {
   display: block;
   width: 100%;
@@ -1737,7 +1758,7 @@ main {
   margin-top: 1.5em;
 }
 
-/* line 180, /Users/cacollins/Documents/necto-redesign/scss/_main-section.scss */
+/* line 195, /Users/cacollins/Documents/necto-redesign/scss/_main-section.scss */
 .weekly-page-side-bar-scection .page-section-sub-header {
   display: block;
   width: 100%;
@@ -1748,22 +1769,22 @@ main {
   margin-bottom: .25em;
 }
 
-/* line 192, /Users/cacollins/Documents/necto-redesign/scss/_main-section.scss */
+/* line 207, /Users/cacollins/Documents/necto-redesign/scss/_main-section.scss */
 .weekly-page-side-bar-scection .page-section-sub-header:nth-child(1) {
   margin-top: 0;
 }
 
-/* line 199, /Users/cacollins/Documents/necto-redesign/scss/_main-section.scss */
+/* line 214, /Users/cacollins/Documents/necto-redesign/scss/_main-section.scss */
 .home-page-event {
   text-align: left;
 }
 
-/* line 204, /Users/cacollins/Documents/necto-redesign/scss/_main-section.scss */
+/* line 219, /Users/cacollins/Documents/necto-redesign/scss/_main-section.scss */
 .home-page-event-content {
   padding-bottom: 1.75em;
 }
 
-/* line 208, /Users/cacollins/Documents/necto-redesign/scss/_main-section.scss */
+/* line 223, /Users/cacollins/Documents/necto-redesign/scss/_main-section.scss */
 .home-page-event-content h3 {
   font-size: 1.5em;
   margin: 0 0 0 0;
@@ -1771,7 +1792,7 @@ main {
   padding-bottom: .25em;
 }
 
-/* line 216, /Users/cacollins/Documents/necto-redesign/scss/_main-section.scss */
+/* line 231, /Users/cacollins/Documents/necto-redesign/scss/_main-section.scss */
 .home-page-event-content h3 .weekly-name, .home-page-event-content h3 .event-name {
   color: #eee;
   font-variant: small-caps;
@@ -1779,18 +1800,18 @@ main {
   font-size: 1.3em;
 }
 
-/* line 224, /Users/cacollins/Documents/necto-redesign/scss/_main-section.scss */
+/* line 239, /Users/cacollins/Documents/necto-redesign/scss/_main-section.scss */
 .home-page-event-content h3 .weekly-day, .home-page-event-content h3 .event-day {
   color: #ED1968;
   font-weight: 400;
 }
 
-/* line 229, /Users/cacollins/Documents/necto-redesign/scss/_main-section.scss */
+/* line 244, /Users/cacollins/Documents/necto-redesign/scss/_main-section.scss */
 .home-page-event-content h3 .event-day {
   font-size: .75em;
 }
 
-/* line 234, /Users/cacollins/Documents/necto-redesign/scss/_main-section.scss */
+/* line 249, /Users/cacollins/Documents/necto-redesign/scss/_main-section.scss */
 .home-page-event-content .home-page-weekly-link {
   float: right;
   border: 3px solid #3BDDFF;
@@ -1802,7 +1823,7 @@ main {
   margin-bottom: 2em;
 }
 
-/* line 246, /Users/cacollins/Documents/necto-redesign/scss/_main-section.scss */
+/* line 261, /Users/cacollins/Documents/necto-redesign/scss/_main-section.scss */
 .home-page-event-content .home-page-weekly-link:hover {
   background-color: #ED1968;
   border: 3px solid #eee;
@@ -1811,19 +1832,19 @@ main {
   transition: color 200ms, border 300ms, background-color 300ms;
 }
 
-/* line 256, /Users/cacollins/Documents/necto-redesign/scss/_main-section.scss */
+/* line 271, /Users/cacollins/Documents/necto-redesign/scss/_main-section.scss */
 .home-page-event-content .special-event-date {
   color: #eee;
 }
 
-/* line 261, /Users/cacollins/Documents/necto-redesign/scss/_main-section.scss */
+/* line 276, /Users/cacollins/Documents/necto-redesign/scss/_main-section.scss */
 .home-page-event-content img {
   border: 1px solid #333;
   margin-bottom: .5em;
   box-shadow: 0px 4px 2px rgba(0, 0, 0, 0.25);
 }
 
-/* line 269, /Users/cacollins/Documents/necto-redesign/scss/_main-section.scss */
+/* line 284, /Users/cacollins/Documents/necto-redesign/scss/_main-section.scss */
 .home-page-event-content .button, .home-page-event-content button {
   margin-top: 8px;
   background: none;
@@ -1835,7 +1856,7 @@ main {
   transition: color 200ms, border-color 300ms;
 }
 
-/* line 281, /Users/cacollins/Documents/necto-redesign/scss/_main-section.scss */
+/* line 296, /Users/cacollins/Documents/necto-redesign/scss/_main-section.scss */
 .home-page-event-content .button:hover, .home-page-event-content .button:focus, .home-page-event-content .button:active, .home-page-event-content button:hover, .home-page-event-content button:focus, .home-page-event-content button:active {
   color: #ED1968;
   border-color: #ffe928;
@@ -1843,12 +1864,12 @@ main {
   transition: color 200ms, border-color 300ms;
 }
 
-/* line 289, /Users/cacollins/Documents/necto-redesign/scss/_main-section.scss */
+/* line 304, /Users/cacollins/Documents/necto-redesign/scss/_main-section.scss */
 .home-page-event-content .event-nav {
   text-align: center;
 }
 
-/* line 293, /Users/cacollins/Documents/necto-redesign/scss/_main-section.scss */
+/* line 308, /Users/cacollins/Documents/necto-redesign/scss/_main-section.scss */
 .home-page-event-content .event-nav a {
   color: #ffe928;
   font-size: 1em;
@@ -1859,20 +1880,20 @@ main {
   transition: background 200ms;
 }
 
-/* line 304, /Users/cacollins/Documents/necto-redesign/scss/_main-section.scss */
+/* line 319, /Users/cacollins/Documents/necto-redesign/scss/_main-section.scss */
 .home-page-event-content .event-nav a:nth-child(1) {
   border-right: 1.5px solid #3BDDFF;
   border-top-left-radius: .1em;
   border-bottom-left-radius: .1em;
 }
 
-/* line 310, /Users/cacollins/Documents/necto-redesign/scss/_main-section.scss */
+/* line 325, /Users/cacollins/Documents/necto-redesign/scss/_main-section.scss */
 .home-page-event-content .event-nav a:nth-child(2) {
   border-right: 2px solid #3BDDFF;
   border-left: 2px solid #3BDDFF;
 }
 
-/* line 316, /Users/cacollins/Documents/necto-redesign/scss/_main-section.scss */
+/* line 331, /Users/cacollins/Documents/necto-redesign/scss/_main-section.scss */
 .home-page-event-content .event-nav a:nth-last-child(1) {
   border-left: 1.5px solid #3BDDFF;
   border-right: 3px solid #3BDDFF;
@@ -1880,7 +1901,7 @@ main {
   border-bottom-right-radius: .2em;
 }
 
-/* line 323, /Users/cacollins/Documents/necto-redesign/scss/_main-section.scss */
+/* line 338, /Users/cacollins/Documents/necto-redesign/scss/_main-section.scss */
 .home-page-event-content .event-nav a:hover {
   padding: .5em 0;
   background: #ED1968;
@@ -1889,18 +1910,18 @@ main {
 }
 
 @media only screen and (min-width: 48em) {
-  /* line 334, /Users/cacollins/Documents/necto-redesign/scss/_main-section.scss */
+  /* line 349, /Users/cacollins/Documents/necto-redesign/scss/_main-section.scss */
   .mobile-hero, .home-page-event-vip-button {
     display: none;
   }
-  /* line 339, /Users/cacollins/Documents/necto-redesign/scss/_main-section.scss */
+  /* line 354, /Users/cacollins/Documents/necto-redesign/scss/_main-section.scss */
   .full-hero {
     display: block;
     padding-right: 0;
     margin-right: 0;
     width: 100%;
   }
-  /* line 345, /Users/cacollins/Documents/necto-redesign/scss/_main-section.scss */
+  /* line 360, /Users/cacollins/Documents/necto-redesign/scss/_main-section.scss */
   .full-hero span {
     border: none;
     margin-top: 10rem;
@@ -1908,30 +1929,30 @@ main {
     line-height: 8vw;
     color: #13b5d7;
   }
-  /* line 354, /Users/cacollins/Documents/necto-redesign/scss/_main-section.scss */
+  /* line 369, /Users/cacollins/Documents/necto-redesign/scss/_main-section.scss */
   .full-hero .button {
     background: #ED1968;
     text-align: center;
     margin: 0.5em;
   }
-  /* line 361, /Users/cacollins/Documents/necto-redesign/scss/_main-section.scss */
+  /* line 376, /Users/cacollins/Documents/necto-redesign/scss/_main-section.scss */
   .full-hero .full-social {
     margin-top: 4em;
     font-weight: bold;
   }
-  /* line 366, /Users/cacollins/Documents/necto-redesign/scss/_main-section.scss */
+  /* line 381, /Users/cacollins/Documents/necto-redesign/scss/_main-section.scss */
   .full-hero .full-social a {
     color: #eee;
     padding: 0 1em;
     text-shadow: 3px 3px 3px #333;
     transition: color 200ms ease-out;
   }
-  /* line 372, /Users/cacollins/Documents/necto-redesign/scss/_main-section.scss */
+  /* line 387, /Users/cacollins/Documents/necto-redesign/scss/_main-section.scss */
   .full-hero .full-social a:hover {
     color: #3BDDFF;
     transition: color 200ms ease-out;
   }
-  /* line 381, /Users/cacollins/Documents/necto-redesign/scss/_main-section.scss */
+  /* line 396, /Users/cacollins/Documents/necto-redesign/scss/_main-section.scss */
   .page-section {
     padding-top: 3em;
     padding-bottom: 3em;

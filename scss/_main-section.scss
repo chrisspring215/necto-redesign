@@ -164,20 +164,37 @@ main {
 }
 
 .page-section-sub-header
+    {
+        display: block;
+        width: 100%;
+        color: $yellow;
+        text-shadow: $textShadowPink;
+        font-size: 1.5em;
+        line-height: 1em; 
+        margin-bottom: .25em;
+        margin-top: 1.5em;
+    }
+
+.weekly-page-side-bar-scection
 {
-    display: block;
-    width: 100%;
-    color: $yellow;
-    text-shadow: $textShadowPink;
-    font-size: 1.5em;
-    line-height: 1em; 
-    margin-bottom: .25em;
-    
+    .page-section-sub-header
+    {
+        display: block;
+        width: 100%;
+        color: $yellow;
+        text-shadow: $textShadowPink;
+        font-size: 1.5em;
+        line-height: 1em; 
+        margin-bottom: .25em;
+        
+    }
+
+    .page-section-sub-header:nth-child(1) {
+        margin-top: 0;
+    }
 }
 
-.page-section-sub-header:nth-child(1) {
-    margin-top: 0;
-}
+
 
 .home-page-event
 {
@@ -206,7 +223,6 @@ main {
 
         .weekly-day, .event-day {
             color: $pink;
-            font-variant: small-caps;
             font-weight: 400;
         }
 

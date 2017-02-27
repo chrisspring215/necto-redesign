@@ -110,7 +110,7 @@
           <p>Please note, gratuity is not included in bottle service prices; a 20% gratuity will be added to all VIP reservations for services provided. - (Free admission non-applicable for ticketed events. Packages must be purchased and confirmed in advance to receive line skip and free admission).</p>
           <p>Fees are subject to change for special events. All rentals are subject to availability.</p>
           <div class="page-section-nav">
-            <a href="" class="standard-button">MAKE A RESERVATION</a>
+            <a href="#request-form" class="standard-button">MAKE A RESERVATION</a>
           </div>     
         </div>
       </div>
@@ -132,6 +132,7 @@
           <p>Includes line skip and free admission for up to 10 guests, 2 bottles of Premium liquor with garnishes and mixers + 1 bottle of house champagne.<br>COST: 550.00 + 20% gratuity</p>   
         </div>
       </div>
+
       <div class="row centered-cols">
         <div class="col col-12-xs col-4-md">
           <h3>Main Dancefloor</h3>
@@ -143,21 +144,70 @@
         </div>
       </div>
 
+      <div class="row centered-cols section-header" id="request-form">
+        <div class="col col-12-xs col-8-md">
+          <h2 class="page-section-header">Place a Request</h2>
+          <p>Fill out the form and tell us a little about your party.</p>
+        </div>
+      </div>
+
+      <form class="row centered-cols weekly-mailing" action="renter_contact_from.php" method="post">
+      
+        <label class="col col-12-xs col-8-md">Your Name (required)</br>
+          <input name="renter_name" type="text" placeholder="Enter Your Name" />
+        </label>
+       
+        <label class="col col-12-xs col-8-md">Phone number (required)</br>
+          <input name="renter_phone" type="tel" placeholder="123-456-7890" />
+        </label>
+   
+        <label class="col col-12-xs col-8-md">Your Email (required)</br>
+          <input name="renter_email" type="email" placeholder="you@someplace.com" />
+        </label>
+
+        <label class="col col-12-xs col-8-md">Date you want to reserve (required)</br>
+          <input name="renter_email" type="text" placeholder="Enter a date" />
+        </label>
+
+        <label class="col col-12-xs col-8-md">What's your favorite brand/type of liquor?</br>
+          <input name="renter_email" type="text" placeholder="Shorty, what you drank?" />
+        </label>
+
+        <label class="col col-12-xs col-8-md">Referred by? (optional)</br>
+          <input name="renter_email" type="text" placeholder="" />
+        </label>
+    
+        <label class="col col-12-xs col-8-md">Message</br>
+          <textarea name="renter_message" placeholder="What should we know about your party?"></textarea>
+        </label>
+        <br>
+      
+        <label class="col col-12-xs col-8-md">Are you a human? (required)</br>
+          <input onchange="valid()" id="human" placeholder="Answer yes if you are" type="text">
+        </label>
+        <br>
+        
+        <label class="col col-12-xs col-8-md">
+          <input class="mailing-form-button" type="submit" name="submit" id="submit" value="FILL OUT REQUIRED FIELDS" />
+        </label>
+    
+      </form>
+
     </main>
 
     <footer>
       <div class="row">
         <div class="col col-12-xs col-3-sm">
           <div itemscope itemtype="http://schema.org/Organization">
-              <span itemprop="name">Necto Nightclub</span><br>
-              <div itemprop="address" itemscope itemtype="http://schema.org/PostalAddress">
-                  <a href="directions.html"><span itemprop="streetAddress">516 E. Liberty</span><br>
-                  <span itemprop="addressLocality">Ann Arbor</span><span>, </span><span itemprop="addressRegion">MI</span> 
-                  <span itemprop="postalCode">48104</span></a>
-              </div>
-              Info:  <span itemprop="telephone"><a href="tel:17349945436">734-994-5436</a></span><br>
-              Phone: <span itemprop="telephone"><a href="tel:17349945835">734-994-5835</a></span><br>
-              Phone: <span itemprop="email"><a href="mailto:info@necto.com">info@necto.com</a></span>
+            <span itemprop="name">Necto Nightclub</span><br>
+            <div itemprop="address" itemscope itemtype="http://schema.org/PostalAddress">
+                <a href="directions.html"><span itemprop="streetAddress">516 E. Liberty</span><br>
+                <span itemprop="addressLocality">Ann Arbor</span><span>, </span><span itemprop="addressRegion">MI</span> 
+                <span itemprop="postalCode">48104</span></a>
+            </div>
+            Info:  <span itemprop="telephone"><a href="tel:17349945436">734-994-5436</a></span><br>
+            Phone: <span itemprop="telephone"><a href="tel:17349945835">734-994-5835</a></span><br>
+            Phone: <span itemprop="email"><a href="mailto:info@necto.com">info@necto.com</a></span>
           </div>
         </div>
 
@@ -191,6 +241,7 @@
 
     <script src="js/plugins.js"></script>
     <script src="js/main.js"></script>
+    <script src="js/valid.js"></script>
 
     <!-- Builds all navigtion -->
     <script>buildNavs()</script>
@@ -207,3 +258,4 @@
 
   </body>
 </html>
+

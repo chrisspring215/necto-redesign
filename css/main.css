@@ -2249,9 +2249,11 @@ form input[type="submit"]:hover, form input[type="submit"]:focus, form input[typ
 /* line 9, /Users/cacollins/Documents/necto-redesign/scss/_sitemap-list.scss */
 .sitemap-list li {
   list-style-type: none;
+  border-bottom: 1px solid #222;
+  padding: .35em 0;
 }
 
-/* line 15, /Users/cacollins/Documents/necto-redesign/scss/_sitemap-list.scss */
+/* line 17, /Users/cacollins/Documents/necto-redesign/scss/_sitemap-list.scss */
 .sitemap-link {
   visibility: hidden;
 }

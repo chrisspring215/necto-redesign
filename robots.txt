@@ -1,5 +1,38 @@
 # www.robotstxt.org/
+# www.google.com/support/webmasters/bin/answer.py?hl=en&answer=156449
 
-# Allow crawling of all content
+Sitemap: http://www.necto.com/sitemap.xml
+
 User-agent: *
-Disallow:
+Disallow: /voltage-mailing-list-thank-you.html
+Disallow: /recreation-wednesday-mailing-list-thank-you.html
+Disallow: /pride-friday-mailing-list-thank-you.html
+Disallow: /frequency-saturday-mailing-list-thank-you.html
+Disallow: /factory-monday-mailing-list-thank-you.html
+Disallow: /college-thursday-mailing-list-thank-you.html
+Disallow: /bottle-service-and-reservation-thank-you.html
+Disallow: /mayhem-upcoming-events.html‎
+Disallow: /tix/admin/‎
+Disallow: /tix/control/‎
+Disallow: /tix/pos/‎
+Disallow: /tix/contact.php
+Disallow: /tix/storehome.php‎
+Disallow: /tix/agb.php
+Disallow: /tix/merch.php‎
+Disallow: /tix/index.php?action=register‎
+Disallow: /tix/address.php
+Disallow: /tix/index.php
+Disallow: /tix/linejump.php
+Disallow: /tix/forgot_password.php
+
+Disallow: /college-night-thursday.html
+Noindex: /college-night-thursday.html
+
+Disallow: /rumba-wednesday.html
+Noindex: /rumba-wednesday.html
+
+Disallow: /transport-thursday.html
+Noindex: /transport-thursday.html
+
+Disallow: /home-wednesday.html
+Noindex: /home-wednesday.html

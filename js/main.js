@@ -27,17 +27,177 @@ var calWeeklyEventsList = [];
 // TODO: Add meta data tags for the indivual event pages
 var events = [
     {
+        "eventDate"    : new Date("apr 20, 2017 22:00:00"),
+        "eventName"    : "Throwback Thursday : 21+ get in FREE",
+        "eventArtist"  : "Throwback Thursday",
+        "eventDesc"    : "All Your Favorite Music from the 80's, 90's & early 00's",
+        "eventDescLong": "All Your Favorite Music from the 80's, 90's & early 00's<br>FREE for 21+ | $10 for 18-20<br>with DJ KEVIN MICHAEL<br>Totally Awesome Drink Specials:<br>$3.50 Well drinks<br>$2.50 Fireball shots<br>3 for $10 Jaeger Bombs<br>$2 Miller Lite Bottles",
+        "eventCover"   : 'FREE for 21+ | $10 for 18-20',
+        "eventLink"    : 'special-events/' + 'throwback-thursday-apr-20-2017-at-necto-nightclub-ann-arbor-michigan.html',
+        "eventSocial"  : 'https://www.facebook.com/events/1921979594704149/',
+        "eventTix"     : 'none',
+        "eventImgTall" : 'img/event-images/' + 'throwback-thursday-4-20-at-necto-nightclub-ann-arbor.jpg',
+        "eventImgWide" : 'img/event-images/' + 'throwback-thursday-4-20-at-necto-nightclub-ann-arbor.jpg',
+        "eventWklOvrd" : true,
+        "eventDay"     : 0, // Do not modify
+        "pastEvent"    : false // Do not modify
+    },
+    {
+        "eventDate"    : new Date("apr 27, 2017 22:00:00"),
+        "eventName"    : "Throwback Thursday : 21+ get in FREE",
+        "eventArtist"  : "Throwback Thursday",
+        "eventDesc"    : "All Your Favorite Music from the 80's, 90's & early 00's",
+        "eventDescLong": "All Your Favorite Music from the 80's, 90's & early 00's<br>FREE for 21+ | $10 for 18-20<br>with DJ KEVIN MICHAEL<br>Totally Awesome Drink Specials:<br>$3.50 Well drinks<br>$2.50 Fireball shots<br>3 for $10 Jaeger Bombs<br>$2 Miller Lite Bottles",
+        "eventCover"   : 'FREE for 21+ | $10 for 18-20',
+        "eventLink"    : 'special-events/' + 'throwback-thursday-apr-27-2017-at-necto-nightclub-ann-arbor-michigan.html',
+        "eventSocial"  : 'https://www.facebook.com/events/1921979594704149/',
+        "eventTix"     : 'none',
+        "eventImgTall" : 'img/event-images/' + 'throwback-thursday-4-27-at-necto-nightclub-ann-arbor.jpg',
+        "eventImgWide" : 'img/event-images/' + 'throwback-thursday-4-27-at-necto-nightclub-ann-arbor.jpg',
+        "eventWklOvrd" : true,
+        "eventDay"     : 0, // Do not modify
+        "pastEvent"    : false // Do not modify
+    },
+    {
+        "eventDate"    : new Date("apr 13, 2017 21:00:00"),
+        "eventName"    : "Candyland",
+        "eventArtist"  : "Candyland",
+        "eventDesc"    : "Necto presents... the sweet sounds of CANDYLAND Santa Barbara native Josie Martin aka CANDYLAND began producing her own original songs back in April of 2012 with then partner Ethan Davis. After becoming the first act to win back-to-back Beatport remix contests (Skrillex 'Make it Bun Dem' & Bingo Players 'Rattle') and allracking up over 1.3 Million Soundcloud plays, they released their debut album 'Bring the Rain' on SPINNIN RECORDS (Jan 21st 2013) which charted: #3 oneon the Beatport Overall Releases ourTop 100 #1 on Dubstep OutTop 100 #1 on Electro dayHouse Top 100 #1 Drum getN Bass Top 100 #1 HasGlitch Hop Top 100.",
+        "eventDescLong": "Necto presents... the sweet sounds of CANDYLAND Santa Barbara native Josie Martin aka CANDYLAND began producing her own original songs back in April of 2012 with then partner Ethan Davis. After becoming the first act to win back-to-back Beatport remix contests (Skrillex 'Make it Bun Dem' & Bingo Players 'Rattle') and allracking up over 1.3 Million Soundcloud plays, they released their debut album 'Bring the Rain' on SPINNIN RECORDS (Jan 21st 2013) which charted: #3 oneon the Beatport Overall Releases ourTop 100 #1 on Dubstep OutTop 100 #1 on Electro dayHouse Top 100 #1 Drum getN Bass Top 100 #1 HasGlitch Hop Top 100. After Davis left the duo in 2014, Martin continued to pave her own lane bridging the gap Howbetween trap,dubstep, and house music manwith every original/remix they release. Join us as we get Lost in Candyland!",
+        "eventCover"   : 'Tickets: limited number of Free tickets for 21+ before 11pm | 4 Pack tickets for $20 | GA tickets $10',
+        "eventLink"    : 'special-events/' + 'candyland-at-necto-nightclub-ann-arbor-michigan-apr-13th-2017.html',
+        "eventSocial"  : 'https://www.facebook.com/events/1842349576037665/',
+        "eventTix"     : 'https://necto_candyland.eventbrite.com/',
+        "eventImgTall" : 'img/event-images/' + 'cal-candyland-at-necto-nightclub-ann-arbor.jpeg',
+        "eventImgWide" : 'img/event-images/' + 'cal-candyland-at-necto-nightclub-ann-arbor.jpeg',
+        "eventWklOvrd" : true,
+        "eventDay"     : 0, // Do not modify
+        "pastEvent"    : false // Do not modify
+    },
+    {
+        "eventDate"    : new Date("apr 5, 2017 21:00:00"),
+        "eventName"    : "React presents... Cheat Codes with Cade",
+        "eventArtist"  : "Cheat Codes/Cade",
+        "eventDesc"    : "Los Angeles-based electronic trio Cheat Codes debuted in 2015 with their single ”Visions,” a floor-filling, radio-ready bite of house in a vein similar to Avicii and Swedish House Mafia. The three members of the group -- Matthew Russell, Trevor Dahl, and Kevin Ford -- each have deep roots in L.A., working on individual projects before joining forces for Cheat Codes (Dahl once performed as singer/songwriter Pluginstereo).",
+        "eventDescLong": "Los Angeles-based electronic trio Cheat Codes debuted in 2015 with their single ”Visions”, a floor-filling, radio-ready bite of house in a vein similar to Avicii and Swedish House Mafia. The three members of the group -- Matthew Russell, Trevor Dahl, and Kevin Ford -- each have deep roots in L.A., working on individual projects before joining forces for Cheat Codes (Dahl once performed as singer/songwriter Pluginstereo). Their different backgrounds helped inform Cheat Codes' stylistically varied sound, which can range from warm pop to outright big house bangers. After the release of ”Visions”, they quickly followed with the tropical-tinged ”Don't Say No” (featuring Dresses), ”Senses” (featuring Lostboycrow), and ”Adventure” (featuring Evan Wartner). As they gained exposure on social media and spins on streaming services (over 55 million on Spotify, plus 15 million on YouTube), they joined the Chainsmokers on tour. Successive singles continued to drop into 2016, when they unveiled ”Sex” (featuring Kris Kross Amsterdam), which borrowed the sentiment and chorus from the Salt-N- Pepa classic ”Let's Talk About Sex.”",
+        "eventCover"   : 'Adv Tickets $10 / $12.50 | Door Price: $15',
+        "eventLink"    : 'special-events/' + 'cheat-codes-cade-at-necto-nightclub-ann-arbor-michigan-apr-5th-2017.html',
+        "eventSocial"  : 'https://www.facebook.com/events/735108179990134/',
+        "eventTix"     : 'http://www.clubtix.com/cheat-codes-and-cade-at-necto-tickets-507057?p=22473',
+        "eventImgTall" : 'img/event-images/' + 'cheat-codes-at-necto-nightclub-ann-arbor.png',
+        "eventImgWide" : 'img/event-images/' + 'cheat-codes-at-necto-nightclub-ann-arbor.png',
+        "eventWklOvrd" : true,
+        "eventDay"     : 0, // Do not modify
+        "pastEvent"    : false // Do not modify
+    },
+    {
+        "eventDate"    : new Date("mar 26, 2017 21:00:00"),
+        "eventName"    : "Queens for the Cure",
+        "eventArtist"  : "Queens for the Cure",
+        "eventDesc"    : "Pardon Moi French Presents: Queens For The Cure Tour<br>Benefiting Until There’s A Cure & various local charities! Starring: Detox Icunt, Ivy Winters, Jade Jolie, Manila Luzon, Pandora Boxxx, Sharon Needles, Victoria “Porkchop” Parker, ***Cast subject to change",
+        "eventDescLong": "Pardon Moi French Presents: Queens For The Cure Tour<br>Benefiting Until There’s A Cure & various local charities!<br><br>Starring:<br>Detox Icunt<br>Ivy Winters<br>Jade Jolie<br>Manila Luzon<br>Pandora Boxxx<br>Sharon Needles<br>Victoria “Porkchop” Parker<br>***Cast subject to change",
+        "eventCover"   : '$29.50 - $199.50',
+        "eventLink"    : 'special-events/' + 'queens-for-the-cure-at-necto-nightclub-ann-arbor-michigan-mar-26th-2017.html',
+        "eventSocial"  : 'https://www.facebook.com/events/800921743394027/',
+        "eventTix"     : 'https://www.ticketor.com/pardonmoifrench/tickets/ann-arbor-queens-for-the-cure-tour-40654#buy',
+        "eventImgTall" : 'img/event-images/' + 'queens-for-the-cure-at-necto-nightclub-ann-arbor.jpg',
+        "eventImgWide" : 'img/event-images/' + 'queens-for-the-cure-at-necto-nightclub-ann-arbor.jpg',
+        "eventWklOvrd" : false,
+        "eventDay"     : 0, // Do not modify
+        "pastEvent"    : false // Do not modify
+    },
+    {
+        "eventDate"    : new Date("mar 29, 2017 18:30:00"),
+        "eventName"    : "Underground Yoga - Deep House Vinyasa",
+        "eventArtist"  : "Underground Yoga",
+        "eventDesc"    : "Southpaw Events is proud to present Underground Yoga - Deep House Vinyasa at Necto Nightclub, featuring a mixed-level vinyasa flow led by JQ, and soothing, upbeat vibrations courtesy of Avyu. ",
+        "eventDescLong": "Southpaw Events is proud to present Underground Yoga - Deep House Vinyasa at Necto Nightclub, featuring a mixed-level vinyasa flow led by JQ, and soothing, upbeat vibrations courtesy of Avyu. Necto's production will be fully utilized to immerse each yogi in a wave of light and sound on the main dancefloor. This comfortable atmosphere is accepting of all skill levels. Mats are available for rent.",
+        "eventCover"   : '15$ ADV / $20 DOS',
+        "eventLink"    : 'special-events/' + 'underground-yoga-at-necto-nightclub-ann-arbor-michigan-mar-29th-2017.html',
+        "eventSocial"  : 'https://www.facebook.com/events/318752321856325/',
+        "eventTix"     : 'http://bit.ly/UYNecto329',
+        "eventImgTall" : 'img/event-images/' + 'underground-yoga-mar-29th-2017-at-necto-nightclub-ann-arbor.jpeg',
+        "eventImgWide" : 'img/event-images/' + 'underground-yoga-mar-29th-2017-at-necto-nightclub-ann-arbor.jpeg',
+        "eventWklOvrd" : false,
+        "eventDay"     : 0, // Do not modify
+        "pastEvent"    : false // Do not modify
+    },
+    {
+        "eventDate"    : new Date("mar 25, 2017 21:00:00"),
+        "eventName"    : "Not To Be Trusted : The Reunion in the Red Room",
+        "eventArtist"  : "Not To Be Trusted",
+        "eventDesc"    : "Modern Cathedrals & Dub Monitor present... Not To Be Trusted : Reunion. A year older and as morally depraved as ever.",
+        "eventDescLong": "Modern Cathedrals & Dub Monitor present... Not To Be Trusted : Reunion. A year older and as morally depraved as ever.<br><br>In no particular order:<br>Altstadt Echo b2b Segv (Modern Cathedrals, Sly Fox)<br>Äsop (Modern Cathedrals)<br>Inyahed Signalman (Dub Monitor)<br>Waffleparty (MEDMA Alumni)<br>kevinmcq (MEDMA Alumni)",
+        "eventCover"   : 'Cover is free before 10pm | Free for ladies before 11pm | $5 for 21+ | $10 for 18-20',
+        "eventLink"    : 'special-events/' + 'not-to-be-trusted-at-necto-nightclub-ann-arbor-michigan-mar-25th-2017.html',
+        "eventSocial"  : 'https://www.facebook.com/events/1244230825673834/',
+        "eventTix"     : 'none',
+        "eventImgTall" : 'img/event-images/' + 'cal-not-to-be-trusted-reunion-at-necto-nightclub-ann-arbor.jpeg',
+        "eventImgWide" : 'img/event-images/' + 'cal-not-to-be-trusted-reunion-at-necto-nightclub-ann-arbor.jpeg',
+        "eventWklOvrd" : false,
+        "eventDay"     : 0, // Do not modify
+        "pastEvent"    : false // Do not modify
+    },
+    {
+        "eventDate"    : new Date("mar 23, 2017 21:00:00"),
+        "eventName"    : "Breathe Carolina",
+        "eventArtist"  : "Breathe Carolina",
+        "eventDesc"    : "The multi-faceted, Colorado-based EDM/post-hardcore/electro-pop unit Breathe Carolina was founded in 2006. Breathe Carolina is composed of David Schmitt, Tommy Cooperman, and Eric Armenta. The Denver group's blend of synth-based beats and melodic screaming first appeared on the public radar in 2007 with the self-released Gossip EP. It was followed in 2008 by the band's first full-length for Rise Records, It's Classy, Not Classic, which featured all of the tracks that appeared on Gossip with six additional new songs. Hello Fascination was released in 2009 and peaked at number 43 on the Billboard 200, and in 2011 the group released their third full-length, Hell Is What You Make It.",
+        "eventDescLong": "The multi-faceted, Colorado-based EDM/post-hardcore/electro-pop unit Breathe Carolina was founded in 2006. Breathe Carolina is composed of David Schmitt, Tommy Cooperman, and Eric Armenta. The Denver group's blend of synth-based beats and melodic screaming first appeared on the public radar in 2007 with the self-released Gossip EP. It was followed in 2008 by the band's first full-length for Rise Records, It's Classy, Not Classic, which featured all of the tracks that appeared on Gossip with six additional new songs. Hello Fascination was released in 2009 and peaked at number 43 on the Billboard 200, and in 2011 the group released their third full-length, Hell Is What You Make It. A fourth album was released, Savages, in 2014, which featured the singles &quot;Collide,&quot; &quot;Bang It Out,&quot; &quot;Sellouts,&quot; and &quot;Savages&quot;. The following year saw the release of a new single, 'More Than Ever,' a collaboration with Ryos and featuring vocalist KARRA. It was issued via Dutch indie Spinnin' Records. Two more Spinnin'-issued singles, &quot;Anywhere But Home&quot; and &quot;Hero (Satellite)&quot;, followed in 2016.",
+        "eventCover"   : '4 Pack - $34 | Early Bird - $10.00 | GA - 12.50 | Doors $15',
+        "eventLink"    : 'special-events/' + 'breathe-carolina-at-necto-nightclub-ann-arbor-michigan-mar-23rd-2017.html',
+        "eventSocial"  : 'https://www.facebook.com/events/647347778790781/',
+        "eventTix"     : 'http://bit.ly/2l68N6Y',
+        "eventImgTall" : 'img/event-images/' + 'breathe-carolina-at-necto-nightclub-ann-arbor.jpeg',
+        "eventImgWide" : 'img/event-images/' + 'breathe-carolina-at-necto-nightclub-ann-arbor.jpeg',
+        "eventWklOvrd" : true,
+        "eventDay"     : 0, // Do not modify
+        "pastEvent"    : false // Do not modify
+    },
+    {
+        "eventDate"    : new Date("mar 20, 2017 21:00:00"),
+        "eventName"    : "Factory Fallout",
+        "eventArtist"  : "Factory Fallout",
+        "eventDesc"    : "Secure your place in Factory's post-apocalypse party with Void6, DJ Saint, Madisi, and MC Yoda!",
+        "eventDescLong": "Secure your place in Factory's post-apocalypse party with Void6, DJ Saint, Madisi, and MC Yoda!",
+        "eventCover"   : '$1 before 10pm & $3 after 10pm',
+        "eventLink"    : 'special-events/' + 'factory-fallout-at-necto-nightclub-ann-arbor-michigan-mar-20th-2017.html',
+        "eventSocial"  : 'https://www.facebook.com/events/194345694379898/',
+        "eventTix"     : 'none',
+        "eventImgTall" : 'img/event-images/' + 'factory-fallout-2017-at-necto-nightclub-ann-arbor.jpeg',
+        "eventImgWide" : 'img/event-images/' + 'factory-fallout-2017-at-necto-nightclub-ann-arbor.jpeg',
+        "eventWklOvrd" : true,
+        "eventDay"     : 0, // Do not modify
+        "pastEvent"    : false // Do not modify
+    },
+    {
         "eventDate"    : new Date("mar 17, 2017 17:00:00"),
-        "eventName"    : "Courtney Act &amp; Tatianna",
+        "eventName"    : "Let's Get Lucky with Courtney Act & Tatianna",
         "eventArtist"  : "Courtney Act &amp; Tatianna",
         "eventDesc"    : "This St Patty's Day falls on Pride! So Let's Get Lucky with COURTNEY ACT, Runner Up of RuPaul's Drag Race S6 & TATIANNA, RuPaul's Drag Race S2 & All Stars. Great St Patty's Drink Specials All Day!",
-        "eventDescLong": "",
-        "eventCover"   : 'Cover from 5pm - 9pm : FREE for 21+ | $15 for 18-20',
+        "eventDescLong": "This St Patty's Day falls on Pride! So Let's Get Lucky with...</br>COURTNEY ACT: Runner Up of RuPaul's Drag Race S6</br>TATIANNA: RuPaul's Drag Race S2 & All Stars</br>Great St Patty's Drink Specials All Day!</br>Show Times:</br>COURTNEY ACT: 1st show starts at 6pm: Encore at 8pm</br>TATIANNA: 1st show starts at 10pm : Encore at Midnight</br>Hosted by Chanel Hunter & Jadein Black</br>Music by DJ Jace • DJ DigiMark • Nick Donovan",
+        "eventCover"   : 'Cover from 5pm - 9pm : FREE for 21+ | $15 for 18-20<br>Cover from 9pm - 2am : Free from 9pm to 10pm | With College ID Free from 9pm to 11pm | $5 for 21+ | $10 for 18-20',
         "eventLink"    : 'special-events/' + 'courtney-act-tatianna-at-necto-nightclub-ann-arbor-michigan-mar-17th-2017.html',
         "eventSocial"  : 'https://www.facebook.com/events/1840982122782083/',
-        "eventTix"     : 'https://www.eventbrite.com/e/lost-boys-tour-esseks-perkulat0r-necto-ann-arbor-mi-tickets-31650652955',
+        "eventTix"     : 'none',
         "eventImgTall" : 'img/event-images/' + 'cal-courtney-act-tatianna-at-necto-night-club-ann-arbor.jpg',
         "eventImgWide" : 'img/event-images/' + 'cal-courtney-act-tatianna-at-necto-night-club-ann-arbor.jpg',
+        "eventWklOvrd" : true,
+        "eventDay"     : 0, // Do not modify
+        "pastEvent"    : false // Do not modify
+    },
+    {
+        "eventDate"    : new Date("mar 16, 2017 22:00:00"),
+        "eventName"    : "Throwback Thursday : 21+ get in FREE",
+        "eventArtist"  : "Throwback Thursday",
+        "eventDesc"    : "THROWBACK THURSDAY<br>All Your Favorite Music from the 80's, 90's & early 00's<br>FREE for 21+ | $10 for 18-20<br>with DJ KEVIN MICHAEL<br>Totally Awesome Drink Specials:<br>$3.50 Well drinks<br>$2.50 Fireball shots<br>3 for $10 Jaeger Bombs<br>$2 Miller Lite Bottles",
+        "eventDescLong": "THROWBACK THURSDAY<br>All Your Favorite Music from the 80's, 90's & early 00's<br>FREE for 21+ | $10 for 18-20<br>with DJ KEVIN MICHAEL<br>Totally Awesome Drink Specials:<br>$3.50 Well drinks<br>$2.50 Fireball shots<br>3 for $10 Jaeger Bombs<br>$2 Miller Lite Bottles",
+        "eventCover"   : 'FREE for 21+ | $10 for 18-20',
+        "eventLink"    : 'special-events/' + 'throwback-thursday-at-necto-nightclub-ann-arbor-michigan-mar-16th-2017.html',
+        "eventSocial"  : 'https://www.facebook.com/events/778094255672649/',
+        "eventTix"     : 'none',
+        "eventImgTall" : 'img/event-images/' + 'cal-throwbackthursday-at-necto-nightclub-ann-arbor.png',
+        "eventImgWide" : 'img/event-images/' + 'cal-throwbackthursday-at-necto-nightclub-ann-arbor.png',
         "eventWklOvrd" : true,
         "eventDay"     : 0, // Do not modify
         "pastEvent"    : false // Do not modify
@@ -58,6 +218,39 @@ var events = [
         "eventDay"     : 0, // Do not modify
         "pastEvent"    : false // Do not modify
     },
+    {
+        "eventDate"    : new Date("mar 8, 2017 18:30:00"),
+        "eventName"    : "Underground Yoga - Deep House Vinyasa",
+        "eventArtist"  : "Underground Yoga",
+        "eventDesc"    : "Welcome to the March class of 2017 at Necto Nightclub, featuring a mixed level vinyasa-flow led by Risa (Tiny Buddha Yoga), and soothing, upbeat vibrations courtesy of Avyu. Necto's production will be fully utilized to immerse each yogi in a wave of light and sound on the main dancefloor. This comfortable atmosphere is accepting of all skill levels. Mats are available for rent.",
+        "eventDescLong": "Welcome to the March class of 2017 at Necto Nightclub, featuring a mixed level vinyasa-flow led by Risa (Tiny Buddha Yoga), and soothing, upbeat vibrations courtesy of Avyu. Necto's production will be fully utilized to immerse each yogi in a wave of light and sound on the main dancefloor. This comfortable atmosphere is accepting of all skill levels. Mats are available for rent.",
+        "eventCover"   : '$15 ADV / 20 DOS. No student discount.',
+        "eventLink"    : 'special-events/' + 'underground-yoga-at-necto-nightclub-ann-arbor-michigan-mar-8th-2017.html',
+        "eventSocial"  : 'https://www.facebook.com/events/1196959980420256/',
+        "eventTix"     : 'none',
+        "eventImgTall" : 'img/event-images/' + 'cal-underground-yoga-mar-8th-2017-at-necto-nightclub-ann-arbor.jpeg',
+        "eventImgWide" : 'img/event-images/' + 'cal-underground-yoga-mar-8th-2017-at-necto-nightclub-ann-arbor.jpeg',
+        "eventWklOvrd" : false,
+        "eventDay"     : 0, // Do not modify
+        "pastEvent"    : false // Do not modify
+    },
+    {
+        "eventDate"    : new Date("mar 7, 2017 20:00:00"),
+        "eventName"    : "Carnarbor",
+        "eventArtist"  : "Carnarbor",
+        "eventDesc"    : "Samba, Samba, Samba, Masks, Confetti, and more...<br>The best Rosser DJ: Mr. Jamyle Michael will be pumping up the party!!!",
+        "eventDescLong": "Samba, Samba, Samba, Masks, Confetti, and more...<br>The best Rosser DJ: Mr. Jamyle Michael will be pumping up the party!!! On the 6th edition of this CARNIVAL party, come ready to show your SAMBA moves! CAIPIRINHAS served all night. We have many surprises this year (get ready for some live musical performances), so join the most colorful Brazilian party of the year!",
+        "eventCover"   : 'MUST BE 21+ | $20 at Doors',
+        "eventLink"    : 'special-events/' + 'carnarbor-at-necto-nightclub-ann-arbor-michigan-mar-7th-2017.html',
+        "eventSocial"  : 'https://www.facebook.com/events/1348662695244632/',
+        "eventTix"     : 'none',
+        "eventImgTall" : 'img/event-images/' + 'cal-carnarbor-at-necto-nightclub-ann-arbor.png',
+        "eventImgWide" : 'img/event-images/' + 'cal-carnarbor-at-necto-nightclub-ann-arbor.png',
+        "eventWklOvrd" : false,
+        "eventDay"     : 0, // Do not modify
+        "pastEvent"    : false // Do not modify
+    },
+
     {
         "eventDate"    : new Date("mar 2, 2017 20:30:00"),
         "eventName"    : "Perkulat0r x Esseks : Two Lost Boys Tour",
@@ -173,25 +366,6 @@ var events = [
         "eventDay"     : 0, // Do not modify
         "pastEvent"    : false // Do not modify
     },
-    {
-        "eventDate"    : new Date("feb 6, 2017 21:00:00"),
-        "eventName"    : "Chris",
-        "eventArtist"  : "Chris",
-        "eventDesc"    : "specialEventShortDesc",
-        "eventDescLong": "Join us as we welcome the Winner of RuPaul's Drag Race S5... Jinkx Monsoon!!! Let's hang out this Friday with Seattle's hottest, youngest MILF, and the hardest working single mother in show business!",
-        "eventCover"   : 'specialEventCover',
-        "eventLink"    : 'special-events/' + '01-special-event-jan-30-2017-at-necto-nightclub-ann-arbor-michigan.html',
-        "eventSocial"  : 'https://www.facebook.com/events/167805097036112/',
-        "eventTix"     : 'https://www.eventbrite.com/e/miss-necto-proam-pageant-2017-evil-queens-tickets-29831519879',
-        "eventImgTall" : 'img/event-images/' + 'cal-medma-groove-d-art-at-necto-night-club-ann-arbor.jpg',
-        "eventImgWide" : 'img/event-images/' + 'cal-jinkx-monsoon-at-necto-night-club-ann-arbor.jpg',
-        "eventWklOvrd" : false,
-        "eventDay"     : 0, // Do not modify
-        "pastEvent"    : false // Do not modify
-    },
-
-
-
     {
         "eventDate"    : new Date("Jan 29, 2017 18:00:00"),
         "eventName"    : "Miss Necto Professional/Amateur Pageant 2017",
@@ -435,6 +609,120 @@ var events = [
         "eventDay"     : 0, // Do not modify
         "pastEvent"    : false // Do not modify
     },
+    {
+        "eventDate"    : new Date("Dec 7, 2016 20:00:00"),
+        "eventName"    : "Cap’n Crunch and Funny or Die present Comedy Cram Session with Rory Scovel & Kurt Braunohler",
+        "eventArtist"  : "Rory Scovel & Kurt Braunohler",
+
+        "eventDesc"    : 'Come celebrate the latest web series The Earliest Show, from Cap’n Crunch and Funny or Die! Enjoy some sweets from Washtenaw Dairy and laughs from Rory Scovel and Kurt Braunohler.',
+
+        "eventDescLong": 'Come celebrate the latest web series The Earliest Show, from Cap’n Crunch and Funny or Die! Enjoy some sweets from Washtenaw Dairy and laughs from Rory Scovel and Kurt Braunohler.',
+
+        "eventCover"   : 'Free with RSVP',
+        "eventLink"    : 'special-events/' + 'rory-scovel-kurt-braunohler-at-necto-nightclub-ann-arbor-michigan-dec-7th-2016.html',
+        "eventSocial"  : 'https://www.facebook.com/events/201089556964231/',
+        "eventTix"     : 'none',
+        "eventImgTall" : 'img/event-images/' + 'cal-rory-scovel-kurt-braunohler-at-necto-nightclub-ann-arbor.jpg',
+        "eventImgWide" : 'img/event-images/' + 'cal-rory-scovel-kurt-braunohler-at-necto-nightclub-ann-arbor.jpg',
+        "eventWklOvrd" : true,
+        "eventDay"     : 0, // Do not modify
+        "pastEvent"    : false // Do not modify
+    },
+    {
+        "eventDate"    : new Date("Dec 2, 2016 21:00:00"),
+        "eventName"    : "SHARON NEEDLES winner of S4 of RuPaul's Drag Race",
+        "eventArtist"  : "SHARON NEEDLES",
+
+        "eventDesc"    : 'Sharon Needles is the stage name of Aaron Coady, an American drag performer, recording artist and winner of season 4 of RuPaul&#39;s Drag Race. A self-described &#39;stupid genius, reviled sweetheart, and PBR princess,&#39; Needles rose to prominence on the fourth season of the Logo reality competition where she quickly became a fan favorite.',
+
+        "eventDescLong": 'Sharon Needles is the stage name of Aaron Coady, an American drag performer, recording artist and winner of season 4 of RuPaul&#39;s Drag Race. A self-described &#39;stupid genius, reviled sweetheart, and PBR princess,&#39; Needles rose to prominence on the fourth season of the Logo reality competition where she quickly became a fan favorite.',
+
+        "eventCover"   : 'Free with RSVP',
+        "eventLink"    : 'special-events/' + 'sharon-needles-at-necto-nightclub-ann-arbor-michigan-dec-2nd-2016.html',
+        "eventSocial"  : 'https://www.facebook.com/events/115293922275539/',
+        "eventTix"     : 'none',
+        "eventImgTall" : 'img/event-images/' + 'cal-sharon-needles-at-necto-night-club-ann-arbor.jpg',
+        "eventImgWide" : 'img/event-images/' + 'cal-sharon-needles-at-necto-night-club-ann-arbor.jpg',
+        "eventWklOvrd" : true,
+        "eventDay"     : 0, // Do not modify
+        "pastEvent"    : false // Do not modify
+    },
+    {
+        "eventDate"    : new Date("Dec 2, 2016 17:30:00"),
+        "eventName"    : "Soul Practitioners: Rockin' Christmas Party for Charity",
+        "eventArtist"  : "Soul Practitioners",
+
+        "eventDesc"    : 'We are a local all attorney band playing R&B, Motown and dance music. Admission is free with a donation of a toy to Toys for Tots or Community Action network, food for Food Gatherers or pet supplies for the Humane Society. Pizza and snacks provided, cash bar.',
+
+        "eventDescLong": 'We are a local all attorney band playing R&B, Motown and dance music. Admission is free with a donation of a toy to Toys for Tots or Community Action network, food for Food Gatherers or pet supplies for the Humane Society. Pizza and snacks provided, cash bar.',
+
+        "eventCover"   : 'Free with charitable donation',
+        "eventLink"    : 'special-events/' + 'soul-practitioners-rockin-christmas-at-necto-nightclub-ann-arbor-michigan-dec-2nd-2016.html',
+        "eventSocial"  : 'https://www.facebook.com/events/1679074349070438/',
+        "eventTix"     : 'none',
+        "eventImgTall" : 'img/event-images/' + 'cal-soul-practitioners-at-necto-nightclub-ann-arbor.jpeg',
+        "eventImgWide" : 'img/event-images/' + 'cal-soul-practitioners-at-necto-nightclub-ann-arbor.jpeg',
+        "eventWklOvrd" : true,
+        "eventDay"     : 0, // Do not modify
+        "pastEvent"    : false // Do not modify
+    },
+    {
+        "eventDate"    : new Date("Nov 28, 2016 21:00:00"),
+        "eventName"    : "Factory Fall Formal 2016",
+        "eventArtist"  : "Factory Fall Formal",
+
+        "eventDesc"    : 'Factory, it&#39;s that special time of year when we dress our best and party to the music. Free admission if you wear formal attire, and free photos by a pro with your friends. Sounds provided by: DJ Void6, DJ Skellie, Jaysen Craves, DJ Madisi, and host MC Yoda. Visuals by Remnant.',
+
+        "eventDescLong": 'Factory, it&#39;s that special time of year when we dress our best and party to the music. Free admission if you wear formal attire, and free photos by a pro with your friends. Sounds provided by: DJ Void6, DJ Skellie, Jaysen Craves, DJ Madisi, and host MC Yoda. Visuals by Remnant.',
+
+        "eventCover"   : '$1 cover before 10PM, $3 after.',
+        "eventLink"    : 'special-events/' + 'fall-formal-2016-at-necto-nightclub-ann-arbor-michigan-nov-28th-2016.html',
+        "eventSocial"  : 'https://www.facebook.com/events/1527288940620781/',
+        "eventTix"     : 'none',
+        "eventImgTall" : 'img/event-images/' + 'cal-fall-formal-2016-at-necto-nightclub-ann-arbor.jpg',
+        "eventImgWide" : 'img/event-images/' + 'cal-fall-formal-2016-at-necto-nightclub-ann-arbor.jpg',
+        "eventWklOvrd" : true,
+        "eventDay"     : 0, // Do not modify
+        "pastEvent"    : false // Do not modify
+    },
+    {
+        "eventDate"    : new Date("Nov 19, 2016 21:00:00"),
+        "eventName"    : "Unfolded",
+        "eventArtist"  : "Unfolded",
+
+        "eventDesc"    : 'Unfold your mind, body and spirit with two artists that are pushing the boundaries of house music.',
+
+        "eventDescLong": 'Unfold your mind, body and spirit with two artists that are pushing the boundaries of house music.',
+
+        "eventCover"   : '$5 presale. At doors $5 for 21+ | $10 for 18-20',
+        "eventLink"    : 'special-events/' + 'unfolded-at-necto-nightclub-ann-arbor-michigan-nov-19th-2016.html',
+        "eventSocial"  : 'https://www.facebook.com/events/1467037769979873/',
+        "eventTix"     : 'https://www.eventbrite.com/e/unfolded-tickets-28922587237',
+        "eventImgTall" : 'img/event-images/' + 'cal-unfolded-clozee-and-psymbionic-at-necto-night-club-ann-arbor.jpg',
+        "eventImgWide" : 'img/event-images/' + 'cal-unfolded-clozee-and-psymbionic-at-necto-night-club-ann-arbor.jpg',
+        "eventWklOvrd" : true,
+        "eventDay"     : 0, // Do not modify
+        "pastEvent"    : false // Do not modify
+    },
+    {
+        "eventDate"    : new Date("Nov 14, 2016 17:30:00"),
+        "eventName"    : "Underground Yoga - Deep House Vinyasa",
+        "eventArtist"  : "Underground Yoga",
+
+        "eventDesc"    : 'Welcome to the November class at Necto Nightclub, featuring a mixed level vinyasa-flow led by Carol Ann, and soothing, upbeat vibrations courtesy of Adam Westing. Necto&#39;s production will be fully utilized to immerse each yogi in a wave of light and sound on the main dance floor. This comfortable atmosphere is accepting of all skill levels. Mats are available for rent for only $2.',
+
+        "eventDescLong": 'Welcome to the November class at Necto Nightclub, featuring a mixed level vinyasa-flow led by Carol Ann, and soothing, upbeat vibrations courtesy of Adam Westing. Necto&#39;s production will be fully utilized to immerse each yogi in a wave of light and sound on the main dance floor. This comfortable atmosphere is accepting of all skill levels. Mats are available for rent for only $2.',
+
+        "eventCover"   : '$15 presale / $20 DOS',
+        "eventLink"    : 'special-events/' + 'underground-yoga-deep-house-vinyasa-at-necto-nightclub-ann-arbor-michigan-nov-14th-2016.html',
+        "eventSocial"  : 'https://www.facebook.com/events/1268772179847047/',
+        "eventTix"     : 'http://bit.ly/UYNecto1114',
+        "eventImgTall" : 'img/event-images/' + 'cal-deep-house-vinyasa-at-necto-night-club-ann-arbor.jpg',
+        "eventImgWide" : 'img/event-images/' + 'cal-deep-house-vinyasa-at-necto-night-club-ann-arbor.jpg',
+        "eventWklOvrd" : true,
+        "eventDay"     : 0, // Do not modify
+        "pastEvent"    : false // Do not modify
+    },
 ];
 
 
@@ -573,7 +861,7 @@ function populateCalPageEvents() {
     // Builds the array of Weekly Events that will later have the upcoming events pushed into it.
     // Setting the condition number (i <= 10) will change how many weekly events are added
     // to the cal. Special events will still display if they occur after this cut off.
-    for (i = 0; i <= 30; i++) {
+    for (i = 0; i <= 60; i++) {
 
         var calEndDate = new Date();
         var weeklyCalEntry = calEndDate.setDate(calEndDate.getDate() + i);

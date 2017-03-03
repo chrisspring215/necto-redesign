@@ -2037,25 +2037,26 @@ footer a:hover {
   color: #eee;
   margin-top: 0;
   margin-bottom: 0;
+  font-variant: small-caps;
 }
 
-/* line 11, /Users/cacollins/Documents/necto-redesign/scss/_special-events.scss */
+/* line 12, /Users/cacollins/Documents/necto-redesign/scss/_special-events.scss */
 .special-event-img {
   border: 1px solid #333;
   margin-top: -.5em;
 }
 
-/* line 17, /Users/cacollins/Documents/necto-redesign/scss/_special-events.scss */
+/* line 18, /Users/cacollins/Documents/necto-redesign/scss/_special-events.scss */
 .special-event-desc {
   color: #eee;
 }
 
-/* line 21, /Users/cacollins/Documents/necto-redesign/scss/_special-events.scss */
+/* line 22, /Users/cacollins/Documents/necto-redesign/scss/_special-events.scss */
 .special-event-cover {
   color: #eee;
 }
 
-/* line 25, /Users/cacollins/Documents/necto-redesign/scss/_special-events.scss */
+/* line 26, /Users/cacollins/Documents/necto-redesign/scss/_special-events.scss */
 #specialEventPageContent h3 {
   color: #ED1968;
   line-height: 1em;
@@ -2063,19 +2064,19 @@ footer a:hover {
   font-weight: 500;
 }
 
-/* line 32, /Users/cacollins/Documents/necto-redesign/scss/_special-events.scss */
+/* line 33, /Users/cacollins/Documents/necto-redesign/scss/_special-events.scss */
 #specialEventPageContent {
   margin-top: 2em;
   margin-bottom: 3em;
 }
 
-/* line 37, /Users/cacollins/Documents/necto-redesign/scss/_special-events.scss */
+/* line 38, /Users/cacollins/Documents/necto-redesign/scss/_special-events.scss */
 #specialEventPageContent .event-nav {
   text-align: center;
   margin-bottom: 1em;
 }
 
-/* line 42, /Users/cacollins/Documents/necto-redesign/scss/_special-events.scss */
+/* line 43, /Users/cacollins/Documents/necto-redesign/scss/_special-events.scss */
 #specialEventPageContent .event-nav a {
   color: #ffe928;
   font-size: 1em;
@@ -2086,20 +2087,20 @@ footer a:hover {
   transition: background 200ms;
 }
 
-/* line 52, /Users/cacollins/Documents/necto-redesign/scss/_special-events.scss */
+/* line 53, /Users/cacollins/Documents/necto-redesign/scss/_special-events.scss */
 #specialEventPageContent .event-nav a:nth-child(1) {
   border-right: 2px solid #3BDDFF;
   border-top-left-radius: .1em;
   border-bottom-left-radius: .1em;
 }
 
-/* line 58, /Users/cacollins/Documents/necto-redesign/scss/_special-events.scss */
+/* line 59, /Users/cacollins/Documents/necto-redesign/scss/_special-events.scss */
 #specialEventPageContent .event-nav a:nth-child(2) {
   border-right: 2px solid #3BDDFF;
   border-left: 2px solid #3BDDFF;
 }
 
-/* line 64, /Users/cacollins/Documents/necto-redesign/scss/_special-events.scss */
+/* line 65, /Users/cacollins/Documents/necto-redesign/scss/_special-events.scss */
 #specialEventPageContent .event-nav a:nth-last-child(1) {
   border-left: 2px solid #3BDDFF;
   border-right: 3px solid #3BDDFF;
@@ -2107,7 +2108,7 @@ footer a:hover {
   border-bottom-right-radius: .2em;
 }
 
-/* line 71, /Users/cacollins/Documents/necto-redesign/scss/_special-events.scss */
+/* line 72, /Users/cacollins/Documents/necto-redesign/scss/_special-events.scss */
 #specialEventPageContent .event-nav a:hover {
   padding: .5em 0;
   background: #ED1968;

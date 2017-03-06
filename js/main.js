@@ -723,6 +723,186 @@ var events = [
         "eventDay"     : 0, // Do not modify
         "pastEvent"    : false // Do not modify
     },
+    {
+        "eventDate"    : new Date("Nov 11, 2016 21:00:00"),
+        "eventName"    : "Necto Pride presents... WILLAM : Suck Less-Where There's a Willam There's a Way Book Tour",
+        "eventArtist"  : "Willam",
+        "eventDescLong": 'Join Willam from RuPaul’s Drag Race S4 & AAA Girls on their highly anticipated book tour. Foreworded by Neil Patrick Harris, Willam’s book is already the #1 pre-release in self help humor on Amazon. "SUCK LESS: Where There’s a Willam ThereÆs a Way!" More info to come for the VIP book tour meet & greet.',
+
+        "eventCover"   : 'N/A',
+        "eventLink"    : 'special-events/' + 'willam-at-necto-nightclub-ann-arbor-michigan-nov-11th-2016.html',
+        "eventSocial"  : 'https://www.facebook.com/events/1675681442747391/',
+        "eventTix"     : 'none',
+        "eventImgWide" : 'img/event-images/' + 'cal-willam-at-necto-night-club-ann-arbor.jpg',
+        //"eventWklOvrd" : true,
+        "eventDay"     : 0, // Do not modify
+        "pastEvent"    : false // Do not modify
+    },
+    {
+        "eventDate"    : new Date("Nov 11, 2016 19:00:00"),
+        "eventName"    : "WILLAM: VIP Meet & Greet",
+        "eventArtist"  : "Willam",
+        "eventDescLong": 'Willam’s highly anticipated book, foreworded by Neil Patrick Harris, is already the #1 pre-release in self-help humor on Amazon. $qout;SUCK LESS: Where There’s a WIllam There’s a Way!$qout; will be included in VIP Meet & Greet ticket. This exclusive meet & greet will be held at 7pm. VIP Meet & Greet also includes a book signing, and professional photographer to take your pictures. Photos will be available for download. All ages will be welcome for this Meet & Greet.',
+        "eventCover"   : 'N/A',
+        "eventLink"    : 'special-events/' + 'willam-book-signing-at-necto-nightclub-ann-arbor-michigan-nov-11th-2016.html',
+        "eventSocial"  : 'https://www.facebook.com/events/1675681442747391/',
+        "eventTix"     : 'none',
+
+        "eventImgWide" : 'img/event-images/' + 'cal-willam-at-necto-night-club-ann-arbor.jpg',
+        //"eventWklOvrd" : true,
+        "eventDay"     : 0, // Do not modify
+        "pastEvent"    : false // Do not modify
+    },
+    {
+        "eventDate"    : new Date("Nov 10, 2016 21:00:00"),
+        "eventName"    : "Klingande",
+        "eventArtist"  : "Klingande",
+        "eventDescLong": '2016 is already on course to be Klingande’s aka Cedric Steinmyller’s most prolific year to date. With the release of ‘Losing U’, the promise of an upcoming album, as well as a live tour in the works that will see him bringing out musicians playing the guitar, violin, harmonica, drums, saxophone and even singers, Klingande shows absolutely no signs of putting on the brakes, making sure that he remains the one to watch.',
+        "eventCover"   : 'N/A',
+        "eventLink"    : 'special-events/' + 'klingande-at-necto-nightclub-ann-arbor-michigan-nov-10th-2016.html',
+        "eventSocial"  : 'https://www.facebook.com/events/194317207644560/',
+        "eventTix"     : 'none',
+
+        "eventImgWide" : 'img/event-images/' + 'cal-klingande-at-necto-night-club-ann-arbor.jpg',
+        //"eventWklOvrd" : true,
+        "eventDay"     : 0, // Do not modify
+        "pastEvent"    : false // Do not modify
+    },
+    {
+        "eventDate"    : new Date("Nov 9, 2016 21:00:00"),
+        "eventName"    : "LEMAITRE",
+        "eventArtist"  : "LEMAITRE",
+        "eventDescLong": 'Lemaitre is an electronic duo hailing from Oslo, Norway. Formed in 2010 by longtime friends Ketil Jansen and Ulrik Denizou Lund, the bandmembers named themselves after Belgian priest Georges Lemaître, father of the big bang theory. It’s an appropriate reference for their sound, which ranges from electro house to catchy pop grooves that fall somewhere between Daft Punk and Phoenix.',
+        "eventCover"   : 'N/A',
+        "eventLink"    : 'special-events/' + 'lemaitre-at-necto-nightclub-ann-arbor-michigan-nov-9th-2016.html',
+        "eventSocial"  : 'https://www.facebook.com/events/1254743334545390/',
+        "eventTix"     : 'none',
+
+        "eventImgWide" : 'img/event-images/' + 'cal-lemaitre-at-necto-nightclub-ann-arbor.jpg',
+        //"eventWklOvrd" : true,
+        "eventDay"     : 0, // Do not modify
+        "pastEvent"    : false // Do not modify
+    },
+    {
+        "eventDate"    : new Date("Oct 31, 2016 21:00:00"),
+        "eventName"    : "Factory presents... Bring Out Your Dead: Halloween 2016!",
+        "eventArtist"  : "Bring Out Your Dead: Halloween 2016!",
+        "eventDescLong": 'Join the Factory Family for our favorite party of the year... HALLOWEEN! Join Void 6 in the Main Room & DJ Madisi in the Red Room for the best Halloween Party in Southeast Michigan! Get here early to enjoy the festivities. Please note: No metal or hard plastic, toys or faux weapons are permitted.',
+        "eventCover"   : 'N/A',
+        "eventLink"    : 'special-events/' + 'bring-out-your-dead-halloween-2016-at-necto-nightclub-ann-arbor-michigan-oct-31st-2016.html',
+        "eventSocial"  : 'https://www.facebook.com/events/309422669423208/',
+        "eventTix"     : 'none',
+
+        "eventImgWide" : 'img/event-images/' + 'cal-bring-out-your-dead-halloween-2016-at-necto-nightclub-ann-arbor.jpg',
+        //"eventWklOvrd" : true,
+        "eventDay"     : 0, // Do not modify
+        "pastEvent"    : false // Do not modify
+    },
+    {
+        "eventDate"    : new Date("Oct 30, 2016 20:00:00"),
+        "eventName"    : "Feed Me's Family Reunion : Devil's Night",
+        "eventArtist"  : "Feed Me",
+        "eventDescLong": 'Jon Gooch is a electro producer under the alias of ’Feed Me’, He is also known as ’Spor’. Under his Spor alias he mostly produces drum and bass, while under his Feed Me alias he creates music in all different kinds of genres, ranging from Dubstep to Trap.',
+        "eventCover"   : 'N/A',
+        "eventLink"    : 'special-events/' + 'feed-me-family-reunion-devils-night-at-necto-nightclub-ann-arbor-michigan-oct-30th-2016.html',
+        "eventSocial"  : 'https://www.facebook.com/events/198556387246509/',
+        "eventTix"     : 'none',
+
+        "eventImgWide" : 'img/event-images/' + 'cal-feed-me-at-necto-night-club-ann-arbor.jpg',
+        //"eventWklOvrd" : true,
+        "eventDay"     : 0, // Do not modify
+        "pastEvent"    : false // Do not modify
+    },
+    {
+        "eventDate"    : new Date("Oct 29, 2016 21:00:00"),
+        "eventName"    : "Frequency presents... Halloween Bash 2016!",
+        "eventArtist"  : "Frequency presents... Halloween Bash 2016!",
+        "eventDescLong": 'Join Necto for our annual Freak-quency Halloween Bash! Get here early for the festivities with DJ Hardy & MC Yoda. Please note: No metal or hard plastic, toys or faux weapons are permitted.',
+        "eventCover"   : 'N/A',
+        "eventLink"    : 'special-events/' + 'halloween-bash-2016-at-necto-nightclub-ann-arbor-michigan-oct-29th-2016.html',
+        "eventSocial"  : 'https://www.facebook.com/events/194207361000676/',
+        "eventTix"     : 'none',
+
+        "eventImgWide" : 'img/event-images/' + 'cal-halloween-bash-2016-at-necto-nightclub-ann-arbor.jpg',
+        //"eventWklOvrd" : true,
+        "eventDay"     : 0, // Do not modify
+        "pastEvent"    : false // Do not modify
+    },
+    {
+        "eventDate"    : new Date("Oct 28, 2016 21:00:00"),
+        "eventName"    : "Pride presents... Haunted Halloween Party!",
+        "eventArtist"  : "Pride presents... Haunted Halloween Party!",
+        "eventDescLong": 'Join us at Pride for our annual Halloween Costume Party! It’s one of the most popular Pride events of the year. Get here early for the festivities. Costume contest with cash prizes at midnight. Hosted by Chanel Hunter &amp; Jadein Black. Please note: No metal or hard plastic, toys or faux weapons are permitted.',
+        "eventCover"   : 'N/A',
+        "eventLink"    : 'special-events/' + 'haunted-halloween-party-at-necto-nightclub-ann-arbor-michigan-oct-28th-2016.html',
+        "eventSocial"  : 'https://www.facebook.com/events/669563153206248/',
+        "eventTix"     : 'none',
+
+        "eventImgWide" : 'img/event-images/' + 'cal-haunted-halloween-party-at-necto-nightclub-ann-arbor.jpg',
+        //"eventWklOvrd" : true,
+        "eventDay"     : 0, // Do not modify
+        "pastEvent"    : false // Do not modify
+    },
+    {
+        "eventDate"    : new Date("Oct 27, 2016 21:00:00"),
+        "eventName"    : "IDK Y Not Events presents... FUN HOUSE: Halloween Thrills & Chills",
+        "eventArtist"  : "IDK Y Not Events presents... FUN HOUSE: Halloween Thrills & Chills",
+        "eventDescLong": 'Come One... Come All! Join us at the Fun House for an Amazing Halloween Party! Don’t be afraid! The Ring Master will show you the way to Fantastic Thrills & Chills! COSTUME CONTEST AT MIDNIGHT! CASH PRIZE $500.00<br>Featuring... Acro, Aerialists Burlesque, Contortionists, Fire, Hula Hoopers, Illusionsists, Lyra, Music</br>Starring in alphabetical order... Ani Briated, Annie Thinge, Ayinde Audio, Cinna Moan, Daisy Dupree, Emily LeMieux, Fitch, Gala Delridge Delicious, Jadein Black, Jadey Bug, Lilly Rascal, Lis Chere Thomas, Taylor Aquino, The Amazing K, Thrustin’ Bieber Black, Violet Defiant, Ziva Lynn',
+        "eventCover"   : 'N/A',
+        "eventLink"    : 'special-events/' + 'fun-house-halloween-thrills-chills-at-necto-nightclub-ann-arbor-michigan-oct-27th-2016.html',
+        "eventSocial"  : 'https://www.facebook.com/events/1768483113364835/',
+        "eventTix"     : 'none',
+
+        "eventImgWide" : 'img/event-images/' + 'cal-funhouse-at-necto-nightclub-ann-arbor-michigan.jpg',
+        //"eventWklOvrd" : true,
+        "eventDay"     : 0, // Do not modify
+        "pastEvent"    : false // Do not modify
+    },
+    {
+        "eventDate"    : new Date("Oct 26, 2016 21:00:00"),
+        "eventName"    : "Elephante with direct support: Ben Phipps",
+        "eventArtist"  : "Elephante with Ben Phipps",
+        "eventDescLong": 'Elephante aka Tim Wu was born in Ann Arbor, Michigan. He was classically trained in piano at the age of 8 and is a self-taught guitarist. After graduating from Huron High School in 2007, he went on to attend Harvard University.</br>Elephante started his music career as a singer-songwriter and guitarist, recording an acoustic EP before falling in love with electronic music. His first official release was a remix of Illenium - "Escape", out on June 12th on Prep School Records. Since then he has created a string of high-profile mixes for artists like: Dirty South, Galantis, Oliver Heldens, and more.',
+        "eventCover"   : 'N/A',
+        "eventLink"    : 'special-events/' + 'elephante-ben-phipps-at-necto-nightclub-ann-arbor-michigan-oct-26th-2016.html',
+        "eventSocial"  : '404.html',
+        "eventTix"     : 'none',
+
+        "eventImgWide" : 'img/event-images/' + 'elephante-ben-phipps-cal-at-necto-nightclub-ann-arbor.jpg',
+        //"eventWklOvrd" : true,
+        "eventDay"     : 0, // Do not modify
+        "pastEvent"    : false // Do not modify
+    },
+    {
+        "eventDate"    : new Date("Oct 20, 2016 22:00:00"),
+        "eventName"    : "Throwback Thursday",
+        "eventArtist"  : "Throwback Thursday",
+        "eventDescLong": 'All Your Favorite Music from the 80s, 90s & early 00s<br>FREE for 21+ | $10 for 18-20<br>DJ Ayinde Audio<br>Totally Awesome Drink Specials:<br>$3.50 Well drinks<br>$2.50 Fireball shots<br>3 for $10 Jaeger Bombs<br>$2 Miller Lite Bottles',
+        "eventCover"   : 'N/A',
+        "eventLink"    : 'special-events/' + 'throwback-thursday-at-necto-nightclub-ann-arbor-michigan-oct-20th-2016.html',
+        "eventSocial"  : 'https://www.facebook.com/events/1808192052730572/',
+        "eventTix"     : 'none',
+
+        "eventImgWide" : 'img/event-images/' + 'cal-throwback-thursday-at-necto-night-club-ann-arbor.jpg',
+        //"eventWklOvrd" : true,
+        "eventDay"     : 0, // Do not modify
+        "pastEvent"    : false // Do not modify
+    },
+    {
+        "eventDate"    : new Date("Oct 13, 2016 20:00:00"),
+        "eventName"    : "The Kinsey Sicks: Electile Disfunction",
+        "eventArtist"  : "The Kinsey Sicks",
+        "eventDescLong": 'It’s time to have some fun! Join Americas Favorite Dragapella Beautyshop Quartet... The Kinsey Sicks! Performing their hilarious show... Electile Disfunction. It’s just in time to throw some shade on this year’s Presidential election. All door profits will go to Jim Toy Community Center & other local LGBTQ groups in Washtenaw County. Check out the Kinsey Sicks as seen on CNN. Doors open at 7pm. Show is at 8pm. After Party begins at 9:30pm',
+        "eventCover"   : 'N/A',
+        "eventLink"    : 'special-events/' + 'kinsey-sicks-electile-disfunction-at-necto-nightclub-ann-arbor-michigan-oct-13th-2016.html',
+        "eventSocial"  : 'https://www.facebook.com/events/176492989455246/',
+        "eventTix"     : 'none',
+
+        "eventImgWide" : 'img/event-images/' + 'cal-kinsey-sicks-at-necto-nightclub-ann-arbor.jpg',
+        //"eventWklOvrd" : true,
+        "eventDay"     : 0, // Do not modify
+        "pastEvent"    : false // Do not modify
+    },
 ];
 
 

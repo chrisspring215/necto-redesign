@@ -896,24 +896,29 @@ html {
 
 /* Brand colours from simpleicons.org */
 /* IN USE */
-/* line 10, /Users/cacollins/Documents/necto-redesign/scss/_social-colors.scss */
+/* line 11, /Users/cacollins/Documents/necto-redesign/scss/_social-colors.scss */
 .facebook-link {
   fill: #3B5998;
 }
 
-/* line 15, /Users/cacollins/Documents/necto-redesign/scss/_social-colors.scss */
+/* line 16, /Users/cacollins/Documents/necto-redesign/scss/_social-colors.scss */
 .twitter-link {
   fill: #1DA1F2;
 }
 
-/* line 20, /Users/cacollins/Documents/necto-redesign/scss/_social-colors.scss */
+/* line 21, /Users/cacollins/Documents/necto-redesign/scss/_social-colors.scss */
 .youtube-link {
   fill: #CD201F;
 }
 
-/* line 25, /Users/cacollins/Documents/necto-redesign/scss/_social-colors.scss */
+/* line 26, /Users/cacollins/Documents/necto-redesign/scss/_social-colors.scss */
 .instagram-link {
   fill: #E4405F;
+}
+
+/* line 31, /Users/cacollins/Documents/necto-redesign/scss/_social-colors.scss */
+.snapchat-link {
+  fill: #FFFC00;
 }
 
 /* NOT IN USE */
@@ -1125,7 +1130,7 @@ $color-brand-slack:               #56B68B;
 $color-brand-slashdot:            #026664;
 $color-brand-slides:              #E4637C;
 $color-brand-smashingmagazine:    #E85C33;
-$color-brand-snapchat:            #FFFC00;
+
 $color-brand-songkick:            #F80046;
 $color-brand-soundcloud:          #FF3300;
 $color-brand-speakerdeck:         #339966;

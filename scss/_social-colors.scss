@@ -6,6 +6,7 @@ $color-brand-facebook:            #3B5998;
 $color-brand-twitter:             #1DA1F2;
 $color-brand-youtube:             #CD201F;
 $color-brand-instagram:           #E4405F;
+$color-brand-snapchat:            #FFFC00;
 
 .facebook-link
 {
@@ -25,6 +26,11 @@ $color-brand-instagram:           #E4405F;
 .instagram-link
 {
 	fill: $color-brand-instagram;
+}
+
+.snapchat-link
+{
+	fill: $color-brand-snapchat;
 }
 
 /* NOT IN USE */
@@ -236,7 +242,7 @@ $color-brand-slack:               #56B68B;
 $color-brand-slashdot:            #026664;
 $color-brand-slides:              #E4637C;
 $color-brand-smashingmagazine:    #E85C33;
-$color-brand-snapchat:            #FFFC00;
+
 $color-brand-songkick:            #F80046;
 $color-brand-soundcloud:          #FF3300;
 $color-brand-speakerdeck:         #339966;

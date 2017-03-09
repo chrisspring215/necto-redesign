@@ -23,6 +23,40 @@ var pastEvents = [];
 // Sets a var for an empty array to be populated with weekly events n-th days in the future
 var calWeeklyEventsList = [];
 
+// Master list of club videos posted on Youtube
+var videosMon = [
+    "https://www.youtube.com/embed/4VOIXPOnfSM?ecver=1",
+];
+
+var videosThurs = [
+    "https://www.youtube.com/embed/4VOIXPOnfSM?ecver=1",
+    "https://www.youtube.com/embed/X8rlzGmn39I?ecver=1",
+    "https://www.youtube.com/embed/pAl8vVPh6a8?ecver=1",
+];
+
+var videosFri = [
+    "https://www.youtube.com/embed/4VOIXPOnfSM?ecver=1",
+];
+
+var videosSat = [
+    "https://www.youtube.com/embed/4VOIXPOnfSM?ecver=1",
+];
+
+// Populates videos on the Weekly event pages
+function populateWeeklyVideo(day) {
+        
+    var numOfVideos;
+    var videoPool;
+
+    /* mon */ if (day === 1) { numOfVideos = videosMon.length; videoPool = videosMon; };
+    /* thr */ if (day === 4) { numOfVideos = videosThurs.length; videoPool = videosThurs; };
+    /* fri */ if (day === 5) { numOfVideos = videosFri.length; videoPool = videosFri; };
+    /* sat */ if (day === 6) { numOfVideos = videosSat.length; videoPool = videosSat; };
+
+    document.getElementById('weekly-video-container').innerHTML = '<iframe width="611" height="344" src="' + videoPool[Math.floor(Math.random() * numOfVideos)] + '" frameborder="0" allowfullscreen></iframe>'
+}
+
+
 // The master list of all special past and present events
 // TODO: Add meta data tags for the indivual event pages
 var events = [
@@ -904,18 +938,6 @@ var events = [
         "pastEvent"    : false // Do not modify
     },
 ];
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 // The basic Weekly Events

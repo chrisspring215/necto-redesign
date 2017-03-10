@@ -931,8 +931,147 @@ var events = [
         "eventLink"    : 'special-events/' + 'kinsey-sicks-electile-disfunction-at-necto-nightclub-ann-arbor-michigan-oct-13th-2016.html',
         "eventSocial"  : 'https://www.facebook.com/events/176492989455246/',
         "eventTix"     : 'none',
-
         "eventImgWide" : 'img/event-images/' + 'cal-kinsey-sicks-at-necto-nightclub-ann-arbor.jpg',
+        //"eventWklOvrd" : true,
+        "eventDay"     : 0, // Do not modify
+        "pastEvent"    : false // Do not modify
+    },
+    {
+        "eventDate"    : new Date("Oct 7, 2016 20:00:00"),
+        "eventName"    : "Necto Pride presents... KIM CHI runner up of RuPaul's Drag Race S8",
+        "eventArtist"  : "Kim Chi",
+        "eventDescLong": '"My name is Kim Chi, and say hello to yellow!" After Kim Chi’s last visit, we had a lot of requests to bring her back. Come hang out with our gorgeous 7’ tall chameleon & friend. Let’s get cocktailed & have some fun!',
+        "eventCover"   : 'N/A',
+        "eventLink"    : 'special-events/' + 'kim-chi-at-necto-nightclub-ann-arbor-michigan-oct-7th-2016.html',
+        "eventSocial"  : 'https://www.facebook.com/events/172838683151828/',
+        "eventTix"     : 'none',
+        "eventImgWide" : 'img/event-images/' + 'cal-kim-chi-2017-at-necto-nightclub-ann-arbor.jpg',
+        //"eventWklOvrd" : true,
+        "eventDay"     : 0, // Do not modify
+        "pastEvent"    : false // Do not modify
+    },
+    {
+        "eventDate"    : new Date("Oct 6, 2016 20:00:00"),
+        "eventName"    : "Country Club Disco presents... GOLF CLAP & Friends",
+        "eventArtist"  : "Golf Clap",
+        "eventDescLong": 'No better way to throw a proper party than with GOLF CLAP & Friends! Country Club Disco presents... Golf Clap with opening sets by the Ghita Sisters & Brahj. DJs; producers; club headliners; after-party enthusiasts: Golf Clap are Hugh Cleal and Bryan Jones, a Detroit duo with an unmatched passion for house music and a seemingly endless supply of studio and club-focussed creativity. And with releases on some of the world’s most influential house labels already under their belts, along with a lauded Boiler Room session and beyond, they’re only just getting started. Produced by Necto & Southpaw Events',
+        "eventCover"   : 'N/A',
+        "eventLink"    : 'special-events/' + 'golf-clap-at-necto-nightclub-ann-arbor-michigan-oct-6th-2016.html',
+        "eventSocial"  : 'https://www.facebook.com/events/317680438623928/',
+        "eventTix"     : 'none',
+        "eventImgWide" : 'img/event-images/' + 'cal-golf-clap-oct-6-2016-at-necto-nightclub-ann-arbor.jpg',
+        //"eventWklOvrd" : true,
+        "eventDay"     : 0, // Do not modify
+        "pastEvent"    : false // Do not modify
+    },
+    {
+        "eventDate"    : new Date("Oct 6, 2016 18:00:00"),
+        "eventName"    : "Underground Yoga - Downtempo Flow",
+        "eventArtist"  : "Underground Yoga",
+        "eventDescLong": 'Welcome to the first Underground Yoga - Downtempo Flow ever! This class features a mixed-level slow burn combined with relaxing, rhythmic beats to allow for a deeper connection with the breath. Carol Ann Manown will be guiding us through class, while Avyu mans the decks. Yogis will be swathed in a wave of sound and light for an inviting atmosphere throughout the practice. Mat rentals are available for only $2.',
+        "eventCover"   : 'N/A',
+        "eventLink"    : 'special-events/' + 'undergound-yoga-downtempo-flow-necto-nightclub-ann-arbor-michigan-sept-10th-2016.html',
+        "eventSocial"  : 'https://www.facebook.com/events/533650736842470/',
+        "eventTix"     : 'none',
+        "eventImgWide" : 'img/event-images/' + 'cal-underground-yoga-downtemop-flow-at-necto-nightclub-ann-arbor-michigan.jpg',
+        //"eventWklOvrd" : true,
+        "eventDay"     : 0, // Do not modify
+        "pastEvent"    : false // Do not modify
+    },
+    {
+        "eventDate"    : new Date("Sep 29, 2016 20:00:00"),
+        "eventName"    : "Christian Martin: Dirtybird Hit & Run Show",
+        "eventArtist"  : "Christian Martin",
+        "eventDescLong": 'Christian Martin has been exploring electronic music from one end of the earth to the other; from full-moon parties in the deserts of California to the thumping, dark corners of the London club scene. Christian followed his love for spleen-rattling bass to San Francisco, where he met up with the now legendary dirtybird crew. The dirtybird BBQ was the brainchild of the four original members – Christian & his brother Justin Martin, and friends Claude VonStroke and Worthy. They had a personal mission to change the landscape of San Francisco house music by throwing an epic free party in the park, based on their new signature sound.',
+        "eventCover"   : 'N/A',
+        "eventLink"    : 'special-events/' + 'christian-martin-at-necto-nightclub-ann-arbor-michigan-sept-29th-2016.html',
+        "eventSocial"  : 'https://www.facebook.com/events/604867786353472/',
+        "eventTix"     : 'none',
+        "eventImgWide" : 'img/event-images/' + 'cal-christian-martin-at-necto-nightclub-ann-arbor.jpg',
+        //"eventWklOvrd" : true,
+        "eventDay"     : 0, // Do not modify
+        "pastEvent"    : false // Do not modify
+    },
+    {
+        "eventDate"    : new Date("Sep 28, 2016 20:00:00"),
+        "eventName"    : "TRITONAL",
+        "eventArtist"  : "TRITONAL",
+        "eventDescLong": 'Watch a live performance by TRITONAL and you’ll understand the hype. The American production and DJ duo of Chad Cisneros and Dave Reed have firmly situated themselves as one of the most electrifying acts in the international EDM scene. Their zest for life and music is apparent to anyone who’s witnessed them in person or through their speakers and is just one reason why they resonate intensely with their loyal followers, "Tritonians."',
+        "eventCover"   : 'N/A',
+        "eventLink"    : 'special-events/' + 'tritonal-at-necto-nightclub-ann-arbor-michigan-sep-28th-2016.html',
+        "eventSocial"  : 'https://www.facebook.com/events/1731098520471774/',
+        "eventTix"     : 'none',
+        "eventImgWide" : 'img/event-images/' + 'cal-tritonal-at-the-club-at-necto-nightclub-ann-arbor.jpg',
+        //"eventWklOvrd" : true,
+        "eventDay"     : 0, // Do not modify
+        "pastEvent"    : false // Do not modify
+    },
+    {
+        "eventDate"    : new Date("Sep 22, 2016 20:00:00"),
+        "eventName"    : "MATOMA : Party at Your Place! Tour /w Cheat Codes + Steve Void & Bank",
+        "eventArtist"  : "MATOMA",
+        "eventDescLong": 'Norway‘s Tom Stræte Lagergren (aka Matoma) is a DJ and producer known for his dance-oriented, tropical house music. By 2014, Matoma had started to gain international recognition for his remixes, including cuts for Jessie J, Akon, Enrique Iglesias, and others. In 2015, he scored a hit in Europe with a remix of Notorious B.I.G.‘s “Old Thing Back.” Also in 2015, Lagergren released his own debut single as Matoma, "Feeling Right (Everything Is Nice)," featuring rapper Wale and Jamaican dancehall singer Popcaan.',
+        "eventCover"   : 'N/A',
+        "eventLink"    : 'special-events/' + 'matoma-party-at-your-place-tour-at-necto-nightclub-ann-arbor-michigan-sept-22nd-2016.html',
+        "eventSocial"  : 'https://www.facebook.com/events/1743733792544393/',
+        "eventTix"     : 'none',
+        "eventImgWide" : 'img/event-images/' + 'cal-matoma-party-at-necto-nightclub-ann-arbor.jpg',
+        //"eventWklOvrd" : true,
+        "eventDay"     : 0, // Do not modify
+        "pastEvent"    : false // Do not modify
+    },
+    {
+        "eventDate"    : new Date("Sep 20, 2016 20:00:00"),
+        "eventName"    : "BAKERMAT x SAM FELDT",
+        "eventArtist"  : "BAKERMAT x SAM FELDT",
+        "eventDescLong": 'Sam Feldt: While only in his early twenties, Dutchman Sam Feldt has become quite the deep house tastemaker of his day. With amazing remix work as well as solid hits like the 2015 release ’Show Me Love’, which proved to be his definite claim to fame, he’s one of the DJs to watch when it comes to new sound flooding the scene.<br>Bakermat: Bakermat is one of the biggest rising stars of the last 6 months. With his new sound he immediately captured the hearts of a wide audience. His breakthrough was his production called ‘Zomer’ with 2 million views on YouTube he laid the foundation for his popularity and nowadays he’s well-known for his instrumental deephouse sound.',
+        "eventCover"   : 'N/A',
+        "eventLink"    : 'special-events/' + 'sam-feldt-bakerman-at-necto-nightclub-ann-arbor-michigan-sep-20th-2016.html',
+        "eventSocial"  : 'https://www.facebook.com/events/1033650563369677/',
+        "eventTix"     : 'none',
+        "eventImgWide" : 'img/event-images/' + 'cal-sam-feldt-bakerman-at-necto-nightclub-ann-arbor.jpg',
+        //"eventWklOvrd" : true,
+        "eventDay"     : 0, // Do not modify
+        "pastEvent"    : false // Do not modify
+    },
+    {
+        "eventDate"    : new Date("Sep 15, 2016 20:00:00"),
+        "eventName"    : "MEDMA presents... ARDALAN x medma",
+        "eventArtist"  : "ARDALAN",
+        "eventDescLong": 'Due to illness Stefano Noferini had to cancel his show this Thursday. No worries... Dirty Bird’s own ARDALAN will be here to make everything alright!',
+        "eventCover"   : 'N/A',
+        "eventLink"    : 'special-events/' + 'stefano-noferini-at-necto-nightclub-ann-arbor-michigan-sept-15th-2016.html',
+        "eventSocial"  : 'https://www.facebook.com/events/527579917366775/',
+        "eventTix"     : 'none',
+        "eventImgWide" : 'img/event-images/' + 'cal-stefano-noferini-medma-at-necto-night-club-ann-arbor.jpg',
+        //"eventWklOvrd" : true,
+        "eventDay"     : 0, // Do not modify
+        "pastEvent"    : false // Do not modify
+    },
+    {
+        "eventDate"    : new Date("Sep 13, 2016 20:00:00"),
+        "eventName"    : "GHASTLY",
+        "eventArtist"  : "GHASTLY",
+        "eventDescLong": 'Growing up on a goat farm in the desert of Arizona might not be considered the typical American upbringing for the next big DJ and producer, but then again Ghastly isn’t your typical American artist. Many have described the genre bending musician as a partially insane young man with a dark sense of humor. Politely abominable and casually destructive, he wields the catch phrase “born to die” as a mantra to his chaotic lifestyle. His sets have been heralded as “Energetic and eclectic live performances which are sometimes followed by odd speeches about the abnormalities of life, regretful sexual encounters, and well cooked food.” With such a diverse personality and rapport for his fans, it’s clear that Ghastly has one thing on his mind, and that’s to change the world.',
+        "eventCover"   : 'N/A',
+        "eventLink"    : 'special-events/' + 'gastly-at-necto-nightclub-ann-arbor-michigan-sep-13th-2016.html',
+        "eventSocial"  : 'https://www.facebook.com/events/1304934352869435/',
+        "eventTix"     : 'none',
+        "eventImgWide" : 'img/event-images/' + 'cal-ghastly-at-necto-nightclub-ann-arbor.jpg',
+        //"eventWklOvrd" : true,
+        "eventDay"     : 0, // Do not modify
+        "pastEvent"    : false // Do not modify
+    },
+    {
+        "eventDate"    : new Date("Sep 9, 2016 20:00:00"),
+        "eventName"    : "Necto Pride presents... THORGY THOR : The Boys Are Back!",
+        "eventArtist"  : "THORGY THOR",
+        "eventDescLong": 'Thorgy Thor is a NYC drag performance artist, event host and professional musician. Thor uses unconventional recording materials and music to create unique performances for theater, video, cabaret, and for nightlife entertainment. An explosive performer who loves to lip-sync just as much as create collaborative performance art that mashes together drag, music and comedy.',
+        "eventCover"   : 'N/A',
+        "eventLink"    : 'special-events/' + 'thorgy-thor-at-necto-nightclub-ann-arbor-michigan-sep-9th-2016.html',
+        "eventSocial"  : 'https://www.facebook.com/events/1878273615733485/',
+        "eventTix"     : 'none',
+        "eventImgWide" : 'img/event-images/' + 'cal-thorgy-thor-at-necto-nightclub-ann-arbor.jpg',
         //"eventWklOvrd" : true,
         "eventDay"     : 0, // Do not modify
         "pastEvent"    : false // Do not modify

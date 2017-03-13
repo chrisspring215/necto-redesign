@@ -1076,6 +1076,149 @@ var events = [
         "eventDay"     : 0, // Do not modify
         "pastEvent"    : false // Do not modify
     },
+    {
+        "eventDate"    : new Date("Sep 8, 2016 20:00:00"),
+        "eventName"    : "Southpaw Events presents... Underground Yoga : Deep House Vinyasa",
+        "eventArtist"  : "Underground Yoga",
+        "eventDescLong": 'Welcome to the Fall kick off class at Necto Nightclub, featuring a mixed level vinyasa-flow led by Jq Williams, and soothing, upbeat vibrations courtesy of Borbocious. Necto’s production will be fully utilized to immerse each yogi in a wave of light and sound on the main dancefloor. This comfortable atmosphere is accepting of all skill levels. Mats are available for rent. Sponsored by Lolë Ann Arbor Mat Rental - $2',
+        "eventCover"   : 'N/A',
+        "eventLink"    : 'special-events/' + 'underground-yoga-deep-house-vinyasa-at-necto-nightclub-ann-arbor-michigan-sep-8th-2016.html',
+        "eventSocial"  : 'https://www.facebook.com/events/274599362907045/',
+        "eventTix"     : 'none',
+        "eventImgWide" : 'img/event-images/' + 'cal-underground-yoga-at-necto-nightclub-ann-arbor.jpg',
+        //"eventWklOvrd" : true,
+        "eventDay"     : 0, // Do not modify
+        "pastEvent"    : false // Do not modify
+    },
+    {
+        "eventDate"    : new Date("Sep 5, 2016 20:00:00"),
+        "eventName"    : "Factory presents... Splatter Bash : UV Paint Party!",
+        "eventArtist"  : "Splatter Bash",
+        "eventDescLong": 'Join the Factory Family for our annual UV Paint Party... Splatter Bash! Let’s paint & play on the Main Room Dance Floor or watch from the Mezzanine. Glow party in the Red Room with DJ Madisi. Drink • Dance • F*** • Repeat',
+        "eventCover"   : 'N/A',
+        "eventLink"    : 'special-events/' + 'splatter-bash-at-necto-nightclub-ann-arbor-michigan-sep-5th-2016.html',
+        "eventSocial"  : 'https://www.facebook.com/events/1809161535981353/',
+        "eventTix"     : 'none',
+        "eventImgWide" : 'img/event-images/' + 'cal-splatter-bash-at-necto-nightclub-ann-arbor.jpg',
+        //"eventWklOvrd" : true,
+        "eventDay"     : 0, // Do not modify
+        "pastEvent"    : false // Do not modify
+    },
+    {
+        "eventDate"    : new Date("Sep 3, 2016 20:00:00"),
+        "eventName"    : "Frequency presents... Ultraviolet : Paint Party!",
+        "eventArtist"  : "Neon & Glow",
+        "eventDescLong": 'Let’s Get Wet! Wear White for our 2nd annual Neon & Glow! UV Paint Party in the Main Room with DJ Jace. Glow Party in the Red Room with DJ Digi Mark. Paint & Play on the Dance Floor or watch from the Mezzanine. ',
+        "eventCover"   : 'N/A',
+        "eventLink"    : 'special-events/' + 'paint-party-at-necto-nightclub-ann-arbor-michigan-sep-3rd-2016.html',
+        "eventSocial"  : 'https://www.facebook.com/events/1809161535981353/',
+        "eventTix"     : 'none',
+        "eventImgWide" : 'img/event-images/' + 'cal-paint-party-at-necto-nightclub-ann-arbor.jpg',
+        //"eventWklOvrd" : true,
+        "eventDay"     : 0, // Do not modify
+        "pastEvent"    : false // Do not modify
+    },
+    {
+        "eventDate"    : new Date("Sep 2, 2016 20:00:00"),
+        "eventName"    : "Necto Pride presents... Neon & Glow : UV Paint Party",
+        "eventArtist"  : "Ultraviolet",
+        "eventDescLong": 'Let’s Get Turnt Up! We are celebrating White Party Weekend with a huge UV Paint Party! Let’s get wet on the Main Room Dance Floor with DJ Hardy & MC Yoda. Play in paint or watch from the mezzanine. ',
+        "eventCover"   : 'N/A',
+        "eventLink"    : 'special-events/' + 'neon-glow-at-necto-nightclub-ann-arbor-michigan-sep-2nd-2016.html',
+        "eventSocial"  : 'https://www.facebook.com/events/1809161535981353/',
+        "eventTix"     : 'none',
+        "eventImgWide" : 'img/event-images/' + 'neon-glow-at-necto-nightclub-ann-arbor.jpg',
+        //"eventWklOvrd" : true,
+        "eventDay"     : 0, // Do not modify
+        "pastEvent"    : false // Do not modify
+    },
+    {
+        "eventDate"    : new Date("Aug 22, 2016 20:00:00"),
+        "eventName"    : "Factory's PokéParty 2016",
+        "eventArtist"  : "Factory's PokéParty 2016",
+        "eventDescLong": 'We’re gonna be the very best, like no community ever was. 2 pokéstops, music, drinks, and some of the best trainers around come together for our 1st ever PokéParty.',
+        "eventCover"   : 'N/A',
+        "eventLink"    : 'special-events/' + 'pokeparty-2016-at-necto-nightclub-ann-arbor-michigan-aug-22nd-2016.html',
+        "eventSocial"  : 'https://www.facebook.com/events/1629777607333356/',
+        "eventTix"     : 'none',
+        "eventImgWide" : 'img/event-images/' + 'pokeparty-2015-at-necto-nightclub-ann-arbor.jpg',
+        //"eventWklOvrd" : true,
+        "eventDay"     : 0, // Do not modify
+        "pastEvent"    : false // Do not modify
+    },
+    {
+        "eventDate"    : new Date("Aug 5, 2016 20:00:00"),
+        "eventName"    : "ACID BETTY : Official OUTFest 2016 Kick Off Party",
+        "eventArtist"  : "Acid Betty",
+        "eventDescLong": 'A creative and colorful enigma, and famous for being the first and only hybrid drag queen in the world, Acid Betty is an artist, stylist, and a performer. She has brought her out-of-this-world flare to all sorts of projects and events, and continues to seek out exciting new ways to perfect her craft while collaborating with innovative artists and designers worldwide. Acid Betty was featured on Season 5 of “Project Runway”, “An Englishman in New York” with John Hurt, served as Ringleader at Lincoln Center for New York City’s “Rock & Roll Circus”, has been showcased at the Gay Village in Italy Rome and played host of the annual “Saint at Large The Black Party Expo & Bazaar” in NYC for several years.',
+        "eventCover"   : 'N/A',
+        "eventLink"    : 'special-events/' + 'acid-betty-outfest-kick-off-party-at-necto-nightclub-ann-arbor-michigan-aug-5th-2016.html',
+        "eventSocial"  : 'https://www.facebook.com/events/1006131682834258/',
+        "eventTix"     : 'none',
+        "eventImgWide" : 'img/event-images/' + 'cal-acid-betty-outfest-2016-at-necto-nightclub-ann-arbor.jpg',
+        //"eventWklOvrd" : true,
+        "eventDay"     : 0, // Do not modify
+        "pastEvent"    : false // Do not modify
+    },
+    {
+        "eventDate"    : new Date("Jul 15, 2016 20:00:00"),
+        "eventName"    : "Bob the Drag Queen",
+        "eventArtist"  : "Bob the Drag Queen",
+        "eventDescLong": 'Let’s see what happens when we go ’Purse First!’ Join us as we welcome RuPaul’s Drag Race Season 8 winner... Bob the Drag Queen!',
+        "eventCover"   : 'N/A',
+        "eventLink"    : 'special-events/' + 'bob-the-drag-queen-at-necto-nightclub-ann-arbor-michigan-jul-17th-2016.html',
+        "eventSocial"  : 'N/A',
+        "eventTix"     : 'none',
+        "eventImgWide" : 'img/event-images/' + 'bob-the-drag-queen-at-necto-nightclub-ann-arbor.jpg',
+        //"eventWklOvrd" : true,
+        "eventDay"     : 0, // Do not modify
+        "pastEvent"    : false // Do not modify
+    },
+    {
+        "eventDate"    : new Date("Jul 9, 2016 20:00:00"),
+        "eventName"    : "Frequency presents... Beach Party",
+        "eventArtist"  : "Beach Party",
+        "eventDescLong": 'Join DJ Hardy & MC Yoda as they heat up the Summer & celebrate Beach Party!',
+        "eventCover"   : 'N/A',
+        "eventLink"    : 'special-events/' + 'beach-parth-at-necto-nightclub-ann-arbor-michigan-jul-9th-2016.html',
+        "eventSocial"  : 'https://www.facebook.com/events/587229844772065/',
+        "eventTix"     : 'none',
+        "eventImgWide" : 'img/event-images/' + 'cal-beach-party-at-necto-nightclub-ann-arbor.jpg',
+        //"eventWklOvrd" : true,
+        "eventDay"     : 0, // Do not modify
+        "pastEvent"    : false // Do not modify
+    },
+    {
+        "eventDate"    : new Date("Jul 8, 2016 20:00:00"),
+        "eventName"    : "Boys of Summer Contest: 2016",
+        "eventArtist"  : "Boys of Summer Contest: 2016",
+        "eventDescLong": 'Pride presents... The Boys of Summer : Contest 2016! Join us for one of Pride’s favorite annual events! Let’s play like we’re hanging out on the beach together!',
+        "eventCover"   : 'N/A',
+        "eventLink"    : 'special-events/' + 'boys-of-summer-at-necto-nightclub-ann-arbor-michigan-jul-7th-2016.html',
+        "eventSocial"  : 'https://www.facebook.com/events/808312542638775/',
+        "eventTix"     : 'none',
+        "eventImgWide" : 'img/event-images/' + 'cal-boys-of-summer-2016-at-necto-nightclub-ann-arbor.jpg',
+        //"eventWklOvrd" : true,
+        "eventDay"     : 0, // Do not modify
+        "pastEvent"    : false // Do not modify
+    },
+    {
+        "eventDate"    : new Date("Jul 7, 2016 20:00:00"),
+        "eventName"    : "College Night presents... Beach Party",
+        "eventArtist"  : "College Night presents... Beach Party",
+        "eventDescLong": 'It’s time for Summer Fun at Southeast Michigan’s best College Night. Join Just B this Thursday as we hit the Beach!',
+        "eventCover"   : 'N/A',
+        "eventLink"    : 'special-events/' + 'beach-parth-at-necto-nightclub-ann-arbor-michigan-jul-7th-2016.html',
+        "eventSocial"  : 'https://www.facebook.com/events/1073502059408275/',
+        "eventTix"     : 'none',
+        "eventImgWide" : 'img/event-images/' + 'cal-beach-party-at-necto-nightclub-ann-arbor.jpg',
+        //"eventWklOvrd" : true,
+        "eventDay"     : 0, // Do not modify
+        "pastEvent"    : false // Do not modify
+    },
+
+
+    
 ];
 
 

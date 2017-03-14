@@ -32,6 +32,8 @@ var videosThurs = [
     "https://www.youtube.com/embed/4VOIXPOnfSM?ecver=1",
     "https://www.youtube.com/embed/X8rlzGmn39I?ecver=1",
     "https://www.youtube.com/embed/pAl8vVPh6a8?ecver=1",
+    "https://www.youtube.com/embed/pFapnjwvuBk?ecver=1",
+    "https://www.youtube.com/embed/LGajm9WIb10?ecver=1",
 ];
 
 var videosFri = [
@@ -1212,6 +1214,132 @@ var events = [
         "eventSocial"  : 'https://www.facebook.com/events/1073502059408275/',
         "eventTix"     : 'none',
         "eventImgWide" : 'img/event-images/' + 'cal-beach-party-at-necto-nightclub-ann-arbor.jpg',
+        //"eventWklOvrd" : true,
+        "eventDay"     : 0, // Do not modify
+        "pastEvent"    : false // Do not modify
+    },
+    {
+        "eventDate"    : new Date("Jul 7, 2016 19:00:00"),
+        "eventName"    : "Namaskara : Yoga at the Club",
+        "eventArtist"  : "Yoga at the Club",
+        "eventDescLong": 'Life is too short to take ourselves seriously, we feel the same about yoga. Unwind with this fun, silly and relaxing yoga session complete with live music. Perfect for beginners and practiced yogi’s alike, we’ll be holding gentle postures for a couple breaths to sink into our practice. Focusing on breathing techniques to calm your nerves and relax your whole body.',
+        "eventCover"   : 'N/A',
+        "eventLink"    : 'special-events/' + 'namaskara-yoga-club-at-necto-nightclub-ann-arbor-michigan-jul-7th-2016.html',
+        "eventSocial"  : 'https://www.facebook.com/events/1614119635569837/',
+        "eventTix"     : 'none',
+        "eventImgWide" : 'img/event-images/' + 'cal-namaskara-yoga-at-the-club-at-necto-nightclub-ann-arbor.jpg',
+        //"eventWklOvrd" : true,
+        "eventDay"     : 0, // Do not modify
+        "pastEvent"    : false // Do not modify
+    },
+    {
+        "eventDate"    : new Date("Jun 17, 2016 19:00:00"),
+        "eventName"    : "Nick Jonas Album Release Party in the Red Room",
+        "eventArtist"  : "Nick Jonas Album Release Party",
+        "eventDescLong": 'Win a copy of the new self titled album by Nick Jonas featuring "Close", "Chainsaw", and "Champagne Problems"',
+        "eventCover"   : 'N/A',
+        "eventLink"    : 'special-events/' + 'nick-jonas-album-release-party-at-necto-nightclub-ann-arbor-michigan-jun-17th-2016.html',
+        "eventSocial"  : '404.html',
+        "eventTix"     : 'none',
+        "eventImgWide" : 'img/event-images/' + 'nick-jonas-album-release-party-at-necto-nightclub-ann-arbor.jpg',
+        //"eventWklOvrd" : true,
+        "eventDay"     : 0, // Do not modify
+        "pastEvent"    : false // Do not modify
+    },
+    {
+        "eventDate"    : new Date("Jun 10, 2016 19:00:00"),
+        "eventName"    : "Tegan & Sara Album Release Party in the Red Room",
+        "eventArtist"  : "Tegan & Sara Album Release Party in the Red Room",
+        "eventDescLong": 'Win a copy of the new CD by Tegan & Sara "Love You to Death." Featuring the hit single "Boyfriend"',
+        "eventCover"   : 'N/A',
+        "eventLink"    : 'special-events/' + 'tegan-sara-album-release-at-necto-nightclub-ann-arbor-michigan-jun-10th-2016.html',
+        "eventSocial"  : '404.html',
+        "eventTix"     : 'none',
+        "eventImgWide" : 'img/event-images/' + 'tegan-sara-album-release-at-necto-nightclub-ann-arbor.jpg',
+        //"eventWklOvrd" : true,
+        "eventDay"     : 0, // Do not modify
+        "pastEvent"    : false // Do not modify
+    },
+    {
+        "eventDate"    : new Date("Jun 10, 2016 20:00:00"),
+        "eventName"    : "ADORE DELANO : Motor City Pride Official Pre-Party!!!",
+        "eventArtist"  : "ADORE DELANO",
+        "eventDescLong": 'Come Celebrate Pride at our annual Motor City Pride Pre-Party with ADORE DELANO!!! She’ll be performing songs from the no. 1 album ’After Party’!',
+        "eventCover"   : 'N/A',
+        "eventLink"    : 'special-events/' + 'adore-delano-at-necto-nightclub-ann-arbor-michigan-jun-10th-2016.html',
+        "eventSocial"  : 'https://www.facebook.com/events/1241908435829150/',
+        "eventTix"     : 'none',
+        "eventImgWide" : 'img/event-images/' + 'cal-adore-delano-at-necto-night-club-ann-arbor.jpg',
+        //"eventWklOvrd" : true,
+        "eventDay"     : 0, // Do not modify
+        "pastEvent"    : false // Do not modify
+    },
+    {
+        "eventDate"    : new Date("Jun 2, 2016 20:00:00"),
+        "eventName"    : "Namaskara: Yoga at the Club",
+        "eventArtist"  : "Namaskara",
+        "eventDescLong": 'Life is too short to take ourselves seriously, we feel the same about yoga. Unwind with this fun, silly and relaxing yoga session complete with live music. Perfect for beginners and practiced yogi’s alike, we’ll be holding gentle postures for a couple breaths to sink into our practice. Focusing on breathing techniques to calm your nerves and relax your whole body.',
+        "eventCover"   : 'N/A',
+        "eventLink"    : 'special-events/' + 'namaskara-yoga-at-the-club-necto-nightclub-ann-arbor-michigan-jun-2nd-2016.html',
+        "eventSocial"  : 'https://www.facebook.com/events/850654748411337/',
+        "eventTix"     : 'none',
+        "eventImgWide" : 'img/event-images/' + 'namaskara-yoga-at-the-club-at-necto-nightclub-ann-arbor.png',
+        //"eventWklOvrd" : true,
+        "eventDay"     : 0, // Do not modify
+        "pastEvent"    : false // Do not modify
+    },
+    {
+        "eventDate"    : new Date("May 23, 2016 21:00:00"),
+        "eventName"    : "The Factory Awakens: Star Wars Night",
+        "eventArtist"  : "The Factory Awakens: Star Wars Night",
+        "eventDescLong": 'Join DJ Void6, DJ Darks Choir, Iconian, DJ Madisi, and MC Yoda in the 2016 Factory edition of out Star Wars night. Loads of awesome decorations. Get FREE pictures with your friends by a professional photographer.',
+        "eventCover"   : 'N/A',
+        "eventLink"    : 'special-events/' + 'factory-awakens-star-wars-necto-nightclub-ann-arbor-michigan-may-23rd-2016.html',
+        "eventSocial"  : 'https://www.facebook.com/events/586629124828882/',
+        "eventTix"     : 'none',
+        "eventImgWide" : 'img/event-images/' + 'cal-factory-awakens-star-wars-at-necto-nightclub-ann-arbor.jpg',
+        //"eventWklOvrd" : true,
+        "eventDay"     : 0, // Do not modify
+        "pastEvent"    : false // Do not modify
+    },
+    {
+        "eventDate"    : new Date("May 20, 2016 21:00:00"),
+        "eventName"    : "Dragster presents... KIM CHI",
+        "eventArtist"  : "KIM CHI",
+        "eventDescLong": 'Kim Chi is a 7’ tall, live-action anime character and high-fashion model. Born in the U.S., raised in South Korea, and currently based in Chicago, Kim is a cultural hybrid with a preternatural understanding of style and conceptual fashion. An ever-evolving chameleon, Kim never fails to surprise and delight with her larger than life looks and her high standard of work. Kim Chi is currently competing on RuPaul’s Drag Race Season 8.',
+        "eventCover"   : 'N/A',
+        "eventLink"    : 'special-events/' + 'kim-chi-at-necto-nightclub-ann-arbor-michigan-may-20th-2016.html',
+        "eventSocial"  : 'https://www.facebook.com/events/935389196580545/',
+        "eventTix"     : 'none',
+        "eventImgWide" : 'img/event-images/' + 'cal-kim-chi-at-necto-nightclub-ann-arbor.jpg',
+        //"eventWklOvrd" : true,
+        "eventDay"     : 0, // Do not modify
+        "pastEvent"    : false // Do not modify
+    },
+    {
+        "eventDate"    : new Date("May 13, 2016 21:00:00"),
+        "eventName"    : "Pride Prom 2016: Candyland",
+        "eventArtist"  : "Pride Prom 2016: Candyland",
+        "eventDescLong": 'Let’s celebrate Prom our way! This year’s theme is Candyland. Follow us down Candy lane to the lollipop forest with hosts Chanel Hunter & Jadein Black. Music by DJ Jace & Nick Donovan. Photos by Tony Lowe.',
+        "eventCover"   : 'N/A',
+        "eventLink"    : 'special-events/' + 'pride-prom-2016-candyland-at-necto-nightclub-ann-arbor-michigan-may-13th-2016.html',
+        "eventSocial"  : 'https://www.facebook.com/events/606405996177798/',
+        "eventTix"     : 'none',
+        "eventImgWide" : 'img/event-images/' + 'cal-pride-prom-2016-at-necto-nightclub-ann-arbor.jpg',
+        //"eventWklOvrd" : true,
+        "eventDay"     : 0, // Do not modify
+        "pastEvent"    : false // Do not modify
+    },
+    {
+        "eventDate"    : new Date("May 13, 2016 21:00:00"),
+        "eventName"    : "Cyndi Lauper Album Release Party in the Red Room",
+        "eventArtist"  : "Cyndi Lauper Album Release",
+        "eventDescLong": 'Win a copy of the new CD by Cyndi Lauper ’Detour’ with Cyn’s signature take on Country Classics from the past. Features duets with country elite, Willie Nelson, Alison Krauss, Vince Gill and more',
+        "eventCover"   : 'N/A',
+        "eventLink"    : 'special-events/' + 'cyndi-lauper-album-release-party-nightclub-ann-arbor-michigan-may-13th-2016.html',
+        "eventSocial"  : '',
+        "eventTix"     : 'none',
+        "eventImgWide" : 'img/event-images/' + 'cyndi-lauper-album-release-party-at-necto-nightclub-ann-arbor.jpg',
         //"eventWklOvrd" : true,
         "eventDay"     : 0, // Do not modify
         "pastEvent"    : false // Do not modify

@@ -1,0 +1,46 @@
+<!doctype html>
+<html class="no-js" lang="">
+  <head>
+      <meta charset="utf-8">
+      <meta http-equiv="x-ua-compatible" content="ie=edge">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+  <body>
+  <label>Enter photo string</label>
+  <textarea id="photoString"></textarea>
+  <button onclick="getString()">GET STRING</button>
+
+  <script type="text/javascript">
+    function getString() {
+      var theString = document.getElementById('photoString').value;
+
+      //var photoArr = theString.split('\u000a');
+      /*var photoArr = theString.split('\u0009');
+      var photoArr = theString.split('\u000A');
+
+      var dogs = photoArr.join()
+      var car = dogs.split('\u0009');
+
+      alert(car[4])
+      */
+      var splitString = theString.split('\u0009')
+
+
+      var dogs = splitString.join(",")
+
+      var cats = dogs.split('\u000A')
+
+      var birds = cats.join()
+
+      var doneSplit = birds.split(',')
+
+      for (var i = 0; i <= doneSplit.length -1; i++) {
+        doneSplit[i] = "'" + doneSplit[i] + "'"
+      }
+
+      alert(doneSplit.join(','))
+    }
+  </script>
+
+  </body>
+</html>

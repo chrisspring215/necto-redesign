@@ -2270,7 +2270,7 @@ form input[type="submit"]:hover, form input[type="submit"]:focus, form input[typ
 /*
  * Hide visually and from screen readers
  */
-/* line 569, /Users/cacollins/Documents/necto-redesign/scss/main.scss */
+/* line 572, /Users/cacollins/Documents/necto-redesign/scss/main.scss */
 .hidden {
   display: none !important;
 }
@@ -2279,7 +2279,7 @@ form input[type="submit"]:hover, form input[type="submit"]:focus, form input[typ
  * Hide only visually, but have it available for screen readers:
  * http://snook.ca/archives/html_and_css/hiding-content-for-accessibility
  */
-/* line 578, /Users/cacollins/Documents/necto-redesign/scss/main.scss */
+/* line 581, /Users/cacollins/Documents/necto-redesign/scss/main.scss */
 .visuallyhidden {
   border: 0;
   clip: rect(0 0 0 0);
@@ -2296,7 +2296,7 @@ form input[type="submit"]:hover, form input[type="submit"]:focus, form input[typ
  * to be focusable when navigated to via the keyboard:
  * https://www.drupal.org/node/897638
  */
-/* line 595, /Users/cacollins/Documents/necto-redesign/scss/main.scss */
+/* line 598, /Users/cacollins/Documents/necto-redesign/scss/main.scss */
 .visuallyhidden.focusable:active,
 .visuallyhidden.focusable:focus {
   clip: auto;
@@ -2310,7 +2310,7 @@ form input[type="submit"]:hover, form input[type="submit"]:focus, form input[typ
 /*
  * Hide visually and from screen readers, but maintain layout
  */
-/* line 609, /Users/cacollins/Documents/necto-redesign/scss/main.scss */
+/* line 612, /Users/cacollins/Documents/necto-redesign/scss/main.scss */
 .invisible {
   visibility: hidden;
 }
@@ -2326,7 +2326,7 @@ form input[type="submit"]:hover, form input[type="submit"]:focus, form input[typ
  * 2. The use of `table` rather than `block` is only necessary if using
  *    `:before` to contain the top-margins of child elements.
  */
-/* line 625, /Users/cacollins/Documents/necto-redesign/scss/main.scss */
+/* line 628, /Users/cacollins/Documents/necto-redesign/scss/main.scss */
 .clearfix:before,
 .clearfix:after {
   content: " ";
@@ -2335,7 +2335,7 @@ form input[type="submit"]:hover, form input[type="submit"]:focus, form input[typ
   /* 2 */
 }
 
-/* line 631, /Users/cacollins/Documents/necto-redesign/scss/main.scss */
+/* line 634, /Users/cacollins/Documents/necto-redesign/scss/main.scss */
 .clearfix:after {
   clear: both;
 }
@@ -2359,7 +2359,7 @@ form input[type="submit"]:hover, form input[type="submit"]:focus, form input[typ
    http://www.phpied.com/delay-loading-your-print-css/
    ========================================================================== */
 @media print {
-  /* line 659, /Users/cacollins/Documents/necto-redesign/scss/main.scss */
+  /* line 662, /Users/cacollins/Documents/necto-redesign/scss/main.scss */
   *,
   *:before,
   *:after,
@@ -2372,16 +2372,16 @@ form input[type="submit"]:hover, form input[type="submit"]:focus, form input[typ
     box-shadow: none !important;
     text-shadow: none !important;
   }
-  /* line 671, /Users/cacollins/Documents/necto-redesign/scss/main.scss */
+  /* line 674, /Users/cacollins/Documents/necto-redesign/scss/main.scss */
   a,
   a:visited {
     text-decoration: underline;
   }
-  /* line 676, /Users/cacollins/Documents/necto-redesign/scss/main.scss */
+  /* line 679, /Users/cacollins/Documents/necto-redesign/scss/main.scss */
   a[href]:after {
     content: " (" attr(href) ")";
   }
-  /* line 680, /Users/cacollins/Documents/necto-redesign/scss/main.scss */
+  /* line 683, /Users/cacollins/Documents/necto-redesign/scss/main.scss */
   abbr[title]:after {
     content: " (" attr(title) ")";
   }
@@ -2389,12 +2389,12 @@ form input[type="submit"]:hover, form input[type="submit"]:focus, form input[typ
      * Don't show links that are fragment identifiers,
      * or use the `javascript:` pseudo protocol
      */
-  /* line 689, /Users/cacollins/Documents/necto-redesign/scss/main.scss */
+  /* line 692, /Users/cacollins/Documents/necto-redesign/scss/main.scss */
   a[href^="#"]:after,
   a[href^="javascript:"]:after {
     content: "";
   }
-  /* line 694, /Users/cacollins/Documents/necto-redesign/scss/main.scss */
+  /* line 697, /Users/cacollins/Documents/necto-redesign/scss/main.scss */
   pre,
   blockquote {
     border: 1px solid #999;
@@ -2404,27 +2404,27 @@ form input[type="submit"]:hover, form input[type="submit"]:focus, form input[typ
      * Printing Tables:
      * http://css-discuss.incutio.com/wiki/Printing_Tables
      */
-  /* line 705, /Users/cacollins/Documents/necto-redesign/scss/main.scss */
+  /* line 708, /Users/cacollins/Documents/necto-redesign/scss/main.scss */
   thead {
     display: table-header-group;
   }
-  /* line 709, /Users/cacollins/Documents/necto-redesign/scss/main.scss */
+  /* line 712, /Users/cacollins/Documents/necto-redesign/scss/main.scss */
   tr,
   img {
     page-break-inside: avoid;
   }
-  /* line 714, /Users/cacollins/Documents/necto-redesign/scss/main.scss */
+  /* line 717, /Users/cacollins/Documents/necto-redesign/scss/main.scss */
   img {
     max-width: 100% !important;
   }
-  /* line 718, /Users/cacollins/Documents/necto-redesign/scss/main.scss */
+  /* line 721, /Users/cacollins/Documents/necto-redesign/scss/main.scss */
   p,
   h2,
   h3 {
     orphans: 3;
     widows: 3;
   }
-  /* line 725, /Users/cacollins/Documents/necto-redesign/scss/main.scss */
+  /* line 728, /Users/cacollins/Documents/necto-redesign/scss/main.scss */
   h2,
   h3 {
     page-break-after: avoid;

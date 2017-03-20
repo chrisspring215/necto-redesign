@@ -2264,6 +2264,11 @@ form input[type="submit"]:hover, form input[type="submit"]:focus, form input[typ
   visibility: hidden;
 }
 
+/* line 3, /Users/cacollins/Documents/necto-redesign/scss/_weekly-photos.scss */
+.weekly-photo-grid img {
+  margin-bottom: 1.5em;
+}
+
 /* ==========================================================================
    Helper classes
    ========================================================================== */

@@ -26,15 +26,15 @@ function populateWeeklyPhotos(day) {
     var photoPool;
     var photoDayPath;
 
-    /* mon */ if (day === 1) { numOfPhotos = photosFactory.length; photoPool = photosFactory; photoDayPath = '/photos-factory/'};
-    /* thr  */if (day === 4) { numOfPhotos = photosMix.length; photoPool = photosMix; };
-    /* fri */ if (day === 5) { numOfPhotos = photosPride.length; photoPool = photosPride; };
-    /* sat */ if (day === 6) { numOfPhotos = photosFrequency.length; photoPool = photosFrequency; };
+    /* mon */ if (day === 1) { numOfPhotos = photosFactory.length;   photoPool = photosFactory;   photoDayPath = '/photos-factory/'};
+    /* thr  */if (day === 4) { numOfPhotos = photosMix.length;       photoPool = photosMix;       photoDayPath = '/photos-mix/'};
+    /* fri */ if (day === 5) { numOfPhotos = photosPride.length;     photoPool = photosPride;     photoDayPath = '/photos-pride/'};
+    /* sat */ if (day === 6) { numOfPhotos = photosFrequency.length; photoPool = photosFrequency; photoDayPath = '/photos-frequency/'};
 
-    document.getElementById('weekly-photo-1').setAttribute('src', ('img/weekly-photos' + photoDayPath + photoPool[Math.floor(Math.random() * numOfPhotos)]));
-    document.getElementById('weekly-photo-2').setAttribute('src', ('img/weekly-photos' + photoDayPath + photoPool[Math.floor(Math.random() * numOfPhotos)]));
-    document.getElementById('weekly-photo-3').setAttribute('src', ('img/weekly-photos' + photoDayPath + photoPool[Math.floor(Math.random() * numOfPhotos)]));
-    document.getElementById('weekly-photo-4').setAttribute('src', ('img/weekly-photos' + photoDayPath + photoPool[Math.floor(Math.random() * numOfPhotos)]));
+    document.getElementById('weekly-photo-1').setAttribute('src', ('img/weekly-photos' + photoDayPath + photoPool[Math.floor(Math.random() * numOfPhotos)].split('.').join('_tn.')));
+    document.getElementById('weekly-photo-2').setAttribute('src', ('img/weekly-photos' + photoDayPath + photoPool[Math.floor(Math.random() * numOfPhotos)].split('.').join('_tn.')));
+    document.getElementById('weekly-photo-3').setAttribute('src', ('img/weekly-photos' + photoDayPath + photoPool[Math.floor(Math.random() * numOfPhotos)].split('.').join('_tn.')));
+    document.getElementById('weekly-photo-4').setAttribute('src', ('img/weekly-photos' + photoDayPath + photoPool[Math.floor(Math.random() * numOfPhotos)].split('.').join('_tn.')));
 
 
     function test() {
@@ -52,6 +52,23 @@ function populateWeeklyPhotos(day) {
 	    } 
 	}
     test()
+}
 
+function populateWeeklyPhotosAll(day) {
+
+    var weeklyPhotoGrid = document.getElementById('weeklyPhotoGrid');
+    var numOfPhotos;
+    var photoPool;
+    var photoDayPath;
+    var dayAltText;
+
+    /* mon */ if (day === 1) { numOfPhotos = photosFactory.length;   photoPool = photosFactory;   photoDayPath = '/photos-factory/';    dayAltText = 'Factory Monday'};
+    /* thr  */if (day === 4) { numOfPhotos = photosMix.length;       photoPool = photosMix;       photoDayPath = '/photos-mix/';        dayAltText = 'Mix Thursday'};
+    /* fri */ if (day === 5) { numOfPhotos = photosPride.length;     photoPool = photosPride;     photoDayPath = '/photos-pride/';      dayAltText = 'Pride Friday'};
+    /* sat */ if (day === 6) { numOfPhotos = photosFrequency.length; photoPool = photosFrequency; photoDayPath = '/photos-frequency/';  dayAltText = 'Frequesncy Saturday'};
+
+    for (var i = 0; i <= numOfPhotos - 1; i++) {
+        weeklyPhotoGrid.innerHTML = weeklyPhotoGrid.innerHTML + ('<div class="col col-6-xs col-2-md"><a href="' + 'img/weekly-photos' + photoDayPath + photoPool[i] + '"><img style="display: block;" src="img/weekly-photos' + photoDayPath + photoPool[i].split('.').join('_tn.') + '" alt="A photo from ' + dayAltText + ' , a weekly event at the Necto Nightclub in Ann Arbor, Michigan."></div>');
+    }
 
 }

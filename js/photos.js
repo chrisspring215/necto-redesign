@@ -61,7 +61,7 @@ function populateWeeklyPhotosAll(day) {
     /* mon */ if (day === 1) { numOfPhotos = photosFactory.length;   photoPool = photosFactory;   photoDayPath = '/photos-factory/';    dayAltText = 'Factory Monday'};
     /* thr  */if (day === 4) { numOfPhotos = photosMix.length;       photoPool = photosMix;       photoDayPath = '/photos-mix/';        dayAltText = 'Mix Thursday'};
     /* fri */ if (day === 5) { numOfPhotos = photosPride.length;     photoPool = photosPride;     photoDayPath = '/photos-pride/';      dayAltText = 'Pride Friday'};
-    /* sat */ if (day === 6) { numOfPhotos = photosFrequency.length; photoPool = photosFrequency; photoDayPath = '/photos-frequency/';  dayAltText = 'Frequesncy Saturday'};
+    /* sat */ if (day === 6) { numOfPhotos = photosFrequency.length; photoPool = photosFrequency; photoDayPath = '/photos-frequency/';  dayAltText = 'Frequency Saturday'};
 
     for (var i = 0; i <= numOfPhotos - 1; i++) {
         weeklyPhotoGrid.innerHTML = weeklyPhotoGrid.innerHTML + ('<div class="col col-6-xs col-2-md"><a href="' + 'img/weekly-photos' + photoDayPath + photoPool[i] + '"><img style="display: block;" src="img/weekly-photos' + photoDayPath + 'thumbs/' + photoPool[i].split('.').join('_tn.') + '" alt="A photo from ' + dayAltText + ' , a weekly event at the Necto Nightclub in Ann Arbor, Michigan." title="A photo from ' + dayAltText + ', a weekly event at the Necto Nightclub in Ann Arbor, Michigan."></div>');

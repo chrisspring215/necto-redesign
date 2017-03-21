@@ -1344,6 +1344,93 @@ var events = [
         "eventDay"     : 0, // Do not modify
         "pastEvent"    : false // Do not modify
     },
+    {
+        "eventDate"    : new Date("May 1, 2016 21:00:00"),
+        "eventName"    : "Country Club Disco Brunch BBQ with GOLF CLAP & Friends",
+        "eventArtist"  : "Golf Clap",
+        "eventDescLong": 'What could be better Brunch, Booze & Grooves with Golf Clap & Friends. Brunch BBQ from 1pm to 5pm. Music with Golf Clap & Friends from 1pm to 10pm. Free Parking all day! Music will be on the Patio & on the main floor of Necto. Let’s kick off the summer right!',
+        "eventCover"   : 'N/A',
+        "eventLink"    : 'special-events/' + 'country-club-disco-brunch-bbq-golf-clap-at-necto-nightclub-ann-arbor-michigan-may-1st-2016.html',
+        "eventSocial"  : 'https://www.facebook.com/events/510970315769427/',
+        "eventTix"     : 'none',
+        "eventImgWide" : 'img/event-images/' + 'golf-clap-at-necto-nightclub-ann-arbor.jpg',
+        //"eventWklOvrd" : true,
+        "eventDay"     : 0, // Do not modify
+        "pastEvent"    : false // Do not modify
+    },
+    {
+        "eventDate"    : new Date("Apr 13, 2016 21:00:00"),
+        "eventName"    : "NGHTMRE",
+        "eventArtist"  : "NGHTMRE",
+        "eventDescLong": 'NGHTMRE hit the dance scene like a sweet dream releasing tracks at a frenetic pace since he got here a year ago. The 24 year old’s remix of Showtek’s "We Like To Party" with Slander has been championed by the likes of Diplo, Carnage and DJ Snake to name a few and garnered almost 5 million plays online.',
+        "eventCover"   : 'N/A',
+        "eventLink"    : 'special-events/' + 'nghtmare-at-necto-nightclub-ann-arbor-michigan-apr-13th-2016.html',
+        "eventSocial"  : 'https://www.facebook.com/events/510970315769427/',
+        "eventTix"     : 'none',
+        "eventImgWide" : 'img/event-images/' + 'nghtmare-at-necto-nightclub-ann-arbor.jpg',
+        //"eventWklOvrd" : true,
+        "eventDay"     : 0, // Do not modify
+        "pastEvent"    : false // Do not modify
+    },
+    {
+        "eventDate"    : new Date("Apr 11, 2016 21:00:00"),
+        "eventName"    : "Factory Goth Prom",
+        "eventArtist"  : "Factory Goth Prom",
+        "eventDescLong": 'Join DJs Void6, Jay Misanthropia, Madisi, and MC Yoda in Factory’s 2016 edition of Goth Prom. Get FREE pictures with your friends by a professional photographer. FREE entry if you wear formal attire.',
+        "eventCover"   : 'N/A',
+        "eventLink"    : 'special-events/' + 'goth-prom-2016-at-necto-nightclub-ann-arbor-michigan-apr-11th-2016.html',
+        "eventSocial"  : 'https://www.facebook.com/events/1568621176763680/',
+        "eventTix"     : 'none',
+        "eventImgWide" : 'img/event-images/' + 'goth-prom-2016-at-necto-nightclub-ann-arbor.jpg',
+        //"eventWklOvrd" : true,
+        "eventDay"     : 0, // Do not modify
+        "pastEvent"    : false // Do not modify
+    },
+    {
+        "eventDate"    : new Date("Apr 9, 2016 21:00:00"),
+        "eventName"    : "Plastic Passion: Deep Cuts",
+        "eventArtist"  : "Plastic Passion: Deep Cuts",
+        "eventDescLong": 'Plastic Passion presents... your favorite 70s/80s/90s : Retro : New Wave : Alternative : Industrial : Synthpop : PostPunk : Electro : Shoegaze music in the Red Room with DJs Josh & Zumba',
+        "eventCover"   : 'N/A',
+        "eventLink"    : 'special-events/' + 'plastic-passion-at-necto-nightclub-ann-arbor-michigan-apr-9th-2016.html',
+        "eventSocial"  : 'https://www.facebook.com/PlasticPassion/',
+        "eventTix"     : 'none',
+        "eventImgWide" : 'img/event-images/' + 'plastic-passion-4-9-2016-at-necto-nightclub-ann-arbor.jpg',
+        //"eventWklOvrd" : true,
+        "eventDay"     : 0, // Do not modify
+        "pastEvent"    : false // Do not modify
+    },
+    {
+        "eventDate"    : new Date("Apr 8, 2016 21:00:00"),
+        "eventName"    : "Dragster presents... LATRICE ROYALE",
+        "eventArtist"  : "LATRICE ROYALE",
+        "eventDescLong": 'Well first and foremost it is important to understand that a show by Latrice Royale is no ordinary show. What you are about to encounter is an Adventure. An adventure that you will ever forget.',
+        "eventCover"   : 'N/A',
+        "eventLink"    : 'special-events/' + 'latrice-royale-at-necto-nightclub-ann-arbor-michigan-apr-8th-2016.html',
+        "eventSocial"  : 'https://www.facebook.com/events/462195690650959/',
+        "eventTix"     : 'none',
+        "eventImgWide" : 'img/event-images/' + 'latrice-royale-at-necto-nightclub-ann-arbor.jpg',
+        //"eventWklOvrd" : true,
+        "eventDay"     : 0, // Do not modify
+        "pastEvent"    : false // Do not modify
+    },
+    {
+        "eventDate"    : new Date("Apr 8, 2016 20:00:00"),
+        "eventName"    : "A Night OUT : An LGBTQ+ mixer & Benefit for OUTFest & the Jim Toy Community Center",
+        "eventArtist"  : "A Night OUT : An LGBTQ+ mixer & Benefit for OUTFest & the Jim Toy Community Center",
+        "eventDescLong": '"A Night OUT" – a social mix-and-mingle event helps raise money for the annual OUTFest and Pride Picnic – Washtenaw County’s pride celebration and festival – which is hosted by the Jim Toy Community Center. Expect entertainment, a silent auction, drag performances, local food, drinks and contests. The event will be directly followed by Necto Pride, with performances by Latrice Royale from the Logo network TV show RuPaul’s Drag Race.',
+        "eventCover"   : 'N/A',
+        "eventLink"    : 'special-events/' + 'a-night-out-at-necto-nightclub-ann-arbor-michigan-apr-8th-2016.html',
+        "eventSocial"  : 'https://www.facebook.com/events/1586066655048953/',
+        "eventTix"     : 'none',
+        "eventImgWide" : 'img/event-images/' + 'a-night-out-outfest-benefit-at-necto-nightclub-ann-arbor.jpg',
+        //"eventWklOvrd" : true,
+        "eventDay"     : 0, // Do not modify
+        "pastEvent"    : false // Do not modify
+    },
+
+
+    
 
 
     

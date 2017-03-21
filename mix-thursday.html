@@ -108,24 +108,28 @@
         <div class="col col-12-xs col-8-md">
           <img src="img/mix-thursday-necto-nightclub-calendar.jpg">
           <p>We’re mixing it up each and every Thursday, with a blend of concerts by renowned artists, special events, unique parties, and even functions that you can book. Heard about a DJ at Necto? It was probably on a Thursday - check our calendar to see what’s happening this week.</p>
-          <div class="row">
+          <!-- Weekly Media -->
+          <div class="row weekly-photos">
+            <div class="col col-12-xs">
+              <h2 class="page-section-sub-header">PHOTOS AND VIDEO</h2>
+            </div>
+
             <div class="col col-6-xs col-3-md">
-              <a href=""><img src="http://placehold.it/640x480?text=crowd_image_640x480"></a>
+              <a href="mix-thursday-photos.html"><img src="" id="weekly-photo-1" alt="A photo of Mix Thursday, an event at the Necto Nightclub in Ann Arbor Michigan." title="A photo from Mix Thursday, a weekly event at the Necto Nightclub in Ann Arbor, Michigan."></a>
             </div>
             <div class="col col-6-xs col-3-md">
-              <a href=""><img src="http://placehold.it/640x480?text=crowd_image_640x480"></a>
+              <a href="mix-thursday-photos.html"><img src="" id="weekly-photo-2" alt="A photo of Mix Thursday, an event at the Necto Nightclub in Ann Arbor Michigan." title="A photo from Mix Thursday, a weekly event at the Necto Nightclub in Ann Arbor, Michigan."></a>
             </div>
             <div class="col col-6-xs col-3-md">
-              <a href=""><img src="http://placehold.it/640x480?text=crowd_image_640x480"></a>
+              <a href="mix-thursday-photos.html"><img src="" id="weekly-photo-3" alt="A photo of Mix Thursday, an event at the Necto Nightclub in Ann Arbor Michigan." title="A photo from Mix Thursday, a weekly event at the Necto Nightclub in Ann Arbor, Michigan."></a>
             </div>
             <div class="col col-6-xs col-3-md">
-              <a href=""><img src="http://placehold.it/640x480?text=crowd_image_640x480"></a>
+              <a href="mix-thursday-photos.html"><img src="" id="weekly-photo-4" alt="A photo of Mix Thursday, an event at the Necto Nightclub in Ann Arbor Michigan." title="A photo from Mix Thursday, a weekly event at the Necto Nightclub in Ann Arbor, Michigan."></a>
             </div>
           </div>
           <div class="row">
             <div class="col col-12-xs">
               <div class="video-container" id='weekly-video-container'>
-                
               </div>
             </div>
           </div>
@@ -258,13 +262,15 @@
 
     <script src="js/plugins.js"></script>
     <script src="js/main.js"></script>
-
+    <script src="js/photos.js"></script>
+    
     <!-- Builds all navigtion -->
     <script>buildNavs()</script>
 
     <!-- Populates the Special Events on the Home Page -->
     <script>populateWeeklyUpcomingEvents(4)</script>
     <script>populateWeeklyVideo(4)</script>
+    <script>populateWeeklyPhotos(4)</script>
 
     <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
     <script>

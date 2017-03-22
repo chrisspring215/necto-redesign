@@ -63,17 +63,17 @@ function populateWeeklyVideo(day) {
 // TODO: Add meta data tags for the indivual event pages
 var events = [
     {
-        "eventDate"    : new Date("apr 20, 2017 22:00:00"),
-        "eventName"    : "Throwback Thursday : 21+ get in FREE",
-        "eventArtist"  : "Throwback Thursday",
-        "eventDesc"    : "All Your Favorite Music from the 80's, 90's & early 00's",
-        "eventDescLong": "All Your Favorite Music from the 80's, 90's & early 00's<br>FREE for 21+ | $10 for 18-20<br>with DJ KEVIN MICHAEL<br>Totally Awesome Drink Specials:<br>$3.50 Well drinks<br>$2.50 Fireball shots<br>3 for $10 Jaeger Bombs<br>$2 Miller Lite Bottles",
-        "eventCover"   : 'FREE for 21+ | $10 for 18-20',
-        "eventLink"    : 'special-events/' + 'throwback-thursday-apr-20-2017-at-necto-nightclub-ann-arbor-michigan.html',
-        "eventSocial"  : 'https://www.facebook.com/events/1921979594704149/',
-        "eventTix"     : 'none',
-        "eventImgTall" : 'img/event-images/' + 'throwback-thursday-4-20-at-necto-nightclub-ann-arbor.jpg',
-        "eventImgWide" : 'img/event-images/' + 'throwback-thursday-4-20-at-necto-nightclub-ann-arbor.jpg',
+        "eventDate"    : new Date("Jun 1, 2017 21:00:00"),
+        "eventName"    : "React &amp; Country Club Disco present... SNBRN",
+        "eventArtist"  : "SNBRN",
+        "eventDesc"    : "SNBRN aka Kevin Chapman labels his own music as ”Sunset House” on SoundCloud. According to Lollapalooza, he mixes elements of deep house, indie dance, and nu disco while maintaining its accessibility.",
+        "eventDescLong": "SNBRN aka Kevin Chapman labels his own music as ”Sunset House” on SoundCloud. According to Lollapalooza, he mixes elements of deep house, indie dance, and nu disco while maintaining its accessibility. He is one of Electric Forests' fan favorites & he has over 70 million plays on Spotify. Join us for the Best Summer Party at Necto.",
+        "eventCover"   : 'Adv Tickets $10 / $12.50 | Door Price: $15',
+        "eventLink"    : 'special-events/' + 'snbrn-at-necto-nightclub-ann-arbor-michigan-jun-1th-2017.html',
+        "eventSocial"  : 'https://www.facebook.com/events/1301750026576821/',
+        "eventTix"     : 'http://www.clubtix.com/snbrn-at-necto-tickets-513162?p=10635',
+        "eventImgTall" : 'img/event-images/' + 'snbrn-at-necto-nightclub-ann-arbor.jpg',
+        "eventImgWide" : 'img/event-images/' + 'snbrn-at-necto-nightclub-ann-arbor.jpg',
         "eventWklOvrd" : true,
         "eventDay"     : 0, // Do not modify
         "pastEvent"    : false // Do not modify
@@ -95,6 +95,22 @@ var events = [
         "pastEvent"    : false // Do not modify
     },
     {
+        "eventDate"    : new Date("apr 20, 2017 22:00:00"),
+        "eventName"    : "Throwback Thursday : 21+ get in FREE",
+        "eventArtist"  : "Throwback Thursday",
+        "eventDesc"    : "All Your Favorite Music from the 80's, 90's & early 00's",
+        "eventDescLong": "All Your Favorite Music from the 80's, 90's & early 00's<br>FREE for 21+ | $10 for 18-20<br>with DJ KEVIN MICHAEL<br>Totally Awesome Drink Specials:<br>$3.50 Well drinks<br>$2.50 Fireball shots<br>3 for $10 Jaeger Bombs<br>$2 Miller Lite Bottles",
+        "eventCover"   : 'FREE for 21+ | $10 for 18-20',
+        "eventLink"    : 'special-events/' + 'throwback-thursday-apr-20-2017-at-necto-nightclub-ann-arbor-michigan.html',
+        "eventSocial"  : 'https://www.facebook.com/events/1921979594704149/',
+        "eventTix"     : 'none',
+        "eventImgTall" : 'img/event-images/' + 'throwback-thursday-4-20-at-necto-nightclub-ann-arbor.jpg',
+        "eventImgWide" : 'img/event-images/' + 'throwback-thursday-4-20-at-necto-nightclub-ann-arbor.jpg',
+        "eventWklOvrd" : true,
+        "eventDay"     : 0, // Do not modify
+        "pastEvent"    : false // Do not modify
+    },
+    {
         "eventDate"    : new Date("apr 13, 2017 21:00:00"),
         "eventName"    : "Candyland",
         "eventArtist"  : "Candyland",
@@ -106,6 +122,22 @@ var events = [
         "eventTix"     : 'https://necto_candyland.eventbrite.com/',
         "eventImgTall" : 'img/event-images/' + 'cal-candyland-at-necto-nightclub-ann-arbor.jpeg',
         "eventImgWide" : 'img/event-images/' + 'cal-candyland-at-necto-nightclub-ann-arbor.jpeg',
+        "eventWklOvrd" : true,
+        "eventDay"     : 0, // Do not modify
+        "pastEvent"    : false // Do not modify
+    },
+    {
+        "eventDate"    : new Date("Apr 7, 2017 21:00:00"),
+        "eventName"    : "Trinity Taylor",
+        "eventArtist"  : "Trinity Taylor",
+        "eventDesc"    : "Join us as we welcome our first Queen from S9 of RuPaul's Drag Race... Trinity Taylor! This pageant girl has gone rogue. From Springville Alabama, Trinity is well known for the best tuck in the business . She has accomplished more than twenty pageantry titles, including National Entertainer of the Year 2014 and Miss National Renaissance 2016.",
+        "eventDescLong": "Join us as we welcome our first Queen from S9 of RuPaul's Drag Race... Trinity Taylor! This pageant girl has gone rogue. From Springville Alabama, Trinity is well known for the best tuck in the business . She has accomplished more than twenty pageantry titles, including National Entertainer of the Year 2014 and Miss National Renaissance 2016. She is a former #Fembot backup dancer for International Superstar Andy Bell from the 1980s group Erasure. Trinity is a glamazon of epic proportions.",
+        "eventCover"   : 'Free before 10pm | Free with College ID before 11pm | $5 for 21+ | $10 for 18-20',
+        "eventLink"    : 'special-events/' + 'trinity-taylor-at-necto-nightclub-ann-arbor-michigan-apr-7th-2017.html',
+        "eventSocial"  : 'https://www.facebook.com/events/404739289895493/',
+        "eventTix"     : 'none',
+        "eventImgTall" : 'img/event-images/' + 'trinity-taylor-at-necto-nightclub-ann-arbor.jpg',
+        "eventImgWide" : 'img/event-images/' + 'trinity-taylor-at-necto-nightclub-ann-arbor.jpg',
         "eventWklOvrd" : true,
         "eventDay"     : 0, // Do not modify
         "pastEvent"    : false // Do not modify

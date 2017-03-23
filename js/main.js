@@ -34,6 +34,7 @@ var videosThurs = [
     "https://www.youtube.com/embed/pAl8vVPh6a8?ecver=1",
     "https://www.youtube.com/embed/pFapnjwvuBk?ecver=1",
     "https://www.youtube.com/embed/LGajm9WIb10?ecver=1",
+    "https://www.youtube.com/embed/xcxTj61GEfg?ecver=1",
 ];
 
 var videosFri = [

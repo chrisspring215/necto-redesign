@@ -1,6 +1,6 @@
 # write-html.py
 
-f = open('helloworld.html','w')
+f = open('helloworld2.html','w')
 
 message = """<html>
 <head></head>

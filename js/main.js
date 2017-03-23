@@ -35,14 +35,17 @@ var videosThurs = [
     "https://www.youtube.com/embed/pFapnjwvuBk?ecver=1",
     "https://www.youtube.com/embed/LGajm9WIb10?ecver=1",
     "https://www.youtube.com/embed/xcxTj61GEfg?ecver=1",
+    "https://www.youtube.com/embed/N-Cc_telSsA?ecver=1",
 ];
 
 var videosFri = [
     "https://www.youtube.com/embed/4VOIXPOnfSM?ecver=1",
+    "https://www.youtube.com/embed/N-Cc_telSsA?ecver=1",
 ];
 
 var videosSat = [
     "https://www.youtube.com/embed/4VOIXPOnfSM?ecver=1",
+    "https://www.youtube.com/embed/N-Cc_telSsA?ecver=1",
 ];
 
 // Populates videos on the Weekly event pages

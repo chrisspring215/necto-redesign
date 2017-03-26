@@ -1471,7 +1471,7 @@ var events = [
         "eventArtist"  : "MATOMA",
         "eventDescLong": "Norway's Tom Stræte Lagergren (aka Matoma) is a DJ and producer known for his dance-oriented, tropical house music. By 2014, he started to gain international recognition for his Matoma remixes, including cuts for Jessie J, Akon, Enrique Iglesias, and others. In 2015, he scored a hit in Europe with a remix of Notorious B.I.G.'s 'Old Thing Back.' Also in 2015, Lagergren released his own debut single as Matoma, 'Feeling Right (Everything Is Nice),' featuring rapper Wale and Jamaican dancehall singer Popcaan.",
         "eventCover"   : "N/A",
-        "eventLink"    : "special-events/" + "matoma-at-necto-nightclub-ann-arbor.jpg",
+        "eventLink"    : "special-events/" + "matoma-at-necto-nightclub-ann-arbor-michigan-apr-6th-2016.html",
         "eventSocial"  : "https://www.facebook.com/events/1674679269461471/",
         "eventTix"     : "none",
         "eventImgWide" : "img/event-images/" + "matoma-at-necto-nightclub-ann-arbor.jpg",
@@ -1615,6 +1615,328 @@ var events = [
         "eventSocial"  : "https://www.facebook.com/events/232258070446153/",
         "eventTix"     : "none",
         "eventImgWide" : "img/event-images/" + "j-phlip-movement-pre-party-at-necto-nightclub-ann-arbor.png",
+        //"eventWklOvrd" : true,
+        "eventDay"     : 0, // Do not modify
+        "pastEvent"    : false // Do not modify
+    },
+    {
+        "eventDate"    : new Date("Feb 15, 2016 20:00:00"),
+        "eventName"    : "Broken Hearts Ball 2016",
+        "eventArtist"  : "Broken Hearts Ball 2016",
+        "eventDescLong": "The Broken Hearts Ball 2016. The cards, the candy, the flowers and everything that goes with it can burn in Hell as far as we're concerned. No couples specials, no get your picture taken with your true love. Let us celebrate those feelings of loneliness and burning bitter hate that keeps us warm on those cold winter nights.",
+        "eventCover"   : "N/A",
+        "eventLink"    : "special-events/" + "broken-hearts-ball-2016-at-necto-nightclub-ann-arbor-michigan-feb-15th-2016.html",
+        "eventSocial"  : "",
+        "eventTix"     : "none",
+        "eventImgWide" : "img/event-images/" + "broken-hearts-ball-2016-at-necto-nightclub-ann-arbor.png",
+        //"eventWklOvrd" : true,
+        "eventDay"     : 0, // Do not modify
+        "pastEvent"    : false // Do not modify
+    },
+    {
+        "eventDate"    : new Date("Feb 13, 2016 20:00:00"),
+        "eventName"    : "Plastic Passion in the Red Room",
+        "eventArtist"  : "Plastic Passion in the Red Room",
+        "eventDescLong": "Plastic Passion presents... your favorite 70s/80s/90s : Retro : New Wave : Alternative : Industrial : Synthpop : PostPunk : Electro : Shoegaze music in the Red Room with DJ Josh, Slofu & Matt Hanchon.",
+        "eventCover"   : "N/A",
+        "eventLink"    : "special-events/" + "plastic-passion-at-necto-nightclub-ann-arbor-michigan-feb-13th-2016.html",
+        "eventSocial"  : "",
+        "eventTix"     : "none",
+        "eventImgWide" : "img/event-images/" + "plastic-passion-feb-13th-at-necto-nightclub-ann-arbor.png",
+        //"eventWklOvrd" : true,
+        "eventDay"     : 0, // Do not modify
+        "pastEvent"    : false // Do not modify
+    },
+    {
+        "eventDate"    : new Date("Feb 12, 2016 20:00:00"),
+        "eventName"    : "Dragster presents... Max & Mrs Kasha Davis",
+        "eventArtist"  : "Dragster presents... Max & Mrs Kasha Davis",
+        "eventDescLong": "From RuPauls Drag Race Season 7 Max Malanaphy or simply known as “MAX“ is from Hudson, Wisconsin. Max was 22 years old during season 7 and was born in Portsmouth, New Hampshire. She was a contestant on Season 7 of RuPauls Drag Race. She was the 7th queen eliminated and is in 8th position. Mrs. Kasha Davis is the stage name of Ed Popil, a drag performer from Rochester, New York. She was one of the 14 contestants to compete on Season 7 of RuPauls Drag Race.",
+        "eventCover"   : "N/A",
+        "eventLink"    : "special-events/" + "max-and-mrs-kasha-davis-at-necto-nightclub-ann-arbor-michigan-feb-12th-2016.html",
+        "eventSocial"  : "",
+        "eventTix"     : "none",
+        "eventImgWide" : "img/event-images/" + "max-and-mrs-kasha-davis-at-necto-nightclub-ann-arbor.png",
+        //"eventWklOvrd" : true,
+        "eventDay"     : 0, // Do not modify
+        "pastEvent"    : false // Do not modify
+    },
+    {
+        "eventDate"    : new Date("Feb 11, 2016 20:00:00"),
+        "eventName"    : "UM Top DJ Competition 2016",
+        "eventArtist"  : "UM Top DJ Competition 2016",
+        "eventDescLong": "Get involved in the riotous party that is Necto’s second annual UM Top DJ Competition on Feb 11 at the Necto Nightclub in Ann Arbor, MI.",
+        "eventCover"   : "N/A",
+        "eventLink"    : "special-events/" + "um-top-dj-competition-at-necto-nightclub-ann-arbor-michigan-feb-11th-2016.html",
+        "eventSocial"  : "",
+        "eventTix"     : "none",
+        "eventImgWide" : "img/event-images/" + "um-top-dj-competition-2016-at-necto-nightclub-ann-arbor.png",
+        //"eventWklOvrd" : true,
+        "eventDay"     : 0, // Do not modify
+        "pastEvent"    : false // Do not modify
+    },
+    {
+        "eventDate"    : new Date("Feb 9, 2016 20:00:00"),
+        "eventName"    : "Deep House Yoga",
+        "eventArtist"  : "Deep House Yoga",
+        "eventDescLong": "Southpaw events presents... Deep House Yoga, featuring a mixed level vinyasa-flow led by Carol Ann Manown, and soothing, upbeat vibrations courtesy of Adam Westing. Necto's production will be fully utilized to immerse each yogi in a wave of light and sound on the main dancefloor. This comfortable atmosphere is accepting of all skill levels. Mats are available for rent, and water will be available for purchase.",
+        "eventCover"   : "N/A",
+        "eventLink"    : "special-events/" + "deep-house-yoga-at-necto-nightclub-ann-arbor-michigan-feb-9th-2016.html",
+        "eventSocial"  : "",
+        "eventTix"     : "none",
+        "eventImgWide" : "img/event-images/" + "deep-house-yoga-2-at-necto-nightclub-ann-arbor.png",
+        //"eventWklOvrd" : true,
+        "eventDay"     : 0, // Do not modify
+        "pastEvent"    : false // Do not modify
+    },
+    {
+        "eventDate"    : new Date("Feb 8, 2016 20:00:00"),
+        "eventName"    : "Factory Mardi Gras",
+        "eventArtist"  : "Factory Mardi Gras",
+        "eventDescLong": "Factory always throws the craziest Mardi Gras Parties! Come celebrate New Orleans style with one of the longest running Goth-Industrial nights in the US. Always featuring local talents spinning Goth-Industrial, EBM, Alternative, Cyberpunk and Synth-pop in the Main Room. Madisi plays bass driven dance music in the Red Room. Hosted by MC Yoda.",
+        "eventCover"   : "N/A",
+        "eventLink"    : "special-events/" + "factory-mardi-gras-at-necto-nightclub-ann-arbor-michigan-feb-8th-2016.html",
+        "eventSocial"  : "",
+        "eventTix"     : "none",
+        "eventImgWide" : "img/event-images/" + "factory-mardi-gras-2016-at-necto-nightclub-ann-arbor.png",
+        //"eventWklOvrd" : true,
+        "eventDay"     : 0, // Do not modify
+        "pastEvent"    : false // Do not modify
+    },
+    {
+        "eventDate"    : new Date("Feb 6, 2016 20:00:00"),
+        "eventName"    : "Downtown Underground in the Red Room",
+        "eventArtist"  : "Downtown Underground in the Red Room",
+        "eventDescLong": "Downtown Underground in the Red Room is an idea that DJ Selina Style has been working on for most of the last year, exploring and collecting and refining just the right sound for an irresistible groove. You'll hear roots and remixes, neo-soul and funky house, electro blues and boogie, and slow jamz your hips can't ignore. It will be your Saturday night refuge for the grown 'n sexy -- a place where you can sit back with your drink and bob your head or get up and dance, do what you feel.",
+        "eventCover"   : "N/A",
+        "eventLink"    : "special-events/" + "downtown-underground-at-necto-nightclub-ann-arbor-michigan-feb-6th-2016.html",
+        "eventSocial"  : "",
+        "eventTix"     : "none",
+        "eventImgWide" : "img/event-images/" + "downtown-underground-at-necto-nightclub-ann-arbor.png",
+        //"eventWklOvrd" : true,
+        "eventDay"     : 0, // Do not modify
+        "pastEvent"    : false // Do not modify
+    },
+    {
+        "eventDate"    : new Date("Feb 6, 2016 20:00:00"),
+        "eventName"    : "Frequency Mardi Gras",
+        "eventArtist"  : "Frequency Mardi Gras",
+        "eventDescLong": "Frequency ramps up the volume for Mardi Gras! Join DJ Hardy & MC Yoda for the hottest club night in Southeast Michigan. The dance floor will be packed from the best Top 40, House & Hip Hop Tracks. Don't let your weekend down. Let's get Turnt Up!",
+        "eventCover"   : "N/A",
+        "eventLink"    : "special-events/" + "frequency-mardi-gras-at-necto-nightclub-ann-arbor-michigan-feb-6th-2016.html",
+        "eventSocial"  : "",
+        "eventTix"     : "none",
+        "eventImgWide" : "img/event-images/" + "mardi-gras-2016-at-necto-nightclub-ann-arbor.png",
+        //"eventWklOvrd" : true,
+        "eventDay"     : 0, // Do not modify
+        "pastEvent"    : false // Do not modify
+    },
+    {
+        "eventDate"    : new Date("Feb 6, 2016 20:00:00"),
+        "eventName"    : "J Phlip: LUMINATE FASHION SHOW",
+        "eventArtist"  : "J Phlip: LUMINATE FASHION SHOW",
+        "eventDescLong": "Join SHEI Magazine, the University of Michigan's premiere student-run fashion and culture publication and MRelay for LUMINATE. This year SHEI's Spring Fashion Show will be held at Necto and proceeds will benefit Relay for Life.",
+        "eventCover"   : "N/A",
+        "eventLink"    : "special-events/" + "j-phlip-lumonate-fashion-show-at-necto-nightclub-ann-arbor-michigan-feb-6th-2016.html",
+        "eventSocial"  : "",
+        "eventTix"     : "none",
+        "eventImgWide" : "img/event-images/" + "shei-magazine-luminate-fashion-show-at-necto-nightclub-ann-arbor.png",
+        //"eventWklOvrd" : true,
+        "eventDay"     : 0, // Do not modify
+        "pastEvent"    : false // Do not modify
+    },
+    {
+        "eventDate"    : new Date("Feb 5, 2016 20:00:00"),
+        "eventName"    : "Pride Mardi Gras",
+        "eventArtist"  : "Pride Mardi Gras",
+        "eventDescLong": "This Friday join the Necto Pride Family as we celebrate Mardi Gras with DJ Jace, Jason Michael, DVJ Mark, Chanel Hunter & Jadein Black. We'll be giving away beads all night to only the sexiest of sinners.",
+        "eventCover"   : "N/A",
+        "eventLink"    : "special-events/" + "pride-mardi-gras-2016-at-necto-nightclub-ann-arbor-michigan-feb-5th-2016.html",
+        "eventSocial"  : "",
+        "eventTix"     : "none",
+        "eventImgWide" : "img/event-images/" + "pride-mardi-gras-2016-at-necto-nightclub-ann-arbor.png",
+        //"eventWklOvrd" : true,
+        "eventDay"     : 0, // Do not modify
+        "pastEvent"    : false // Do not modify
+    },
+    {
+        "eventDate"    : new Date("Feb 4, 2016 20:00:00"),
+        "eventName"    : "College Night Mardi Gras",
+        "eventArtist"  : "College Night Mardi Gras",
+        "eventDescLong": "Join Necto for University of Michigan's favorite Nightclub & the biggest college night in Southeast Michigan. This Thursday we celebrate Mardi Gras! We'll be giving away tons of beads all night.",
+        "eventCover"   : "N/A",
+        "eventLink"    : "special-events/" + "college-night-mardi-gras-at-necto-nightclub-ann-arbor-michigan-feb-4th-2016.html",
+        "eventSocial"  : "",
+        "eventTix"     : "none",
+        "eventImgWide" : "img/event-images/" + "mardi-gras-2016-at-necto-nightclub-ann-arbor.png",
+        //"eventWklOvrd" : true,
+        "eventDay"     : 0, // Do not modify
+        "pastEvent"    : false // Do not modify
+    },
+    {
+        "eventDate"    : new Date("Feb 3, 2016 20:00:00"),
+        "eventName"    : "Kap Slap",
+        "eventArtist"  : "Kap Slap",
+        "eventDescLong": "Jared Lucas is a 25 year old DJ/Producer based outside of New York City. Initially recognized for his signature EDM/top 40 bootlegs that tailor to the college scene, Kap Slap now begins a new chapter of his career. Now that he has graduated from Lehigh University, Jared has the time and resources needed to pursue his dream and create his own original productions. His substantial fan base gained through mashups anxiously await his debut single, which is sure to exceed expectations.",
+        "eventCover"   : "N/A",
+        "eventLink"    : "special-events/" + "kap-slap-at-necto-nightclub-ann-arbor-michigan-feb-3rd-2016.html",
+        "eventSocial"  : "https://www.facebook.com/events/1507312296237063/",
+        "eventTix"     : "none",
+        "eventImgWide" : "img/event-images/" + "kap-slap-at-necto-nightclub-ann-arbor.png",
+        //"eventWklOvrd" : true,
+        "eventDay"     : 0, // Do not modify
+        "pastEvent"    : false // Do not modify
+    },
+    {
+        "eventDate"    : new Date("Jan 31, 2016 20:00:00"),
+        "eventName"    : "Miss Necto 2016",
+        "eventArtist"  : "Miss Necto 2016",
+        "eventDescLong": "Hosted by Chanel Hunter & Jadein Black. Honoring Destiny DeVil Miss Necto Professional 2015 & Emma Sapphire Miss Necto Amateur 2015. For more info or to apply please contact: missnecto@gmail.com",
+        "eventCover"   : "N/A",
+        "eventLink"    : "special-events/" + "miss-necto-pro-am-pageant-2016-at-necto-nightclub-ann-arbor-michigan-jan-31st-2016.html",
+        "eventSocial"  : "",
+        "eventTix"     : "none",
+        "eventImgWide" : "img/event-images/" + "miss-necto-pro-am-2016-at-necto-nightclub-ann-arbor.png",
+        //"eventWklOvrd" : true,
+        "eventDay"     : 0, // Do not modify
+        "pastEvent"    : false // Do not modify
+    },
+    {
+        "eventDate"    : new Date("Jan 28, 2016 20:00:00"),
+        "eventName"    : "College Night Pajama Party",
+        "eventArtist"  : "College Night Pajama Party",
+        "eventDescLong": "Join Channel 955's Joey at University of Michigan's favorite Nightclub for the biggest college night in Southeast Michigan. This Thursday let's hang out at the craziest University Pajama Party! No pillow fighting on the dance floor please!<br>Every week DJ Hardy and Nick Donovan spin the best Top 40, House & Hip Hop in the Main Room. In the Red Room MEDMA will be playing the hottest EDM Tracks.<br>Doors open at 10pm. 18 & over are welcome with proper ID & attire. Cover is free with College ID<br>Drink Specials: $2.50 Fireball shots, $3.50 well drinks, 3 for $10 call bombs, $2 PBR and $2 Miller Lites Necto voted best Best College Night by Real Detroit Weekly & Best Dance Club by Metro Times.",
+        "eventCover"   : "N/A",
+        "eventLink"    : "special-events/" + "pajama-party-college-night-thursday-at-necto-nightclub-ann-arbor-michigan-jan-28th-2016.html",
+        "eventSocial"  : "",
+        "eventTix"     : "none",
+        "eventImgWide" : "img/event-images/" + "pajama-party-college-night-at-necto-nightclub-ann-arbor.png",
+        //"eventWklOvrd" : true,
+        "eventDay"     : 0, // Do not modify
+        "pastEvent"    : false // Do not modify
+    },
+    {
+        "eventDate"    : new Date("Jan 21, 2016 20:00:00"),
+        "eventName"    : "Neon Jungle",
+        "eventArtist"  : "Neon Jungle",
+        "eventDescLong": "Join Channel 955's Joey at University of Michigan's favorite Nightclub for the biggest college night in Southeast Michigan. This Thursday let's get FREAKY at Necto's NEON JUNGLE PARTY! Everything looks sexier under black light!<br>Every week DJ Hardy and Nick Donovan spin the best Top 40, House & Hip Hop in the Main Room. In the Red Room MEDMA will be playing the hottest EDM Tracks.<br>Doors open at 10pm. 18 & over are welcome with proper ID & attire. Cover is free with College ID<br>Drink Specials: $2.50 Fireball shots, $3.50 well drinks, 3 for $10 call bombs, $2 PBR and $2 Miller Lites Necto voted best Best College Night by Real Detroit Weekly & Best Dance Club by Metro Times.",
+        "eventCover"   : "N/A",
+        "eventLink"    : "special-events/" + "neon-jungle-college-night-thursday-at-necto-nightclub-ann-arbor-michigan-jan-21st-2016.html",
+        "eventSocial"  : "",
+        "eventTix"     : "none",
+        "eventImgWide" : "img/event-images/" + "neon-jungle-uom-college-night-at-necto-nightclub-ann-arbor.png",
+        //"eventWklOvrd" : true,
+        "eventDay"     : 0, // Do not modify
+        "pastEvent"    : false // Do not modify
+    },
+    {
+        "eventDate"    : new Date("Jan 15, 2016 20:00:00"),
+        "eventName"    : "Dragster featuring KATYA",
+        "eventArtist"  : "Dragster featuring KATYA",
+        "eventDescLong": "Dragster featuring KATYA from RuPaul's Drag Race Season 7 & Fan Favorite | hosted By Chanel Hunter & Jadein Black ",
+        "eventCover"   : "N/A",
+        "eventLink"    : "special-events/" + "dragster-katya-at-necto-nightclub-ann-arbor-michigan-jan-15th-2016.html",
+        "eventSocial"  : "",
+        "eventTix"     : "none",
+        "eventImgWide" : "img/event-images/" + "katya-at-necto-nightclub-ann-arbor.png",
+        //"eventWklOvrd" : true,
+        "eventDay"     : 0, // Do not modify
+        "pastEvent"    : false // Do not modify
+    },
+    {
+        "eventDate"    : new Date("Jan 14, 2016 20:00:00"),
+        "eventName"    : "MEDMA Impulse 3",
+        "eventArtist"  : "MEDMA Impulse 3",
+        "eventDescLong": "MEDMA celebrates the new semester with raw, gritty, and primal music in the basement of Necto on January 14th. Attire is jungle-inspired.",
+        "eventCover"   : "N/A",
+        "eventLink"    : "special-events/" + "medma-impulse-3-at-necto-nightclub-ann-arbor-michigan-jan-14th-2016.html",
+        "eventSocial"  : "",
+        "eventTix"     : "none",
+        "eventImgWide" : "img/event-images/" + "medma-impulse-3-at-necto-nightclub-ann-arbor.png",
+        //"eventWklOvrd" : true,
+        "eventDay"     : 0, // Do not modify
+        "pastEvent"    : false // Do not modify
+    },
+    {
+        "eventDate"    : new Date("Jan 14, 2016 20:00:00"),
+        "eventName"    : "Toga Party",
+        "eventArtist"  : "Toga Party",
+        "eventDescLong": "Join Channel 955's Joey at University of Michigan's favorite Nightclub for the biggest college night in Southeast Michigan. This Thursday we celebrate a college night tradition... TOGA! Let's Rage!<br>Every week DJ Hardy and Nick Donovan spin the best Top 40, House & Hip Hop in the Main Room. In the Red Room MEDMA will be playing the hottest EDM Tracks.<br>Doors open at 10pm. 18 & over are welcome with proper ID & attire. Cover is free with College ID<br>Drink Specials: $2.50 Fireball shots, $3.50 well drinks, 3 for $10 call bombs, $2 PBR and $2 Miller Lites Necto voted best Best College Night by Real Detroit Weekly & Best Dance Club by Metro Times.",
+        "eventCover"   : "N/A",
+        "eventLink"    : "special-events/" + "toga-party-college-night-thursday-at-necto-nightclub-ann-arbor-michigan-jan-14th-2016.html",
+        "eventSocial"  : "",
+        "eventTix"     : "none",
+        "eventImgWide" : "img/event-images/" + "toga-party-college-night-at-necto-nightclub-ann-arbor.png",
+        //"eventWklOvrd" : true,
+        "eventDay"     : 0, // Do not modify
+        "pastEvent"    : false // Do not modify
+    },
+    {
+        "eventDate"    : new Date("Jan 9, 2016 20:00:00"),
+        "eventName"    : "Plastic Passion",
+        "eventArtist"  : "Plastic Passion",
+        "eventDescLong": "DJ Mikey joins resident Josh Burge for another mix of modern synth and retro 80s and 90s new wave, postpunk, and industrial. More Info",
+        "eventCover"   : "N/A",
+        "eventLink"    : "special-events/" + "plastic-passion-at-necto-nightclub-ann-arbor-michigan-jan-09th-2016.html",
+        "eventSocial"  : "",
+        "eventTix"     : "none",
+        "eventImgWide" : "img/event-images/" + "plastic-passion-1-9-2016-at-necto-nightclub-ann-arbor.png",
+        //"eventWklOvrd" : true,
+        "eventDay"     : 0, // Do not modify
+        "pastEvent"    : false // Do not modify
+    },
+    {
+        "eventDate"    : new Date("Jan 7, 2016 20:00:00"),
+        "eventName"    : "Welcome Back Night",
+        "eventArtist"  : "Welcome Back Night",
+        "eventDescLong": "Join Channel 955's Joey at University of Michigan's favorite Nightclub for the biggest college night in Southeast Michigan. Hang with us this Thursday January 7th as we Welcome Student's Back to the College Night Bump & Grind!<br>Every week DJ Hardy and Nick Donovan spin the best Top 40, House & Hip Hop in the Main Room. In the Red Room MEDMA will be playing the hottest EDM Tracks.<br>Doors open at 10pm. 18 & over are welcome with proper ID & attire. Cover is free with College ID<br>Drink Specials: $2.50 Fireball shots, $3.50 well drinks, 3 for $10 call bombs, $2 PBR and $2 Miller Lites Necto voted best Best College Night by Real Detroit Weekly & Best Dance Club by Metro Times.",
+        "eventCover"   : "N/A",
+        "eventLink"    : "special-events/" + "welcome-back-uom-college-thursday-at-necto-nightclub-ann-arbor-michigan-jan-7th-2016.html",
+        "eventSocial"  : "",
+        "eventTix"     : "none",
+        "eventImgWide" : "img/event-images/" + "welcome-back-uom-college-night-at-necto-nightclub-ann-arbor.png",
+        //"eventWklOvrd" : true,
+        "eventDay"     : 0, // Do not modify
+        "pastEvent"    : false // Do not modify
+    },
+    {
+        "eventDate"    : new Date("Jan 7, 2016 20:00:00"),
+        "eventName"    : "Deep House Yoga",
+        "eventArtist"  : "Deep House Yoga",
+        "eventDescLong": "Welcome to the first DHY class of 2016, featuring a mixed level vinyasa-flow led by Carol Ann Manown, and soothing, upbeat vibrations courtesy of alissa.jo. Necto's production will be fully utilized to immerse each yogi in a wave of light and sound on the main dancefloor. This comfortable atmosphere is accepting of all skill levels. Mats are available for rent, and water will be available for purchase.<br>Mat Rental - $2, Water - $1",
+        "eventCover"   : "N/A",
+        "eventLink"    : "special-events/" + "deep-house-yoga-necto-nightclub-ann-arbor-michigan-jan-7th-2016.html",
+        "eventSocial"  : "",
+        "eventTix"     : "none",
+        "eventImgWide" : "img/event-images/" + "deep-house-yoga-at-necto-nightclub-ann-arbor.png",
+        //"eventWklOvrd" : true,
+        "eventDay"     : 0, // Do not modify
+        "pastEvent"    : false // Do not modify
+    },
+    {
+        "eventDate"    : new Date("Jan 2, 2016 20:00:00"),
+        "eventName"    : "Downtown Underground",
+        "eventArtist"  : "Downtown Underground",
+        "eventDescLong": "Selina Style spins Funk, Future R&smp;B, House, Electro Boogie, Deep House, Nu Disco, Roots, Bump &smp; Grind and Soulful Hip Hop",
+        "eventCover"   : "N/A",
+        "eventLink"    : "special-events/" + "downtown-underground-with-selina-style-at-necto-nightclub-ann-arbor-michigan-jan-2nd-2016.html",
+        "eventSocial"  : "",
+        "eventTix"     : "none",
+        "eventImgWide" : "img/event-images/" + "downtown-underground-at-necto-nightclub-ann-arbor.png",
+        //"eventWklOvrd" : true,
+        "eventDay"     : 0, // Do not modify
+        "pastEvent"    : false // Do not modify
+    },
+    {
+        "eventDate"    : new Date("Jan 1, 2016 20:00:00"),
+        "eventName"    : "Pride Rehab",
+        "eventArtist"  : "Pride Rehab",
+        "eventDescLong": "Join the Necto Pride Family as we all have a little hair of the dog! Cover is Free for everyone until midnight. 1/2 Off all Drinks, Beers & Shots until 11pm, $2 Long Islands until 11pm, $2 Vodka drinks all night 3 for $10 bombs all night. We will also be offering a special drink menu to help cure all that ails you! Let's keep the party going & celebrate the beginning of 2016 together!",
+        "eventCover"   : "N/A",
+        "eventLink"    : "special-events/" + "pride-rehab-at-necto-nightclub-ann-arbor-michigan-jan-1st-2016.html",
+        "eventSocial"  : "",
+        "eventTix"     : "none",
+        "eventImgWide" : "img/event-images/" + "pride-rehab-at-necto-nightclub-ann-arbor.png",
         //"eventWklOvrd" : true,
         "eventDay"     : 0, // Do not modify
         "pastEvent"    : false // Do not modify

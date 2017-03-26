@@ -163,22 +163,6 @@ var events = [
         "pastEvent"    : false // Do not modify
     },
     {
-        "eventDate"    : new Date("mar 26, 2017 21:00:00"),
-        "eventName"    : "Queens for the Cure",
-        "eventArtist"  : "Queens for the Cure",
-        "eventDesc"    : "Pardon Moi French Presents: Queens For The Cure Tour<br>Benefiting Until There’s A Cure & various local charities! Starring: Detox Icunt, Ivy Winters, Jade Jolie, Manila Luzon, Pandora Boxxx, Sharon Needles, Victoria “Porkchop” Parker, ***Cast subject to change",
-        "eventDescLong": "Pardon Moi French Presents: Queens For The Cure Tour<br>Benefiting Until There’s A Cure & various local charities!<br><br>Starring:<br>Detox Icunt<br>Ivy Winters<br>Jade Jolie<br>Manila Luzon<br>Pandora Boxxx<br>Sharon Needles<br>Victoria “Porkchop” Parker<br>***Cast subject to change",
-        "eventCover"   : "$29.50 - $199.50",
-        "eventLink"    : "special-events/" + "queens-for-the-cure-at-necto-nightclub-ann-arbor-michigan-mar-26th-2017.html",
-        "eventSocial"  : "https://www.facebook.com/events/800921743394027/",
-        "eventTix"     : "https://www.ticketor.com/pardonmoifrench/tickets/ann-arbor-queens-for-the-cure-tour-40654#buy",
-        "eventImgTall" : "img/event-images/" + "queens-for-the-cure-at-necto-nightclub-ann-arbor.jpg",
-        "eventImgWide" : "img/event-images/" + "queens-for-the-cure-at-necto-nightclub-ann-arbor.jpg",
-        "eventWklOvrd" : false,
-        "eventDay"     : 0, // Do not modify
-        "pastEvent"    : false // Do not modify
-    },
-    {
         "eventDate"    : new Date("mar 29, 2017 18:30:00"),
         "eventName"    : "Underground Yoga - Deep House Vinyasa",
         "eventArtist"  : "Underground Yoga",
@@ -190,6 +174,22 @@ var events = [
         "eventTix"     : "http://bit.ly/UYNecto329",
         "eventImgTall" : "img/event-images/" + "underground-yoga-mar-29th-2017-at-necto-nightclub-ann-arbor.jpeg",
         "eventImgWide" : "img/event-images/" + "underground-yoga-mar-29th-2017-at-necto-nightclub-ann-arbor.jpeg",
+        "eventWklOvrd" : false,
+        "eventDay"     : 0, // Do not modify
+        "pastEvent"    : false // Do not modify
+    },
+    {
+        "eventDate"    : new Date("mar 26, 2017 21:00:00"),
+        "eventName"    : "Queens for the Cure",
+        "eventArtist"  : "Queens for the Cure",
+        "eventDesc"    : "Pardon Moi French Presents: Queens For The Cure Tour<br>Benefiting Until There’s A Cure & various local charities! Starring: Detox Icunt, Ivy Winters, Jade Jolie, Manila Luzon, Pandora Boxxx, Sharon Needles, Victoria “Porkchop” Parker, ***Cast subject to change",
+        "eventDescLong": "Pardon Moi French Presents: Queens For The Cure Tour<br>Benefiting Until There’s A Cure & various local charities!<br><br>Starring:<br>Detox Icunt<br>Ivy Winters<br>Jade Jolie<br>Manila Luzon<br>Pandora Boxxx<br>Sharon Needles<br>Victoria “Porkchop” Parker<br>***Cast subject to change",
+        "eventCover"   : "$29.50 - $199.50",
+        "eventLink"    : "special-events/" + "queens-for-the-cure-at-necto-nightclub-ann-arbor-michigan-mar-26th-2017.html",
+        "eventSocial"  : "https://www.facebook.com/events/800921743394027/",
+        "eventTix"     : "https://www.ticketor.com/pardonmoifrench/tickets/ann-arbor-queens-for-the-cure-tour-40654#buy",
+        "eventImgTall" : "img/event-images/" + "queens-for-the-cure-at-necto-nightclub-ann-arbor.jpg",
+        "eventImgWide" : "img/event-images/" + "queens-for-the-cure-at-necto-nightclub-ann-arbor.jpg",
         "eventWklOvrd" : false,
         "eventDay"     : 0, // Do not modify
         "pastEvent"    : false // Do not modify

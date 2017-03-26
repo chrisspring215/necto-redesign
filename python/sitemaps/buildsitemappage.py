@@ -1,7 +1,38 @@
 
-f = open('../../sitemap2.html','w')
+f = open('../../sitemap.html','w')
 
-cat = "<h1>Chris</h1>"
+mainJS = open('../../js/main.js', 'r')
+file_contents = mainJS.read()
+
+import re
+# removes front part of object
+a = file_contents.partition('var events = [')[2]
+
+# removes back part of object
+b = a.partition(']')[0]
+
+#removes all spacing
+c = re.sub('[\s+]', '', b)
+e = re.split('"special-events/""(.*?)","eventSocial":"', c)
+h = len(e)
+
+listItemStart = '<li><a href="special-events/'
+listItemMid = '">'
+listItemEnd = '</a></li>'
+
+theListArray = []
+
+
+def makeList(url) :
+ theListArray.append(listItemStart + url + listItemMid + url + listItemEnd)
+
+prelist = (i for i in range(1,h) if i%2!=0)
+for i in prelist:
+    makeList(e[i])
+
+
+theListString = ''.join(theListArray)
+
 
 head = """<!doctype html>
 <html class="no-js" lang="">
@@ -10,7 +41,7 @@ head = """<!doctype html>
       <meta http-equiv="x-ua-compatible" content="ie=edge">
       <meta name="viewport" content="width=device-width, initial-scale=1">
 
-      <title>Sitemap | Necto Nightclub | Ann Arbor ,MI</title>
+      <title>Sitemap | Necto Nightclub | Ann Arbor, MI</title>
       <meta name="description" content="A list of web pages found on Necto.com, the website for the Necto Nightclub in Ann Arbor, MI.">
       
       <base href="" id="baseTag">
@@ -93,7 +124,7 @@ head = """<!doctype html>
           <h2 class="page-section-sub-header">EVENTS</h2>
           <ul>
 """ 
-body = cat
+
 
 close = """
 </ul>
@@ -193,7 +224,7 @@ close = """
 </html>
 """
 
-message = head + body + close
+message = head + theListString + close
 
 f.write(message)
 f.close()

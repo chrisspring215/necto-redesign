@@ -41,6 +41,7 @@ var videosThurs = [
 var videosFri = [
     "https://www.youtube.com/embed/4VOIXPOnfSM?ecver=1",
     "https://www.youtube.com/embed/N-Cc_telSsA?ecver=1",
+    "https://www.youtube.com/embed/sBxWRXFz2r8",
 ];
 
 var videosSat = [
@@ -1463,7 +1464,161 @@ var events = [
         //"eventWklOvrd" : true,
         "eventDay"     : 0, // Do not modify
         "pastEvent"    : false // Do not modify
-    },   
+    },
+    {
+        "eventDate"    : new Date("Apr 6, 2016 21:00:00"),
+        "eventName"    : "MATOMA",
+        "eventArtist"  : "MATOMA",
+        "eventDescLong": "Norway's Tom Stræte Lagergren (aka Matoma) is a DJ and producer known for his dance-oriented, tropical house music. By 2014, he started to gain international recognition for his Matoma remixes, including cuts for Jessie J, Akon, Enrique Iglesias, and others. In 2015, he scored a hit in Europe with a remix of Notorious B.I.G.'s 'Old Thing Back.' Also in 2015, Lagergren released his own debut single as Matoma, 'Feeling Right (Everything Is Nice),' featuring rapper Wale and Jamaican dancehall singer Popcaan.",
+        "eventCover"   : "N/A",
+        "eventLink"    : "special-events/" + "matoma-at-necto-nightclub-ann-arbor.jpg",
+        "eventSocial"  : "https://www.facebook.com/events/1674679269461471/",
+        "eventTix"     : "none",
+        "eventImgWide" : "img/event-images/" + "matoma-at-necto-nightclub-ann-arbor.jpg",
+        //"eventWklOvrd" : true,
+        "eventDay"     : 0, // Do not modify
+        "pastEvent"    : false // Do not modify
+    },
+    {
+        "eventDate"    : new Date("Apr 2, 2016 21:00:00"),
+        "eventName"    : "Downtown Underground",
+        "eventArtist"  : "Downtown Underground",
+        "eventDescLong": "Downtown Underground in the Red Room is an idea that DJ Selina Style has been working on for most of the last year, exploring and collecting and refining just the right sound for an irresistible groove. You'll hear roots and remixes, neo-soul and funky house, electro blues and boogie, and slow jamz your hips can't ignore. It will be your Saturday night refuge for the grown 'n sexy -- a place where you can sit back with your drink and bob your head or get up and dance, do what you feel.",
+        "eventCover"   : "N/A",
+        "eventLink"    : "special-events/" + "downtown-underground-at-necto-nightclub-ann-arbor-michigan-apr-2nd-2016.html",
+        "eventSocial"  : "https://www.facebook.com/events/975695555850981/",
+        "eventTix"     : "none",
+        "eventImgWide" : "img/event-images/" + "downtown-underground-at-necto-nightclub-ann-arbor.jpg",
+        //"eventWklOvrd" : true,
+        "eventDay"     : 0, // Do not modify
+        "pastEvent"    : false // Do not modify
+    },
+    {
+        "eventDate"    : new Date("Mar 31, 2016 21:00:00"),
+        "eventName"    : "Deep House Yoga",
+        "eventArtist"  : "Deep House Yoga",
+        "eventDescLong": "Southpaw events presents... Deep House Yoga, featuring a mixed level vinyasa-flow led by Carol Ann Manown, and soothing, upbeat vibrations courtesy of Adam Westing. Necto's production will be fully utilized to immerse each yogi in a wave of light and sound on the main dancefloor. This comfortable atmosphere is accepting of all skill levels. Mats are available for rent, and water will be available for purchase.",
+        "eventCover"   : "N/A",
+        "eventLink"    : "special-events/" + "deep-house-yoga-at-necto-nightclub-ann-arbor-michigan-mar-31st-2016.html",
+        "eventSocial"  : "https://www.facebook.com/events/870543933044385/",
+        "eventTix"     : "none",
+        "eventImgWide" : "img/event-images/" + "deep-house-yoga-3-at-necto-nightclub-ann-arbor.jpg",
+        //"eventWklOvrd" : true,
+        "eventDay"     : 0, // Do not modify
+        "pastEvent"    : false // Do not modify
+    },
+    {
+        "eventDate"    : new Date("Mar 21, 2016 21:00:00"),
+        "eventName"    : "Factory Fallout",
+        "eventArtist"  : "Factory Fallout",
+        "eventDescLong": "Secure your place in Factory's post-apocalypse party with DJs Void6, AudioFlesh (Ination / Glitchmode), Madisi, and MC Yoda!",
+        "eventCover"   : "N/A",
+        "eventLink"    : "special-events/" + "factory-fallout-at-necto-nightclub-ann-arbor-michigan-mar-21st-2016.html",
+        "eventSocial"  : "https://www.facebook.com/events/538017979703193/",
+        "eventTix"     : "none",
+        "eventImgWide" : "img/event-images/" + "cal-factory-fallout-at-necto-nightclub-ann-arbor.jpg",
+        //"eventWklOvrd" : true,
+        "eventDay"     : 0, // Do not modify
+        "pastEvent"    : false // Do not modify
+    },
+    {
+        "eventDate"    : new Date("Mar 18, 2016 21:00:00"),
+        "eventName"    : "St Patty's Day Rehab",
+        "eventArtist"  : "St Patty's Day Rehab",
+        "eventDescLong": "Please Do Not Wear Green! We know it was St Patty's Day on Thursday. Come get a little hair of the dog that bit you. Drink Specials & Specialty drink menu all night to cure what ails you!",
+        "eventCover"   : "N/A",
+        "eventLink"    : "special-events/" + "st-pattys-day-rehab-at-necto-nightclub-ann-arbor-michigan-mar-18th-2016.html",
+        "eventSocial"  : "https://www.facebook.com/events/1525957307705526/",
+        "eventTix"     : "none",
+        "eventImgWide" : "img/event-images/" + "st-pattys-day-rehab-at-necto-nightclub-ann-arbor.jpg",
+        //"eventWklOvrd" : true,
+        "eventDay"     : 0, // Do not modify
+        "pastEvent"    : false // Do not modify
+    },
+    {
+        "eventDate"    : new Date("Mar 12, 2016 21:00:00"),
+        "eventName"    : "Plastic Passion",
+        "eventArtist"  : "Plastic Passion",
+        "eventDescLong": "Plastic Passion presents... your favorite 70s/80s/90s : Retro : New Wave : Alternative : Industrial : Synthpop : PostPunk : Electro : Shoegaze music in the Red Room with DJ Josh, Saint & Udenjoe",
+        "eventCover"   : "N/A",
+        "eventLink"    : "special-events/" + "plastic-passion-at-necto-nightclub-ann-arbor-michigan-mar-12th-2016.html",
+        "eventSocial"  : "https://www.facebook.com/PlasticPassion/",
+        "eventTix"     : "none",
+        "eventImgWide" : "img/event-images/" + "plastic-passion-mar-2016-at-necto-nightclub-ann-arbor.jpg",
+        //"eventWklOvrd" : true,
+        "eventDay"     : 0, // Do not modify
+        "pastEvent"    : false // Do not modify
+    },
+    {
+        "eventDate"    : new Date("Mar 11, 2016 21:00:00"),
+        "eventName"    : "Dragster presents... DETOX",
+        "eventArtist"  : "Detox",
+        "eventDescLong": "Detox Icunt, also known mononymously as Detox, is an American drag performer and recording artist. Detox was a fixture in the Southern California drag scene before gaining prominence on the fifth season of RuPaul's Drag Race.",
+        "eventCover"   : "N/A",
+        "eventLink"    : "special-events/" + "detox-dragster-at-necto-nightclub-ann-arbor-michigan-mar-11th-2016.html",
+        "eventSocial"  : "https://www.facebook.com/events/118842751834371/",
+        "eventTix"     : "none",
+        "eventImgWide" : "img/event-images/" + "detox-icunt-at-necto-nightclub-ann-arbor.jpg",
+        //"eventWklOvrd" : true,
+        "eventDay"     : 0, // Do not modify
+        "pastEvent"    : false // Do not modify
+    },
+    {
+        "eventDate"    : new Date("Mar 11, 2016 20:00:00"),
+        "eventName"    : "Mr. Necto King Pageant",
+        "eventArtist"  : "Mr. Necto King Pageant",
+        "eventDescLong": "Join Necto for our 1st annual Mr Necto King Pageant 2016. Hosted by Michael Christian, Thrustin' Bieber & Jadein Black. Contestants will compete for the crown & cash prizes in Creative Costume Presentation & Talent.",
+        "eventCover"   : "N/A",
+        "eventLink"    : "special-events/" + "mr-necto-king-pageant-at-necto-nightclub-ann-arbor-michigan-march-11th-2016.html",
+        "eventSocial"  : "https://www.facebook.com/events/941257092630585/",
+        "eventTix"     : "none",
+        "eventImgWide" : "img/event-images/" + "mr-necto-king-pageant-at-necto-nightclub-ann-arbor.jpg",
+        //"eventWklOvrd" : true,
+        "eventDay"     : 0, // Do not modify
+        "pastEvent"    : false // Do not modify
+    },
+    {
+        "eventDate"    : new Date("Mar 5, 2016 20:00:00"),
+        "eventName"    : "Downtown Underground in the Red Room",
+        "eventArtist"  : "Downtown Underground in the Red Room",
+        "eventDescLong": "Downtown Underground in the Red Room is an idea that DJ Selina Style has been working on for most of the last year, exploring and collecting and refining just the right sound for an irresistible groove. You'll hear roots and remixes, neo-soul and funky house, electro blues and boogie, and slow jamz your hips can't ignore. It will be your Saturday night refuge for the grown 'n sexy -- a place where you can sit back with your drink and bob your head or get up and dance, do what you feel.",
+        "eventCover"   : "N/A",
+        "eventLink"    : "special-events/" + "downtown-underground-at-necto-nightclub-ann-arbor-michigan-mar-5th-2016.html",
+        "eventSocial"  : "https://www.facebook.com/events/1713361248878536/",
+        "eventTix"     : "none",
+        "eventImgWide" : "img/event-images/" + "downtown-underground-at-necto-nightclub-ann-arbor.jpg",
+        //"eventWklOvrd" : true,
+        "eventDay"     : 0, // Do not modify
+        "pastEvent"    : false // Do not modify
+    },
+    {
+        "eventDate"    : new Date("Feb 19, 2016 20:00:00"),
+        "eventName"    : "Jace's Birthday Pajama Party",
+        "eventArtist"  : "Jace's Birthday Pajama Party",
+        "eventDescLong": "It's DJ Jace's Birthday!!! Come celebrate with us as we give SPANKS to one of our favorite DJs! It's a PAJAMA Party... so be sure to wear your bedtime best. Don't forget that Necto has lockers & coat check. We don't want anything or anyone to freeze.",
+        "eventCover"   : "N/A",
+        "eventLink"    : "special-events/" + "jaces-birthday-pajama-party-at-necto-nightclub-ann-arbor-michigan-feb-19th-2016.html",
+        "eventSocial"  : "https://www.facebook.com/events/232258070446153/",
+        "eventTix"     : "none",
+        "eventImgWide" : "img/event-images/" + "jaces-birthday-party-at-necto-nightclub-ann-arbor.png",
+        //"eventWklOvrd" : true,
+        "eventDay"     : 0, // Do not modify
+        "pastEvent"    : false // Do not modify
+    },
+    {
+        "eventDate"    : new Date("Feb 19, 2016 20:00:00"),
+        "eventName"    : "J Phlip: Official Movement Pre-Party",
+        "eventArtist"  : "J Phlip: Official Movement Pre-Party",
+        "eventDescLong": "Jessica Phillippe is diehard, born with true grit and skills to pay the bills. Despite her success with the Dirtybird gang, she's still out there in record stores on the regular... digging, uncovering precious gems and weaving them into her dynamic sets with panache. She's a hard-working, dedicated lady who refuses to compromise and aims to rock the dancefloor without relying on the most obvious tracks. Production-wise she's just as fearsome, lacing her tracks with a tough yet bouncy flavour. Her prowess in both disciplines combined with her infectious sense of fun and mind-boggling depth of knowledge make her one of the most revered DJs on the global circuit today.",
+        "eventCover"   : "N/A",
+        "eventLink"    : "special-events/" + "j-phlip-movement-festival-pre-party-at-necto-nightclub-ann-arbor-michigan-feb-17th-2016.html",
+        "eventSocial"  : "https://www.facebook.com/events/232258070446153/",
+        "eventTix"     : "none",
+        "eventImgWide" : "img/event-images/" + "j-phlip-movement-pre-party-at-necto-nightclub-ann-arbor.png",
+        //"eventWklOvrd" : true,
+        "eventDay"     : 0, // Do not modify
+        "pastEvent"    : false // Do not modify
+    },
 ];
 
 

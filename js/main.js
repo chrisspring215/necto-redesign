@@ -1941,7 +1941,212 @@ var events = [
         "eventDay"     : 0, // Do not modify
         "pastEvent"    : false // Do not modify
     },
+    {
+        "eventDate"    : new Date("Dec 21, 2015 20:00:00"),
+        "eventName"    : "Dark Noel 2015",
+        "eventArtist"  : "Dark Noel 2015",
+        "eventDescLong": "Ho Ho Ho! It's time for our bad Santa to stop by Factory so you can sit on his lap (grinding encouraged) and let him know what you want for Xmas! Santa Jinx will be joined by Yoda the Red Nosed Reindeer and our Mrs Claus, the infamous Triplesix!<br>Wear holiday attire (Ugly sweater, santa, reindeer, elf, etc. costumes) and costumes to get in free all night... a simple santa hat won't work, try harder XD.<br>Sponsored by Evolution Division",
+        "eventCover"   : "N/A",
+        "eventLink"    : "special-events/" + "dark-noel-2015-at-necto-nightclub-ann-arbor-michigan-dec-21st-2015.html",
+        "eventSocial"  : "",
+        "eventTix"     : "none",
+        "eventImgWide" : "img/event-images/" + "dark-noel-2015-at-necto-nightclub-ann-arbor.png",
+        //"eventWklOvrd" : true,
+        "eventDay"     : 0, // Do not modify
+        "pastEvent"    : false // Do not modify
+    },
+    {
+        "eventDate"    : new Date("Dec 18, 2015 20:00:00"),
+        "eventName"    : "Pride Noel",
+        "eventArtist"  : "Pride Noel",
+        "eventDescLong": "Join Chanel (Ms Sandi Claus) Hunter, Ani Briated (her Holiday Helper) & the Necto Pride Crew (Darren, Latrell & Sam) to celebrate the holidays! Get your pics with the gang!<br>Music by DJ Jace & Jason Michael in the Main Room | DVJ Mark in the Red Room",
+        "eventCover"   : "N/A",
+        "eventLink"    : "special-events/" + "pride-noel-at-necto-nightclub-ann-arbor-michigan-dec-18th-2015.html",
+        "eventSocial"  : "",
+        "eventTix"     : "none",
+        "eventImgWide" : "img/event-images/" + "pride-noel-at-necto-nightclub-ann-arbor.png",
+        //"eventWklOvrd" : true,
+        "eventDay"     : 0, // Do not modify
+        "pastEvent"    : false // Do not modify
+    },
+    {
+        "eventDate"    : new Date("Dec 12, 2015 20:00:00"),
+        "eventName"    : "Plastic Passion - All Request Night",
+        "eventArtist"  : "Plastic Passion - All Request Night",
+        "eventDescLong": "Djs spinning 70s/80s/90s: RETRO : NEW WAVE : ALTERNATIVE : INDUSTRIAL : SYNTHPOP : POSTPUNK : ELECTRO : SHOWEGAZE",
+        "eventCover"   : "N/A",
+        "eventLink"    : "special-events/" + "plastic-passion-all-request-night-at-necto-nightclub-ann-arbor-michigan-dec-12th-2015.html",
+        "eventSocial"  : "",
+        "eventTix"     : "none",
+        "eventImgWide" : "img/event-images/" + "plastic-passion-all-request-night-at-necto-nightclub-ann-arbor.png",
+        //"eventWklOvrd" : true,
+        "eventDay"     : 0, // Do not modify
+        "pastEvent"    : false // Do not modify
+    },
+    {
+        "eventDate"    : new Date("Dec 11, 2015 20:00:00"),
+        "eventName"    : "Alyssa Edwards LIVE",
+        "eventArtist"  : "Alyssa Edwards LIVE",
+        "eventDescLong": "Alyssa Edwards, of Rupaul's Drag Race, comes to Necto Pride on Friday December 11th!<br>Alyssa will be performing in our Dragster show along with Chanel Hunter and Jadein Black with their first show at 9:30pm. Alyssa will also perform an encore set at midnight followed by a FREE meet & greet photo opportunity with her fans!<br>Our Pride resident DJs: Jace, DVJ Mark & Jason Michael will be keeping the dance floors moving all night!",
+        "eventCover"   : "N/A",
+        "eventLink"    : "special-events/" + "alyssa-edwards-live-at-necto-nightclub-ann-arbor-michigan-dec-11th-2015.html",
+        "eventSocial"  : "",
+        "eventTix"     : "none",
+        "eventImgWide" : "img/event-images/" + "alyssa-edwardso-at-necto-nightclub-ann-arbor.png",
+        //"eventWklOvrd" : true,
+        "eventDay"     : 0, // Do not modify
+        "pastEvent"    : false // Do not modify
+    },
+    {
+        "eventDate"    : new Date("Dec 10, 2015 20:00:00"),
+        "eventName"    : "SNAILS",
+        "eventArtist"  : "SNAILS",
+        "eventDescLong": "SNAILS is a Montreal-based producer and DJ who pushes a forward-thinking brand of dance music combining hip-hop rhythms, dirty bass lines and off-kilter sound design. His latest original tracks that have all gone viral, “Dirty Raxxx“, “KRMT“ and “RUBBR“ blend hypnotic melodies, huge drops and mind-bending sample manipulation into a tight, dance-floor friendly package. With heavyweights like Skrillex, Diplo, Datsik, Excision, Flosstradamus and many more supporting his fresh new sound, Snails looks primed to bring his unique take on dance and bass music to the world",
+        "eventCover"   : "N/A",
+        "eventLink"    : "special-events/" + "snails-at-necto-nightclub-ann-arbor-michigan-dec-10th-2015.html",
+        "eventSocial"  : "",
+        "eventTix"     : "none",
+        "eventImgWide" : "img/event-images/" + "snails-at-necto-nightclub-ann-arbor.png",
+        //"eventWklOvrd" : true,
+        "eventDay"     : 0, // Do not modify
+        "pastEvent"    : false // Do not modify
+    },
+    {
+        "eventDate"    : new Date("Nov 25, 2015 20:00:00"),
+        "eventName"    : "Tease",
+        "eventArtist"  : "Tease",
+        "eventDescLong": "Drag Addict presents: The Night Before Thanksgiving, Wednesday, November 25th<br>TEASE featuring...<br>BenDelaCreme (RuPaul's Drag Race S6 & Miss Congeniality)<br>Milk (RuPaul's Drag Race S6 & Fan Favorite)<br>Raven (RuPaul's Drag Race S2 & All Stars)<br>Hosted by Sabin with performances from Deja Dellataro, Emma Sapphire & Luna Legare<br>Sounds by DJs Jason Michael & Selina Style in the Main Room and DVJ Mark in the Red Room.",
+        "eventCover"   : "N/A",
+        "eventLink"    : "special-events/" + "tease-at-necto-nightclub-ann-arbor-michigan-nov-25th-2015.html",
+        "eventSocial"  : "",
+        "eventTix"     : "none",
+        "eventImgWide" : "img/event-images/" + "tease-at-necto-nightclub-ann-arbor.png",
+        //"eventWklOvrd" : true,
+        "eventDay"     : 0, // Do not modify
+        "pastEvent"    : false // Do not modify
+    },
+    {
+        "eventDate"    : new Date("Nov 23, 2015 20:00:00"),
+        "eventName"    : "Fall Formal 2015",
+        "eventArtist"  : "Fall Formal 2015",
+        "eventDescLong": "Come and get fancy with your Factory family for our Fall Formal. Wear formal attire to get in free, we will have our photographer set up to take pics of you beautiful people!",
+        "eventCover"   : "N/A",
+        "eventLink"    : "special-events/" + "fall-formal-2015-at-necto-nightclub-ann-arbor-michigan-nov-23rd-2015.html",
+        "eventSocial"  : "",
+        "eventTix"     : "none",
+        "eventImgWide" : "img/event-images/" + "fall-formal-2015-at-necto-nightclub-ann-arbor.png",
+        //"eventWklOvrd" : true,
+        "eventDay"     : 0, // Do not modify
+        "pastEvent"    : false // Do not modify
+    },
+    {
+        "eventDate"    : new Date("Nov 12, 2015 20:00:00"),
+        "eventName"    : "Impulse2: MEDMA",
+        "eventArtist"  : "Impulse2: MEDMA",
+        "eventDescLong": "A night at Necto's Redroom of Techno powered by Women Dj's. Dj's FiJi∆FiJi / Lavici / Trypto / Kerry Poppins",
+        "eventLink"    : "special-events/" + "impulse2-at-necto-nightclub-ann-arbor-michigan-nov-12th-2015.html",
+        "eventSocial"  : "",
+        "eventTix"     : "none",
+        "eventImgWide" : "img/event-images/" + "impulse2-at-necto-nightclub-ann-arbor.png",
+        //"eventWklOvrd" : true,
+        "eventDay"     : 0, // Do not modify
+        "pastEvent"    : false // Do not modify
+    },
+    {
+        "eventDate"    : new Date("Nov 6, 2015 20:00:00"),
+        "eventName"    : "Alaska 5000",
+        "eventArtist"  : "Alaska 5000",
+        "eventDescLong": "Alaska will be performing in our Dragster show along with Chanel Hunter and Jadein Black with their first show at 9:30pm. Alaska will also perform an encore set at midnight followed by a FREE meet & greet photo opportunity with her fans!<br>Our Pride resident DJs: Jace, DVJ Mark & Jason Michael will be keeping the dance floors moving all night!",
+        "eventLink"    : "special-events/" + "alaska-5000-live-at-necto-nightclub-ann-arbor-michigan-nov-6th-2015.html",
+        "eventSocial"  : "",
+        "eventTix"     : "none",
+        "eventImgWide" : "img/event-images/" + "alaska-5000-at-necto-nightclub-ann-arbor.png",
+        //"eventWklOvrd" : true,
+        "eventDay"     : 0, // Do not modify
+        "pastEvent"    : false // Do not modify
+    },
+    {
+        "eventDate"    : new Date("Nov 4, 2015 20:00:00"),
+        "eventName"    : "CASH CASH + TRITONAL: Untouchable Tour",
+        "eventArtist"  : "CASH CASH + TRITONAL: Untouchable Tour",
+        "eventDescLong": "CASH CASH + TRITONAL: Untouchable Tour takes over Necto Nightclub on Wednesday, November 4th. Presented by Prime Social Group.",
+        "eventLink"    : "special-events/" + "cash-cash-and-tritonal-live-at-necto-nightclub-ann-arbor-michigan-nov-4th-2015.html",
+        "eventSocial"  : "",
+        "eventTix"     : "none",
+        "eventImgWide" : "img/event-images/" + "cash-cash-and-tritonal-at-necto-nightclub-ann-arbor.png",
+        //"eventWklOvrd" : true,
+        "eventDay"     : 0, // Do not modify
+        "pastEvent"    : false // Do not modify
+    },
+    {
+        "eventDate"    : new Date("Oct 31, 2015 20:00:00"),
+        "eventName"    : "Halloween",
+        "eventArtist"  : "Halloween",
+        "eventDescLong": "Necto is going to be wild for Halloween! MC Yoda hosts our costume contest with cash prizes at midnight. DJ Hardy in the booth, keeping the the dance floor banging all night. Get here early to avoid the line!",
+        "eventLink"    : "special-events/" + "halloween-parties-frequency-2015-at-necto-nightclub-ann-arbor-michigan-oct-31st-2015.html",
+        "eventSocial"  : "",
+        "eventTix"     : "none",
+        "eventImgWide" : "img/event-images/" + "halloween-2015-at-necto-nightclub-ann-arbor.png",
+        //"eventWklOvrd" : true,
+        "eventDay"     : 0, // Do not modify
+        "pastEvent"    : false // Do not modify
+    },
+    {
+        "eventDate"    : new Date("Oct 30, 2015 20:00:00"),
+        "eventName"    : "Pride Devil's Night",
+        "eventArtist"  : "Pride Devil's Night",
+        "eventDescLong": "Necto Pride is going to be devilishly devious on Devil's Night! Chanel Hunter hosts our midnight costume contest along with Jadein Black. Our resident DJs Jace, DVJ Mark & Jason Michael keep the music thumping all night. Get here early to avoid the line!",
+        "eventLink"    : "special-events/" + "halloween-parties-pride-devils-night-at-necto-nightclub-ann-arbor-michigan-oct-30th-2015.html",
+        "eventSocial"  : "",
+        "eventTix"     : "none",
+        "eventImgWide" : "img/event-images/" + "halloween-parties-pride-devils-night-at-necto-nightclub-ann-arbor.png",
+        //"eventWklOvrd" : true,
+        "eventDay"     : 0, // Do not modify
+        "pastEvent"    : false // Do not modify
+    },
+    {
+        "eventDate"    : new Date("Oct 29, 2015 20:00:00"),
+        "eventName"    : "College Halloween Party 2015",
+        "eventArtist"  : "College Halloween Party 2015",
+        "eventDescLong": "Start the Halloweekend out at Necto's “College night Halloween Party“ Costume contest at 12 midnight!",
+        "eventLink"    : "special-events/" + "college-halloween-party-2015-factory-at-necto-nightclub-ann-arbor-michigan-oct-29th-2015.html",
+        "eventSocial"  : "",
+        "eventTix"     : "none",
+        "eventImgWide" : "img/event-images/" + "college-night-halloween-at-necto-nightclub-ann-arbor.png",
+        //"eventWklOvrd" : true,
+        "eventDay"     : 0, // Do not modify
+        "pastEvent"    : false // Do not modify
+    },
+    {
+        "eventDate"    : new Date("Oct 26, 2015 20:00:00"),
+        "eventName"    : "Factory Halloween 2015",
+        "eventArtist"  : "Factory Halloween 2015",
+        "eventDescLong": "Its time for our favorite night of the year... Factory's Halloween Bash. This party is going to be crazy and will probably be our busiest night of the year! We will host a costume contest at midnight with cash prizes. Get here early to avoid the line!",
+        "eventLink"    : "special-events/" + "halloween-2015-factory-at-necto-nightclub-ann-arbor-michigan-oct-26th-2015.html",
+        "eventSocial"  : "",
+        "eventTix"     : "none",
+        "eventImgWide" : "img/event-images/" + "halloween-2015-factory-necto-nightclub-ann-arbor.png",
+        //"eventWklOvrd" : true,
+        "eventDay"     : 0, // Do not modify
+        "pastEvent"    : false // Do not modify
+    },
 ];
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 // The basic Weekly Events

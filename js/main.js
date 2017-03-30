@@ -84,7 +84,23 @@ var events = [
         "pastEvent"    : false // Do not modify
     },
     {
-        "eventDate"    : new Date("apr 27, 2017 22:00:00"),
+        "eventDate"    : new Date("May 4, 2017 21:00:00"),
+        "eventName"    : "On the road to Spring Awakening... Moon Boots : Rebel Bass",
+        "eventArtist"  : "Moon Boots",
+        "eventDesc"    : "Moon Boots entered the world in the mid-1980s via Cape Canaveral. After years of service as the preferred footwear of celebrity astronauts (notably Tom Hanks), Moon Boots came to life during a classified experiment aboard the International Space Station. Little is known of what actually transpired aboard the shuttle, but in short, Moon Boots became a sentient creature, equipped with reason, intuition, and groove.",
+        "eventDescLong": "Moon Boots entered the world in the mid-1980s via Cape Canaveral. After years of service as the preferred footwear of celebrity astronauts (notably Tom Hanks), Moon Boots came to life during a classified experiment aboard the International Space Station. Little is known of what actually transpired aboard the shuttle, but in short, Moon Boots became a sentient creature, equipped with reason, intuition, and groove.<br>Before long, he grew tired of working for the space-military-industrial complex and found solace in the soothing sounds of underground disco and R&B boogie records. He knew it was only of matter of time before he was hung up like so many boots before him. He abandoned the program and used his savings to build a music-production studio in an unnamed U.S. location, where he is currently working.",
+        "eventCover"   : "Early Bird 4pk - $20 | 4pk - $30 | Early Bird GA - $10 | GA - $15 | Doors before 11pm - $15 | Doors after 11pm - $20",
+        "eventLink"    : "special-events/" + "moon-boots-may-4-2017-at-necto-nightclub-ann-arbor-michigan.html",
+        "eventSocial"  : "https://www.facebook.com/events/241660382909276/",
+        "eventTix"     : "https://moonboots_rebelbass.eventbrite.com",
+        "eventImgTall" : "img/event-images/" + "moon-boots-at-necto-nightclub-ann-arbor-michigan.jpg",
+        "eventImgWide" : "img/event-images/" + "moon-boots-rebel-base-at-necto-nightclub-ann-arbor-michigan.png",
+        "eventWklOvrd" : true,
+        "eventDay"     : 0, // Do not modify
+        "pastEvent"    : false // Do not modify
+    },
+    {
+        "eventDate"    : new Date("Apr 27, 2017 22:00:00"),
         "eventName"    : "Throwback Thursday : 21+ get in FREE",
         "eventArtist"  : "Throwback Thursday",
         "eventDesc"    : "All Your Favorite Music from the 80s, 90s & early 00s",
@@ -100,7 +116,7 @@ var events = [
         "pastEvent"    : false // Do not modify
     },
     {
-        "eventDate"    : new Date("apr 20, 2017 22:00:00"),
+        "eventDate"    : new Date("Apr 20, 2017 22:00:00"),
         "eventName"    : "Throwback Thursday : 21+ get in FREE",
         "eventArtist"  : "Throwback Thursday",
         "eventDesc"    : "All Your Favorite Music from the 80s, 90s & early 00s",
@@ -2126,6 +2142,231 @@ var events = [
         "eventSocial"  : "",
         "eventTix"     : "none",
         "eventImgWide" : "img/event-images/" + "halloween-2015-factory-necto-nightclub-ann-arbor.png",
+        //"eventWklOvrd" : true,
+        "eventDay"     : 0, // Do not modify
+        "pastEvent"    : false // Do not modify
+    },
+    {
+        "eventDate"    : new Date("Oct 10, 2015 20:00:00"),
+        "eventName"    : "Plastic Passion, POP EDITION",
+        "eventArtist"  : "Plastic Passion, POP EDITION",
+        "eventDescLong": "Plastic Passion's *POP* nite on Saturday October 10th with DJs Glamazon, Tim Sendra and Josh Burge playing their guiltiest pleasures from the 70s, 80s, and 90s.",
+        "eventLink"    : "special-events/" + "plastic-passion-at-necto-nightclub-ann-arbor-michigan-oct-10th-2015.html",
+        "eventSocial"  : "",
+        "eventTix"     : "none",
+        "eventImgWide" : "img/event-images/" + "plastic-passion-pop-ed-at-necto-nightclub-ann-arbor.png",
+        //"eventWklOvrd" : true,
+        "eventDay"     : 0, // Do not modify
+        "pastEvent"    : false // Do not modify
+    },
+    {
+        "eventDate"    : new Date("Oct 2, 2015 20:00:00"),
+        "eventName"    : "Dragster's Trixie Mattel",
+        "eventArtist"  : "Dragster's Trixie Mattel",
+        "eventDescLong": "Trixie Mattel, of Rupaul's Drag Race, comes to Necto Pride on Friday October 2nd!<br>Trixie will be performing in our Dragster show along with Chanel Hunter and Jadein Black with their first show at 9:30pm. Trixie will also perform an encore set at midnight followed by a FREE meet & greet photo opportunity with her fans!<br>Our Pride resident DJs: Jace, DVJ Mark & Jason Michael will be keeping the dance floors moving all night!",
+        "eventLink"    : "special-events/" + "dragster-trixie-mattel-live-at-necto-nightclub-ann-arbor-michigan-oct-2nd-2015.html",
+        "eventSocial"  : "",
+        "eventTix"     : "none",
+        "eventImgWide" : "img/event-images/" + "dragster-trixie-mattel-at-necto-nightclub-ann-arbor.png",
+        //"eventWklOvrd" : true,
+        "eventDay"     : 0, // Do not modify
+        "pastEvent"    : false // Do not modify
+    },
+    {
+        "eventDate"    : new Date("Sep 23, 2015 20:00:00"),
+        "eventName"    : "Sam Feldt",
+        "eventArtist"  : "Sam Feldt",
+        "eventDescLong": "Prime Social Group & Necto presents SAM FELDT.<br>While only in his early twenties, Dutchman Sam Feldt has become quite the deep house tastemaker of his day. With amazing remix work as well as solid hits like the early 2015 release ‘Show Me Love’, which proved to be his definite claim to fame, he’s one of the DJs to watch when it comes to a new sound flooding the scene.",
+        "eventLink"    : "special-events/" + "sam-feldt-live-at-necto-nightclub-ann-arbor-michigan-sept-23-2015.html",
+        "eventSocial"  : "",
+        "eventTix"     : "none",
+        "eventImgWide" : "img/event-images/" + "sam-feldt-at-necto-nightclub-ann-arbor.png",
+        //"eventWklOvrd" : true,
+        "eventDay"     : 0, // Do not modify
+        "pastEvent"    : false // Do not modify
+    },
+    {
+        "eventDate"    : new Date("Sep 21, 2015 20:00:00"),
+        "eventName"    : "Pure Pwnage 2015",
+        "eventArtist"  : "Pure Pwnage 2015",
+        "eventDescLong": "Our most requested special event is back! It's time for PURE PWNAGE! We are teaming up once again with Get Your Game On to bring in lots of video game consoles to set up around the night so you can hang out, drink and nerd out with the Factory Family. The Gothsicles from Chicago are coming to town again this year to perform live!",
+
+        "eventLink"    : "special-events/" + "pure-pwnage-2015-at-necto-nightclub-ann-arbor-michigan-sept-21st-2015.html",
+        "eventSocial"  : "",
+        "eventTix"     : "none",
+        "eventImgWide" : "img/event-images/" + "pure-pwnage-2015-at-necto-nightclub-ann-arbor.png",
+        //"eventWklOvrd" : true,
+        "eventDay"     : 0, // Do not modify
+        "pastEvent"    : false // Do not modify
+    },
+    {
+        "eventDate"    : new Date("Sep 12, 2015 20:00:00"),
+        "eventName"    : "Plastic Passion",
+        "eventArtist"  : "Plastic Passion",
+        "eventDescLong": "Back to the Old School with PLASTIC PASSION in the RED ROOM! Resident DJ JOSH BURGE is joined by MATT HANCHON (Luna/Groove Room veteran!) for another great night of classic retro-alternative goodies.",
+        
+        "eventLink"    : "special-events/" + "plastic-passion-at-necto-nightclub-ann-arbor-michigan-sept-12th-2015.html",
+        "eventSocial"  : "",
+        "eventTix"     : "none",
+        "eventImgWide" : "img/event-images/" + "plastic-passion-sept-2016-necto-nightclub-ann-arbor.png",
+        //"eventWklOvrd" : true,
+        "eventDay"     : 0, // Do not modify
+        "pastEvent"    : false // Do not modify
+    },
+    {
+        "eventDate"    : new Date("Sep 11, 2015 20:00:00"),
+        "eventName"    : "Dragster featuring JUJUBEE",
+        "eventArtist"  : "Dragster featuring JUJUBEE",
+        "eventDescLong": "Jujubee, of Rupaul's Drag Race, comes to Necto Pride on Friday September 11th! Jujubee will be performing in our Dragster show along with Chanel Hunter and Jadein Black, first show at 9:30pm. Jujubee will also perform an encore set at midnight followed by a FREE meet &apm; greet photo opportunity with her fans! Our Pride resident DJs: Jace, DVJ Mark & Jason Michael will be keeping the dance floors moving all night!",
+        
+        "eventLink"    : "special-events/" + "dragster-jujubee-live-at-necto-nightclub-ann-arbor-michigan-sept-11th-2015.html",
+        "eventSocial"  : "",
+        "eventTix"     : "none",
+        "eventImgWide" : "img/event-images/" + "jujubee-at-necto-nightclub-ann-arbor.png",
+        //"eventWklOvrd" : true,
+        "eventDay"     : 0, // Do not modify
+        "pastEvent"    : false // Do not modify
+    },
+    {
+        "eventDate"    : new Date("Sep 11, 2015 20:00:00"),
+        "eventName"    : "Branchez",
+        "eventArtist"  : "Branchez",
+        "eventDescLong": "Prime Social Group & Necto presents Branchez! Branchez is a modern producer, versatile, driven and open-minded. The New York City native has been making waves in both the electronic music & hip-hop communities with his soulful brand of club music. Branchez has done guest mixes on BBC Radio1 (Diplo & Friends, Toddla T Show), TripleJ Radio and SiriusXM – Shade45 (Sway In The Morning). He supported Zeds Dead and Paper Diamond on their respective North American tours, and recently wrapped up his first co-headlining tour with Giraffage. He is also handsome, funny and cool.",
+        
+        "eventLink"    : "special-events/" + "branchez-live-at-necto-nightclub-ann-arbor-michigan-sept-9-2015.html",
+        "eventSocial"  : "",
+        "eventTix"     : "none",
+        "eventImgWide" : "img/event-images/" + "branchez-at-necto-nightclub-ann-arbor.png",
+        //"eventWklOvrd" : true,
+        "eventDay"     : 0, // Do not modify
+        "pastEvent"    : false // Do not modify
+    },
+    {
+        "eventDate"    : new Date("Sep 7, 2015 20:00:00"),
+        "eventName"    : "Splatter Bash - Blacklight Paint Party",
+        "eventDescLong": "Factory is bringing in UV paint cannons for our SplatterBash party! This one is going to get messy! Featuring DJ Jinx and MC Yoda along with DJ Madisi in the Red Room.",
+        
+        "eventLink"    : "special-events/" + "splaterbash-paint-party-at-necto-nightclub-ann-arbor-michigan-sept-7th-2015.html",
+        "eventSocial"  : "",
+        "eventTix"     : "none",
+        "eventImgWide" : "img/event-images/" + "splaterbash-paint-party-at-necto-nightclub-ann-arbor.png",
+        //"eventWklOvrd" : true,
+        "eventDay"     : 0, // Do not modify
+        "pastEvent"    : false // Do not modify
+    },
+    {
+        "eventDate"    : new Date("Sep 5, 2015 20:00:00"),
+        "eventName"    : "Ultraviolet - Blacklight Paint Party",
+        "eventDescLong": "Come out and play in the paint! We will have UV paint cannons on the dancefloor and black lights all over to make the colors stand out.Wear white to really make it pop! Featuring DJ Hardy & MC Yoda!",
+        
+        "eventLink"    : "special-events/" + "ultraviolet-blacklight-paint-party-at-necto-nightclub-ann-arbor-michigan-sept-5th-2015.html",
+        "eventSocial"  : "",
+        "eventTix"     : "none",
+        "eventImgWide" : "img/event-images/" + "ultraviolet-blacklight-paint-party-at-necto-nightclub-ann-arbor.png",
+        //"eventWklOvrd" : true,
+        "eventDay"     : 0, // Do not modify
+        "pastEvent"    : false // Do not modify
+    },
+    {
+        "eventDate"    : new Date("Sep 4, 2015 20:00:00"),
+        "eventName"    : "NeonGlow Paint Party",
+        "eventDescLong": "Come out and play in the paint! We will have UV paint cannons on the dancefloor and black lights all over to make the colors stand out. Wear white to really make it pop! Hosted by Chanel Hunter & Jadein Black, along with DJs Jace, Mark & Jason Michael.",
+        
+        "eventLink"    : "special-events/" + "neonglow-paint-party-at-necto-nightclub-ann-arbor-michigan-sept-4th-2015.html",
+        "eventSocial"  : "",
+        "eventTix"     : "none",
+        "eventImgWide" : "img/event-images/" + "neonglow-paint-party-at-necto-nightclub-ann-arbor.png",
+        //"eventWklOvrd" : true,
+        "eventDay"     : 0, // Do not modify
+        "pastEvent"    : false // Do not modify
+    },
+    {
+        "eventDate"    : new Date("Sep 2, 2015 20:00:00"),
+        "eventName"    : "Audien",
+        "eventDescLong": "World renown, grammy nominated EDM producer AUDIEN takes over Necto for the Welcome Week Bounce on Wednesday September 2nd! Necto is teaming up with Scorekeepers and Prime Social Group to throw the biggest welcome week bash of the year! Don't miss out on this killer party with one of the top DJs in the world!",
+        
+        "eventLink"    : "special-events/" + "audien-live-at-necto-nightclub-ann-arbor-michigan-sept-2nd-2015.html",
+        "eventSocial"  : "",
+        "eventTix"     : "none",
+        "eventImgWide" : "img/event-images/" + "audien-at-necto-nightclub-ann-arbor.png",
+        //"eventWklOvrd" : true,
+        "eventDay"     : 0, // Do not modify
+        "pastEvent"    : false // Do not modify
+    },
+    {
+        "eventDate"    : new Date("Aug 14, 2015 20:00:00"),
+        "eventName"    : "Courtney Act, Live",
+        "eventDescLong": "Courtney Act from Rupaul's Drag Race comes to Necto Pride on August 14th! Courtney will be performing in our Dragster show along with Chanel Hunter and Jadein Black with showtime at 9:30pm. Courtney Act will also perform an encore set at midnight followed by a FREE meet & greet photo opportunity with her fans! Our Pride Resident DJs Jace, DVJ Mark & Jason Michael will be keeping the dance floors moving all night!",
+        
+        "eventLink"    : "special-events/" + "courtney-act-live-at-necto-nightclub-ann-arbor-michigan-aug-14th-2015.html",
+        "eventSocial"  : "",
+        "eventTix"     : "none",
+        "eventImgWide" : "img/event-images/" + "courtney-act-at-necto-nightclub-ann-arbor.png",
+        //"eventWklOvrd" : true,
+        "eventDay"     : 0, // Do not modify
+        "pastEvent"    : false // Do not modify
+    },
+    {
+        "eventDate"    : new Date("Aug 6, 2015 20:00:00"),
+        "eventName"    : "Oliver Dollar",
+        "eventDescLong": "Oliver Dollar takes over The Necto on Thursday August 6, joined by opening DJs Chuck Daniels and Adam Westing. The past four years have seen Oliver Dollar’s name gradually build to a recognizable staple in house music. The Berlin born and based producer has gained acknowledgment through a series of solid releases on various labels. We are very excited to bring him to The Necto!",
+        
+        "eventLink"    : "special-events/" + "oliver-dollar-live-at-necto-nightclub-ann-arbor-michigan-aug-6th-2015.html",
+        "eventSocial"  : "",
+        "eventTix"     : "none",
+        "eventImgWide" : "img/event-images/" + "oliver-dollar-at-necto-nightclub-ann-arbor.png",
+        //"eventWklOvrd" : true,
+        "eventDay"     : 0, // Do not modify
+        "pastEvent"    : false // Do not modify
+    },
+    {
+        "eventDate"    : new Date("Aug 13, 2015 20:00:00"),
+        "eventName"    : "Factory's 11th Birthday Bash",
+        "eventDescLong": "Factory Monday celebrates its 11th birthday on Monday July 13 in proper Factory style. We are flying in DANIEL GRAVES of AESTHETIC PERFECTION to join Jinx in the booth as our guest DJ for the night. We are working on some special fun ideas to add to the night too!! Don't miss one of Industrial / EBM's top musicians, Daniel Graves, DJ live! This is going to be a great night!",
+        
+        "eventLink"    : "special-events/" + "factory-11th-birthday-bash-at-necto-nightclub-ann-arbor-michigan-july-13th-2015.html",
+        "eventSocial"  : "",
+        "eventTix"     : "none",
+        "eventImgWide" : "img/event-images/" + "factory-monday's-11th-birthday-at-necto-nightclub-ann-arbor.png",
+        //"eventWklOvrd" : true,
+        "eventDay"     : 0, // Do not modify
+        "pastEvent"    : false // Do not modify
+    },
+    {
+        "eventDate"    : new Date("Jul 10, 2015 20:00:00"),
+        "eventName"    : "Boys Of Summer Contest",
+        "eventDescLong": "Its time to hit the beach for our Boys Of Summer party hosted by Chanel Hunter! You know its getting hot out when we find the sexiest men around to show off their bods for a chance to win some serious cash! Wear your beach attire to get in the spirit and also get in the door for free!",
+        
+        "eventLink"    : "special-events/" + "boys-of-summer-necto-nightclub-ann-arbor-michigan-julu-10th-2015.html",
+        "eventSocial"  : "",
+        "eventTix"     : "none",
+        "eventImgWide" : "img/event-images/" + "boys-of-summer-contest-at-necto-nightclub-ann-arbor.png",
+        //"eventWklOvrd" : true,
+        "eventDay"     : 0, // Do not modify
+        "pastEvent"    : false // Do not modify
+    },
+    {
+        "eventDate"    : new Date("Jun 19, 2015 20:00:00"),
+        "eventName"    : "Ginger Minj",
+        "eventDescLong": "Ginger Minj from Rupaul's Drag Race comes to Necto Pride on Friday, June 19!! Joining Ginger on stage, as part of our Dragster show, are Chanel Hunter, Jadein Black, Ani Briated and Thrustin B Ieber. Showtime is at 9:30pm and Ginger Minj will have an encore performance at midnight followed by a meet and greet with all her fans!",
+        
+        "eventLink"    : "special-events/" + "ginger-minj-drag-race-at-necto-nightclub-ann-arbor-michigan-jun-19th-2015.html",
+        "eventSocial"  : "",
+        "eventTix"     : "none",
+        "eventImgWide" : "img/event-images/" + "ginger-minj-at-necto-nightclub-ann-arbor.png",
+        //"eventWklOvrd" : true,
+        "eventDay"     : 0, // Do not modify
+        "pastEvent"    : false // Do not modify
+    },
+    {
+        "eventDate"    : new Date("Jun 13, 2015 20:00:00"),
+        "eventName"    : "Plastic Passion's Six Year Anniversary",
+        "eventDescLong": "Plastic Passion celebrates their Six year Anniversary on Saturday June 13. DJ Josh Burge returns to his roots to create one of his very best five-hour-long sets to rock the RED ROOM. All while DOC COLONY blows minds on the telescreens and Rachel's specialty cocktails put them back together!",
+        
+        "eventLink"    : "special-events/" + "plastic-passion-six-year-anniversary-at-necto-nightclub-ann-arbor-michigan-june-13th-2015.html",
+        "eventSocial"  : "",
+        "eventTix"     : "none",
+        "eventImgWide" : "img/event-images/" + "plastic-passion-6-year-at-necto-nightclub-ann-arbor.png",
         //"eventWklOvrd" : true,
         "eventDay"     : 0, // Do not modify
         "pastEvent"    : false // Do not modify

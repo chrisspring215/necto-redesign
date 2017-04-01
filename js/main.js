@@ -147,6 +147,24 @@ var events = [
         "eventDay"     : 0, // Do not modify
         "pastEvent"    : false // Do not modify
     },
+
+        {
+        "eventDate"    : new Date("Apr 10, 2017 21:00:00"),
+        "eventName"    : "Electro-Industrial Factory",
+        "eventArtist"  : "Electro-Industrial Factory",
+        "eventDesc"    : "The only thing Factory will be manufacturing for you is pure, deep Electro-Industrial all night long. We're taking a twisted dive into a world where Mr. Wonka has a *slightly* different taste in music, mixing wicked tunes from DJ Void6 and DJ Darks Choir with sick treats.",
+        "eventDescLong": "The only thing Factory will be manufacturing for you is pure, deep Electro-Industrial all night long. We're taking a twisted dive into a world where Mr. Wonka has a *slightly* different taste in music, mixing wicked tunes from DJ Void6 and DJ Darks Choir with sick treats.",
+        "eventCover"   : "Cover is $1 before 10pm and $3 after 10pm",
+        "eventLink"    : "special-events/" + "electro-industrial-factory-at-necto-nightclub-ann-arbor-michigan-apr-10th-2017.html",
+        "eventSocial"  : "facebook.com/events/790228854463666/",
+        "eventTix"     : "none",
+        "eventImgTall" : "img/event-images/" + "electroindustrial-factory-at-necto-nightclub-ann-arbor.png",
+        "eventImgWide" : "img/event-images/" + "electroindustrial-factory-at-necto-nightclub-ann-arbor.png",
+        "eventWklOvrd" : true,
+        "eventDay"     : 0, // Do not modify
+        "pastEvent"    : false // Do not modify
+    },
+
     {
         "eventDate"    : new Date("Apr 7, 2017 21:00:00"),
         "eventName"    : "Trinity Taylor",

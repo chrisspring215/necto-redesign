@@ -132,6 +132,22 @@ var events = [
         "pastEvent"    : false // Do not modify
     },
     {
+        "eventDate"    : new Date("Apr 20, 2017 18:30:00"),
+        "eventName"    : "Underground Yoga - Deep House Vinyasa",
+        "eventArtist"  : "Underground Yoga",
+        "eventDesc"    : "Welcome to the last class in April at Necto Nightclub, featuring a mixed level vinyasa-flow led by Mai (Yoga Republic), and soothing, upbeat vibrations courtesy of Avyu. Necto's production will be fully utilized to immerse each yogi in a wave of light and sound on the main dancefloor. This comfortable atmosphere is accepting of all skill levels. Mats are available for rent.",
+        "eventDescLong": "Welcome to the last class in April at Necto Nightclub, featuring a mixed level vinyasa-flow led by Mai (Yoga Republic), and soothing, upbeat vibrations courtesy of Avyu. Necto's production will be fully utilized to immerse each yogi in a wave of light and sound on the main dancefloor. This comfortable atmosphere is accepting of all skill levels. Mats are available for rent.",
+        "eventCover"   : "$15 ADV / $20 DOS",
+        "eventLink"    : "special-events/" + "deep-house-yoga-at-necto-nightclub-ann-arbor-michigan-apr-20th-2017.html",
+        "eventSocial"  : "https://www.facebook.com/events/1921979594704149/",
+        "eventTix"     : "http://bit.ly/UYNecto420",
+        "eventImgTall" : "img/event-images/" + "deep-house-yoga-apr-2017-at-necto-nightclub-ann-arbor.jpg",
+        "eventImgWide" : "img/event-images/" + "deep-house-yoga-apr-2017-at-necto-nightclub-ann-arbor.jpg",
+        "eventWklOvrd" : true,
+        "eventDay"     : 0, // Do not modify
+        "pastEvent"    : false // Do not modify
+    },
+    {
         "eventDate"    : new Date("apr 13, 2017 21:00:00"),
         "eventName"    : "Candyland",
         "eventArtist"  : "Candyland",

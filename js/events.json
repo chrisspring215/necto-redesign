@@ -1,0 +1,17 @@
+[
+    {
+        "eventDate"    : new Date("Nov 9, 2016 21:00:00"),
+        "eventName"    : "LEMAITRE",
+        "eventArtist"  : "LEMAITRE",
+        "eventDescLong": "Lemaitre is an electronic duo hailing from Oslo, Norway. Formed in 2010 by longtime friends Ketil Jansen and Ulrik Denizou Lund, the bandmembers named themselves after Belgian priest Georges Lemaître, father of the big bang theory. It’s an appropriate reference for their sound, which ranges from electro house to catchy pop grooves that fall somewhere between Daft Punk and Phoenix.",
+        "eventCover"   : "N/A",
+        "eventLink"    : "special-events/" + "lemaitre-at-necto-nightclub-ann-arbor-michigan-nov-9th-2016.html",
+        "eventSocial"  : "https://www.facebook.com/events/1254743334545390/",
+        "eventTix"     : "none",
+
+        "eventImgWide" : "img/event-images/" + "cal-lemaitre-at-necto-nightclub-ann-arbor.jpg",
+        //"eventWklOvrd" : true,
+        "eventDay"     : 0, // Do not modify
+        "pastEvent"    : false // Do not modify
+    },
+]

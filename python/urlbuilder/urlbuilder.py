@@ -171,6 +171,7 @@ def makePage(url) :
     -->
 
     <script src="js/plugins.js"></script>
+    <script src="js/events.js"></script>
     <script src="js/main.js"></script>
 
     <!-- Builds all navigtion -->

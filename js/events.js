@@ -2336,5 +2336,5 @@ var eventsJSON = [
         //"eventWklOvrd" : true,
         "eventDay"     : 0, // Do not modify
         "pastEvent"    : false // Do not modify
-    },
-];
+    }
+]

@@ -1,20 +1,25 @@
-f = open('../../js/main.js', 'r')
-file_contents = f.read()
-import re
+#f = open('../../js/main.js', 'r')
+#file_contents = f.read()
+#import re
 # removes front part of object
-a = file_contents.partition('var events = [')[2]
-
+#a = file_contents.partition('var events = [')[2]
 # removes back part of object
-b = a.partition(']')[0]
-
+#b = a.partition(']')[0]
 #removes all spacing
-c = re.sub('[\s+]', '', b)
+#c = re.sub('[\s+]', '', b)
+#e = re.split('"special-events/""(.*?)","eventSocial":"', c)
+#h = len(e)
 
+import json
+from pprint import pprint
 
-e = re.split('"special-events/""(.*?)","eventSocial":"', c)
+with open('../../js/events.json') as data_file:    
+    data = json.load(data_file)
 
-h = len(e)
+cat = data[2]
 
+pprint(cat)
+'''
 def makePage(url) :
 	w = open('../../special-events/'+url,'w')
 
@@ -45,7 +50,7 @@ def makePage(url) :
       <meta name="geo.region" content="US-MI]">
       <meta name="geo.placename" content="Ann Arbor">
 
-      <!-- Canonical TODO: Set up JS to populate this -->
+      <!-- Canonical : Set up JS to populate this -->
       <link href="https://www.necto.com" rel="canonical">
 
       <!-- Author -->
@@ -204,3 +209,4 @@ for i in liszt:
 
 
 f.close()
+'''

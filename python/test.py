@@ -1,7 +1,9 @@
+import json
+import re
 f = open('../js/events.js', 'r')
 file_contents = f.read()
 
-import re
+
 
 cleanUp01 = file_contents.split('var eventsJSON = [')
 cleanedUp01 = "".join(cleanUp01)
@@ -21,21 +23,12 @@ cleanedUp05 = '",'.join(cleanUp05)
 cleanUp06 = cleanedUp05.split('//')
 cleanedUp06 = "".join(cleanUp06)
 
-cleanUp07 = cleanedUp06.split('\n    ')
-cleanedUp07 = "".join(cleanUp07)
 
-cleanUp08 = cleanedUp07.split('\"')
-cleanedUp08 = ''.join(cleanUp08)
+finalJSON = '[' + cleanedUp06
 
+finalJSON = file_contents
 
 
-
-
-finalJSON = '[' + cleanedUp08
-
-
-
-import json
 with open('../js/events.json', 'w') as outfile:
     json.dump(finalJSON, outfile)
 

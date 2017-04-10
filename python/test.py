@@ -1,12 +1,10 @@
 import json
 import re
-f = open('../js/events.js', 'r')
-file_contents = f.read()
+file = open('../js/events.js', 'r')
+file_contents = file.read()
 
-
-
-cleanUp01 = file_contents.split('var eventsJSON = [')
-cleanedUp01 = "".join(cleanUp01)
+cleanUp01 = file_contents.split('var eventsJSON = ')
+cleanedUp01 = '{ "events" : '.join(cleanUp01)
 
 cleanUp02 = cleanedUp01.split('new Date(')
 cleanedUp02 = "".join(cleanUp02)
@@ -23,13 +21,18 @@ cleanedUp05 = '",'.join(cleanUp05)
 cleanUp06 = cleanedUp05.split('//')
 cleanedUp06 = "".join(cleanUp06)
 
+removeSpace = re.sub("\s\s+$"," ", cleanedUp06)
 
-finalJSON = '[' + cleanedUp06
-
-finalJSON = file_contents
-
-
-with open('../js/events.json', 'w') as outfile:
-    json.dump(finalJSON, outfile)
+removeSpace2 = re.sub('\\"','"', removeSpace)
 
 
+
+target = open('../js/events.json','w')
+
+target.write(removeSpace2 + "}")
+
+file.close
+'''
+xxx = open('../js/events.json')
+yyy = json.load(xxx)
+'''

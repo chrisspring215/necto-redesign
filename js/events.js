@@ -67,8 +67,8 @@ var eventsJSON = [
         "eventDate"    : new Date("Apr 20, 2017 18:30:00"),
         "eventName"    : "Underground Yoga - Deep House Vinyasa",
         "eventArtist"  : "Underground Yoga",
-        "eventDesc"    : "Welcome to the last class in April at Necto Nightclub, featuring a mixed level vinyasa-flow led by Mai (Yoga Republic), and soothing, upbeat vibrations courtesy of Avyu. Necto's production will be fully utilized to immerse each yogi in a wave of light and sound on the main dancefloor. This comfortable atmosphere is accepting of all skill levels. Mats are available for rent.",
-        "eventDescLong": "Welcome to the last class in April at Necto Nightclub, featuring a mixed level vinyasa-flow led by Mai (Yoga Republic), and soothing, upbeat vibrations courtesy of Avyu. Necto's production will be fully utilized to immerse each yogi in a wave of light and sound on the main dancefloor. This comfortable atmosphere is accepting of all skill levels. Mats are available for rent.",
+        "eventDesc"    : "Welcome to the last class in April at Necto Nightclub, featuring a mixed level vinyasa-flow led by Mai (Yoga Republic), and soothing, upbeat vibrations courtesy of Avyu. Necto‘s production will be fully utilized to immerse each yogi in a wave of light and sound on the main dancefloor. This comfortable atmosphere is accepting of all skill levels. Mats are available for rent.",
+        "eventDescLong": "Welcome to the last class in April at Necto Nightclub, featuring a mixed level vinyasa-flow led by Mai (Yoga Republic), and soothing, upbeat vibrations courtesy of Avyu. Necto‘s production will be fully utilized to immerse each yogi in a wave of light and sound on the main dancefloor. This comfortable atmosphere is accepting of all skill levels. Mats are available for rent.",
         "eventCover"   : "$15 ADV / $20 DOS",
         "eventLink"    : "special-events/" + "deep-house-yoga-at-necto-nightclub-ann-arbor-michigan-apr-20th-2017.html",
         "eventSocial"  : "https://www.facebook.com/events/1921979594704149/",
@@ -100,8 +100,8 @@ var eventsJSON = [
         "eventDate"    : new Date("Apr 10, 2017 21:00:00"),
         "eventName"    : "Electro-Industrial Factory",
         "eventArtist"  : "Electro-Industrial Factory",
-        "eventDesc"    : "The only thing Factory will be manufacturing for you is pure, deep Electro-Industrial all night long. We're taking a twisted dive into a world where Mr. Wonka has a *slightly* different taste in music, mixing wicked tunes from DJ Void6 and DJ Darks Choir with sick treats.",
-        "eventDescLong": "The only thing Factory will be manufacturing for you is pure, deep Electro-Industrial all night long. We're taking a twisted dive into a world where Mr. Wonka has a *slightly* different taste in music, mixing wicked tunes from DJ Void6 and DJ Darks Choir with sick treats.",
+        "eventDesc"    : "The only thing Factory will be manufacturing for you is pure, deep Electro-Industrial all night long. We‘re taking a twisted dive into a world where Mr. Wonka has a *slightly* different taste in music, mixing wicked tunes from DJ Void6 and DJ Darks Choir with sick treats.",
+        "eventDescLong": "The only thing Factory will be manufacturing for you is pure, deep Electro-Industrial all night long. We‘re taking a twisted dive into a world where Mr. Wonka has a *slightly* different taste in music, mixing wicked tunes from DJ Void6 and DJ Darks Choir with sick treats.",
         "eventCover"   : "Cover is $1 before 10pm and $3 after 10pm",
         "eventLink"    : "special-events/" + "electro-industrial-factory-at-necto-nightclub-ann-arbor-michigan-apr-10th-2017.html",
         "eventSocial"  : "facebook.com/events/790228854463666/",
@@ -649,9 +649,7 @@ var eventsJSON = [
         "eventDate"    : new Date("Dec 10, 2016 20:00:00"),
         "eventName"    : "Dance Break by EnCore",
         "eventArtist"  : "Dance Break by EnCore",
-
         "eventDesc"    : "Have you been spending hours searching for the perfect Spotify playlist to take your mind off your busy end-of-the-semester life? We have a better idea... Come check out DANCE BREAK by EnCore, a collaborative dance show including some of the hottest premiere dance crews from the University of Michigan and surrounding areas. 11 Crews - 2 Hours.",
-
         "eventDescLong": "Have you been spending hours searching for the perfect Spotify playlist to take your mind off your busy end-of-the-semester life? We have a better idea... Come check out DANCE BREAK by EnCore, a collaborative dance show including some of the hottest premiere dance crews from the University of Michigan and surrounding areas. 11 Crews - 2 Hours.",
 
         "eventCover"   : "Pre-sale $5 | Tickets at doors $7",
@@ -687,11 +685,8 @@ var eventsJSON = [
         "eventDate"    : new Date("Dec 2, 2016 21:00:00"),
         "eventName"    : "SHARON NEEDLES winner of S4 of RuPaul’s Drag Race",
         "eventArtist"  : "SHARON NEEDLES",
-
         "eventDesc"    : "Sharon Needles is the stage name of Aaron Coady, an American drag performer, recording artist and winner of season 4 of RuPaul&#39;s Drag Race. A self-described &#39;stupid genius, reviled sweetheart, and PBR princess,&#39; Needles rose to prominence on the fourth season of the Logo reality competition where she quickly became a fan favorite.",
-
         "eventDescLong": "Sharon Needles is the stage name of Aaron Coady, an American drag performer, recording artist and winner of season 4 of RuPaul&#39;s Drag Race. A self-described &#39;stupid genius, reviled sweetheart, and PBR princess,&#39; Needles rose to prominence on the fourth season of the Logo reality competition where she quickly became a fan favorite.",
-
         "eventCover"   : "Free with RSVP",
         "eventLink"    : "special-events/" + "sharon-needles-at-necto-nightclub-ann-arbor-michigan-dec-2nd-2016.html",
         "eventSocial"  : "https://www.facebook.com/events/115293922275539/",
@@ -706,11 +701,8 @@ var eventsJSON = [
         "eventDate"    : new Date("Dec 2, 2016 17:30:00"),
         "eventName"    : "Soul Practitioners: Rockin’ Christmas Party for Charity",
         "eventArtist"  : "Soul Practitioners",
-
         "eventDesc"    : "We are a local all attorney band playing R&B, Motown and dance music. Admission is free with a donation of a toy to Toys for Tots or Community Action network, food for Food Gatherers or pet supplies for the Humane Society. Pizza and snacks provided, cash bar.",
-
         "eventDescLong": "We are a local all attorney band playing R&B, Motown and dance music. Admission is free with a donation of a toy to Toys for Tots or Community Action network, food for Food Gatherers or pet supplies for the Humane Society. Pizza and snacks provided, cash bar.",
-
         "eventCover"   : "Free with charitable donation",
         "eventLink"    : "special-events/" + "soul-practitioners-rockin-christmas-at-necto-nightclub-ann-arbor-michigan-dec-2nd-2016.html",
         "eventSocial"  : "https://www.facebook.com/events/1679074349070438/",
@@ -725,11 +717,8 @@ var eventsJSON = [
         "eventDate"    : new Date("Nov 28, 2016 21:00:00"),
         "eventName"    : "Factory Fall Formal 2016",
         "eventArtist"  : "Factory Fall Formal",
-
         "eventDesc"    : "Factory, it&#39;s that special time of year when we dress our best and party to the music. Free admission if you wear formal attire, and free photos by a pro with your friends. Sounds provided by: DJ Void6, DJ Skellie, Jaysen Craves, DJ Madisi, and host MC Yoda. Visuals by Remnant.",
-
         "eventDescLong": "Factory, it&#39;s that special time of year when we dress our best and party to the music. Free admission if you wear formal attire, and free photos by a pro with your friends. Sounds provided by: DJ Void6, DJ Skellie, Jaysen Craves, DJ Madisi, and host MC Yoda. Visuals by Remnant.",
-
         "eventCover"   : "$1 cover before 10PM, $3 after.",
         "eventLink"    : "special-events/" + "fall-formal-2016-at-necto-nightclub-ann-arbor-michigan-nov-28th-2016.html",
         "eventSocial"  : "https://www.facebook.com/events/1527288940620781/",
@@ -744,11 +733,8 @@ var eventsJSON = [
         "eventDate"    : new Date("Nov 19, 2016 21:00:00"),
         "eventName"    : "Unfolded",
         "eventArtist"  : "Unfolded",
-
         "eventDesc"    : "Unfold your mind, body and spirit with two artists that are pushing the boundaries of house music.",
-
         "eventDescLong": "Unfold your mind, body and spirit with two artists that are pushing the boundaries of house music.",
-
         "eventCover"   : "$5 presale. At doors $5 for 21+ | $10 for 18-20",
         "eventLink"    : "special-events/" + "unfolded-at-necto-nightclub-ann-arbor-michigan-nov-19th-2016.html",
         "eventSocial"  : "https://www.facebook.com/events/1467037769979873/",
@@ -763,11 +749,8 @@ var eventsJSON = [
         "eventDate"    : new Date("Nov 14, 2016 17:30:00"),
         "eventName"    : "Underground Yoga - Deep House Vinyasa",
         "eventArtist"  : "Underground Yoga",
-
         "eventDesc"    : "Welcome to the November class at Necto Nightclub, featuring a mixed level vinyasa-flow led by Carol Ann, and soothing, upbeat vibrations courtesy of Adam Westing. Necto&#39;s production will be fully utilized to immerse each yogi in a wave of light and sound on the main dance floor. This comfortable atmosphere is accepting of all skill levels. Mats are available for rent for only $2.",
-
         "eventDescLong": "Welcome to the November class at Necto Nightclub, featuring a mixed level vinyasa-flow led by Carol Ann, and soothing, upbeat vibrations courtesy of Adam Westing. Necto&#39;s production will be fully utilized to immerse each yogi in a wave of light and sound on the main dance floor. This comfortable atmosphere is accepting of all skill levels. Mats are available for rent for only $2.",
-
         "eventCover"   : "$15 presale / $20 DOS",
         "eventLink"    : "special-events/" + "underground-yoga-deep-house-vinyasa-at-necto-nightclub-ann-arbor-michigan-nov-14th-2016.html",
         "eventSocial"  : "https://www.facebook.com/events/1268772179847047/",
@@ -783,7 +766,6 @@ var eventsJSON = [
         "eventName"    : "Necto Pride presents... WILLAM : Suck Less-Where There‘s a Willam There‘s a Way Book Tour",
         "eventArtist"  : "Willam",
         "eventDescLong": "Join Willam from RuPaul’s Drag Race S4 & AAA Girls on their highly anticipated book tour. Foreworded by Neil Patrick Harris, Willam’s book is already the #1 pre-release in self help humor on Amazon. “SUCK LESS: Where There’s a Willam There‘s a Way!“ More info to come for the VIP book tour meet & greet.",
-
         "eventCover"   : "N/A",
         "eventLink"    : "special-events/" + "willam-at-necto-nightclub-ann-arbor-michigan-nov-11th-2016.html",
         "eventSocial"  : "https://www.facebook.com/events/1675681442747391/",
@@ -802,7 +784,6 @@ var eventsJSON = [
         "eventLink"    : "special-events/" + "willam-book-signing-at-necto-nightclub-ann-arbor-michigan-nov-11th-2016.html",
         "eventSocial"  : "https://www.facebook.com/events/1675681442747391/",
         "eventTix"     : "none",
-
         "eventImgWide" : "img/event-images/" + "cal-willam-at-necto-night-club-ann-arbor.jpg",
         //"eventWklOvrd" : true,
         "eventDay"     : 0, // Do not modify
@@ -817,7 +798,6 @@ var eventsJSON = [
         "eventLink"    : "special-events/" + "klingande-at-necto-nightclub-ann-arbor-michigan-nov-10th-2016.html",
         "eventSocial"  : "https://www.facebook.com/events/194317207644560/",
         "eventTix"     : "none",
-
         "eventImgWide" : "img/event-images/" + "cal-klingande-at-necto-night-club-ann-arbor.jpg",
         //"eventWklOvrd" : true,
         "eventDay"     : 0, // Do not modify
@@ -832,7 +812,6 @@ var eventsJSON = [
         "eventLink"    : "special-events/" + "lemaitre-at-necto-nightclub-ann-arbor-michigan-nov-9th-2016.html",
         "eventSocial"  : "https://www.facebook.com/events/1254743334545390/",
         "eventTix"     : "none",
-
         "eventImgWide" : "img/event-images/" + "cal-lemaitre-at-necto-nightclub-ann-arbor.jpg",
         //"eventWklOvrd" : true,
         "eventDay"     : 0, // Do not modify
@@ -847,7 +826,6 @@ var eventsJSON = [
         "eventLink"    : "special-events/" + "bring-out-your-dead-halloween-2016-at-necto-nightclub-ann-arbor-michigan-oct-31st-2016.html",
         "eventSocial"  : "https://www.facebook.com/events/309422669423208/",
         "eventTix"     : "none",
-
         "eventImgWide" : "img/event-images/" + "cal-bring-out-your-dead-halloween-2016-at-necto-nightclub-ann-arbor.jpg",
         //"eventWklOvrd" : true,
         "eventDay"     : 0, // Do not modify
@@ -862,7 +840,6 @@ var eventsJSON = [
         "eventLink"    : "special-events/" + "feed-me-family-reunion-devils-night-at-necto-nightclub-ann-arbor-michigan-oct-30th-2016.html",
         "eventSocial"  : "https://www.facebook.com/events/198556387246509/",
         "eventTix"     : "none",
-
         "eventImgWide" : "img/event-images/" + "cal-feed-me-at-necto-night-club-ann-arbor.jpg",
         //"eventWklOvrd" : true,
         "eventDay"     : 0, // Do not modify
@@ -877,7 +854,6 @@ var eventsJSON = [
         "eventLink"    : "special-events/" + "halloween-bash-2016-at-necto-nightclub-ann-arbor-michigan-oct-29th-2016.html",
         "eventSocial"  : "https://www.facebook.com/events/194207361000676/",
         "eventTix"     : "none",
-
         "eventImgWide" : "img/event-images/" + "cal-halloween-bash-2016-at-necto-nightclub-ann-arbor.jpg",
         //"eventWklOvrd" : true,
         "eventDay"     : 0, // Do not modify
@@ -892,7 +868,6 @@ var eventsJSON = [
         "eventLink"    : "special-events/" + "haunted-halloween-party-at-necto-nightclub-ann-arbor-michigan-oct-28th-2016.html",
         "eventSocial"  : "https://www.facebook.com/events/669563153206248/",
         "eventTix"     : "none",
-
         "eventImgWide" : "img/event-images/" + "cal-haunted-halloween-party-at-necto-nightclub-ann-arbor.jpg",
         //"eventWklOvrd" : true,
         "eventDay"     : 0, // Do not modify
@@ -907,7 +882,6 @@ var eventsJSON = [
         "eventLink"    : "special-events/" + "fun-house-halloween-thrills-chills-at-necto-nightclub-ann-arbor-michigan-oct-27th-2016.html",
         "eventSocial"  : "https://www.facebook.com/events/1768483113364835/",
         "eventTix"     : "none",
-
         "eventImgWide" : "img/event-images/" + "cal-funhouse-at-necto-nightclub-ann-arbor-michigan.jpg",
         //"eventWklOvrd" : true,
         "eventDay"     : 0, // Do not modify
@@ -922,7 +896,6 @@ var eventsJSON = [
         "eventLink"    : "special-events/" + "elephante-ben-phipps-at-necto-nightclub-ann-arbor-michigan-oct-26th-2016.html",
         "eventSocial"  : "404.html",
         "eventTix"     : "none",
-
         "eventImgWide" : "img/event-images/" + "elephante-ben-phipps-cal-at-necto-nightclub-ann-arbor.jpg",
         //"eventWklOvrd" : true,
         "eventDay"     : 0, // Do not modify
@@ -937,7 +910,6 @@ var eventsJSON = [
         "eventLink"    : "special-events/" + "throwback-thursday-at-necto-nightclub-ann-arbor-michigan-oct-20th-2016.html",
         "eventSocial"  : "https://www.facebook.com/events/1808192052730572/",
         "eventTix"     : "none",
-
         "eventImgWide" : "img/event-images/" + "cal-throwback-thursday-at-necto-night-club-ann-arbor.jpg",
         //"eventWklOvrd" : true,
         "eventDay"     : 0, // Do not modify
@@ -959,7 +931,7 @@ var eventsJSON = [
     },
     {
         "eventDate"    : new Date("Oct 7, 2016 20:00:00"),
-        "eventName"    : "Necto Pride presents... KIM CHI runner up of RuPaul's Drag Race S8",
+        "eventName"    : "Necto Pride presents... KIM CHI runner up of RuPaul‘s Drag Race S8",
         "eventArtist"  : "Kim Chi",
         "eventDescLong": "”My name is Kim Chi, and say hello to yellow!” After Kim Chi’s last visit, we had a lot of requests to bring her back. Come hang out with our gorgeous 7’ tall chameleon & friend. Let’s get cocktailed & have some fun!",
         "eventCover"   : "N/A",
@@ -1155,8 +1127,8 @@ var eventsJSON = [
     },
     {
         "eventDate"    : new Date("Aug 22, 2016 20:00:00"),
-        "eventName"    : "Factory's PokéParty 2016",
-        "eventArtist"  : "Factory's PokéParty 2016",
+        "eventName"    : "Factory‘s PokéParty 2016",
+        "eventArtist"  : "Factory‘s PokéParty 2016",
         "eventDescLong": "We’re gonna be the very best, like no community ever was. 2 pokéstops, music, drinks, and some of the best trainers around come together for our 1st ever PokéParty.",
         "eventCover"   : "N/A",
         "eventLink"    : "special-events/" + "pokeparty-2016-at-necto-nightclub-ann-arbor-michigan-aug-22nd-2016.html",
@@ -1451,7 +1423,7 @@ var eventsJSON = [
         "eventDate"    : new Date("Apr 6, 2016 21:00:00"),
         "eventName"    : "MATOMA",
         "eventArtist"  : "MATOMA",
-        "eventDescLong": "Norway's Tom Stræte Lagergren (aka Matoma) is a DJ and producer known for his dance-oriented, tropical house music. By 2014, he started to gain international recognition for his Matoma remixes, including cuts for Jessie J, Akon, Enrique Iglesias, and others. In 2015, he scored a hit in Europe with a remix of Notorious B.I.G.'s 'Old Thing Back.' Also in 2015, Lagergren released his own debut single as Matoma, 'Feeling Right (Everything Is Nice),' featuring rapper Wale and Jamaican dancehall singer Popcaan.",
+        "eventDescLong": "Norway‘s Tom Stræte Lagergren (aka Matoma) is a DJ and producer known for his dance-oriented, tropical house music. By 2014, he started to gain international recognition for his Matoma remixes, including cuts for Jessie J, Akon, Enrique Iglesias, and others. In 2015, he scored a hit in Europe with a remix of Notorious B.I.G.‘s ‘Old Thing Back.‘ Also in 2015, Lagergren released his own debut single as Matoma, ‘Feeling Right (Everything Is Nice),‘ featuring rapper Wale and Jamaican dancehall singer Popcaan.",
         "eventCover"   : "N/A",
         "eventLink"    : "special-events/" + "matoma-at-necto-nightclub-ann-arbor-michigan-apr-6th-2016.html",
         "eventSocial"  : "https://www.facebook.com/events/1674679269461471/",
@@ -1465,7 +1437,7 @@ var eventsJSON = [
         "eventDate"    : new Date("Apr 2, 2016 21:00:00"),
         "eventName"    : "Downtown Underground",
         "eventArtist"  : "Downtown Underground",
-        "eventDescLong": "Downtown Underground in the Red Room is an idea that DJ Selina Style has been working on for most of the last year, exploring and collecting and refining just the right sound for an irresistible groove. You'll hear roots and remixes, neo-soul and funky house, electro blues and boogie, and slow jamz your hips can't ignore. It will be your Saturday night refuge for the grown 'n sexy -- a place where you can sit back with your drink and bob your head or get up and dance, do what you feel.",
+        "eventDescLong": "Downtown Underground in the Red Room is an idea that DJ Selina Style has been working on for most of the last year, exploring and collecting and refining just the right sound for an irresistible groove. You‘ll hear roots and remixes, neo-soul and funky house, electro blues and boogie, and slow jamz your hips can‘t ignore. It will be your Saturday night refuge for the grown ‘n sexy -- a place where you can sit back with your drink and bob your head or get up and dance, do what you feel.",
         "eventCover"   : "N/A",
         "eventLink"    : "special-events/" + "downtown-underground-at-necto-nightclub-ann-arbor-michigan-apr-2nd-2016.html",
         "eventSocial"  : "https://www.facebook.com/events/975695555850981/",
@@ -1479,7 +1451,7 @@ var eventsJSON = [
         "eventDate"    : new Date("Mar 31, 2016 21:00:00"),
         "eventName"    : "Deep House Yoga",
         "eventArtist"  : "Deep House Yoga",
-        "eventDescLong": "Southpaw events presents... Deep House Yoga, featuring a mixed level vinyasa-flow led by Carol Ann Manown, and soothing, upbeat vibrations courtesy of Adam Westing. Necto's production will be fully utilized to immerse each yogi in a wave of light and sound on the main dancefloor. This comfortable atmosphere is accepting of all skill levels. Mats are available for rent, and water will be available for purchase.",
+        "eventDescLong": "Southpaw events presents... Deep House Yoga, featuring a mixed level vinyasa-flow led by Carol Ann Manown, and soothing, upbeat vibrations courtesy of Adam Westing. Necto‘s production will be fully utilized to immerse each yogi in a wave of light and sound on the main dancefloor. This comfortable atmosphere is accepting of all skill levels. Mats are available for rent, and water will be available for purchase.",
         "eventCover"   : "N/A",
         "eventLink"    : "special-events/" + "deep-house-yoga-at-necto-nightclub-ann-arbor-michigan-mar-31st-2016.html",
         "eventSocial"  : "https://www.facebook.com/events/870543933044385/",
@@ -1493,7 +1465,7 @@ var eventsJSON = [
         "eventDate"    : new Date("Mar 21, 2016 21:00:00"),
         "eventName"    : "Factory Fallout",
         "eventArtist"  : "Factory Fallout",
-        "eventDescLong": "Secure your place in Factory's post-apocalypse party with DJs Void6, AudioFlesh (Ination / Glitchmode), Madisi, and MC Yoda!",
+        "eventDescLong": "Secure your place in Factory‘s post-apocalypse party with DJs Void6, AudioFlesh (Ination / Glitchmode), Madisi, and MC Yoda!",
         "eventCover"   : "N/A",
         "eventLink"    : "special-events/" + "factory-fallout-at-necto-nightclub-ann-arbor-michigan-mar-21st-2016.html",
         "eventSocial"  : "https://www.facebook.com/events/538017979703193/",
@@ -1505,9 +1477,9 @@ var eventsJSON = [
     },
     {
         "eventDate"    : new Date("Mar 18, 2016 21:00:00"),
-        "eventName"    : "St Patty's Day Rehab",
-        "eventArtist"  : "St Patty's Day Rehab",
-        "eventDescLong": "Please Do Not Wear Green! We know it was St Patty's Day on Thursday. Come get a little hair of the dog that bit you. Drink Specials & Specialty drink menu all night to cure what ails you!",
+        "eventName"    : "St Patty‘s Day Rehab",
+        "eventArtist"  : "St Patty‘s Day Rehab",
+        "eventDescLong": "Please Do Not Wear Green! We know it was St Patty‘s Day on Thursday. Come get a little hair of the dog that bit you. Drink Specials & Specialty drink menu all night to cure what ails you!",
         "eventCover"   : "N/A",
         "eventLink"    : "special-events/" + "st-pattys-day-rehab-at-necto-nightclub-ann-arbor-michigan-mar-18th-2016.html",
         "eventSocial"  : "https://www.facebook.com/events/1525957307705526/",
@@ -1535,7 +1507,7 @@ var eventsJSON = [
         "eventDate"    : new Date("Mar 11, 2016 21:00:00"),
         "eventName"    : "Dragster presents... DETOX",
         "eventArtist"  : "Detox",
-        "eventDescLong": "Detox Icunt, also known mononymously as Detox, is an American drag performer and recording artist. Detox was a fixture in the Southern California drag scene before gaining prominence on the fifth season of RuPaul's Drag Race.",
+        "eventDescLong": "Detox Icunt, also known mononymously as Detox, is an American drag performer and recording artist. Detox was a fixture in the Southern California drag scene before gaining prominence on the fifth season of RuPaul‘s Drag Race.",
         "eventCover"   : "N/A",
         "eventLink"    : "special-events/" + "detox-dragster-at-necto-nightclub-ann-arbor-michigan-mar-11th-2016.html",
         "eventSocial"  : "https://www.facebook.com/events/118842751834371/",
@@ -1549,7 +1521,7 @@ var eventsJSON = [
         "eventDate"    : new Date("Mar 11, 2016 20:00:00"),
         "eventName"    : "Mr. Necto King Pageant",
         "eventArtist"  : "Mr. Necto King Pageant",
-        "eventDescLong": "Join Necto for our 1st annual Mr Necto King Pageant 2016. Hosted by Michael Christian, Thrustin' Bieber & Jadein Black. Contestants will compete for the crown & cash prizes in Creative Costume Presentation & Talent.",
+        "eventDescLong": "Join Necto for our 1st annual Mr Necto King Pageant 2016. Hosted by Michael Christian, Thrustin‘ Bieber & Jadein Black. Contestants will compete for the crown & cash prizes in Creative Costume Presentation & Talent.",
         "eventCover"   : "N/A",
         "eventLink"    : "special-events/" + "mr-necto-king-pageant-at-necto-nightclub-ann-arbor-michigan-march-11th-2016.html",
         "eventSocial"  : "https://www.facebook.com/events/941257092630585/",
@@ -1563,7 +1535,7 @@ var eventsJSON = [
         "eventDate"    : new Date("Mar 5, 2016 20:00:00"),
         "eventName"    : "Downtown Underground in the Red Room",
         "eventArtist"  : "Downtown Underground in the Red Room",
-        "eventDescLong": "Downtown Underground in the Red Room is an idea that DJ Selina Style has been working on for most of the last year, exploring and collecting and refining just the right sound for an irresistible groove. You'll hear roots and remixes, neo-soul and funky house, electro blues and boogie, and slow jamz your hips can't ignore. It will be your Saturday night refuge for the grown 'n sexy -- a place where you can sit back with your drink and bob your head or get up and dance, do what you feel.",
+        "eventDescLong": "Downtown Underground in the Red Room is an idea that DJ Selina Style has been working on for most of the last year, exploring and collecting and refining just the right sound for an irresistible groove. You‘ll hear roots and remixes, neo-soul and funky house, electro blues and boogie, and slow jamz your hips can‘t ignore. It will be your Saturday night refuge for the grown ‘n sexy -- a place where you can sit back with your drink and bob your head or get up and dance, do what you feel.",
         "eventCover"   : "N/A",
         "eventLink"    : "special-events/" + "downtown-underground-at-necto-nightclub-ann-arbor-michigan-mar-5th-2016.html",
         "eventSocial"  : "https://www.facebook.com/events/1713361248878536/",
@@ -1575,9 +1547,9 @@ var eventsJSON = [
     },
     {
         "eventDate"    : new Date("Feb 19, 2016 20:00:00"),
-        "eventName"    : "Jace's Birthday Pajama Party",
-        "eventArtist"  : "Jace's Birthday Pajama Party",
-        "eventDescLong": "It's DJ Jace's Birthday!!! Come celebrate with us as we give SPANKS to one of our favorite DJs! It's a PAJAMA Party... so be sure to wear your bedtime best. Don't forget that Necto has lockers & coat check. We don't want anything or anyone to freeze.",
+        "eventName"    : "Jace‘s Birthday Pajama Party",
+        "eventArtist"  : "Jace‘s Birthday Pajama Party",
+        "eventDescLong": "It‘s DJ Jace‘s Birthday!!! Come celebrate with us as we give SPANKS to one of our favorite DJs! It‘s a PAJAMA Party... so be sure to wear your bedtime best. Don‘t forget that Necto has lockers & coat check. We don‘t want anything or anyone to freeze.",
         "eventCover"   : "N/A",
         "eventLink"    : "special-events/" + "jaces-birthday-pajama-party-at-necto-nightclub-ann-arbor-michigan-feb-19th-2016.html",
         "eventSocial"  : "https://www.facebook.com/events/232258070446153/",
@@ -1591,7 +1563,7 @@ var eventsJSON = [
         "eventDate"    : new Date("Feb 19, 2016 20:00:00"),
         "eventName"    : "J Phlip: Official Movement Pre-Party",
         "eventArtist"  : "J Phlip: Official Movement Pre-Party",
-        "eventDescLong": "Jessica Phillippe is diehard, born with true grit and skills to pay the bills. Despite her success with the Dirtybird gang, she's still out there in record stores on the regular... digging, uncovering precious gems and weaving them into her dynamic sets with panache. She's a hard-working, dedicated lady who refuses to compromise and aims to rock the dancefloor without relying on the most obvious tracks. Production-wise she's just as fearsome, lacing her tracks with a tough yet bouncy flavour. Her prowess in both disciplines combined with her infectious sense of fun and mind-boggling depth of knowledge make her one of the most revered DJs on the global circuit today.",
+        "eventDescLong": "Jessica Phillippe is diehard, born with true grit and skills to pay the bills. Despite her success with the Dirtybird gang, she‘s still out there in record stores on the regular... digging, uncovering precious gems and weaving them into her dynamic sets with panache. She‘s a hard-working, dedicated lady who refuses to compromise and aims to rock the dancefloor without relying on the most obvious tracks. Production-wise she‘s just as fearsome, lacing her tracks with a tough yet bouncy flavour. Her prowess in both disciplines combined with her infectious sense of fun and mind-boggling depth of knowledge make her one of the most revered DJs on the global circuit today.",
         "eventCover"   : "N/A",
         "eventLink"    : "special-events/" + "j-phlip-movement-festival-pre-party-at-necto-nightclub-ann-arbor-michigan-feb-17th-2016.html",
         "eventSocial"  : "https://www.facebook.com/events/232258070446153/",
@@ -1605,7 +1577,7 @@ var eventsJSON = [
         "eventDate"    : new Date("Feb 15, 2016 20:00:00"),
         "eventName"    : "Broken Hearts Ball 2016",
         "eventArtist"  : "Broken Hearts Ball 2016",
-        "eventDescLong": "The Broken Hearts Ball 2016. The cards, the candy, the flowers and everything that goes with it can burn in Hell as far as we're concerned. No couples specials, no get your picture taken with your true love. Let us celebrate those feelings of loneliness and burning bitter hate that keeps us warm on those cold winter nights.",
+        "eventDescLong": "The Broken Hearts Ball 2016. The cards, the candy, the flowers and everything that goes with it can burn in Hell as far as we‘re concerned. No couples specials, no get your picture taken with your true love. Let us celebrate those feelings of loneliness and burning bitter hate that keeps us warm on those cold winter nights.",
         "eventCover"   : "N/A",
         "eventLink"    : "special-events/" + "broken-hearts-ball-2016-at-necto-nightclub-ann-arbor-michigan-feb-15th-2016.html",
         "eventSocial"  : "",
@@ -1661,7 +1633,7 @@ var eventsJSON = [
         "eventDate"    : new Date("Feb 9, 2016 20:00:00"),
         "eventName"    : "Deep House Yoga",
         "eventArtist"  : "Deep House Yoga",
-        "eventDescLong": "Southpaw events presents... Deep House Yoga, featuring a mixed level vinyasa-flow led by Carol Ann Manown, and soothing, upbeat vibrations courtesy of Adam Westing. Necto's production will be fully utilized to immerse each yogi in a wave of light and sound on the main dancefloor. This comfortable atmosphere is accepting of all skill levels. Mats are available for rent, and water will be available for purchase.",
+        "eventDescLong": "Southpaw events presents... Deep House Yoga, featuring a mixed level vinyasa-flow led by Carol Ann Manown, and soothing, upbeat vibrations courtesy of Adam Westing. Necto‘s production will be fully utilized to immerse each yogi in a wave of light and sound on the main dancefloor. This comfortable atmosphere is accepting of all skill levels. Mats are available for rent, and water will be available for purchase.",
         "eventCover"   : "N/A",
         "eventLink"    : "special-events/" + "deep-house-yoga-at-necto-nightclub-ann-arbor-michigan-feb-9th-2016.html",
         "eventSocial"  : "",
@@ -1689,7 +1661,7 @@ var eventsJSON = [
         "eventDate"    : new Date("Feb 6, 2016 20:00:00"),
         "eventName"    : "Downtown Underground in the Red Room",
         "eventArtist"  : "Downtown Underground in the Red Room",
-        "eventDescLong": "Downtown Underground in the Red Room is an idea that DJ Selina Style has been working on for most of the last year, exploring and collecting and refining just the right sound for an irresistible groove. You'll hear roots and remixes, neo-soul and funky house, electro blues and boogie, and slow jamz your hips can't ignore. It will be your Saturday night refuge for the grown 'n sexy -- a place where you can sit back with your drink and bob your head or get up and dance, do what you feel.",
+        "eventDescLong": "Downtown Underground in the Red Room is an idea that DJ Selina Style has been working on for most of the last year, exploring and collecting and refining just the right sound for an irresistible groove. You‘ll hear roots and remixes, neo-soul and funky house, electro blues and boogie, and slow jamz your hips can‘t ignore. It will be your Saturday night refuge for the grown ‘n sexy -- a place where you can sit back with your drink and bob your head or get up and dance, do what you feel.",
         "eventCover"   : "N/A",
         "eventLink"    : "special-events/" + "downtown-underground-at-necto-nightclub-ann-arbor-michigan-feb-6th-2016.html",
         "eventSocial"  : "",
@@ -1703,7 +1675,7 @@ var eventsJSON = [
         "eventDate"    : new Date("Feb 6, 2016 20:00:00"),
         "eventName"    : "Frequency Mardi Gras",
         "eventArtist"  : "Frequency Mardi Gras",
-        "eventDescLong": "Frequency ramps up the volume for Mardi Gras! Join DJ Hardy & MC Yoda for the hottest club night in Southeast Michigan. The dance floor will be packed from the best Top 40, House & Hip Hop Tracks. Don't let your weekend down. Let's get Turnt Up!",
+        "eventDescLong": "Frequency ramps up the volume for Mardi Gras! Join DJ Hardy & MC Yoda for the hottest club night in Southeast Michigan. The dance floor will be packed from the best Top 40, House & Hip Hop Tracks. Don‘t let your weekend down. Let‘s get Turnt Up!",
         "eventCover"   : "N/A",
         "eventLink"    : "special-events/" + "frequency-mardi-gras-at-necto-nightclub-ann-arbor-michigan-feb-6th-2016.html",
         "eventSocial"  : "",
@@ -1717,7 +1689,7 @@ var eventsJSON = [
         "eventDate"    : new Date("Feb 6, 2016 20:00:00"),
         "eventName"    : "J Phlip: LUMINATE FASHION SHOW",
         "eventArtist"  : "J Phlip: LUMINATE FASHION SHOW",
-        "eventDescLong": "Join SHEI Magazine, the University of Michigan's premiere student-run fashion and culture publication and MRelay for LUMINATE. This year SHEI's Spring Fashion Show will be held at Necto and proceeds will benefit Relay for Life.",
+        "eventDescLong": "Join SHEI Magazine, the University of Michigan‘s premiere student-run fashion and culture publication and MRelay for LUMINATE. This year SHEI‘s Spring Fashion Show will be held at Necto and proceeds will benefit Relay for Life.",
         "eventCover"   : "N/A",
         "eventLink"    : "special-events/" + "j-phlip-lumonate-fashion-show-at-necto-nightclub-ann-arbor-michigan-feb-6th-2016.html",
         "eventSocial"  : "",
@@ -1731,7 +1703,7 @@ var eventsJSON = [
         "eventDate"    : new Date("Feb 5, 2016 20:00:00"),
         "eventName"    : "Pride Mardi Gras",
         "eventArtist"  : "Pride Mardi Gras",
-        "eventDescLong": "This Friday join the Necto Pride Family as we celebrate Mardi Gras with DJ Jace, Jason Michael, DVJ Mark, Chanel Hunter & Jadein Black. We'll be giving away beads all night to only the sexiest of sinners.",
+        "eventDescLong": "This Friday join the Necto Pride Family as we celebrate Mardi Gras with DJ Jace, Jason Michael, DVJ Mark, Chanel Hunter & Jadein Black. We‘ll be giving away beads all night to only the sexiest of sinners.",
         "eventCover"   : "N/A",
         "eventLink"    : "special-events/" + "pride-mardi-gras-2016-at-necto-nightclub-ann-arbor-michigan-feb-5th-2016.html",
         "eventSocial"  : "",
@@ -1745,7 +1717,7 @@ var eventsJSON = [
         "eventDate"    : new Date("Feb 4, 2016 20:00:00"),
         "eventName"    : "College Night Mardi Gras",
         "eventArtist"  : "College Night Mardi Gras",
-        "eventDescLong": "Join Necto for University of Michigan's favorite Nightclub & the biggest college night in Southeast Michigan. This Thursday we celebrate Mardi Gras! We'll be giving away tons of beads all night.",
+        "eventDescLong": "Join Necto for University of Michigan‘s favorite Nightclub & the biggest college night in Southeast Michigan. This Thursday we celebrate Mardi Gras! We‘ll be giving away tons of beads all night.",
         "eventCover"   : "N/A",
         "eventLink"    : "special-events/" + "college-night-mardi-gras-at-necto-nightclub-ann-arbor-michigan-feb-4th-2016.html",
         "eventSocial"  : "",
@@ -1787,7 +1759,7 @@ var eventsJSON = [
         "eventDate"    : new Date("Jan 28, 2016 20:00:00"),
         "eventName"    : "College Night Pajama Party",
         "eventArtist"  : "College Night Pajama Party",
-        "eventDescLong": "Join Channel 955's Joey at University of Michigan's favorite Nightclub for the biggest college night in Southeast Michigan. This Thursday let's hang out at the craziest University Pajama Party! No pillow fighting on the dance floor please!<br>Every week DJ Hardy and Nick Donovan spin the best Top 40, House & Hip Hop in the Main Room. In the Red Room MEDMA will be playing the hottest EDM Tracks.<br>Doors open at 10pm. 18 & over are welcome with proper ID & attire. Cover is free with College ID<br>Drink Specials: $2.50 Fireball shots, $3.50 well drinks, 3 for $10 call bombs, $2 PBR and $2 Miller Lites Necto voted best Best College Night by Real Detroit Weekly & Best Dance Club by Metro Times.",
+        "eventDescLong": "Join Channel 955‘s Joey at University of Michigan‘s favorite Nightclub for the biggest college night in Southeast Michigan. This Thursday let‘s hang out at the craziest University Pajama Party! No pillow fighting on the dance floor please!<br>Every week DJ Hardy and Nick Donovan spin the best Top 40, House & Hip Hop in the Main Room. In the Red Room MEDMA will be playing the hottest EDM Tracks.<br>Doors open at 10pm. 18 & over are welcome with proper ID & attire. Cover is free with College ID<br>Drink Specials: $2.50 Fireball shots, $3.50 well drinks, 3 for $10 call bombs, $2 PBR and $2 Miller Lites Necto voted best Best College Night by Real Detroit Weekly & Best Dance Club by Metro Times.",
         "eventCover"   : "N/A",
         "eventLink"    : "special-events/" + "pajama-party-college-night-thursday-at-necto-nightclub-ann-arbor-michigan-jan-28th-2016.html",
         "eventSocial"  : "",
@@ -1801,7 +1773,7 @@ var eventsJSON = [
         "eventDate"    : new Date("Jan 21, 2016 20:00:00"),
         "eventName"    : "Neon Jungle",
         "eventArtist"  : "Neon Jungle",
-        "eventDescLong": "Join Channel 955's Joey at University of Michigan's favorite Nightclub for the biggest college night in Southeast Michigan. This Thursday let's get FREAKY at Necto's NEON JUNGLE PARTY! Everything looks sexier under black light!<br>Every week DJ Hardy and Nick Donovan spin the best Top 40, House & Hip Hop in the Main Room. In the Red Room MEDMA will be playing the hottest EDM Tracks.<br>Doors open at 10pm. 18 & over are welcome with proper ID & attire. Cover is free with College ID<br>Drink Specials: $2.50 Fireball shots, $3.50 well drinks, 3 for $10 call bombs, $2 PBR and $2 Miller Lites Necto voted best Best College Night by Real Detroit Weekly & Best Dance Club by Metro Times.",
+        "eventDescLong": "Join Channel 955‘s Joey at University of Michigan‘s favorite Nightclub for the biggest college night in Southeast Michigan. This Thursday let‘s get FREAKY at Necto‘s NEON JUNGLE PARTY! Everything looks sexier under black light!<br>Every week DJ Hardy and Nick Donovan spin the best Top 40, House & Hip Hop in the Main Room. In the Red Room MEDMA will be playing the hottest EDM Tracks.<br>Doors open at 10pm. 18 & over are welcome with proper ID & attire. Cover is free with College ID<br>Drink Specials: $2.50 Fireball shots, $3.50 well drinks, 3 for $10 call bombs, $2 PBR and $2 Miller Lites Necto voted best Best College Night by Real Detroit Weekly & Best Dance Club by Metro Times.",
         "eventCover"   : "N/A",
         "eventLink"    : "special-events/" + "neon-jungle-college-night-thursday-at-necto-nightclub-ann-arbor-michigan-jan-21st-2016.html",
         "eventSocial"  : "",
@@ -1815,7 +1787,7 @@ var eventsJSON = [
         "eventDate"    : new Date("Jan 15, 2016 20:00:00"),
         "eventName"    : "Dragster featuring KATYA",
         "eventArtist"  : "Dragster featuring KATYA",
-        "eventDescLong": "Dragster featuring KATYA from RuPaul's Drag Race Season 7 & Fan Favorite | hosted By Chanel Hunter & Jadein Black ",
+        "eventDescLong": "Dragster featuring KATYA from RuPaul‘s Drag Race Season 7 & Fan Favorite | hosted By Chanel Hunter & Jadein Black ",
         "eventCover"   : "N/A",
         "eventLink"    : "special-events/" + "dragster-katya-at-necto-nightclub-ann-arbor-michigan-jan-15th-2016.html",
         "eventSocial"  : "",
@@ -1843,7 +1815,7 @@ var eventsJSON = [
         "eventDate"    : new Date("Jan 14, 2016 20:00:00"),
         "eventName"    : "Toga Party",
         "eventArtist"  : "Toga Party",
-        "eventDescLong": "Join Channel 955's Joey at University of Michigan's favorite Nightclub for the biggest college night in Southeast Michigan. This Thursday we celebrate a college night tradition... TOGA! Let's Rage!<br>Every week DJ Hardy and Nick Donovan spin the best Top 40, House & Hip Hop in the Main Room. In the Red Room MEDMA will be playing the hottest EDM Tracks.<br>Doors open at 10pm. 18 & over are welcome with proper ID & attire. Cover is free with College ID<br>Drink Specials: $2.50 Fireball shots, $3.50 well drinks, 3 for $10 call bombs, $2 PBR and $2 Miller Lites Necto voted best Best College Night by Real Detroit Weekly & Best Dance Club by Metro Times.",
+        "eventDescLong": "Join Channel 955‘s Joey at University of Michigan‘s favorite Nightclub for the biggest college night in Southeast Michigan. This Thursday we celebrate a college night tradition... TOGA! Let‘s Rage!<br>Every week DJ Hardy and Nick Donovan spin the best Top 40, House & Hip Hop in the Main Room. In the Red Room MEDMA will be playing the hottest EDM Tracks.<br>Doors open at 10pm. 18 & over are welcome with proper ID & attire. Cover is free with College ID<br>Drink Specials: $2.50 Fireball shots, $3.50 well drinks, 3 for $10 call bombs, $2 PBR and $2 Miller Lites Necto voted best Best College Night by Real Detroit Weekly & Best Dance Club by Metro Times.",
         "eventCover"   : "N/A",
         "eventLink"    : "special-events/" + "toga-party-college-night-thursday-at-necto-nightclub-ann-arbor-michigan-jan-14th-2016.html",
         "eventSocial"  : "",
@@ -1871,7 +1843,7 @@ var eventsJSON = [
         "eventDate"    : new Date("Jan 7, 2016 20:00:00"),
         "eventName"    : "Welcome Back Night",
         "eventArtist"  : "Welcome Back Night",
-        "eventDescLong": "Join Channel 955's Joey at University of Michigan's favorite Nightclub for the biggest college night in Southeast Michigan. Hang with us this Thursday January 7th as we Welcome Student's Back to the College Night Bump & Grind!<br>Every week DJ Hardy and Nick Donovan spin the best Top 40, House & Hip Hop in the Main Room. In the Red Room MEDMA will be playing the hottest EDM Tracks.<br>Doors open at 10pm. 18 & over are welcome with proper ID & attire. Cover is free with College ID<br>Drink Specials: $2.50 Fireball shots, $3.50 well drinks, 3 for $10 call bombs, $2 PBR and $2 Miller Lites Necto voted best Best College Night by Real Detroit Weekly & Best Dance Club by Metro Times.",
+        "eventDescLong": "Join Channel 955‘s Joey at University of Michigan‘s favorite Nightclub for the biggest college night in Southeast Michigan. Hang with us this Thursday January 7th as we Welcome Student‘s Back to the College Night Bump & Grind!<br>Every week DJ Hardy and Nick Donovan spin the best Top 40, House & Hip Hop in the Main Room. In the Red Room MEDMA will be playing the hottest EDM Tracks.<br>Doors open at 10pm. 18 & over are welcome with proper ID & attire. Cover is free with College ID<br>Drink Specials: $2.50 Fireball shots, $3.50 well drinks, 3 for $10 call bombs, $2 PBR and $2 Miller Lites Necto voted best Best College Night by Real Detroit Weekly & Best Dance Club by Metro Times.",
         "eventCover"   : "N/A",
         "eventLink"    : "special-events/" + "welcome-back-uom-college-thursday-at-necto-nightclub-ann-arbor-michigan-jan-7th-2016.html",
         "eventSocial"  : "",
@@ -1885,7 +1857,7 @@ var eventsJSON = [
         "eventDate"    : new Date("Jan 7, 2016 20:00:00"),
         "eventName"    : "Deep House Yoga",
         "eventArtist"  : "Deep House Yoga",
-        "eventDescLong": "Welcome to the first DHY class of 2016, featuring a mixed level vinyasa-flow led by Carol Ann Manown, and soothing, upbeat vibrations courtesy of alissa.jo. Necto's production will be fully utilized to immerse each yogi in a wave of light and sound on the main dancefloor. This comfortable atmosphere is accepting of all skill levels. Mats are available for rent, and water will be available for purchase.<br>Mat Rental - $2, Water - $1",
+        "eventDescLong": "Welcome to the first DHY class of 2016, featuring a mixed level vinyasa-flow led by Carol Ann Manown, and soothing, upbeat vibrations courtesy of alissa.jo. Necto‘s production will be fully utilized to immerse each yogi in a wave of light and sound on the main dancefloor. This comfortable atmosphere is accepting of all skill levels. Mats are available for rent, and water will be available for purchase.<br>Mat Rental - $2, Water - $1",
         "eventCover"   : "N/A",
         "eventLink"    : "special-events/" + "deep-house-yoga-necto-nightclub-ann-arbor-michigan-jan-7th-2016.html",
         "eventSocial"  : "",
@@ -1913,7 +1885,7 @@ var eventsJSON = [
         "eventDate"    : new Date("Jan 1, 2016 20:00:00"),
         "eventName"    : "Pride Rehab",
         "eventArtist"  : "Pride Rehab",
-        "eventDescLong": "Join the Necto Pride Family as we all have a little hair of the dog! Cover is Free for everyone until midnight. 1/2 Off all Drinks, Beers & Shots until 11pm, $2 Long Islands until 11pm, $2 Vodka drinks all night 3 for $10 bombs all night. We will also be offering a special drink menu to help cure all that ails you! Let's keep the party going & celebrate the beginning of 2016 together!",
+        "eventDescLong": "Join the Necto Pride Family as we all have a little hair of the dog! Cover is Free for everyone until midnight. 1/2 Off all Drinks, Beers & Shots until 11pm, $2 Long Islands until 11pm, $2 Vodka drinks all night 3 for $10 bombs all night. We will also be offering a special drink menu to help cure all that ails you! Let‘s keep the party going & celebrate the beginning of 2016 together!",
         "eventCover"   : "N/A",
         "eventLink"    : "special-events/" + "pride-rehab-at-necto-nightclub-ann-arbor-michigan-jan-1st-2016.html",
         "eventSocial"  : "",
@@ -1927,7 +1899,7 @@ var eventsJSON = [
         "eventDate"    : new Date("Dec 21, 2015 20:00:00"),
         "eventName"    : "Dark Noel 2015",
         "eventArtist"  : "Dark Noel 2015",
-        "eventDescLong": "Ho Ho Ho! It's time for our bad Santa to stop by Factory so you can sit on his lap (grinding encouraged) and let him know what you want for Xmas! Santa Jinx will be joined by Yoda the Red Nosed Reindeer and our Mrs Claus, the infamous Triplesix!<br>Wear holiday attire (Ugly sweater, santa, reindeer, elf, etc. costumes) and costumes to get in free all night... a simple santa hat won't work, try harder XD.<br>Sponsored by Evolution Division",
+        "eventDescLong": "Ho Ho Ho! It‘s time for our bad Santa to stop by Factory so you can sit on his lap (grinding encouraged) and let him know what you want for Xmas! Santa Jinx will be joined by Yoda the Red Nosed Reindeer and our Mrs Claus, the infamous Triplesix!<br>Wear holiday attire (Ugly sweater, santa, reindeer, elf, etc. costumes) and costumes to get in free all night... a simple santa hat won‘t work, try harder XD.<br>Sponsored by Evolution Division",
         "eventCover"   : "N/A",
         "eventLink"    : "special-events/" + "dark-noel-2015-at-necto-nightclub-ann-arbor-michigan-dec-21st-2015.html",
         "eventSocial"  : "",
@@ -1969,7 +1941,7 @@ var eventsJSON = [
         "eventDate"    : new Date("Dec 11, 2015 20:00:00"),
         "eventName"    : "Alyssa Edwards LIVE",
         "eventArtist"  : "Alyssa Edwards LIVE",
-        "eventDescLong": "Alyssa Edwards, of Rupaul's Drag Race, comes to Necto Pride on Friday December 11th!<br>Alyssa will be performing in our Dragster show along with Chanel Hunter and Jadein Black with their first show at 9:30pm. Alyssa will also perform an encore set at midnight followed by a FREE meet & greet photo opportunity with her fans!<br>Our Pride resident DJs: Jace, DVJ Mark & Jason Michael will be keeping the dance floors moving all night!",
+        "eventDescLong": "Alyssa Edwards, of Rupaul‘s Drag Race, comes to Necto Pride on Friday December 11th!<br>Alyssa will be performing in our Dragster show along with Chanel Hunter and Jadein Black with their first show at 9:30pm. Alyssa will also perform an encore set at midnight followed by a FREE meet & greet photo opportunity with her fans!<br>Our Pride resident DJs: Jace, DVJ Mark & Jason Michael will be keeping the dance floors moving all night!",
         "eventCover"   : "N/A",
         "eventLink"    : "special-events/" + "alyssa-edwards-live-at-necto-nightclub-ann-arbor-michigan-dec-11th-2015.html",
         "eventSocial"  : "",
@@ -1997,7 +1969,7 @@ var eventsJSON = [
         "eventDate"    : new Date("Nov 25, 2015 20:00:00"),
         "eventName"    : "Tease",
         "eventArtist"  : "Tease",
-        "eventDescLong": "Drag Addict presents: The Night Before Thanksgiving, Wednesday, November 25th<br>TEASE featuring...<br>BenDelaCreme (RuPaul's Drag Race S6 & Miss Congeniality)<br>Milk (RuPaul's Drag Race S6 & Fan Favorite)<br>Raven (RuPaul's Drag Race S2 & All Stars)<br>Hosted by Sabin with performances from Deja Dellataro, Emma Sapphire & Luna Legare<br>Sounds by DJs Jason Michael & Selina Style in the Main Room and DVJ Mark in the Red Room.",
+        "eventDescLong": "Drag Addict presents: The Night Before Thanksgiving, Wednesday, November 25th<br>TEASE featuring...<br>BenDelaCreme (RuPaul‘s Drag Race S6 & Miss Congeniality)<br>Milk (RuPaul‘s Drag Race S6 & Fan Favorite)<br>Raven (RuPaul‘s Drag Race S2 & All Stars)<br>Hosted by Sabin with performances from Deja Dellataro, Emma Sapphire & Luna Legare<br>Sounds by DJs Jason Michael & Selina Style in the Main Room and DVJ Mark in the Red Room.",
         "eventCover"   : "N/A",
         "eventLink"    : "special-events/" + "tease-at-necto-nightclub-ann-arbor-michigan-nov-25th-2015.html",
         "eventSocial"  : "",
@@ -2025,7 +1997,7 @@ var eventsJSON = [
         "eventDate"    : new Date("Nov 12, 2015 20:00:00"),
         "eventName"    : "Impulse2: MEDMA",
         "eventArtist"  : "Impulse2: MEDMA",
-        "eventDescLong": "A night at Necto's Redroom of Techno powered by Women Dj's. Dj's FiJi∆FiJi / Lavici / Trypto / Kerry Poppins",
+        "eventDescLong": "A night at Necto‘s Redroom of Techno powered by Women Dj‘s. Dj‘s FiJi∆FiJi / Lavici / Trypto / Kerry Poppins",
         "eventLink"    : "special-events/" + "impulse2-at-necto-nightclub-ann-arbor-michigan-nov-12th-2015.html",
         "eventSocial"  : "",
         "eventTix"     : "none",
@@ -2075,9 +2047,9 @@ var eventsJSON = [
     },
     {
         "eventDate"    : new Date("Oct 30, 2015 20:00:00"),
-        "eventName"    : "Pride Devil's Night",
-        "eventArtist"  : "Pride Devil's Night",
-        "eventDescLong": "Necto Pride is going to be devilishly devious on Devil's Night! Chanel Hunter hosts our midnight costume contest along with Jadein Black. Our resident DJs Jace, DVJ Mark & Jason Michael keep the music thumping all night. Get here early to avoid the line!",
+        "eventName"    : "Pride Devil‘s Night",
+        "eventArtist"  : "Pride Devil‘s Night",
+        "eventDescLong": "Necto Pride is going to be devilishly devious on Devil‘s Night! Chanel Hunter hosts our midnight costume contest along with Jadein Black. Our resident DJs Jace, DVJ Mark & Jason Michael keep the music thumping all night. Get here early to avoid the line!",
         "eventLink"    : "special-events/" + "halloween-parties-pride-devils-night-at-necto-nightclub-ann-arbor-michigan-oct-30th-2015.html",
         "eventSocial"  : "",
         "eventTix"     : "none",
@@ -2090,7 +2062,7 @@ var eventsJSON = [
         "eventDate"    : new Date("Oct 29, 2015 20:00:00"),
         "eventName"    : "College Halloween Party 2015",
         "eventArtist"  : "College Halloween Party 2015",
-        "eventDescLong": "Start the Halloweekend out at Necto's “College night Halloween Party“ Costume contest at 12 midnight!",
+        "eventDescLong": "Start the Halloweekend out at Necto‘s “College night Halloween Party“ Costume contest at 12 midnight!",
         "eventLink"    : "special-events/" + "college-halloween-party-2015-factory-at-necto-nightclub-ann-arbor-michigan-oct-29th-2015.html",
         "eventSocial"  : "",
         "eventTix"     : "none",
@@ -2103,7 +2075,7 @@ var eventsJSON = [
         "eventDate"    : new Date("Oct 26, 2015 20:00:00"),
         "eventName"    : "Factory Halloween 2015",
         "eventArtist"  : "Factory Halloween 2015",
-        "eventDescLong": "Its time for our favorite night of the year... Factory's Halloween Bash. This party is going to be crazy and will probably be our busiest night of the year! We will host a costume contest at midnight with cash prizes. Get here early to avoid the line!",
+        "eventDescLong": "Its time for our favorite night of the year... Factory‘s Halloween Bash. This party is going to be crazy and will probably be our busiest night of the year! We will host a costume contest at midnight with cash prizes. Get here early to avoid the line!",
         "eventLink"    : "special-events/" + "halloween-2015-factory-at-necto-nightclub-ann-arbor-michigan-oct-26th-2015.html",
         "eventSocial"  : "",
         "eventTix"     : "none",
@@ -2116,7 +2088,7 @@ var eventsJSON = [
         "eventDate"    : new Date("Oct 10, 2015 20:00:00"),
         "eventName"    : "Plastic Passion, POP EDITION",
         "eventArtist"  : "Plastic Passion, POP EDITION",
-        "eventDescLong": "Plastic Passion's *POP* nite on Saturday October 10th with DJs Glamazon, Tim Sendra and Josh Burge playing their guiltiest pleasures from the 70s, 80s, and 90s.",
+        "eventDescLong": "Plastic Passion‘s *POP* nite on Saturday October 10th with DJs Glamazon, Tim Sendra and Josh Burge playing their guiltiest pleasures from the 70s, 80s, and 90s.",
         "eventLink"    : "special-events/" + "plastic-passion-at-necto-nightclub-ann-arbor-michigan-oct-10th-2015.html",
         "eventSocial"  : "",
         "eventTix"     : "none",
@@ -2127,9 +2099,9 @@ var eventsJSON = [
     },
     {
         "eventDate"    : new Date("Oct 2, 2015 20:00:00"),
-        "eventName"    : "Dragster's Trixie Mattel",
-        "eventArtist"  : "Dragster's Trixie Mattel",
-        "eventDescLong": "Trixie Mattel, of Rupaul's Drag Race, comes to Necto Pride on Friday October 2nd!<br>Trixie will be performing in our Dragster show along with Chanel Hunter and Jadein Black with their first show at 9:30pm. Trixie will also perform an encore set at midnight followed by a FREE meet & greet photo opportunity with her fans!<br>Our Pride resident DJs: Jace, DVJ Mark & Jason Michael will be keeping the dance floors moving all night!",
+        "eventName"    : "Dragster‘s Trixie Mattel",
+        "eventArtist"  : "Dragster‘s Trixie Mattel",
+        "eventDescLong": "Trixie Mattel, of Rupaul‘s Drag Race, comes to Necto Pride on Friday October 2nd!<br>Trixie will be performing in our Dragster show along with Chanel Hunter and Jadein Black with their first show at 9:30pm. Trixie will also perform an encore set at midnight followed by a FREE meet & greet photo opportunity with her fans!<br>Our Pride resident DJs: Jace, DVJ Mark & Jason Michael will be keeping the dance floors moving all night!",
         "eventLink"    : "special-events/" + "dragster-trixie-mattel-live-at-necto-nightclub-ann-arbor-michigan-oct-2nd-2015.html",
         "eventSocial"  : "",
         "eventTix"     : "none",
@@ -2155,8 +2127,7 @@ var eventsJSON = [
         "eventDate"    : new Date("Sep 21, 2015 20:00:00"),
         "eventName"    : "Pure Pwnage 2015",
         "eventArtist"  : "Pure Pwnage 2015",
-        "eventDescLong": "Our most requested special event is back! It's time for PURE PWNAGE! We are teaming up once again with Get Your Game On to bring in lots of video game consoles to set up around the night so you can hang out, drink and nerd out with the Factory Family. The Gothsicles from Chicago are coming to town again this year to perform live!",
-
+        "eventDescLong": "Our most requested special event is back! It‘s time for PURE PWNAGE! We are teaming up once again with Get Your Game On to bring in lots of video game consoles to set up around the night so you can hang out, drink and nerd out with the Factory Family. The Gothsicles from Chicago are coming to town again this year to perform live!",
         "eventLink"    : "special-events/" + "pure-pwnage-2015-at-necto-nightclub-ann-arbor-michigan-sept-21st-2015.html",
         "eventSocial"  : "",
         "eventTix"     : "none",
@@ -2169,8 +2140,7 @@ var eventsJSON = [
         "eventDate"    : new Date("Sep 12, 2015 20:00:00"),
         "eventName"    : "Plastic Passion",
         "eventArtist"  : "Plastic Passion",
-        "eventDescLong": "Back to the Old School with PLASTIC PASSION in the RED ROOM! Resident DJ JOSH BURGE is joined by MATT HANCHON (Luna/Groove Room veteran!) for another great night of classic retro-alternative goodies.",
-        
+        "eventDescLong": "Back to the Old School with PLASTIC PASSION in the RED ROOM! Resident DJ JOSH BURGE is joined by MATT HANCHON (Luna/Groove Room veteran!) for another great night of classic retro-alternative goodies.",     
         "eventLink"    : "special-events/" + "plastic-passion-at-necto-nightclub-ann-arbor-michigan-sept-12th-2015.html",
         "eventSocial"  : "",
         "eventTix"     : "none",
@@ -2183,8 +2153,7 @@ var eventsJSON = [
         "eventDate"    : new Date("Sep 11, 2015 20:00:00"),
         "eventName"    : "Dragster featuring JUJUBEE",
         "eventArtist"  : "Dragster featuring JUJUBEE",
-        "eventDescLong": "Jujubee, of Rupaul's Drag Race, comes to Necto Pride on Friday September 11th! Jujubee will be performing in our Dragster show along with Chanel Hunter and Jadein Black, first show at 9:30pm. Jujubee will also perform an encore set at midnight followed by a FREE meet &apm; greet photo opportunity with her fans! Our Pride resident DJs: Jace, DVJ Mark & Jason Michael will be keeping the dance floors moving all night!",
-        
+        "eventDescLong": "Jujubee, of Rupaul‘s Drag Race, comes to Necto Pride on Friday September 11th! Jujubee will be performing in our Dragster show along with Chanel Hunter and Jadein Black, first show at 9:30pm. Jujubee will also perform an encore set at midnight followed by a FREE meet &apm; greet photo opportunity with her fans! Our Pride resident DJs: Jace, DVJ Mark & Jason Michael will be keeping the dance floors moving all night!",      
         "eventLink"    : "special-events/" + "dragster-jujubee-live-at-necto-nightclub-ann-arbor-michigan-sept-11th-2015.html",
         "eventSocial"  : "",
         "eventTix"     : "none",
@@ -2197,8 +2166,7 @@ var eventsJSON = [
         "eventDate"    : new Date("Sep 11, 2015 20:00:00"),
         "eventName"    : "Branchez",
         "eventArtist"  : "Branchez",
-        "eventDescLong": "Prime Social Group & Necto presents Branchez! Branchez is a modern producer, versatile, driven and open-minded. The New York City native has been making waves in both the electronic music & hip-hop communities with his soulful brand of club music. Branchez has done guest mixes on BBC Radio1 (Diplo & Friends, Toddla T Show), TripleJ Radio and SiriusXM – Shade45 (Sway In The Morning). He supported Zeds Dead and Paper Diamond on their respective North American tours, and recently wrapped up his first co-headlining tour with Giraffage. He is also handsome, funny and cool.",
-        
+        "eventDescLong": "Prime Social Group & Necto presents Branchez! Branchez is a modern producer, versatile, driven and open-minded. The New York City native has been making waves in both the electronic music & hip-hop communities with his soulful brand of club music. Branchez has done guest mixes on BBC Radio1 (Diplo & Friends, Toddla T Show), TripleJ Radio and SiriusXM – Shade45 (Sway In The Morning). He supported Zeds Dead and Paper Diamond on their respective North American tours, and recently wrapped up his first co-headlining tour with Giraffage. He is also handsome, funny and cool.",  
         "eventLink"    : "special-events/" + "branchez-live-at-necto-nightclub-ann-arbor-michigan-sept-9-2015.html",
         "eventSocial"  : "",
         "eventTix"     : "none",
@@ -2211,7 +2179,6 @@ var eventsJSON = [
         "eventDate"    : new Date("Sep 7, 2015 20:00:00"),
         "eventName"    : "Splatter Bash - Blacklight Paint Party",
         "eventDescLong": "Factory is bringing in UV paint cannons for our SplatterBash party! This one is going to get messy! Featuring DJ Jinx and MC Yoda along with DJ Madisi in the Red Room.",
-        
         "eventLink"    : "special-events/" + "splaterbash-paint-party-at-necto-nightclub-ann-arbor-michigan-sept-7th-2015.html",
         "eventSocial"  : "",
         "eventTix"     : "none",
@@ -2223,8 +2190,7 @@ var eventsJSON = [
     {
         "eventDate"    : new Date("Sep 5, 2015 20:00:00"),
         "eventName"    : "Ultraviolet - Blacklight Paint Party",
-        "eventDescLong": "Come out and play in the paint! We will have UV paint cannons on the dancefloor and black lights all over to make the colors stand out.Wear white to really make it pop! Featuring DJ Hardy & MC Yoda!",
-        
+        "eventDescLong": "Come out and play in the paint! We will have UV paint cannons on the dancefloor and black lights all over to make the colors stand out.Wear white to really make it pop! Featuring DJ Hardy & MC Yoda!", 
         "eventLink"    : "special-events/" + "ultraviolet-blacklight-paint-party-at-necto-nightclub-ann-arbor-michigan-sept-5th-2015.html",
         "eventSocial"  : "",
         "eventTix"     : "none",
@@ -2236,8 +2202,7 @@ var eventsJSON = [
     {
         "eventDate"    : new Date("Sep 4, 2015 20:00:00"),
         "eventName"    : "NeonGlow Paint Party",
-        "eventDescLong": "Come out and play in the paint! We will have UV paint cannons on the dancefloor and black lights all over to make the colors stand out. Wear white to really make it pop! Hosted by Chanel Hunter & Jadein Black, along with DJs Jace, Mark & Jason Michael.",
-        
+        "eventDescLong": "Come out and play in the paint! We will have UV paint cannons on the dancefloor and black lights all over to make the colors stand out. Wear white to really make it pop! Hosted by Chanel Hunter & Jadein Black, along with DJs Jace, Mark & Jason Michael.",    
         "eventLink"    : "special-events/" + "neonglow-paint-party-at-necto-nightclub-ann-arbor-michigan-sept-4th-2015.html",
         "eventSocial"  : "",
         "eventTix"     : "none",
@@ -2249,8 +2214,7 @@ var eventsJSON = [
     {
         "eventDate"    : new Date("Sep 2, 2015 20:00:00"),
         "eventName"    : "Audien",
-        "eventDescLong": "World renown, grammy nominated EDM producer AUDIEN takes over Necto for the Welcome Week Bounce on Wednesday September 2nd! Necto is teaming up with Scorekeepers and Prime Social Group to throw the biggest welcome week bash of the year! Don't miss out on this killer party with one of the top DJs in the world!",
-        
+        "eventDescLong": "World renown, grammy nominated EDM producer AUDIEN takes over Necto for the Welcome Week Bounce on Wednesday September 2nd! Necto is teaming up with Scorekeepers and Prime Social Group to throw the biggest welcome week bash of the year! Don‘t miss out on this killer party with one of the top DJs in the world!",     
         "eventLink"    : "special-events/" + "audien-live-at-necto-nightclub-ann-arbor-michigan-sept-2nd-2015.html",
         "eventSocial"  : "",
         "eventTix"     : "none",
@@ -2262,8 +2226,7 @@ var eventsJSON = [
     {
         "eventDate"    : new Date("Aug 14, 2015 20:00:00"),
         "eventName"    : "Courtney Act, Live",
-        "eventDescLong": "Courtney Act from Rupaul's Drag Race comes to Necto Pride on August 14th! Courtney will be performing in our Dragster show along with Chanel Hunter and Jadein Black with showtime at 9:30pm. Courtney Act will also perform an encore set at midnight followed by a FREE meet & greet photo opportunity with her fans! Our Pride Resident DJs Jace, DVJ Mark & Jason Michael will be keeping the dance floors moving all night!",
-        
+        "eventDescLong": "Courtney Act from Rupaul‘s Drag Race comes to Necto Pride on August 14th! Courtney will be performing in our Dragster show along with Chanel Hunter and Jadein Black with showtime at 9:30pm. Courtney Act will also perform an encore set at midnight followed by a FREE meet & greet photo opportunity with her fans! Our Pride Resident DJs Jace, DVJ Mark & Jason Michael will be keeping the dance floors moving all night!",
         "eventLink"    : "special-events/" + "courtney-act-live-at-necto-nightclub-ann-arbor-michigan-aug-14th-2015.html",
         "eventSocial"  : "",
         "eventTix"     : "none",
@@ -2276,7 +2239,6 @@ var eventsJSON = [
         "eventDate"    : new Date("Aug 6, 2015 20:00:00"),
         "eventName"    : "Oliver Dollar",
         "eventDescLong": "Oliver Dollar takes over The Necto on Thursday August 6, joined by opening DJs Chuck Daniels and Adam Westing. The past four years have seen Oliver Dollar’s name gradually build to a recognizable staple in house music. The Berlin born and based producer has gained acknowledgment through a series of solid releases on various labels. We are very excited to bring him to The Necto!",
-        
         "eventLink"    : "special-events/" + "oliver-dollar-live-at-necto-nightclub-ann-arbor-michigan-aug-6th-2015.html",
         "eventSocial"  : "",
         "eventTix"     : "none",
@@ -2287,13 +2249,12 @@ var eventsJSON = [
     },
     {
         "eventDate"    : new Date("Aug 13, 2015 20:00:00"),
-        "eventName"    : "Factory's 11th Birthday Bash",
-        "eventDescLong": "Factory Monday celebrates its 11th birthday on Monday July 13 in proper Factory style. We are flying in DANIEL GRAVES of AESTHETIC PERFECTION to join Jinx in the booth as our guest DJ for the night. We are working on some special fun ideas to add to the night too!! Don't miss one of Industrial / EBM's top musicians, Daniel Graves, DJ live! This is going to be a great night!",
-        
+        "eventName"    : "Factory‘s 11th Birthday Bash",
+        "eventDescLong": "Factory Monday celebrates its 11th birthday on Monday July 13 in proper Factory style. We are flying in DANIEL GRAVES of AESTHETIC PERFECTION to join Jinx in the booth as our guest DJ for the night. We are working on some special fun ideas to add to the night too! Don‘t miss one of Industrial / EBM‘s top musicians, Daniel Graves, DJ live! This is going to be a great night!",   
         "eventLink"    : "special-events/" + "factory-11th-birthday-bash-at-necto-nightclub-ann-arbor-michigan-july-13th-2015.html",
         "eventSocial"  : "",
         "eventTix"     : "none",
-        "eventImgWide" : "img/event-images/" + "factory-monday's-11th-birthday-at-necto-nightclub-ann-arbor.png",
+        "eventImgWide" : "img/event-images/" + "factory-monday‘s-11th-birthday-at-necto-nightclub-ann-arbor.png",
         //"eventWklOvrd" : true,
         "eventDay"     : 0, // Do not modify
         "pastEvent"    : false // Do not modify
@@ -2301,8 +2262,7 @@ var eventsJSON = [
     {
         "eventDate"    : new Date("Jul 10, 2015 20:00:00"),
         "eventName"    : "Boys Of Summer Contest",
-        "eventDescLong": "Its time to hit the beach for our Boys Of Summer party hosted by Chanel Hunter! You know its getting hot out when we find the sexiest men around to show off their bods for a chance to win some serious cash! Wear your beach attire to get in the spirit and also get in the door for free!",
-        
+        "eventDescLong": "Its time to hit the beach for our Boys Of Summer party hosted by Chanel Hunter! You know its getting hot out when we find the sexiest men around to show off their bods for a chance to win some serious cash! Wear your beach attire to get in the spirit and also get in the door for free!",   
         "eventLink"    : "special-events/" + "boys-of-summer-necto-nightclub-ann-arbor-michigan-julu-10th-2015.html",
         "eventSocial"  : "",
         "eventTix"     : "none",
@@ -2314,8 +2274,7 @@ var eventsJSON = [
     {
         "eventDate"    : new Date("Jun 19, 2015 20:00:00"),
         "eventName"    : "Ginger Minj",
-        "eventDescLong": "Ginger Minj from Rupaul's Drag Race comes to Necto Pride on Friday, June 19!! Joining Ginger on stage, as part of our Dragster show, are Chanel Hunter, Jadein Black, Ani Briated and Thrustin B Ieber. Showtime is at 9:30pm and Ginger Minj will have an encore performance at midnight followed by a meet and greet with all her fans!",
-        
+        "eventDescLong": "Ginger Minj from Rupaul‘s Drag Race comes to Necto Pride on Friday, June 19!! Joining Ginger on stage, as part of our Dragster show, are Chanel Hunter, Jadein Black, Ani Briated and Thrustin B Ieber. Showtime is at 9:30pm and Ginger Minj will have an encore performance at midnight followed by a meet and greet with all her fans!",   
         "eventLink"    : "special-events/" + "ginger-minj-drag-race-at-necto-nightclub-ann-arbor-michigan-jun-19th-2015.html",
         "eventSocial"  : "",
         "eventTix"     : "none",
@@ -2326,9 +2285,8 @@ var eventsJSON = [
     },
     {
         "eventDate"    : new Date("Jun 13, 2015 20:00:00"),
-        "eventName"    : "Plastic Passion's Six Year Anniversary",
-        "eventDescLong": "Plastic Passion celebrates their Six year Anniversary on Saturday June 13. DJ Josh Burge returns to his roots to create one of his very best five-hour-long sets to rock the RED ROOM. All while DOC COLONY blows minds on the telescreens and Rachel's specialty cocktails put them back together!",
-        
+        "eventName"    : "Plastic Passion‘s Six Year Anniversary",
+        "eventDescLong": "Plastic Passion celebrates their Six year Anniversary on Saturday June 13. DJ Josh Burge returns to his roots to create one of his very best five-hour-long sets to rock the RED ROOM. All while DOC COLONY blows minds on the telescreens and Rachel‘s specialty cocktails put them back together!",   
         "eventLink"    : "special-events/" + "plastic-passion-six-year-anniversary-at-necto-nightclub-ann-arbor-michigan-june-13th-2015.html",
         "eventSocial"  : "",
         "eventTix"     : "none",

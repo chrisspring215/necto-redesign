@@ -26,6 +26,7 @@ var calWeeklyEventsList = [];
 // Master list of club videos posted on Youtube
 var videosMon = [
     "https://www.youtube.com/embed/4VOIXPOnfSM?ecver=1",
+    "https://www.youtube.com/embed/O3GB5x7nkpA?ecver=1",
 ];
 
 var videosThurs = [

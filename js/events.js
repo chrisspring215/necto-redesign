@@ -16,6 +16,22 @@ var eventsJSON = [
         "pastEvent"    : false // Do not modify
     },
     {
+        "eventDate"    : new Date("May 5, 2017 21:00:00"),
+        "eventName"    : "Cinco de Mayo featuring... Boomer Banks!",
+        "eventArtist"  : "Boomer Banks",
+        "eventDesc"    : "Join us as Pride celebrates Cinco de Mayo with CockyBoys‘ Fabulous Latin Lover... Boomer Banks! Boomer is a fashion designer, model & what you might call a “gay sex icon“. He‘s an award-winning legend in the porn world, and it‘s easy to see why -- he‘s got a hard-muscled body, a sexy bearded jawline, and an enormous...",
+        "eventDescLong": "Join us as Pride celebrates Cinco de Mayo with CockyBoys‘ Fabulous Latin Lover... Boomer Banks! Boomer is a fashion designer, model & what you might call a “gay sex icon“. He‘s an award-winning legend in the porn world, and it‘s easy to see why -- he‘s got a hard-muscled body, a sexy bearded jawline, and an enormous... well you know! Boomer will be here with Chanel Hunter & Jadein Black to host Pride‘s Cinco de Mayo Fiesta 2017!",
+        "eventCover"   : "Free before 10pm | Free with College ID before 11pm | $5 for 21+ | $10 for 18-20",
+        "eventLink"    : "special-events/" + "boomer-banks-at-necto-nightclub-ann-arbor-michigan-may-5th-2017.html",
+        "eventSocial"  : "https://www.facebook.com/events/145730855958254/",
+        "eventTix"     : "none",
+        "eventImgTall" : "img/event-images/" + "boomer-banks-at-necto-nightclub-ann-arbor.jpeg",
+        "eventImgWide" : "img/event-images/" + "boomer-banks-at-necto-nightclub-ann-arbor.jpeg",
+        "eventWklOvrd" : true,
+        "eventDay"     : 0, // Do not modify
+        "pastEvent"    : false // Do not modify
+    },
+    {
         "eventDate"    : new Date("May 4, 2017 21:00:00"),
         "eventName"    : "On the road to Spring Awakening... Moon Boots : Rebel Bass",
         "eventArtist"  : "Moon Boots",

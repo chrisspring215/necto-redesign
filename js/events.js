@@ -48,6 +48,22 @@ var eventsJSON = [
         "pastEvent"    : false // Do not modify
     },
     {
+        "eventDate"    : new Date("May 1, 2017 21:00:00"),
+        "eventName"    : "Halfway to Halloween 2017",
+        "eventArtist"  : "Halfway to Halloween",
+        "eventDesc"    : "Moon Boots entered the world in the mid-1980s via Cape Canaveral. After years of service as the preferred footwear of celebrity astronauts (notably Tom Hanks), Moon Boots came to life during a classified experiment aboard the International Space Station. Little is known of what actually transpired aboard the shuttle, but in short, Moon Boots became a sentient creature, equipped with reason, intuition, and groove.",
+        "eventDescLong": "Factory is once again celebrating the halfway point to our favorite holiday! You guys never disappoint with your amazing costumes and and we're aiming to party like Factory Halloween 2016 x2. DJ Void6 and Glitch Mode Recordings AV Assault Party with DJs AudioFlesh and Sean Payne [Cyanotic / Vampyre Anvil] on the decks. PLUS costume contest with $500 worth of cash prizes.",
+        "eventCover"   : "Free cover with costume. $1 cover before 10PM | $3 after 10PM.",
+        "eventLink"    : "special-events/" + "halfway-to-halloween-2017-at-necto-nightclub-ann-arbor-michigan-may-1st-2017.html",
+        "eventSocial"  : "https://www.facebook.com/events/2270506686506865/",
+        "eventTix"     : "none",
+        "eventImgTall" : "img/event-images/" + "halfway-to-halloween-2017-at-necto-nightclub-ann-arbor.jpg",
+        "eventImgWide" : "img/event-images/" + "halfway-to-halloween-2017-at-necto-nightclub-ann-arbor.jpg",
+        "eventWklOvrd" : true,
+        "eventDay"     : 0, // Do not modify
+        "pastEvent"    : false // Do not modify
+    },
+    {
         "eventDate"    : new Date("Apr 27, 2017 22:00:00"),
         "eventName"    : "Throwback Thursday : 21+ get in FREE",
         "eventArtist"  : "Throwback Thursday",

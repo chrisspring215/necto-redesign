@@ -1,5 +1,21 @@
 var eventsJSON = [
     {
+        "eventDate"    : new Date("Jun 5, 2017 20:00:00"),
+        "eventName"    : "Factory Monday presents... Psyclon Nine: Infektion Divinum Tour with Echo Black ",
+        "eventArtist"  : "Psyclon Nine",
+        "eventDesc"    : "The Infektion Divinum 2017 Tour featuring support from NYC rockers Echo Black commemorates the long and storied career of one of the most influential Industrial bands of the last two decades.",
+        "eventDescLong": "Psyclon Nine has seen many incarnations as the project has evolved over the years. Beginning with an all-electronic “Aggrotech“ palette that conjured influences such as Wumpscut, Suicide Commando and Velvet Acid Christ, the band would soon evolve into a multi-faceted entity. Albums such as We the Fallen would showcase the versatility of the project with songs such as Under the Judas Tree (an acoustic ballad), Widowmaker (a Black Metal / Industrial Rock hybrid featuring Brandan Schieppati of Bleeding Through) and the titular track We the Fallen (a cinematic, symphonic juggernaut). We the Fallen would also give Psyclon Nine their first taste of the Billboard Rock Charts as a top 200 bullet.<br><br>Now in 2017 Psyclon Nine have regrouped under the Metropolis Records reissue of their first album Divine Infekt and have taken to the road to perform their early works for their infamously die-hard fanbase.<br><br>The Infektion Divinum 2017 Tour featuring support from NYC rockers Echo Black commemorates the long and storied career of one of the most influential Industrial bands of the last two decades.",
+        "eventCover"   : "Presale tickets - 4pk $5 | GA $3 | DOS $5 | After Party $3",
+        "eventLink"    : "special-events/" + "psyclon-nine-at-necto-nightclub-ann-arbor-michigan-june-5th-2017.html",
+        "eventSocial"  : "https://www.facebook.com/events/296798700750691",
+        "eventTix"     : "https://psyclonnine_necto.eventbrite.com",
+        "eventImgTall" : "img/event-images/" + "psyclon-nine-at-necto-nightclub-ann-arbor.jpg",
+        "eventImgWide" : "img/event-images/" + "psyclon-nine-at-necto-nightclub-ann-arbor.jpg",
+        "eventWklOvrd" : true,
+        "eventDay"     : 0, // Do not modify
+        "pastEvent"    : false // Do not modify
+    },
+    {
         "eventDate"    : new Date("Jun 1, 2017 21:00:00"),
         "eventName"    : "React &amp; Country Club Disco present... SNBRN",
         "eventArtist"  : "SNBRN",

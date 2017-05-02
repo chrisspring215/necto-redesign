@@ -48,6 +48,22 @@ var eventsJSON = [
         "pastEvent"    : false // Do not modify
     },    
     {
+        "eventDate"    : new Date("May 18, 2017 18:30:00"),
+        "eventName"    : "Queens for the Cure 2 - Ann Arbor",
+        "eventArtist"  : "Queens for the Cure",
+        "eventDesc"    : "Pardon Moi French Presents: Queens For The Cure Tour. Benefiting Until There’s A Cure & various local charities! Ann Arbor, start your engines! Now is your chance for a first look at Nina Bonina Brown & Valentina from Season 9 of RuPaul's Drag Race. Mix that with the deep history of Alyssa Edwards & CoCo Montrese from All-Stars 2 along with Season 1 winner BeBe Zahara & the phenomenal performances of Phoenix & we have one EPIC show full of surprises for you this May!",
+        "eventDescLong": "Pardon Moi French Presents: Queens For The Cure Tour. Benefiting Until There’s A Cure & various local charities! Ann Arbor, start your engines! Now is your chance for a first look at Nina Bonina Brown & Valentina from Season 9 of RuPaul's Drag Race. Mix that with the deep history of Alyssa Edwards & CoCo Montrese from All-Stars 2 along with Season 1 winner BeBe Zahara & the phenomenal performances of Phoenix & we have one EPIC show full of surprises for you this May!<br><br>Starring:<br>Alyssa Edwards<br>BeBe Zahara<br>CoCo Montrese<br>Nina Bonina Brown<br>Phoenix<br>Valentina<br><br>Featured Performances by:<br>Mrz Carter<br>Paris Nicole Brooks<br>The PMF Dancers<br><br>***Cast subject to change",
+        "eventCover"   : "Tickets: $24.99 - $149.99",
+        "eventLink"    : "special-events/" + "queens-for-the-cure-2-at-necto-nightclub-ann-arbor-michigan-may-18th-2017.html",
+        "eventSocial"  : "https://www.facebook.com/events/102748736950232/",
+        "eventTix"     : "https://www.ticketor.com/pardonmoifrench/tickets/ann-arbor-queens-for-the-cure-tour-2-54656#buy",
+        "eventImgTall" : "img/event-images/" + "queens-for-the-cure-2-at-necto-nightclub-ann-arbor.jpg",
+        "eventImgWide" : "img/event-images/" + "queens-for-the-cure-2-at-necto-nightclub-ann-arbor.jpg",
+        "eventWklOvrd" : true,
+        "eventDay"     : 0, // Do not modify
+        "pastEvent"    : false // Do not modify
+    },  
+    {
         "eventDate"    : new Date("May 5, 2017 21:00:00"),
         "eventName"    : "Cinco de Mayo featuring... Boomer Banks!",
         "eventArtist"  : "Boomer Banks",

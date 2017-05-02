@@ -16,6 +16,22 @@ var eventsJSON = [
         "pastEvent"    : false // Do not modify
     },
     {
+        "eventDate"    : new Date("May 19, 2017 21:00:00"),
+        "eventName"    : "Shea Couleé",
+        "eventArtist"  : "Shea Couleé",
+        "eventDesc"    : "Shea Couleé is equal part Bougie and Banjee. At the tender age of 15, she was spotted by an Ebony Fashion Fare talent scout, and her modeling career took off. She graduated Summa Cum Loudly from the Top Model School For Girls. Now in Chicago, she’s working towards being the FIERCEST Drag MC in the Windy City. You can catch her playing haus with @TrannikaRex and the girls at 'Trannika's Most Wanted' at Scarlet Bar Chicago. Or hanging out at Necto Friday May 19th!",
+        "eventDescLong": "Shea Couleé is equal part Bougie and Banjee. At the tender age of 15, she was spotted by an Ebony Fashion Fare talent scout, and her modeling career took off. She graduated Summa Cum Loudly from the Top Model School For Girls. Now in Chicago, she’s working towards being the FIERCEST Drag MC in the Windy City. You can catch her playing haus with @TrannikaRex and the girls at 'Trannika's Most Wanted' at Scarlet Bar Chicago. Or hanging out at Necto Friday May 19th!",
+        "eventCover"   : "Free before 10pm | Free with College ID before 11pm | $5 for 21+ | $10 for 18-20",
+        "eventLink"    : "special-events/" + "shea-coulee-at-necto-nightclub-ann-arbor-michigan-may-19th-2017.html",
+        "eventSocial"  : "https://www.facebook.com/events/448481122162732/",
+        "eventTix"     : "none",
+        "eventImgTall" : "img/event-images/" + "shea-coulee-at-necto-nightclub-ann-arbor.jpg",
+        "eventImgWide" : "img/event-images/" + "shea-coulee-at-necto-nightclub-ann-arbor.jpg",
+        "eventWklOvrd" : true,
+        "eventDay"     : 0, // Do not modify
+        "pastEvent"    : false // Do not modify
+    },    
+    {
         "eventDate"    : new Date("May 5, 2017 21:00:00"),
         "eventName"    : "Cinco de Mayo featuring... Boomer Banks!",
         "eventArtist"  : "Boomer Banks",

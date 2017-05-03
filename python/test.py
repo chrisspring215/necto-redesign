@@ -212,7 +212,7 @@ def buildPages():
 		url = eventLink.replace("special-events/", "")
 		
 		# Makes new page
-		newPage = open('../test-special-events/'+url,'w')
+		newPage = open('../special-events/'+url,'w')
 		newPage.write(message)
 
 buildPages()

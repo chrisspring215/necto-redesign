@@ -439,9 +439,9 @@ def buildSiteMap():
 	"""
 
 	message = head + theListString + close
-	'''
+
+	f = open('../sitemap.html','w')
 	f.write(message)
 	f.close()
-	'''
-	print message
+
 buildSiteMap()

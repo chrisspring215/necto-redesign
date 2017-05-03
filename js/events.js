@@ -32,6 +32,22 @@ var eventsJSON = [
         "pastEvent"    : false // Do not modify
     },
     {
+        "eventDate"    : new Date("May 25, 2017 22:000:00"),
+        "eventName"    : "Throwback Thursday : 21+ get in FREE",
+        "eventArtist"  : "Throwback Thursday",
+        "eventDesc"    : "THROWBACK THURSDAY: All Your Favorite Music from the 80s, 90s & early 00s<br><br>FREE for 21+ | $10 for 18-20",
+        "eventDescLong": "THROWBACK THURSDAY: All Your Favorite Music from the 80s, 90s & early 00s<br><br>FREE for 21+ | $10 for 18-20<br><br>with DJ KEVIN MICHAEL<br><br>Totally Awesome Drink Specials:<br><br>$3.50 Well drinks<br>$2.50 Fireball shots<br>3 for $10 Jaeger Bombs<br>$2 Miller Lite Bottles",
+        "eventCover"   : "FREE for 21+ | $10 for 18-20",
+        "eventLink"    : "special-events/" + "throwback-thursday-at-necto-nightclub-ann-arbor-michigan-may-25th-2017.html",
+        "eventSocial"  : "https://www.facebook.com/events/290624398016225/",
+        "eventTix"     : "none",
+        "eventImgTall" : "img/event-images/" + "cal-throwback-thursday-may252017-at-necto-night-club-ann-arbor.jpg",
+        "eventImgWide" : "img/event-images/" + "cal-throwback-thursday-may252017-at-necto-night-club-ann-arbor.jpg",
+        "eventWklOvrd" : true,
+        "eventDay"     : 0, // Do not modify
+        "pastEvent"    : false // Do not modify
+    },
+    {
         "eventDate"    : new Date("May 19, 2017 21:00:00"),
         "eventName"    : "Shea Couleé",
         "eventArtist"  : "Shea Couleé",
@@ -59,6 +75,22 @@ var eventsJSON = [
         "eventTix"     : "https://www.ticketor.com/pardonmoifrench/tickets/ann-arbor-queens-for-the-cure-tour-2-54656#buy",
         "eventImgTall" : "img/event-images/" + "queens-for-the-cure-2-at-necto-nightclub-ann-arbor.jpg",
         "eventImgWide" : "img/event-images/" + "queens-for-the-cure-2-at-necto-nightclub-ann-arbor.jpg",
+        "eventWklOvrd" : true,
+        "eventDay"     : 0, // Do not modify
+        "pastEvent"    : false // Do not modify
+    },
+    {
+        "eventDate"    : new Date("May 11, 2017 22:000:00"),
+        "eventName"    : "Throwback Thursday : 21+ get in FREE",
+        "eventArtist"  : "Throwback Thursday",
+        "eventDesc"    : "THROWBACK THURSDAY: All Your Favorite Music from the 80s, 90s & early 00s<br><br>FREE for 21+ | $10 for 18-20",
+        "eventDescLong": "THROWBACK THURSDAY: All Your Favorite Music from the 80s, 90s & early 00s<br><br>FREE for 21+ | $10 for 18-20<br><br>with DJ KEVIN MICHAEL<br><br>Totally Awesome Drink Specials:<br><br>$3.50 Well drinks<br>$2.50 Fireball shots<br>3 for $10 Jaeger Bombs<br>$2 Miller Lite Bottles",
+        "eventCover"   : "FREE for 21+ | $10 for 18-20",
+        "eventLink"    : "special-events/" + "throwback-thursday-at-necto-nightclub-ann-arbor-michigan-may-11th-2017.html",
+        "eventSocial"  : "https://www.facebook.com/events/254328991704914/",
+        "eventTix"     : "none",
+        "eventImgTall" : "img/event-images/" + "cal-throwback-thursday-may2017-at-necto-night-club-ann-arbor.jpeg",
+        "eventImgWide" : "img/event-images/" + "cal-throwback-thursday-may2017-at-necto-night-club-ann-arbor.jpeg",
         "eventWklOvrd" : true,
         "eventDay"     : 0, // Do not modify
         "pastEvent"    : false // Do not modify

@@ -1,6 +1,6 @@
 var eventsJSON = [
     {
-        "eventDate"    : new Date("Jun 6, 2017 20:00:00"),
+        "eventDate"    : new Date("Jun 5, 2017 20:00:00"),
         "eventName"    : "Factory Monday presents... Psyclon Nine: Infektion Divinum Tour with Echo Black ",
         "eventArtist"  : "Psyclon Nine",
         "eventDesc"    : "The Infektion Divinum 2017 Tour featuring support from NYC rockers Echo Black commemorates the long and storied career of one of the most influential Industrial bands of the last two decades.",

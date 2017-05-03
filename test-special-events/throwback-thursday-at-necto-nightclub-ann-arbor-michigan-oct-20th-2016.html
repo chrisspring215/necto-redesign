@@ -1,61 +1,4 @@
-import json, re
-
-def createJson():
-	# Opens the Events JS file
-	file = open('../js/events.js', 'r')
-	file_contents = file.read()
-
-	# Removes the var from the object
-	cleanUp01 = file_contents.split('var eventsJSON = ')
-	cleanedUp01 = '{ "events" : '.join(cleanUp01)
-
-	# Cleans up the data
-	cleanUp02 = cleanedUp01.split('new Date(')
-	cleanedUp02 = "".join(cleanUp02)
-
-	# Conctas firle paths
-	cleanUp03 = cleanedUp02.split('" + "')
-	cleanedUp03 = "".join(cleanUp03)
-
-	# Removes JS comments
-	cleanUp04 = cleanedUp03.split(' // Do not modify')
-	cleanedUp04 = "".join(cleanUp04)
-
-	# More date clean up, this should be higher up
-	cleanUp05 = cleanedUp04.split('"),')
-	cleanedUp05 = '",'.join(cleanUp05)
-
-	# Removes more random comments
-	cleanUp06 = cleanedUp05.split('//')
-	cleanedUp06 = "".join(cleanUp06)
-
-	# Removes white space
-	removeSpace = re.sub("\s\s+$"," ", cleanedUp06)
-
-	# Removes escaping chars
-	removeSpace2 = re.sub('\\"','"', removeSpace)
-
-	# Opens and over writes the EventsJSON file
-	target = open('../js/events.json','w')
-	target.write(removeSpace2 + "}")
-
-	file.close
-createJson()
-
-######################################
-
-def buildPages():
-	# Opens the JSON file
-	xxx = open('../js/events.json')
-	yyy = json.load(xxx)
-	urlData = '../js/events.json'
-	jsonFile = open(urlData)
-	data = jsonFile.read()
-	pythonData = json.loads(data)
-
-	# Builds Special Event pages
-
-	message = """<!doctype html>
+<!doctype html>
 <html class="no-js" lang="">
   <head>
       <meta charset="utf-8">
@@ -203,20 +146,3 @@ def buildPages():
     </script>
   </body>
 </html>
-"""
-
-	numberOfEvents = len(pythonData['events'])
-
-	for event in range(0, numberOfEvents):
-		eventLink = pythonData['events'][event]['eventLink']
-		url = eventLink.replace("special-events/", "")
-		
-		# Makes new page
-		newPage = open('../test-special-events/'+url,'w')
-		newPage.write(message)
-
-buildPages()
-
-##############
-
-

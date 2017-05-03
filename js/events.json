@@ -6,7 +6,7 @@
         "eventDesc"    : "The Infektion Divinum 2017 Tour featuring support from NYC rockers Echo Black commemorates the long and storied career of one of the most influential Industrial bands of the last two decades.",
         "eventDescLong": "Psyclon Nine has seen many incarnations as the project has evolved over the years. Beginning with an all-electronic “Aggrotech“ palette that conjured influences such as Wumpscut, Suicide Commando and Velvet Acid Christ, the band would soon evolve into a multi-faceted entity. Albums such as We the Fallen would showcase the versatility of the project with songs such as Under the Judas Tree (an acoustic ballad), Widowmaker (a Black Metal / Industrial Rock hybrid featuring Brandan Schieppati of Bleeding Through) and the titular track We the Fallen (a cinematic, symphonic juggernaut). We the Fallen would also give Psyclon Nine their first taste of the Billboard Rock Charts as a top 200 bullet.<br><br>Now in 2017 Psyclon Nine have regrouped under the Metropolis Records reissue of their first album Divine Infekt and have taken to the road to perform their early works for their infamously die-hard fanbase.<br><br>The Infektion Divinum 2017 Tour featuring support from NYC rockers Echo Black commemorates the long and storied career of one of the most influential Industrial bands of the last two decades.",
         "eventCover"   : "Presale tickets - 4pk $5 | GA $3 | DOS $5 | After Party $3",
-        "eventLink"    : "special-events/snbrn-at-necto-nightclub-ann-arbor-michigan-jun-1th-2017.html",
+        "eventLink"    : "special-events/psyclon-nine-at-necto-nightclub-ann-arbor-michigan-june-5th-2017.html",
         "eventSocial"  : "https:www.facebook.com/events/296798700750691",
         "eventTix"     : "https:psyclonnine_necto.eventbrite.com",
         "eventImgTall" : "img/event-images/psyclon-nine-at-necto-nightclub-ann-arbor.jpg",
@@ -47,6 +47,22 @@
         "eventDay"     : 0,
         "pastEvent"    : false
     },    
+    {
+        "eventDate"    : "May 18, 2017 18:30:00",
+        "eventName"    : "Queens for the Cure 2 - Ann Arbor",
+        "eventArtist"  : "Queens for the Cure",
+        "eventDesc"    : "Pardon Moi French Presents: Queens For The Cure Tour. Benefiting Until There’s A Cure & various local charities! Ann Arbor, start your engines! Now is your chance for a first look at Nina Bonina Brown & Valentina from Season 9 of RuPaul's Drag Race. Mix that with the deep history of Alyssa Edwards & CoCo Montrese from All-Stars 2 along with Season 1 winner BeBe Zahara & the phenomenal performances of Phoenix & we have one EPIC show full of surprises for you this May!",
+        "eventDescLong": "Pardon Moi French Presents: Queens For The Cure Tour. Benefiting Until There’s A Cure & various local charities! Ann Arbor, start your engines! Now is your chance for a first look at Nina Bonina Brown & Valentina from Season 9 of RuPaul's Drag Race. Mix that with the deep history of Alyssa Edwards & CoCo Montrese from All-Stars 2 along with Season 1 winner BeBe Zahara & the phenomenal performances of Phoenix & we have one EPIC show full of surprises for you this May!<br><br>Starring:<br>Alyssa Edwards<br>BeBe Zahara<br>CoCo Montrese<br>Nina Bonina Brown<br>Phoenix<br>Valentina<br><br>Featured Performances by:<br>Mrz Carter<br>Paris Nicole Brooks<br>The PMF Dancers<br><br>***Cast subject to change",
+        "eventCover"   : "Tickets: $24.99 - $149.99",
+        "eventLink"    : "special-events/queens-for-the-cure-2-at-necto-nightclub-ann-arbor-michigan-may-18th-2017.html",
+        "eventSocial"  : "https:www.facebook.com/events/102748736950232/",
+        "eventTix"     : "https:www.ticketor.com/pardonmoifrench/tickets/ann-arbor-queens-for-the-cure-tour-2-54656#buy",
+        "eventImgTall" : "img/event-images/queens-for-the-cure-2-at-necto-nightclub-ann-arbor.jpg",
+        "eventImgWide" : "img/event-images/queens-for-the-cure-2-at-necto-nightclub-ann-arbor.jpg",
+        "eventWklOvrd" : true,
+        "eventDay"     : 0,
+        "pastEvent"    : false
+    },  
     {
         "eventDate"    : "May 5, 2017 21:00:00",
         "eventName"    : "Cinco de Mayo featuring... Boomer Banks!",
@@ -2242,6 +2258,7 @@
     {
         "eventDate"    : "Sep 7, 2015 20:00:00",
         "eventName"    : "Splatter Bash - Blacklight Paint Party",
+        "eventArtist"  : "Splatter Bash",
         "eventDescLong": "Factory is bringing in UV paint cannons for our SplatterBash party! This one is going to get messy! Featuring DJ Jinx and MC Yoda along with DJ Madisi in the Red Room.",
         "eventLink"    : "special-events/splaterbash-paint-party-at-necto-nightclub-ann-arbor-michigan-sept-7th-2015.html",
         "eventSocial"  : "",
@@ -2254,6 +2271,7 @@
     {
         "eventDate"    : "Sep 5, 2015 20:00:00",
         "eventName"    : "Ultraviolet - Blacklight Paint Party",
+        "eventArtist"  : "Ultraviolet",
         "eventDescLong": "Come out and play in the paint! We will have UV paint cannons on the dancefloor and black lights all over to make the colors stand out.Wear white to really make it pop! Featuring DJ Hardy & MC Yoda!", 
         "eventLink"    : "special-events/ultraviolet-blacklight-paint-party-at-necto-nightclub-ann-arbor-michigan-sept-5th-2015.html",
         "eventSocial"  : "",
@@ -2266,6 +2284,7 @@
     {
         "eventDate"    : "Sep 4, 2015 20:00:00",
         "eventName"    : "NeonGlow Paint Party",
+        "eventArtist"  : "NeonGlow",
         "eventDescLong": "Come out and play in the paint! We will have UV paint cannons on the dancefloor and black lights all over to make the colors stand out. Wear white to really make it pop! Hosted by Chanel Hunter & Jadein Black, along with DJs Jace, Mark & Jason Michael.",    
         "eventLink"    : "special-events/neonglow-paint-party-at-necto-nightclub-ann-arbor-michigan-sept-4th-2015.html",
         "eventSocial"  : "",
@@ -2278,6 +2297,7 @@
     {
         "eventDate"    : "Sep 2, 2015 20:00:00",
         "eventName"    : "Audien",
+        "eventArtist"  : "Audien",
         "eventDescLong": "World renown, grammy nominated EDM producer AUDIEN takes over Necto for the Welcome Week Bounce on Wednesday September 2nd! Necto is teaming up with Scorekeepers and Prime Social Group to throw the biggest welcome week bash of the year! Don‘t miss out on this killer party with one of the top DJs in the world!",     
         "eventLink"    : "special-events/audien-live-at-necto-nightclub-ann-arbor-michigan-sept-2nd-2015.html",
         "eventSocial"  : "",
@@ -2290,6 +2310,7 @@
     {
         "eventDate"    : "Aug 14, 2015 20:00:00",
         "eventName"    : "Courtney Act, Live",
+        "eventArtist"  : "Courtney Act",
         "eventDescLong": "Courtney Act from Rupaul‘s Drag Race comes to Necto Pride on August 14th! Courtney will be performing in our Dragster show along with Chanel Hunter and Jadein Black with showtime at 9:30pm. Courtney Act will also perform an encore set at midnight followed by a FREE meet & greet photo opportunity with her fans! Our Pride Resident DJs Jace, DVJ Mark & Jason Michael will be keeping the dance floors moving all night!",
         "eventLink"    : "special-events/courtney-act-live-at-necto-nightclub-ann-arbor-michigan-aug-14th-2015.html",
         "eventSocial"  : "",
@@ -2302,6 +2323,7 @@
     {
         "eventDate"    : "Aug 6, 2015 20:00:00",
         "eventName"    : "Oliver Dollar",
+        "eventArtist"  : "Oliver Dollar",
         "eventDescLong": "Oliver Dollar takes over The Necto on Thursday August 6, joined by opening DJs Chuck Daniels and Adam Westing. The past four years have seen Oliver Dollar’s name gradually build to a recognizable staple in house music. The Berlin born and based producer has gained acknowledgment through a series of solid releases on various labels. We are very excited to bring him to The Necto!",
         "eventLink"    : "special-events/oliver-dollar-live-at-necto-nightclub-ann-arbor-michigan-aug-6th-2015.html",
         "eventSocial"  : "",
@@ -2314,6 +2336,7 @@
     {
         "eventDate"    : "Aug 13, 2015 20:00:00",
         "eventName"    : "Factory‘s 11th Birthday Bash",
+        "eventArtist"  : "Factory",
         "eventDescLong": "Factory Monday celebrates its 11th birthday on Monday July 13 in proper Factory style. We are flying in DANIEL GRAVES of AESTHETIC PERFECTION to join Jinx in the booth as our guest DJ for the night. We are working on some special fun ideas to add to the night too! Don‘t miss one of Industrial / EBM‘s top musicians, Daniel Graves, DJ live! This is going to be a great night!",   
         "eventLink"    : "special-events/factory-11th-birthday-bash-at-necto-nightclub-ann-arbor-michigan-july-13th-2015.html",
         "eventSocial"  : "",
@@ -2326,6 +2349,7 @@
     {
         "eventDate"    : "Jul 10, 2015 20:00:00",
         "eventName"    : "Boys Of Summer Contest",
+        "eventArtist"  : "Boys Of Summer",
         "eventDescLong": "Its time to hit the beach for our Boys Of Summer party hosted by Chanel Hunter! You know its getting hot out when we find the sexiest men around to show off their bods for a chance to win some serious cash! Wear your beach attire to get in the spirit and also get in the door for free!",   
         "eventLink"    : "special-events/boys-of-summer-necto-nightclub-ann-arbor-michigan-julu-10th-2015.html",
         "eventSocial"  : "",
@@ -2338,6 +2362,7 @@
     {
         "eventDate"    : "Jun 19, 2015 20:00:00",
         "eventName"    : "Ginger Minj",
+        "eventArtist"  : "Ginger Minj",
         "eventDescLong": "Ginger Minj from Rupaul‘s Drag Race comes to Necto Pride on Friday, June 19!! Joining Ginger on stage, as part of our Dragster show, are Chanel Hunter, Jadein Black, Ani Briated and Thrustin B Ieber. Showtime is at 9:30pm and Ginger Minj will have an encore performance at midnight followed by a meet and greet with all her fans!",   
         "eventLink"    : "special-events/ginger-minj-drag-race-at-necto-nightclub-ann-arbor-michigan-jun-19th-2015.html",
         "eventSocial"  : "",
@@ -2350,6 +2375,7 @@
     {
         "eventDate"    : "Jun 13, 2015 20:00:00",
         "eventName"    : "Plastic Passion‘s Six Year Anniversary",
+        "eventArtist"  : "Plastic Passion",
         "eventDescLong": "Plastic Passion celebrates their Six year Anniversary on Saturday June 13. DJ Josh Burge returns to his roots to create one of his very best five-hour-long sets to rock the RED ROOM. All while DOC COLONY blows minds on the telescreens and Rachel‘s specialty cocktails put them back together!",   
         "eventLink"    : "special-events/plastic-passion-six-year-anniversary-at-necto-nightclub-ann-arbor-michigan-june-13th-2015.html",
         "eventSocial"  : "",

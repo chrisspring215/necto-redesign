@@ -2561,14 +2561,14 @@ var eventsJSON = [
         "pastEvent"    : false // Do not modify
     },
     {
-        "eventDate"    : new Date("April 5, 2015 20:00:00"),
-        "eventName"    : "Boylesque: Easter Edition",
-        "eventArtist"  : "Boylesque: Easter Edition",
-        "eventDescLong": "It's time for another edition of our monthly Sunday night drag show 'Untucked' starring Boylesque featuring performers: Chanel Hunter, Jadein Black, Ani Briated & Thrustin Beaber!!<br>Doors open at 9pm with two shows for the night. The first is at 10pm and the second is at midnight! Stay after the last show to hang out and dance with the performers and DVJ Mark till we close at 2am!",   
-        "eventLink"    : "special-events/" + "boylesque-easter-edition-necto-nightclub-ann-arbor-michigan-april-5th-2015.html",
+        "eventDate"    : new Date("April 6, 2015 20:00:00"),
+        "eventName"    : "Goth Prom 2015",
+        "eventArtist"  : "Goth Prom 2015",
+        "eventDescLong": "Once again it is that special time of the year where we all dress our best, get together with our closest friends and have a wonderful night filled with the music we all love. Hosted by DJ Jinx and MC Yoda. DJ Voyager kicks the night before Void 6 and Jinx take over upstairs. DJ's Sofa King and Madisi command the Red Room all night!<br>FREE ADMISSION ALL NIGHT if you dress up. We will of course have our Prom picture station set up so you have something to remember this special night.",   
+        "eventLink"    : "special-events/" + "goth-prom-2015-at-necto-nightclub-ann-arbor-michigan-apr-16th-2015.html",
         "eventSocial"  : "",
         "eventTix"     : "none",
-        "eventImgWide" : "img/event-images/" + "boylesque-easter-edition-at-necto-nightclub-ann-arbor.png",
+        "eventImgWide" : "img/event-images/" + "goth-prom-2015-at-necto-nightclub-ann-arbor.png",
         //"eventWklOvrd" : true,
         "eventDay"     : 0, // Do not modify
         "pastEvent"    : false // Do not modify
@@ -2582,6 +2582,227 @@ var eventsJSON = [
         "eventSocial"  : "",
         "eventTix"     : "none",
         "eventImgWide" : "img/event-images/" + "boylesque-easter-edition-at-necto-nightclub-ann-arbor.png",
+        //"eventWklOvrd" : true,
+        "eventDay"     : 0, // Do not modify
+        "pastEvent"    : false // Do not modify
+    },
+    {
+        "eventDate"    : new Date("March 27, 2015 20:00:00"),
+        "eventName"    : "SCOTUS or Bust : A Variety Show to benefit The National Marriage Challenge",
+        "eventArtist"  : "SCOTUS or Bust : A Variety Show to benefit The National Marriage Challenge",
+        "eventDescLong": "SCOTUS or Bust is a variety show to benefit The National Marriage Challenge featuring Live Music, Spoken Word, Drag, Lumber Jacks, Silent Auction and much more! ",   
+        "eventLink"    : "special-events/" + "scoutus-or-bust-necto-nightclub-ann-arbor-michigan-march-27th-2015.html",
+        "eventSocial"  : "",
+        "eventTix"     : "none",
+        "eventImgWide" : "img/event-images/" + "scotus-or-bust-at-necto-nightclub-ann-arbor.png",
+        //"eventWklOvrd" : true,
+        "eventDay"     : 0, // Do not modify
+        "pastEvent"    : false // Do not modify
+    },
+    {
+        "eventDate"    : new Date("March 25, 2015 20:00:00"),
+        "eventName"    : "Red Bull Yellow Edition Launch Party",
+        "eventArtist"  : "Red Bull Yellow Edition Launch Party",
+        "eventDescLong": "Join Red Bull for the launch party for the new flavor: Yellow Edition! Red Bull has lots of fun & free swag to give out to celebrate the release of the new flavor. Necto resident DJ Hardy will be keeping the dancelfoors packed while our bartenders serve all sorts of great drinks with the new Yellow Edition!",   
+        "eventLink"    : "special-events/" + "red-bull-yellow-edition-launch-party-nightclub-ann-arbor-michigan-march-25-2015.html",
+        "eventSocial"  : "",
+        "eventTix"     : "none",
+        "eventImgWide" : "img/event-images/" + "red-bull-yellow-launch-party-at-necto-nightclub-ann-arbor.png",
+        //"eventWklOvrd" : true,
+        "eventDay"     : 0, // Do not modify
+        "pastEvent"    : false // Do not modify
+    },
+    {
+        "eventDate"    : new Date("March 20, 2015 20:00:00"),
+        "eventName"    : "Dragster with Raven",
+        "eventArtist"  : "Dragster with Raven",
+        "eventDescLong": "Raven from Rupaul's Drag Race comes to Necto Pride on Friday, March 20th!! Joining Raven on stage, as part of our Dragster show, are Chanel Hunter and Jadein Black. Showtime is at 9:30pm and Raven will have an encore performance at midnight followed by a meet and greet with all her fans!",   
+        "eventLink"    : "special-events/" + "dragster-with-raven-at-necto-nightclub-ann-arbor-michigan-march-20-2015.html",
+        "eventSocial"  : "",
+        "eventTix"     : "none",
+        "eventImgWide" : "img/event-images/" + "raven-from-drag-race-at-necto-nightclub-ann-arbor.png",
+        //"eventWklOvrd" : true,
+        "eventDay"     : 0, // Do not modify
+        "pastEvent"    : false // Do not modify
+    },
+    {
+        "eventDate"    : new Date("March 19, 2015 20:00:00"),
+        "eventName"    : "J Phlip",
+        "eventArtist"  : "J Phlip",
+        "eventDescLong": "Dirtybird's J. Phlip takes over Necto for an Official MOVEMENT Pre-Party, joining her in the booth are Gabi (Paxahau) & K_La. Presented by Necto & Paxahau",   
+        "eventLink"    : "special-events/" + "j-phlip-at-necto-nightclub-ann-arbor-michigan-march-19-2015.html",
+        "eventSocial"  : "",
+        "eventTix"     : "none",
+        "eventImgWide" : "img/event-images/" + "j-phlip-march-19-2015-at-necto-nightclub-ann-arbor.png",
+        //"eventWklOvrd" : true,
+        "eventDay"     : 0, // Do not modify
+        "pastEvent"    : false // Do not modify
+    },
+    {
+        "eventDate"    : new Date("March 16, 2015 20:00:00"),
+        "eventName"    : "Steampunk Factory",
+        "eventArtist"  : "Steampunk Factory",
+        "eventDescLong": "For one night only we are transforming the Necto with mechanized metalworks of mayhem to create a unique Steampunk experience. Free Admission all night if you are donned in Steampunk attire. With DJ's Voyager, Darks Choir and Jinx on the main floor and Sofaking & Madisi in the Red Room",   
+        "eventLink"    : "special-events/" + "steampunk-factory-necto-nightclub-ann-arbor-michigan-march-16th-2015.html",
+        "eventSocial"  : "",
+        "eventTix"     : "none",
+        "eventImgWide" : "img/event-images/" + "steampunk-factory-at-necto-nightclub-ann-arbor.png",
+        //"eventWklOvrd" : true,
+        "eventDay"     : 0, // Do not modify
+        "pastEvent"    : false // Do not modify
+    },
+    {
+        "eventDate"    : new Date("March 1, 2015 20:00:00"),
+        "eventName"    : "Untucked",
+        "eventArtist"  : "Untucked",
+        "eventDescLong": "Untucked is back with another fantastic night featuring the best Drag performers around! Join Chanel Hunter, Jadein Black, Ani Briated, Emma Sapphire (reigning Miss Necto Amateur) & Thrustin Beaber for this fantastic night!<br>Show times are: 10pm & 12am followed by music and dancing till close!",   
+        "eventLink"    : "special-events/" + "boylesque-untucked-at-necto-nightclub-ann-arbor-michigan-march-1-2015.html",
+        "eventSocial"  : "",
+        "eventTix"     : "none",
+        "eventImgWide" : "img/event-images/" + "boylesque-untucked-at-necto-nightclub-ann-arbor.png",
+        //"eventWklOvrd" : true,
+        "eventDay"     : 0, // Do not modify
+        "pastEvent"    : false // Do not modify
+    },
+    {
+        "eventDate"    : new Date("Feb 19, 2015 20:00:00"),
+        "eventName"    : "MEDMA: All Black Everything",
+        "eventArtist"  : "MEDMA: All Black Everything",
+        "eventDescLong": "Ann Arbor will get a bass-filled dose of techno this February with MEDMA's Impulse. We'll be pounding out the best the genre has to offer, along with eclectic tunes you've never heard and members' own songs. MEDMA's Techno Impulse is All Black Everything, so dark clothing only. We're in for a good night.<br>Line-Up: Schlick / Honour / Endash / Misba",
+        "eventLink"    : "special-events/" + "medma-all-black-everything-at-necto-nightclub-ann-arbor-michigan-feb-19-2015.html",
+        "eventSocial"  : "",
+        "eventTix"     : "none",
+        "eventImgWide" : "img/event-images/" + "medma-al-black-everything-at-necto-nightclub-ann-arbor.png",
+        //"eventWklOvrd" : true,
+        "eventDay"     : 0, // Do not modify
+        "pastEvent"    : false // Do not modify
+    },
+    {
+        "eventDate"    : new Date("Feb 16, 2015 20:00:00"),
+        "eventName"    : "Broken Hearts Ball 2015",
+        "eventArtist"  : "Broken Hearts Ball 2015",
+        "eventDescLong": "The cards, the candy, the flowers and everything that goes with it can burn in Hell as far as we're concerned. No couples specials, no get your picture taken with your true love. Let us celebrate those feelings of loneliness and burning bitter hate that keeps us warm on those cold winter nights.<br>For our Broken Hearts Ball if you are single you get in FREE all night. You can also dump your significant other at the front door (please make it spectacular!) for FREE admission. We won't mind if you decide to reconcile once you two hit the bar.<br>DJ's Darks Choir, Voyager and of course your curmudgeon in chief Jinx<br>DJ's Sofa King and Madisi In Red Room",
+        "eventLink"    : "special-events/" + "broken-hearts-ball-2015-at-necto-nightclub-ann-arbor-michigan-feb-16-2015.html",
+        "eventSocial"  : "",
+        "eventTix"     : "none",
+        "eventImgWide" : "img/event-images/" + "broken-hearts-ball-2015-at-necto-nightclub-ann-arbor.png",
+        //"eventWklOvrd" : true,
+        "eventDay"     : 0, // Do not modify
+        "pastEvent"    : false // Do not modify
+    },
+    {
+        "eventDate"    : new Date("Feb 15, 2015 20:00:00"),
+        "eventName"    : "Benefit for Motor City Pride/ Equality Michigan featuring PEARL & VIOLET CHACHKI",
+        "eventArtist"  : "Benefit for Motor City Pride/ Equality Michigan featuring PEARL & VIOLET CHACHKI",
+        "eventDescLong": "Untucked presents A Benefit for Motor City Pride/ Equality Michigan featuring, from RuPaul's Drag Race Season 7, PEARL & VIOLET CHACHKI. Hosted by Chanel Hunter, Jadein Black & Sabin Detroit. The show starts at 8:30pm, with additional shows at 10pm & Midnight, also a meet and greet with Pearl & Violet Chachki after the last show!<br>All ticket profits will be donated to support Motor City Pride/ Equality Michigan.<br>18 &amp; over are welcome with Proper ID.",
+        "eventLink"    : "special-events/" + "pearl-and-violet-chachki-live-at-necto-nightclub-ann-arbor-michigan-feb-15th-2015.html",
+        "eventSocial"  : "",
+        "eventTix"     : "none",
+        "eventImgWide" : "img/event-images/" + "pearl-and-violet-chachki-at-necto-nightclub-ann-arbor.png",
+        //"eventWklOvrd" : true,
+        "eventDay"     : 0, // Do not modify
+        "pastEvent"    : false // Do not modify
+    },
+    {
+        "eventDate"    : new Date("Feb 11, 2015 20:00:00"),
+        "eventName"    : "BORGEOUS",
+        "eventArtist"  : "BORGEOUS",
+        "eventDescLong": "Borgeous is the alias of American EDM DJ and producer John Borger. Born in Miami and then later relocating to Los Angeles, Borger began recording in early 2000s; playing around with various musical styles, he settled on dance music as his preferred genre. His tracks “From Cali with Love,“ “Rags to Riches,“ “GANGSTEROUS,“ and “Aggro“ soon garnered attention from the EDM-oriented community and gave Borger a platform for further releases on the labels Spinnin' and Doorn. It was the track “Tsunami“ -- his collaboration with electronic duo DVBBS -- that gained him worldwide recognition. The song was an international smash and led him to perform at major electronic music festivals around the world in 2013. He and DVBBS teamed up with Dimitri Vegas and Like Mike for the single “Stampede“ on Spinnin' in late 2013 and he also signed with the label at the same time. In 2014, U.K. rapper Tinie Tempah contributed vocals to “Tsunami“ in an updated remix version of the song. In spring 2014, he released the single “Invincible“ which proved to another popular hit for the producer. - Aneet Nijjar, Rovi via Wikipedia",
+        "eventLink"    : "special-events/" + "borgeous-at-necto-nightclub-ann-arbor-michigan-feb-11th-2015.html",
+        "eventSocial"  : "",
+        "eventTix"     : "none",
+        "eventImgWide" : "img/event-images/" + "borgeous-at-necto-nightclub-ann-arbor.png",
+        //"eventWklOvrd" : true,
+        "eventDay"     : 0, // Do not modify
+        "pastEvent"    : false // Do not modify
+    },
+    {
+        "eventDate"    : new Date("Feb 7, 2015 20:00:00"),
+        "eventName"    : "Not To Be Trusted XIV",
+        "eventArtist"  : "Not To Be Trusted XIV",
+        "eventDescLong": "Not To Be Trusted is back with more Detroit Techno with this month's guests:<br>Appian (Sly Fox / Phuture Shock) b2b<br>Segv (Sly Fox) b2b<br>Altstadt Echo (Dub Monitor/ Modern Cathedrals) b2b<br>Äsop (Dub Monitor<br>Segv (Sly Fox) b2b<br>",
+        "eventLink"    : "special-events/" + "not-to-be-trusted-xiv-at-necto-nightclub-ann-arbor-michigan-feb-7th-2015.html",
+        "eventSocial"  : "",
+        "eventTix"     : "none",
+        "eventImgWide" : "img/event-images/" + "not-to-be-trusted-xiv-necto-nightclub-ann-arbor.png",
+        //"eventWklOvrd" : true,
+        "eventDay"     : 0, // Do not modify
+        "pastEvent"    : false // Do not modify
+    },
+    {
+        "eventDate"    : new Date("Feb 6, 2015 20:00:00"),
+        "eventName"    : "Adore Delano LIVE",
+        "eventArtist"  : "Adore Delano LIVE",
+        "eventDescLong": "Adore Delano from Rupaul's Drag Race comes to Necto Pride on Friday, February 6th!! Joining Adore on stage, as part of our Dragster show, are Chanel Hunter and Jadein Black. Showtime is at 9:30pm and Ms. Delano will have an encore performance at midnight followed by a meetand greet with all her fans!",
+        "eventLink"    : "special-events/" + "adore-delano-live-at-necto-nightclub-ann-arbor-michigan-feb-6th-2016.html",
+        "eventSocial"  : "",
+        "eventTix"     : "none",
+        "eventImgWide" : "img/event-images/" + "adore-delano-at-necto-nightclub-ann-arbor.png",
+        //"eventWklOvrd" : true,
+        "eventDay"     : 0, // Do not modify
+        "pastEvent"    : false // Do not modify
+    },
+    {
+        "eventDate"    : new Date("Feb 4, 2015 20:00:00"),
+        "eventName"    : "Adore Delano LIVE",
+        "eventArtist"  : "Adore Delano LIVE",
+        "eventDescLong": "It‘s Summertime, all the time when Viceroy is in the building! Necto Nightclub is proud to present the Sultan of Summer - Viceroy!<br>Viceroy was a project started by producer Austen Afridi in February 2011. Since then his music has gained mass popularity quickly due to his unique feel good production style. His motto “Summertime, All The Time“ is the best way to describe his music. Ranging from tropical hip hop remixes to disco house, Viceroy has taken it upon himself to not associate himself with a specific genre, but instead with the best season of the year: Summer. He has played all over spreading his feel good music.<br>Viceroy will be live at Necto Nightclub on Wednesday February 4th!",
+        "eventLink"    : "special-events/" + "viceroy-live-at-necto-nightclub-ann-arbor-michigan-feb-2nd-2015.html",
+        "eventSocial"  : "",
+        "eventTix"     : "none",
+        "eventImgWide" : "img/event-images/" + "viceroy-at-necto-nightclub-ann-arbor.png",
+        //"eventWklOvrd" : true,
+        "eventDay"     : 0, // Do not modify
+        "pastEvent"    : false // Do not modify
+    },
+    {
+        "eventDate"    : new Date("Jan 22, 2015 20:00:00"),
+        "eventName"    : "MEDMA - Electroshock",
+        "eventArtist"  : "MEDMA - Electroshock",
+        "eventDescLong": "MEDMA's Electro Impulse will be highlighter themed, so prepare those white tees for the graffiti* of your life. *highlighters will be waterproof & washable",
+        "eventLink"    : "special-events/" + "medma-electroshock-at-necto-nightclub-ann-arbor-michigan-jan-22th-2015.html",
+        "eventSocial"  : "",
+        "eventTix"     : "none",
+        "eventImgWide" : "img/event-images/" + "medma-electroshock-at-necto-nightclub-ann-arbor.png",
+        //"eventWklOvrd" : true,
+        "eventDay"     : 0, // Do not modify
+        "pastEvent"    : false // Do not modify
+    },
+    {
+        "eventDate"    : new Date("Jan 22, 2015 20:00:00"),
+        "eventName"    : "Speedy J",
+        "eventArtist"  : "Speedy J",
+        "eventDescLong": "Necto Nightclub and Paxahau present:<br>OFFICIAL MOVEMENT FESTIVAL PRE-PARTY with Speedy J, Chuck Flask, Altstadt Echo & Chris McNamara.<br>Together with Laurent Garnier, Aphex Twin and Richie Hawtin, Rotterdam’s Speedy J has helped define techno since 1991, raising the genre just after it had escaped the Detroit delivery room with albums like Ginger, G Spot, Public Energy No. 1 and Loudboxer.<br>Since the early nineties, Speedy J has spearheaded labels like Plus 8, Novamute and Warp. After the albums G Spot (1993) and Ginger (1995), as techno developed into a dominating force on many dance floors worldwide, Jochem Paap chose to pursue other exciting avenues. On Public Energy No. 1 (1997) and A Shocking Hobby (2000) the sound wizard exchanged flowing, harmonious techno for a much more complex formula filled with colliding samples, crackling rhythms and tremendously thrilling turns.<br>Not one to be pigeonholed, over the years he has collaborated with video-artists and filmmakers, making the pioneering DVD Umfeld — an audio-visual electronic trip, which set the standard for many surround-sound composers. Meanwhile his boutique label, Electric Deluxe, has provided a platform for artists to explore more left-field techno projects and experiment with the ever-expanding technological possibilities of modern music making. As an extension of the label its sister event series, Electric Deluxe Presents, has turned Speedy J’s musical vision and penchant for innovation into a premier clubbing experience.<br>Recently the esteemed producer and performer has teamed up with with Stroboscopic Artefacts boss Lucy to form Zeitgeber. In 2013 the pair released their eponymous debut album to critical acclaim.<br>As a DJ, Speedy J is still as busy as ever, touching down in the most important venues and festivals worldwide every weekend. At the same time Electric Deluxe Presents has swelled into a globe-trotting brand with showcases scheduled for various major electronic festivals on the horizon.",
+        "eventLink"    : "special-events/" + "speedy-j-live-at-necto-nightclub-ann-arbor-michigan-jan-21st-2015.html",
+        "eventSocial"  : "",
+        "eventTix"     : "none",
+        "eventImgWide" : "img/event-images/" + "speedy-j-at-necto-nightclub-ann-arbor.png",
+        //"eventWklOvrd" : true,
+        "eventDay"     : 0, // Do not modify
+        "pastEvent"    : false // Do not modify
+    },
+    {
+        "eventDate"    : new Date("Jan 18, 2015 20:00:00"),
+        "eventName"    : "Miss Necto Pro/Am Pageant 2015",
+        "eventArtist"  : "Miss Necto Pro/Am Pageant 2015",
+        "eventDescLong": "It's been 15 years since the reigning Miss Nectarine was crowned. Our reigning Queen Miss Deangela Show Shannon is ready to give up her crown to one of our lucky lovely contestants. Hosted by Boylesques' Chanel Hunter & Jadein Black, Featuring Deangela Show Shannon & Bianca Nicole. The Pageant begins at 10pm, come out and see a fantastic show with some of the best performers our area has to offer!<br>Miss Necto Professional winner will receive<br>$500 cash prize<br>The Beautiful Miss Necto Crown<br>Lovely Miss Necto 2015<br>Sash<br>At least 1 paid booking at Necto in 2015 & consideration for other<br>Necto related bookings throughout the year.<br>Miss Necto Amateur winner will receive<br>$150 cash prize<br>The Awesome Miss Necto Amateur Crown<br>Lovely Miss Necto Amateur 2015 Sash<br>At least 1 paid booking at Necto in 2015 & consideration for other Necto related bookings throughout the year.",
+        "eventLink"    : "special-events/" + "miss-necto-pro-am-pageant-2015-at-necto-nightclub-ann-arbor-michigan-jan-18th-2015.html",
+        "eventSocial"  : "",
+        "eventTix"     : "none",
+        "eventImgWide" : "img/event-images/" + "miss-necto-2015-at-necto-nightclub-ann-arbor.png",
+        //"eventWklOvrd" : true,
+        "eventDay"     : 0, // Do not modify
+        "pastEvent"    : false // Do not modify
+    },
+    {
+        "eventDate"    : new Date("Jan 16, 2015 20:00:00"),
+        "eventName"    : "Dragster with Latrice Royale",
+        "eventArtist"  : "Dragster with Latrice Royale",
+        "eventDescLong": "Latrice Royale from Rupaul's Drag Race comes to Necto Pride on Friday, January 16th!! Joining Latrice on stage, as part of our Dragster show, are Chanel Hunter and Jadein Black. Showtime is at 9:30pm and Latrice will have an encore performance at midnight followed by a meet and greet with all her fans!",
+        "eventLink"    : "special-events/" + "dragster-with-latrice-royale-at-necto-nightclub-ann-arbor-michigan-jan-16th-2015.html",
+        "eventSocial"  : "",
+        "eventTix"     : "none",
+        "eventImgWide" : "img/event-images/" + "dragster-with-latrice-royale-at-necto-nightclub-ann-arbor.png",
         //"eventWklOvrd" : true,
         "eventDay"     : 0, // Do not modify
         "pastEvent"    : false // Do not modify

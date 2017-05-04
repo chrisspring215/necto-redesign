@@ -2416,5 +2416,174 @@ var eventsJSON = [
         //"eventWklOvrd" : true,
         "eventDay"     : 0, // Do not modify
         "pastEvent"    : false // Do not modify
+    },
+    {
+        "eventDate"    : new Date("Jun 13, 2015 20:00:00"),
+        "eventName"    : "Motor City Pride kickoff party with Darienne Lake",
+        "eventArtist"  : "Motor City Pride ",
+        "eventDescLong": "Join Necto Pride for our Official Motor City Pride Kick Off Party with DARIENNE LAKE! We have been celebrating Pride since 1984 so let's kick off Motor City Pride in style with the amazing Darienne Lake! Joining Darienne will be the Necto Pride Crew and host Chanel Hunter! Also featuring DJ Jace, DVJ Mark & Jason Michael playing the best dance music all night.",   
+        "eventLink"    : "special-events/" + "motor-city-pride-kickoff-party-at-necto-nightclub-ann-arbor-michigan-june-5th-2015.html",
+        "eventSocial"  : "",
+        "eventTix"     : "none",
+        "eventImgWide" : "img/event-images/" + "motor-city-pride-kickoff-party-at-necto-nightclub-ann-arbor.png",
+        //"eventWklOvrd" : true,
+        "eventDay"     : 0, // Do not modify
+        "pastEvent"    : false // Do not modify
+    },
+    {
+        "eventDate"    : new Date("Jun 1, 2015 20:00:00"),
+        "eventName"    : "Halfway to Halloween 2015",
+        "eventArtist"  : "Halfway to Halloween 2015",
+        "eventDescLong": "Halloween is our favorite holiday and their is no reason why it should only come once a year. So join us as we once again celebrate it this summer as well! FREE ADMISSION IF YOU ARE IN COSTUME! Of course we'll have a costume contest too!<br>Hosted by D.j. Jinx & MC Yoda with DJs Voyager & Darkschoir joining Jinx on the main floor. DJ Sofa King & DJ Madisi in the Red Room.",   
+        "eventLink"    : "special-events/" + "halfway-to-halloween-2015-at-necto-nightclub-ann-arbor-michigan-june-1st-2015.html",
+        "eventSocial"  : "",
+        "eventTix"     : "none",
+        "eventImgWide" : "img/event-images/" + "halfway-to-halloween-2015-at-necto-nightclub-ann-arbor.png",
+        //"eventWklOvrd" : true,
+        "eventDay"     : 0, // Do not modify
+        "pastEvent"    : false // Do not modify
+    },
+    {
+        "eventDate"    : new Date("May 22, 2015 20:00:00"),
+        "eventName"    : "BenDeLaCreme",
+        "eventArtist"  : "BenDeLaCreme",
+        "eventDescLong": "BenDeLaCreme from Rupaul's Drag Race comes to Necto Pride on Friday, May 22nd!! Joining BenDeLaCreme on stage, as part of our Dragster show, are Chanel Hunter and Jadein Black. Showtime is at 9:30pm and BenDeLaCreme will have an encore performance at midnight followed by a meet and greet with all her fans!",   
+        "eventLink"    : "special-events/" + "dragster-with-bendelacreme-night-at-necto-nightclub-ann-arbor-michigan-may-22nd-2015.html",
+        "eventSocial"  : "",
+        "eventTix"     : "none",
+        "eventImgWide" : "img/event-images/" + "bendelacreme-at-necto-nightclub-ann-arbor.png",
+        //"eventWklOvrd" : true,
+        "eventDay"     : 0, // Do not modify
+        "pastEvent"    : false // Do not modify
+    },
+    {
+        "eventDate"    : new Date("May 9, 2015 20:00:00"),
+        "eventName"    : "Plastic Passion Wax Trax Night",
+        "eventArtist"  : "Plastic Passion Wax Trax Night",
+        "eventDescLong": "We bring you a godlike WAX TRAX! appreciation edition of PLASTIC PASSION!<br>DJ SAINT joins resident JOSH BURGE to go deep into the seminal WAX TRAX! label catalog and rock you with classic electronic and industrial jams:<br>Ministry, Revolting Cocks, Front 242, KMFDM, My Life w/ Thrill Kill Kult, Front Line Assembly, Meat Beat Manifesto, Greater Than One, Clock DVA, Pailhead, Sister Machine Gun, Young Gods, Coil, Psychic TV, Lead Into Gold, Chris Connelly, Laibach, Pig, Chris & Cosey, Luc Van Acker, A Split Second, TGT, Pankow, Cyberaktif, 1000 Homo DJs, The KLF, Die Warzau, In The Nursery, Minimal Compact and Foetus while slipping in a few ones from peer labels like PLAY IT AGAIN SAM, NETTWERK, MUTE and ANTLER SUBWAY!<br>DOC COLONY tunes in and turns on the Psychic Televisions while RACHEL brews some Revolting Cocktails!",   
+        "eventLink"    : "special-events/" + "wax-trax-plastic-passion-at-necto-nightclub-ann-arbor-michigan-may-9th-2015.html",
+        "eventSocial"  : "",
+        "eventTix"     : "none",
+        "eventImgWide" : "img/event-images/" + "plastic-passion-wax-trax-at-necto-nightclub-ann-arbor.png",
+        //"eventWklOvrd" : true,
+        "eventDay"     : 0, // Do not modify
+        "pastEvent"    : false // Do not modify
+    },
+    {
+        "eventDate"    : new Date("May 8, 2015 20:00:00"),
+        "eventName"    : "Pride Prom 2015",
+        "eventArtist"  : "Pride Prom 2015",
+        "eventDescLong": "Come out and celebrate Prom 2015 with your Pride family this Friday night! No cover if you show up in prom attire!",   
+        "eventLink"    : "special-events/" + "pride-prom-2015-at-necto-nightclub-ann-arbor-michigan-mar-8th-2015.html",
+        "eventSocial"  : "",
+        "eventTix"     : "none",
+        "eventImgWide" : "img/event-images/" + "pride-prom-2015-at-necto-nightclub-ann-arbor.png",
+        //"eventWklOvrd" : true,
+        "eventDay"     : 0, // Do not modify
+        "pastEvent"    : false // Do not modify
+    },
+    {
+        "eventDate"    : new Date("May 5, 2015 20:00:00"),
+        "eventName"    : "Factory Strikes Back: Star Wars Night",
+        "eventArtist"  : "Factory Strikes Back: Star Wars Night",
+        "eventDescLong": "Get in FREE in a Star Wars costume<br>Costume contest with prizes<br>Lots of awesome decorations<br>WAY MORE INFO TO COME!",   
+        "eventLink"    : "special-events/" + "factory-strikes-back-goth-star-wars-night-at-necto-nightclub-ann-arbor-michigan-mar-5th-2015.html",
+        "eventSocial"  : "",
+        "eventTix"     : "none",
+        "eventImgWide" : "img/event-images/" + "factory-strikes-back-star-wars-at-necto-nightclub-ann-arbor.png",
+        //"eventWklOvrd" : true,
+        "eventDay"     : 0, // Do not modify
+        "pastEvent"    : false // Do not modify
+    },
+    {
+        "eventDate"    : new Date("April 11, 2015 20:00:00"),
+        "eventName"    : "Plastic Passion",
+        "eventArtist"  : "Plastic Passion",
+        "eventDescLong": "More 90s Please at PLASTIC PASSION! DJs SLOFU (Happy Endings, Berkley) and STEVER NEITHER will join resident JOSH BURGE for another great night of classic retro-alternative goodies from 1990-1999: Depeche Mode, The Cure, Bjork, Curve, Pulp, Blur, Morrissey, Garbage, Nine Inch Nails, KMFDM, Underworld, Moby, Elastica, Saint Etienne, Sleater-Kinney, GusGus, Lush, L7, Renegade Soundwave, Aphex Twin and more! All while DOC COLONY turns on the liquid television and Rachel's specialty cocktails give you teen spirit!",   
+        "eventLink"    : "special-events/" + "plastic-passion-at-necto-nightclub-ann-arbor-michigan-apr-11th-2015.html",
+        "eventSocial"  : "",
+        "eventTix"     : "none",
+        "eventImgWide" : "img/event-images/" + "plastic-passion-apr-11-2015-at-necto-nightclub-ann-arbor.png",
+        //"eventWklOvrd" : true,
+        "eventDay"     : 0, // Do not modify
+        "pastEvent"    : false // Do not modify
+    },
+    {
+        "eventDate"    : new Date("April 10, 2015 20:00:00"),
+        "eventName"    : "Dragster featuring Miss Fame",
+        "eventArtist"  : "Dragster featuring Miss Fame",
+        "eventDescLong": "Miss Fame from Rupaul's Drag Race (Season 7) comes to Necto Pride on Friday, April 10th!! Joining Miss Fame on stage, as part of our Dragster show, are Chanel Hunter and Jadein Black. Showtime is at 9:30pm and Miss Fame will have an encore performance at midnight followed by a meet and greet with all her fans!",   
+        "eventLink"    : "special-events/" + "miss-fame-dragrace-nightclub-ann-arbor-michigan-april-10-2015.html",
+        "eventSocial"  : "",
+        "eventTix"     : "none",
+        "eventImgWide" : "img/event-images/" + "miss-fame-dragster-at-necto-nightclub-ann-arbor.png",
+        //"eventWklOvrd" : true,
+        "eventDay"     : 0, // Do not modify
+        "pastEvent"    : false // Do not modify
+    },
+    {
+        "eventDate"    : new Date("April 9, 2015 20:00:00"),
+        "eventName"    : "Dragster featuring Miss Fame",
+        "eventArtist"  : "Dragster featuring Miss Fame",
+        "eventDescLong": "On Thursday April 9, from 9-11pm, Necto is hosting the inaugural UM Top DJ Competition!<br>We are giving up and coming Wolverines the opportunity to pit their live mixing and music production skills against other aspiring artists in front of your peers and a panel of industry veterans. Whoever is selected as UM’s top DJ will have the opportunity to open up for a major headliner (TBA) at the Necto Nightclub.",   
+        "eventLink"    : "special-events/" + "um-top-dj-competition-at-necto-nightclub-ann-arbor-michigan-apr-9th-2015.html",
+        "eventSocial"  : "",
+        "eventTix"     : "none",
+        "eventImgWide" : "img/event-images/" + "um-top-dj-competition-at-necto-nightclub-ann-arbor.png",
+        //"eventWklOvrd" : true,
+        "eventDay"     : 0, // Do not modify
+        "pastEvent"    : false // Do not modify
+    },
+    {
+        "eventDate"    : new Date("April 9, 2015 20:00:00"),
+        "eventName"    : "Lancelot",
+        "eventArtist"  : "Lancelot",
+        "eventDescLong": "Lancelot with opening sets by Golf Clap & Endash.",   
+        "eventLink"    : "special-events/" + "lancelot-necto-nightclub-ann-arbor-michigan-april-9th-2015.html",
+        "eventSocial"  : "",
+        "eventTix"     : "none",
+        "eventImgWide" : "img/event-images/" + "lancelot-live-at-necto-nightclub-ann-arbor.png",
+        //"eventWklOvrd" : true,
+        "eventDay"     : 0, // Do not modify
+        "pastEvent"    : false // Do not modify
+    },
+    {
+        "eventDate"    : new Date("April 7, 2015 20:00:00"),
+        "eventName"    : "LooKas “Break The Ground Tour“ Official Life In Color Pre-Party",
+        "eventArtist"  : "LooKas “Break The Ground Tour“ Official Life In Color Pre-Party",
+        "eventDescLong": "University Primetime & Life In Color “World‘s Largest Paint Party“ Presents: LooKas “Break The Ground Tour“ Official Life In Color Pre-Party.<br>Young Trap DJ phenomenon Lookas is set to take the stage at Necto in Ann Arbor on April 7th on his first ever tour! Joining LooKas on the main floor: Al NeOn | Maci Delaghetto | FMC | Panic Attack | Detroit the French. On the Red Room decks: Dj Dock | Brexx | Mantis Thee Unshambler | Dwrek | Bevrdhvwkx<br>This is the “Official Life In Color Pre-Party“ for Life In Color starring Seven Lions & Riff Raff at the Convocation Center on April 11th.",   
+        "eventLink"    : "special-events/" + "lookas-break-the-ground-tour-official-life-in-color-pre-party-at-necto-nightclub-ann-arbor-michigan-april-7th-2015.html",
+        "eventSocial"  : "",
+        "eventTix"     : "none",
+        "eventImgWide" : "img/event-images/" + "lookas-break-the-ground-tour-at-necto-nightclub-ann-arbor.png",
+        //"eventWklOvrd" : true,
+        "eventDay"     : 0, // Do not modify
+        "pastEvent"    : false // Do not modify
+    },
+    {
+        "eventDate"    : new Date("April 5, 2015 20:00:00"),
+        "eventName"    : "Boylesque: Easter Edition",
+        "eventArtist"  : "Boylesque: Easter Edition",
+        "eventDescLong": "It's time for another edition of our monthly Sunday night drag show 'Untucked' starring Boylesque featuring performers: Chanel Hunter, Jadein Black, Ani Briated & Thrustin Beaber!!<br>Doors open at 9pm with two shows for the night. The first is at 10pm and the second is at midnight! Stay after the last show to hang out and dance with the performers and DVJ Mark till we close at 2am!",   
+        "eventLink"    : "special-events/" + "boylesque-easter-edition-necto-nightclub-ann-arbor-michigan-april-5th-2015.html",
+        "eventSocial"  : "",
+        "eventTix"     : "none",
+        "eventImgWide" : "img/event-images/" + "boylesque-easter-edition-at-necto-nightclub-ann-arbor.png",
+        //"eventWklOvrd" : true,
+        "eventDay"     : 0, // Do not modify
+        "pastEvent"    : false // Do not modify
+    },
+    {
+        "eventDate"    : new Date("April 5, 2015 20:00:00"),
+        "eventName"    : "Boylesque: Easter Edition",
+        "eventArtist"  : "Boylesque: Easter Edition",
+        "eventDescLong": "It's time for another edition of our monthly Sunday night drag show 'Untucked' starring Boylesque featuring performers: Chanel Hunter, Jadein Black, Ani Briated & Thrustin Beaber!!<br>Doors open at 9pm with two shows for the night. The first is at 10pm and the second is at midnight! Stay after the last show to hang out and dance with the performers and DVJ Mark till we close at 2am!",   
+        "eventLink"    : "special-events/" + "boylesque-easter-edition-necto-nightclub-ann-arbor-michigan-april-5th-2015.html",
+        "eventSocial"  : "",
+        "eventTix"     : "none",
+        "eventImgWide" : "img/event-images/" + "boylesque-easter-edition-at-necto-nightclub-ann-arbor.png",
+        //"eventWklOvrd" : true,
+        "eventDay"     : 0, // Do not modify
+        "pastEvent"    : false // Do not modify
     }
 ]

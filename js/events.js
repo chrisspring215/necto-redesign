@@ -2769,7 +2769,7 @@ var eventsJSON = [
         "pastEvent"    : false // Do not modify
     },
     {
-        "eventDate"    : new Date("Jan 22, 2015 20:00:00"),
+        "eventDate"    : new Date("Jan 21, 2015 20:00:00"),
         "eventName"    : "Speedy J",
         "eventArtist"  : "Speedy J",
         "eventDescLong": "Necto Nightclub and Paxahau present:<br>OFFICIAL MOVEMENT FESTIVAL PRE-PARTY with Speedy J, Chuck Flask, Altstadt Echo & Chris McNamara.<br>Together with Laurent Garnier, Aphex Twin and Richie Hawtin, Rotterdam’s Speedy J has helped define techno since 1991, raising the genre just after it had escaped the Detroit delivery room with albums like Ginger, G Spot, Public Energy No. 1 and Loudboxer.<br>Since the early nineties, Speedy J has spearheaded labels like Plus 8, Novamute and Warp. After the albums G Spot (1993) and Ginger (1995), as techno developed into a dominating force on many dance floors worldwide, Jochem Paap chose to pursue other exciting avenues. On Public Energy No. 1 (1997) and A Shocking Hobby (2000) the sound wizard exchanged flowing, harmonious techno for a much more complex formula filled with colliding samples, crackling rhythms and tremendously thrilling turns.<br>Not one to be pigeonholed, over the years he has collaborated with video-artists and filmmakers, making the pioneering DVD Umfeld — an audio-visual electronic trip, which set the standard for many surround-sound composers. Meanwhile his boutique label, Electric Deluxe, has provided a platform for artists to explore more left-field techno projects and experiment with the ever-expanding technological possibilities of modern music making. As an extension of the label its sister event series, Electric Deluxe Presents, has turned Speedy J’s musical vision and penchant for innovation into a premier clubbing experience.<br>Recently the esteemed producer and performer has teamed up with with Stroboscopic Artefacts boss Lucy to form Zeitgeber. In 2013 the pair released their eponymous debut album to critical acclaim.<br>As a DJ, Speedy J is still as busy as ever, touching down in the most important venues and festivals worldwide every weekend. At the same time Electric Deluxe Presents has swelled into a globe-trotting brand with showcases scheduled for various major electronic festivals on the horizon.",
@@ -2803,6 +2803,929 @@ var eventsJSON = [
         "eventSocial"  : "",
         "eventTix"     : "none",
         "eventImgWide" : "img/event-images/" + "dragster-with-latrice-royale-at-necto-nightclub-ann-arbor.png",
+        //"eventWklOvrd" : true,
+        "eventDay"     : 0, // Do not modify
+        "pastEvent"    : false // Do not modify
+    },
+    {
+        "eventDate"    : new Date("Dec 31, 2014 20:00:00"),
+        "eventName"    : "New Years Eve 2014",
+        "eventArtist"  : "Dragster with Latrice Royale",
+        "eventDescLong": "New Years Eve is coming up and its going to be a fantastic night at Necto! Join us along with DJ Hardy and MC Yoda as we bring in the 2015 in style! Complimentary Party Favors, Balloon Drop & late night pizza for everyone!",
+        "eventLink"    : "special-events/" + "new-years-eve-party-2015-at-necto-nightclub-ann-arbor-michigan-dec-31st-2014.html",
+        "eventSocial"  : "",
+        "eventTix"     : "none",
+        "eventImgWide" : "img/event-images/" + "new-years-eve-party-2015-at-necto-nightclub-ann-arbor.png",
+        //"eventWklOvrd" : true,
+        "eventDay"     : 0, // Do not modify
+        "pastEvent"    : false // Do not modify
+    },
+    {
+        "eventDate"    : new Date("Dec 31, 2014 20:00:00"),
+        "eventName"    : "New Years Eve 2014",
+        "eventArtist"  : "Plastic Passion New Wave New Years",
+        "eventDescLong": "Bring in the NEW YEAR with PLASTIC PASSION! We'll kick off 2015 in the RED ROOM from 9pm till 4am! Seven hours of classic new wave, synth, ebm, modern alternative and more with our DJs: JOSH BURGE (Plastic Passion resident host) / SLOFU (Happy Endings) / SAINT (Plastic Passion/Something Cold) / NOCKER (Vitriol Gauge/local Tarzan Boy). Telescreen visuals and countdown by DOC COLONY.<br>We will have Scrumptious hors d'oeuvres, champagne toast, late-nite pizza, and other party favors included!",
+        "eventLink"    : "special-events/" + "plastic-passion-new-wave-new-years-at-necto-nightclub-ann-arbor-michigan-dec-31st-2014.html",
+        "eventSocial"  : "",
+        "eventTix"     : "none",
+        "eventImgWide" : "img/event-images/" + "plastic-passion-new-wave-new-years-at-necto-nightclub-ann-arbor.png",
+        //"eventWklOvrd" : true,
+        "eventDay"     : 0, // Do not modify
+        "pastEvent"    : false // Do not modify
+    },
+    {
+        "eventDate"    : new Date("Dec 22, 2014 20:00:00"),
+        "eventName"    : "Dark Noel",
+        "eventArtist"  : "Dark Noel",
+        "eventDescLong": "Once again Santa is returning to Factory at Necto. All year you have all been extra naughty and that has been so very nice. This year Santa & Rudolph are bringing an extra helper, Miss Vivid Vivka, internationally published Suicide Girls, Cosplay Deviants and Alt model. Get your picture taken with Santa, Rudolph and the wonderfully wicked Miss Vivka at Santa's Workshop.<br>Our bartenders will fill you with liquid cheer and your Factory family will definitely give you strength to deal with the relatives in the coming days. DJ's Jinx, Darks Choir and Voyager will keep you stomping all night along with Sofaking & Madisi in the Red Room.",
+        "eventLink"    : "special-events/" + "dark-noel-at-necto-nightclub-ann-arbor-michigan-dec-22nd-2014.html",
+        "eventSocial"  : "",
+        "eventTix"     : "none",
+        "eventImgWide" : "img/event-images/" + "dark-noel-at-necto-nightclub-ann-arbor.png",
+        //"eventWklOvrd" : true,
+        "eventDay"     : 0, // Do not modify
+        "pastEvent"    : false // Do not modify
+    },
+    {
+        "eventDate"    : new Date("Dec 20, 2014 20:00:00"),
+        "eventName"    : "Not To Be Trusted XIII",
+        "eventArtist"  : "Not To Be Trusted XIII",
+        "eventDescLong": "Detroit Techno returns again to our Red Room. Featuring DJs: Altstadt Echo (Dub Monitor / Modern Cathedrals) / Äsop (Dub Monitor) / Inyahed Signalman (Dub Monitor) / Max Ellington (Dub Monitor)",
+        "eventLink"    : "special-events/" + "not-to-be-trusted-xiii-at-necto-nightclub-ann-arbor-michigan-dec-27-2014.html",
+        "eventSocial"  : "",
+        "eventTix"     : "none",
+        "eventImgWide" : "img/event-images/" + "not-to-be-trusted-xiii-at-necto-nightclub-ann-arbor.png",
+        //"eventWklOvrd" : true,
+        "eventDay"     : 0, // Do not modify
+        "pastEvent"    : false // Do not modify
+    },
+    {
+        "eventDate"    : new Date("Dec 19, 2014 20:00:00"),
+        "eventName"    : "Pride: Snowball",
+        "eventArtist"  : "Pride: Snowball",
+        "eventDescLong": "Ho Ho Ho! Too grown up to sit on Santa's lap at the mall but want to tell Santa what you want for Xmas and get a picture? Come get your picture taken with Miss Sandy Claws & the Pride Crew Elves at Pride!! We'll have the Santa's workshop all decorated so come and let our Sandy Claws (the wonderfully deviant Chanel Hunter) take you on her lap and perhaps grant a wish for the holidays!",
+        "eventLink"    : "special-events/" + "pride-snowball-necto-nightclub-ann-arbor-michigan-dec-19th-2014.html",
+        "eventSocial"  : "",
+        "eventTix"     : "none",
+        "eventImgWide" : "img/event-images/" + "pride-snowball-at-necto-nightclub-ann-arbor.png",
+        //"eventWklOvrd" : true,
+        "eventDay"     : 0, // Do not modify
+        "pastEvent"    : false // Do not modify
+    },
+    {
+        "eventDate"    : new Date("Dec 18, 2014 20:00:00"),
+        "eventName"    : "G Spot: La Femme",
+        "eventArtist"  : "G Spot: La Femme",
+        "eventDescLong": "This month the women of G Spot present La Femme, featuring DJs STACEY HOTWAXX HALE and Holographic! More than just about great music and dancing, G Spot is bringing together female organized groups, business and communities. For December the teams from Girl Develop It, Girls gone vinyl, Ann Arbor Derby Dimes and Yogs Republic A2 will be in the house so come out and meet some new friends!",
+        "eventLink"    : "special-events/" + "g-spot-at-necto-nightclub-ann-arbor-michigan-dec-18th-2014.html",
+        "eventSocial"  : "",
+        "eventTix"     : "none",
+        "eventImgWide" : "img/event-images/" + "g-spot-la-femme-at-necto-nightclub-ann-arbor.png",
+        //"eventWklOvrd" : true,
+        "eventDay"     : 0, // Do not modify
+        "pastEvent"    : false // Do not modify
+    },
+    {
+        "eventDate"    : new Date("Dec 19, 2014 20:00:00"),
+        "eventName"    : "G Spot: La Femme",
+        "eventArtist"  : "G Spot: La Femme",
+        "eventDescLong": "This month the women of G Spot present La Femme, featuring DJs STACEY HOTWAXX HALE and Holographic! More than just about great music and dancing, G Spot is bringing together female organized groups, business and communities. For December the teams from Girl Develop It, Girls gone vinyl, Ann Arbor Derby Dimes and Yogs Republic A2 will be in the house so come out and meet some new friends!",
+        "eventLink"    : "special-events/" + "g-spot-at-necto-nightclub-ann-arbor-michigan-dec-18th-2014.html",
+        "eventSocial"  : "",
+        "eventTix"     : "none",
+        "eventImgWide" : "img/event-images/" + "g-spot-la-femme-at-necto-nightclub-ann-arbor.png",
+        //"eventWklOvrd" : true,
+        "eventDay"     : 0, // Do not modify
+        "pastEvent"    : false // Do not modify
+    },
+    {
+        "eventDate"    : new Date("Dec 13, 2014 20:00:00"),
+        "eventName"    : "Plastic Passion",
+        "eventArtist"  : "Plastic Passion",
+        "eventDescLong": "‘Tis the season for another all request night at Plastic Passion! DJ SANTA JOSH once again becomes a human jukebox to gift all ye good girls and boys only the floor-stompers YOU request! New Wave/Newer Wave/Old Wave/Cold Wave/Heat Wave/Micro Wave - be amazed as DJ Josh trainwrecks them all together for an incredible night of PASSION! (Helpful tip: Eddie Money requests are likely to go to the front of the queue as Santa Josh drinks more beer). Helper elves DOC COLONY provides visions of sugarplums while Rachel's custom cocktails get you all Bltizen'd - get there before 11pm for half-off all of them (and other drinks)!",
+        "eventLink"    : "special-events/" + "Plastic Passion-at-necto-nightclub-ann-arbor-michigan-dec-13th-2014.html",
+        "eventSocial"  : "",
+        "eventTix"     : "none",
+        "eventImgWide" : "img/event-images/" + "plastic-passion-dec-2014-at-necto-nightclub-ann-arbor.png",
+        //"eventWklOvrd" : true,
+        "eventDay"     : 0, // Do not modify
+        "pastEvent"    : false // Do not modify
+    },
+    {
+        "eventDate"    : new Date("Dec 12, 2014 20:00:00"),
+        "eventName"    : "Dragster featuring Willam",
+        "eventArtist"  : "Dragster featuring Willam",
+        "eventDescLong": "Willam from Rupaul's Drag Race comes to Necto Pride on Friday December 12th!! Joining Willam on stage as part of our Dragster show are Chanel Hunter and Nickki Stevens.<br>Showtime is at 9:30pm and Willam will have an encore performance at midnight followed by a meet and greet with all her fans!",
+        "eventLink"    : "special-events/" + "dragster-willam-at-necto-nightclub-ann-arbor-michigan-dec-12th-2014.html",
+        "eventSocial"  : "",
+        "eventTix"     : "none",
+        "eventImgWide" : "img/event-images/" + "willam-drag-race-at-necto-nightclub-ann-arbor.png",
+        //"eventWklOvrd" : true,
+        "eventDay"     : 0, // Do not modify
+        "pastEvent"    : false // Do not modify
+    },
+    {
+        "eventDate"    : new Date("Dec 6, 2014 20:00:00"),
+        "eventName"    : "The Decadence Project",
+        "eventArtist"  : "The Decadence Project",
+        "eventDescLong": "Join Ayinde Audio and DJ Selina Style as they bring you some of the best beats, mash ups, throwbacks and whatever other craziness that gets put into the mix. Bring your dancing shoes!!",
+        "eventLink"    : "special-events/" + "the-decandence-project-at-necto-nightclub-ann-arbor-michigan-dec-6th-2014.html",
+        "eventSocial"  : "",
+        "eventTix"     : "none",
+        "eventImgWide" : "img/event-images/" + "the-decadence-project-necto-nightclub-ann-arbor.png",
+        //"eventWklOvrd" : true,
+        "eventDay"     : 0, // Do not modify
+        "pastEvent"    : false // Do not modify
+    },
+    {
+        "eventDate"    : new Date("Dec 3, 2014 20:00:00"),
+        "eventName"    : "Caked Up",
+        "eventArtist"  : "Caked Up",
+        "eventDescLong": "Caked Up and special guest Black Boots tear into Necto on Wednesday December 3rd! Caked Up, the DJ/producer duo comprised of Las Vegas natives Oscar Wylde and Vegas Banger, are no strangers to Internet, musical and social media success. Baking into the scene in late 2013, this duo is here to cook up your next favorite tracks. Armed with hip hop beats, keen pop sensibility, and devoted fan-base it will only be a matter of time until you are upside down twerking on a wall.",
+        "eventLink"    : "special-events/" + "caked-up-at-necto-nightclub-ann-arbor-michigan-dec-3rd-2014.html",
+        "eventSocial"  : "",
+        "eventTix"     : "none",
+        "eventImgWide" : "img/event-images/" + "caked-up-at-necto-nightclub-ann-arbor.png",
+        //"eventWklOvrd" : true,
+        "eventDay"     : 0, // Do not modify
+        "pastEvent"    : false // Do not modify
+    },
+    {
+        "eventDate"    : new Date("Nov 26, 2014 20:00:00"),
+        "eventName"    : "Thanksgiving Eve 2014",
+        "eventArtist"  : "Thanksgiving Eve 2014",
+        "eventDescLong": "Join us for Thanksgiving Eve for a night to have some fun before turkey day! DJ Knowledge takes over the main floor spinning Top 40, House, Throwback and Pop keeping his dancefloor shaking all night! In the Red Room is Rumba our new weekly Latin music night with DJs Candela & Walter Urena playing Salsa, Merengue, Bachata, Reggaeton, Reggae, Zouk, Kizomba and Dance Music!",
+        "eventLink"    : "special-events/" + "thanksgiving-eve-2014-at-necto-nightclub-ann-arbor-michigan-nov-26th-2014.html",
+        "eventSocial"  : "",
+        "eventTix"     : "none",
+        "eventImgWide" : "img/event-images/" + "thanksgiving-eve-at-necto-nightclub-ann-arbor.png",
+        //"eventWklOvrd" : true,
+        "eventDay"     : 0, // Do not modify
+        "pastEvent"    : false // Do not modify
+    },
+    {
+        "eventDate"    : new Date("Nov 24, 2014 20:00:00"),
+        "eventName"    : "Facotry's Fall Formal",
+        "eventArtist"  : "Facotry's Fall Formal",
+        "eventDescLong": "It is once again that special time of the year for Factory At Necto's Fall Formal. We all dress our best, get together with our close friends and have a wonderful night filled with the music we all love. We will have our picture station set up so you have something to remember this special night.<br>FREE ADMISSION ALL NIGHT if you dress up in formal attire.<br>DJ Voyager will kick off the night before DJ's Darks Choir and Jinxtake over. DJ's Sofa King and Madisi in the Red Room.",
+        "eventLink"    : "special-events/" + "factorys-fall-formal-at-necto-nightclub-ann-arbor-michigan-nov-24th-2014.html",
+        "eventSocial"  : "",
+        "eventTix"     : "none",
+        "eventImgWide" : "img/event-images/" + "factory-fall-formal-at-necto-nightclub-ann-arbor.png",
+        //"eventWklOvrd" : true,
+        "eventDay"     : 0, // Do not modify
+        "pastEvent"    : false // Do not modify
+    },
+    {
+        "eventDate"    : new Date("Nov 22, 2014 20:00:00"),
+        "eventName"    : "NOT TO BE TRUSTED XII",
+        "eventArtist"  : "NOT TO BE TRUSTED XII",
+        "eventDescLong": "Not To Be Trusted is back with another night of banging Detroit Techno. This month's artists are: Huerco S. (Probito / Software / Future Times) // Aran Daniels b2b Shady P (How to Kill / Local Heat / Breed / Proper Modulation)",
+        "eventLink"    : "special-events/" + "not-to-be-trusted-XII-at-necto-nightclub-ann-arbor-michigan-nov-22nd-2014.html",
+        "eventSocial"  : "",
+        "eventTix"     : "none",
+        "eventImgWide" : "img/event-images/" + "not-to-be-trusted-12-at-necto-nightclub-ann-arbor.png",
+        //"eventWklOvrd" : true,
+        "eventDay"     : 0, // Do not modify
+        "pastEvent"    : false // Do not modify
+    },
+    {
+        "eventDate"    : new Date("Nov 14, 2014 20:00:00"),
+        "eventName"    : "Dragster featuring Morgan McMichaels",
+        "eventArtist"  : "Dragster featuring Morgan McMichaels",
+        "eventDescLong": "Morgan McMichaels, of Rupaul's Drag Race, comes to Necto Pride for a Dragster performance! Joining Ms. McMichaels onstage will be Chanel Hunter, Jadein Black & Ani Briated. Showtime is at 9:30pm and Morgan will have an encore performance at midnight, followed by a meet & greet with her fans!",
+        "eventLink"    : "special-events/" + "morgan-mcmichaels-live-at-necto-nightclub-ann-arbor-michigan-nov-14th-2014.html",
+        "eventSocial"  : "",
+        "eventTix"     : "none",
+        "eventImgWide" : "img/event-images/" + "morgan-mcmichales-at-necto-nightclub-ann-arbor.png",
+        //"eventWklOvrd" : true,
+        "eventDay"     : 0, // Do not modify
+        "pastEvent"    : false // Do not modify
+    },
+    {
+        "eventDate"    : new Date("Nov 13, 2014 20:00:00"),
+        "eventName"    : "MEDMA",
+        "eventArtist"  : "MEDMA",
+        "eventDescLong": "Morgan McMichaels, of Rupaul's Drag Race, comes to Necto Pride for a Dragster performance! Joining Ms. McMichaels onstage will be Chanel Hunter, Jadein Black & Ani Briated. Showtime is at 9:30pm and Morgan will have an encore performance at midnight, followed by a meet & greet with her fans!",
+        "eventLink"    : "special-events/" + "medma-at-necto-nightclub-ann-arbor-michigan-nov-13th-2014.html",
+        "eventSocial"  : "",
+        "eventTix"     : "none",
+        "eventImgWide" : "img/event-images/" + "medma-at-necto-nightclub-ann-arbor.png",
+        //"eventWklOvrd" : true,
+        "eventDay"     : 0, // Do not modify
+        "pastEvent"    : false // Do not modify
+    },
+    {
+        "eventDate"    : new Date("Nov 8, 2014 20:00:00"),
+        "eventName"    : "Plastic Passion",
+        "eventArtist"  : "Plastic Passion",
+        "eventDescLong": "For this edition of Plastic Passion we're bringing to the Red Room a quad of local wax junkies for all-vinyl sets: DJs JUSTIN CARVER & DAN STOLARSKI (Something Cold, Detroit) will be joined by tree-town heroes CHUCK SIPPERLEY (Hydropark) and TIM SENDRA (Disco-Very/Absolute Beginners) - diggin' through crates and droppin' hard wax wreckords rangin' from New Wave to Hip Hop to Punk Rock to Synth Pop to Beep-Beep-Industrial-Clanky-Clank!",
+        "eventLink"    : "special-events/" + "plastic-passion-at-necto-nightclub-ann-arbor-michigan-nov-8th-2014.html",
+        "eventSocial"  : "",
+        "eventTix"     : "none",
+        "eventImgWide" : "img/event-images/" + "plastic-passion-at-necto-nightclub-ann-arbor.png",
+        //"eventWklOvrd" : true,
+        "eventDay"     : 0, // Do not modify
+        "pastEvent"    : false // Do not modify
+    },
+    {
+        "eventDate"    : new Date("Nov 6, 2014 20:00:00"),
+        "eventName"    : "AEROPLANE",
+        "eventArtist"  : "AEROPLANE",
+        "eventDescLong": "Aeroplane is the pseudonym of Vito de Luca, the Belgian nu disco music producer and DJ. Known for incorporating a mix of French House and Balearic Beat. Aeroplane's music is disco-styled, often on the 1980s decade. Aeroplane's remixes are described by themselves as “spacious cosmic disco“ tracks. Opening set by DJ Graffiti & Dreamers Delight. Presented by Jak Media & Necto Nightclub.",
+        "eventLink"    : "special-events/" + "aeroplane-live-at-necto-nightclub-ann-arbor-michigan-nov-6th-2014.html",
+        "eventSocial"  : "",
+        "eventTix"     : "none",
+        "eventImgWide" : "img/event-images/" + "aeroplane-at-necto-nightclub-ann-arbor.png",
+        //"eventWklOvrd" : true,
+        "eventDay"     : 0, // Do not modify
+        "pastEvent"    : false // Do not modify
+    },
+    {
+        "eventDate"    : new Date("Nov 5, 2014 20:00:00"),
+        "eventName"    : "KILL THE NOISE w/ BOTNEK & TWO FRESH",
+        "eventArtist"  : "KILL THE NOISE w/ BOTNEK & TWO FRESH",
+        "eventDescLong": "KILL THE NOISE, Botnek and Two Fresh tear into Necto on Wednesday, November 5th!! Presented by React Detroit and Necto Nightclub.",
+        "eventLink"    : "special-events/" + "kill-the-noise-with-botnek-and-two-fresh-at-necto-nightclub-ann-arbor-michigan-november-5th-2014.html",
+        "eventSocial"  : "",
+        "eventTix"     : "none",
+        "eventImgWide" : "img/event-images/" + "kill-the-noise-with-botnek-and-two-fresh-live-november-5th-2014-necto-nightclub-ann-arbor.png",
+        //"eventWklOvrd" : true,
+        "eventDay"     : 0, // Do not modify
+        "pastEvent"    : false // Do not modify
+    },
+    {
+        "eventDate"    : new Date("Nov 2, 2014 20:00:00"),
+        "eventName"    : "UNTUCKED - Boylesque",
+        "eventArtist"  : "UNTUCKED - Boylesque",
+        "eventDescLong": "KILL THE NOISE, Botnek and Two Fresh tear into Necto on Wednesday, November 5th!! Presented by React Detroit and Necto Nightclub.",
+        "eventLink"    : "special-events/" + "boylesque-live-at-necto-nightclub-ann-arbor-michigan-nov-2nd-2014.html",
+        "eventSocial"  : "",
+        "eventTix"     : "none",
+        "eventImgWide" : "img/event-images/" + "boylesque-at-necto-nightclub-ann-arbor.png",
+        //"eventWklOvrd" : true,
+        "eventDay"     : 0, // Do not modify
+        "pastEvent"    : false // Do not modify
+    },
+    {
+        "eventDate"    : new Date("Nov 1, 2014 20:00:00"),
+        "eventName"    : "Day of the Dead Party",
+        "eventArtist"  : "Day of the Dead Party",
+        "eventDescLong": "We wrap up our Hallow-week bash with our Day Of The Dead party. Come dressed up in costume and celebrate the true final day of Halloween!",
+        "eventLink"    : "special-events/" + "day-of-the-dead-party-at-necto-nightclub-ann-arbor-michigan-nov-1st-2014.html",
+        "eventSocial"  : "",
+        "eventTix"     : "none",
+        "eventImgWide" : "img/event-images/" + "day-of-the-dead-party-at-necto-nightclub-ann-arbor.png",
+        //"eventWklOvrd" : true,
+        "eventDay"     : 0, // Do not modify
+        "pastEvent"    : false // Do not modify
+    },
+    {
+        "eventDate"    : new Date("Oct 31, 2014 20:00:00"),
+        "eventName"    : "Pride Friday's Halloween Spectacular!",
+        "eventArtist"  : "Pride Friday's Halloween Spectacular!",
+        "eventDescLong": "ITS FINALLY HALLOWEEN and it's going to be an awesome night at Pride! Make sure you wear your costume for a chance to win some $$$ in our costume contest at midnight hosted by Chanel Hunter. This night is going to be CRAZY, show up early to avoid the line! DOORS AT 8:00",
+        "eventLink"    : "special-events/" + "pride-night-halloween-spectacular-at-necto-nightclub-ann-arbor-michigan-oct-31st-2014.html",
+        "eventSocial"  : "",
+        "eventTix"     : "none",
+        "eventImgWide" : "img/event-images/" + "pride-halloween-party-2014-at-necto-nightclub-ann-arbor.png",
+        //"eventWklOvrd" : true,
+        "eventDay"     : 0, // Do not modify
+        "pastEvent"    : false // Do not modify
+    },
+    {
+        "eventDate"    : new Date("Oct 30, 2014 20:00:00"),
+        "eventName"    : "Transport Thursdays Devil's Night Bash",
+        "eventArtist"  : "Transport Thursdays Devil's Night Bash",
+        "eventDescLong": "Calling all the ghosts, ghouls and sexy creatures of the night for one sick party to take us into Halloween. Its Devils Night and DJ Knowledge will keep you shaking your booties on the dance floor all night. Make sure to wear your costume for a chance to win some $$$ in our costume contest!",
+        "eventLink"    : "special-events/" + "devils-night-halloween-party-at-necto-nightclub-ann-arbor-michigan-oct-30th-2014.html",
+        "eventSocial"  : "",
+        "eventTix"     : "none",
+        "eventImgWide" : "img/event-images/" + "transport-thursdays-devils-night-bash-at-necto-nightclub-ann-arbor.png",
+        //"eventWklOvrd" : true,
+        "eventDay"     : 0, // Do not modify
+        "pastEvent"    : false // Do not modify
+    },
+    {
+        "eventDate"    : new Date("Oct 29, 2014 20:00:00"),
+        "eventName"    : "Haunted HOME",
+        "eventArtist"  : "Haunted HOME",
+        "eventDescLong": "Our Hallow-week Bash continues with Haunted HOME on Wednesday night! Its our new House music weekly party in the Red Room, this week with sets from ATAXIA, Rai Knight & DJ Holographic.",
+        "eventLink"    : "special-events/" + "haunted-home-at-necto-nightclub-ann-arbor-michigan-oct-29th-2014.html",
+        "eventSocial"  : "",
+        "eventTix"     : "none",
+        "eventImgWide" : "img/event-images/" + "haunted-home-at-necto-nightclub-ann-arbor.png",
+        //"eventWklOvrd" : true,
+        "eventDay"     : 0, // Do not modify
+        "pastEvent"    : false // Do not modify
+    },
+    {
+        "eventDate"    : new Date("Oct 29, 2014 20:00:00"),
+        "eventName"    : "Dia De Las Brujas Halloween Party",
+        "eventArtist"  : "Dia De Las Brujas Halloween Party",
+        "eventDescLong": "Join us as we bring Latin Night to the main floor of Necto Nightclub Wednesday, October 29th for the Dia De Las Brujas Halloween Party! Dj Candela and Dj Walter Urena will be in the mix all night spinning the hottest Salsa, Merengue, Bachata, Reggaeton, Reggae and Dance Music.",
+        "eventLink"    : "special-events/" + "dia-de-las-brujas-at-necto-nightclub-ann-arbor-michigan-oct-29-2014.html",
+        "eventSocial"  : "",
+        "eventTix"     : "none",
+        "eventImgWide" : "img/event-images/" + "dia-de-las-brujas-at-necto-nightclub-ann-arbor.png",
+        //"eventWklOvrd" : true,
+        "eventDay"     : 0, // Do not modify
+        "pastEvent"    : false // Do not modify
+    },
+    {
+        "eventDate"    : new Date("Oct 29, 2014 20:00:00"),
+        "eventName"    : "Dia De Las Brujas Halloween Party",
+        "eventArtist"  : "Dia De Las Brujas Halloween Party",
+        "eventDescLong": "Join us as we bring Latin Night to the main floor of Necto Nightclub Wednesday, October 29th for the Dia De Las Brujas Halloween Party! Dj Candela and Dj Walter Urena will be in the mix all night spinning the hottest Salsa, Merengue, Bachata, Reggaeton, Reggae and Dance Music.",
+        "eventLink"    : "special-events/" + "dia-de-las-brujas-at-necto-nightclub-ann-arbor-michigan-oct-29-2014.html",
+        "eventSocial"  : "",
+        "eventTix"     : "none",
+        "eventImgWide" : "img/event-images/" + "dia-de-las-brujas-at-necto-nightclub-ann-arbor.png",
+        //"eventWklOvrd" : true,
+        "eventDay"     : 0, // Do not modify
+        "pastEvent"    : false // Do not modify
+    },
+    {
+        "eventDate"    : new Date("Oct 27, 2014 20:00:00"),
+        "eventName"    : "Factory's Halloween Madness",
+        "eventArtist"  : "Factory's Halloween Madness",
+        "eventDescLong": "Join us as we bring Latin Night to the main floor of Necto Nightclub Wednesday, October 29th for the Dia De Las Brujas Halloween Party! Dj Candela and Dj Walter Urena will be in the mix all night spinning the hottest Salsa, Merengue, Bachata, Reggaeton, Reggae and Dance Music.",
+        "eventLink"    : "special-events/" + "halloween-party-factory-goth-night-at-necto-nightclub-ann-arbor-michigan-oct-27th-2014.html",
+        "eventSocial"  : "",
+        "eventTix"     : "none",
+        "eventImgWide" : "img/event-images/" + "factory-halloween-madness-costume-party-at-necto-nightclub-ann-arbor.png",
+        //"eventWklOvrd" : true,
+        "eventDay"     : 0, // Do not modify
+        "pastEvent"    : false // Do not modify
+    },
+    {
+        "eventDate"    : new Date("Oct 25, 2014 20:00:00"),
+        "eventName"    : "Frequency Saturday's Hallo-Week Kick-Off Party",
+        "eventArtist"  : "Frequency Saturday's Hallo-Week Kick-Off Party",
+        "eventDescLong": "We are kicking off our Hallo-Week bash on Saturday, October 25th with a blow out party! The club will be completely decked out in spooky decorations so be sure to wear your best costumes! We will be holding a costume contest around midnight, hosted by MC Yoda, with cash prizes!",
+        "eventLink"    : "special-events/" + "halloween-party-kickoff-at-necto-nightclub-ann-arbor-michigan-oct-25th-2014.html",
+        "eventSocial"  : "",
+        "eventTix"     : "none",
+        "eventImgWide" : "img/event-images/" + "halloween-party-week-kickoff-at-necto-nightclub-ann-arbor-michigan.png",
+        //"eventWklOvrd" : true,
+        "eventDay"     : 0, // Do not modify
+        "pastEvent"    : false // Do not modify
+    },
+    {
+        "eventDate"    : new Date("Oct 25, 2014 20:00:00"),
+        "eventName"    : "NOT TO BE TRUSTED XI: w/ MGUN, Appian b2b Segv, Max Ellington",
+        "eventArtist"  : "NOT TO BE TRUSTED XI: w/ MGUN, Appian b2b Segv, Max Ellington",
+        "eventDescLong": "Detroit Techno is taking over the Red Room on Saturday October 25. NOT TO BE TRUSTED is back with another sick lineup featuring: MGUN - Manuel Gonzales (Wild Oats Music / Trilogy Tapes / FIT), Appian b2b Segv (Sly Fox), Max Ellington (Dub Monitor)",
+        "eventLink"    : "special-events/" + "not-to-be-trusted-at-necto-nightclub-ann-arbor-michigan-oct-25th-2014.html",
+        "eventSocial"  : "",
+        "eventTix"     : "none",
+        "eventImgWide" : "img/event-images/" + "not-to-be-trusted-11-at-necto-nightclub-ann-arbor.png",
+        //"eventWklOvrd" : true,
+        "eventDay"     : 0, // Do not modify
+        "pastEvent"    : false // Do not modify
+    },
+   {
+        "eventDate"    : new Date("Oct 22, 2014 20:00:00"),
+        "eventName"    : "Dirtyphonics",
+        "eventArtist"  : "Dirtyphonics",
+        "eventDescLong": "Dirtyphonics tears into Necto on Wednesday October 22nd! Dirtyphonics (Soundcloud) is a French electronic music band from Paris, consisting of members Charly, PitchIn, and Pho. Their music style is based on electro, dubstep, drumstep, drum and bass and trap. This killer show is presented by Jak Media & Necto Nightclub. ",
+        "eventLink"    : "special-events/" + "dirtyphonics-live-at-necto-nightclub-ann-arbor-michigan-oct-22nd-2014.html",
+        "eventSocial"  : "",
+        "eventTix"     : "none",
+        "eventImgWide" : "img/event-images/" + "dirtyphonics-at-necto-nightclub-ann-arbor.png",
+        //"eventWklOvrd" : true,
+        "eventDay"     : 0, // Do not modify
+        "pastEvent"    : false // Do not modify
+    },
+   {
+        "eventDate"    : new Date("Oct 17, 2014 20:00:00"),
+        "eventName"    : "Shangela at Dragster!",
+        "eventArtist"  : "Shangela at Dragster!",
+        "eventDescLong": "Shangela comes to Necto Pride for a performance on our stage with the Dragster queens! Showtime is at 9:30pm with an encore at midnight. Following the encore Shangela will have a meet & greet with her fans for autographs and pictures!",
+        "eventLink"    : "special-events/" + "shangela-dragster-live-at-necto-nightclub-ann-arbor-michigan-oct-17th-2014.html",
+        "eventSocial"  : "",
+        "eventTix"     : "none",
+        "eventImgWide" : "img/event-images/" + "shangela-dragster-at-necto-nightclub-ann-arbor.png",
+        //"eventWklOvrd" : true,
+        "eventDay"     : 0, // Do not modify
+        "pastEvent"    : false // Do not modify
+    },
+    {
+        "eventDate"    : new Date("Oct 16, 2014 20:00:00"),
+        "eventName"    : "G Spot: SuperDre, Pilar Cote, and DJ Holographic",
+        "eventArtist"  : "G Spot: SuperDre, Pilar Cote, and DJ Holographic",
+        "eventDescLong": "GSpot is rolling with Ann Arbor Roller Derby Dimes on Thursday, October 16 in the Red Room. Come on in and celebrate these wonderful women and our All Star local line up featuring: SuperDre, Pilar Cote, and DJ Holographic.<br>We are so excited to united with such a wonderful and powerful group of women together in one talent-filled night. So if you are a music lover, an active community supporter, and enjoy dancing like no one's looking... JOIN US!",
+        "eventLink"    : "special-events/" + "g-spot-superdre-at-necto-nightclub-ann-arbor-michigan-oct-16th-2014.html",
+        "eventSocial"  : "",
+        "eventTix"     : "none",
+        "eventImgWide" : "img/event-images/" + "g-spot-oct-16-at-necto-nightclub-ann-arbor.png",
+        //"eventWklOvrd" : true,
+        "eventDay"     : 0, // Do not modify
+        "pastEvent"    : false // Do not modify
+    },
+    {
+        "eventDate"    : new Date("Sept 22, 2014 20:00:00"),
+        "eventName"    : "Pure Pwnage: Video Game Super Party",
+        "eventArtist"  : "Pure Pwnage: Video Game Super Party",
+        "eventDescLong": "Video game nerds, this night is for you! We will have tons of video game consoles set up all over the club, ranging from old school NES to brand spanking new PS4s & Xbones. To add some nerdy flavor to the night we are bringing in The Gothsicles for a special performance to play a couple of their banging tracks on stage! Huge thanks to Get Your Game On for sponsoring the night!<br>Oh and its a cosplay night too!! Dress up as a video game character and get in free all night AND we will be having a costume contest hosted by MC Yoda! DJs Jinx & Skellie Lafleur on the main floor, Sofaking & Madisi in the Red Room. ",
+        "eventLink"    : "special-events/" + "pure-pwnage-at-necto-nightclub-ann-arbor-michigan-september-22nd-2014.html",
+        "eventSocial"  : "",
+        "eventTix"     : "none",
+        "eventImgWide" : "img/event-images/" + "pure-pwnage-at-necto-nightclub-ann-arbor.png",
+        //"eventWklOvrd" : true,
+        "eventDay"     : 0, // Do not modify
+        "pastEvent"    : false // Do not modify
+    },
+    {
+        "eventDate"    : new Date("Sept 20, 2014 20:00:00"),
+        "eventName"    : "NOT TO BE TRUSTED (X) feat. Terrence Dixon & Gabi",
+        "eventArtist"  : "NOT TO BE TRUSTED (X) feat. Terrence Dixon & Gabi",
+        "eventDescLong": "Headliners: Detroit Techno is back with NOT TO BE TRUSTED (X). Terrence Dixon (Live) Tresor / Metroplex / Rush Hour / Reduction and Gabi Paxahau. Along with support from: Altstadt Echo Blank Code / Dub Monitor & Inyahed Signalman Dub Monitor. ",
+        "eventLink"    : "special-events/" + "terrence-dixon-and-gabi-at-necto-nightclub-ann-arbor-michigan-september-20th-2014.html",
+        "eventSocial"  : "",
+        "eventTix"     : "none",
+        "eventImgWide" : "img/event-images/" + "terrence-dixon-and-gabi-at-necto-nightclub-ann-arbor.png",
+        //"eventWklOvrd" : true,
+        "eventDay"     : 0, // Do not modify
+        "pastEvent"    : false // Do not modify
+    },
+    {
+        "eventDate"    : new Date("Sept 19, 2014 20:00:00"),
+        "eventName"    : "Alaska Thunderfuck LIVE at Pride!",
+        "eventArtist"  : "Alaska Thunderfuck LIVE at Pride!",
+        "eventDescLong": "Alaska Thunderfuck comes to Necto Pride for a performance on our stage with the Dragster queens!<br>Showtime is at 9:30pm with an encore at midnight. Following the encore Alaska will have a meet & greet with her fans for autographs and pictures!",
+        "eventLink"    : "special-events/" + "alaska-thunderfuck-live-at-necto-nightclub-ann-arbor-michigan-sept-19th-2014.html",
+        "eventSocial"  : "",
+        "eventTix"     : "none",
+        "eventImgWide" : "img/event-images/" + "alaska-thunderfuck-live-at-necto-nightclub-ann-arbor.png",
+        //"eventWklOvrd" : true,
+        "eventDay"     : 0, // Do not modify
+        "pastEvent"    : false // Do not modify
+    },
+    {
+        "eventDate"    : new Date("Aug 29, 2014 20:00:00"),
+        "eventName"    : "Laganja Estranja LIVE at PRIDE!",
+        "eventArtist"  : "Laganja Estranja LIVE at PRIDE!",
+        "eventDescLong": "Laganja Estranja from Rupaul's Drag Race will be at Pride for a performance along with Chanel Hunter & Jadein Black for another epic Dragster party! Showtime is at 9:30 (so get here before 10 to see the show for free!) and Laganja will do an encore after midnight as well! Its also our going away party for our awesome bartender Tony who is moving to sunny California! Of course our Pride DJs Jace and DVJ Mark will be on the decks keeping the dance floors hot!",
+        "eventLink"    : "special-events/" + "laganja-estranja-live-at-necto-nightclub-ann-arbor-michigan-aug-29th-2014.html",
+        "eventSocial"  : "",
+        "eventTix"     : "none",
+        "eventImgWide" : "img/event-images/" + "laganja-estranja-live-at-pride-at-necto-nightclub-ann-arbor.png",
+        //"eventWklOvrd" : true,
+        "eventDay"     : 0, // Do not modify
+        "pastEvent"    : false // Do not modify
+    },
+    {
+        "eventDate"    : new Date("Aug 18, 2014 20:00:00"),
+        "eventName"    : "Heros VS Villians Costume Contest",
+        "eventArtist"  : "Heros VS Villians Costume Contest",
+        "eventDescLong": "It's our annual Heroes VS Villains party! Get dressed up for a little cosplay fun as your favorite comic book, video game or movie icon.. good or evil! If you dress up in costume you get in free all night and MC Yoda will be hosting a costume contest with cash prizes! DJ Jinx and his sinister team of DJs will be on the decks upstairs along with DJs Sofaking & Madisi in the Red Room. #SHIZA",
+        "eventLink"    : "special-events/" + "factorys-heros-vs-villians-at-necto-nightclub-ann-arbor-michigan-aug-18th-2014.html",
+        "eventSocial"  : "",
+        "eventTix"     : "none",
+        "eventImgWide" : "img/event-images/" + "factorys-heros-vs-villians-costume-contest-at-necto-nightclub-ann-arbor.png",
+        //"eventWklOvrd" : true,
+        "eventDay"     : 0, // Do not modify
+        "pastEvent"    : false // Do not modify
+    },
+    {
+        "eventDate"    : new Date("Aug 3, 2014 20:00:00"),
+        "eventName"    : "THE RED MAN Film - Call For Extras",
+        "eventArtist"  : "THE RED MAN Film - Call For Extras",
+        "eventDescLong": "A feature Psychological Horror film, THE RED MAN, is shooting some scenes at Necto and is seeking extras. There are two scenes that are being filmed in different styles: Upscale/ VIP style extras (filming 1pm - 5pm) & Industrial/Fetish/Goth style extras (filming 7pm - 11pm). For each scene please show up before the start time, not just randomly during the times. Also, for each scene we are asking people come dressed properly for those environments. The more appropriately you dress the more likely it is that you will actually be seen in the film!<br>Following the end of shooting we will be hosting a wrap party for everyone involved: Free Cast party BBQ featuring music from DJ Jinx & DJ John Acquaviva from 11pm - 2am Sponsored by Evolution Division & Three Olives Vodka 18 & over are welcome. Proper ID required.<br>“The Red Man“ Teaser Trailer (The Necto) from The Red Man Film on Vimeo.",
+        "eventLink"    : "special-events/" + "the-red-man-film-casting-call-at-necto-nightclub-ann-arbor-michigan-aug-3rd-2014.html",
+        "eventSocial"  : "",
+        "eventTix"     : "none",
+        "eventImgWide" : "img/event-images/" + "the-red-man-casting-call-at-necto-nightclub-ann-arbor.png",
+        //"eventWklOvrd" : true,
+        "eventDay"     : 0, // Do not modify
+        "pastEvent"    : false // Do not modify
+    },
+    {
+        "eventDate"    : new Date("July 25, 2014 20:00:00"),
+        "eventName"    : "Boys of Summer Contest",
+        "eventArtist"  : "Boys of Summer Contest",
+        "eventDescLong": "Boys with a hot body that want to show off a little... this night is for you! Its our annual Boys of Summer contest hosted by Chanel Hunter. Strip down to your undies and get in our kiddie pool and get soaked! Cash prizes for the hottest 3 boys. Our Pride Crew will be out to party as well and get guys signed up for the contest! Contest begins at midnight so get here early.",
+        "eventLink"    : "special-events/" + "boys-of-summer-contest-at-necto-nightclub-ann-arbor-michigan-july-25th-2014.html",
+        "eventSocial"  : "",
+        "eventTix"     : "none",
+        "eventImgWide" : "img/event-images/" + "boys-of-summer-contest-at-necto-nightclub-ann-arbor.png",
+        //"eventWklOvrd" : true,
+        "eventDay"     : 0, // Do not modify
+        "pastEvent"    : false // Do not modify
+    },
+    {
+        "eventDate"    : new Date("July 21, 2014 20:00:00"),
+        "eventName"    : "Factory 10 year Anniversary",
+        "eventArtist"  : "Factory 10 year Anniversary",
+        "eventDescLong": "SHIZA! Factory is celebrating it's 10 year anniversary of making Monday nights awesome and Tuesday mornings suck. We'll be giving out over 400 FREE commemorative t shirts, so show up and get yours! Hosted by DJ Jinx & MC Yoda with Darks Choir & DataRom on the main floor and DJs Sofaking & Madisi in the red room.",
+        "eventLink"    : "special-events/" + "factory-10-year-anniversary-at-necto-nightclub-ann-arbor-michigan-july-21st-2014.html",
+        "eventSocial"  : "",
+        "eventTix"     : "none",
+        "eventImgWide" : "img/event-images/" + "factory-monday-10-year-at-necto-nightclub-ann-arbor.png",
+        //"eventWklOvrd" : true,
+        "eventDay"     : 0, // Do not modify
+        "pastEvent"    : false // Do not modify
+    },
+    {
+        "eventDate"    : new Date("July 19, 2014 20:00:00"),
+        "eventName"    : "sol-tec",
+        "eventArtist"  : "sol-tec",
+        "eventDescLong": "Detroit's DJ Munk brings his mix of techno & house to Necto's Red Room.",
+        "eventLink"    : "special-events/" + "sol-tec-at-necto-nightclub-ann-arbor-michigan-july-19th-2014.html",
+        "eventSocial"  : "",
+        "eventTix"     : "none",
+        "eventImgWide" : "img/event-images/" + "sol-tec-at-necto-nightclub-ann-arbor.png",
+        //"eventWklOvrd" : true,
+        "eventDay"     : 0, // Do not modify
+        "pastEvent"    : false // Do not modify
+    },
+    {
+        "eventDate"    : new Date("July 11, 2014 20:00:00"),
+        "eventName"    : "Milk from RuPaul's Drag Race",
+        "eventArtist"  : "Milk from RuPaul's Drag Race",
+        "eventDescLong": "Milk from RuPaul's Drag Race is coming to Pride! She joins Chanel Hunter and Jadein Black for a drag show starting at 9:30pm, so get here early! Milk will be hanging out all night so maybe we can convince her to get back onstage at some point too!<br>DJ Jace on our upstairs dance floor and DVJ Mark keeping it hot in the Red Room all night.",
+        "eventLink"    : "special-events/" + "milk-from-rupauls-drag-race-at-necto-nightclub-ann-arbor-michigan-july-11th-2014.html",
+        "eventSocial"  : "",
+        "eventTix"     : "none",
+        "eventImgWide" : "img/event-images/" + "milk-from-rupauls-drag-race-at-necto-nightclub-ann-arbor.png",
+        //"eventWklOvrd" : true,
+        "eventDay"     : 0, // Do not modify
+        "pastEvent"    : false // Do not modify
+    },
+    {
+        "eventDate"    : new Date("July 10, 2014 20:00:00"),
+        "eventName"    : "G Spot: Girls Gone Vinyl",
+        "eventArtist"  : "G Spot: Girls Gone Vinyl",
+        "eventDescLong": "The G Spot kicks off their new series of parties with Girls Gone Vinyl. Featuring DJs CASH4GOLD, Thornstryker and DJ Holographic.",
+        "eventLink"    : "special-events/" + "g-spot-girls-gone-vinyl-at-necto-nightclub-ann-arbor-michigan-july-10th-2014.html",
+        "eventSocial"  : "",
+        "eventTix"     : "none",
+        "eventImgWide" : "img/event-images/" + "g-spot-girls-gone-vinyl-at-necto-nightclub-ann-arbor.png",
+        //"eventWklOvrd" : true,
+        "eventDay"     : 0, // Do not modify
+        "pastEvent"    : false // Do not modify
+    },
+    {
+        "eventDate"    : new Date("June 11, 2014 20:00:00"),
+        "eventName"    : "FuntCase and Butch Clancy",
+        "eventArtist"  : "FuntCase and Butch Clancy",
+        "eventDescLong": "Hailing from the UK, FuntCase brings his banging set of Dubstep & DnB to Necto along with Detroit's own Butch Clancy. Local support: Kenneth Klas and Dekglo. Presented by D-Ranged Productions & Necto Nightclub. ",
+        "eventLink"    : "special-events/" + "funtcase-and-butch-clancy-at-necto-nightclub-ann-arbor-michigan-june-11th-29th-2014.html",
+        "eventSocial"  : "",
+        "eventTix"     : "none",
+        "eventImgWide" : "img/event-images/" + "funtcase-and-butch-clancy-at-necto-nightclub-ann-arbor-michigan-june-11th-29th-2014.png",
+        //"eventWklOvrd" : true,
+        "eventDay"     : 0, // Do not modify
+        "pastEvent"    : false // Do not modify
+    },
+    {
+        "eventDate"    : new Date("June 11, 2014 20:00:00"),
+        "eventName"    : "Official Motor City Pride Pre-Party feat: Dave Aude",
+        "eventArtist"  : "Official Motor City Pride Pre-Party feat: Dave Aude",
+        "eventDescLong": "Join Necto Pride as we kick off Motor City Pride in style! We are bringing in special guest DJ - Grammy nominated producer, house DJ, and remixer Dave Aude! Also be sure to head out early for a drag performance by Chanel Hunter and Jadein Black of Boylesque at 9:30pm!",
+        "eventLink"    : "special-events/" + "motor-city-pride-party-at-necto-nightclub-ann-arbor-michigan-june-6th-2014.html",
+        "eventSocial"  : "",
+        "eventTix"     : "none",
+        "eventImgWide" : "img/event-images/" + "motor-city-pride-pre-party-at-necto-nightclub-ann-arbor-michigan-june-6th-2014.png",
+        //"eventWklOvrd" : true,
+        "eventDay"     : 0, // Do not modify
+        "pastEvent"    : false // Do not modify
+    },
+    {
+        "eventDate"    : new Date("June 6, 2014 20:00:00"),
+        "eventName"    : "Official Motor City Pride Pre-Party feat: Dave Aude",
+        "eventArtist"  : "Official Motor City Pride Pre-Party feat: Dave Aude",
+        "eventDescLong": "Join Necto Pride as we kick off Motor City Pride in style! We are bringing in special guest DJ - Grammy nominated producer, house DJ, and remixer Dave Aude! Also be sure to head out early for a drag performance by Chanel Hunter and Jadein Black of Boylesque at 9:30pm!",
+        "eventLink"    : "special-events/" + "motor-city-pride-party-at-necto-nightclub-ann-arbor-michigan-june-6th-2014.html",
+        "eventSocial"  : "",
+        "eventTix"     : "none",
+        "eventImgWide" : "img/event-images/" + "motor-city-pride-pre-party-at-necto-nightclub-ann-arbor-michigan-june-6th-2014.png",
+        //"eventWklOvrd" : true,
+        "eventDay"     : 0, // Do not modify
+        "pastEvent"    : false // Do not modify
+    },
+    {
+        "eventDate"    : new Date("May 27, 2014 20:00:00"),
+        "eventName"    : "Aesthetic Perfection",
+        "eventArtist"  : "Aesthetic Perfection",
+        "eventDescLong": "Factory presents Aesthetic Perfection live in concert with Panic Lift and Surgyn.",
+        "eventLink"    : "special-events/" + "aesthetic-perfection-at-necto-nightclub-ann-arbor-michigan-may-5th-29th-2014.html",
+        "eventSocial"  : "",
+        "eventTix"     : "none",
+        "eventImgWide" : "img/event-images/" + "aesthetic-perfection-at-necto-nightclub-ann-arbor.png",
+        //"eventWklOvrd" : true,
+        "eventDay"     : 0, // Do not modify
+        "pastEvent"    : false // Do not modify
+    },
+    {
+        "eventDate"    : new Date("May 16, 2014 20:00:00"),
+        "eventName"    : "Pride Prom 2014 The Great Gatsby Garden Party",
+        "eventArtist"  : "Pride Prom 2014 The Great Gatsby Garden Party",
+        "eventDescLong": "This year the Necto Pride will be recreated into a 1920's Garden Party! Walk into the world of the Great Gatsby and slip into this decadent celebration. DJ Jace in the Main Room & DVJ Mark in the Red Room. Hosted by the Necto Pride Crew with Prom photos by Bruno Postigo!",
+        "eventLink"    : "special-events/" + "pride-prom-2014-at-necto-nightclub-ann-arbor-michigan-may-16th-2014.html",
+        "eventSocial"  : "",
+        "eventTix"     : "none",
+        "eventImgWide" : "img/event-images/" + "pride-prom-2014-at-necto-nightclub-ann-arbor.png",
+        //"eventWklOvrd" : true,
+        "eventDay"     : 0, // Do not modify
+        "pastEvent"    : false // Do not modify
+    },
+    {
+        "eventDate"    : new Date("May 12, 2014 20:00:00"),
+        "eventName"    : "Halfway to Halloween",
+        "eventArtist"  : "Halfway to Halloween",
+        "eventDescLong": "Factory at Necto presents Halfway to Halloween! We are halfway to our favorite holiday so lets wear costumes and party like its October 31st! Dress up in a costume and get in free all night, costume contest with cash prizes around midnight!",
+        "eventLink"    : "special-events/" + "halfway-to-halloween-at-necto-nightclub-ann-arbor-michigan-may-12th-2014.html",
+        "eventSocial"  : "",
+        "eventTix"     : "none",
+        "eventImgWide" : "img/event-images/" + "halfway-to-halloween-may-12th-2014-at-necto-nightclub-ann-arbor-michigan.png",
+        //"eventWklOvrd" : true,
+        "eventDay"     : 0, // Do not modify
+        "pastEvent"    : false // Do not modify
+    },
+    {
+        "eventDate"    : new Date("May 9, 2014 20:00:00"),
+        "eventName"    : "Dragster featuring: GIA GUNN from RuPaul's Drag Race",
+        "eventArtist"  : "Dragster featuring: GIA GUNN from RuPaul's Drag Race",
+        "eventDescLong": "Gia Gunn from RuPaul's Drag Race joins Chanel Hunter & Jadein Black of Boylesque for a (Free!) show that begins at 9:30pm! Oh and its it's Gia's Birthday! Let's Celebrate!",
+        "eventLink"    : "special-events/" + "dragster-featuring-gia-gunn-at-necto-nightclub-ann-arbor-michigan-may-9th-2014.html",
+        "eventSocial"  : "",
+        "eventTix"     : "none",
+        "eventImgWide" : "img/event-images/" + "dragster-with-gia-gunn-may-9th-2014-at-necto-nightclub-ann-arbor-michigan.png",
+        //"eventWklOvrd" : true,
+        "eventDay"     : 0, // Do not modify
+        "pastEvent"    : false // Do not modify
+    },
+    {
+        "eventDate"    : new Date("April 29, 2014 20:00:00"),
+        "eventName"    : "Suicide Commando",
+        "eventArtist"  : "Suicide Commando",
+        "eventDescLong": "Their first live performance in the midwest ever and only one of four on this tour. Suicide Commando has been a dominant force in the Industrial / Aggrotech scene for decades.<br>Local support Filament 38 and Terror Network will be opening the show.",
+        "eventLink"    : "special-events/" + "sucicide-commando-at-necto-nightclub-ann-arbor-michigan-april-29th-2014.html",
+        "eventSocial"  : "",
+        "eventTix"     : "none",
+        "eventImgWide" : "img/event-images/" + "suicide-commando-april-29-2014-at-necto-nightclub-ann-arbor-michigan.png",
+        //"eventWklOvrd" : true,
+        "eventDay"     : 0, // Do not modify
+        "pastEvent"    : false // Do not modify
+    },
+    {
+        "eventDate"    : new Date("April 19, 2014 20:00:00"),
+        "eventName"    : "J. Phlip",
+        "eventArtist"  : "J. Phlip",
+        "eventDescLong": "Get ready for Movement with J.Phlip! A member of the Dirtybird crew, her booty shaking sets include house, tech house, deep house, techno and booty bass. Along with J. Phlip in the booth will be Paxahau's Chuck Flask & J.Clark the Groovemaster of The Glitz.",
+        "eventLink"    : "special-events/" + "j-phlip-at-necto-nightclub-ann-arbor-michigan-april-19th-2014.html",
+        "eventSocial"  : "",
+        "eventTix"     : "none",
+        "eventImgWide" : "img/event-images/" + "j-phlip-at-necto-nightclub-ann-arbor.png",
+        //"eventWklOvrd" : true,
+        "eventDay"     : 0, // Do not modify
+        "pastEvent"    : false // Do not modify
+    },
+    {
+        "eventDate"    : new Date("April 10, 2014 20:00:00"),
+        "eventName"    : "MEDMA & SEDS present... Impulse, Yuri's Night",
+        "eventArtist"  : "MEDMA & SEDS present... Impulse, Yuri's Night",
+        "eventDescLong": "Join MEDMA & SEDS as they celebrate the first man in space Yuri Gagarin's orbit around our planet.",
+        "eventLink"    : "special-events/" + "medma-and-seds-yuris-night-at-necto-nightclub-ann-arbor-michigan-april-10th-2014.html",
+        "eventSocial"  : "",
+        "eventTix"     : "none",
+        "eventImgWide" : "img/event-images/" + "medma-seds-yuris-night-at-necto-nightclub-ann-arbor.png",
+        //"eventWklOvrd" : true,
+        "eventDay"     : 0, // Do not modify
+        "pastEvent"    : false // Do not modify
+    },
+    {
+        "eventDate"    : new Date("April 5, 2014 20:00:00"),
+        "eventName"    : "I AM NOT TO BE TRUSTED IX",
+        "eventArtist"  : "I AM NOT TO BE TRUSTED IX",
+        "eventDescLong": "Detroit's Underground Techno Returns to Ann Arbor! For this show we welcome BMG & Erika from record label Interdimensional Transmissions to our Red Room.",
+        "eventLink"    : "special-events/" + "i-am-not-to-be-trusted-IX-at-necto-nightclub-ann-arbor-michigan-april-5th-2014.html",
+        "eventSocial"  : "",
+        "eventTix"     : "none",
+        "eventImgWide" : "img/event-images/" + "i-am-not-to-be-trusted-ix-at-necto-nightclub-ann-arbor.png",
+        //"eventWklOvrd" : true,
+        "eventDay"     : 0, // Do not modify
+        "pastEvent"    : false // Do not modify
+    },
+    {
+        "eventDate"    : new Date("April 4, 2014 20:00:00"),
+        "eventName"    : "Pride Disco Retro Hustle:A Benefit for Motor City Pride & Equality Michigan",
+        "eventArtist"  : "Pride Disco Retro Hustle:A Benefit for Motor City Pride & Equality Michigan",
+        "eventDescLong": "Help us raise funds for Motor City Pride & Equality Michigan<br><br>50% of door proceeds go to Equality Michigan & Motor City Pride!<br>We open the night featuring a Boylesque Drag Show at 9:30pm on the main floor then DJ Jace takes over to keep you dancing all night. DVJ Mark will have his dance floor hot all night, playing all your favorite videos and hit dance songs!<br>Hosted by the Necto Pride Crew, this night is going to be wild! Make sure you get your picture taken at our photo booth too!",
+        "eventLink"    : "special-events/" + "pride-disco-retro-husstle-at-necto-nightclub-ann-arbor-michigan-april-4th-2014.html",
+        "eventSocial"  : "",
+        "eventTix"     : "none",
+        "eventImgWide" : "img/event-images/" + "pride-disco-retro-hustle-at-necto-nightclub-ann-arbor.png",
+        //"eventWklOvrd" : true,
+        "eventDay"     : 0, // Do not modify
+        "pastEvent"    : false // Do not modify
+    },
+    {
+        "eventDate"    : new Date("April 2, 2014 20:00:00"),
+        "eventName"    : "BLASTERJAXX",
+        "eventArtist"  : "BLASTERJAXX",
+        "eventDescLong": "Necto & React Detroit present BLASTERJAXX. Electro/progressive house producers Thom Jongkind and Idir Makhlaf started the group in 2010 and have grown into international EDM artists. Together they plan on taking over the world with their unique sound, which is best described as a crossover between electro-house, big room and latin. Their hit track Where We Go reached #98 in the Beatport Electro Charts Top 100 after only one day, and after only one week, both tracks respectively reached #14 (Where We Go) and #16 (Reborn). The EP even took first place in the Beatport Top 100 Releases! A huge success complemented by the support of magnitudes like: Tiësto, Laidback Luke, Diplo, Steve Aoki, Dada Life, Robbie Rivera and more! - syndicatetheagency.com",
+        "eventLink"    : "special-events/" + "blasterjaxx-at-necto-nightclub-ann-arbor-michigan-april-2nd-2014.html",
+        "eventSocial"  : "",
+        "eventTix"     : "none",
+        "eventImgWide" : "img/event-images/" + "blasterjaxx-at-necto-nightclub-ann-arbor.png",
+        //"eventWklOvrd" : true,
+        "eventDay"     : 0, // Do not modify
+        "pastEvent"    : false // Do not modify
+    },
+    {
+        "eventDate"    : new Date("March 29, 2014 20:00:00"),
+        "eventName"    : "J Rabbit",
+        "eventArtist"  : "J Rabbit",
+        "eventDescLong": "One of the top upcoming Dubstep artists, J.Rabbit is poised for a huge push onto the national scene. Dont miss this intimate performance in our Red Room!",
+        "eventLink"    : "special-events/" + "j-rabbit-at-necto-nightclub-ann-arbor-michigan-march-29th-2014.html",
+        "eventSocial"  : "",
+        "eventTix"     : "none",
+        "eventImgWide" : "img/event-images/" + "j-rabbit-at-necto-nightclub-ann-arbor.png",
+        //"eventWklOvrd" : true,
+        "eventDay"     : 0, // Do not modify
+        "pastEvent"    : false // Do not modify
+    },
+    {
+        "eventDate"    : new Date("March 26, 2014 20:00:00"),
+        "eventName"    : "Adventure Club.",
+        "eventArtist"  : "Adventure Club.",
+        "eventDescLong": "Adventure Club is a Canadian electronic dance music duo, composed of Christian Srigley and Leighton James, and is based out of Montreal, Quebec. Influenced by producers like Tiësto and Skrillex, Canada's Adventure Club blended the sounds of their inspirations, offering a mix of slick EDM and floor-rumbling dubstep. Fully in touch with the digital age, Montreal-based producers Christian Srigley and Leighton James introduced their Adventure Club project with remixes and videos uploaded to the Web.<br>They toured across North America in 2012 with no official product yet available, while 2013 saw them land gigs at the Ultra festivals in both Miami and Seoul, South Korea. That same year they dropped their debut EP, Calling All Heroes, featuring guest spots from vocalist Yuna and EDM producer the Kite String Tangle. - Allmusic.com",
+        "eventLink"    : "special-events/" + "adventure-club-at-necto-nightclub-ann-arbor-michigan-march-26th-2014.html",
+        "eventSocial"  : "",
+        "eventTix"     : "none",
+        "eventImgWide" : "img/event-images/" + "adventure-club-at-necto-nightclub-ann-arbor.png",
+        //"eventWklOvrd" : true,
+        "eventDay"     : 0, // Do not modify
+        "pastEvent"    : false // Do not modify
+    },
+    {
+        "eventDate"    : new Date("March 19, 2014 20:00:00"),
+        "eventName"    : "Clockwork",
+        "eventArtist"  : "Clockwork",
+        "eventDescLong": "Los Angeles-born DJ/Producer Clockwork is no stranger to the world of electronic music. The young producer was one of the many 18 year olds circulating the dance music blogospehere with various bootleg remixes. His single “Squad Up“ quickly caught the attention of internationally renowned DJ, and Dim Mak chief, Steve Aoki. Since the signing, Clockwork has officially remixed work for artists across the dance music spectrum, from Steve Aoki to Dimitri Vegas. His bootleg remix of Avicii's notori- ous big room anthem “Levels“ reached over 80,000 plays on Soundcloud, 3 million views on Youtube, and garnered international radio play.<br>Clockwork‘s distinctive bass- heavy, big room sound has helped him gain support from the likes of Tiesto, Steve Angello, Laidback Luke, Steve Aoki, and everyone in between. And with a prolific propensity to create, a progressive production style, and a genuine love for the performance, Clockwork's future is looking bright. - Beatport.com",
+        "eventLink"    : "special-events/" + "clockwork-at-necto-nightclub-ann-arbor-michigan-march-19th-2014.html",
+        "eventSocial"  : "",
+        "eventTix"     : "none",
+        "eventImgWide" : "img/event-images/" + "clockwork-live-march-19th-2014-necto-nightclub-ann-arbor.png",
+        //"eventWklOvrd" : true,
+        "eventDay"     : 0, // Do not modify
+        "pastEvent"    : false // Do not modify
+    },
+    {
+        "eventDate"    : new Date("Feb 24, 2014 20:00:00"),
+        "eventName"    : "Joe Letz",
+        "eventArtist"  : "Joe Letz",
+        "eventDescLong": "Joe Letz of Combichrist tears into Factory for a guest DJ set to celebrate Yoda's birthday!<br>Jinx and DATAROM open up.<br>Sofaking and Madrasi in the Red Room.",
+        "eventLink"    : "special-events/" + "joe-letz-at-necto-nightclub-ann-arbor-michigan-feb-24th-2014.html",
+        "eventSocial"  : "",
+        "eventTix"     : "none",
+        "eventImgWide" : "img/event-images/" + "joe-letz-at-necto-night-club-ann-arbor.png",
+        //"eventWklOvrd" : true,
+        "eventDay"     : 0, // Do not modify
+        "pastEvent"    : false // Do not modify
+    },
+    {
+        "eventDate"    : new Date("Feb 22, 2014 20:00:00"),
+        "eventName"    : "Girls Gone Vinyl",
+        "eventArtist"  : "Girls Gone Vinyl",
+        "eventDescLong": "Join us for our first Official Project Event in Ann Arbor!<br>We will have with us for the evening for our listening pleasure,along with our Producer extraordinaire Jenny La Femme, the following talented women!<br>We are very excited and can't wait to see you in Ann Arbor!",
+        "eventLink"    : "special-events/" + "girls-gone-vinyl-at-necto-nightclub-ann-arbor-michigan-feb-22nd-2014.html",
+        "eventSocial"  : "",
+        "eventTix"     : "none",
+        "eventImgWide" : "img/event-images/" + "girls-gone-vinyl-at-necto-night-club-ann-arbor.png",
+        //"eventWklOvrd" : true,
+        "eventDay"     : 0, // Do not modify
+        "pastEvent"    : false // Do not modify
+    },
+    {
+        "eventDate"    : new Date("Feb 15, 2014 20:00:00"),
+        "eventName"    : "I AM NOT TO BE TRUSTED VII featuring LUIS FLORES",
+        "eventArtist"  : "I AM NOT TO BE TRUSTED VII featuring LUIS FLORES",
+        "eventDescLong": "Detroit's underground techno returns to Ann Arbor.<br>    Luis Flores: 12am-2am<br>Annie Hall dj: 11pm-12am<br>Altstadt Echo: 10pm-11pm<br>Nightfall: 9pm-10pm<br>",
+        "eventLink"    : "special-events/" + "luis-flores-ball-at-necto-nightclub-ann-arbor-michigan-feb-15th-2014.html",
+        "eventSocial"  : "",
+        "eventTix"     : "none",
+        "eventImgWide" : "img/event-images/" + "luis-flores-at-necto-night-club-ann-arbor.png",
+        //"eventWklOvrd" : true,
+        "eventDay"     : 0, // Do not modify
+        "pastEvent"    : false // Do not modify
+    },
+    {
+        "eventDate"    : new Date("Feb 13, 2014 20:00:00"),
+        "eventName"    : "MEDMA presents Impulse: Barbarians and Librarians",
+        "eventArtist"  : "MEDMA presents Impulse: Barbarians and Librarians",
+        "eventDescLong": "The Michigan Electronic Dance Music Association throws its Valentine's Day party in the Red Room at Necto! Barbarians & Librarians. No weapons AT ALL please.<br>The night before Valentine's Day out to be a rager, and that's why we want to see you celebrate with us. Come dressed as anything from Conan the Barbarian to Marian the Librarian - or as yourself, if you're into that - and get ready for the love.<br>Also, MEDMA would love to see some male librarians and some female barbarians - so don't be afraid to shake things up a little! Hearts and pinks are always options too.",
+        "eventLink"    : "special-events/" + "impulse-barbarians-and-librarians-at-necto-nightclub-ann-arbor-michigan-feb-13th-2014.html",
+        "eventSocial"  : "",
+        "eventTix"     : "none",
+        "eventImgWide" : "img/event-images/" + "impulse-barbarians-and-librarians-at-necto-night-club-ann-arbor.png",
+        //"eventWklOvrd" : true,
+        "eventDay"     : 0, // Do not modify
+        "pastEvent"    : false // Do not modify
+    },
+    {
+        "eventDate"    : new Date("Feb 10, 2014 20:00:00"),
+        "eventName"    : "Broken Hearts Ball",
+        "eventArtist"  : "Broken Hearts Ball",
+        "eventDescLong": "The cards, the candy, the flowers and everything that goes with it can burn in Hell as far as we're concerned. No couples specials, no get your picture taken with your true love. Let us celebrate those feelings of loneliness and burning bitter hate that keeps us warm on those cold winter nights.<br>On Febuary 10th If you are single you get in FREE all night. You can also dump your significant other at the front door for FREE admission. (make it spectacular) We won't mind if you decide to reconcile once you two hit the bar.<br>DJ's Data Rom, Skellie Lefluer and of course your curmudgeon in chief Jinx<br>DJ's Sofa King and Madisi In Red Room",
+        "eventLink"    : "special-events/" + "broken-hearts-ball-at-necto-nightclub-ann-arbor-michigan-feb-10th-2014.html",
+        "eventSocial"  : "",
+        "eventTix"     : "none",
+        "eventImgWide" : "img/event-images/" + "broken-hearts-ball-at-necto-night-club-ann-arbor.png",
+        //"eventWklOvrd" : true,
+        "eventDay"     : 0, // Do not modify
+        "pastEvent"    : false // Do not modify
+    },
+    {
+        "eventDate"    : new Date("Feb 8, 2014 20:00:00"),
+        "eventName"    : "Plastic Passion",
+        "eventArtist"  : "Plastic Passion",
+        "eventDescLong": "Coldmeiser DJ JUSTIN CARVER of Something Cold, Detroit will battle against resident Heatmesier DJ JOSH BURGE!<br>80s new wave to modern: expect a vortex of synthy dark frost met with fiery rock jams! Smokey songs of love and lust followed by the chill of loneliness and betrayal! Feel the cool touch of Plastic against the burning mark of Passion! SYNONYMS & ANTONYMS: WE GOT 'EM!<br>Justin gives you the telescreen fever, Rachel's specialty drinks provide you with the cure. Get there before 11pm to pay only 1/2 for them!<br>IMPORTANT: When arriving, be sure to tell the fine Necto door staff that you're there for PLASTIC PASSION in the RED ROOM. Follow the steps down on the right for Red Room Fun.",
+        "eventLink"    : "special-events/" + "plastic-passion-at-necto-nightclub-ann-arbor-michigan-feb-8th-2014.html",
+        "eventSocial"  : "",
+        "eventTix"     : "none",
+        "eventImgWide" : "img/event-images/" + "plastic-passion-at-necto-night-club-ann-arbor.png",
+        //"eventWklOvrd" : true,
+        "eventDay"     : 0, // Do not modify
+        "pastEvent"    : false // Do not modify
+    },
+    {
+        "eventDate"    : new Date("Feb 6, 2014 20:00:00"),
+        "eventName"    : "Attak and Friends",
+        "eventArtist"  : "Attak and Friends",
+        "eventDescLong": "Coldmeiser DJ JUSTIN CARVER of Something Cold, Detroit will battle against resident Heatmesier DJ JOSH BURGE!<br>80s new wave to modern: expect a vortex of synthy dark frost met with fiery rock jams! Smokey songs of love and lust followed by the chill of loneliness and betrayal! Feel the cool touch of Plastic against the burning mark of Passion! SYNONYMS & ANTONYMS: WE GOT 'EM!<br>Justin gives you the telescreen fever, Rachel's specialty drinks provide you with the cure. Get there before 11pm to pay only 1/2 for them!<br>IMPORTANT: When arriving, be sure to tell the fine Necto door staff that you're there for PLASTIC PASSION in the RED ROOM. Follow the steps down on the right for Red Room Fun.",
+        "eventLink"    : "special-events/" + "attak-and-friends-at-necto-nightclub-ann-arbor-michigan-feb-6th-2014.html",
+        "eventSocial"  : "",
+        "eventTix"     : "none",
+        "eventImgWide" : "img/event-images/" + "attak-and-friends-at-necto-night-club-ann-arbor.png",
+        //"eventWklOvrd" : true,
+        "eventDay"     : 0, // Do not modify
+        "pastEvent"    : false // Do not modify
+    },
+    {
+        "eventDate"    : new Date("Feb 5, 2014 20:00:00"),
+        "eventName"    : "FIGURE with special guest UZ",
+        "eventArtist"  : "FIGURE with special guest UZ",
+        "eventDescLong": "FIGURE with special guest UZ",
+        "eventLink"    : "special-events/" + "figure-and-uz-at-necto-nightclub-ann-arbor-michigan-feb-5th-2014.html",
+        "eventSocial"  : "",
+        "eventTix"     : "none",
+        "eventImgWide" : "img/event-images/" + "figure-and-UZ-with-Sinistarr-and-future-focus-necto-nightclub-ann-arbor-michign.png",
+        //"eventWklOvrd" : true,
+        "eventDay"     : 0, // Do not modify
+        "pastEvent"    : false // Do not modify
+    },
+    {
+        "eventDate"    : new Date("Jan 29, 2014 20:00:00"),
+        "eventName"    : "Alvin Risk and Brillz",
+        "eventArtist"  : "Alvin Risk and Brillz",
+        "eventDescLong": "Bass Kitchen: ALVIN RISK & BRILLZ with Attak & DJ Smokey",
+        "eventLink"    : "special-events/" + "alvin-risk-and-brillz-at-necto-nightclub-ann-arbor-michigan-jan-29th-2014.html",
+        "eventSocial"  : "",
+        "eventTix"     : "none",
+        "eventImgWide" : "img/event-images/" + "bass-kitchen-alvin-risk-brilllz-attak-dj-smokey-necto-nightclub.png",
+        //"eventWklOvrd" : true,
+        "eventDay"     : 0, // Do not modify
+        "pastEvent"    : false // Do not modify
+    },
+    {
+        "eventDate"    : new Date("Jan 25, 2014 20:00:00"),
+        "eventName"    : "Rrose",
+        "eventArtist"  : "Rrose",
+        "eventDescLong": "I AM NOT TO BE TRUSTED VI<br>Official Movement Pre Party<br>In the Red Room<br>with Corbin Davis and Max Ellington.",
+        "eventLink"    : "special-events/" + "rrose-at-necto-nightclub-ann-arbor-michigan-jan-25th-2014.html",
+        "eventSocial"  : "",
+        "eventTix"     : "none",
+        "eventImgWide" : "img/event-images/" + "rrose-necto-night-club-ann-arbor.png",
+        //"eventWklOvrd" : true,
+        "eventDay"     : 0, // Do not modify
+        "pastEvent"    : false // Do not modify
+    },
+    {
+        "eventDate"    : new Date("Jan 23, 2014 20:00:00"),
+        "eventName"    : "Colette",
+        "eventArtist"  : "Colette",
+        "eventDescLong": "When the Music's Loud Tour In the Red Room with DJ Holographic, Future Focus & Nightfall",
+        "eventLink"    : "special-events/" + "colette-at-necto-nightclub-in-ann-arbor-michigan-jan-23rd-2014.html",
+        "eventSocial"  : "",
+        "eventTix"     : "none",
+        "eventImgWide" : "img/event-images/" + "colette-necto-night-club-ann-arbor.png",
+        //"eventWklOvrd" : true,
+        "eventDay"     : 0, // Do not modify
+        "pastEvent"    : false // Do not modify
+    },
+    {
+        "eventDate"    : new Date("Jan 22, 2014 20:00:00"),
+        "eventName"    : "Zeds Dead",
+        "eventArtist"  : "Colette",
+        "eventDescLong": "Zeds Dead is a Canadian electronic music duo from Toronto, Ontario composed of Dylan Mamid, or DC, and Zach Rapp-Rovan, or Hooks. DC and Hooks have been producing music together since 2004, formerly as Mass Productions.",
+        "eventLink"    : "special-events/" + "zeds-dead-at-necto-nightclub-ann-arbor-michigan-jan-22nd-2014.html",
+        "eventSocial"  : "",
+        "eventTix"     : "none",
+        "eventImgWide" : "img/event-images/" + "zeds-dead-at-necto-night-club-ann-arbor.png",
         //"eventWklOvrd" : true,
         "eventDay"     : 0, // Do not modify
         "pastEvent"    : false // Do not modify

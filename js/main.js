@@ -246,16 +246,7 @@ function populateCalPageEvents() {
     }
 }
 
-/** PAST EVENTS PAGE POPULATION 
-var pastEventsList = document.getElementById('pastEventsList')
-function populatePastEventsPageEvents() {
-    for (i = 0; i <= pastEvents.length - 1; i++) {
-        pastEventsList.innerHTML = pastEventsList.innerHTML + '<span class="past-events-date">' + pastEvents[i].eventDate.toDateString() + '&nbsp;&nbsp;</span><span class="past-events-event"><a href="' + pastEvents[i].eventLink + '"><br>' + pastEvents[i].eventName + '</a></span><br style="margin-bottom: .75em">'
-    }
-}
-**/
-
-/** TEST PAST EVENTS PAGE POPULATION **/
+/** PAST EVENTS PAGE POPULATION **/
 pastEventsList = document.getElementById('pastEventsList')
 function populatePastEventsPageEvents() {
     allPastEventsLen = pastEvents.length - 1
@@ -263,7 +254,6 @@ function populatePastEventsPageEvents() {
         pastEventsList.innerHTML = pastEventsList.innerHTML + '<span class="past-events-date">' + pastEvents[i].eventDate.toDateString() + '&nbsp;&nbsp;//</span><span class="past-events-event"><a href="' + pastEvents[i].eventLink + '"><br>' + pastEvents[i].eventName + '</a></span><br style="margin-bottom: .75em">'
     }
 }
-
 
 /** SPECIAL EVENT PAGE POPULATION **/
 var specialEventPageContent = document.getElementById('specialEventPageContent')

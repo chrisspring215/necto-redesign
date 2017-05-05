@@ -48,6 +48,22 @@ var eventsJSON = [
         "pastEvent"    : false // Do not modify
     },
     {
+        "eventDate"    : new Date("May 19, 2017 23:00:00"),
+        "eventName"    : "Shea Couleé Meet &amp; Greet",
+        "eventArtist"  : "Shea Couleé Meet &amp; Greet",
+        "eventDesc"    : "Shea Couleé from RuPaul's Drag Race S9 will be performing at Necto on Friday 5/19/2017.<br>In support of Jim Toy Community Center's OUTFest, Shea will be hosting a VIP Meet & Greet after the first show at 11pm. This Meet & Greet will be held at the Merch Table on the Mezzanine level of the club. Only ticket holders will be permitted at this Meet & Greet.<br>All proceeds of the Meet & Greet will go to Jim Toy Community Center's OUTFest.",
+        "eventDescLong": "Shea Couleé from RuPaul's Drag Race S9 will be performing at Necto on Friday 5/19/2017.<br>In support of Jim Toy Community Center's OUTFest, Shea will be hosting a VIP Meet & Greet after the first show at 11pm. This Meet & Greet will be held at the Merch Table on the Mezzanine level of the club. Only ticket holders will be permitted at this Meet & Greet.<br>All proceeds of the Meet & Greet will go to Jim Toy Community Center's OUTFest. The Meet & Greet will be documented by Bruno Postigo. Each ticket comes with a special Shea Coulee´ poster.<br>Tickets will also get you into Necto's Pride Night. Necto Pride begins at 9pm. 1st show is at 9:45pm. Encore is at midnight. For more info on Pride night, <a href='https://www.facebook.com/events/448481122162732/'>CLICK HERE</a>.",
+        "eventCover"   : "$50 includes Pride cover, Meet & Greet at 11pm & special poster",
+        "eventLink"    : "special-events/" + "shea-coulee-meet-and-greet-at-necto-nightclub-ann-arbor-michigan-may-19th-2017.html",
+        "eventSocial"  : "https://www.facebook.com/events/1874085902808095/",
+        "eventTix"     : "https://sheacouleevip.eventbrite.com",
+        "eventImgTall" : "img/event-images/" + "shea-coulee-meet-and-greet-at-necto-nightclub-ann-arbor",
+        "eventImgWide" : "img/event-images/" + "shea-coulee-meet-and-greet-at-necto-nightclub-ann-arbor",
+        "eventWklOvrd" : false,
+        "eventDay"     : 0, // Do not modify
+        "pastEvent"    : false // Do not modify
+    },   
+    {
         "eventDate"    : new Date("May 19, 2017 21:00:00"),
         "eventName"    : "Shea Couleé",
         "eventArtist"  : "Shea Couleé",
@@ -62,7 +78,7 @@ var eventsJSON = [
         "eventWklOvrd" : true,
         "eventDay"     : 0, // Do not modify
         "pastEvent"    : false // Do not modify
-    },    
+    },
     {
         "eventDate"    : new Date("May 18, 2017 18:30:00"),
         "eventName"    : "Queens for the Cure 2 - Ann Arbor",

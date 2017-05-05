@@ -1,34 +1,24 @@
-
-
 /** EVENT POPULATION **/
 // Assigns a var to the special events list on the homepage
 //TODO: Repeat this for cal, past events page
 var homepageSpecialEvents = document.getElementById('homepageSpecialEvents');
-
 // Assigns a var to the cal events list on the cal page
 var calendarEvents = document.getElementById('calendarEvents');
-
 // Uses this to determin if an event is in the future or past
 var currentDate = new Date();
-
 // Sets the default hours an event should display for after start
 var displayForXHours = 6;
-
 // An array containg future events to be placed in the eventList
 var upcomingEvents = [];
-
 // An array of past events to be placed in the Past Events list on the the Past events page
 var pastEvents = [];
-
 // Sets a var for an empty array to be populated with weekly events n-th days in the future
 var calWeeklyEventsList = [];
-
 // Master list of club videos posted on Youtube
 var videosMon = [
     "https://www.youtube.com/embed/4VOIXPOnfSM?ecver=1",
     "https://www.youtube.com/embed/O3GB5x7nkpA?ecver=1",
 ];
-
 var videosThurs = [
     "https://www.youtube.com/embed/4VOIXPOnfSM?ecver=1",
     "https://www.youtube.com/embed/X8rlzGmn39I?ecver=1",
@@ -38,35 +28,27 @@ var videosThurs = [
     "https://www.youtube.com/embed/xcxTj61GEfg?ecver=1",
     "https://www.youtube.com/embed/N-Cc_telSsA?ecver=1",
 ];
-
 var videosFri = [
     "https://www.youtube.com/embed/4VOIXPOnfSM?ecver=1",
     "https://www.youtube.com/embed/N-Cc_telSsA?ecver=1",
     "https://www.youtube.com/embed/sBxWRXFz2r8",
 ];
-
 var videosSat = [
     "https://www.youtube.com/embed/4VOIXPOnfSM?ecver=1",
     "https://www.youtube.com/embed/N-Cc_telSsA?ecver=1",
 ];
-
 // Populates videos on the Weekly event pages
 function populateWeeklyVideo(day) {
-        
     var numOfVideos;
     var videoPool;
-
     /* mon */ if (day === 1) { numOfVideos = videosMon.length; videoPool = videosMon; };
     /* thr */ if (day === 4) { numOfVideos = videosThurs.length; videoPool = videosThurs; };
     /* fri */ if (day === 5) { numOfVideos = videosFri.length; videoPool = videosFri; };
     /* sat */ if (day === 6) { numOfVideos = videosSat.length; videoPool = videosSat; };
-
     document.getElementById('weekly-video-container').innerHTML = '<iframe width="611" height="344" src="' + videoPool[Math.floor(Math.random() * numOfVideos)] + '" frameborder="0" allowfullscreen></iframe>'
 }
-
 // Pulls event data from the Events.js file
 var events = eventsJSON;
-
 // The basic Weekly Events
 var weeklyEvents = [
     {
@@ -152,10 +134,8 @@ for (i = 0; i <= eventsLength - 1; i++) {
 function populateFrontPageEvents() {
     upcomingEvents.reverse();
 
-
     // Populates the event list on the homepage
     for (i = 0; i <= upcomingEvents.length - 1; i++) {
-
         var eventCount = document.getElementById('homepageSpecialEvents').childElementCount % 2;
 
         // Looks to see if an event is ticketed or not and adds the ticket button if it does
@@ -166,7 +146,6 @@ function populateFrontPageEvents() {
 
             else {
                 homepageSpecialEvents.innerHTML = homepageSpecialEvents.innerHTML + '<div class="home-page-event-content col col-12-xs col-6-sm col-6-md"><h3><a href="' + upcomingEvents[i].eventLink + '"><span class="event-day">' + upcomingEvents[i].eventDate.toDateString() + ', ' + upcomingEvents[i].eventDate.toLocaleTimeString().replace(/([\d]+:[\d]{2})(:[\d]{2})(.*)/, "$1$3") + '</span><br><span class="event-name">' + upcomingEvents[i].eventArtist + '</span></a></h3><a href="' + upcomingEvents[i].eventLink + '"><img src="' + upcomingEvents[i].eventImgWide + '" alt="A event poster for ' +  upcomingEvents[i].eventArtist + ', performing at the Necto Nightclub in Ann Arbor, Michigan on ' + (upcomingEvents[i].eventDate.getMonth() + 1) + '/' + upcomingEvents[i].eventDate.getDate() + '/' + upcomingEvents[i].eventDate.getFullYear() + '." /></a><div class="row event-nav"><a href="' + upcomingEvents[i].eventLink + '" class="col col-4-xs">VIEW EVENT</a><a href="bottle-service-vip-reservations.html" class="col col-4-xs ">REQUEST VIP</a><a href="' + upcomingEvents[i].eventTix + '" class="col col-4-xs ">BUY TICKETS</a></div></div>';
-
             }
         }
         
@@ -178,7 +157,6 @@ function populateFrontPageEvents() {
 
             else {
                 homepageSpecialEvents.innerHTML = homepageSpecialEvents.innerHTML + '<div class="home-page-event-content col col-12-xs col-6-sm col-6-md"><h3><a href="' + upcomingEvents[i].eventLink + '"><span class="event-day">' + upcomingEvents[i].eventDate.toDateString() + ', ' + upcomingEvents[i].eventDate.toLocaleTimeString().replace(/([\d]+:[\d]{2})(:[\d]{2})(.*)/, "$1$3") + '</span><br><span class="event-name">' + upcomingEvents[i].eventArtist + '</span></a></h3><a href="' + upcomingEvents[i].eventLink + '"><img src="' + upcomingEvents[i].eventImgWide + '" alt="A event poster for ' +  upcomingEvents[i].eventArtist + ', performing at the Necto Nightclub in Ann Arbor, Michigan on ' + (upcomingEvents[i].eventDate.getMonth() + 1) + '/' + upcomingEvents[i].eventDate.getDate() + '/' + upcomingEvents[i].eventDate.getFullYear() + '." /></a><div class="row event-nav"><a href="' + upcomingEvents[i].eventLink + '" class="col col-6-xs">VIEW EVENT</a><a href="bottle-service-vip-reservations.html" class="col col-6-xs ">REQUEST VIP</a>';
-
             }
         }     
     }
@@ -268,13 +246,24 @@ function populateCalPageEvents() {
     }
 }
 
-/** PAST EVENTS PAGE POPULATION **/
+/** PAST EVENTS PAGE POPULATION 
 var pastEventsList = document.getElementById('pastEventsList')
 function populatePastEventsPageEvents() {
     for (i = 0; i <= pastEvents.length - 1; i++) {
         pastEventsList.innerHTML = pastEventsList.innerHTML + '<span class="past-events-date">' + pastEvents[i].eventDate.toDateString() + '&nbsp;&nbsp;</span><span class="past-events-event"><a href="' + pastEvents[i].eventLink + '"><br>' + pastEvents[i].eventName + '</a></span><br style="margin-bottom: .75em">'
     }
 }
+**/
+
+/** TEST PAST EVENTS PAGE POPULATION **/
+pastEventsList = document.getElementById('pastEventsList')
+function populatePastEventsPageEvents() {
+    allPastEventsLen = pastEvents.length - 1
+    for (i = 0; i <= allPastEventsLen; i++) {
+        pastEventsList.innerHTML = pastEventsList.innerHTML + '<span class="past-events-date">' + pastEvents[i].eventDate.toDateString() + '&nbsp;&nbsp;//</span><span class="past-events-event"><a href="' + pastEvents[i].eventLink + '"><br>' + pastEvents[i].eventName + '</a></span><br style="margin-bottom: //.75em">'
+    }
+}
+
 
 /** SPECIAL EVENT PAGE POPULATION **/
 var specialEventPageContent = document.getElementById('specialEventPageContent')

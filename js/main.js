@@ -306,12 +306,9 @@ function populateWeeklyUpcomingEvents(day) {
 
         else
         {
-
         }
     }
 }
-
-
 
 /** NAVIGATION POPULATION **/
 // Header Navs

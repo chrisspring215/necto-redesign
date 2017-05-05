@@ -251,7 +251,7 @@ pastEventsList = document.getElementById('pastEventsList')
 function populatePastEventsPageEvents() {
     allPastEventsLen = pastEvents.length - 1
     for (i = 0; i <= allPastEventsLen; i++) {
-        pastEventsList.innerHTML = pastEventsList.innerHTML + '<span class="past-events-date">' + pastEvents[i].eventDate.toDateString() + '&nbsp;&nbsp;//</span><span class="past-events-event"><a href="' + pastEvents[i].eventLink + '"><br>' + pastEvents[i].eventName + '</a></span><br style="margin-bottom: .75em">'
+        pastEventsList.innerHTML = pastEventsList.innerHTML + '<span class="past-events-date">' + pastEvents[i].eventDate.toDateString() + '&nbsp;&nbsp;</span><span class="past-events-event"><a href="' + pastEvents[i].eventLink + '"><br>' + pastEvents[i].eventName + '</a></span><br style="margin-bottom: .75em">'
     }
 }
 

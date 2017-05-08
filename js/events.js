@@ -1,5 +1,21 @@
 var eventsJSON = [
     {
+        "eventDate"    : new Date("Aug 24, 2017 21:00:00"),
+        "eventName"    : "React presents... Gigamesh",
+        "eventArtist"  : "Gigamesh",
+        "eventDesc"    : "Matthew Thomas Masurka aka Gigamesh, is a Minneapolis-based American three-time multi-platinum selling music producer and DJ. Gigamesh is most recognized for having produced Mike Posner's multiplatinum selling track “Cooler Than Me“, as well as his remix of Foster the People's single “Pumped Up Kicks“ (which currently has over 172 million plays on YouTube). Prior to launching his solo career, Masurka was also involved in two other collaborative projects, Discotech and Señor Stereo, both alongside DJs Danny Daze and Joe Maz. Gigamesh releases include an EP on (Kitsuné) and a single and two EPs on OurLabel International. In the spring of 2013 he released the single, 'Enjoy,' on NYC house label Nurvous Records. Touring internationally, he has performed in Asia, Australia, Europe, and across North America.",
+        "eventDescLong": "Matthew Thomas Masurka aka Gigamesh, is a Minneapolis-based American three-time multi-platinum selling music producer and DJ. Gigamesh is most recognized for having produced Mike Posner's multiplatinum selling track “Cooler Than Me“, as well as his remix of Foster the People's single “Pumped Up Kicks“ (which currently has over 172 million plays on YouTube). Prior to launching his solo career, Masurka was also involved in two other collaborative projects, Discotech and Señor Stereo, both alongside DJs Danny Daze and Joe Maz. Gigamesh releases include an EP on (Kitsuné) and a single and two EPs on OurLabel International. In the spring of 2013 he released the single, 'Enjoy,' on NYC house label Nurvous Records. Touring internationally, he has performed in Asia, Australia, Europe, and across North America.",
+        "eventCover"   : "Presale tickets - $12.50 - $15 | at Doors $20",
+        "eventLink"    : "special-events/" + "gigamesh-at-necto-nightclub-ann-arbor-michigan-aug-24th-2017.html",
+        "eventSocial"  : "https://www.facebook.com/events/597932630330992/",
+        "eventTix"     : "https://www.ticketfly.com/purchase/event/1482748?utm_medium=bks",
+        "eventImgTall" : "img/event-images/" + "gigamesh-at-necto-nightclub-ann-arbor.jpg",
+        "eventImgWide" : "img/event-images/" + "gigamesh-at-necto-nightclub-ann-arbor.jpg",
+        "eventWklOvrd" : true,
+        "eventDay"     : 0, // Do not modify
+        "pastEvent"    : false // Do not modify
+    },
+    {
         "eventDate"    : new Date("Jun 5, 2017 20:00:00"),
         "eventName"    : "Factory Monday presents... Psyclon Nine: Infektion Divinum Tour with Echo Black ",
         "eventArtist"  : "Psyclon Nine",

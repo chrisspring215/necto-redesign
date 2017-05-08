@@ -16,6 +16,22 @@
         "pastEvent"    : false
     },
     {
+        "eventDate"    : "Jun 15, 2017 20:00:00",
+        "eventName"    : "Factory Monday presents... Psyclon Nine: Infektion Divinum Tour with Echo Black ",
+        "eventArtist"  : "Psyclon Nine",
+        "eventDesc"    : "The synth pop group Book of Love were dance club staples in the '80s. Book of Love formed in Philadelphia, PA, by former art school students Susan Ottaviano (vocals), Ted Ottaviano (keyboards, vocals), Jade Lee (keyboards, vocals), and Lauren Roselli (keyboards, vocals) in 1984. Book of Love's self-titled debut LP was released in 1986, and the uplifting “You Make Me Feel So Good“ crossed over onto Top 40 radio. Most of the electronic groups in the mid-'80s were led by men; Book of Love brought a feminine perspective that was lacking in synthesizer-based music. The band toured with Depeche Mode and Lullaby appeared afterward in 1988. A remix of Mike Oldfield's “Tubular Bells (Theme From the Exorcist)“ was another number one smash on the dance charts, while “Pretty Boys and Pretty Girls… courageously addressed the then-taboo subject of AIDS. The group recorded two more albums before splitting up in 1993. A retrospective, I Touch Roses: The Best of Book of Love, was released in 2001. ~ Michael Sutton, Rovi",
+        "eventDescLong": "The synth pop group Book of Love were dance club staples in the '80s. Book of Love formed in Philadelphia, PA, by former art school students Susan Ottaviano (vocals), Ted Ottaviano (keyboards, vocals), Jade Lee (keyboards, vocals), and Lauren Roselli (keyboards, vocals) in 1984. (Although they share the same last name, Susan and Ted are not related nor are they married to one another.) Susan, Ted, and Lee had initially collaborated in a band called Head Cheese. In 1985, Book of Love recorded “Boy,“ a toe-tapping tale of teen-girl angst. The song was given to DJ Ivan Ivan, who then forwarded it to Sire Records president Seymour Stein. Impressed, Stein signed Book of Love to the label. “Boy“ became a hit on the college and dance charts, with “I Touch Roses“ subsequently hitting number one on the latter. Book of Love's self-titled debut LP was released in 1986, and the uplifting “You Make Me Feel So Good“ crossed over onto Top 40 radio. Most of the electronic groups in the mid-'80s were led by men; Book of Love brought a feminine perspective that was lacking in synthesizer-based music. The band toured with Depeche Mode and Lullaby appeared afterward in 1988. A remix of Mike Oldfield's “Tubular Bells (Theme From the Exorcist)“ was another number one smash on the dance charts, while “Pretty Boys and Pretty Girls… courageously addressed the then-taboo subject of AIDS. The group recorded two more albums before splitting up in 1993. A retrospective, I Touch Roses: The Best of Book of Love, was released in 2001. ~ Michael Sutton, Rovi",
+        "eventCover"   : "Presale tickets - $15 - $20 | VIP tickets - $40 | at Doors $25",
+        "eventLink"    : "special-events/book-of-love--at-necto-nightclub-ann-arbor-michigan-june-15th-2017.html",
+        "eventSocial"  : "https:www.facebook.com/events/1779802169000526/",
+        "eventTix"     : "https:bol_necto.eventbrite.com",
+        "eventImgTall" : "img/event-images/book-of-love-at-necto-nightclub-ann-arbor.jpg",
+        "eventImgWide" : "img/event-images/book-of-love-at-necto-nightclub-ann-arbor.jpg",
+        "eventWklOvrd" : true,
+        "eventDay"     : 0,
+        "pastEvent"    : false
+    },
+    {
         "eventDate"    : "Jun 5, 2017 20:00:00",
         "eventName"    : "Factory Monday presents... Psyclon Nine: Infektion Divinum Tour with Echo Black ",
         "eventArtist"  : "Psyclon Nine",

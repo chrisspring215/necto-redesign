@@ -16,6 +16,22 @@
         "pastEvent"    : false
     },
     {
+        "eventDate"    : "Jun 17, 2017 20:00:00",
+        "eventName"    : "Plastic Passion presents... Reunion",
+        "eventArtist"  : "Plastic Passion",
+        "eventDesc"    : "PLASTIC PASSION returns for another semi-annual dance party to kick off the first week of Summer!<br>Resident DJ JOSH BURGE will be joined by MATTHEW HANCHON, bringing the passion back to the RED ROOM: 80s/90s alternative dance, post-punk, electro-funk, industrial, EBM, indie, and modern synthicide! DOC COLONY also returns to splash hot colors on the telescreens. Half-off all drinks before 11pm!",
+        "eventDescLong": "PLASTIC PASSION returns for another semi-annual dance party to kick off the first week of Summer!<br>Resident DJ JOSH BURGE will be joined by MATTHEW HANCHON, bringing the passion back to the RED ROOM: 80s/90s alternative dance, post-punk, electro-funk, industrial, EBM, indie, and modern synthicide! DOC COLONY also returns to splash hot colors on the telescreens. Half-off all drinks before 11pm!",
+        "eventCover"   : "$5 for 21+ | $10 for 18 to 20",
+        "eventLink"    : "special-events/plastic-passion-reunion-at-necto-nightclub-ann-arbor-michigan-june-17th-2017.html",
+        "eventSocial"  : "https:www.facebook.com/events/990305517766340/",
+        "eventTix"     : "none",
+        "eventImgTall" : "img/event-images/plastic-passion-reunion-at-necto-nightclub-ann-arbor.jpg",
+        "eventImgWide" : "img/event-images/plastic-passion-reunion-at-necto-nightclub-ann-arbor.jpg",
+        "eventWklOvrd" : false,
+        "eventDay"     : 0,
+        "pastEvent"    : false
+    },
+    {
         "eventDate"    : "Jun 15, 2017 20:00:00",
         "eventName"    : "Necto presents... Book of Love",
         "eventArtist"  : "Book of Love",
@@ -264,7 +280,7 @@
         "eventDescLong": "The only thing Factory will be manufacturing for you is pure, deep Electro-Industrial all night long. We‘re taking a twisted dive into a world where Mr. Wonka has a *slightly* different taste in music, mixing wicked tunes from DJ Void6 and DJ Darks Choir with sick treats.",
         "eventCover"   : "Cover is $1 before 10pm and $3 after 10pm",
         "eventLink"    : "special-events/electro-industrial-factory-at-necto-nightclub-ann-arbor-michigan-apr-10th-2017.html",
-        "eventSocial"  : "facebook.com/events/790228854463666/",
+        "eventSocial"  : "https:www.facebook.com/events/790228854463666/",
         "eventTix"     : "none",
         "eventImgTall" : "img/event-images/electroindustrial-factory-at-necto-nightclub-ann-arbor.png",
         "eventImgWide" : "img/event-images/electroindustrial-factory-at-necto-nightclub-ann-arbor.png",

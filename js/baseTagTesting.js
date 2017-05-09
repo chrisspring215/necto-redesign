@@ -1,7 +1,7 @@
 /* BASE HEAD - FOR TESTING ONLY
  This can be removed or you can add another IFELSE for hostname === necto.com
 */
-alert(window.location.hostname)
+
 var baseTag = document.getElementById('baseTag')
 if (window.location.hostname === 'www.necto.com') {
     baseTag.setAttribute('href', 'https://chrisspring215.github.io')

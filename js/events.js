@@ -16,7 +16,7 @@ var eventsJSON = [
         "pastEvent"    : false // Do not modify
     },
     {
-        "eventDate"    : new Date("Jun 17, 2017 20:00:00"),
+        "eventDate"    : new Date("Jun 17, 2017 21:00:00"),
         "eventName"    : "Plastic Passion presents... Reunion",
         "eventArtist"  : "Plastic Passion",
         "eventDesc"    : "PLASTIC PASSION returns for another semi-annual dance party to kick off the first week of Summer!<br>Resident DJ JOSH BURGE will be joined by MATTHEW HANCHON, bringing the passion back to the RED ROOM: 80s/90s alternative dance, post-punk, electro-funk, industrial, EBM, indie, and modern synthicide! DOC COLONY also returns to splash hot colors on the telescreens. Half-off all drinks before 11pm!",

@@ -84,7 +84,7 @@ var eventsJSON = [
         "eventName"    : "Throwback Thursday : 21+ get in FREE",
         "eventArtist"  : "Throwback Thursday",
         "eventDesc"    : "THROWBACK THURSDAY: All Your Favorite Music from the 80s, 90s & early 00s<br><br>FREE for 21+ | $10 for 18-20",
-        "eventDescLong": "THROWBACK THURSDAY: All Your Favorite Music from the 80s, 90s & early 00s<br><br>FREE for 21+ | $10 for 18-20<br><br>with DJ KEVIN MICHAEL<br><br>Totally Awesome Drink Specials:<br><br>$3.50 Well drinks<br>$2.50 Fireball shots<br>3 for $10 Jaeger Bombs<br>$2 Miller Lite Bottles",
+        "eventDescLong": "THROWBACK THURSDAY: All Your Favorite Music from the 80s, 90s & early 00s<br><br>FREE for 21+ | $10 for 18-20<br><br>with DJ Ayinde Audio<br><br>Totally Awesome Drink Specials:<br><br>$3.50 Well drinks<br>$2.50 Fireball shots<br>3 for $10 Jaeger Bombs<br>$2 Miller Lite Bottles",
         "eventCover"   : "FREE for 21+ | $10 for 18-20",
         "eventLink"    : "special-events/" + "throwback-thursday-at-necto-nightclub-ann-arbor-michigan-may-25th-2017.html",
         "eventSocial"  : "https://www.facebook.com/events/290624398016225/",

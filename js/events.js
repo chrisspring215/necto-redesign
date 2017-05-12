@@ -48,6 +48,22 @@ var eventsJSON = [
         "pastEvent"    : false // Do not modify
     },
     {
+        "eventDate"    : new Date("Jun 9, 2017 21:00:00"),
+        "eventName"    : "Dragster presents... Pride Celebration with Laila McQueen (RuPaul's Drag Race S8) & Porcelain",
+        "eventArtist"  : "Laila McQueen &amp; Porcelain",
+        "eventDesc"    : "Dragster presents Laila McQueen and Porcelain",
+        "eventDescLong": "Laila McQueen is the stage name of Tyler Devlin, a drag performer from Gloucester, Massachusetts. She is one of 12 contestants to compete on the eighth season of RuPaul's Drag Race. Laila is the Alternative Rock Goddess of Drag.<br><br>Porcelain is as edgy as they come. She has a unique style all her own, constantly pushing the boundaries of drag. Those piercing eyes, the big cheek bones, the sharp eye brows, and the big poisonous lips- that is Porcleain, “Queen of the Damned“. This talented young Philly-based goddess does not just have the looks to kill, but the performing skills to match. She demands the crowds attention with her suspensions, fire swallowing, and pole acrobatics.",
+        "eventCover"   : "Free before 10pm | Free with College ID before 11pm | $5 for 21+ | $10 for 18-20",
+        "eventLink"    : "special-events/" + "laila-mcqueen-and-porcelain-at-necto-nightclub-ann-arbor-michigan-june-9th-2017.html",
+        "eventSocial"  : "https://www.facebook.com/events/779571668875000/",
+        "eventTix"     : "none",
+        "eventImgTall" : "img/event-images/" + "laila-mcqueen-and-porcelain-at-necto-nightclub-ann-arbor.jpg",
+        "eventImgWide" : "img/event-images/" + "laila-mcqueen-and-porcelain-at-necto-nightclub-ann-arbor.jpg",
+        "eventWklOvrd" : true,
+        "eventDay"     : 0, // Do not modify
+        "pastEvent"    : false // Do not modify
+    },
+    {
         "eventDate"    : new Date("Jun 5, 2017 20:00:00"),
         "eventName"    : "Factory Monday presents... Psyclon Nine: Infektion Divinum Tour with Echo Black ",
         "eventArtist"  : "Psyclon Nine",

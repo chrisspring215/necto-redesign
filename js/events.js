@@ -32,6 +32,22 @@ var eventsJSON = [
         "pastEvent"    : false // Do not modify
     },
     {
+        "eventDate"    : new Date("Jun 16, 2017 21:00:00"),
+        "eventName"    : "Pride Prom 2017: Mean Girls Edition with Ivy Winters",
+        "eventArtist"  : "Pride Prom 2017",
+        "eventDesc"    : "We‘re sorry that people are so jealous of us. But we can't help it that we're popular. Who will be crowned this years Queen &amp; King?<br></br>Hosted by Ivy Winters from RuPaul's Drag Race S5 , Chanel Hunter &amp; Jadein Black",
+        "eventDescLong": "We‘re sorry that people are so jealous of us. But we can't help it that we're popular. Who will be crowned this years Queen &amp; King?<br></br>Hosted by Ivy Winters from RuPaul's Drag Race S5 , Chanel Hunter &amp; Jadein Black",
+        "eventCover"   : "Free before 10pm | Free with College ID before 11pm | $5 for 21+ | $10 for 18-20 | Get in Free if you wear Prom Attire",
+        "eventLink"    : "special-events/" + "ivy-winters-pride-prom-at-necto-nightclub-ann-arbor-michigan-june-16th-2017.html",
+        "eventSocial"  : "ttps://www.facebook.com/events/621014924758255/",
+        "eventTix"     : "none",
+        "eventImgTall" : "img/event-images/" + "ivy-winters-pride-prom-2017-at-necto-nightclub-ann-arbor.jpg",
+        "eventImgWide" : "img/event-images/" + "ivy-winters-pride-prom-2017-at-necto-nightclub-ann-arbor.jpg",
+        "eventWklOvrd" : true,
+        "eventDay"     : 0, // Do not modify
+        "pastEvent"    : false // Do not modify
+    },
+    {
         "eventDate"    : new Date("Jun 15, 2017 20:00:00"),
         "eventName"    : "Necto presents... Book of Love",
         "eventArtist"  : "Book of Love",

@@ -16,6 +16,22 @@ var eventsJSON = [
         "pastEvent"    : false // Do not modify
     },
     {
+        "eventDate"    : new Date("Jun 19, 2017 21:00:00"),
+        "eventName"    : "Goth Prom 2017",
+        "eventArtist"  : "Goth Prom 2017",
+        "eventDesc"    : "Factory, it's that time of year again -- where we celebrate prom our way, dressing our best for a wonderful night with some damn good music. DJ Void6 with host MC Yoda and visuals by Remnant, plus DJ Madisi in the Red Room. Make sure to stop by the prom picture station for your complimentary photo!",
+        "eventDescLong": "Factory, it's that time of year again -- where we celebrate prom our way, dressing our best for a wonderful night with some damn good music. DJ Void6 with host MC Yoda and visuals by Remnant, plus DJ Madisi in the Red Room. Make sure to stop by the prom picture station for your complimentary photo!",
+        "eventCover"   : "Free with formal attire. Otherwise $1 before 10pm and $3 after 10pm",
+        "eventLink"    : "special-events/" + "goth-prom-2017-at-necto-nightclub-ann-arbor-michigan-june-19th-2017.html",
+        "eventSocial"  : "https://facebook.com/events/216287892211462/",
+        "eventTix"     : "none",
+        "eventImgTall" : "img/event-images/" + "goth=prom-2017-at-necto-nightclub-ann-arbor.jpg",
+        "eventImgWide" : "img/event-images/" + "goth=prom-2017-at-necto-nightclub-ann-arbor.jpg",
+        "eventWklOvrd" : true,
+        "eventDay"     : 0, // Do not modify
+        "pastEvent"    : false // Do not modify
+    },
+    {
         "eventDate"    : new Date("Jun 17, 2017 21:00:00"),
         "eventName"    : "Plastic Passion presents... Reunion",
         "eventArtist"  : "Plastic Passion",

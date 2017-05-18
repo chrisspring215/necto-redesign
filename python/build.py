@@ -119,7 +119,7 @@ def buildPages():
     <!-- MOBILE GLOBAL NAV -->
     <header class="mobile-global-nav">
       <div class="top-bar">
-        <a href="index.html" class="logo"><img src="img/necto-logo.png" alt="The logo for the Necto Nightclub in Ann Arbor, Michigan."></a>
+        <a href="/" class="logo"><img src="img/necto-logo.png" alt="The logo for the Necto Nightclub in Ann Arbor, Michigan."></a>
         <nav class="global-nav" >
           <span id="mobileMenuButton" onclick="openMobileNav()">MENU</span>
         </nav>
@@ -132,7 +132,7 @@ def buildPages():
     </header>
     <!-- DESKTOP GLOBAL NAV -->
     <header class="full-global-nav">
-        <a href="index.html" class="logo"><img src="img/necto-logo.png" alt="The logo for the Necto Nightclub in Ann Arbor, Michigan."></a>
+        <a href="/" class="logo"><img src="img/necto-logo.png" alt="The logo for the Necto Nightclub in Ann Arbor, Michigan."></a>
         <nav class="global-nav" id="desktopHeaderMainNav"></nav>
         <br>
         <nav class="weekly-nav" id="desktopHeaderWeeklyNav"></nav>
@@ -311,7 +311,7 @@ def buildSiteMap():
 	    <!-- MOBILE GLOBAL NAV -->
 	    <header class="mobile-global-nav">
 	      <div class="top-bar">
-	        <a href="index.html" class="logo"><img src="img/necto-logo.png" alt="The logo for the Necto Nightclub in Ann Arbor, Michigan."></a>
+	        <a href="/" class="logo"><img src="img/necto-logo.png" alt="The logo for the Necto Nightclub in Ann Arbor, Michigan."></a>
 	        <nav class="global-nav" >
 	          <span id="mobileMenuButton" onclick="openMobileNav()">MENU</span>
 	        </nav>
@@ -325,7 +325,7 @@ def buildSiteMap():
 
 	    <!-- DESKTOP GLOBAL NAV -->
 	    <header class="full-global-nav">
-	        <a href="index.html" class="logo"><img src="img/necto-logo.png" alt="The logo for the Necto Nightclub in Ann Arbor, Michigan."></a>
+	        <a href="/" class="logo"><img src="img/necto-logo.png" alt="The logo for the Necto Nightclub in Ann Arbor, Michigan."></a>
 	        <nav class="global-nav" id="desktopHeaderMainNav"></nav>
 	        <br>
 	        <nav class="weekly-nav" id="desktopHeaderWeeklyNav"></nav>

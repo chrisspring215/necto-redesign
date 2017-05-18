@@ -1,4 +1,4 @@
-ErrorDocument 404 /notfound.html
+ErrorDocument 404 /404.html
 
 RewriteEngine on
 # Options +FollowSymlinks
@@ -44,11 +44,89 @@ Redirect 301 /home-wednesday.html https://www.necto.com
 Redirect 301 /recreation-wednesday.html https://www.necto.com
 Redirect 301 /rumba-wednesday.html https://www.necto.com
 Redirect 301 /voltage-upcoming-events.html https://www.necto.com
+
+Redirect 301 /bottle-service-and-reservations.html /bottle-service-vip-reservations.html
+Redirect 301 /bottle-service-vip.html /bottle-service-vip-reservations.html
+
 Redirect 301 /tix/admin/ https://www.necto.com
 Redirect 301 /tix/control/ https://www.necto.com
 Redirect 301 /tix/merch.php https://www.necto.com
+Redirect 301 /tix/storehome.php https://www.necto.com
+Redirect 301 /tix/calendar.php https://www.necto.com
+Redirect 301 /tix/ https://www.necto.com
+Redirect 301 /tix https://www.necto.com
+Redirect 301 /tix/pos/ https://www.necto.com
+Redirect 301 /tix/programm.php https://www.necto.com
+
 Redirect 301 special-events/new-years-eve-party-2015-at-necto-nightclub-ann-arbor-michigan-dec-31st-2014.html https://www.necto.com/special-event-groups/new-years-eve-2017-ann-arbor-necto-nightclub.html
 Redirect 301 /special-events/new-years-eve-2016-winter-garden-party-at-necto-nightclub-ann-arbor-michigan-dec-31st-2015.html https://www.necto.com/special-event-groups/new-years-eve-2017-ann-arbor-necto-nightclub.html
+Redirect 301 /photo-archive/factory-photos-20141027/factory-photos-20141027.html /factory-monday-photos.html
+Redirect 301 /photo-archive/factory-photos-20150921/factory-photos-20150921.html /factory-monday-photos.html
+Redirect 301 /photo-archive/factory-photos-20150713/factory-photos-20150713.html /factory-monday-photos.html
+Redirect 301 /photo-archive/factory-photos-20140512/factory-photos-20140512.html /factory-monday-photos.html
+Redirect 301 /photo-archive/factory-photos-20140922/factory-photos-20140922.html /factory-monday-photos.html
+Redirect 301 /photo-archive/factory-photos-20150406/factory-photos-20150406.html /factory-monday-photos.html
+Redirect 301 /photo-archive/factory-photos-20140818/factory-photos-20140818.html /factory-monday-photos.html
+Redirect 301 /photo-archive/factory-photos-20140721/factory-photos-20140721.html /factory-monday-photos.html
+Redirect 301 /photo-archive/factory-photos-20150316/factory-photos-20150316.html /factory-monday-photos.html
+Redirect 301 /photo-archive/factory-photos-20150810/factory-photos-20150810.html /factory-monday-photos.html
+
+Redirect 301 /photo-archive/college-photos-20140918/college-photos-20140918.html /mix-thursday-photos.html
+Redirect 301 /photo-archive/college-photos-20140515/college-photos-20140515.html /mix-thursday-photos.html
+Redirect 301 /college-thursday-photos.html /mix-thursday-photos.html
+
+Redirect 301 /photo-archive/pride-photos-20141003/pride-photos-20141003.html /pride-friday-photos.html
+Redirect 301 /photo-archive/pride-photos-20141010/pride-photos-20141010.html /pride-friday-photos.html
+Redirect 301 /photo-archive/pride-photos-20140725/pride-photos-20140725.html /pride-friday-photos.html
+Redirect 301 /photo-archive/pride-photos-20150911/pride-photos-20150911.html /pride-friday-photos.html
+Redirect 301 /photo-archive/pride-photos-20140516/pride-photos-20140516.html /pride-friday-photos.html
+Redirect 301 /photo-archive/pride-photos-20150410/pride-photos-20150410.html /pride-friday-photos.html
+Redirect 301 /photo-archive/pride-photos-20150717/pride-photos-20150717.html /pride-friday-photos.html
+Redirect 301 /photo-archive/pride-photos-20140801/pride-photos-20140801.html /pride-friday-photos.html
+Redirect 301 /photo-archive/pride-photos-20140919/pride-photos-20140919.html /pride-friday-photos.html
+Redirect 301 /photo-archive/pride-photos-20140815/pride-photos-20140815.html /pride-friday-photos.html
+Redirect 301 /photo-archive/pride-photos-20141024/pride-photos-20141024.html /pride-friday-photos.html
+Redirect 301 /photo-archive/pride-photos-20151003/pride-photos-20151003.html /pride-friday-photos.html
+Redirect 301 /photo-archive/pride-photos-20140905/pride-photos-20140905.html /pride-friday-photos.html
+Redirect 301 /photo-archive/pride-photos-20140912/pride-photos-20140912.html /pride-friday-photos.html
+Redirect 301 /photo-archive/pride-photos-20141114/pride-photos-20141114.html /pride-friday-photos.html
+Redirect 301 /photo-archive/pride-photos-20140829/pride-photos-20140829.html /pride-friday-photos.html
+Redirect 301 /photo-archive/pride-photos-20150320/pride-photos-20150320.html /pride-friday-photos.html
+Redirect 301 /photo-archive/pride-photos-20141031/pride-photos-20141031.html /pride-friday-photos.html
+Redirect 301 /photo-archive/pride-photos-20141017/pride-photos-20141017.html /pride-friday-photos.html
+Redirect 301 /photo-archive/pride-photos-20150710/pride-photos-20150710.html /pride-friday-photos.html
+Redirect 301 /photo-archive/pride-photos-20140718/pride-photos-20140718.html /pride-friday-photos.html
+Redirect 301 /photo-archive/pride-photos-20140926/pride-photos-20140926.html /pride-friday-photos.html
+Redirect 301 /photo-archive/pride-photos-20140808/pride-photos-20140808.html /pride-friday-photos.html
+
+Redirect 301 /photo-archive/frequency-photos-20140913/frequency-photos-20140913.html /frequency-saturday-photos.html
+Redirect 301 /photo-archive/frequency-photos-20140823/frequency-photos-20140823.html /frequency-saturday-photos.html
+Redirect 301 /photo-archive/frequency-photos-20150806/frequency-photos-20150806.html /frequency-saturday-photos.html
+Redirect 301 /photo-archive/frequency-photos-20141018/frequency-photos-20141018.html /frequency-saturday-photos.html
+Redirect 301 /photo-archive/frequency-photos-20140809/frequency-photos-20140809.html /frequency-saturday-photos.html
+Redirect 301 /photo-archive/frequency-photos-20140927/frequency-photos-20140927.html /frequency-saturday-photos.html
+Redirect 301 /photo-archive/frequency-photos-20140920/frequency-photos-20140920.html /frequency-saturday-photos.html
+Redirect 301 /photo-archive/frequency-photos-20140830/frequency-photos-20140830.html /frequency-saturday-photos.html
+Redirect 301 /photo-archive/frequency-photos-20140802/frequency-photos-20140802.html /frequency-saturday-photos.html
+Redirect 301 /photo-archive/frequency-photos-20140719/frequency-photos-20140719.html /frequency-saturday-photos.html
+Redirect 301 /photo-archive/frequency-photos-20140816/frequency-photos-20140816.html /frequency-saturday-photos.html
+Redirect 301 /photo-archive/frequency-photos-20141025/frequency-photos-20141025.html /frequency-saturday-photos.html
+Redirect 301 /photo-archive/frequency-photos-20140906/frequency-photos-20140906.html /frequency-saturday-photos.html
+Redirect 301 /photo-archive/frequency-photos-20140726/frequency-photos-20140726.html /frequency-saturday-photos.html
+Redirect 301 /photo-archive/frequency-photos-20140517/frequency-photos-20140517.html /frequency-saturday-photos.html
+
+Redirect 301 /photo-archive/transport-photos-20141106/transport-photos-20141106.html /mix-thursday-photos.html
+Redirect 301 /photo-archive/transport-photos-20141030/transport-photos-20141030.html /mix-thursday-photos.html
+Redirect 301 /photo-archive/transport-photos-20141023/transport-photos-20141023.html /mix-thursday-photos.html
+
+Redirect 301 voltage-events/blasterjaxx-at-necto-nightclub-ann-arbor-michigan-april-2nd-2014.html /special-events/blasterjaxx-at-necto-nightclub-ann-arbor-michigan-april-2nd-2014.html
+Redirect 301 voltage-events/clockwork-at-necto-nightclub-ann-arbor-michigan-march-19th-2014.html /special-events/clockwork-at-necto-nightclub-ann-arbor-michigan-march-19th-2014.html
+Redirect 301 voltage-events/figure-and-uz-at-necto-nightclub-ann-arbor-michigan-feb-5th-2014.html /special-events/figure-and-uz-at-necto-nightclub-ann-arbor-michigan-feb-5th-2014.html
+Redirect 301 voltage-events/adventure-club-at-necto-nightclub-ann-arbor-michigan-march-26th-2014.html /special-events/adventure-club-at-necto-nightclub-ann-arbor-michigan-march-26th-2014.html
+Redirect 301 voltage-events/alvin-risk-and-brillz-at-necto-nightclub-ann-arbor-michigan-jan-29th-2014.html /special-events/alvin-risk-and-brillz-at-necto-nightclub-ann-arbor-michigan-jan-29th-2014.html
+Redirect 301 voltage-events/kill-the-noise-with-botnek-and-two-fresh-at-necto-nightclub-ann-arbor-michigan-november-5th-2014.html /special-events/kill-the-noise-with-botnek-and-two-fresh-at-necto-nightclub-ann-arbor-michigan-november-5th-2014.html
+Redirect 301 voltage-events/zeds-dead-at-necto-nightclub-ann-arbor-michigan-jan-22nd-2014.html /special-events/zeds-dead-at-necto-nightclub-ann-arbor-michigan-jan-22nd-2014.html
+Redirect 301 voltage/ /404.html
 
 <IfModule mod_expires.c>
 	ExpiresActive On

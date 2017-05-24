@@ -69,6 +69,22 @@
       <!--[if lt IE 8]>
           <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
       <![endif]-->
+
+      <script>
+      /**
+      * Function that tracks a click on an outbound link in Analytics.
+      * This function takes a valid URL string as an argument, and uses that URL string
+      * as the event label. Setting the transport method to 'beacon' lets the hit be sent
+      * using 'navigator.sendBeacon' in browser that support it.
+      */
+      var trackOutboundLink = function(url) {
+        ga('send', 'event', 'Outbound', 'Outbound Clicks', url, {
+          'transport': 'beacon',
+          'hitCallback': function(){document.location = url;}
+        });
+      }
+      </script> 
+
   </head>
   <body>
     <!-- MOBILE GLOBAL NAV -->
@@ -152,7 +168,7 @@
             <section class="home-page-event">
               <div class="home-page-event-content">      
                 <h3><a href="factory-monday.html"><span class="weekly-name">Factory</span> <span class="weekly-day">Monday</span></a></h3>
-                <img src="img/factory-monday.jpg"> 
+                <img src="img/factory-monday.jpg">
                 <p>Factory is one of the longest running Goth-Industrial nights in the US, featuring local talents spinning <strong>Goth-Industrial</strong>, <strong>EBM</strong>, <strong>Alternative</strong>, <strong>Cyberpunk</strong> and <strong>Synth-pop</strong> in the Main Room. In the Red Room, Madisi plays <strong>bass driven dance music</strong>. Hosted by MC Yoda with visuals by Remnant.</p>
                 <a href="factory-monday.html" class="home-page-weekly-link">VIEW FACTORY</a> 
               </div>

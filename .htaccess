@@ -119,14 +119,14 @@ Redirect 301 /photo-archive/transport-photos-20141106/transport-photos-20141106.
 Redirect 301 /photo-archive/transport-photos-20141030/transport-photos-20141030.html /mix-thursday-photos.html
 Redirect 301 /photo-archive/transport-photos-20141023/transport-photos-20141023.html /mix-thursday-photos.html
 
-Redirect 301 voltage-events/blasterjaxx-at-necto-nightclub-ann-arbor-michigan-april-2nd-2014.html /special-events/blasterjaxx-at-necto-nightclub-ann-arbor-michigan-april-2nd-2014.html
-Redirect 301 voltage-events/clockwork-at-necto-nightclub-ann-arbor-michigan-march-19th-2014.html /special-events/clockwork-at-necto-nightclub-ann-arbor-michigan-march-19th-2014.html
-Redirect 301 voltage-events/figure-and-uz-at-necto-nightclub-ann-arbor-michigan-feb-5th-2014.html /special-events/figure-and-uz-at-necto-nightclub-ann-arbor-michigan-feb-5th-2014.html
-Redirect 301 voltage-events/adventure-club-at-necto-nightclub-ann-arbor-michigan-march-26th-2014.html /special-events/adventure-club-at-necto-nightclub-ann-arbor-michigan-march-26th-2014.html
-Redirect 301 voltage-events/alvin-risk-and-brillz-at-necto-nightclub-ann-arbor-michigan-jan-29th-2014.html /special-events/alvin-risk-and-brillz-at-necto-nightclub-ann-arbor-michigan-jan-29th-2014.html
-Redirect 301 voltage-events/kill-the-noise-with-botnek-and-two-fresh-at-necto-nightclub-ann-arbor-michigan-november-5th-2014.html /special-events/kill-the-noise-with-botnek-and-two-fresh-at-necto-nightclub-ann-arbor-michigan-november-5th-2014.html
-Redirect 301 voltage-events/zeds-dead-at-necto-nightclub-ann-arbor-michigan-jan-22nd-2014.html /special-events/zeds-dead-at-necto-nightclub-ann-arbor-michigan-jan-22nd-2014.html
-Redirect 301 voltage/ /404.html
+Redirect 301 /voltage-events/blasterjaxx-at-necto-nightclub-ann-arbor-michigan-april-2nd-2014.html /special-events/blasterjaxx-at-necto-nightclub-ann-arbor-michigan-april-2nd-2014.html
+Redirect 301 /voltage-events/clockwork-at-necto-nightclub-ann-arbor-michigan-march-19th-2014.html /special-events/clockwork-at-necto-nightclub-ann-arbor-michigan-march-19th-2014.html
+Redirect 301 /voltage-events/figure-and-uz-at-necto-nightclub-ann-arbor-michigan-feb-5th-2014.html /special-events/figure-and-uz-at-necto-nightclub-ann-arbor-michigan-feb-5th-2014.html
+Redirect 301 /voltage-events/adventure-club-at-necto-nightclub-ann-arbor-michigan-march-26th-2014.html /special-events/adventure-club-at-necto-nightclub-ann-arbor-michigan-march-26th-2014.html
+Redirect 301 /voltage-events/alvin-risk-and-brillz-at-necto-nightclub-ann-arbor-michigan-jan-29th-2014.html /special-events/alvin-risk-and-brillz-at-necto-nightclub-ann-arbor-michigan-jan-29th-2014.html
+Redirect 301 /voltage-events/kill-the-noise-with-botnek-and-two-fresh-at-necto-nightclub-ann-arbor-michigan-november-5th-2014.html /special-events/kill-the-noise-with-botnek-and-two-fresh-at-necto-nightclub-ann-arbor-michigan-november-5th-2014.html
+Redirect 301 /voltage-events/zeds-dead-at-necto-nightclub-ann-arbor-michigan-jan-22nd-2014.html /special-events/zeds-dead-at-necto-nightclub-ann-arbor-michigan-jan-22nd-2014.html
+Redirect 301 /voltage/ /404.html
 
 <IfModule mod_expires.c>
 	ExpiresActive On

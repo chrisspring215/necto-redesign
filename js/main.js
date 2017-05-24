@@ -341,7 +341,7 @@ var mainNavigation = [
         "anchorName" : 'CALENDAR',
     },
     {
-        "linkUrl"    : 'bottle-service-vip-reservations.html',
+        "linkUrl"    : 'bottle-service-vip-reservations.html?=linkFromMainNav',
         "anchorName" : 'BOTTLE SERVICE/VIP',
     },
     {

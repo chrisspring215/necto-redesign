@@ -170,7 +170,7 @@ function populateCalPageEvents() {
     // Builds the array of Weekly Events that will later have the upcoming events pushed into it.
     // Setting the condition number (i <= 10) will change how many weekly events are added
     // to the cal. Special events will still display if they occur after this cut off.
-    for (i = 0; i <= 60; i++) {
+    for (i = 0; i <= 90; i++) {
 
         var calEndDate = new Date();
         var weeklyCalEntry = calEndDate.setDate(calEndDate.getDate() + i);
@@ -230,7 +230,7 @@ function populateCalPageEvents() {
             formatedDate = calWeeklyEventsList[i].eventDate.toDateString();
             formatedTime = calWeeklyEventsList[i].eventDate.toLocaleTimeString([], {hour: '2-digit', minute:'2-digit'});     
 
-            buildCal(calendarEvents.innerHTML + '<div class="home-page-event-content"><h3><a href="' + calWeeklyEventsList[i].eventLink + '"><span class="event-day">' + formatedDate + ', ' + formatedTime + '</span><br><span class="event-name">' + calWeeklyEventsList[i].eventName + '</span></a></h3><a href="' + calWeeklyEventsList[i].eventLink + '"><img src="' + calWeeklyEventsList[i].eventImgWide + '" alt="An event poster for ' + calWeeklyEventsList[i].eventArtist + ' performing at the Necto Nightclub in Ann Arbor, Michigan on ' +  (calWeeklyEventsList[i].eventDate.getMonth() + 1) + '/' + calWeeklyEventsList[i].eventDate.getDate() + '/' + calWeeklyEventsList[i].eventDate.getFullYear() + '."></a><p>' + calWeeklyEventsList[i].eventDesc + '</p><div class="row event-nav"><a href="' + calWeeklyEventsList[i].eventLink + '"class="col col-4-xs">VIEW EVENT</a><a href="bottle-service-vip-reservations.html?=calpagelink" class="col col-4-xs">REQUEST VIP</a><a href="' + calWeeklyEventsList[i].eventTix + '" onclick="trackOutboundLink(' + "'" + upcomingEvents[i].eventTix + "'" + '); return true;" class="col col-4-xs ">BUY TICKETS</a></div></div><br><br>');
+            buildCal(calendarEvents.innerHTML + '<div class="home-page-event-content"><h3><a href="' + calWeeklyEventsList[i].eventLink + '"><span class="event-day">' + formatedDate + ', ' + formatedTime + '</span><br><span class="event-name">' + calWeeklyEventsList[i].eventName + '</span></a></h3><a href="' + calWeeklyEventsList[i].eventLink + '"><img src="' + calWeeklyEventsList[i].eventImgWide + '" alt="An event poster for ' + calWeeklyEventsList[i].eventArtist + ' performing at the Necto Nightclub in Ann Arbor, Michigan on ' +  (calWeeklyEventsList[i].eventDate.getMonth() + 1) + '/' + calWeeklyEventsList[i].eventDate.getDate() + '/' + calWeeklyEventsList[i].eventDate.getFullYear() + '."></a><p>' + calWeeklyEventsList[i].eventDesc + '</p><div class="row event-nav"><a href="' + calWeeklyEventsList[i].eventLink + '"class="col col-4-xs">VIEW EVENT</a><a href="bottle-service-vip-reservations.html?=calpagelink" class="col col-4-xs">REQUEST VIP</a><a href="' + calWeeklyEventsList[i].eventTix + '" onclick="trackOutboundLink(' + "'" + calWeeklyEventsList[i].eventTix + "'" + '); return true;" class="col col-4-xs ">BUY TICKETS</a></div></div><br><br>');
             }
 
             else {

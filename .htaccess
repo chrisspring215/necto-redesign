@@ -61,7 +61,7 @@ Redirect 301 /tix/forgot_password.php https://www.necto.com
 Redirect 301 /tix/contact.php https://www.necto.com
 Redirect 301 /tix/address.php?event_id=33 https://www.necto.com
 
-Redirect 301 special-events/new-years-eve-party-2015-at-necto-nightclub-ann-arbor-michigan-dec-31st-2014.html https://www.necto.com/special-event-groups/new-years-eve-2017-ann-arbor-necto-nightclub.html
+Redirect 301 /special-events/new-years-eve-party-2015-at-necto-nightclub-ann-arbor-michigan-dec-31st-2014.html https://www.necto.com/special-event-groups/new-years-eve-2017-ann-arbor-necto-nightclub.html
 Redirect 301 /special-events/new-years-eve-2016-winter-garden-party-at-necto-nightclub-ann-arbor-michigan-dec-31st-2015.html https://www.necto.com/special-event-groups/new-years-eve-2017-ann-arbor-necto-nightclub.html
 Redirect 301 /photo-archive/factory-photos-20141027/factory-photos-20141027.html /factory-monday-photos.html
 Redirect 301 /photo-archive/factory-photos-20150921/factory-photos-20150921.html /factory-monday-photos.html
@@ -130,6 +130,9 @@ Redirect 301 /voltage-events/alvin-risk-and-brillz-at-necto-nightclub-ann-arbor-
 Redirect 301 /voltage-events/kill-the-noise-with-botnek-and-two-fresh-at-necto-nightclub-ann-arbor-michigan-november-5th-2014.html /special-events/kill-the-noise-with-botnek-and-two-fresh-at-necto-nightclub-ann-arbor-michigan-november-5th-2014.html
 Redirect 301 /voltage-events/zeds-dead-at-necto-nightclub-ann-arbor-michigan-jan-22nd-2014.html /special-events/zeds-dead-at-necto-nightclub-ann-arbor-michigan-jan-22nd-2014.html
 Redirect 301 /voltage/ /404.html
+
+
+Redirect 301 nghtmare-at-necto-nightclub-ann-arbor-michigan-jan-26th-2016.html /special-events/nghtmare-at-necto-nightclub-ann-arbor-michigan-apr-13th-2016.html
 
 <IfModule mod_expires.c>
 	ExpiresActive On

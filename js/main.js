@@ -20,6 +20,7 @@ var videosMon = [
     "https://www.youtube.com/embed/O3GB5x7nkpA?ecver=1",
 ];
 var videosThurs = [
+    /*
     "https://www.youtube.com/embed/4VOIXPOnfSM?ecver=1",
     "https://www.youtube.com/embed/X8rlzGmn39I?ecver=1",
     "https://www.youtube.com/embed/pAl8vVPh6a8?ecver=1",
@@ -27,6 +28,8 @@ var videosThurs = [
     "https://www.youtube.com/embed/LGajm9WIb10?ecver=1",
     "https://www.youtube.com/embed/xcxTj61GEfg?ecver=1",
     "https://www.youtube.com/embed/N-Cc_telSsA?ecver=1",
+    */
+    "https://www.youtube.com/embed/L8b1jnrrOtA",
 ];
 var videosFri = [
     "https://www.youtube.com/embed/4VOIXPOnfSM?ecver=1",

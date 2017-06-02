@@ -123,6 +123,22 @@
         "eventTix"     : "none",
         "eventImgTall" : "img/event-images/throwback-thursday-june-8th-at-necto-nightclub-ann-arbor.jpg",
         "eventImgWide" : "img/event-images/throwback-thursday-june-8th-at-necto-nightclub-ann-arbor.jpg",
+        "eventWklOvrd" : false,
+        "eventDay"     : 0,
+        "pastEvent"    : false
+    },
+    {
+        "eventDate"    : "Jun 8, 2017 21:000:00",
+        "eventName"    : "Michigan Bass Music Showcase",
+        "eventArtist"  : "MI Bass Music Showcase",
+        "eventDesc"    : "Magical Mitten Productions present...<br>NEWSENSEi (Featuring OCAS Detroit, Matt Ceezi)</br>DJ r1x0</br>Patches O Malley</br>Humonix</br>Cloudz/ Spaceship Earth (Downtempo)",
+        "eventDescLong": "Magical Mitten Productions present...<br>NEWSENSEi (Featuring OCAS Detroit, Matt Ceezi)</br>DJ r1x0</br>Patches O Malley</br>Humonix</br>Cloudz/ Spaceship Earth (Downtempo)",
+        "eventCover"   : "Tickets/ Cover: $5 for 18+",
+        "eventLink"    : "special-events/michigan-bass-music-showcaseat-necto-nightclub-ann-arbor-michigan-jun-8th-2017.html",
+        "eventSocial"  : "https:www.facebook.com/events/1798546410460045/",
+        "eventTix"     : "none",
+        "eventImgTall" : "img/event-images/michigan-bass-music-showcase-at-necto-nightclub-ann-arbor.jpg",
+        "eventImgWide" : "img/event-images/michigan-bass-music-showcase-at-necto-nightclub-ann-arbor.jpg",
         "eventWklOvrd" : true,
         "eventDay"     : 0,
         "pastEvent"    : false

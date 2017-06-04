@@ -281,7 +281,9 @@ function specialEventPage() {
         if (specialEventURL[specialEventURL.length - 2] + '/' + specialEventURL[specialEventURL.length - 1] === events[i].eventLink) {
 
             now = new Date();
+            alert(now)
             now.setHours(now.getHours()-300)
+            alert(now)
             // Adds a newsletter form if the show is more than N hours in the past
 
 

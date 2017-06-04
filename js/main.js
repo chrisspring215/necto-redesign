@@ -283,6 +283,7 @@ function specialEventPage() {
             now = new Date();
   
             // Adds a newsletter form if the show is more than N hours in the past
+            alert(events[i].eventDate)
             alert(now)
 
             if (events[i].eventDate.getHours()+6 < now.getHours()) {

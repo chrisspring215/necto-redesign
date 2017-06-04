@@ -286,6 +286,7 @@ function specialEventPage() {
             var newHours = new Date();
             newHours = events[i].eventDate;
             alert(newHours)
+            alert(events[i].eventDate)
             alert(now)
 
             if (newHours < now) {

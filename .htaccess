@@ -131,8 +131,8 @@ Redirect 301 /voltage-events/kill-the-noise-with-botnek-and-two-fresh-at-necto-n
 Redirect 301 /voltage-events/zeds-dead-at-necto-nightclub-ann-arbor-michigan-jan-22nd-2014.html /special-events/zeds-dead-at-necto-nightclub-ann-arbor-michigan-jan-22nd-2014.html
 Redirect 301 /voltage/ /404.html
 
-
 Redirect 301 nghtmare-at-necto-nightclub-ann-arbor-michigan-jan-26th-2016.html /special-events/nghtmare-at-necto-nightclub-ann-arbor-michigan-apr-13th-2016.html
+Redirect 301 dragonette-at-necto-nightclub-ann-arbor-michigan-july-13th-2017.html /special-events/dragonette-at-necto-nightclub-ann-arbor-michigan-aug-10th-2017.html
 
 <IfModule mod_expires.c>
 	ExpiresActive On

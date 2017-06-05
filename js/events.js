@@ -16,13 +16,13 @@ var eventsJSON = [
         "pastEvent"    : false // Do not modify
     },
     {
-        "eventDate"    : new Date("July 13, 2017 19:30:00"),
+        "eventDate"    : new Date("Aug 10, 2017 19:30:00"),
         "eventName"    : "Dragonette",
         "eventArtist"  : "Dragonette",
         "eventDesc"    : "Dragonette is a Canadian electronic music band from Toronto, Ontario, formed in 2005. The band consists of singer-songwriter Martina Sorbara, bassist and producer Dan Kurtz (also in The New Deal), and drummer Joel Stouffer.",
         "eventDescLong": "Dragonette is a Canadian electronic music band from Toronto, Ontario, formed in 2005. The band consists of singer-songwriter Martina Sorbara, bassist and producer Dan Kurtz (also in The New Deal), and drummer Joel Stouffer.</br></br>Dragonette released a self-titled EP in 2005 before being signed to Mercury Records and relocating to London, where they recorded and released their debut studio album, Galore, in August 2007 to moderate critical appreciation. A second studio album, Fixin to Thrill, was released in September 2009. The group's third studio album, Bodyparts, was released in September 2012 and their current release Royal Blues is out now.</br></br><a href='http://www.dragonetteonline.com/'>www.dragonetteonline.com/</a>",
         "eventCover"   : "Presale tickets - $15 | at Doors $20",
-        "eventLink"    : "special-events/" + "dragonette-at-necto-nightclub-ann-arbor-michigan-july-13th-2017.html",
+        "eventLink"    : "special-events/" + "dragonette-at-necto-nightclub-ann-arbor-michigan-aug-10th-2017.html",
         "eventSocial"  : "https://www.facebook.com/events/1904983453047271",
         "eventTix"     : "https://dragonette_necto.eventbrite.com",
         "eventImgTall" : "img/event-images/" + "dragonette-at-necto-nightclub-ann-arbor.png",

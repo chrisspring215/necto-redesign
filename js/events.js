@@ -1,5 +1,21 @@
 var eventsJSON = [
     {
+        "eventDate"    : new Date("Oct 5, 2017 21:00:00"),
+        "eventName"    : "MATTHEW DEAR (DJ Set) : Homecoming",
+        "eventArtist"  : "Matthew Dear",
+        "eventDesc"    : "Opening artist... TBA<br><br>We can‘t believe that it‘s been over 15 years since Matthew Dear was a resident here at Necto. Since then he has gone on to create amazing music &amp; play all over the world. Please join us as we welcome Matthew back to Necto with a Very Special Homecoming! <a href='http://dj-kicks.com/matthewdear/'>Artist Info</a>",
+        "eventDescLong": "Opening artist... TBA<br><br>We can‘t believe that it‘s been over 15 years since Matthew Dear was a resident here at Necto. Since then he has gone on to create amazing music &amp; play all over the world. Please join us as we welcome Matthew back to Necto with a Very Special Homecoming! <a href='http://dj-kicks.com/matthewdear/'>Artist Info</a>",
+        "eventCover"   : "Presale tickets - $10 | $12.50 | $15 | $18",
+        "eventLink"    : "special-events/" + "matt-dear-at-necto-nightclub-ann-arbor-michigan-oct-5th-2017.html",
+        "eventSocial"  : "https://www.facebook.com/events/1794662000862849/",
+        "eventTix"     : "https://NectoNightclub.eventbrite.com",
+        "eventImgTall" : "img/event-images/" + "matt-dear-at-necto-nightclub-ann-arbor.jpg",
+        "eventImgWide" : "img/event-images/" + "matt-dear-at-necto-nightclub-ann-arbor.jpg",
+        "eventWklOvrd" : true,
+        "eventDay"     : 0, // Do not modify
+        "pastEvent"    : false // Do not modify
+    },
+    {
         "eventDate"    : new Date("Aug 24, 2017 21:00:00"),
         "eventName"    : "React presents... Gigamesh",
         "eventArtist"  : "Gigamesh",

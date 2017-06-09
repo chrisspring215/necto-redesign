@@ -64,6 +64,22 @@ var eventsJSON = [
         "pastEvent"    : false // Do not modify
     },
     {
+        "eventDate"    : new Date("July 7, 2017 21:00:00"),
+        "eventName"    : "Boys of Summer Contest",
+        "eventArtist"  : "Boys of Summer Contest",
+        "eventDesc"    : "Let‘s dive into Summer together with our annual Boys of Summer Contest & Beach Party! Wear beach attire & pay No Cover! Hot Body Contest with Cash Prizes at midnight! Hosted by Chanel Hunter.",  
+        "eventDescLong": "Let‘s dive into Summer together with our annual Boys of Summer Contest & Beach Party! Wear beach attire & pay No Cover! Hot Body Contest with Cash Prizes at midnight! Hosted by Chanel Hunter.",
+        "eventCover"   : "Free before 10pm | Free with College ID before 11pm | $5 for 21+ | $10 for 18-20",
+        "eventLink"    : "special-events/" + "boys-of-summer-contest-at-necto-nightclub-ann-arbor-michigan-july-7-2017.html",
+        "eventSocial"  : "https://www.facebook.com/events/686632314858644/",
+        "eventTix"     : "none",
+        "eventImgTall" : "img/event-images/" + "boys-of-summer-contest-2017-at-necto-nightclub-ann-arbor.jpg",
+        "eventImgWide" : "img/event-images/" + "boys-of-summer-contest-2017-at-necto-nightclub-ann-arbor.jpg",
+        "eventWklOvrd" : true,
+        "eventDay"     : 0, // Do not modify
+        "pastEvent"    : false // Do not modify
+    },
+    {
         "eventDate"    : new Date("Jun 22, 2017 22:00:00"),
         "eventName"    : "Throwback Thursday : 21+ get in FREE",
         "eventArtist"  : "Throwback Thursday",

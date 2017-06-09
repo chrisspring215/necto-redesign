@@ -48,6 +48,22 @@ var eventsJSON = [
         "pastEvent"    : false // Do not modify
     },
     {
+        "eventDate"    : new Date("July 17, 2017 21:00:00"),
+        "eventName"    : "Dragster featuring... PEPPERMINT",
+        "eventArtist"  : "Peppermint",
+        "eventDesc"    : "Peppermint started her career performing in New York City. She recorded music in 2005 for Jonny McGovern's mixtape & she also contributed the song, “Servin‘ It Up“ produced by Adam Joseph. Peppermint was featured in the web series “Queens of Drag: NYC“ by <a href='gay.com'>Gay.com</a> in 2010. The series featured fellow NY queens Bianca Del Rio, Dallas DuBois, Hedda Lettuce, Lady Bunny, Mimi Imfurst & Sherry Vine. She also appeared as a drag version of Tyra Banks on ANTM Cycle 14.",  
+        "eventDescLong": "Peppermint started her career performing in New York City. She recorded music in 2005 for Jonny McGovern's mixtape & she also contributed the song, “Servin‘ It Up“ produced by Adam Joseph. Peppermint was featured in the web series “Queens of Drag: NYC“ by <a href='gay.com'>Gay.com</a> in 2010. The series featured fellow NY queens Bianca Del Rio, Dallas DuBois, Hedda Lettuce, Lady Bunny, Mimi Imfurst & Sherry Vine. She also appeared as a drag version of Tyra Banks on ANTM Cycle 14.<br>In 2011, Sherry Vine and Peppermint released a parody of the Lady Gaga and Beyoncé song “Telephone“, titled “Make Me Moan“. Following the viral success of the music video, Peppermint later released other parody songs, including a parody of Azealia Banks‘ song “212“, titled “21/12“. Peppermint‘s song “If I Steal Your Boyfriend“ was used in the 2011 film “Eating Out 5: The Open Weekend“.<br>On February 2, 2017, Peppermint was announced as one of the fourteen contestants on the ninth season of RuPaul's Drag Race. At this time Peppermint is in the Top 4.",
+        "eventCover"   : "Free before 10pm | Free with College ID before 11pm | $5 for 21+ | $10 for 18-20",
+        "eventLink"    : "special-events/" + "peppermint-dragrace-at-necto-nightclub-ann-arbor-michigan-july-17-2017.html",
+        "eventSocial"  : "https://www.facebook.com/events/674518019407124/",
+        "eventTix"     : "none",
+        "eventImgTall" : "img/event-images/" + "peppermint-dragster-at-necto-nightclub-ann-arbor.jpg",
+        "eventImgWide" : "img/event-images/" + "peppermint-dragster-at-necto-nightclub-ann-arbor.jpg",
+        "eventWklOvrd" : true,
+        "eventDay"     : 0, // Do not modify
+        "pastEvent"    : false // Do not modify
+    },
+    {
         "eventDate"    : new Date("Jun 22, 2017 22:00:00"),
         "eventName"    : "Throwback Thursday : 21+ get in FREE",
         "eventArtist"  : "Throwback Thursday",
@@ -59,7 +75,7 @@ var eventsJSON = [
         "eventTix"     : "none",
         "eventImgTall" : "img/event-images/" + "throwback-thursday-june-22nd-at-necto-nightclub-ann-arbor.jpg",
         "eventImgWide" : "img/event-images/" + "throwback-thursday-june-22nd-at-necto-nightclub-ann-arbor.jpg",
-        "eventWklOvrd" : false,
+        "eventWklOvrd" : true,
         "eventDay"     : 0, // Do not modify
         "pastEvent"    : false // Do not modify
     },

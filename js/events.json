@@ -16,6 +16,22 @@
         "pastEvent"    : false
     },
     {
+        "eventDate"    : "Sept 21, 2017 21:00:00",
+        "eventName"    : "Necto presents... The Legendary... Magnificent... DJ JAZZY JEFF",
+        "eventArtist"  : "DJ Jazzy Jeff",
+        "eventDesc"    : "Now this is a story all about how My life got flipped - turned upside down...<br>DJ Jazzy Jeff was born in West Philadelphia and developed a love of music at an early age. Jeff was just 10 years old when he started spinning records at parties using his family’s basement as a training ground for his expert mixing. Since 1985, DJ Jazzy Jeff has wowed us with his flawless turn- table skills, innovative production and musical versatility.",
+        "eventDescLong": "Now this is a story all about how My life got flipped - turned upside down...<br>DJ Jazzy Jeff was born in West Philadelphia and developed a love of music at an early age. Jeff was just 10 years old when he started spinning records at parties using his family’s basement as a training ground for his expert mixing. Since 1985, DJ Jazzy Jeff has wowed us with his flawless turn- table skills, innovative production and musical versatility.<br>From the success of “DJ Jazzy Jeff and the Fresh Prince” with partner Will Smith, to the critical acclaim of his production company “A Touch of Jazz”, Jeff proved time and time again that he would always be a force to be reckoned with. And he continues to represent with his solo projects, collaborations, mixtapes and live shows. His love of music shines through in everything he does.<br>Over the course of his career, DJ Jazzy Jeff has achieved many accomplishments including a DMC Championship and multiple GRAMMY and American Music Awards and nominations. But he is a humble man who is still doing it as his 2002 hit said: “For Da Love of Da Game.”",
+        "eventCover"   : "Presale tickets - $15 | $20 | $25",
+        "eventLink"    : "special-events/dj-jazzy-jeff-at-necto-nightclub-ann-arbor-michigan-sept-21st-2017.html",
+        "eventSocial"  : "https:www.facebook.com/events/1878374215761529/",
+        "eventTix"     : "https:jazzyjeff_necto.eventbrite.com",
+        "eventImgTall" : "img/event-images/dj-jazzy-jeff-at-necto-nightclub-ann-arbor.jpg",
+        "eventImgWide" : "img/event-images/dj-jazzy-jeff-at-necto-nightclub-ann-arbor.jpg",
+        "eventWklOvrd" : true,
+        "eventDay"     : 0,
+        "pastEvent"    : false
+    },
+    {
         "eventDate"    : "Aug 24, 2017 21:00:00",
         "eventName"    : "React presents... Gigamesh",
         "eventArtist"  : "Gigamesh",
@@ -75,6 +91,22 @@
         "eventTix"     : "none",
         "eventImgTall" : "img/event-images/boys-of-summer-contest-2017-at-necto-nightclub-ann-arbor.jpg",
         "eventImgWide" : "img/event-images/boys-of-summer-contest-2017-at-necto-nightclub-ann-arbor.jpg",
+        "eventWklOvrd" : true,
+        "eventDay"     : 0,
+        "pastEvent"    : false
+    },
+    {
+        "eventDate"    : "Jun 29, 2017 22:00:00",
+        "eventName"    : "Throwback Thursday : 21+ get in FREE",
+        "eventArtist"  : "Throwback Thursday",
+        "eventDesc"    : "THROWBACK THURSDAY: All Your Favorite Music from the 80s, 90s & early 00s<br><br>FREE for 21+ | $10 for 18-20",
+        "eventDescLong": "THROWBACK THURSDAY: All Your Favorite Music from the 80s, 90s & early 00s<br><br>FREE for 21+ | $10 for 18-20<br><br>with DJ AYINDE AUDIO<br><br>Totally Awesome Drink Specials:<br><br>$3.50 Well drinks<br>$2.50 Fireball shots<br>3 for $10 Jaeger Bombs<br>$2 Miller Lite Bottles",
+        "eventCover"   : "FREE for 21+ | $10 for 18-20",
+        "eventLink"    : "special-events/throwback-thursday-at-necto-nightclub-ann-arbor-michigan-jun-29th-2017.html",
+        "eventSocial"  : "https:www.facebook.com/events/658468747680209/",
+        "eventTix"     : "none",
+        "eventImgTall" : "img/event-images/throwback-thursday-6-29-17-at-necto-nightclub-ann-arbor.jpg",
+        "eventImgWide" : "img/event-images/throwback-thursday-6-29-17-at-necto-nightclub-ann-arbor.jpg",
         "eventWklOvrd" : true,
         "eventDay"     : 0,
         "pastEvent"    : false

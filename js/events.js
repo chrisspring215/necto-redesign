@@ -80,6 +80,38 @@ var eventsJSON = [
         "pastEvent"    : false // Do not modify
     },
     {
+        "eventDate"    : new Date("July 10, 2017 21:00:00"),
+        "eventName"    : "Zombie Beach Party",
+        "eventArtist"  : "Zombie Beach Party",
+        "eventDesc"    : "Don't hop fences with “hazard“ symbols on them, kids. And don't expect a nice vacation at a deserted beach, far away from the city and cell service. And most definitely don't play “Wonderwall“ around a bonfire on coastline filled with angry undead. If you are infected, PLEASE... join us at our Zombie Beach Party.",  
+        "eventDescLong": "Don't hop fences with “hazard“ symbols on them, kids. And don't expect a nice vacation at a deserted beach, far away from the city and cell service. And most definitely don't play “Wonderwall“ around a bonfire on coastline filled with angry undead. If you are infected, PLEASE... join us at our Zombie Beach Party.",
+        "eventCover"   : "Free cover with zombie costume. Otherwise $1 before 10pm and $3 after 10pm",
+        "eventLink"    : "special-events/" + "zombie-beach-party-at-necto-nightclub-ann-arbor-michigan-july-10-2017.html",
+        "eventSocial"  : "https://www.facebook.com/events/323016874795045/",
+        "eventTix"     : "none",
+        "eventImgTall" : "img/event-images/" + "zombie-beach-party-at-necto-nightclub-ann-arbor.jpg",
+        "eventImgWide" : "img/event-images/" + "zombie-beach-party-at-necto-nightclub-ann-arbor.jpg",
+        "eventWklOvrd" : true,
+        "eventDay"     : 0, // Do not modify
+        "pastEvent"    : false // Do not modify
+    },
+    {
+        "eventDate"    : new Date("July 8, 2017 21:00:00"),
+        "eventName"    : "Frequency Beach Party 2017",
+        "eventArtist"  : "Frequency Beach Party 2017",
+        "eventDesc"    : "Join DJ Hardy & MC Yoda as they heat up the summer & celebrate with a beach party! Happy Hour from 9-11pm, beach decorations inside, and summer evening on our patio outside.",  
+        "eventDescLong": "Join DJ Hardy & MC Yoda as they heat up the summer & celebrate with a beach party! Happy Hour from 9-11pm, beach decorations inside, and summer evening on our patio outside.",
+        "eventCover"   : "Free cover with beach attire. Ladies free before 11pm. Otherwise, cover is $5 for 21+ and $10 for 18-20.",
+        "eventLink"    : "special-events/" + "beach-party-at-necto-nightclub-ann-arbor-michigan-july-8-2017.html",
+        "eventSocial"  : "https://www.facebook.com/events/314807108948482/",
+        "eventTix"     : "none",
+        "eventImgTall" : "img/event-images/" + "frequency-beach-party-at-necto-nightclub-ann-arbor.jpg",
+        "eventImgWide" : "img/event-images/" + "frequency-beach-party-at-necto-nightclub-ann-arbor.jpg",
+        "eventWklOvrd" : true,
+        "eventDay"     : 0, // Do not modify
+        "pastEvent"    : false // Do not modify
+    },
+    {
         "eventDate"    : new Date("July 7, 2017 21:00:00"),
         "eventName"    : "Boys of Summer Contest",
         "eventArtist"  : "Boys of Summer Contest",
@@ -91,6 +123,22 @@ var eventsJSON = [
         "eventTix"     : "none",
         "eventImgTall" : "img/event-images/" + "boys-of-summer-contest-2017-at-necto-nightclub-ann-arbor.jpg",
         "eventImgWide" : "img/event-images/" + "boys-of-summer-contest-2017-at-necto-nightclub-ann-arbor.jpg",
+        "eventWklOvrd" : true,
+        "eventDay"     : 0, // Do not modify
+        "pastEvent"    : false // Do not modify
+    },
+    {
+        "eventDate"    : new Date("July 6, 2017 22:00:00"),
+        "eventName"    : "Throwback Thursday : Beach Party : 21+ get in FREE",
+        "eventArtist"  : "TBT: Beach Party",
+        "eventDesc"    : "THROWBACK THURSDAY: All Your Favorite Music from the 80s, 90s & early 00s but on the beach.<br><br>FREE for 21+ | $10 for 18-20",
+        "eventDescLong": "THROWBACK THURSDAY: All Your Favorite Music from the 80s, 90s & early 00s but on the beach.<br><br>FREE for 21+ | $10 for 18-20<br><br>with DJ Nick Donovan<br><br>Totally Awesome Drink Specials:<br><br>$3.50 Well drinks<br>$2.50 Fireball shots<br>3 for $10 Jaeger Bombs<br>$2 Miller Lite Bottles",
+        "eventCover"   : "FREE for 21+ | $10 for 18-20",
+        "eventLink"    : "special-events/" + "throwback-thursday-at-necto-nightclub-ann-arbor-michigan-jul-6-2017.html",
+        "eventSocial"  : "https://www.facebook.com/events/242673269567521/",
+        "eventTix"     : "none",
+        "eventImgTall" : "img/event-images/" + "throwback-thursday-jul-6-at-necto-nightclub-ann-arbor.jpg",
+        "eventImgWide" : "img/event-images/" + "throwback-thursday-jul-6-at-necto-nightclub-ann-arbor.jpg",
         "eventWklOvrd" : true,
         "eventDay"     : 0, // Do not modify
         "pastEvent"    : false // Do not modify

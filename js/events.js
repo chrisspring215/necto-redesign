@@ -81,8 +81,8 @@ var eventsJSON = [
     },
     {
         "eventDate"    : new Date("July 13, 2017 19:00:00"),
-        "eventName"    : "RENDERED",
-        "eventArtist"  : "Factory & Modern Cathedrals present... RENDERED",
+        "eventName"    : "Factory & Modern Cathedrals present... RENDERED",
+        "eventArtist"  : "RENDERED: Daniel Myer",
         "eventDesc"    : "Factory & Modern Cathedrals present... RENDERED (Daniel Myer : Germany : aufnahme + wiedergabe - Body Theory - Fleisch - T/W/B with Philipp Strobel, Altstadt Echo & Marc Church",
         "eventDescLong": "Factory & Modern Cathedrals present... RENDERED (Daniel Myer : Germany : aufnahme + wiedergabe - Body Theory - Fleisch - T/W/B with Philipp Strobel, Altstadt Echo & Marc Church<br></br>Rendered is the relatively new collaboration between Daniel Myer (Haujobb, Architect) & Clément Perez (14anger), both veterans of their respective genres spanning early 90s EBM and darkwave to more recent destructive techno releases. Techno / EBM / Industrial / Acid",
         "eventCover"   : "Presale tickets - $5 | $10 | $15",

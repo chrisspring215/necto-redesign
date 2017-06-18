@@ -262,6 +262,7 @@ function specialEventPage() {
 
     // Grabs the URL and searches for a match in the Events Array then displays the content for the Event page
     var specialEventURL = window.location.href.split('/');
+    
 
     for (i = 0; i <= events.length - 1; i++) {
 
@@ -277,6 +278,20 @@ function specialEventPage() {
 
         if (specialEventURL[specialEventURL.length - 2] + '/' + specialEventURL[specialEventURL.length - 1] === events[i].eventLink) {
 
+            var futureEvents = '';
+
+
+            if (events[i-2] === undefined) {
+                futureEvents = '<h3>More Events:</h3><br>' + '<div class="row"><div class="col col-12-xs col-12-md"><a href="' + events[i-1].eventLink + '"><img src="' + events[i-1].eventImgWide + '"></a></div></div>'
+            }
+
+            else if (events[i-1] === undefined) {
+                futureEvents = ''
+            }
+            else {
+                futureEvents = '<h3>More Events:</h3><br>' + '<div class="row"><div class="col col-12-xs col-6-md"><a href="' + events[i-1].eventLink + '"><img src="' + events[i-1].eventImgWide + '"></a></div><div class="col col-12-xs col-6-md"><a href="' + events[i-2].eventLink + '"><img src="' + events[i-2].eventImgWide + '"></a></div></div>'
+            }
+
             now = new Date();
             now.setHours(now.getHours()-6)
             // Adds a newsletter form if the show is more than N hours in the past
@@ -285,19 +300,19 @@ function specialEventPage() {
 
                 var mailingMessage = '<div id="mc_embed_signup"><form action="//necto.us11.list-manage.com/subscribe/post?u=07d1e6b4e1063f1729724af7f&amp;id=f126fbdd63" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate><div id="mc_embed_signup_scroll"><h2 class="page-section-sub-header">Did you miss this event?</h2><p>Join our mailing list to stay in the loop on Necto events.</p><div class="mc-field-group"><label for="mce-EMAIL">Email Address </label><input type="email" value="" name="EMAIL" class="required email" id="mce-EMAIL"></div><div class="mc-field-group"><label for="mce-FNAME">First Name </label><input type="text" value="" name="FNAME" class="" id="mce-FNAME"></div><div class="mc-field-group"><label for="mce-LNAME">Last Name </label><input type="text" value="" name="LNAME" class="" id="mce-LNAME"></div><div id="mce-responses" class="clear"><div class="response" id="mce-error-response" style="display:none"></div><div class="response" id="mce-success-response" style="display:none"></div></div>    <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups--><div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_07d1e6b4e1063f1729724af7f_f126fbdd63" tabindex="-1" value=""></div><div class="clear"><input type="submit" value="SUBSCRIBE" name="subscribe" id="mc-embedded-subscribe" ></div></div></form><br></div>';
 
-                specialEventPageContent.innerHTML = '<span class="special-event-date">' + events[i].eventDate.toDateString() + ', ' + events[i].eventDate.toLocaleTimeString().replace(/([\d]+:[\d]{2})(:[\d]{2})(.*)/, "$1$3") + '</span>' + '<br>' + '<h1 class="special-event-name">' + events[i].eventName + '</h1><br><img class="special-event-img" src="' + events[i].eventImgWide + '" alt="A event poster for ' +  events[i].eventArtist + ', performing at the Necto Nightclub in Ann Arbor, Michigan on ' + (events[i].eventDate.getMonth() + 1) + '/' + events[i].eventDate.getDate() + '/' + events[i].eventDate.getFullYear() + '" ><br>' +  mailingMessage + '<p class="special-event-desc">' + events[i].eventDescLong + '</p>' + '<p>Follow this event on Facebook <a href="' + events[i].eventSocial + '" class="special-event-social"><b>here</b></a>.</p><h3>Cover:</h3><p class="special-event-cover">' + events[i].eventCover + '</h3>';
+                specialEventPageContent.innerHTML = '<span class="special-event-date">' + events[i].eventDate.toDateString() + ', ' + events[i].eventDate.toLocaleTimeString().replace(/([\d]+:[\d]{2})(:[\d]{2})(.*)/, "$1$3") + '</span>' + '<br>' + '<h1 class="special-event-name">' + events[i].eventName + '</h1><br><img class="special-event-img" src="' + events[i].eventImgWide + '" alt="A event poster for ' +  events[i].eventArtist + ', performing at the Necto Nightclub in Ann Arbor, Michigan on ' + (events[i].eventDate.getMonth() + 1) + '/' + events[i].eventDate.getDate() + '/' + events[i].eventDate.getFullYear() + '" ><br>' +  mailingMessage + '<p class="special-event-desc">' + events[i].eventDescLong + '</p>' + '<p>Follow this event on Facebook <a href="' + events[i].eventSocial + '" class="special-event-social"><b>here</b></a>.</p><h3>Cover:</h3><p class="special-event-cover">' + events[i].eventCover + '</h3>' + futureEvents;
                     buildSpecialPageMeta(events[i].eventDate.toDateString(), events[i].eventArtist);
             }
 
             else {
                 // Does it have tix or no tix?
                 if (events[i].eventTix !== 'none') {
-                    specialEventPageContent.innerHTML =  '<span class="special-event-date">' + events[i].eventDate.toDateString() + ', ' + events[i].eventDate.toLocaleTimeString().replace(/([\d]+:[\d]{2})(:[\d]{2})(.*)/, "$1$3") + '</span>' + '<br>' + '<h1 class="special-event-name">' + events[i].eventName + '</h1><br><img class="special-event-img" src="' + events[i].eventImgWide + '" alt="A event poster for ' +  events[i].eventArtist + ', performing at the Necto Nightclub in Ann Arbor, Michigan on ' + (events[i].eventDate.getMonth() + 1) + '/' + events[i].eventDate.getDate() + '/' + events[i].eventDate.getFullYear() + '"><br>' + '<div class="row event-nav" style="margin-left: 0; margin-right: 0;"><a href="bottle-service-vip-reservations.html?=linkfromevent" class="col col-6-xs ">REQUEST VIP</a><a href="' + events[i].eventTix + '" onclick="trackOutboundLink(' + "'" + events[i].eventTix + "'" + '); return true;" class="col col-6-xs">BUY TICKETS</a></div>' + '<p class="special-event-desc">' + events[i].eventDescLong + '</p>' + '<p>Follow this event on Facebook <a href="' + events[i].eventSocial + '" class="special-event-social"><b>here</b></a>.</p><h3>Cover:</h3><p class="special-event-cover">' + events[i].eventCover + '</h3>';
+                    specialEventPageContent.innerHTML =  '<span class="special-event-date">' + events[i].eventDate.toDateString() + ', ' + events[i].eventDate.toLocaleTimeString().replace(/([\d]+:[\d]{2})(:[\d]{2})(.*)/, "$1$3") + '</span>' + '<br>' + '<h1 class="special-event-name">' + events[i].eventName + '</h1><br><img class="special-event-img" src="' + events[i].eventImgWide + '" alt="A event poster for ' +  events[i].eventArtist + ', performing at the Necto Nightclub in Ann Arbor, Michigan on ' + (events[i].eventDate.getMonth() + 1) + '/' + events[i].eventDate.getDate() + '/' + events[i].eventDate.getFullYear() + '"><br>' + '<div class="row event-nav" style="margin-left: 0; margin-right: 0;"><a href="bottle-service-vip-reservations.html?=linkfromevent" class="col col-6-xs ">REQUEST VIP</a><a href="' + events[i].eventTix + '" onclick="trackOutboundLink(' + "'" + events[i].eventTix + "'" + '); return true;" class="col col-6-xs">BUY TICKETS</a></div>' + '<p class="special-event-desc">' + events[i].eventDescLong + '</p>' + '<p>Follow this event on Facebook <a href="' + events[i].eventSocial + '" class="special-event-social"><b>here</b></a>.</p><h3>Cover:</h3><p class="special-event-cover">' + events[i].eventCover + '</h3>' + futureEvents;
                     buildSpecialPageMeta(events[i].eventDate.toDateString(), events[i].eventArtist);
                 }
 
                 else {
-                    specialEventPageContent.innerHTML =  '<span class="special-event-date">' + events[i].eventDate.toDateString() + ', ' + events[i].eventDate.toLocaleTimeString().replace(/([\d]+:[\d]{2})(:[\d]{2})(.*)/, "$1$3") + '</span>' + '<br>' + '<h1 class="special-event-name">' + events[i].eventName + '</h1><br><img class="special-event-img" src="' + events[i].eventImgWide + '" alt="A event poster for ' +  events[i].eventArtist + ', performing at the Necto Nightclub in Ann Arbor, Michigan on ' + (events[i].eventDate.getMonth() + 1) + '/' + events[i].eventDate.getDate() + '/' + events[i].eventDate.getFullYear() + '" ><br>' + '<div class="row event-nav" style="margin-left: 0; margin-right: 0;"><a href="bottle-service-vip-reservations.html?=linkfromevent" class="col col-12-xs ">REQUEST VIP</a></div>' + '<p class="special-event-desc">' + events[i].eventDescLong + '</p>' + '<p>Follow this event on Facebook <a href="' + events[i].eventSocial + '" class="special-event-social"><b>here</b></a>.</p><h3>Cover:</h3><p class="special-event-cover">' + events[i].eventCover + '</h3>';
+                    specialEventPageContent.innerHTML =  '<span class="special-event-date">' + events[i].eventDate.toDateString() + ', ' + events[i].eventDate.toLocaleTimeString().replace(/([\d]+:[\d]{2})(:[\d]{2})(.*)/, "$1$3") + '</span>' + '<br>' + '<h1 class="special-event-name">' + events[i].eventName + '</h1><br><img class="special-event-img" src="' + events[i].eventImgWide + '" alt="A event poster for ' +  events[i].eventArtist + ', performing at the Necto Nightclub in Ann Arbor, Michigan on ' + (events[i].eventDate.getMonth() + 1) + '/' + events[i].eventDate.getDate() + '/' + events[i].eventDate.getFullYear() + '" ><br>' + '<div class="row event-nav" style="margin-left: 0; margin-right: 0;"><a href="bottle-service-vip-reservations.html?=linkfromevent" class="col col-12-xs ">REQUEST VIP</a></div>' + '<p class="special-event-desc">' + events[i].eventDescLong + '</p>' + '<p>Follow this event on Facebook <a href="' + events[i].eventSocial + '" class="special-event-social"><b>here</b></a>.</p><h3>Cover:</h3><p class="special-event-cover">' + events[i].eventCover + '</h3>' + futureEvents;
                     buildSpecialPageMeta(events[i].eventDate.toDateString(), events[i].eventArtist);
                 }
             }

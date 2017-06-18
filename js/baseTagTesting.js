@@ -13,5 +13,14 @@ else if (window.location.hostname === 'www.necto.com') {
     baseTag.setAttribute('href', 'file:///Users/Spring2/Documents/necto-redesign/')
 }
 else {
+	baseTag.setAttribute('href', 'file:///Users/Spring2/Documents/necto-redesign/')
+}
+
+/*
+else if (window.location.hostname === 'www.necto.com') {
+    baseTag.setAttribute('href', 'file:///Users/Spring2/Documents/necto-redesign/')
+}
+else {
 	baseTag.setAttribute('href', 'file:///Users/cacollins/Documents/necto-redesign/')
 }
+*/

@@ -281,14 +281,14 @@ function specialEventPage() {
             var futureEvents = '';
 
 
-            if (events[i-2] === undefined) {
-                futureEvents = '<h3>More Events:</h3><br>' + '<div class="row"><div class="col col-12-xs col-12-md"><a href="' + events[i-1].eventLink + '"><img src="' + events[i-1].eventImgWide + '"></a></div></div>'
-
-            }
-
-            else if (events[i-1].eventName === undefined) {
+             if (events[i-1].eventName === undefined) {
                 var futureEvents = ''
             }
+
+            else if (events[i-2] === undefined) {
+                futureEvents = '<h3>More Events:</h3><br>' + '<div class="row"><div class="col col-12-xs col-12-md"><a href="' + events[i-1].eventLink + '"><img src="' + events[i-1].eventImgWide + '"></a></div></div>'
+            }
+
             else {
                 futureEvents = '<h3>More Events:</h3><br>' + '<div class="row"><div class="col col-12-xs col-6-md"><a href="' + events[i-1].eventLink + '"><img src="' + events[i-1].eventImgWide + '"></a></div><div class="col col-12-xs col-6-md"><a href="' + events[i-2].eventLink + '"><img src="' + events[i-2].eventImgWide + '"></a></div></div>'
             }

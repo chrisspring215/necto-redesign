@@ -281,17 +281,18 @@ function specialEventPage() {
             var futureEvents = '';
 
 
-            if (events[i-1] === undefined) {
+            if (events[i-2] === undefined) {
                 futureEvents = '<h3>More Events:</h3><br>' + '<div class="row"><div class="col col-12-xs col-12-md"><a href="' + events[i-1].eventLink + '"><img src="' + events[i-1].eventImgWide + '"></a></div></div>'
+                alert("dogs")
             }
 
-            else if (events[i-2] === undefined) {
-                futureEvents = ''
+            else if (events[i-1] === undefined) {
+                alert('cats')
             }
             else {
                 futureEvents = '<h3>More Events:</h3><br>' + '<div class="row"><div class="col col-12-xs col-6-md"><a href="' + events[i-1].eventLink + '"><img src="' + events[i-1].eventImgWide + '"></a></div><div class="col col-12-xs col-6-md"><a href="' + events[i-2].eventLink + '"><img src="' + events[i-2].eventImgWide + '"></a></div></div>'
             }
-            alert(events[i-1].eventName)
+            
 
             now = new Date();
             now.setHours(now.getHours()-6)

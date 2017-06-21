@@ -281,7 +281,7 @@ function specialEventPage() {
             var futureEvents = '';
 
 
-             if (events[i-1].eventName === undefined) {
+             if (events[i-1] === undefined) {
                 var futureEvents = ''
             }
 

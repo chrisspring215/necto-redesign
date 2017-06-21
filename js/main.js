@@ -283,6 +283,7 @@ function specialEventPage() {
 
              if (events[i-1] === undefined) {
                 futureEvents = '<h3>More Events:</h3><br>' + '<div class="row"><div class="col col-12-xs col-12-md"><a href="' + events[i+3].eventLink + '"><img src="' + events[i+3].eventImgWide + '"></a></div></div>'
+                alert("works")
             }
 
             else if (events[i-2] === undefined) {

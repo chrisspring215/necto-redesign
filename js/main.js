@@ -282,12 +282,11 @@ function specialEventPage() {
 
 
              if (events[i-1] === undefined) {
-                futureEvents = '<h3>More Events:</h3><br>' + '<div class="row"><div class="col col-12-xs col-12-md"><a href="' + events[i+3].eventLink + '"><img src="' + events[i+3].eventImgWide + '"></a></div></div>'
-                alert("works")
+                futureEvents = '<h3>More Events:</h3><br>' + '<div class="row"><div class="col col-12-xs col-6-md"><a href="' + events[i+2].eventLink + '"><img src="' + events[i+2].eventImgWide + '"></a></div><div class="col col-12-xs col-6-md"><a href="' + events[i+1].eventLink + '"><img src="' + events[i+1].eventImgWide + '"></a></div></div>'
             }
 
             else if (events[i-2] === undefined) {
-                futureEvents = '<h3>More Events:</h3><br>' + '<div class="row"><div class="col col-12-xs col-12-md"><a href="' + events[i-1].eventLink + '"><img src="' + events[i-1].eventImgWide + '"></a></div></div>'
+                futureEvents = '<h3>More Events:</h3><br>' + '<div class="row"><div class="col col-12-xs col-6-md"><a href="' + events[i+1].eventLink + '"><img src="' + events[i+1].eventImgWide + '"></a></div><div class="col col-12-xs col-6-md"><a href="' + events[i-1].eventLink + '"><img src="' + events[i-1].eventImgWide + '"></a></div></div>'
             }
 
             else {

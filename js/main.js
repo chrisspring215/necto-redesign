@@ -291,7 +291,7 @@ function specialEventPage() {
             else {
                 futureEvents = '<h3>More Events:</h3><br>' + '<div class="row"><div class="col col-12-xs col-6-md"><a href="' + events[i-1].eventLink + '"><img src="' + events[i-1].eventImgWide + '"></a></div><div class="col col-12-xs col-6-md"><a href="' + events[i-2].eventLink + '"><img src="' + events[i-2].eventImgWide + '"></a></div></div>'
             }
-
+            alert(events[i-1].eventName)
             now = new Date();
             now.setHours(now.getHours()-6)
             // Adds a newsletter form if the show is more than N hours in the past

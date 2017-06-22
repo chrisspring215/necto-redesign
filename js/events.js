@@ -64,6 +64,22 @@ var eventsJSON = [
         "pastEvent"    : false // Do not modify
     },
     {
+        "eventDate"    : new Date("July 20, 2017 21:00:00"),
+        "eventName"    : "CONRANK &amp; TOADFACE",
+        "eventArtist"  : "CONRANK &amp; TOADFACE",
+        "eventDesc"    : "Magical Mitten Productions present...<br>CONRANK & TOADFACE<br>with KNGHT, Tek - Mazter Gyp$y ft Squazzi and Seabass",  
+        "eventDescLong": "Magical Mitten Productions present...<br>CONRANK & TOADFACE<br>with KNGHT, Tek - Mazter Gyp$y ft Squazzi and Seabass<br><br>Conrank<br>https://soundcloud.com/conrank<br><br>UK-born and bred DJ and producer Conrank has quickly established himself as one of bass music’s most innovative voices. After spending years as a globe-trotting musician, including an 8 year residency in Shanghai, Conrank settled into his new home base in Los Angeles, CA in early 2017. In just a few short years, Conrank has swiftly earned the reputation of tearing down any dancefloor he plays to, without exception; bringing his melodic yet frenetic brand of dubstep, grime, and drum n’ bass to stages all across the world.<br><br>Toadface<br>https://soundcloud.com/toadface<br><br>2016 was a big year for Toadface. “Perpetually On One“, he's released around 20 tracks in the last year including multiple collabs with Yheti, Mt. Analogue, releases on Liquid Strangers labels, Wakaan, and continues to hop around the country spreading his swampy sound. He's performed in California, New York, Oregon, Washington, Ohio, Tennessee, Atlanta, Minnesota, Arizona, and more. Beginning his musical jorney in 2011, his music has evolved into a whole sound and genre of his own. With big boggy bass lines and ambient mystical soundscapes, a Toadface set is a journey that all bass music fans can enjoy.",
+        "eventCover"   : "$8 | $12 | $15 at Doors",
+        "eventLink"    : "special-events/" + "conrank-toadface-at-necto-nightclub-ann-arbor-michigan-july-20-2017.html",
+        "eventSocial"  : "https://www.facebook.com/events/1574956232556432/",
+        "eventTix"     : "https://conrank-toadface-annarbor.eventbrite.com/",
+        "eventImgTall" : "img/event-images/" + "conrank-toadface-at-necto-nightclub-ann-arbor.jpg",
+        "eventImgWide" : "img/event-images/" + "conrank-toadface-at-necto-nightclub-ann-arbor.jpg",
+        "eventWklOvrd" : true,
+        "eventDay"     : 0, // Do not modify
+        "pastEvent"    : false // Do not modify
+    },
+    {
         "eventDate"    : new Date("July 14, 2017 21:00:00"),
         "eventName"    : "Dragster featuring... PEPPERMINT",
         "eventArtist"  : "Peppermint",

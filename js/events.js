@@ -80,6 +80,22 @@ var eventsJSON = [
         "pastEvent"    : false // Do not modify
     },
     {
+        "eventDate"    : new Date("July 17, 2017 21:00:00"),
+        "eventName"    : "DJ Cyberpunk w/ DJ Saint & Void6",
+        "eventArtist"  : "DJ Cyberpunk/DJ Saint/Void6",
+        "eventDesc"    : "DJ Cyberpunk [Resident DJ at the Nectarine Ballroom from 1987-1993] w/ DJ Saint & Void6",  
+        "eventDescLong": "Factory at Necto presents...<br><br>DJ Cyberpunk<br>[Resident DJ at the Nectarine Ballroom from 1987-1993]<br>w/ DJ Saint [Detroit] & DJ Void6 [Necto Resident]<br><br>DJ Cyberpunk, a.k.a John Courte, is an Ann Arbor native and held the Industrial/Alternative Monday Night residency at the Nectarine Ballroom and Nectarine from 1987 to 1993. During that time, he introduced thousands of people to the futuristic sounds of Industrial, EBM, New Beat, and Techno. In addition to making household names of obscure European bands and labels, he made space in his sets for local Industrial and EBM bands, mostly on fresh-made cassette tape. Aural Sect, HAL, IEC, New Flesh, MRN, and several others could be heard on the big rig during one of DJ Cyberpunk’s Monday nights. DJ Cyberpunk now lives in Los Angeles, working with VR and machine learning, and occasionally spins under the name DJ Engine.<br><br>Marc Church (aka DJ Saint) is a Detroit based DJ who has spent over two decades immersed in the industrial, electronic, noise, EBM, and dark techno genres. His past DJ activities are longer than a CVS receipt and have involved:�Resident DJ slots at Labyrinth (Detroit), City Club Detroit (2002-2010), and Factory at Necto (Ann Arbor) among plenty others. Saint has traveled all around the United States DJ’ing, with a highlight being a rare opportunity of spinning two sets at Los Angeles’ legendary Das Bunker in 2013. His DJ’ing has also taken him overseas twice, to DJ at the UK’s premier festival of electronic music - Infest - in 2004 and 2006. He’s been a long-time collaborator with the Something Cold parties (based out of Detroit) and currently host his own monthly night Produkt 313 at Detroit’s UFO Factory. Saint mixes the innovative pioneers with the progressive newcomers, the obscure with the recognizable - all the while perpetually maintaining a technical and inventive rhythmic flow that makes his sets both danceable and moving.",
+        "eventCover"   : "$1 before 10pm and $3 after 10pm",
+        "eventLink"    : "special-events/" + "dj-cyberpunk-dj-saint-void6-at-necto-nightclub-ann-arbor-michigan-july-17-2017.html",
+        "eventSocial"  : "facebook.com/events/1697073270595169/",
+        "eventTix"     : "none",
+        "eventImgTall" : "img/event-images/" + "dj-cyberpunk-dj-saint-void6-at-necto-nightclub-ann-arbor.jpg",
+        "eventImgWide" : "img/event-images/" + "dj-cyberpunk-dj-saint-void6-at-necto-nightclub-ann-arbor.jpg",
+        "eventWklOvrd" : true,
+        "eventDay"     : 0, // Do not modify
+        "pastEvent"    : false // Do not modify
+    },
+    {
         "eventDate"    : new Date("July 14, 2017 21:00:00"),
         "eventName"    : "Dragster featuring... PEPPERMINT",
         "eventArtist"  : "Peppermint",

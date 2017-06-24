@@ -32,6 +32,7 @@ var videosFri = [
     "https://www.youtube.com/embed/4VOIXPOnfSM?ecver=1",
     "https://www.youtube.com/embed/N-Cc_telSsA?ecver=1",
     "https://www.youtube.com/embed/sBxWRXFz2r8",
+    "https://www.youtube.com/embed/UrKGwbz0PSA?ecver=1",
 ];
 var videosSat = [
     "https://www.youtube.com/embed/4VOIXPOnfSM?ecver=1",

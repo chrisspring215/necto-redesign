@@ -1,5 +1,21 @@
 { "events" : [
     {
+        "eventDate"    : "Oct 26, 2017 21:00:00",
+        "eventName"    : "GORGON CITY : Kingdom Tour",
+        "eventArtist"  : "Gorgon City",
+        "eventDesc"    : "Gorgon City are an English electronic music production duo consisting of two North London producers Kye “Foamo“ Gibbon and Matt “RackNRuin“ Robson-Scott. Their 2013 single “Real“ peaked to number 44 on the UK Singles Chart. They are also well known for their 2014 single “Ready for Your Love“, which reached number 4 on the UK Singles Chart. They are currently signed to the London-based independent label Black Butter Records.",
+        "eventDescLong": "Gorgon City are an English electronic music production duo consisting of two North London producers Kye “Foamo“ Gibbon and Matt “RackNRuin“ Robson-Scott. Their 2013 single “Real“ peaked to number 44 on the UK Singles Chart. They are also well known for their 2014 single “Ready for Your Love“, which reached number 4 on the UK Singles Chart. They are currently signed to the London-based independent label Black Butter Records.",
+        "eventCover"   : "Presale tickets - $18 | $20 | $25 at Doors",
+        "eventLink"    : "special-events/gorgon-city-at-necto-nightclub-ann-arbor-michigan-oct-26th-2017.html",
+        "eventSocial"  : "https:www.facebook.com/events/1852026231754422/",
+        "eventTix"     : "none",
+        "eventImgTall" : "img/event-images/gorgon-city-at-necto-nightclub-ann-arbor.jpg",
+        "eventImgWide" : "img/event-images/gorgon-city-at-necto-nightclub-ann-arbor.jpg",
+        "eventWklOvrd" : true,
+        "eventDay"     : 0,
+        "pastEvent"    : false
+    },
+    {
         "eventDate"    : "Oct 5, 2017 21:00:00",
         "eventName"    : "MATTHEW DEAR (DJ Set) : Homecoming",
         "eventArtist"  : "Matthew Dear",
@@ -59,6 +75,22 @@
         "eventTix"     : "https:dragonette_necto.eventbrite.com",
         "eventImgTall" : "img/event-images/dragonette-at-necto-nightclub-ann-arbor.png",
         "eventImgWide" : "img/event-images/dragonette-at-necto-nightclub-ann-arbor.png",
+        "eventWklOvrd" : true,
+        "eventDay"     : 0,
+        "pastEvent"    : false
+    },
+    {
+        "eventDate"    : "July 29, 2017 22:00:00",
+        "eventName"    : "Throwback Thursday : 21+ get in FREE",
+        "eventArtist"  : "Throwback Thursday",
+        "eventDesc"    : "THROWBACK THURSDAY: All Your Favorite Music from the 80s, 90s & early 00s<br><br>FREE for 21+ | $10 for 18-20",
+        "eventDescLong": "THROWBACK THURSDAY: All Your Favorite Music from the 80s, 90s & early 00s<br><br>FREE for 21+ | $10 for 18-20<br><br>with DJ NICK DONOVAN<br><br>Totally Awesome Drink Specials:<br><br>$3.50 Well drinks<br>$2.50 Fireball shots<br>3 for $10 Jaeger Bombs<br>$2 Miller Lite Bottles",
+        "eventCover"   : "FREE for 21+ | $10 for 18-20",
+        "eventLink"    : "special-events/throwback-thursday-at-necto-nightclub-ann-arbor-michigan-jul-29th-2017.html",
+        "eventSocial"  : "https:www.facebook.com/events/944707049004184/",
+        "eventTix"     : "none",
+        "eventImgTall" : "img/event-images/throwback-thursday-jul-29-2017-at-necto-nightclub-ann-arbor.jpg",
+        "eventImgWide" : "img/event-images/throwback-thursday-jul-29-2017-at-necto-nightclub-ann-arbor.jpg",
         "eventWklOvrd" : true,
         "eventDay"     : 0,
         "pastEvent"    : false

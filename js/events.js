@@ -80,6 +80,22 @@ var eventsJSON = [
         "pastEvent"    : false // Do not modify
     },
     {
+        "eventDate"    : new Date("Aug 7, 2017 21:00:00"),
+        "eventName"    : "JESSE LEACH [Killswitch Engage] - Special DJ Set",
+        "eventArtist"  : "Jesse Leach",
+        "eventDesc"    : "Jesse David Leach is a Grammy nominated, American musician and lyricist based in New York, best known for his role as the current lead vocalist of the metalcore band Killswitch Engage. Lending guttural screams and melodic choruses to the group’s signature sound, Leach also remains involved with the projects Time of Grace and The Empire Shall Fall. A former member of the blues-y, stoner-rock band Seemless, which showcased Leach’s soulful vocals, other past projects include the melodic, hardcore band Nothing Stays Gold and the dark, hardcore-metal hybrid, Corrin. ",
+        "eventDescLong": "Jesse David Leach is a Grammy nominated, American musician and lyricist based in New York, best known for his role as the current lead vocalist of the metalcore band Killswitch Engage. Lending guttural screams and melodic choruses to the group’s signature sound, Leach also remains involved with the projects Time of Grace and The Empire Shall Fall. A former member of the blues-y, stoner-rock band Seemless, which showcased Leach’s soulful vocals, other past projects include the melodic, hardcore band Nothing Stays Gold and the dark, hardcore-metal hybrid, Corrin. ",
+        "eventCover"   : "Cover at the door is $1 before 10pm | $3 after 10pm",
+        "eventLink"    : "special-events/" + "jesse-david-at-necto-nightclub-ann-arbor-michigan-aug-7th-2017.html",
+        "eventSocial"  : "https://www.facebook.com/events/473926306288471/",
+        "eventTix"     : "none",
+        "eventImgTall" : "img/event-images/" + "jesse-david-at-necto-nightclub-ann-arbor.png",
+        "eventImgWide" : "img/event-images/" + "jesse-david-at-necto-nightclub-ann-arbor.png",
+        "eventWklOvrd" : true,
+        "eventDay"     : 0, // Do not modify
+        "pastEvent"    : false // Do not modify
+    },
+    {
         "eventDate"    : new Date("July 29, 2017 22:00:00"),
         "eventName"    : "Throwback Thursday : 21+ get in FREE",
         "eventArtist"  : "Throwback Thursday",

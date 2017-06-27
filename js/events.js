@@ -96,13 +96,13 @@ var eventsJSON = [
         "pastEvent"    : false // Do not modify
     },
     {
-        "eventDate"    : new Date("July 29, 2017 22:00:00"),
+        "eventDate"    : new Date("July 27, 2017 22:00:00"),
         "eventName"    : "Throwback Thursday : 21+ get in FREE",
         "eventArtist"  : "Throwback Thursday",
         "eventDesc"    : "THROWBACK THURSDAY: All Your Favorite Music from the 80s, 90s & early 00s<br><br>FREE for 21+ | $10 for 18-20",
         "eventDescLong": "THROWBACK THURSDAY: All Your Favorite Music from the 80s, 90s & early 00s<br><br>FREE for 21+ | $10 for 18-20<br><br>with DJ NICK DONOVAN<br><br>Totally Awesome Drink Specials:<br><br>$3.50 Well drinks<br>$2.50 Fireball shots<br>3 for $10 Jaeger Bombs<br>$2 Miller Lite Bottles",
         "eventCover"   : "FREE for 21+ | $10 for 18-20",
-        "eventLink"    : "special-events/" + "throwback-thursday-at-necto-nightclub-ann-arbor-michigan-jul-29th-2017.html",
+        "eventLink"    : "special-events/" + "throwback-thursday-at-necto-nightclub-ann-arbor-michigan-jul-27th-2017.html",
         "eventSocial"  : "https://www.facebook.com/events/944707049004184/",
         "eventTix"     : "none",
         "eventImgTall" : "img/event-images/" + "throwback-thursday-jul-29-2017-at-necto-nightclub-ann-arbor.jpg",

@@ -9,7 +9,6 @@ var eventsJSON = [
         "eventLink"    : "special-events/" + "gorgon-city-at-necto-nightclub-ann-arbor-michigan-oct-26th-2017.html",
         "eventSocial"  : "https://www.facebook.com/events/1852026231754422/",
         "eventTix"     : "https://www.ticketfly.com/purchase/event/1516624?utm_medium=bks",
-        "eventImgTall" : "img/event-images/" + "gorgon-city-at-necto-nightclub-ann-arbor.jpg",
         "eventImgWide" : "img/event-images/" + "gorgon-city-at-necto-nightclub-ann-arbor.jpg",
         "eventWklOvrd" : true,
         "eventDay"     : 0, // Do not modify
@@ -25,7 +24,6 @@ var eventsJSON = [
         "eventLink"    : "special-events/" + "matt-dear-at-necto-nightclub-ann-arbor-michigan-oct-5th-2017.html",
         "eventSocial"  : "https://www.facebook.com/events/1794662000862849/",
         "eventTix"     : "https://matthewdear_necto.eventbrite.com",
-        "eventImgTall" : "img/event-images/" + "matt-dear-at-necto-nightclub-ann-arbor.jpg",
         "eventImgWide" : "img/event-images/" + "matt-dear-at-necto-nightclub-ann-arbor.jpg",
         "eventWklOvrd" : true,
         "eventDay"     : 0, // Do not modify
@@ -41,7 +39,6 @@ var eventsJSON = [
         "eventLink"    : "special-events/" + "dj-jazzy-jeff-at-necto-nightclub-ann-arbor-michigan-sept-21st-2017.html",
         "eventSocial"  : "https://www.facebook.com/events/1878374215761529/",
         "eventTix"     : "https://jazzyjeff_necto.eventbrite.com",
-        "eventImgTall" : "img/event-images/" + "dj-jazzy-jeff-at-necto-nightclub-ann-arbor.jpg",
         "eventImgWide" : "img/event-images/" + "dj-jazzy-jeff-at-necto-nightclub-ann-arbor.jpg",
         "eventWklOvrd" : true,
         "eventDay"     : 0, // Do not modify
@@ -57,7 +54,6 @@ var eventsJSON = [
         "eventLink"    : "special-events/" + "gigamesh-at-necto-nightclub-ann-arbor-michigan-aug-24th-2017.html",
         "eventSocial"  : "https://www.facebook.com/events/597932630330992/",
         "eventTix"     : "https://www.ticketfly.com/purchase/event/1482748?utm_medium=bks",
-        "eventImgTall" : "img/event-images/" + "gigamesh-at-necto-nightclub-ann-arbor.jpg",
         "eventImgWide" : "img/event-images/" + "gigamesh-at-necto-nightclub-ann-arbor.jpg",
         "eventWklOvrd" : true,
         "eventDay"     : 0, // Do not modify
@@ -73,7 +69,6 @@ var eventsJSON = [
         "eventLink"    : "special-events/" + "dragonette-at-necto-nightclub-ann-arbor-michigan-aug-10th-2017.html",
         "eventSocial"  : "https://www.facebook.com/events/1904983453047271",
         "eventTix"     : "https://dragonette_necto.eventbrite.com",
-        "eventImgTall" : "img/event-images/" + "dragonette-at-necto-nightclub-ann-arbor.png",
         "eventImgWide" : "img/event-images/" + "dragonette-at-necto-nightclub-ann-arbor.png",
         "eventWklOvrd" : true,
         "eventDay"     : 0, // Do not modify
@@ -89,7 +84,6 @@ var eventsJSON = [
         "eventLink"    : "special-events/" + "jesse-david-at-necto-nightclub-ann-arbor-michigan-aug-7th-2017.html",
         "eventSocial"  : "https://www.facebook.com/events/473926306288471/",
         "eventTix"     : "none",
-        "eventImgTall" : "img/event-images/" + "jesse-david-at-necto-nightclub-ann-arbor.png",
         "eventImgWide" : "img/event-images/" + "jesse-david-at-necto-nightclub-ann-arbor.png",
         "eventWklOvrd" : true,
         "eventDay"     : 0, // Do not modify
@@ -105,9 +99,23 @@ var eventsJSON = [
         "eventLink"    : "special-events/" + "throwback-thursday-at-necto-nightclub-ann-arbor-michigan-jul-27th-2017.html",
         "eventSocial"  : "https://www.facebook.com/events/944707049004184/",
         "eventTix"     : "none",
-        "eventImgTall" : "img/event-images/" + "throwback-thursday-jul-29-2017-at-necto-nightclub-ann-arbor.jpg",
         "eventImgWide" : "img/event-images/" + "throwback-thursday-jul-29-2017-at-necto-nightclub-ann-arbor.jpg",
         "eventWklOvrd" : true,
+        "eventDay"     : 0, // Do not modify
+        "pastEvent"    : false // Do not modify
+    },
+    {
+        "eventDate"    : new Date("July 26, 2017 18:30:00"),
+        "eventName"    : "Underground Yoga - Deep House Vinyasa",
+        "eventArtist"  : "Underground Yoga",
+        "eventDesc"    : "We're welcoming the summer with open arms! Resident instructor Carol Ann guides yogis through a playful vinyasa while Avyu supplies the rhythmic vibrations. This class is available to all skill levels. Mats are available for rent.",
+        "eventDescLong": "We're welcoming the summer with open arms! Resident instructor Carol Ann guides yogis through a playful vinyasa while Avyu supplies the rhythmic vibrations. This class is available to all skill levels. Mats are available for rent.",
+        "eventCover"   : "$15 adv / $20 week of / $25 drop in",
+        "eventLink"    : "special-events/" + "underground-yoga-at-necto-nightclub-ann-arbor-michigan-jul-26th-2017.html",
+        "eventSocial"  : "https://www.facebook.com/events/944707049004184/",
+        "eventTix"     : "https://www.eventbrite.com/e/underground-yoga-deep-house-vinyasa-at-necto-726-tickets-35799666767",
+        "eventImgWide" : "img/event-images/" + "underground-yogo-at-necto-nightclub-ann-arbor-7-26-17.jpg",
+        "eventWklOvrd" : false,
         "eventDay"     : 0, // Do not modify
         "pastEvent"    : false // Do not modify
     },
@@ -121,7 +129,6 @@ var eventsJSON = [
         "eventLink"    : "special-events/" + "conrank-toadface-at-necto-nightclub-ann-arbor-michigan-july-20-2017.html",
         "eventSocial"  : "https://www.facebook.com/events/1574956232556432/",
         "eventTix"     : "https://conrank-toadface-annarbor.eventbrite.com/",
-        "eventImgTall" : "img/event-images/" + "conrank-toadface-at-necto-nightclub-ann-arbor.jpg",
         "eventImgWide" : "img/event-images/" + "conrank-toadface-at-necto-nightclub-ann-arbor.jpg",
         "eventWklOvrd" : true,
         "eventDay"     : 0, // Do not modify
@@ -137,7 +144,6 @@ var eventsJSON = [
         "eventLink"    : "special-events/" + "dj-cyberpunk-dj-saint-void6-at-necto-nightclub-ann-arbor-michigan-july-17-2017.html",
         "eventSocial"  : "facebook.com/events/1697073270595169/",
         "eventTix"     : "none",
-        "eventImgTall" : "img/event-images/" + "dj-cyberpunk-dj-saint-void6-at-necto-nightclub-ann-arbor.jpg",
         "eventImgWide" : "img/event-images/" + "dj-cyberpunk-dj-saint-void6-at-necto-nightclub-ann-arbor.jpg",
         "eventWklOvrd" : true,
         "eventDay"     : 0, // Do not modify
@@ -153,7 +159,6 @@ var eventsJSON = [
         "eventLink"    : "special-events/" + "peppermint-dragrace-at-necto-nightclub-ann-arbor-michigan-july-14-2017.html",
         "eventSocial"  : "https://www.facebook.com/events/674518019407124/",
         "eventTix"     : "none",
-        "eventImgTall" : "img/event-images/" + "peppermint-dragster-at-necto-nightclub-ann-arbor.jpg",
         "eventImgWide" : "img/event-images/" + "peppermint-dragster-at-necto-nightclub-ann-arbor.jpg",
         "eventWklOvrd" : true,
         "eventDay"     : 0, // Do not modify
@@ -169,7 +174,6 @@ var eventsJSON = [
         "eventLink"    : "special-events/" + "rendered-daniel-myer-at-necto-nightclub-ann-arbor-michigan-jul-13th-2017.html",
         "eventSocial"  : "https://www.facebook.com/events/315947772181953/",
         "eventTix"     : "https://rendered_necto.eventbrite.com",
-        "eventImgTall" : "img/event-images/" + "rendered-daniel-myer-at-necto-nightclub-ann-arbor.jpg",
         "eventImgWide" : "img/event-images/" + "rendered-daniel-myer-at-necto-nightclub-ann-arbor.jpg",
         "eventWklOvrd" : true,
         "eventDay"     : 0, // Do not modify
@@ -185,7 +189,6 @@ var eventsJSON = [
         "eventLink"    : "special-events/" + "zombie-beach-party-at-necto-nightclub-ann-arbor-michigan-july-10-2017.html",
         "eventSocial"  : "https://www.facebook.com/events/323016874795045/",
         "eventTix"     : "none",
-        "eventImgTall" : "img/event-images/" + "zombie-beach-party-at-necto-nightclub-ann-arbor.jpg",
         "eventImgWide" : "img/event-images/" + "zombie-beach-party-at-necto-nightclub-ann-arbor.jpg",
         "eventWklOvrd" : true,
         "eventDay"     : 0, // Do not modify
@@ -201,7 +204,6 @@ var eventsJSON = [
         "eventLink"    : "special-events/" + "beach-party-at-necto-nightclub-ann-arbor-michigan-july-8-2017.html",
         "eventSocial"  : "https://www.facebook.com/events/314807108948482/",
         "eventTix"     : "none",
-        "eventImgTall" : "img/event-images/" + "frequency-beach-party-at-necto-nightclub-ann-arbor.jpg",
         "eventImgWide" : "img/event-images/" + "frequency-beach-party-at-necto-nightclub-ann-arbor.jpg",
         "eventWklOvrd" : true,
         "eventDay"     : 0, // Do not modify
@@ -217,7 +219,6 @@ var eventsJSON = [
         "eventLink"    : "special-events/" + "boys-of-summer-contest-at-necto-nightclub-ann-arbor-michigan-july-7-2017.html",
         "eventSocial"  : "https://www.facebook.com/events/686632314858644/",
         "eventTix"     : "none",
-        "eventImgTall" : "img/event-images/" + "boys-of-summer-contest-2017-at-necto-nightclub-ann-arbor.jpg",
         "eventImgWide" : "img/event-images/" + "boys-of-summer-contest-2017-at-necto-nightclub-ann-arbor.jpg",
         "eventWklOvrd" : true,
         "eventDay"     : 0, // Do not modify
@@ -233,7 +234,6 @@ var eventsJSON = [
         "eventLink"    : "special-events/" + "throwback-thursday-at-necto-nightclub-ann-arbor-michigan-jul-6-2017.html",
         "eventSocial"  : "https://www.facebook.com/events/242673269567521/",
         "eventTix"     : "none",
-        "eventImgTall" : "img/event-images/" + "throwback-thursday-jul-6-at-necto-nightclub-ann-arbor.jpg",
         "eventImgWide" : "img/event-images/" + "throwback-thursday-jul-6-at-necto-nightclub-ann-arbor.jpg",
         "eventWklOvrd" : true,
         "eventDay"     : 0, // Do not modify
@@ -249,7 +249,6 @@ var eventsJSON = [
         "eventLink"    : "special-events/" + "throwback-thursday-at-necto-nightclub-ann-arbor-michigan-jun-29th-2017.html",
         "eventSocial"  : "https://www.facebook.com/events/658468747680209/",
         "eventTix"     : "none",
-        "eventImgTall" : "img/event-images/" + "throwback-thursday-6-29-17-at-necto-nightclub-ann-arbor.jpg",
         "eventImgWide" : "img/event-images/" + "throwback-thursday-6-29-17-at-necto-nightclub-ann-arbor.jpg",
         "eventWklOvrd" : true,
         "eventDay"     : 0, // Do not modify
@@ -265,7 +264,6 @@ var eventsJSON = [
         "eventLink"    : "special-events/" + "throwback-thursday-at-necto-nightclub-ann-arbor-michigan-jun-22nd-2017.html",
         "eventSocial"  : "https://www.facebook.com/events/310482382709275/",
         "eventTix"     : "none",
-        "eventImgTall" : "img/event-images/" + "throwback-thursday-june-22nd-at-necto-nightclub-ann-arbor.jpg",
         "eventImgWide" : "img/event-images/" + "throwback-thursday-june-22nd-at-necto-nightclub-ann-arbor.jpg",
         "eventWklOvrd" : true,
         "eventDay"     : 0, // Do not modify
@@ -281,7 +279,6 @@ var eventsJSON = [
         "eventLink"    : "special-events/" + "goth-prom-2017-at-necto-nightclub-ann-arbor-michigan-june-19th-2017.html",
         "eventSocial"  : "https://facebook.com/events/216287892211462/",
         "eventTix"     : "none",
-        "eventImgTall" : "img/event-images/" + "goth=prom-2017-at-necto-nightclub-ann-arbor.jpg",
         "eventImgWide" : "img/event-images/" + "goth=prom-2017-at-necto-nightclub-ann-arbor.jpg",
         "eventWklOvrd" : true,
         "eventDay"     : 0, // Do not modify
@@ -297,7 +294,6 @@ var eventsJSON = [
         "eventLink"    : "special-events/" + "plastic-passion-reunion-at-necto-nightclub-ann-arbor-michigan-june-17th-2017.html",
         "eventSocial"  : "https://www.facebook.com/events/990305517766340/",
         "eventTix"     : "none",
-        "eventImgTall" : "img/event-images/" + "plastic-passion-reunion-at-necto-nightclub-ann-arbor.jpg",
         "eventImgWide" : "img/event-images/" + "plastic-passion-reunion-at-necto-nightclub-ann-arbor.jpg",
         "eventWklOvrd" : false,
         "eventDay"     : 0, // Do not modify
@@ -313,7 +309,6 @@ var eventsJSON = [
         "eventLink"    : "special-events/" + "ivy-winters-pride-prom-at-necto-nightclub-ann-arbor-michigan-june-16th-2017.html",
         "eventSocial"  : "https://www.facebook.com/events/621014924758255/",
         "eventTix"     : "none",
-        "eventImgTall" : "img/event-images/" + "ivy-winters-pride-prom-2017-at-necto-nightclub-ann-arbor.jpg",
         "eventImgWide" : "img/event-images/" + "ivy-winters-pride-prom-2017-at-necto-nightclub-ann-arbor.jpg",
         "eventWklOvrd" : true,
         "eventDay"     : 0, // Do not modify
@@ -329,7 +324,6 @@ var eventsJSON = [
         "eventLink"    : "special-events/" + "book-of-love--at-necto-nightclub-ann-arbor-michigan-june-15th-2017.html",
         "eventSocial"  : "https://www.facebook.com/events/1779802169000526/",
         "eventTix"     : "https://www.eventbrite.com/e/book-of-love-tickets-34384422734",
-        "eventImgTall" : "img/event-images/" + "book-of-love-at-necto-nightclub-ann-arbor.jpg",
         "eventImgWide" : "img/event-images/" + "book-of-love-at-necto-nightclub-ann-arbor.jpg",
         "eventWklOvrd" : true,
         "eventDay"     : 0, // Do not modify
@@ -345,7 +339,6 @@ var eventsJSON = [
         "eventLink"    : "special-events/" + "laila-mcqueen-and-porcelain-at-necto-nightclub-ann-arbor-michigan-june-9th-2017.html",
         "eventSocial"  : "https://www.facebook.com/events/779571668875000/",
         "eventTix"     : "none",
-        "eventImgTall" : "img/event-images/" + "laila-mcqueen-and-porcelain-at-necto-nightclub-ann-arbor.jpg",
         "eventImgWide" : "img/event-images/" + "laila-mcqueen-and-porcelain-at-necto-nightclub-ann-arbor.jpg",
         "eventWklOvrd" : true,
         "eventDay"     : 0, // Do not modify
@@ -361,7 +354,6 @@ var eventsJSON = [
         "eventLink"    : "special-events/" + "throwback-thursday-at-necto-nightclub-ann-arbor-michigan-jun-8th-2017.html",
         "eventSocial"  : "https://www.facebook.com/events/944707049004184/",
         "eventTix"     : "none",
-        "eventImgTall" : "img/event-images/" + "throwback-thursday-june-8th-at-necto-nightclub-ann-arbor.jpg",
         "eventImgWide" : "img/event-images/" + "throwback-thursday-june-8th-at-necto-nightclub-ann-arbor.jpg",
         "eventWklOvrd" : false,
         "eventDay"     : 0, // Do not modify
@@ -377,7 +369,6 @@ var eventsJSON = [
         "eventLink"    : "special-events/" + "michigan-bass-music-showcaseat-necto-nightclub-ann-arbor-michigan-jun-8th-2017.html",
         "eventSocial"  : "https://www.facebook.com/events/1798546410460045/",
         "eventTix"     : "none",
-        "eventImgTall" : "img/event-images/" + "michigan-bass-music-showcase-at-necto-nightclub-ann-arbor.jpg",
         "eventImgWide" : "img/event-images/" + "michigan-bass-music-showcase-at-necto-nightclub-ann-arbor.jpg",
         "eventWklOvrd" : true,
         "eventDay"     : 0, // Do not modify
@@ -393,7 +384,6 @@ var eventsJSON = [
         "eventLink"    : "special-events/" + "snbrn-at-necto-nightclub-ann-arbor-michigan-jun-1th-2017.html",
         "eventSocial"  : "https://www.facebook.com/events/1301750026576821/",
         "eventTix"     : "http://www.clubtix.com/snbrn-at-necto-tickets-513162?p=10635",
-        "eventImgTall" : "img/event-images/" + "snbrn-at-necto-nightclub-ann-arbor.jpg",
         "eventImgWide" : "img/event-images/" + "snbrn-at-necto-nightclub-ann-arbor.jpg",
         "eventWklOvrd" : true,
         "eventDay"     : 0, // Do not modify
@@ -409,7 +399,6 @@ var eventsJSON = [
         "eventLink"    : "special-events/" + "throwback-thursday-at-necto-nightclub-ann-arbor-michigan-may-25th-2017.html",
         "eventSocial"  : "https://www.facebook.com/events/290624398016225/",
         "eventTix"     : "none",
-        "eventImgTall" : "img/event-images/" + "cal-throwback-thursday-may252017-at-necto-night-club-ann-arbor.jpg",
         "eventImgWide" : "img/event-images/" + "cal-throwback-thursday-may252017-at-necto-night-club-ann-arbor.jpg",
         "eventWklOvrd" : true,
         "eventDay"     : 0, // Do not modify
@@ -425,7 +414,6 @@ var eventsJSON = [
         "eventLink"    : "special-events/" + "shea-coulee-meet-and-greet-at-necto-nightclub-ann-arbor-michigan-may-19th-2017.html",
         "eventSocial"  : "https://www.facebook.com/events/1874085902808095/",
         "eventTix"     : "https://sheacouleevip.eventbrite.com",
-        "eventImgTall" : "img/event-images/" + "shea-coulee-meet-and-greet-at-necto-nightclub-ann-arbor.jpeg",
         "eventImgWide" : "img/event-images/" + "shea-coulee-meet-and-greet-at-necto-nightclub-ann-arbor.jpeg",
         "eventWklOvrd" : false,
         "eventDay"     : 0, // Do not modify
@@ -441,7 +429,6 @@ var eventsJSON = [
         "eventLink"    : "special-events/" + "shea-coulee-at-necto-nightclub-ann-arbor-michigan-may-19th-2017.html",
         "eventSocial"  : "https://www.facebook.com/events/448481122162732/",
         "eventTix"     : "none",
-        "eventImgTall" : "img/event-images/" + "shea-coulee-at-necto-nightclub-ann-arbor.jpg",
         "eventImgWide" : "img/event-images/" + "shea-coulee-at-necto-nightclub-ann-arbor.jpg",
         "eventWklOvrd" : true,
         "eventDay"     : 0, // Do not modify
@@ -457,7 +444,6 @@ var eventsJSON = [
         "eventLink"    : "special-events/" + "queens-for-the-cure-2-at-necto-nightclub-ann-arbor-michigan-may-18th-2017.html",
         "eventSocial"  : "https://www.facebook.com/events/102748736950232/",
         "eventTix"     : "https://www.ticketor.com/pardonmoifrench/tickets/ann-arbor-queens-for-the-cure-tour-2-54656#buy",
-        "eventImgTall" : "img/event-images/" + "queens-for-the-cure-2-at-necto-nightclub-ann-arbor.jpg",
         "eventImgWide" : "img/event-images/" + "queens-for-the-cure-2-at-necto-nightclub-ann-arbor.jpg",
         "eventWklOvrd" : true,
         "eventDay"     : 0, // Do not modify
@@ -473,7 +459,6 @@ var eventsJSON = [
         "eventLink"    : "special-events/" + "throwback-thursday-at-necto-nightclub-ann-arbor-michigan-may-11th-2017.html",
         "eventSocial"  : "https://www.facebook.com/events/254328991704914/",
         "eventTix"     : "none",
-        "eventImgTall" : "img/event-images/" + "cal-throwback-thursday-may2017-at-necto-night-club-ann-arbor.jpeg",
         "eventImgWide" : "img/event-images/" + "cal-throwback-thursday-may2017-at-necto-night-club-ann-arbor.jpeg",
         "eventWklOvrd" : true,
         "eventDay"     : 0, // Do not modify
@@ -489,7 +474,6 @@ var eventsJSON = [
         "eventLink"    : "special-events/" + "boomer-banks-at-necto-nightclub-ann-arbor-michigan-may-5th-2017.html",
         "eventSocial"  : "https://www.facebook.com/events/145730855958254/",
         "eventTix"     : "none",
-        "eventImgTall" : "img/event-images/" + "boomer-banks-at-necto-nightclub-ann-arbor.jpeg",
         "eventImgWide" : "img/event-images/" + "boomer-banks-at-necto-nightclub-ann-arbor.jpeg",
         "eventWklOvrd" : true,
         "eventDay"     : 0, // Do not modify
@@ -505,7 +489,6 @@ var eventsJSON = [
         "eventLink"    : "special-events/" + "moon-boots-may-4-2017-at-necto-nightclub-ann-arbor-michigan.html",
         "eventSocial"  : "https://www.facebook.com/events/241660382909276/",
         "eventTix"     : "https://moonboots_rebelbass.eventbrite.com",
-        "eventImgTall" : "img/event-images/" + "moon-boots-at-necto-nightclub-ann-arbor-michigan.jpg",
         "eventImgWide" : "img/event-images/" + "moon-boots-rebel-base-at-necto-nightclub-ann-arbor-michigan.png",
         "eventWklOvrd" : true,
         "eventDay"     : 0, // Do not modify
@@ -521,7 +504,6 @@ var eventsJSON = [
         "eventLink"    : "special-events/" + "halfway-to-halloween-2017-at-necto-nightclub-ann-arbor-michigan-may-1st-2017.html",
         "eventSocial"  : "https://www.facebook.com/events/2270506686506865/",
         "eventTix"     : "none",
-        "eventImgTall" : "img/event-images/" + "halfway-to-halloween-2017-at-necto-nightclub-ann-arbor.jpg",
         "eventImgWide" : "img/event-images/" + "halfway-to-halloween-2017-at-necto-nightclub-ann-arbor.jpg",
         "eventWklOvrd" : true,
         "eventDay"     : 0, // Do not modify
@@ -537,7 +519,6 @@ var eventsJSON = [
         "eventLink"    : "special-events/" + "throwback-thursday-apr-27-2017-at-necto-nightclub-ann-arbor-michigan.html",
         "eventSocial"  : "https://www.facebook.com/events/1921979594704149/",
         "eventTix"     : "none",
-        "eventImgTall" : "img/event-images/" + "throwback-thursday-4-27-at-necto-nightclub-ann-arbor.jpg",
         "eventImgWide" : "img/event-images/" + "throwback-thursday-4-27-at-necto-nightclub-ann-arbor.jpg",
         "eventWklOvrd" : true,
         "eventDay"     : 0, // Do not modify
@@ -553,7 +534,6 @@ var eventsJSON = [
         "eventLink"    : "special-events/" + "throwback-thursday-apr-20-2017-at-necto-nightclub-ann-arbor-michigan.html",
         "eventSocial"  : "https://www.facebook.com/events/1921979594704149/",
         "eventTix"     : "none",
-        "eventImgTall" : "img/event-images/" + "throwback-thursday-4-20-at-necto-nightclub-ann-arbor.jpg",
         "eventImgWide" : "img/event-images/" + "throwback-thursday-4-20-at-necto-nightclub-ann-arbor.jpg",
         "eventWklOvrd" : true,
         "eventDay"     : 0, // Do not modify
@@ -569,7 +549,6 @@ var eventsJSON = [
         "eventLink"    : "special-events/" + "deep-house-yoga-at-necto-nightclub-ann-arbor-michigan-apr-20th-2017.html",
         "eventSocial"  : "https://www.facebook.com/events/1921979594704149/",
         "eventTix"     : "http://bit.ly/UYNecto420",
-        "eventImgTall" : "img/event-images/" + "deep-house-yoga-apr-2017-at-necto-nightclub-ann-arbor.jpg",
         "eventImgWide" : "img/event-images/" + "deep-house-yoga-apr-2017-at-necto-nightclub-ann-arbor.jpg",
         "eventWklOvrd" : true,
         "eventDay"     : 0, // Do not modify
@@ -585,7 +564,6 @@ var eventsJSON = [
         "eventLink"    : "special-events/" + "candyland-at-necto-nightclub-ann-arbor-michigan-apr-13th-2017.html",
         "eventSocial"  : "https://www.facebook.com/events/1842349576037665/",
         "eventTix"     : "https://necto_candyland.eventbrite.com/",
-        "eventImgTall" : "img/event-images/" + "cal-candyland-at-necto-nightclub-ann-arbor.jpeg",
         "eventImgWide" : "img/event-images/" + "cal-candyland-at-necto-nightclub-ann-arbor.jpeg",
         "eventWklOvrd" : true,
         "eventDay"     : 0, // Do not modify
@@ -602,7 +580,6 @@ var eventsJSON = [
         "eventLink"    : "special-events/" + "electro-industrial-factory-at-necto-nightclub-ann-arbor-michigan-apr-10th-2017.html",
         "eventSocial"  : "https://www.facebook.com/events/790228854463666/",
         "eventTix"     : "none",
-        "eventImgTall" : "img/event-images/" + "electroindustrial-factory-at-necto-nightclub-ann-arbor.png",
         "eventImgWide" : "img/event-images/" + "electroindustrial-factory-at-necto-nightclub-ann-arbor.png",
         "eventWklOvrd" : true,
         "eventDay"     : 0, // Do not modify
@@ -619,7 +596,6 @@ var eventsJSON = [
         "eventLink"    : "special-events/" + "trinity-taylor-at-necto-nightclub-ann-arbor-michigan-apr-7th-2017.html",
         "eventSocial"  : "https://www.facebook.com/events/404739289895493/",
         "eventTix"     : "none",
-        "eventImgTall" : "img/event-images/" + "trinity-taylor-at-necto-nightclub-ann-arbor.jpg",
         "eventImgWide" : "img/event-images/" + "trinity-taylor-at-necto-nightclub-ann-arbor.jpg",
         "eventWklOvrd" : true,
         "eventDay"     : 0, // Do not modify
@@ -635,7 +611,6 @@ var eventsJSON = [
         "eventLink"    : "special-events/" + "cheat-codes-cade-at-necto-nightclub-ann-arbor-michigan-apr-5th-2017.html",
         "eventSocial"  : "https://www.facebook.com/events/735108179990134/",
         "eventTix"     : "http://www.clubtix.com/cheat-codes-and-cade-at-necto-tickets-507057?p=22473",
-        "eventImgTall" : "img/event-images/" + "cheat-codes-at-necto-nightclub-ann-arbor.png",
         "eventImgWide" : "img/event-images/" + "cheat-codes-at-necto-nightclub-ann-arbor.png",
         "eventWklOvrd" : true,
         "eventDay"     : 0, // Do not modify
@@ -651,7 +626,6 @@ var eventsJSON = [
         "eventLink"    : "special-events/" + "underground-yoga-at-necto-nightclub-ann-arbor-michigan-mar-29th-2017.html",
         "eventSocial"  : "https://www.facebook.com/events/318752321856325/",
         "eventTix"     : "http://bit.ly/UYNecto329",
-        "eventImgTall" : "img/event-images/" + "underground-yoga-mar-29th-2017-at-necto-nightclub-ann-arbor.jpeg",
         "eventImgWide" : "img/event-images/" + "underground-yoga-mar-29th-2017-at-necto-nightclub-ann-arbor.jpeg",
         "eventWklOvrd" : false,
         "eventDay"     : 0, // Do not modify
@@ -667,7 +641,6 @@ var eventsJSON = [
         "eventLink"    : "special-events/" + "queens-for-the-cure-at-necto-nightclub-ann-arbor-michigan-mar-26th-2017.html",
         "eventSocial"  : "https://www.facebook.com/events/800921743394027/",
         "eventTix"     : "https://www.ticketor.com/pardonmoifrench/tickets/ann-arbor-queens-for-the-cure-tour-40654#buy",
-        "eventImgTall" : "img/event-images/" + "queens-for-the-cure-at-necto-nightclub-ann-arbor.jpg",
         "eventImgWide" : "img/event-images/" + "queens-for-the-cure-at-necto-nightclub-ann-arbor.jpg",
         "eventWklOvrd" : false,
         "eventDay"     : 0, // Do not modify
@@ -683,7 +656,6 @@ var eventsJSON = [
         "eventLink"    : "special-events/" + "not-to-be-trusted-at-necto-nightclub-ann-arbor-michigan-mar-25th-2017.html",
         "eventSocial"  : "https://www.facebook.com/events/1244230825673834/",
         "eventTix"     : "none",
-        "eventImgTall" : "img/event-images/" + "cal-not-to-be-trusted-reunion-at-necto-nightclub-ann-arbor.jpeg",
         "eventImgWide" : "img/event-images/" + "cal-not-to-be-trusted-reunion-at-necto-nightclub-ann-arbor.jpeg",
         "eventWklOvrd" : false,
         "eventDay"     : 0, // Do not modify
@@ -699,7 +671,6 @@ var eventsJSON = [
         "eventLink"    : "special-events/" + "breathe-carolina-at-necto-nightclub-ann-arbor-michigan-mar-23rd-2017.html",
         "eventSocial"  : "https://www.facebook.com/events/647347778790781/",
         "eventTix"     : "http://bit.ly/2l68N6Y",
-        "eventImgTall" : "img/event-images/" + "breathe-carolina-at-necto-nightclub-ann-arbor.jpeg",
         "eventImgWide" : "img/event-images/" + "breathe-carolina-at-necto-nightclub-ann-arbor.jpeg",
         "eventWklOvrd" : true,
         "eventDay"     : 0, // Do not modify
@@ -715,7 +686,6 @@ var eventsJSON = [
         "eventLink"    : "special-events/" + "factory-fallout-at-necto-nightclub-ann-arbor-michigan-mar-20th-2017.html",
         "eventSocial"  : "https://www.facebook.com/events/194345694379898/",
         "eventTix"     : "none",
-        "eventImgTall" : "img/event-images/" + "factory-fallout-2017-at-necto-nightclub-ann-arbor.jpeg",
         "eventImgWide" : "img/event-images/" + "factory-fallout-2017-at-necto-nightclub-ann-arbor.jpeg",
         "eventWklOvrd" : true,
         "eventDay"     : 0, // Do not modify
@@ -731,7 +701,6 @@ var eventsJSON = [
         "eventLink"    : "special-events/" + "courtney-act-tatianna-at-necto-nightclub-ann-arbor-michigan-mar-17th-2017.html",
         "eventSocial"  : "https://www.facebook.com/events/1840982122782083/",
         "eventTix"     : "none",
-        "eventImgTall" : "img/event-images/" + "cal-courtney-act-tatianna-at-necto-night-club-ann-arbor.jpg",
         "eventImgWide" : "img/event-images/" + "cal-courtney-act-tatianna-at-necto-night-club-ann-arbor.jpg",
         "eventWklOvrd" : true,
         "eventDay"     : 0, // Do not modify
@@ -747,7 +716,6 @@ var eventsJSON = [
         "eventLink"    : "special-events/" + "throwback-thursday-at-necto-nightclub-ann-arbor-michigan-mar-16th-2017.html",
         "eventSocial"  : "https://www.facebook.com/events/778094255672649/",
         "eventTix"     : "none",
-        "eventImgTall" : "img/event-images/" + "cal-throwbackthursday-at-necto-nightclub-ann-arbor.png",
         "eventImgWide" : "img/event-images/" + "cal-throwbackthursday-at-necto-nightclub-ann-arbor.png",
         "eventWklOvrd" : true,
         "eventDay"     : 0, // Do not modify
@@ -763,7 +731,6 @@ var eventsJSON = [
         "eventLink"    : "special-events/" + "lost-kings-at-necto-nightclub-ann-arbor-michigan-mar-9th-2017.html",
         "eventSocial"  : "https://www.facebook.com/events/1348662695244632/",
         "eventTix"     : "http://www.clubtix.com/lost-kings-at-necto-tickets-504990?p=10635",
-        "eventImgTall" : "img/event-images/" + "lost-kings-at-necto-night-club-ann-arbor.png",
         "eventImgWide" : "img/event-images/" + "lost-kings-at-necto-night-club-ann-arbor.png",
         "eventWklOvrd" : true,
         "eventDay"     : 0, // Do not modify
@@ -779,7 +746,6 @@ var eventsJSON = [
         "eventLink"    : "special-events/" + "underground-yoga-at-necto-nightclub-ann-arbor-michigan-mar-8th-2017.html",
         "eventSocial"  : "https://www.facebook.com/events/1196959980420256/",
         "eventTix"     : "none",
-        "eventImgTall" : "img/event-images/" + "cal-underground-yoga-mar-8th-2017-at-necto-nightclub-ann-arbor.jpeg",
         "eventImgWide" : "img/event-images/" + "cal-underground-yoga-mar-8th-2017-at-necto-nightclub-ann-arbor.jpeg",
         "eventWklOvrd" : false,
         "eventDay"     : 0, // Do not modify
@@ -795,7 +761,6 @@ var eventsJSON = [
         "eventLink"    : "special-events/" + "carnarbor-at-necto-nightclub-ann-arbor-michigan-mar-7th-2017.html",
         "eventSocial"  : "https://www.facebook.com/events/1348662695244632/",
         "eventTix"     : "none",
-        "eventImgTall" : "img/event-images/" + "cal-carnarbor-at-necto-nightclub-ann-arbor.png",
         "eventImgWide" : "img/event-images/" + "cal-carnarbor-at-necto-nightclub-ann-arbor.png",
         "eventWklOvrd" : false,
         "eventDay"     : 0, // Do not modify
@@ -812,7 +777,6 @@ var eventsJSON = [
         "eventLink"    : "special-events/" + "perkulat0r-esseks-at-necto-nightclub-ann-arbor-michigan-mar-2nd-2017.html",
         "eventSocial"  : "https://www.facebook.com/events/1628484420511493/",
         "eventTix"     : "none",
-        "eventImgTall" : "img/event-images/" + "perkulat0r-esseks-at-necto-night-club-ann-arbor.jpeg",
         "eventImgWide" : "img/event-images/" + "perkulat0r-esseks-at-necto-night-club-ann-arbor.jpeg",
         "eventWklOvrd" : true,
         "eventDay"     : 0, // Do not modify
@@ -828,7 +792,6 @@ var eventsJSON = [
         "eventLink"    : "special-events/" + "mardi-gras-at-necto-nightclub-ann-arbor-michigan-feb-25th-2017.html",
         "eventSocial"  : "https://www.facebook.com/events/640451952805391/",
         "eventTix"     : "none",
-        "eventImgTall" : "img/event-images/" + "cal-mardi-gras-vampire-voodoo-at-necto-night-club-ann-arbor.jpg",
         "eventImgWide" : "img/event-images/" + "cal-mardi-gras-vampire-voodoo-at-necto-night-club-ann-arbor.jpg",
         "eventWklOvrd" : true,
         "eventDay"     : 0, // Do not modify
@@ -844,7 +807,6 @@ var eventsJSON = [
         "eventLink"    : "special-events/" + "mardi-gras-at-necto-nightclub-ann-arbor-michigan-feb-25th-2017.html",
         "eventSocial"  : "https://www.facebook.com/events/1308490445874744/",
         "eventTix"     : "none",
-        "eventImgTall" : "img/event-images/" + "cal-mardi-gras-2017-at-necto-night-club-ann-arbor.jpg",
         "eventImgWide" : "img/event-images/" + "cal-mardi-gras-2017-at-necto-night-club-ann-arbor.jpg",
         "eventWklOvrd" : true,
         "eventDay"     : 0, // Do not modify
@@ -860,7 +822,6 @@ var eventsJSON = [
         "eventLink"    : "special-events/" + "ivy-winters-mardi-gras-at-necto-nightclub-ann-arbor-michigan-feb-24th-2017.html",
         "eventSocial"  : "https://www.facebook.com/events/148044559024977/",
         "eventTix"     : "none",
-        "eventImgTall" : "img/event-images/" + "cal-ivy-winters-mardi-gras-at-necto-night-club-ann-arbor.jpg",
         "eventImgWide" : "img/event-images/" + "cal-ivy-winters-mardi-gras-at-necto-night-club-ann-arbor.jpg",
         "eventWklOvrd" : true,
         "eventDay"     : 0, // Do not modify
@@ -877,7 +838,6 @@ var eventsJSON = [
         "eventLink"    : "special-events/" + "rezz-at-necto-nightclub-ann-arbor-michigan-feb-23rd-2017.html",
         "eventSocial"  : "https://www.facebook.com/events/1831441243800571/",
         "eventTix"     : "http://www.clubtix.com/rezz-at-necto-ann-arbor-tickets-493993?p=24795",
-        "eventImgTall" : "img/event-images/" + "cal-rezz-at-necto-nightclub-ann-arbor.jpeg",
         "eventImgWide" : "img/event-images/" + "cal-rezz-at-necto-nightclub-ann-arbor.jpeg",
         "eventWklOvrd" : true,
         "eventDay"     : 0, // Do not modify
@@ -894,7 +854,6 @@ var eventsJSON = [
         "eventLink"    : "special-events/" + "my-bloody-valentine-at-necto-nightclub-ann-arbor-michigan-feb-13th-2017.html",
         "eventSocial"  : "https://www.facebook.com/events/352741681775405/",
         "eventTix"     : "none",
-        "eventImgTall" : "img/event-images/" + "cal-my-bloody-valentine-at-necto-night-club-ann-arbor.jpg",
         "eventImgWide" : "img/event-images/" + "cal-my-bloody-valentine-at-necto-night-club-ann-arbor.jpg",
         "eventWklOvrd" : false,
         "eventDay"     : 0, // Do not modify
@@ -911,7 +870,6 @@ var eventsJSON = [
         "eventLink"    : "special-events/" + "jinkx-monsoon-at-necto-nightclub-ann-arbor-michigan-feb-10th-2017.html",
         "eventSocial"  : "https://www.facebook.com/events/167805097036112/",
         "eventTix"     : "none",
-        "eventImgTall" : "img/event-images/" + "cal-medma-groove-d-art-at-necto-night-club-ann-arbor.jpg",
         "eventImgWide" : "img/event-images/" + "cal-jinkx-monsoon-at-necto-night-club-ann-arbor.jpg",
         "eventWklOvrd" : true,
         "eventDay"     : 0, // Do not modify
@@ -927,7 +885,6 @@ var eventsJSON = [
         "eventLink"    : "special-events/" + "miss-necto-professional-amateur-pageant-2017-at-necto-nightclub-ann-arbor-michigan-jan-29th-2017.html",
         "eventSocial"  : "https://www.facebook.com/events/235480763538626/",
         "eventTix"     : "https://www.eventbrite.com/e/miss-necto-proam-pageant-2017-evil-queens-tickets-29831519879",
-        "eventImgTall" : "img/event-images/" + "cal-medma-groove-d-art-at-necto-night-club-ann-arbor.jpg",
         "eventImgWide" : "img/event-images/" + "cal-miss-necto-2017-at-necto-nightclub-ann-arbor.jpeg",
         "eventWklOvrd" : false,
         "eventDay"     : 0, // Do not modify
@@ -943,7 +900,6 @@ var eventsJSON = [
         "eventLink"    : "special-events/" + "worthy-golf-clap-at-necto-nightclub-ann-arbor-michigan-jan-26th-2017.html",
         "eventSocial"  : "https://www.facebook.com/events/981986061934932/",
         "eventTix"     : "https://www.eventbrite.com/e/worthy-one-on-one-tour-with-golf-clap-tickets-29881447213",
-        "eventImgTall" : "img/event-images/" + "cal-worthy-golf-clap-at-necto-nightclub-ann-arbor.jpeg",
         "eventImgWide" : "img/event-images/" + "cal-worthy-golf-clap-at-necto-nightclub-ann-arbor.jpeg",
         "eventWklOvrd" : true,
         "eventDay"     : 0, // Do not modify
@@ -959,7 +915,6 @@ var eventsJSON = [
         "eventLink"    : "special-events/" + "medma-groove-d-art-at-necto-nightclub-ann-arbor-michigan-jan-21st-2017.html",
         "eventSocial"  : "https://www.facebook.com/events/374941016189201/",
         "eventTix"     : "https://www.eventbrite.com/e/worthy-one-on-one-tour-with-golf-clap-tickets-29881447213",
-        "eventImgTall" : "img/event-images/" + "medma-groove-d-art-at-necto-night-club-ann-arbor.jpeg",
         "eventImgWide" : "img/event-images/" + "medma-groove-d-art-at-necto-night-club-ann-arbor.jpeg",
         "eventWklOvrd" : true,
         "eventDay"     : 0, // Do not modify
@@ -975,7 +930,6 @@ var eventsJSON = [
         "eventLink"    : "special-events/" + "katya-at-necto-nightclub-ann-arbor-michigan-jan-13th-2017.html",
         "eventSocial"  : "https://www.facebook.com/events/197464524043644/",
         "eventTix"     : "https://www.eventbrite.com/e/quinn-xcii-with-ayokay-presented-by-spotlight-tickets-29803552227",
-        "eventImgTall" : "img/event-images/" + "quinn-xcii-ayokay-at-necto-nightclub-ann-arbor.jpeg",
         "eventImgWide" : "img/event-images/" + "quinn-xcii-ayokay-at-necto-nightclub-ann-arbor.jpeg",
         "eventWklOvrd" : true,
         "eventDay"     : 0, // Do not modify
@@ -991,7 +945,6 @@ var eventsJSON = [
         "eventLink"    : "special-events/" + "quinn-xcii-ayokay-at-necto-nightclub-ann-arbor-michigan-jan-19th-2017.html",
         "eventSocial"  : "https://www.facebook.com/events/872461432894909/",
         "eventTix"     : "none",
-        "eventImgTall" : "img/event-images/" + "katya-at-necto-nightclub-ann-arbor.jpeg",
         "eventImgWide" : "img/event-images/" + "katya-at-necto-nightclub-ann-arbor.jpeg",
         "eventWklOvrd" : true,
         "eventDay"     : 0, // Do not modify
@@ -1007,7 +960,6 @@ var eventsJSON = [
         "eventLink"    : "special-events/" + "two-friends-at-necto-nightclub-ann-arbor-michigan-jan-12th-2017.html",
         "eventSocial"  : "https://www.facebook.com/events/1299649313440032/",
         "eventTix"     : "https://www.eventbrite.com/e/two-friends-back-to-school-bash-tickets-29881316823",
-        "eventImgTall" : "img/event-images/" + "two-friends-at-necto-nightclub-ann-arbor.jpg",
         "eventImgWide" : "img/event-images/" + "two-friends-at-necto-nightclub-ann-arbor.jpg",
         "eventWklOvrd" : true,
         "eventDay"     : 0, // Do not modify
@@ -1023,7 +975,6 @@ var eventsJSON = [
         "eventLink"    : "special-events/" + "throwback-thursday-at-necto-nightclub-ann-arbor-michigan-jan-5-2017.html",
         "eventSocial"  : "https://www.facebook.com/events/105488613282374/",
         "eventTix"     : "none",
-        "eventImgTall" : "img/event-images/" + "throwback-thursday-at-necto-night-club-ann-arbor.jpg",
         "eventImgWide" : "img/event-images/" + "throwback-thursday-at-necto-night-club-ann-arbor.jpg",
         "eventWklOvrd" : true,
         "eventDay"     : 0, // Do not modify
@@ -1039,7 +990,6 @@ var eventsJSON = [
         "eventLink"    : "special-events/" + "new-years-eve-2017-ann-arbor-necto-nightclub.html",
         "eventSocial"  : "https://www.facebook.com/events/221900801590054/",
         "eventTix"     : "https://www.eventbrite.com/e/new-years-eve-2017-tickets-29809040643",
-        "eventImgTall" : "img/event-images/" + "new-years-eve-2017-at-necto-nightclub-ann-arbor.jpeg",
         "eventImgWide" : "img/event-images/" + "new-years-eve-2017-at-necto-nightclub-ann-arbor.jpeg",
         "eventWklOvrd" : true,
         "eventDay"     : 0, // Do not modify
@@ -1055,7 +1005,6 @@ var eventsJSON = [
         "eventLink"    : "special-events/" + "throwback-thursday-at-necto-nightclub-ann-arbor-michigan-dec-29-2016.html",
         "eventSocial"  : "https://www.facebook.com/events/1137219513065902/",
         "eventTix"     : "none",
-        "eventImgTall" : "img/event-images/" + "throwback-thursday-at-necto-night-club-ann-arbor.jpg",
         "eventImgWide" : "img/event-images/" + "throwback-thursday-at-necto-night-club-ann-arbor.jpg",
         "eventWklOvrd" : true,
         "eventDay"     : 0, // Do not modify
@@ -1071,7 +1020,6 @@ var eventsJSON = [
         "eventLink"    : "special-events/" + "pride-noel-at-necto-nightclub-ann-arbor-michigan-dec-23rd-2016.html",
         "eventSocial"  : "https://www.facebook.com/events/134439123706957/",
         "eventTix"     : "none",
-        "eventImgTall" : "img/event-images/" + "pride-noel-at-necto-nightclub-ann-arbor.jpg",
         "eventImgWide" : "img/event-images/" + "pride-noel-at-necto-nightclub-ann-arbor.jpg",
         "eventWklOvrd" : true,
         "eventDay"     : 0, // Do not modify
@@ -1087,7 +1035,6 @@ var eventsJSON = [
         "eventLink"    : "special-events/" + "throwback-thursday-at-necto-nightclub-ann-arbor-michigan-dec-22-2016.html",
         "eventSocial"  : "https://www.facebook.com/events/1736467956681248/",
         "eventTix"     : "none",
-        "eventImgTall" : "img/event-images/" + "throwback-thursday-dec-22-at-necto-nightclub-ann-arbor.jpg",
         "eventImgWide" : "img/event-images/" + "throwback-thursday-dec-22-at-necto-nightclub-ann-arbor.jpg",
         "eventWklOvrd" : true,
         "eventDay"     : 0, // Do not modify
@@ -1103,7 +1050,6 @@ var eventsJSON = [
         "eventLink"    : "special-events/" + "plastic-passion-reunion-at-necto-nightclub-ann-arbor-michigan-dec-17th-2016.html",
         "eventSocial"  : "https://www.facebook.com/events/460675907436417/",
         "eventTix"     : "none",
-        "eventImgTall" : "img/event-images/" + "plastic-passion-renuion-at-necto-nightclub-ann-arbor.jpg",
         "eventImgWide" : "img/event-images/" + "plastic-passion-renuion-at-necto-nightclub-ann-arbor.jpg",
         "eventWklOvrd" : true,
         "eventDay"     : 0, // Do not modify
@@ -1119,7 +1065,6 @@ var eventsJSON = [
         "eventLink"    : "special-events/" + "naomi-smalls-at-necto-nightclub-ann-arbor-michigan-dec-16th-2016.html",
         "eventSocial"  : "https://www.facebook.com/events/460675907436417/",
         "eventTix"     : "none",
-        "eventImgTall" : "img/event-images/" + "naomi-smalls-at-necto-nightclub-ann-arbor.jpg",
         "eventImgWide" : "img/event-images/" + "naomi-smalls-at-necto-nightclub-ann-arbor.jpg",
         "eventWklOvrd" : true,
         "eventDay"     : 0, // Do not modify
@@ -1135,7 +1080,6 @@ var eventsJSON = [
         "eventLink"    : "special-events/" + "clozee-and-psymbionic-at-necto-nightclub-ann-arbor-michigan-dec-15th-2016.html",
         "eventSocial"  : "https://www.facebook.com/events/1417695524925106/",
         "eventTix"     : "http://bit.ly/CloZPsymA2",
-        "eventImgTall" : "img/event-images/" + "cal-clozee-and-psymbionic-at-necto-night-club-ann-arbor.jpg",
         "eventImgWide" : "img/event-images/" + "cal-clozee-and-psymbionic-at-necto-night-club-ann-arbor.jpg",
         "eventWklOvrd" : false,
         "eventDay"     : 0, // Do not modify
@@ -1147,12 +1091,10 @@ var eventsJSON = [
         "eventArtist"  : "Dance Break by EnCore",
         "eventDesc"    : "Have you been spending hours searching for the perfect Spotify playlist to take your mind off your busy end-of-the-semester life? We have a better idea... Come check out DANCE BREAK by EnCore, a collaborative dance show including some of the hottest premiere dance crews from the University of Michigan and surrounding areas. 11 Crews - 2 Hours.",
         "eventDescLong": "Have you been spending hours searching for the perfect Spotify playlist to take your mind off your busy end-of-the-semester life? We have a better idea... Come check out DANCE BREAK by EnCore, a collaborative dance show including some of the hottest premiere dance crews from the University of Michigan and surrounding areas. 11 Crews - 2 Hours.",
-
         "eventCover"   : "Pre-sale $5 | Tickets at doors $7",
         "eventLink"    : "special-events/" + "dance-break-by-encore-at-necto-nightclub-ann-arbor-michigan-dec-10th-2016.html",
         "eventSocial"  : "https://www.facebook.com/events/319372518455926/",
         "eventTix"     : "none",
-        "eventImgTall" : "img/event-images/" + "dance-break-encore-at-necto-nightclub-ann-arbor.jpg",
         "eventImgWide" : "img/event-images/" + "dance-break-encore-at-necto-nightclub-ann-arbor.jpg",
         "eventWklOvrd" : true,
         "eventDay"     : 0, // Do not modify
@@ -1162,16 +1104,12 @@ var eventsJSON = [
         "eventDate"    : new Date("Dec 7, 2016 20:00:00"),
         "eventName"    : "Cap’n Crunch and Funny or Die present Comedy Cram Session with Rory Scovel & Kurt Braunohler",
         "eventArtist"  : "Rory Scovel & Kurt Braunohler",
-
         "eventDesc"    : "Come celebrate the latest web series The Earliest Show, from Cap’n Crunch and Funny or Die! Enjoy some sweets from Washtenaw Dairy and laughs from Rory Scovel and Kurt Braunohler.",
-
         "eventDescLong": "Come celebrate the latest web series The Earliest Show, from Cap’n Crunch and Funny or Die! Enjoy some sweets from Washtenaw Dairy and laughs from Rory Scovel and Kurt Braunohler.",
-
         "eventCover"   : "Free with RSVP",
         "eventLink"    : "special-events/" + "rory-scovel-kurt-braunohler-at-necto-nightclub-ann-arbor-michigan-dec-7th-2016.html",
         "eventSocial"  : "https://www.facebook.com/events/201089556964231/",
         "eventTix"     : "none",
-        "eventImgTall" : "img/event-images/" + "cal-rory-scovel-kurt-braunohler-at-necto-nightclub-ann-arbor.jpg",
         "eventImgWide" : "img/event-images/" + "cal-rory-scovel-kurt-braunohler-at-necto-nightclub-ann-arbor.jpg",
         "eventWklOvrd" : true,
         "eventDay"     : 0, // Do not modify
@@ -1187,7 +1125,6 @@ var eventsJSON = [
         "eventLink"    : "special-events/" + "sharon-needles-at-necto-nightclub-ann-arbor-michigan-dec-2nd-2016.html",
         "eventSocial"  : "https://www.facebook.com/events/115293922275539/",
         "eventTix"     : "none",
-        "eventImgTall" : "img/event-images/" + "cal-sharon-needles-at-necto-night-club-ann-arbor.jpg",
         "eventImgWide" : "img/event-images/" + "cal-sharon-needles-at-necto-night-club-ann-arbor.jpg",
         "eventWklOvrd" : true,
         "eventDay"     : 0, // Do not modify
@@ -1203,7 +1140,6 @@ var eventsJSON = [
         "eventLink"    : "special-events/" + "soul-practitioners-rockin-christmas-at-necto-nightclub-ann-arbor-michigan-dec-2nd-2016.html",
         "eventSocial"  : "https://www.facebook.com/events/1679074349070438/",
         "eventTix"     : "none",
-        "eventImgTall" : "img/event-images/" + "cal-soul-practitioners-at-necto-nightclub-ann-arbor.jpeg",
         "eventImgWide" : "img/event-images/" + "cal-soul-practitioners-at-necto-nightclub-ann-arbor.jpeg",
         "eventWklOvrd" : true,
         "eventDay"     : 0, // Do not modify
@@ -1219,7 +1155,6 @@ var eventsJSON = [
         "eventLink"    : "special-events/" + "fall-formal-2016-at-necto-nightclub-ann-arbor-michigan-nov-28th-2016.html",
         "eventSocial"  : "https://www.facebook.com/events/1527288940620781/",
         "eventTix"     : "none",
-        "eventImgTall" : "img/event-images/" + "cal-fall-formal-2016-at-necto-nightclub-ann-arbor.jpg",
         "eventImgWide" : "img/event-images/" + "cal-fall-formal-2016-at-necto-nightclub-ann-arbor.jpg",
         "eventWklOvrd" : true,
         "eventDay"     : 0, // Do not modify
@@ -1235,7 +1170,6 @@ var eventsJSON = [
         "eventLink"    : "special-events/" + "unfolded-at-necto-nightclub-ann-arbor-michigan-nov-19th-2016.html",
         "eventSocial"  : "https://www.facebook.com/events/1467037769979873/",
         "eventTix"     : "https://www.eventbrite.com/e/unfolded-tickets-28922587237",
-        "eventImgTall" : "img/event-images/" + "cal-unfolded-clozee-and-psymbionic-at-necto-night-club-ann-arbor.jpg",
         "eventImgWide" : "img/event-images/" + "cal-unfolded-clozee-and-psymbionic-at-necto-night-club-ann-arbor.jpg",
         "eventWklOvrd" : true,
         "eventDay"     : 0, // Do not modify
@@ -1251,7 +1185,6 @@ var eventsJSON = [
         "eventLink"    : "special-events/" + "underground-yoga-deep-house-vinyasa-at-necto-nightclub-ann-arbor-michigan-nov-14th-2016.html",
         "eventSocial"  : "https://www.facebook.com/events/1268772179847047/",
         "eventTix"     : "http://bit.ly/UYNecto1114",
-        "eventImgTall" : "img/event-images/" + "cal-deep-house-vinyasa-at-necto-night-club-ann-arbor.jpg",
         "eventImgWide" : "img/event-images/" + "cal-deep-house-vinyasa-at-necto-night-club-ann-arbor.jpg",
         "eventWklOvrd" : true,
         "eventDay"     : 0, // Do not modify

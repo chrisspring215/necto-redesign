@@ -198,7 +198,7 @@ def buildPages():
     <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.12.0.min.js"><\/script>')</script>
     -->
     <script src="js/plugins.js"></script>
-    <script src="js/events.js"></script>
+    <script src="js/events-min.js"></script>
     <script src="js/main.js"></script>
     <!-- Builds all navigtion -->
     <script>buildNavs()</script>
@@ -440,7 +440,7 @@ def buildSiteMap():
 	    -->
 
 	    <script src="js/plugins.js"></script>
-	    <script src="js/events.js"></script>
+	    <script src="js/events-min.js"></script>
 	    <script src="js/main.js"></script>
 
 	    <!-- Builds all navigtion -->
@@ -471,3 +471,31 @@ def buildSiteMap():
 	f.close()
 
 buildSiteMap()
+
+# Mins JS
+def minJS():
+	
+	# Opens the Events JS file
+	file = open('../js/events.js', 'r');
+	file_contents = file.read();
+	
+	# Removes white space
+	removeSpace5 = re.sub("     "," ", file_contents)
+	removeSpace4 = re.sub("    "," ", removeSpace5)
+	removeSpace3 = re.sub("   "," ", removeSpace4)
+	removeSpace2 = re.sub("  "," ", removeSpace3)
+	lineBreaks = re.sub("/(\r\n|\n|\r)/gm","", removeSpace2)
+	comment1 = re.sub(" // Do not modify","", lineBreaks)
+	comment2 = re.sub(' //"eventWklOvrd" : true,','', comment1)
+	tf1 = re.sub('"eventWklOvrd" : true,','"eventWklOvrd" : 1,', comment2)
+	tf2 = re.sub('"eventWklOvrd" : false,','"eventWklOvrd" : 0,', tf1)
+	tf3 = re.sub('"pastEvent" : false','"pastEvent" : 0', tf2)
+
+	# Opens and over writes the EventsJSON file
+	target = open('../js/events-min.js','w')
+	target.write(tf3)
+
+	file.close
+
+
+minJS()

@@ -170,7 +170,7 @@ def buildPages():
               </div>
               Info:  <span itemprop="telephone"><a href="tel:17349945436">734-994-5436</a></span><br>
               Phone: <span itemprop="telephone"><a href="tel:17349945835">734-994-5835</a></span><br>
-              Phone: <span itemprop="email"><a href="mailto:info@necto.com">info@necto.com</a></span>
+              Email: <span itemprop="email"><a href="mailto:info@necto.com">info@necto.com</a></span>
           </div>
         </div>
         <div class="col col-12-xs col-3-sm">
@@ -407,7 +407,7 @@ def buildSiteMap():
 	              </div>
 	              Info:  <span itemprop="telephone"><a href="tel:17349945436">734-994-5436</a></span><br>
 	              Phone: <span itemprop="telephone"><a href="tel:17349945835">734-994-5835</a></span><br>
-	              Phone: <span itemprop="email"><a href="mailto:info@necto.com">info@necto.com</a></span>
+	              Email: <span itemprop="email"><a href="mailto:info@necto.com">info@necto.com</a></span>
 	          </div>
 	        </div>
 

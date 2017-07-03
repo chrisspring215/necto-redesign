@@ -45,6 +45,21 @@ var eventsJSON = [
         "pastEvent"    : false // Do not modify
     },
     {
+        "eventDate"    : new Date("Aug 27, 2017 19:00:00"),
+        "eventName"    : "God Module : Does this Stuff Freak You Out? US Tour",
+        "eventArtist"  : "God Module",
+        "eventDesc"    : "God Module : Does this Stuff Freak You Out? US Tour<br>with Mordacious, Midnight Myth & Visions in Black</br></br>God Module combines elements of harsh Techno, Darkwave, Goth and Industrial. Pounding beats mix with hypnotic synth hooks, deranged film samples and psychotically-effected vocals to make up a sound that is as disturbing as it is danceable.",
+        "eventDescLong": "God Module : Does this Stuff Freak You Out? US Tour<br>with Mordacious, Midnight Myth & Visions in Black</br></br>God Module combines elements of harsh Techno, Darkwave, Goth and Industrial. Pounding beats mix with hypnotic synth hooks, deranged film samples and psychotically-effected vocals to make up a sound that is as disturbing as it is danceable.",
+        "eventCover"   : "Presale tickets - 4pk = $20 | $7.50 | $10 | $12",
+        "eventLink"    : "special-events/" + "god-module-at-necto-nightclub-ann-arbor-michigan-aug-27th-2017.html",
+        "eventSocial"  : "https://www.facebook.com/events/149997122211288/",
+        "eventTix"     : "https://godmodule_necto.eventbrite.com",
+        "eventImgWide" : "img/event-images/" + "god-module-at-necto-nightclub-ann-arbor.jpg",
+        "eventWklOvrd" : true,
+        "eventDay"     : 0, // Do not modify
+        "pastEvent"    : false // Do not modify
+    },
+    {
         "eventDate"    : new Date("Aug 24, 2017 21:00:00"),
         "eventName"    : "React presents... Gigamesh",
         "eventArtist"  : "Gigamesh",

@@ -105,6 +105,21 @@
         "pastEvent"    : false
     },
     {
+        "eventDate"    : "Aug 4, 2017 21:00:00",
+        "eventName"    : "Dragster featuring... KATYA, Miss Congeniality of RuPaul‘s Drag Race S7 & All Stars S2 Runner Up",
+        "eventArtist"  : "Katya",
+        "eventDesc"    : "Katya an American drag queen and actor from Boston, Massachusetts. Zamolodchikova is best known for competing on the seventh season of RuPaul's Drag Race, during which she was voted Miss Congeniality and placed fifth. She would later go on to become a finalist on the second season of RuPaul's Drag Race: All Stars. Along with fellow Drag Race contestant Trixie Mattel, she hosts UNHhhh, a web series hosted on the World of Wonder YouTube channel that has amassed over 8 million views as of May 2017 ",
+        "eventDescLong": "Katya an American drag queen and actor from Boston, Massachusetts. Zamolodchikova is best known for competing on the seventh season of RuPaul's Drag Race, during which she was voted Miss Congeniality and placed fifth. She would later go on to become a finalist on the second season of RuPaul's Drag Race: All Stars. Along with fellow Drag Race contestant Trixie Mattel, she hosts UNHhhh, a web series hosted on the World of Wonder YouTube channel that has amassed over 8 million views as of May 2017 ",
+        "eventCover"   : "Free before 10pm | Free with College ID before 11pm | $5 for 21+ | $10 for 18-20",
+        "eventLink"    : "special-events/katya-at-necto-nightclub-ann-arbor-michigan-aug-4th-2017.html",
+        "eventSocial"  : "https:www.facebook.com/events/231312820711429/",
+        "eventTix"     : "none",
+        "eventImgWide" : "img/event-images/katya-at-necto-nightclub-ann-arbor-aug-4-2017.jpg",
+        "eventWklOvrd" : true,
+        "eventDay"     : 0,
+        "pastEvent"    : false
+    },
+    {
         "eventDate"    : "July 27, 2017 22:00:00",
         "eventName"    : "Throwback Thursday : 21+ get in FREE",
         "eventArtist"  : "Throwback Thursday",

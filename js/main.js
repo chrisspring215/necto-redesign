@@ -378,6 +378,10 @@ var mainNavigation = [
     {
         "linkUrl"    : 'https://www.eventbrite.com/d/mi--ann-arbor/necto/?mode=search',
         "anchorName" : 'TICKETS',
+    },
+    {
+        "linkUrl"    : 'necto-policies.html',
+        "anchorName" : 'POLICIES',
     }
 ];
 

@@ -1,5 +1,20 @@
 var eventsJSON = [
  {
+ "eventDate" : new Date("Dec 7, 2017 21:00:00"),
+ "eventName" : "React presents... Two Friends",
+ "eventArtist" : "Two Friends",
+ "eventDesc" : "Matt Halper and Eli Sones, the young masterminds behind Two Friends, have quickly revamped from high school bedroom producers to one of the most promising dance music duos of 2017. Known for their viral remixes of “Trap Queen”, “I Miss You” and “Mr. Brightside”, as well as their latest original offerings “Pacific Coast Highway,“ “Emily,“ and “Out Of Love,“ the two have in unprecedented time mastered a wide range of genres from melodic house to harder progressive cuts to pop-leaning earworms. With their Spotify and SoundCloud streams now exceeding 70 million and with twenty-three #1’s on Hype Machine, the boys are well on their way to becoming the next big dance act to come out of America.", 
+ "eventDescLong": "Matt Halper and Eli Sones, the young masterminds behind Two Friends, have quickly revamped from high school bedroom producers to one of the most promising dance music duos of 2017. Known for their viral remixes of “Trap Queen”, “I Miss You” and “Mr. Brightside”, as well as their latest original offerings “Pacific Coast Highway,“ “Emily,“ and “Out Of Love,“ the two have in unprecedented time mastered a wide range of genres from melodic house to harder progressive cuts to pop-leaning earworms. With their Spotify and SoundCloud streams now exceeding 70 million and with twenty-three #1’s on Hype Machine, the boys are well on their way to becoming the next big dance act to come out of America.</br></br>Kicking off their musical journey in senior year of high school, the boys honed their skills through remixing, taking on the likes of The Chainsmokers, Alesso, and Tori Kelly to name but a few. Perfecting their distinct “Soul House” style, Two Friends were quick to prove their versatile production techniques, drawing upon a wide variety of live instrumentation to create a truly multi-faceted sound with every release. After receiving the “Award of Independent Excellence” from Hollywood Music in Media Awards, Two Friends swiftly exceeded their influence beyond the online sphere, attracting the spotlight on stage and radio. While Don Diablo was dropping Two Friends remixes on Hexagon Radio, their remix of Lana Del Rey’s hit “Born To Die” scored airplay on Sirius XM, securing the boys a top ten spot in the BPM Hits Chart in 2014.</br></br>Following multiple performances at San Francisco’s Ruby Skye, as well as shows at New York’s illustrious Webster Hall and the Fonda Theatre in Los Angeles, the boys soon branched out to venues in Spain, Denmark, The Bahamas, and Mexico, showing off their potential in the international arena.</br></br>With support now coming from the likes of Tiesto, The Chainsmokers, Martin Garrix, and many more, and with a whole host of original releases locked in for 2017, Matt and Eli undoubtedly look set to dominate this year and beyond.",
+ "eventCover" : "Presale tickets - $10 | $12.50 | $15",
+ "eventLink" : "special-events/" + "two-friends-at-necto-nightclub-ann-arbor-michigan-dec-7th-2017.html",
+ "eventSocial" : "https://www.facebook.com/events/1705154979788647/",
+ "eventTix" : "https://www.ticketfly.com/purchase/event/1519740?utm_medium=bks",
+ "eventImgWide" : "img/event-images/" + "two-friends-at-necto-nightclub-ann-arbor-dec-7-2017.jpg",
+ "eventWklOvrd" : 1,
+ "eventDay" : 0,
+ "pastEvent" : 0
+ },
+ {
  "eventDate" : new Date("Oct 26, 2017 21:00:00"),
  "eventName" : "GORGON CITY : Kingdom Tour",
  "eventArtist" : "Gorgon City",
@@ -70,6 +85,21 @@ var eventsJSON = [
  "eventSocial" : "https://www.facebook.com/events/597932630330992/",
  "eventTix" : "https://www.ticketfly.com/purchase/event/1482748?utm_medium=bks",
  "eventImgWide" : "img/event-images/" + "gigamesh-at-necto-nightclub-ann-arbor.jpg",
+ "eventWklOvrd" : 1,
+ "eventDay" : 0,
+ "pastEvent" : 0
+ },
+ {
+ "eventDate" : new Date("Aug 14, 2017 21:00:00"),
+ "eventName" : "Factory's 13th Birthday Bash",
+ "eventArtist" : "Factory's 13th Birthday Bash",
+ "eventDesc" : "We‘ve left the twilight of childhood and are now, officially... TEENS. And as teenagers, we should probably party with all the angst and rebellion our new age affords. In 2004, we came together to create something that would be /ours/. It's been a whopping 13 years, full of evolution and growth, and we're proud that we've always been able to be ourselves. Thank you, Factory. Let‘s celebrate.",
+ "eventDescLong": "We‘ve left the twilight of childhood and are now, officially... TEENS. And as teenagers, we should probably party with all the angst and rebellion our new age affords. In 2004, we came together to create something that would be /ours/. It's been a whopping 13 years, full of evolution and growth, and we're proud that we've always been able to be ourselves. Thank you, Factory. Let‘s celebrate.",
+ "eventCover" : "$1 before 10pm and $3 after 10pm",
+ "eventLink" : "special-events/" + "factory-13th-birthday-at-necto-nightclub-ann-arbor-michigan-aug-14th-2017.html",
+ "eventSocial" : "facebook.com/events/254182888405004/",
+ "eventTix" : "none",
+ "eventImgWide" : "img/event-images/" + "factory-13th-birthday-at-necto-nightclub-ann-arbor.jpg",
  "eventWklOvrd" : 1,
  "eventDay" : 0,
  "pastEvent" : 0

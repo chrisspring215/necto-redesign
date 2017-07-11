@@ -60,6 +60,21 @@
         "pastEvent"    : false
     },
     {
+        "eventDate"    : "Sept 14, 2017 21:00:00",
+        "eventName"    : "React presents... Henry Fong x Bad Royale",
+        "eventArtist"  : "Henry Fong x Bad Royale",
+        "eventDesc"    : "Henry Fong - An EDM DJ/producer originally from West Palm Beach, Florida. He began DJing during his college years at the University of Central Florida, and held various residencies and promoted at local clubs in Orlando, FL. After graduation from the college, he moved to Los Angeles to focus on music production. He has since released on record labels such as Spinnin, Revealed, OWSLA, Mad Decent, Dim Mak, and in 2015 started his own imprint Banzai Recs. He is known infusing styles such as reggae/dancehall and Melbourne Bounce into high energy EDM tracks. Stand out songs include “Scream“, “Encore“, “Stand Up“, “Wine Dem“, “Bust Dem“, and “Ass Up“.</br></br>Bad Royale - What do you get when you lock an Israeli, a Norwegian, a Mexican-Swede and a Lebanese-American in a studio? Some solid trap music.</br></br>Bad Royale are the new kings on the Mad Decent block, but as a group of four individual artists they’re not new to the DJ game. With the recent reveal of their identities at EDC Vegas, the world now knows the ironic truth: as solo artists, three of the four members of Bad Royale have already seen significant prior success—producing trance music.",
+        "eventDescLong": "Henry Fong - An EDM DJ/producer originally from West Palm Beach, Florida. He began DJing during his college years at the University of Central Florida, and held various residencies and promoted at local clubs in Orlando, FL. After graduation from the college, he moved to Los Angeles to focus on music production. He has since released on record labels such as Spinnin, Revealed, OWSLA, Mad Decent, Dim Mak, and in 2015 started his own imprint Banzai Recs. He is known infusing styles such as reggae/dancehall and Melbourne Bounce into high energy EDM tracks. Stand out songs include “Scream“, “Encore“, “Stand Up“, “Wine Dem“, “Bust Dem“, and “Ass Up“.</br></br>Bad Royale - What do you get when you lock an Israeli, a Norwegian, a Mexican-Swede and a Lebanese-American in a studio? Some solid trap music.</br></br>Bad Royale are the new kings on the Mad Decent block, but as a group of four individual artists they’re not new to the DJ game. With the recent reveal of their identities at EDC Vegas, the world now knows the ironic truth: as solo artists, three of the four members of Bad Royale have already seen significant prior success—producing trance music.",
+        "eventCover"   : "Presale tickets - $10 | $12.50 | $15",
+        "eventLink"    : "special-events/henry-fong-bad-royale-at-necto-nightclub-ann-arbor-michigan-sept-14-2017.html",
+        "eventSocial"  : "https:www.facebook.com/events/1874558196199787/",
+        "eventTix"     : "https:www.ticketfly.com/purchase/event/1523062?utm_medium=bks",
+        "eventImgWide" : "img/event-images/henry-fong-bad-royale-at-necto-nightclub-ann-arbor-michigan.jpg",
+        "eventWklOvrd" : true,
+        "eventDay"     : 0,
+        "pastEvent"    : false
+    },
+    {
         "eventDate"    : "Aug 27, 2017 19:00:00",
         "eventName"    : "God Module : Does this Stuff Freak You Out? US Tour",
         "eventArtist"  : "God Module",

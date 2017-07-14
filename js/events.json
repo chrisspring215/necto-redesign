@@ -45,6 +45,21 @@
         "pastEvent"    : false
     },
     {
+        "eventDate"    : "Sept 28, 2017 21:00:00",
+        "eventName"    : "React presents... Claptone",
+        "eventArtist"  : "Claptone",
+        "eventDesc"    : "In a now long forgotten world, many generations ago, a bird like shape emerged from wooded darkness, floating and fluttering, drifting and dreaming. Backlit by a bright glow of iridescent light, the undecipherable form wore a dazzling golden mask. Its long beak swooped down like an inverted horn and since then, people have referred to the mythical being simply as Claptone.<br><br>Years spending wandering medieval landscapes have informed Claptone’s view of the world, experiencing both magical mystery and muted melancholy he enchanted onlookers with occult instruments and beguiling sounds. Forever surrounded by a sense of intrigue, the world soon cottoned on to the elusive yet enchanting musical powers of this otherworldly beast. The results are that today his shamanistic sonic powers take him all around the world.",
+        "eventDescLong": "Years spending wandering medieval landscapes have informed Claptone’s view of the world, experiencing both magical mystery and muted melancholy he enchanted onlookers with occult instruments and beguiling sounds. Forever surrounded by a sense of intrigue, the world soon cottoned on to the elusive yet enchanting musical powers of this otherworldly beast. The results are that today his shamanistic sonic powers take him all around the world.",
+        "eventCover"   : "Presale tickets - $15 | Doors $18",
+        "eventLink"    : "special-events/claptone-at-necto-nightclub-ann-arbor-michigan-sept-28-2017.html",
+        "eventSocial"  : "https:www.facebook.com/events/664957517040960/",
+        "eventTix"     : "https:www.ticketfly.com/purchase/event/1524757?utm_medium=bks",
+        "eventImgWide" : "img/event-images/claptone-at-necto-nightclub-ann-arbor-michigan.jpg",
+        "eventWklOvrd" : true,
+        "eventDay"     : 0,
+        "pastEvent"    : false
+    },
+    {
         "eventDate"    : "Sept 21, 2017 21:00:00",
         "eventName"    : "Necto presents... The Legendary... Magnificent... DJ JAZZY JEFF",
         "eventArtist"  : "DJ Jazzy Jeff",
@@ -70,6 +85,21 @@
         "eventSocial"  : "https:www.facebook.com/events/1874558196199787/",
         "eventTix"     : "https:www.ticketfly.com/purchase/event/1523062?utm_medium=bks",
         "eventImgWide" : "img/event-images/henry-fong-bad-royale-at-necto-nightclub-ann-arbor-michigan.jpg",
+        "eventWklOvrd" : true,
+        "eventDay"     : 0,
+        "pastEvent"    : false
+    },
+    {
+        "eventDate"    : "Aug 31, 2017 21:00:00",
+        "eventName"    : "React presents... Ghastly",
+        "eventArtist"  : "Ghastly",
+        "eventDesc"    : "Ghastly's approachable yet hard-hitting style ushers a forward-thinking dynamic that is not often seen in today's saturated scene, and his solo productions and collaborations present an unequivocal level of determination and finesse. Uniquely blending house, trap, and dubstep into a pot-pourri of bass, the young producer definitively pushes the boundaries of the entire EDM scene today, and a handful of the industry's finest have recognized his potential including Skrillex, Diplo, Dillon Francis, Tchami, DJ Snake, Datsik, Borgore, Zomboy, and Zeds Dead. With slew of mentally-stimulating originals and physically-altering collaborations under his belt, such as his original “Miami Connection“ with Jauz and single “Crank It“ with Mija & Lil Jon, it's safe to say that Ghastly is on a mission to redefine dance music for all.",
+        "eventDescLong": "Growing up on a goat farm in Arizona might not be considered the typical American upbringing for the next big DJ and producer, but then again Ghastly isn't just your typical American artist. Many have described him as a partially insane young man with a dark sense of humor. Politely abominable and casually destructive, he wields the catch phrase “born to die“ as a mantra to his chaotic lifestyle. His sets have been heralded as …Energetic and eclectic live performances which are sometimes followed by odd speeches about the abnormalities of life, regretful sexual encounters, and well cooked food.“ With such a diverse personality and rapport for his fans, it's clear that Ghastly has one thing on his mind, and that's to change the world.<br></br>After entering the music scene and practicing his talents with touring metal bands such as The Irish Front, David Lee Crow finally found his calling with dance music and it inspired him to pack up and head to Venice Beach, California to live out of his van with no contacts or connections in a chosen gesture to truly start from the bottom and pursue a new career in electronic production. It didn't take long for him to find his place in the scene, as Ghastly quickly claimed himself a position as Bassrush Resident DJ at Exchange LA, and has also secured a number of releases on chart-topping labels such as OWSLA, Buygore, and Dim Mak to name a few.<br></br>Ghastly's approachable yet hard-hitting style ushers a forward-thinking dynamic that is not often seen in today's saturated scene, and his solo productions and collaborations present an unequivocal level of determination and finesse. Uniquely blending house, trap, and dubstep into a pot-pourri of bass, the young producer definitively pushes the boundaries of the entire EDM scene today, and a handful of the industry's finest have recognized his potential including Skrillex, Diplo, Dillon Francis, Tchami, DJ Snake, Datsik, Borgore, Zomboy, and Zeds Dead. With slew of mentally-stimulating originals and physically-altering collaborations under his belt, such as his original “Miami Connection“ with Jauz and single “Crank It“ with Mija & Lil Jon, it's safe to say that Ghastly is on a mission to redefine dance music for all.",
+        "eventCover"   : "Presale tickets - $15 | $18 | $20 | Doors $25",
+        "eventLink"    : "special-events/ghastly-at-necto-nightclub-ann-arbor-michigan-aug-31th-2017.html",
+        "eventSocial"  : "https:www.facebook.com/events/118227762130905/",
+        "eventTix"     : "https:www.ticketfly.com/purchase/event/1525163?utm_medium=bks",
+        "eventImgWide" : "img/event-images/ghastly-at-necto-nightclub-ann-arbor-michigan-aug-31-2017.jpg",
         "eventWklOvrd" : true,
         "eventDay"     : 0,
         "pastEvent"    : false

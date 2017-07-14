@@ -211,11 +211,12 @@ function populateCalPageEvents() {
     for (i = 0; i <= calWeeklyEventsList.length - 1; i++) {
         
         // If a Special Event is set to Override, remove the previous weekly entry
-        if (calWeeklyEventsList[i].eventWklOvrd === true) {
+        if (calWeeklyEventsList[i].eventWklOvrd === 1) {
             calWeeklyEventsList.splice(i-1, 1);
         }
         // Else, Do nothing
-        else {           
+        else {
+
         }
     }
 

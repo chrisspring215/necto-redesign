@@ -195,6 +195,21 @@ var eventsJSON = [
  "pastEvent" : 0
  },
  {
+ "eventDate" : new Date("Aug 3, 2017 22:00:00"),
+ "eventName" : "Throwback Thursday : 21+ get in FREE",
+ "eventArtist" : "Throwback Thursday",
+ "eventDesc" : "THROWBACK THURSDAY: All Your Favorite Music from the 80s, 90s & early 00s<br><br>FREE for 21+ | $10 for 18-20",
+ "eventDescLong": "THROWBACK THURSDAY: All Your Favorite Music from the 80s, 90s & early 00s<br><br>FREE for 21+ | $10 for 18-20<br><br>with DJ NICK DONOVAN<br><br>Totally Awesome Drink Specials:<br><br>$3.50 Well drinks<br>$2.50 Fireball shots<br>3 for $10 Jaeger Bombs<br>$2 Miller Lite Bottles",
+ "eventCover" : "FREE for 21+ | $10 for 18-20",
+ "eventLink" : "special-events/" + "throwback-thursday-at-necto-nightclub-ann-arbor-michigan-aug-3rd-2017.html",
+ "eventSocial" : "https://facebook.com/events/156257121611842/",
+ "eventTix" : "none",
+ "eventImgWide" : "img/event-images/" + "throwback-thursday-aug-3-2017-at-necto-nightclub-ann-arbor.jpg",
+ "eventWklOvrd" : 1,
+ "eventDay" : 0,
+ "pastEvent" : 0
+ },
+ {
  "eventDate" : new Date("July 27, 2017 22:00:00"),
  "eventName" : "Throwback Thursday : 21+ get in FREE",
  "eventArtist" : "Throwback Thursday",

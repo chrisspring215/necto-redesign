@@ -15,6 +15,21 @@
         "pastEvent"    : false
     },
     {
+        "eventDate"    : "Nov 9, 2017 21:00:00",
+        "eventName"    : "Christian Martin x Desert Hearts [Mikey Lion | Lee Reynolds | Marbs | Porkchop]",
+        "eventArtist"  : "Christian Martin",
+        "eventDesc"    : "Christian Martin's love affair with electronic music began in 1995, as an early attendee at Southern California's legendary Moontribe full moon desert parties. After absorbing late 90's club life in New York, London, and Los Angeles, Christian settled in San Francisco in the spring of 2000. He started playing records in 2002 under the tutelage of his brother, Justin Martin, armed with a stack of Justin's old vinyl and used Technics 1200's from Sammy D.",
+        "eventDescLong": "Christian Martin's love affair with electronic music began in 1995, as an early attendee at Southern California's legendary Moontribe full moon desert parties. After absorbing late 90's club life in New York, London, and Los Angeles, Christian settled in San Francisco in the spring of 2000. He started playing records in 2002 under the tutelage of his brother, Justin Martin, armed with a stack of Justin's old vinyl and used Technics 1200's from Sammy D.<br><br>In 2003, inspired by the massive desert soundsystems of old, Christian founded the dirtybird soundsystem. Along with co-founders Justin Martin, Worthy, and Claude VonStroke, dirtybird's Sunday afternoon BBQ's have quickly become a Golden Gate Park institution.<br><br>Desert Hearts was manifested from an abundance of positive energy in November of 2012. Starting as a 200 person renegade gathering in the Mojave, we have grown tremendously, refining our abilities to produce world class house and techno gatherings. Home of Desert Hearts Records and our roaming City Hearts party series, we aim to spread as much love as humanly possible through music and art.<br><br>Desert Hearts started as a collaboration of San Diego based DJs Mikey Lion, Lee Reynolds, Marbs, Porkchop, and Deep Jesus alongside social influencer Christopher Kristoff. Together we put in all our love dedicating endless hours of our time to creating a beautiful place where we can gather and celebrate life through music and community.",
+        "eventCover"   : "Presale tickets - 4 pack - $20 | GA $15 - $17.50 | Door - $20",
+        "eventLink"    : "special-events/christian-martin-at-necto-nightclub-ann-arbor-michigan-nov-11-2017.html",
+        "eventSocial"  : "https:www.facebook.com/events/1370979892997690/",
+        "eventTix"     : "https:cmartin_dhearts_necto.eventbrite.com",
+        "eventImgWide" : "img/event-images/christian-martin-at-necto-nightclub-ann-arbor-michigan-nov-11-2017.png",
+        "eventWklOvrd" : true,
+        "eventDay"     : 0,
+        "pastEvent"    : false
+    },
+    {
         "eventDate"    : "Oct 26, 2017 21:00:00",
         "eventName"    : "GORGON CITY : Kingdom Tour",
         "eventArtist"  : "Gorgon City",
@@ -85,6 +100,21 @@
         "eventSocial"  : "https:www.facebook.com/events/1878374215761529/",
         "eventTix"     : "https:jazzyjeff_necto.eventbrite.com",
         "eventImgWide" : "img/event-images/dj-jazzy-jeff-at-necto-nightclub-ann-arbor.jpg",
+        "eventWklOvrd" : true,
+        "eventDay"     : 0,
+        "pastEvent"    : false
+    },
+    {
+        "eventDate"    : "Sept 15, 2017 21:00:00",
+        "eventName"    : "Dragster featuring... RAJA, Winner of RuPaul's Drag Race S3",
+        "eventArtist"  : "Raja",
+        "eventDesc"    : "Exotic and edgy, Exotic and edgy, Raja Gemini has the other queens gagging at more than just her eleganza. A self-professed supermodel, Raja is setting the runway on fire with her ferocious strut and eye-popping style. Stand in her way and Raja will shantay past you like fashion road kill.",
+        "eventDescLong": "Exotic and edgy, Exotic and edgy, Raja Gemini has the other queens gagging at more than just her eleganza. A self-professed supermodel, Raja is setting the runway on fire with her ferocious strut and eye-popping style. Stand in her way and Raja will shantay past you like fashion road kill.<br></br>Sutan Amrull aka Raja or Raja Gemini, is an American make-up artist and drag performer. He is best known for his work on the reality television show America's Next Top Model, serving as the show's make-up artist for nine cycles (fourth through twelve), and as the winner of Season 3 of RuPaul's Drag Race. Amrull's clients include Dita von Teese, Pamela Anderson, Paulina Porizkova, Iman, Tyra Banks, Iggy Azalea, Rupaul, and Twiggy. Since 2009, Amrull has been make-up artist to singer Adam Lambert for print media, live U.S. appearances, and Lambert's international 2010 Glam Nation Tour.",
+        "eventCover"   : "$5 before 11pm | $5 for 21+ | $10 for 18-20",
+        "eventLink"    : "special-events/raja-at-necto-nightclub-ann-arbor-michigan-sept-15-2017.html",
+        "eventSocial"  : "https:www.facebook.com/events/121827835115631/",
+        "eventTix"     : "none",
+        "eventImgWide" : "img/event-images/raja-at-necto-nightclub-ann-arbor-michigan-sept-15-2017.jpg",
         "eventWklOvrd" : true,
         "eventDay"     : 0,
         "pastEvent"    : false

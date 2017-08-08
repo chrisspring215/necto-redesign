@@ -15,6 +15,21 @@ var eventsJSON = [
  "pastEvent" : 0
  },
  {
+ "eventDate" : new Date("Nov 30, 2017 21:00:00"),
+ "eventName" : "React presents... Figure with Midnight Tyrannosaurus",
+ "eventArtist" : "Figure/Midnight Tyrannosaurus",
+ "eventDesc" : "Josh Gard, also known as Figure, has become a household name in bass music with a catalog that spans over 5 years and more than 100 tracks. Figure is best known for his signature, heavy bass sounds, but his music has crossed various genres as heard on his most recent full-length LP, Gravity (2015, DOOM MUSIC). Figure also runs DOOM MUSIC which originally started as an outlet for his own music, but in 2016 will see the release catalog expand to include original released from other artists for the first time, in addition to the highly anticipated Monsters 7.",
+ "eventDescLong": "Josh Gard, also known as Figure, has become a household name in bass music with a catalog that spans over 5 years and more than 100 tracks. Figure is best known for his signature, heavy bass sounds, but his music has crossed various genres as heard on his most recent full-length LP, Gravity (2015, DOOM MUSIC). Figure also runs DOOM MUSIC which originally started as an outlet for his own music, but in 2016 will see the release catalog expand to include original released from other artists for the first time, in addition to the highly anticipated Monsters 7.",
+ "eventCover" : "Presale tickets - $15 | $18 | Doors $20",
+ "eventLink" : "special-events/" + "figure-midnight-tyrannosaurus-at-necto-nightclub-ann-arbor-michigan-nov-30-2017.html",
+ "eventSocial" : "https://www.facebook.com/events/125059571442781/",
+ "eventTix" : "https://www.ticketfly.com/purchase/event/1532120",
+ "eventImgWide" : "img/event-images/" + "figure-midnight-tyrannosaurus-at-necto-nightclub-ann-arbor-michigan-nov-30-2017.jpg",
+ "eventWklOvrd" : 1,
+ "eventDay" : 0,
+ "pastEvent" : 0
+ },
+ {
  "eventDate" : new Date("Nov 9, 2017 21:00:00"),
  "eventName" : "Christian Martin x Desert Hearts [Mikey Lion | Lee Reynolds | Marbs | Porkchop]",
  "eventArtist" : "Christian Martin",
@@ -45,6 +60,21 @@ var eventsJSON = [
  "pastEvent" : 0
  },
  {
+ "eventDate" : new Date("Oct 12, 2017 21:00:00"),
+ "eventName" : "React presents... Elephante",
+ "eventArtist" : "Elephante",
+ "eventDesc" : "Elephante is the recording and performing moniker of Tim Wu, a Los Angeles-based EDM DJ/producer known for his big-room progressive house anthems and remixes of artists ranging from Clean Bandit to Lorde. He generally tends to produce pop-leaning vocal dance tracks, but he dips into slower, trap-inspired numbers as well. Born in Ann Arbor, Michigan in 1989, Wu began playing music at an early age, receiving classical piano training before teaching himself to play guitar. He graduated from Harvard University in 2011 and initially tried to break into the music business as an acoustic singer/songwriter before switching to electronic dance music.",
+ "eventDescLong": "Elephante is the recording and performing moniker of Tim Wu, a Los Angeles-based EDM DJ/producer known for his big-room progressive house anthems and remixes of artists ranging from Clean Bandit to Lorde. He generally tends to produce pop-leaning vocal dance tracks, but he dips into slower, trap-inspired numbers as well. Born in Ann Arbor, Michigan in 1989, Wu began playing music at an early age, receiving classical piano training before teaching himself to play guitar. He graduated from Harvard University in 2011 and initially tried to break into the music business as an acoustic singer/songwriter before switching to electronic dance music. He started out creating remixes before producing original tracks, and his first EP was released in 2013. Since then, he's released dozens of tracks and remixes, with songs like “I Want You“ and “Age of Innocence“ receiving millions of online streams. His debut full-length, I Am the Elephante, appeared in 2016. “Troubled,“ a collaborative single with singer Deb's Daughter, appeared in early 2017.",
+ "eventCover" : "Presale tickets - $10 | $15 | Doors $18",
+ "eventLink" : "special-events/" + "elephante-at-necto-nightclub-ann-arbor-michigan-oct-12th-2017.html",
+ "eventSocial" : "https://www.facebook.com/events/1435756079834055/",
+ "eventTix" : "https://www.ticketfly.com/purchase/event/1536231?utm_medium=bks​",
+ "eventImgWide" : "img/event-images/" + "elephante-at-necto-nightclub-ann-arbor-michigan-oct-12th-2017.jpg",
+ "eventWklOvrd" : 1,
+ "eventDay" : 0,
+ "pastEvent" : 0
+ },
+ {
  "eventDate" : new Date("Oct 10, 2017 21:00:00"),
  "eventName" : "React presents... Crywolf",
  "eventArtist" : "Crywolf",
@@ -70,6 +100,21 @@ var eventsJSON = [
  "eventSocial" : "https://www.facebook.com/events/1794662000862849/",
  "eventTix" : "https://matthewdear_necto.eventbrite.com",
  "eventImgWide" : "img/event-images/" + "matt-dear-at-necto-nightclub-ann-arbor.jpg",
+ "eventWklOvrd" : 1,
+ "eventDay" : 0,
+ "pastEvent" : 0
+ },
+ {
+ "eventDate" : new Date("Oct 4, 2017 21:00:00"),
+ "eventName" : "React presents... Audien",
+ "eventArtist" : "Audien",
+ "eventDesc" : "Hailing from the unlikely location of Mystic, a small seaport town in Connecticut, Audien (born Nathaniel Rathbun, 1992) began producing music as a teenager and gradually took his piano-driven hands-in-the-air progressive trance sound to the top of the Billboard dance charts, selling out major venues and headlining numerous EDM festivals along the way. Rathbun started creating tracks in 2008, initially releasing happy hardcore on Only Vibes Recordings, a digital label he co-founded with producer Naggy. Rathbun switched to trance in 2009, sending a demo to Ferry Corsten, who released “Rise & Shine“ on his Aleph Recordings imprint. Numerous singles followed on labels like Songbird, First State Music, Enhanced Progressive, and Perceptive Deep, and leading progressive house DJs such as Tiësto, Above & Beyond, and Armin van Buuren began to take notice of Audien's euphoric sound, leading to an opening slot for van Buuren at the Roseland in New York City in 2011. ",
+ "eventDescLong": "Hailing from the unlikely location of Mystic, a small seaport town in Connecticut, Audien (born Nathaniel Rathbun, 1992) began producing music as a teenager and gradually took his piano-driven hands-in-the-air progressive trance sound to the top of the Billboard dance charts, selling out major venues and headlining numerous EDM festivals along the way. Rathbun started creating tracks in 2008, initially releasing happy hardcore on Only Vibes Recordings, a digital label he co-founded with producer Naggy. Rathbun switched to trance in 2009, sending a demo to Ferry Corsten, who released “Rise & Shine“ on his Aleph Recordings imprint. Numerous singles followed on labels like Songbird, First State Music, Enhanced Progressive, and Perceptive Deep, and leading progressive house DJs such as Tiësto, Above & Beyond, and Armin van Buuren began to take notice of Audien's euphoric sound, leading to an opening slot for van Buuren at the Roseland in New York City in 2011. He released tracks on Anjunabeats and Trice Recordings in 2012, and toured the United States with Hardwell soon after. Releases on Zouk Recordings and Spinnin' Records followed, and in 2014 Rathbun remixed Michael Jackson's “Slave to the Rhythm“ and Bastille's “Pompeii,“ the latter of which was heavily played at many clubs and festivals and was eventually nominated for a Grammy for “Best Remixed Recording, Non Classical.“ After completing his first headlining tour in 2015, Audien signed to Astralwerks. The label promptly released “Insomnia,“ which topped Billboard's dance music chart. This was followed by the release of “Something Better,“ a collaboration with country superstars Lady Antebellum. Two more major singles followed, “Crazy Love“ (featuring Deb's Daughter) in 2016, and “One More Weekend“ (with MAX) in 2017.",
+ "eventCover" : "Presale tickets - $15 | Doors $20",
+ "eventLink" : "special-events/" + "audien-at-necto-nightclub-ann-arbor-michigan-oct-4th-2017.html",
+ "eventSocial" : "https://www.facebook.com/events/1791802354412879/",
+ "eventTix" : "https://matthewdear_necto.eventbrite.com",
+ "eventImgWide" : "img/event-images/" + "audien-at-necto-nightclub-ann-arbor-michigan-oct-4th-2017.jpg",
  "eventWklOvrd" : 1,
  "eventDay" : 0,
  "pastEvent" : 0

@@ -1044,7 +1044,7 @@
         "eventDesc"    : "What‘s Vampire Voodoo? An altered state somewhere between Interview with a Vampire, From Dust till Dawn & Angel Heart. Let‘s party French Quarter style with Void 6, MC Yoda, DJ Madisi & all the Factory Fam.",
         "eventDescLong": "",
         "eventCover"   : "$1 before 10pm and $3 after 10pm",
-        "eventLink"    : "special-events/mardi-gras-at-necto-nightclub-ann-arbor-michigan-feb-25th-2017.html",
+        "eventLink"    : "special-events/mardi-french-quarter-vampire-voodoo-at-necto-nightclub-ann-arbor-michigan-feb-27th-2017.html",
         "eventSocial"  : "https:www.facebook.com/events/640451952805391/",
         "eventTix"     : "none",
         "eventImgWide" : "img/event-images/cal-mardi-gras-vampire-voodoo-at-necto-night-club-ann-arbor.jpg",
@@ -2946,6 +2946,19 @@
         "eventSocial"  : "",
         "eventTix"     : "none",
         "eventImgWide" : "img/event-images/factory-monday‘s-11th-birthday-at-necto-nightclub-ann-arbor.png",
+        "eventWklOvrd" : true,
+        "eventDay"     : 0,
+        "pastEvent"    : false
+    },
+    {
+        "eventDate"    : "Jul 17, 2015 21:00:00",
+        "eventName"    : "Ivy Winters",
+        "eventArtist"  : "Ivy Winters",
+        "eventDescLong": "Ivy Winters comes to Necto Pride on Friday, July 17th! The show beginsat 9:45, with an encore at midnight followed by a meet & greet with her fans!! Ms. Winters will be joined on stage by Chanel Hunter & Jadein Black as part of the Dragster show! Our resident Pride DJs,Jason Michael, DVJ Mark & DJ Jace, will keep the dancefloors banging all night!",   
+        "eventLink"    : "special-events/ivy-winters-live-at-necto-nightclub-ann-arbor-michigan-july-17th-2015.html",
+        "eventSocial"  : "",
+        "eventTix"     : "none",
+        "eventImgWide" : "img/event-images/ivy-winters-at-necto-nightclub-ann-arbor.png",
         "eventWklOvrd" : true,
         "eventDay"     : 0,
         "pastEvent"    : false

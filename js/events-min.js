@@ -210,6 +210,21 @@ var eventsJSON = [
  "pastEvent" : 0
  },
  {
+ "eventDate" : new Date("Sept 1, 2017 21:00:00"),
+ "eventName" : "Neon &amp; Glow // Pride Paint Party w/ Ivy Winters",
+ "eventArtist" : "Neon & Glow",
+ "eventDesc" : "Let's get wet!! UV Paint Party in the Main Room with DJ Jace, and Glow Party down in the Red Room with DJ DigiMark. Wear white to make the colors pop! This year, we have special guest Ivy Winters! Watch from our paint-free areas like the balcony & bar. Come play with us in the paint!",
+ "eventDescLong": "Let's get wet!! UV Paint Party in the Main Room with DJ Jace, and Glow Party down in the Red Room with DJ DigiMark. Wear white to make the colors pop! This year, we have special guest Ivy Winters! Watch from our paint-free areas like the balcony & bar. Come play with us in the paint!",
+ "eventCover" : "Free before 10pm | Free with college ID before 11pm | $5 for 21+ and $10 for 18-20 ",
+ "eventLink" : "special-events/" + "neon-glow-at-necto-nightclub-ann-arbor-michigan-sept-1-2017.html",
+ "eventSocial" : "facebook.com/events/1526081334078555/",
+ "eventTix" : "none",
+ "eventImgWide" : "img/event-images/" + "neon-glow-at-necto-nightclub-ann-arbor-michigan-sept-1-2017.jpg",
+ "eventWklOvrd" : 1,
+ "eventDay" : 0,
+ "pastEvent" : 0
+ },
+ {
  "eventDate" : new Date("Aug 31, 2017 21:00:00"),
  "eventName" : "React presents... Ghastly",
  "eventArtist" : "Ghastly",
@@ -265,6 +280,21 @@ var eventsJSON = [
  "eventSocial" : "https://www.facebook.com/events/157140574835014/",
  "eventTix" : "https://larval_necto.eventbrite.com",
  "eventImgWide" : "img/event-images/" + "larval-at-necto-nightclub-ann-arbor.jpg",
+ "eventWklOvrd" : 1,
+ "eventDay" : 0,
+ "pastEvent" : 0
+ },
+ {
+ "eventDate" : new Date("Aug 17, 2017 19:00:00"),
+ "eventName" : "Throwback Thursday : 21+ get in FREE",
+ "eventArtist" : "Throwback Thursday : 21+ get in FREE",
+ "eventDesc" : "THROWBACK THURSDAY: All Your Favorite Music from the 80s, 90s & early 00s.<br><br>FREE for 21+ | $10 for 18-20",
+ "eventDescLong": "THROWBACK THURSDAY: All Your Favorite Music from the 80s, 90s & early 00s.<br><br>FREE for 21+ | $10 for 18-20<br><br>with DJ Nick Donovan<br><br>Totally Awesome Drink Specials:<br><br>$3.50 Well drinks<br>$2.50 Fireball shots<br>3 for $10 Jaeger Bombs<br>$2 Miller Lite Bottles",
+ "eventCover" : "FREE for 21+ | $10 for 18-20",
+ "eventLink" : "special-events/" + "throwback-thursday-at-necto-nightclub-ann-arbor-michigan-aug-17-2017.html",
+ "eventSocial" : "https://facebook.com/events/498451503822521/",
+ "eventTix" : "none",
+ "eventImgWide" : "img/event-images/" + "throwback-thursday-at-necto-nightclub-ann-arbor-michigan-aug-17-2017.jpg",
  "eventWklOvrd" : 1,
  "eventDay" : 0,
  "pastEvent" : 0

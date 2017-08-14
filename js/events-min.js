@@ -195,21 +195,6 @@ var eventsJSON = [
  "pastEvent" : 0
  },
  {
- "eventDate" : new Date("Sept 1, 2017 21:00:00"),
- "eventName" : "Neon &amp; Glow // Pride Paint Party w/ Ivy Winters",
- "eventArtist" : "Neon & Glow",
- "eventDesc" : "Let's get wet!! UV Paint Party in the Main Room with DJ Jace, and Glow Party down in the Red Room with DJ DigiMark. Wear white to make the colors pop! This year, we have special guest Ivy Winters! Watch from our paint-free areas like the balcony & bar. Come play with us in the paint!",
- "eventDescLong": "Let's get wet!! UV Paint Party in the Main Room with DJ Jace, and Glow Party down in the Red Room with DJ DigiMark. Wear white to make the colors pop! This year, we have special guest Ivy Winters! Watch from our paint-free areas like the balcony & bar. Come play with us in the paint!",
- "eventCover" : "Free before 10pm | Free with college ID before 11pm | $5 for 21+ and $10 for 18-20 ",
- "eventLink" : "special-events/" + "neon-glow-at-necto-nightclub-ann-arbor-michigan-sept-1-2017.html",
- "eventSocial" : "facebook.com/events/1526081334078555/",
- "eventTix" : "none",
- "eventImgWide" : "img/event-images/" + "neon-glow-at-necto-nightclub-ann-arbor-michigan-sept-1-2017.jpg",
- "eventWklOvrd" : 1,
- "eventDay" : 0,
- "pastEvent" : 0
- },
- {
  "eventDate" : new Date("Sept 2, 2017 21:00:00"),
  "eventName" : "Frequency presents... Ultraviolet // Frequency Paint Party",
  "eventArtist" : "Ultraviolet Paint Party",
@@ -220,6 +205,21 @@ var eventsJSON = [
  "eventSocial" : "https://www.facebook.com/events/1462914917090451/",
  "eventTix" : "none",
  "eventImgWide" : "img/event-images/" + "ultraviolet-paint-party-at-necto-nightclub-ann-arbor-michigan-sept-2-2017.jpg",
+ "eventWklOvrd" : 1,
+ "eventDay" : 0,
+ "pastEvent" : 0
+ },
+ {
+ "eventDate" : new Date("Sept 1, 2017 21:00:00"),
+ "eventName" : "Neon &amp; Glow // Pride Paint Party w/ Ivy Winters",
+ "eventArtist" : "Neon & Glow",
+ "eventDesc" : "Let's get wet!! UV Paint Party in the Main Room with DJ Jace, and Glow Party down in the Red Room with DJ DigiMark. Wear white to make the colors pop! This year, we have special guest Ivy Winters! Watch from our paint-free areas like the balcony & bar. Come play with us in the paint!",
+ "eventDescLong": "Let's get wet!! UV Paint Party in the Main Room with DJ Jace, and Glow Party down in the Red Room with DJ DigiMark. Wear white to make the colors pop! This year, we have special guest Ivy Winters! Watch from our paint-free areas like the balcony & bar. Come play with us in the paint!",
+ "eventCover" : "Free before 10pm | Free with college ID before 11pm | $5 for 21+ and $10 for 18-20 ",
+ "eventLink" : "special-events/" + "neon-glow-at-necto-nightclub-ann-arbor-michigan-sept-1-2017.html",
+ "eventSocial" : "facebook.com/events/1526081334078555/",
+ "eventTix" : "none",
+ "eventImgWide" : "img/event-images/" + "neon-glow-at-necto-nightclub-ann-arbor-michigan-sept-1-2017.jpg",
  "eventWklOvrd" : 1,
  "eventDay" : 0,
  "pastEvent" : 0

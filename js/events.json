@@ -195,6 +195,21 @@
         "pastEvent"    : false
     },
     {
+        "eventDate"    : "Sept 4, 2017 21:00:00",
+        "eventName"    : "Splatterbash  Factory's Paint Party",
+        "eventArtist"  : "Splatterbash Paint Party",
+        "eventDesc"    : "Come get slathered in UV reactive paint at Factory's craziest, grimiest event: SPLATTERBASH. DJ Void6 in the main room, DJ KnowLedge in the Red Room, and Remnant on visuals.",
+        "eventDescLong": "Come get slathered in UV reactive paint at Factory's craziest, grimiest event: SPLATTERBASH. DJ Void6 in the main room, DJ KnowLedge in the Red Room, and Remnant on visuals.<br></br>How it works: When the alarm sounds, paint cannons splash you on the main dance floor with water-based, kid-safe, and washable paint. Black lights will be all around the club. Be sure to wear white to make the colors really pop!<br><br>No paint? No problem. Watch from paint-free zones like the mezzanine or bar.",
+        "eventCover"   : "$1 cover before 10PM, $3 after.",
+        "eventLink"    : "special-events/splatterbash-paint-party-at-necto-nightclub-ann-arbor-michigan-sept-4-2017.html",
+        "eventSocial"  : "https:www.facebook.com/events/135061177099820/",
+        "eventTix"     : "none",
+        "eventImgWide" : "img/event-images/splatterbash-paint-party-at-necto-nightclub-ann-arbor-michigan-sept-4-2017.jpg",
+        "eventWklOvrd" : true,
+        "eventDay"     : 0,
+        "pastEvent"    : false
+    },
+    {
         "eventDate"    : "Sept 2, 2017 21:00:00",
         "eventName"    : "Frequency presents... Ultraviolet  Frequency Paint Party",
         "eventArtist"  : "Ultraviolet Paint Party",

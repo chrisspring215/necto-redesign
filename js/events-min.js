@@ -300,7 +300,7 @@ var eventsJSON = [
  "pastEvent" : 0
  },
  {
- "eventDate" : new Date("Aug 17, 2017 19:00:00"),
+ "eventDate" : new Date("Aug 17, 2017 22:00:00"),
  "eventName" : "Throwback Thursday : 21+ get in FREE",
  "eventArtist" : "Throwback Thursday : 21+ get in FREE",
  "eventDesc" : "THROWBACK THURSDAY: All Your Favorite Music from the 80s, 90s & early 00s.<br><br>FREE for 21+ | $10 for 18-20",

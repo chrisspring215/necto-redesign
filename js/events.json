@@ -60,6 +60,21 @@
         "pastEvent"    : false
     },
     {
+        "eventDate"    : "Oct 19, 2017 21:00:00",
+        "eventName"    : "Golf Clap: Level Up Tour",
+        "eventArtist"  : "Golf Clap",
+        "eventDesc"    : "DJs; producers; club headliners; after-party enthusiasts: Golf Clap are Hugh Cleal and Bryan Jones, a Detroit duo with an unmatched passion for house music and a seemingly endless supply of studio and club-focussed creativity. And with releases on some of the world’s most influential house labels already under their belts, along with a lauded Boiler Room session and beyond, they’re only just getting started.",
+        "eventDescLong": "DJs; producers; club headliners; after-party enthusiasts: Golf Clap are Hugh Cleal and Bryan Jones, a Detroit duo with an unmatched passion for house music and a seemingly endless supply of studio and club-focussed creativity. And with releases on some of the world’s most influential house labels already under their belts, along with a lauded Boiler Room session and beyond, they’re only just getting started. ",
+        "eventCover"   : "Pre-sale tickets - $20 - 4 Pack | $8 | Doors $10",
+        "eventLink"    : "special-events/golf-clap-at-necto-nightclub-ann-arbor-michigan-oct-19th-2017.html",
+        "eventSocial"  : "https:www.facebook.com/events/444438482605744/",
+        "eventTix"     : "https:golfclap_necto.eventbrite.com",
+        "eventImgWide" : "img/event-images/golf-clap-at-necto-nightclub-ann-arbor-michigan-oct-19th-2017.jpg",
+        "eventWklOvrd" : true,
+        "eventDay"     : 0,
+        "pastEvent"    : false
+    },
+    {
         "eventDate"    : "Oct 12, 2017 21:00:00",
         "eventName"    : "React presents... Elephante",
         "eventArtist"  : "Elephante",

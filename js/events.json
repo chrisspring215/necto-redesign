@@ -45,6 +45,21 @@
         "pastEvent"    : false
     },
     {
+        "eventDate"    : "Nov 7, 2017 19:00:00",
+        "eventName"    : "React presents... Hayden James",
+        "eventArtist"  : "Hayden James",
+        "eventDesc"    : "Hayden James may have only released his first track in late June 2013, but he has already amassed millions of plays across Soundcloud and Youtube for his work. Producing immense summer house jams with soulful and evocative vocals his music has stockpiled consistently rave reviews from the US, Europe and Australia alike, being labelled the “face of the new Australian production music scene”.",
+        "eventDescLong": "Hayden James may have only released his first track in late June 2013, but he has already amassed millions of plays across Soundcloud and Youtube for his work. Producing immense summer house jams with soulful and evocative vocals his music has stockpiled consistently rave reviews from the US, Europe and Australia alike, being labelled the “face of the new Australian production music scene”.<br><br>Hayden’s first single “Permission to Love” garnered worldwide love and attention hitting #1 most blogged on Hype Machine, as well as becoming the most played track on national broadcasting giant Triple J in Australia. His debut EP out on tastemaker label Future Classic garnered much love worldwide, and new single “Something About You“ looks to lead excitedly in to 2015. Catch him this summer as he returns to Australia after a huge US & Canadian tour with Odesza.",
+        "eventCover"   : "Pre-sale tickets - $18 | Doors $20",
+        "eventLink"    : "special-events/hayden-james-at-necto-nightclub-ann-arbor-michigan-nov-7-2017.html",
+        "eventSocial"  : "https:www.facebook.com/events/1677707515595488/",
+        "eventTix"     : "https:www.ticketfly.com/purchase/event/1545977?utm_medium=bks",
+        "eventImgWide" : "img/event-images/hayden-james-at-necto-nightclub-ann-arbor-michigan-nov-7-2017.jpg",
+        "eventWklOvrd" : true,
+        "eventDay"     : 0,
+        "pastEvent"    : false
+    },
+    {
         "eventDate"    : "Oct 26, 2017 21:00:00",
         "eventName"    : "GORGON CITY : Kingdom Tour",
         "eventArtist"  : "Gorgon City",

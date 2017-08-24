@@ -60,6 +60,21 @@
         "pastEvent"    : false
     },
     {
+        "eventDate"    : "Oct 31, 2017 21:00:00",
+        "eventName"    : "React presents... Freaky Deaky at Necto with Cash Cash",
+        "eventArtist"  : "Freaky Deaky/Cash Cash",
+        "eventDesc"    : "Mixing electro, pop, and dance, Roseland, New Jersey-based group Cash Cash began with longtime friends Jean Paul Makhlouf (producer, vocals) and Samuel Frisch (producer, DJ). In 2007, a more solid lineup came together when Jean Paul's brother Alex came on board (producer, keyboards). The musicians spent a summer working inside Jean Paul's home studio and emerged with a stack of demos, including a rough cut of the infectious dance number “Party in Your Bedroom.“ They came up with the name Cash Cash in early 2008 and signed with Universal. An Internet and club hit, “Party in Your Bedroom“ also found its way onto their debut release for the label, a self-titled EP that appeared in October.",
+        "eventDescLong": "Mixing electro, pop, and dance, Roseland, New Jersey-based group Cash Cash began with longtime friends Jean Paul Makhlouf (producer, vocals) and Samuel Frisch (producer, DJ). In 2007, a more solid lineup came together when Jean Paul's brother Alex came on board (producer, keyboards). The musicians spent a summer working inside Jean Paul's home studio and emerged with a stack of demos, including a rough cut of the infectious dance number “Party in Your Bedroom.“ They came up with the name Cash Cash in early 2008 and signed with Universal. An Internet and club hit, “Party in Your Bedroom“ also found its way onto their debut release for the label, a self-titled EP that appeared in October. Following the success of that release, they also served as remixers for acts like Krewella, Capital Cities, Kelly Clarkson, and Bruno Mars. Their debut full-length, Take It to the Floor, followed in early 2009 and was supported by a package tour that also included Metro Station and Tyga.<br><br>Overtime Second album Love or Lust appeared in 2011, self-released by the band and featuring a pair of singles, “Victim of Love“ and “Sexin' on the Dance Floor“ (the latter featuring Jeffree Starr). They issued the Daft Punk-meets-dubstep single “Michael Jackson (The Beat Goes On)“ in 2012, later included on the EP The Beat Goes On. The band signed to Atlantic's Big Beat subsidiary one year later. Their first single for the label, “Take Me Home,“ featuring Bebe Rexha, followed in July 2013. The hit was part of the Overtime EP, which also featured Kerli on the track “Here and Now.“ The following year, Cash Cash nabbed head Goo Goo Doll Johnny Rzeznik for the single “Lightning.“ “Surrender“ arrived the year later with American singer Julia Michaels on vocals. These songs would later feature on their fourth LP -- and first for Big Beat -- Blood, Sweat & 3 Years. The 2016 release featured additional contributions from artists such as Busta Rhymes, Fitz & the Tantrums, Nelly, Christina Perri, and more. The following year, Cash Cash issued the stand-alone single “Matches,“ with singer Rozes. ~ David Jeffries (Allmusic.com)",
+        "eventCover"   : "Pre-sale tickets - $18 | $20 | Doors $25",
+        "eventLink"    : "special-events/freaky-deaky-cash-cash-at-necto-nightclub-ann-arbor-michigan-oct-31-2017.html",
+        "eventSocial"  : "https:www.facebook.com/events/362555744176397/",
+        "eventTix"     : "https:www.ticketfly.com/purchase/event/1551343?utm_medium=bks",
+        "eventImgWide" : "img/event-images/freaky-deaky-cash-cash-at-necto-nightclub-ann-arbor-michigan-oct-31-2017.jpg",
+        "eventWklOvrd" : true,
+        "eventDay"     : 0,
+        "pastEvent"    : false
+    },
+    {
         "eventDate"    : "Oct 26, 2017 21:00:00",
         "eventName"    : "GORGON CITY : Kingdom Tour",
         "eventArtist"  : "Gorgon City",

@@ -82,7 +82,7 @@ var eventsJSON = [
         "eventDescLong": "Gorgon City are an English electronic music production duo consisting of two North London producers Kye “Foamo“ Gibbon and Matt “RackNRuin“ Robson-Scott. Their 2013 single “Real“ peaked to number 44 on the UK Singles Chart. They are also well known for their 2014 single “Ready for Your Love“, which reached number 4 on the UK Singles Chart. They are currently signed to the London-based independent label Black Butter Records.",
         "eventCover"   : "Presale tickets - $18 | $20 | $25 at Doors",
         "eventLink"    : "special-events/" + "gorgon-city-at-necto-nightclub-ann-arbor-michigan-oct-26th-2017.html",
-        "eventSocial"  : "https://www.facebook.com/events/1852026231754422/",
+        "eventSocial"  : "https://www.facebook.com/events/271380130014127/",
         "eventTix"     : "https://www.ticketfly.com/purchase/event/1516624?utm_medium=bks",
         "eventImgWide" : "img/event-images/" + "gorgon-city-at-necto-nightclub-ann-arbor.jpg",
         "eventWklOvrd" : true,
@@ -130,7 +130,7 @@ var eventsJSON = [
         "eventSocial"  : "https://www.facebook.com/events/1900503113504697",
         "eventTix"     : "https://www.ticketfly.com/purchase/event/1532205?utm_medium=bks",
         "eventImgWide" : "img/event-images/" + "crywolf-at-necto-nightclub-ann-arbor-michigan-oct-10th-2017.jpg",
-        "eventWklOvrd" : true,
+        "eventWklOvrd" : false,
         "eventDay"     : 0, // Do not modify
         "pastEvent"    : false // Do not modify
     },
@@ -160,7 +160,7 @@ var eventsJSON = [
         "eventSocial"  : "https://www.facebook.com/events/1791802354412879/",
         "eventTix"     : "https://matthewdear_necto.eventbrite.com",
         "eventImgWide" : "img/event-images/" + "audien-at-necto-nightclub-ann-arbor-michigan-oct-4th-2017.jpg",
-        "eventWklOvrd" : true,
+        "eventWklOvrd" : false,
         "eventDay"     : 0, // Do not modify
         "pastEvent"    : false // Do not modify
     },
@@ -221,6 +221,21 @@ var eventsJSON = [
         "eventTix"     : "https://www.ticketfly.com/purchase/event/1523062?utm_medium=bks",
         "eventImgWide" : "img/event-images/" + "henry-fong-bad-royale-at-necto-nightclub-ann-arbor-michigan.jpg",
         "eventWklOvrd" : true,
+        "eventDay"     : 0, // Do not modify
+        "pastEvent"    : false // Do not modify
+    },
+    {
+        "eventDate"    : new Date("Sept 9, 2017 21:00:00"),
+        "eventName"    : "Rüd featuring... DJ Holographic, Roman G. Martinez, Nomadica",
+        "eventArtist"  : "Rüd (Red Room)",
+        "eventDesc"    : "Rüd is being in the moment<br>Rüd is not being on your phone<br>Rüd is running to the dance floor when you can't help it<br>Rüd is not Top 40<br>Rüs is not tied to a genre<br>Rüd is moving your body<br>Rüd is dancing with consent​<br>Rüd is that one time you unexpectedly came across a weird and wonderful party that scratched an itch you didn‘t even know you had.",
+        "eventDescLong": "Rüd is being in the moment<br>Rüd is not being on your phone<br>Rüd is running to the dance floor when you can't help it<br>Rüd is not Top 40<br>Rüs is not tied to a genre<br>Rüd is moving your body<br>Rüd is dancing with consent​<br>Rüd is that one time you unexpectedly came across a weird and wonderful party that scratched an itch you didn‘t even know you had.",
+        "eventCover"   : "Door cover is $5 for 21+ | $10 for 18-20",
+        "eventLink"    : "special-events/" + "rud-at-necto-nightclub-ann-arbor-michigan-sept-9-2017.html",
+        "eventSocial"  : "https://www.facebook.com/events/716791918513632/",
+        "eventTix"     : "none",
+        "eventImgWide" : "img/event-images/" + "rud-at-necto-nightclub-ann-arbor-michigan-sept-9-2017.jpg",
+        "eventWklOvrd" : false,
         "eventDay"     : 0, // Do not modify
         "pastEvent"    : false // Do not modify
     },
@@ -310,7 +325,7 @@ var eventsJSON = [
         "eventSocial"  : "https://www.facebook.com/events/149997122211288/",
         "eventTix"     : "https://godmodule_necto.eventbrite.com",
         "eventImgWide" : "img/event-images/" + "god-module-at-necto-nightclub-ann-arbor.jpg",
-        "eventWklOvrd" : true,
+        "eventWklOvrd" : false,
         "eventDay"     : 0, // Do not modify
         "pastEvent"    : false // Do not modify
     },

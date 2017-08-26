@@ -180,6 +180,21 @@ var eventsJSON = [
         "pastEvent"    : false // Do not modify
     },
     {
+        "eventDate"    : new Date("Sept 13, 2017 19:00:00"),
+        "eventName"    : "Underground Yoga - Deep House Vinyasa",
+        "eventArtist"  : "Underground Yoga",
+        "eventDesc"    : "Welcome to our first class back for fall semester of 2017! Led by our head intrsuctor Carol Ann, accompanied by DJ Avyu. Necto's production will be fully utilized to immerse each yogi in a wave of light and sound on the main dance floor. This comfortable atmosphere is accepting of all skill levels. Mats are available for rent.",
+        "eventDescLong": "Welcome to our first class back for fall semester of 2017! Led by our head intrsuctor Carol Ann, accompanied by DJ Avyu. Necto's production will be fully utilized to immerse each yogi in a wave of light and sound on the main dance floor. This comfortable atmosphere is accepting of all skill levels. Mats are available for rent.",
+        "eventCover"   : "$15 / $20",
+        "eventLink"    : "special-events/" + "underground-yoga-deep-house-vinyasa-at-necto-nightclub-ann-arbor-michigan-sept-13-2017.html",
+        "eventSocial"  : "https://www.facebook.com/events/318937918567577/",
+        "eventTix"     : "http://bit.ly/UYNecto913",
+        "eventImgWide" : "img/event-images/" + "underground-yoga-deep-house-vinyasa-at-necto-nightclub-ann-arbor-michigan-sept-13-2017.jpg",
+        "eventWklOvrd" : false,
+        "eventDay"     : 0, // Do not modify
+        "pastEvent"    : false // Do not modify
+    },
+    {
         "eventDate"    : new Date("Sept 7, 2017 21:00:00"),
         "eventName"    : "React presents... Kap Slap",
         "eventArtist"  : "Kap Slap",

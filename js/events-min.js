@@ -225,7 +225,6 @@ var eventsJSON = [
  "pastEvent" : 0
  },
  {
-<<<<<<< HEAD
  "eventDate" : new Date("Sept 13, 2017 19:00:00"),
  "eventName" : "Underground Yoga - Deep House Vinyasa",
  "eventArtist" : "Underground Yoga",
@@ -236,7 +235,11 @@ var eventsJSON = [
  "eventSocial" : "https://www.facebook.com/events/318937918567577/",
  "eventTix" : "http://bit.ly/UYNecto913",
  "eventImgWide" : "img/event-images/" + "underground-yoga-deep-house-vinyasa-at-necto-nightclub-ann-arbor-michigan-sept-13-2017.jpg",
-=======
+ "eventWklOvrd" : 0,
+ "eventDay" : 0,
+ "pastEvent" : 0
+ },
+ {
  "eventDate" : new Date("Sept 9, 2017 21:00:00"),
  "eventName" : "Rüd featuring... DJ Holographic, Roman G. Martinez, Nomadica",
  "eventArtist" : "Rüd (Red Room)",
@@ -247,7 +250,6 @@ var eventsJSON = [
  "eventSocial" : "https://www.facebook.com/events/716791918513632/",
  "eventTix" : "none",
  "eventImgWide" : "img/event-images/" + "rud-at-necto-nightclub-ann-arbor-michigan-sept-9-2017.jpg",
->>>>>>> d801b59b745f98c22180ab0355f29b1ad9c3bf99
  "eventWklOvrd" : 0,
  "eventDay" : 0,
  "pastEvent" : 0

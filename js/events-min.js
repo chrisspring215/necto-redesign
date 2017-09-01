@@ -305,7 +305,7 @@ var eventsJSON = [
  "eventArtist" : "Ultraviolet Paint Party",
  "eventDesc" : "Come play in the paint! We're celebrating Day 2 of our white party weekend with a huge UV Paint Party!",
  "eventDescLong": "Come play in the paint! We're celebrating Day 2 of our white party weekend with a huge UV Paint Party! The dance floor will be full of color and Top 40, Dance & House provided by DJ Hardy & MC Yoda.<br><br>How it works: When the alarm sounds, paint cannons splash you on the main dance floor with water-based, kid-safe, and washable paint. Black lights will be all around the club. Be sure to wear white to make the colors really pop!<br><br>No paint? No problem. Watch from paint-free zones like the mezzanine or bar",
- "eventCover" : "Free before 10pm | Ladies get in Free before 11pm | $5 for 21+ and $10 for 18-20",
+ "eventCover" : "Ladies get in Free before 11pm | $5 for 21+ and $10 for 18-20",
  "eventLink" : "special-events/" + "ultraviolet-paint-party-at-necto-nightclub-ann-arbor-michigan-sept-2-2017.html",
  "eventSocial" : "https://www.facebook.com/events/1462914917090451/",
  "eventTix" : "none",

@@ -135,6 +135,21 @@ var eventsJSON = [
         "pastEvent"    : false // Do not modify
     },
     {
+        "eventDate"    : new Date("Oct 7, 2017 21:30:00"),
+        "eventName"    : "Mirage: no phones, no photos, no videos. Featuring Kenneth Thomas with opening set by Some Sounds",
+        "eventArtist"  : "Mirage (Red Room)",
+        "eventDesc"    : "Progessive house and trance will fill the air while we experience the night and unplug from the world. Dance to the music and leave your phones and camera's in the car. I truly feel a deeper connection to the world around me be it music or in nature when I put my phone and camera away and just live in the moment. The nights when we are all in sync with one another create special memories we don't soon forget.",
+        "eventDescLong": "Somes Sound has been dreaming up this concept for a while now and I am excited to partner with Necto and my good friend Kenneth Thomas to bring it to you. The search has been long and hard to find a room that reminds me of years past before electronic music hit the main stage. With this I wanted to bring it back to the soul and heart of the music and create something special for everyone who gets to experience it.<br><br>Progessive house and trance will fill the air while we experience the night and unplug from the world. Dance to the music and leave your phones and camera's in the car. I truly feel a deeper connection to the world around me be it music or in nature when I put my phone and camera away and just live in the moment. The nights when we are all in sync with one another create special memories we don't soon forget.<br><br>Once again the dance floor will be a phones-free space with no photos or filming. Just us, the music and the connection we share together when it all comes together.",
+        "eventCover"   : "Presale & cover is $10",
+        "eventLink"    : "special-events/" + "mirage-at-necto-nightclub-ann-arbor-michigan-oct-7th-2017.html",
+        "eventSocial"  : "https://www.facebook.com/events/892091864288121/",
+        "eventTix"     : "https://miragekt.eventbrite.com",
+        "eventImgWide" : "img/event-images/" + "mirage-at-necto-nightclub-ann-arbor-michigan-oct-7th-2017.jpg",
+        "eventWklOvrd" : false,
+        "eventDay"     : 0, // Do not modify
+        "pastEvent"    : false // Do not modify
+    },
+    {
         "eventDate"    : new Date("Oct 5, 2017 21:00:00"),
         "eventName"    : "MATTHEW DEAR (DJ Set) : Homecoming",
         "eventArtist"  : "Matthew Dear",

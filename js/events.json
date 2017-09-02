@@ -255,21 +255,6 @@
         "pastEvent"    : false
     },
     {
-        "eventDate"    : "Sept 9, 2017 21:00:00",
-        "eventName"    : "Rüd featuring... DJ Holographic, Roman G. Martinez, Nomadica",
-        "eventArtist"  : "Rüd (Red Room)",
-        "eventDesc"    : "Rüd is being in the moment<br>Rüd is not being on your phone<br>Rüd is running to the dance floor when you can't help it<br>Rüd is not Top 40<br>Rüs is not tied to a genre<br>Rüd is moving your body<br>Rüd is dancing with consent​<br>Rüd is that one time you unexpectedly came across a weird and wonderful party that scratched an itch you didn‘t even know you had.",
-        "eventDescLong": "Rüd is being in the moment<br>Rüd is not being on your phone<br>Rüd is running to the dance floor when you can't help it<br>Rüd is not Top 40<br>Rüs is not tied to a genre<br>Rüd is moving your body<br>Rüd is dancing with consent​<br>Rüd is that one time you unexpectedly came across a weird and wonderful party that scratched an itch you didn‘t even know you had.",
-        "eventCover"   : "Door cover is $5 for 21+ | $10 for 18-20",
-        "eventLink"    : "special-events/rud-at-necto-nightclub-ann-arbor-michigan-sept-9-2017.html",
-        "eventSocial"  : "https:www.facebook.com/events/716791918513632/",
-        "eventTix"     : "none",
-        "eventImgWide" : "img/event-images/rud-at-necto-nightclub-ann-arbor-michigan-sept-9-2017.jpg",
-        "eventWklOvrd" : false,
-        "eventDay"     : 0,
-        "pastEvent"    : false
-    },
-    {
         "eventDate"    : "Sept 7, 2017 21:00:00",
         "eventName"    : "React presents... Kap Slap",
         "eventArtist"  : "Kap Slap",
@@ -296,6 +281,21 @@
         "eventTix"     : "none",
         "eventImgWide" : "img/event-images/splatterbash-paint-party-at-necto-nightclub-ann-arbor-michigan-sept-4-2017.jpg",
         "eventWklOvrd" : true,
+        "eventDay"     : 0,
+        "pastEvent"    : false
+    },
+    {
+        "eventDate"    : "Sept 2, 2017 21:00:00",
+        "eventName"    : "Rüd featuring... DJ Holographic, Roman G. Martinez, Nomadica",
+        "eventArtist"  : "Rüd (Red Room)",
+        "eventDesc"    : "Rüd is being in the moment<br>Rüd is not being on your phone<br>Rüd is running to the dance floor when you can't help it<br>Rüd is not Top 40<br>Rüs is not tied to a genre<br>Rüd is moving your body<br>Rüd is dancing with consent​<br>Rüd is that one time you unexpectedly came across a weird and wonderful party that scratched an itch you didn‘t even know you had.",
+        "eventDescLong": "Rüd is being in the moment<br>Rüd is not being on your phone<br>Rüd is running to the dance floor when you can't help it<br>Rüd is not Top 40<br>Rüs is not tied to a genre<br>Rüd is moving your body<br>Rüd is dancing with consent​<br>Rüd is that one time you unexpectedly came across a weird and wonderful party that scratched an itch you didn‘t even know you had.",
+        "eventCover"   : "Door cover is $5 for 21+ | $10 for 18-20",
+        "eventLink"    : "special-events/rud-at-necto-nightclub-ann-arbor-michigan-sept-9-2017.html",
+        "eventSocial"  : "https:www.facebook.com/events/716791918513632/",
+        "eventTix"     : "none",
+        "eventImgWide" : "img/event-images/rud-at-necto-nightclub-ann-arbor-michigan-sept-9-2017.jpg",
+        "eventWklOvrd" : false,
         "eventDay"     : 0,
         "pastEvent"    : false
     },

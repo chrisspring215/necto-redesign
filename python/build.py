@@ -1,3 +1,6 @@
+import sys
+reload(sys)
+sys.setdefaultencoding('utf-8')
 import json, re
 
 def createJson():
@@ -55,14 +58,16 @@ def buildPages():
 
 	# Builds Special Event pages
 
-	message = """<!doctype html>
+	message01 = """<!doctype html>
 <html class="no-js" lang="">
   <head>
       <meta charset="utf-8">
       <meta http-equiv="x-ua-compatible" content="ie=edge">
       <meta name="viewport" content="width=device-width, initial-scale=1">
-      <title id="pageTitle"><!-- CREATE WITH JS --></title>
-      <meta name="description" id="pageDesc" content="">
+      <title id="pageTitle">"""
+	message02 = """</title>
+      <meta name="description" id="pageDesc" content='"""
+	message03 = """'>
       <base href="" id="baseTag">
       <script src="../js/baseTagTesting.js"></script>
       
@@ -76,8 +81,8 @@ def buildPages():
       <meta name="geo.position" content="latitude;longitude">
       <meta name="geo.region" content="US-MI]">
       <meta name="geo.placename" content="Ann Arbor">
-      <!-- Canonical TODO: Set up JS to populate this -->
-      <link href="https://www.necto.com" rel="canonical">
+			<link href='https://www.necto.com/special-events/"""
+	message04 = """' rel="canonical">
       <!-- Author -->
       <link href="https://plus.google.com/110171494641120366973" rel="author">
       <link href="https://plus.google.com/110171494641120366973" rel="me" type="text/html">
@@ -221,9 +226,21 @@ def buildPages():
 	numberOfEvents = len(pythonData['events'])
 
 	for event in range(0, numberOfEvents):
+		# Event URL
 		eventLink = pythonData['events'][event]['eventLink']
+		# Event Title
+		eventArtist = pythonData['events'][event]['eventArtist']
+		# Event Date
+		eventDate = pythonData['events'][event]['eventDate']
+		# Event Desc
+		eventDescription = eventArtist
+
 		url = eventLink.replace("special-events/", "")
 		
+		staticTitle = eventArtist + ' | ' + eventDate[:-9] + ' | Necto Nightclub, Ann Arbor, Michigan'
+
+		message = message01 + staticTitle + message02 + eventDescription + ', ' + eventDate[:-9] + ' at the Necto Nightclub in Ann Arbor, Michigan' + message03 + url + message04
+
 		# Makes new page
 		newPage = open('../special-events/'+url,'w')
 		newPage.write(message)

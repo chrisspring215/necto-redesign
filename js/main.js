@@ -269,8 +269,9 @@ function specialEventPage() {
     for (i = 0; i <= events.length - 1; i++) {
 
         function buildSpecialPageMeta(date, artist) {
-            document.getElementById('pageTitle').innerHTML = artist + ' | ' + date + ' | Necto Nightclub, Ann Arbor, Michigan.';
-            document.getElementById('pageDesc').content = artist + ' live on ' + date + ' at the Necto Nightclub in Ann Arbor Michigan.';
+            // Building this in the build.py script now
+            //document.getElementById('pageTitle').innerHTML = artist + ' | ' + date + ' | Necto Nightclub, Ann Arbor, Michigan.';
+            //document.getElementById('pageDesc').content = artist + ' live on ' + date + ' at the Necto Nightclub in Ann Arbor Michigan.';
             document.getElementById('ogTitle').content = artist + ' live on ' + date + ' at the Necto Nightclub in Ann Arbor Michigan.';
             document.getElementById('ogURL').content = window.location;
             document.getElementById('ogImg').content = events[i].eventImgWide;

@@ -270,6 +270,21 @@ var eventsJSON = [
  "pastEvent" : 0
  },
  {
+ "eventDate" : new Date("Sept 5, 2017 20:00:00"),
+ "eventName" : "Tee Grizzley",
+ "eventArtist" : "Tee Grizzley",
+ "eventDesc" : "Detroit rapper Tee Grizzley scored a viral hit with his debut single “First Day Out,“ which appeared on YouTube in late 2016. Originally part of the Allstars BallHard crew and known as ASBH Tee, he served a jail sentence of nearly three years for charges of armed robbery. After being released, he recorded the harrowing, slow-burning “First Day Out“ with producer Helluva. The song was a regional hit and racked up millions of views and streams. Its success led to Grizzley signing a deal with 300 Entertainment, supported by major-label Atlantic. A handful of singles were released during the first few months of 2017, including “From the D to the A,“ featuring Lil Yachty. The commercial mixtape My Moment arrived that April and debuted on the Billboard 200 chart at number 44, despite no guest appearances to boost its profile. ~ Paul Simpson (All Music)",
+ "eventDescLong": "Detroit rapper Tee Grizzley scored a viral hit with his debut single “First Day Out,“ which appeared on YouTube in late 2016. Originally part of the Allstars BallHard crew and known as ASBH Tee, he served a jail sentence of nearly three years for charges of armed robbery. After being released, he recorded the harrowing, slow-burning “First Day Out“ with producer Helluva. The song was a regional hit and racked up millions of views and streams. Its success led to Grizzley signing a deal with 300 Entertainment, supported by major-label Atlantic. A handful of singles were released during the first few months of 2017, including “From the D to the A,“ featuring Lil Yachty. The commercial mixtape My Moment arrived that April and debuted on the Billboard 200 chart at number 44, despite no guest appearances to boost its profile. ~ Paul Simpson (All Music)",
+ "eventCover" : "Presale tickets - $35 | $40 | $50 | $65",
+ "eventLink" : "special-events/" + "t-grizzley-at-necto-nightclub-ann-arbor-michigan-sept-5-2017.html",
+ "eventSocial" : "https://www.facebook.com/events/1933513296891758/",
+ "eventTix" : "https://teegrizzley_necto.eventbrite.com",
+ "eventImgWide" : "img/event-images/" + "t-grizzley-at-necto-nightclub-ann-arbor-michigan-sept-5-2017.jpg",
+ "eventWklOvrd" : 1,
+ "eventDay" : 0,
+ "pastEvent" : 0
+ },
+ {
  "eventDate" : new Date("Sept 4, 2017 21:00:00"),
  "eventName" : "Splatterbash // Factory‘s Paint Party",
  "eventArtist" : "Splatterbash Paint Party",

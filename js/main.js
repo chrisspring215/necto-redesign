@@ -265,8 +265,8 @@ function specialEventPage() {
     // Grabs the URL and searches for a match in the Events Array then displays the content for the Event page
 
     // IF/ELSE cleans the ?= varibles out of a Special Event URL but does not modify the window.location so analytics still works.
-    if (window.location.href.includes("?=") === true) {
-        var urlVar = window.location.href.split("?=")
+    if (window.location.href.includes("?") === true) {
+        var urlVar = window.location.href.split("?")
         var urlVarClean = urlVar.slice(0, -1)
         var specialEventURL = urlVarClean.join().split('/');
     }

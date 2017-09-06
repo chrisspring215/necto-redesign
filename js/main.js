@@ -263,8 +263,17 @@ var specialEventPageContent = document.getElementById('specialEventPageContent')
 function specialEventPage() {
 
     // Grabs the URL and searches for a match in the Events Array then displays the content for the Event page
-    var specialEventURL = window.location.href.split('/');
-    
+
+    // IF/ELSE cleans the ?= varibles out of a Special Event URL but does not modify the window.location so analytics still works.
+    if (window.location.href.includes("?=") === true) {
+        var urlVar = window.location.href.split("?=")
+        var urlVarClean = urlVar.slice(0, -1)
+        var specialEventURL = urlVarClean.join().split('/');
+    }
+
+    else {
+        var specialEventURL = window.location.href.split('/');
+    }
 
     for (i = 0; i <= events.length - 1; i++) {
 

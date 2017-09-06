@@ -58,8 +58,9 @@ def buildPages():
 
 	# Builds Special Event pages
 
-	message01 = """<!doctype html>
-<html class="no-js" lang="">
+	message01 = """
+<!doctype html>
+<html class="no-js" lang="en">
   <head>
       <meta charset="utf-8">
       <meta http-equiv="x-ua-compatible" content="ie=edge">

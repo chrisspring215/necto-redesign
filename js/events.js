@@ -195,6 +195,21 @@ var eventsJSON = [
         "pastEvent"    : false // Do not modify
     },
     {
+        "eventDate"    : new Date("Sept 26, 2017 21:00:00"),
+        "eventName"    : "IM Shmacked presents... MADDS",
+        "eventArtist"  : "MADDS",
+        "eventDesc"    : "Madison Louch AKA MADDS is a 21 year old international DJ, producer, influencer, and model. She recently spent the summer playing 22 dates across Spain's cornerstone clubs and festivals. Opening for DJ Mag as well as Top 100 artists such as Hardwell, David Guetta, Martin Garrix, Nervo and more. She has been featured in GQ, Maxim, Kitten Galore, C Heads magazine among others as one of the most sexiest, sought after DJ's and influencers of 2016",
+        "eventDescLong": "Madison Louch AKA MADDS is a 21 year old international DJ, producer, influencer, and model. She recently spent the summer playing 22 dates across Spain's cornerstone clubs and festivals. Opening for DJ Mag as well as Top 100 artists such as Hardwell, David Guetta, Martin Garrix, Nervo and more. She has been featured in GQ, Maxim, Kitten Galore, C Heads magazine among others as one of the most sexiest, sought after DJ's and influencers of 2016",
+        "eventCover"   : "Pre-sale tickets $49.99 - $149.99",
+        "eventLink"    : "special-events/" + "madds-at-necto-nightclub-ann-arbor-michigan-sept-26-2017.html",
+        "eventSocial"  : "https://www.facebook.com/events/135139587100816/",
+        "eventTix"     : "https://madds_necto.eventbrite.com",
+        "eventImgWide" : "img/event-images/" + "madds-at-necto-nightclub-ann-arbor-michigan-sept-26-2017.jpg",
+        "eventWklOvrd" : false,
+        "eventDay"     : 0, // Do not modify
+        "pastEvent"    : false // Do not modify
+    },
+    {
         "eventDate"    : new Date("Sept 21, 2017 21:00:00"),
         "eventName"    : "Necto presents... The Legendary... Magnificent... DJ JAZZY JEFF",
         "eventArtist"  : "DJ Jazzy Jeff",

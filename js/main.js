@@ -37,6 +37,7 @@ var videosFri = [
 var videosSat = [
     "https://www.youtube.com/embed/4VOIXPOnfSM?ecver=1",
     "https://www.youtube.com/embed/N-Cc_telSsA?ecver=1",
+    "https://www.youtube.com/embed/fWgY1NJ3kj4",
 ];
 // Populates videos on the Weekly event pages
 function populateWeeklyVideo(day) {

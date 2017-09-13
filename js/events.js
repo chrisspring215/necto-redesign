@@ -230,7 +230,7 @@ var eventsJSON = [
         "eventArtist"  : "Raja",
         "eventDesc"    : "Exotic and edgy, Exotic and edgy, Raja Gemini has the other queens gagging at more than just her eleganza. A self-professed supermodel, Raja is setting the runway on fire with her ferocious strut and eye-popping style. Stand in her way and Raja will shantay past you like fashion road kill.",
         "eventDescLong": "Exotic and edgy, Exotic and edgy, Raja Gemini has the other queens gagging at more than just her eleganza. A self-professed supermodel, Raja is setting the runway on fire with her ferocious strut and eye-popping style. Stand in her way and Raja will shantay past you like fashion road kill.<br></br>Sutan Amrull aka Raja or Raja Gemini, is an American make-up artist and drag performer. He is best known for his work on the reality television show America‘s Next Top Model, serving as the show‘s make-up artist for nine cycles (fourth through twelve), and as the winner of Season 3 of RuPaul‘s Drag Race. Amrull‘s clients include Dita von Teese, Pamela Anderson, Paulina Porizkova, Iman, Tyra Banks, Iggy Azalea, Rupaul, and Twiggy. Since 2009, Amrull has been make-up artist to singer Adam Lambert for print media, live U.S. appearances, and Lambert‘s international 2010 Glam Nation Tour.",
-        "eventCover"   : "$5 before 11pm | $5 for 21+ | $10 for 18-20",
+        "eventCover"   : "$5 for 21+ | $10 for 18-20",
         "eventLink"    : "special-events/" + "raja-at-necto-nightclub-ann-arbor-michigan-sept-15-2017.html",
         "eventSocial"  : "https://www.facebook.com/events/121827835115631/",
         "eventTix"     : "none",

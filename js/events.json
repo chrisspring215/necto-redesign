@@ -150,6 +150,21 @@
         "pastEvent"    : false
     },
     {
+        "eventDate"    : "Oct 6, 2017 21:00:00",
+        "eventName"    : "Dragster featuring... Trixie Mattel",
+        "eventArtist"  : "Trixie Mattel",
+        "eventDesc"    : "Trixie Mattel is the stage name of drag performer Brian Firkus. Trixie is best known as a contestant on Season 7 of RuPaul's Drag Race.",
+        "eventDescLong": "Trixie Mattel is the stage name of drag performer Brian Firkus. Trixie is best known as a contestant on Season 7 of RuPaul's Drag Race.<br><br>She was a contestant touted by many as an early front-runner. A seemingly premature elimination in episode 4 caused outrage among fans, however, she was brought back in episode 8, only to be eliminated again in episode 10. Her elimination is still considered one of the most controversial decisions in Drag Race herstory. A 2017 Buzzfeed poll saw Trixie receiving over 19,300 votes to top the “queen who left too early“ category, showing that years after the incident, fan feelings are still strong.<br><br>Nonetheless, she is widely considered one of the show's major breakout stars, along with friend and fellow Season 7 contestant Katya. Many fans note that Trixie's ad-hoc wit is better suited to unscripted environments. She currently stars on a webshow with Katya, entitled UNHhhh. It can be viewed on the WOWPresents YouTube channel. Trixie & Katya are also launching their own show on Viceland called “Honey“.",
+        "eventCover"   : "$5 for 21+ | $10 for 18-20 all night. <strong>Express entry and preferred meet & greet are available</strong>.",
+        "eventLink"    : "special-events/trixie-mattel-at-necto-nightclub-ann-arbor-michigan-oct-6th-2017.html",
+        "eventSocial"  : "https:www.facebook.com/events/117938288879493/",
+        "eventTix"     : "none",
+        "eventImgWide" : "img/event-images/trixie-mattel-at-necto-nightclub-ann-arbor-michigan-oct-6th-2017.jpg",
+        "eventWklOvrd" : true,
+        "eventDay"     : 0,
+        "pastEvent"    : false
+    },
+    {
         "eventDate"    : "Oct 5, 2017 21:00:00",
         "eventName"    : "MATTHEW DEAR (DJ Set) : Homecoming",
         "eventArtist"  : "Matthew Dear",

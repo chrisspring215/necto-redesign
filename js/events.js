@@ -256,15 +256,30 @@ var eventsJSON = [
     },
     {
         "eventDate"    : new Date("Sept 14, 2017 21:00:00"),
-        "eventName"    : "React presents... Henry Fong x Bad Royale",
-        "eventArtist"  : "Henry Fong x Bad Royale",
-        "eventDesc"    : "Henry Fong - An EDM DJ/producer originally from West Palm Beach, Florida. He began DJing during his college years at the University of Central Florida, and held various residencies and promoted at local clubs in Orlando, FL. After graduation from the college, he moved to Los Angeles to focus on music production. He has since released on record labels such as Spinnin, Revealed, OWSLA, Mad Decent, Dim Mak, and in 2015 started his own imprint Banzai Recs. He is known infusing styles such as reggae/dancehall and Melbourne Bounce into high energy EDM tracks. Stand out songs include “Scream“, “Encore“, “Stand Up“, “Wine Dem“, “Bust Dem“, and “Ass Up“.</br></br>Bad Royale - What do you get when you lock an Israeli, a Norwegian, a Mexican-Swede and a Lebanese-American in a studio? Some solid trap music.</br></br>Bad Royale are the new kings on the Mad Decent block, but as a group of four individual artists they’re not new to the DJ game. With the recent reveal of their identities at EDC Vegas, the world now knows the ironic truth: as solo artists, three of the four members of Bad Royale have already seen significant prior success—producing trance music.",
-        "eventDescLong": "Henry Fong - An EDM DJ/producer originally from West Palm Beach, Florida. He began DJing during his college years at the University of Central Florida, and held various residencies and promoted at local clubs in Orlando, FL. After graduation from the college, he moved to Los Angeles to focus on music production. He has since released on record labels such as Spinnin, Revealed, OWSLA, Mad Decent, Dim Mak, and in 2015 started his own imprint Banzai Recs. He is known infusing styles such as reggae/dancehall and Melbourne Bounce into high energy EDM tracks. Stand out songs include “Scream“, “Encore“, “Stand Up“, “Wine Dem“, “Bust Dem“, and “Ass Up“.</br></br>Bad Royale - What do you get when you lock an Israeli, a Norwegian, a Mexican-Swede and a Lebanese-American in a studio? Some solid trap music.</br></br>Bad Royale are the new kings on the Mad Decent block, but as a group of four individual artists they’re not new to the DJ game. With the recent reveal of their identities at EDC Vegas, the world now knows the ironic truth: as solo artists, three of the four members of Bad Royale have already seen significant prior success—producing trance music.",
-        "eventCover"   : "Presale tickets - $10 | $12.50 | $15",
+        "eventName"    : "CANCELED: Henry Fong x Bad Royale",
+        "eventArtist"  : "CANCELED: Henry Fong x Bad Royale",
+        "eventDesc"    : "CANCELED: Henry Fong - An EDM DJ/producer originally from West Palm Beach, Florida. He began DJing during his college years at the University of Central Florida, and held various residencies and promoted at local clubs in Orlando, FL. After graduation from the college, he moved to Los Angeles to focus on music production. He has since released on record labels such as Spinnin, Revealed, OWSLA, Mad Decent, Dim Mak, and in 2015 started his own imprint Banzai Recs. He is known infusing styles such as reggae/dancehall and Melbourne Bounce into high energy EDM tracks. Stand out songs include “Scream“, “Encore“, “Stand Up“, “Wine Dem“, “Bust Dem“, and “Ass Up“.</br></br>Bad Royale - What do you get when you lock an Israeli, a Norwegian, a Mexican-Swede and a Lebanese-American in a studio? Some solid trap music.</br></br>Bad Royale are the new kings on the Mad Decent block, but as a group of four individual artists they’re not new to the DJ game. With the recent reveal of their identities at EDC Vegas, the world now knows the ironic truth: as solo artists, three of the four members of Bad Royale have already seen significant prior success—producing trance music.",
+        "eventDescLong": "CANCELED: Henry Fong - An EDM DJ/producer originally from West Palm Beach, Florida. He began DJing during his college years at the University of Central Florida, and held various residencies and promoted at local clubs in Orlando, FL. After graduation from the college, he moved to Los Angeles to focus on music production. He has since released on record labels such as Spinnin, Revealed, OWSLA, Mad Decent, Dim Mak, and in 2015 started his own imprint Banzai Recs. He is known infusing styles such as reggae/dancehall and Melbourne Bounce into high energy EDM tracks. Stand out songs include “Scream“, “Encore“, “Stand Up“, “Wine Dem“, “Bust Dem“, and “Ass Up“.</br></br>Bad Royale - What do you get when you lock an Israeli, a Norwegian, a Mexican-Swede and a Lebanese-American in a studio? Some solid trap music.</br></br>Bad Royale are the new kings on the Mad Decent block, but as a group of four individual artists they’re not new to the DJ game. With the recent reveal of their identities at EDC Vegas, the world now knows the ironic truth: as solo artists, three of the four members of Bad Royale have already seen significant prior success—producing trance music.",
+        "eventCover"   : "",
         "eventLink"    : "special-events/" + "henry-fong-bad-royale-at-necto-nightclub-ann-arbor-michigan-sept-14-2017.html",
         "eventSocial"  : "https://www.facebook.com/events/1874558196199787/",
-        "eventTix"     : "https://www.ticketfly.com/purchase/event/1523062?utm_medium=bks",
+        "eventTix"     : "none",
         "eventImgWide" : "img/event-images/" + "henry-fong-bad-royale-at-necto-nightclub-ann-arbor-michigan.jpg",
+        "eventWklOvrd" : false,
+        "eventDay"     : 0, // Do not modify
+        "pastEvent"    : false // Do not modify
+    },
+    {
+        "eventDate"    : new Date("Sept 14, 2017 21:00:00"),
+        "eventName"    : "THROWBACK THURSDAY",
+        "eventArtist"  : "THROWBACK THURSDAY",
+        "eventDesc"    : "THROWBACK THURSDAY: All Your Favorite Music from the 80s, 90s & early 00s.<br><br>FREE for 21+ | $10 for 18-20",
+        "eventDescLong": "THROWBACK THURSDAY: All Your Favorite Music from the 80s, 90s & early 00s.<br><br>FREE for 21+ | $10 for 18-20",
+        "eventCover"   : "FREE for 21+ | $10 for 18-20",
+        "eventLink"    : "special-events/" + "throwback-thursday-at-necto-nightclub-ann-arbor-michigan-sept-14-2017.html",
+        "eventSocial"  : "https://www.facebook.com/events/137421390207711/",
+        "eventTix"     : "none",
+        "eventImgWide" : "img/event-images/" + "throwback-thursday-at-necto-nightclub-ann-arbor-michigan-sept-14-2017.jpg",
         "eventWklOvrd" : true,
         "eventDay"     : 0, // Do not modify
         "pastEvent"    : false // Do not modify

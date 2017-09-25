@@ -90,6 +90,21 @@ var eventsJSON = [
  "pastEvent" : 0
  },
  {
+ "eventDate" : new Date("Oct 27, 2017 21:00:00"),
+ "eventName" : "Pride Halloween 2017",
+ "eventArtist" : "Pride Halloween 2017",
+ "eventDesc" : "One of the best holidays of the year and one of our biggest events - Pride Halloween!! Be sure to get here early to sign up for the costume contest with cash prizes at midnight. DJ Jace in the Main Room spinning High Energy Dance, and DJ DigiMark in the Red Room playing Retro Pop & Top 40 music videos. Featuring hosts Chanel Hunter & Jadein Black. Please note: no metal or hard plastic, toys, or faux weapons are permitted.",
+ "eventDescLong": "One of the best holidays of the year and one of our biggest events - Pride Halloween!! Be sure to get here early to sign up for the costume contest with cash prizes at midnight. DJ Jace in the Main Room spinning High Energy Dance, and DJ DigiMark in the Red Room playing Retro Pop & Top 40 music videos. Featuring hosts Chanel Hunter & Jadein Black. Please note: no metal or hard plastic, toys, or faux weapons are permitted.",
+ "eventCover" : "$5 for 21+ | $10 for 18-20 ",
+ "eventLink" : "special-events/" + "pride-halloween-at-necto-nightclub-ann-arbor-michigan-oct-27th-2017.html",
+ "eventSocial" : "https://www.facebook.com/events/482684005451440/",
+ "eventTix" : "none",
+ "eventImgWide" : "img/event-images/" + "pride-halloween-at-necto-nightclub-ann-arbor-michigan-oct-27th-2017.png",
+ "eventWklOvrd" : 1,
+ "eventDay" : 0,
+ "pastEvent" : 0
+ },
+ {
  "eventDate" : new Date("Oct 26, 2017 21:00:00"),
  "eventName" : "GORGON CITY : Kingdom Tour",
  "eventArtist" : "Gorgon City",

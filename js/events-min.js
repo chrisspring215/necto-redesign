@@ -112,7 +112,7 @@ var eventsJSON = [
  "eventDescLong": "Gorgon City are an English electronic music production duo consisting of two North London producers Kye “Foamo“ Gibbon and Matt “RackNRuin“ Robson-Scott. Their 2013 single “Real“ peaked to number 44 on the UK Singles Chart. They are also well known for their 2014 single “Ready for Your Love“, which reached number 4 on the UK Singles Chart. They are currently signed to the London-based independent label Black Butter Records.",
  "eventCover" : "Presale tickets - $18 | $20 | $25 at Doors",
  "eventLink" : "special-events/" + "gorgon-city-at-necto-nightclub-ann-arbor-michigan-oct-26th-2017.html",
- "eventSocial" : "https://www.facebook.com/events/271380130014127/",
+ "eventSocial" : "https://www.facebook.com/events/1852026231754422/",
  "eventTix" : "https://www.ticketfly.com/purchase/event/1516624?utm_medium=bks",
  "eventImgWide" : "img/event-images/" + "gorgon-city-at-necto-nightclub-ann-arbor.jpg",
  "eventWklOvrd" : 1,
@@ -2934,7 +2934,7 @@ var eventsJSON = [
  "eventArtist" : "CASH CASH + TRITONAL: Untouchable Tour",
  "eventDescLong": "CASH CASH + TRITONAL: Untouchable Tour takes over Necto Nightclub on Wednesday, November 4th. Presented by Prime Social Group.",
  "eventLink" : "special-events/" + "cash-cash-and-tritonal-live-at-necto-nightclub-ann-arbor-michigan-nov-4th-2015.html",
- "eventSocial" : "",
+ "eventSocial" : "https://www.facebook.com/events/271380130014127/",
  "eventTix" : "none",
  "eventImgWide" : "img/event-images/" + "cash-cash-and-tritonal-at-necto-nightclub-ann-arbor.png",
 

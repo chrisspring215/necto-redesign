@@ -143,7 +143,7 @@ var eventsJSON = [
         "eventCover"   : "Presale tickets - $18 | $20 | $25 at Doors",
         "eventLink"    : "special-events/" + "gorgon-city-at-necto-nightclub-ann-arbor-michigan-oct-26th-2017.html",
         "eventSocial"  : "https://www.facebook.com/events/1852026231754422/",
-        "eventTix"     : "https://www.ticketfly.com/purchase/event/1516624?utm_medium=bks",
+        "eventTix"     : "https://www.ticketfly.com/event/1514713",
         "eventImgWide" : "img/event-images/" + "gorgon-city-at-necto-nightclub-ann-arbor.jpg",
         "eventWklOvrd" : true,
         "eventDay"     : 0, // Do not modify

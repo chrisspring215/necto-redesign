@@ -30,6 +30,21 @@ var eventsJSON = [
  "pastEvent" : 0
  },
  {
+ "eventDate" : new Date("Nov 10, 2017 21:00:00"),
+ "eventName" : "Dragster featuring... Jujubee & Raven from RuPaul's Drag Race S2 & All Stars S1",
+ "eventArtist" : "Jujubee & Raven",
+ "eventDesc" : "Jujubee & Raven from RuPaul's Drag Race",
+ "eventDescLong": "Jujubee is the stage name of Airline Inthyrath, a professional drag performer, makeup artist, singer, and comedian from Boston, Massachusetts. He is best known for being a contestant on Season 2 of RuPaul’s Drag Race. Her drag mother is Karisma Geneva Jackson-Tae.</br>She is a fan-favorite and is remembered for her true friendship with fellow Season 2 queen, Raven. After Jujubee came third in the second season, she returned to compete in RuPaul’s All Stars Drag Race paired with Raven. Jujubee later came third again with Shannel, while Raven placed second.</br></br>Raven is the drag name of David Petruschin, a professional drag queen, makeup artist, performer, and comedian from Riverside, California. She competed in the second season of RuPaul’s Drag Race, placing runner-up. She later went on to compete in RuPaul’s All Stars Drag Race, paired with Jujubee, but controversially came in second place again.</br>She is a huge fan-favorite and one of the most popular contestants ever to enter on RuPaul’s Drag Race. Raven was known on the show for her wit, her fashion sense, her fierce runway walks and her performances, including her lip-syncs. She currently is on a web show with Raja, named “Fashion Photo Ruview”. It can be viewed on the WOWPresents YouTube channel. Since Season 9, David has been doing Ru’s makeup.",
+ "eventCover" : "$5 for 21+ | $10 for 18-20 all night. <strong>Express entry and preferred meet & greet are available</strong>.",
+ "eventLink" : "special-events/" + "jujubee-raven-at-necto-nightclub-ann-arbor-michigan-nov-10-2017.html",
+ "eventSocial" : "https://www.facebook.com/events/1724530437855757/",
+ "eventTix" : "none",
+ "eventImgWide" : "img/event-images/" + "jujubee-raven-at-necto-nightclub-ann-arbor-michigan-nov-10-2017.jpg",
+ "eventWklOvrd" : 1,
+ "eventDay" : 0,
+ "pastEvent" : 0
+ },
+ {
  "eventDate" : new Date("Nov 9, 2017 21:00:00"),
  "eventName" : "Christian Martin x Desert Hearts [Mikey Lion | Lee Reynolds | Marbs | Porkchop]",
  "eventArtist" : "Christian Martin",

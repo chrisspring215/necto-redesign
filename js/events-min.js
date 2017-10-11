@@ -165,6 +165,21 @@ var eventsJSON = [
  "pastEvent" : 0
  },
  {
+ "eventDate" : new Date("Oct 21, 2017 21:00:00"),
+ "eventName" : "Magical Mitten Productions presents... Night of the Living DUBZ (Red Room)",
+ "eventArtist" : "Night of the Living DUBZ",
+ "eventDesc" : "It’s the most spooky time of the year! Join Magical Mitten Productions and crew at Necto Nightclub as we bring in Architekt for his first time ever in Michigan!",
+ "eventDescLong": "It’s the most spooky time of the year! Join Magical Mitten Productions and crew at Necto Nightclub as we bring in Architekt for his first time ever in Michigan!</br></br>Architekt</br></br>Lo-Fi</br>Tek - Mazter</br>SkyBow</br>Dawning Music</br>Fruit Rollman</br></br>Crazy visuals by: Mad Mike's Visuals",
+ "eventCover" : "$5 presale | $10 at doors",
+ "eventLink" : "special-events/" + "night-of-the-living-dubz-at-necto-nightclub-ann-arbor-michigan-oct-21-2017.html",
+ "eventSocial" : "https://www.facebook.com/events/476312786052820/",
+ "eventTix" : "https://www.eventbrite.com/e/night-of-the-living-dubz-ft-architekt-tickets-38788065147",
+ "eventImgWide" : "img/event-images/" + "night-of-the-living-dubz-at-necto-nightclub-ann-arbor-michigan-oct-21-2017.jpg",
+ "eventWklOvrd" : 0,
+ "eventDay" : 0,
+ "pastEvent" : 0
+ },
+ {
  "eventDate" : new Date("Oct 19, 2017 21:00:00"),
  "eventName" : "Golf Clap: Level Up Tour",
  "eventArtist" : "Golf Clap",

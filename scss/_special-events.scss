@@ -16,7 +16,13 @@
 }
 
 .special-event-desc {
-	color: $white;
+    color: $white;
+    
+    span {
+        border-bottom: 2px solid $pink;
+        display: block; margin: 1em 0;
+        line-height: 0;
+    }
 }
 
 .special-event-cover {

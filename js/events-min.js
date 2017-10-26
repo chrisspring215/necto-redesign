@@ -75,21 +75,6 @@ var eventsJSON = [
  "pastEvent" : 0
  },
  {
- "eventDate" : new Date("Nov 7, 2017 19:00:00"),
- "eventName" : "Hayden James (CANCELED)",
- "eventArtist" : "Hayden James (CANCELED)",
- "eventDesc" : "Hayden James (CANCELED)",
- "eventDescLong": "Hayden James (CANCELED)",
- "eventCover" : "Pre-sale tickets - $18 | Doors $20",
- "eventLink" : "special-events/" + "hayden-james-at-necto-nightclub-ann-arbor-michigan-nov-7-2017.html",
- "eventSocial" : "https://www.facebook.com/events/1677707515595488/",
- "eventTix" : "https://www.ticketfly.com/purchase/event/1545977?utm_medium=bks",
- "eventImgWide" : "img/event-images/" + "hayden-james-at-necto-nightclub-ann-arbor-michigan-nov-7-2017.jpg",
- "eventWklOvrd" : 1,
- "eventDay" : 0,
- "pastEvent" : 0
- },
- {
  "eventDate" : new Date("Oct 31, 2017 21:00:00"),
  "eventName" : "React presents... Freaky Deaky at Necto with Cash Cash",
  "eventArtist" : "Freaky Deaky/Cash Cash",

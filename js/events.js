@@ -37,7 +37,7 @@ var eventsJSON = [
         "eventDescLong": "(/ro͞od/)<br>Rüd is forward motion<br>Rüd is acceptance<br>Rüd is an exit from ordinary<br>Rüd is the best vibes<br>Rüd is release<br><br>Joining us for episode 003:<br><br>Rebecca Goldberg<br><a href='https://soundcloud.com/rebeccagoldberg/'>Soundcloud</a><br></br>ill Fusion</br><a href='https://soundcloud.com/illfusiondet'>Soundcloud</a><br><br>Stephen Koller",
         "eventCover"   : "Door cover is $5 for 21+ | $10 for 18-20",
         "eventLink"    : "special-events/" + "rud-at-necto-nightclub-ann-arbor-michigan-nov-18-2017.html",
-        "eventSocial"  : "https://www.facebook.com/events/489018558128122/",
+        "eventSocial"  : "https://www.facebook.com/events/1771767062896818/",
         "eventTix"     : "none",
         "eventImgWide" : "img/event-images/" + "rud-at-necto-nightclub-ann-arbor-michigan-nov-18-2017.jpg",
         "eventWklOvrd" : false,

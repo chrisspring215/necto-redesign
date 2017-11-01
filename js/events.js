@@ -30,6 +30,21 @@ var eventsJSON = [
         "pastEvent"    : false // Do not modify
     },
     {
+        "eventDate"    : new Date("Nov 18, 2017 21:00:00"),
+        "eventName"    : "Rüd featuring... Rebecca Goldberg, ill Fusion, Stephen Koller",
+        "eventArtist"  : "Rüd (Red Room)",
+        "eventDesc"    : "(/ro͞od/)<br>Rüd is forward motion<br>Rüd is acceptance<br>Rüd is an exit from ordinary<br>Rüd is the best vibes<br>Rüd is release",
+        "eventDescLong": "(/ro͞od/)<br>Rüd is forward motion<br>Rüd is acceptance<br>Rüd is an exit from ordinary<br>Rüd is the best vibes<br>Rüd is release<br><br>Joining us for episode 003:<br><br>Rebecca Goldberg<br><a href='https://soundcloud.com/rebeccagoldberg/'>Soundcloud</a><br></br>ill Fusion</br><a href='https://soundcloud.com/illfusiondet'>Soundcloud</a><br><br>Stephen Koller",
+        "eventCover"   : "Door cover is $5 for 21+ | $10 for 18-20",
+        "eventLink"    : "special-events/" + "rud-at-necto-nightclub-ann-arbor-michigan-nov-18-2017.html",
+        "eventSocial"  : "https://www.facebook.com/events/489018558128122/",
+        "eventTix"     : "none",
+        "eventImgWide" : "img/event-images/" + "rud-at-necto-nightclub-ann-arbor-michigan-nov-18-2017.jpg",
+        "eventWklOvrd" : false,
+        "eventDay"     : 0, // Do not modify
+        "pastEvent"    : false // Do not modify
+    },
+    {
         "eventDate"    : new Date("Nov 10, 2017 21:00:00"),
         "eventName"    : "Dragster featuring... Jujubee & Raven from RuPaul's Drag Race S2 & All Stars S1",
         "eventArtist"  : "Jujubee & Raven",

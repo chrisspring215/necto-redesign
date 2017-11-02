@@ -90,6 +90,21 @@ var eventsJSON = [
         "pastEvent"    : false // Do not modify
     },
     {
+        "eventDate"    : new Date("Nov 6, 2017 21:00:00"),
+        "eventName"    : "Factory Halloween - Costume Contest pt. 2",
+        "eventArtist"  : "Halloween Costume Contest II",
+        "eventDesc"    : "Your Halloween costumes were so fvcking cool we had to do another contest. And we have $500 in cash prizes for the winners! Save your Youmacon/Halloween costumes to get in FREE.",
+        "eventDescLong": "Your Halloween costumes were so fvcking cool we had to do another contest. And we have $500 in cash prizes for the winners! Save your Youmacon/Halloween costumes to get in FREE.",
+        "eventCover"   : "Free cover w/ Halloween Costume | $1 before 10pm and $3 after 10pm",
+        "eventLink"    : "special-events/" + "factory-halloween-costume-contest-pt-2-at-necto-nightclub-ann-arbor-michigan-nov-6-2017.html",
+        "eventSocial"  : "https://www.facebook.com/events/284764885261360/",
+        "eventTix"     : "none",
+        "eventImgWide" : "img/event-images/" + "factory-halloween-costume-contest-pt-2-at-necto-nightclub-ann-arbor-michigan-nov-6-2017.jpg",
+        "eventWklOvrd" : true,
+        "eventDay"     : 0, // Do not modify
+        "pastEvent"    : false // Do not modify
+    },
+    {
         "eventDate"    : new Date("Oct 31, 2017 21:00:00"),
         "eventName"    : "React presents... Freaky Deaky at Necto with Cash Cash",
         "eventArtist"  : "Freaky Deaky/Cash Cash",

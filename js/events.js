@@ -75,21 +75,6 @@ var eventsJSON = [
         "pastEvent"    : false // Do not modify
     },
     {
-        "eventDate"    : new Date("Nov 8, 2017 19:00:00"),
-        "eventName"    : "Prime Social Group presents... Justin Caruso : Can I Drop Out Yet? Fall Tour",
-        "eventArtist"  : "Justin Caruso",
-        "eventDesc"    : "Justin Caruso’s “Can I Drop Out Yet?” fall tour is bringing original tracks and top charting remixes for a night of EDM, trap, and future bass.<br>Fans of Chainsmokers & 3LAU will appreciate his infectious danceable tracks, perfect for college campuses.",
-        "eventDescLong": "Can I Drop Out Yet?” fall tour is bringing original tracks and top charting remixes for a night of EDM, trap, and future bass.<br>Fans of Chainsmokers & 3LAU will appreciate his infectious danceable tracks, perfect for college campuses.<br><br><a href='https://soundcloud.com/justin-caruso-music'>Soundcloud</a> - <a href='https://www.instagram.com/justincarusomusic/?hl=en'>Instagram</a><span>&nbsp;</span>Justin Caruso is not your average college senior; his days are spent balancing a full course load at USC, and his nights are dedicated to producing chart-topping remixes for X Ambassadors and Ellie Goulding, and honing his unique sound for his original tracks. Caruso recently released his debut single “Talk About Me (feat. Victoria Zaro)”, which racked up over 1M streams in just a week and reached #2 on Hypem, #2 on SoundCloud Dance and #44 on Spotify Global Viral Charts.",
-        "eventCover"   : "Pre-sale tickets - $5 - $10",
-        "eventLink"    : "special-events/" + "justin-caruso-at-necto-nightclub-ann-arbor-michigan-nov-8-2017.html",
-        "eventSocial"  : "https://www.facebook.com/events/507707629588222/",
-        "eventTix"     : "https://justincarusonecto.eventbrite.com",
-        "eventImgWide" : "img/event-images/" + "justin-caruso-at-necto-nightclub-ann-arbor-michigan-nov-8-2017.jpg",
-        "eventWklOvrd" : true,
-        "eventDay"     : 0, // Do not modify
-        "pastEvent"    : false // Do not modify
-    },
-    {
         "eventDate"    : new Date("Nov 6, 2017 21:00:00"),
         "eventName"    : "Factory Halloween - Costume Contest pt. 2",
         "eventArtist"  : "Halloween Costume Contest II",

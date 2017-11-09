@@ -1,5 +1,35 @@
 var eventsJSON = [
     {
+        "eventDate"    : new Date("Jan 10, 2017 21:00:00"),
+        "eventName"    : "Movement presents... J PHLIP",
+        "eventArtist"  : "J Phlip",
+        "eventDesc"    : "Jessica Phillippe is diehard, born with true grit and skills to pay the bills. Despite her success with the Dirtybird gang, she's still out there in record stores on the regular... digging, uncovering precious gems and weaving them into her dynamic sets with panache. She's a hard-working, dedicated lady who refuses to compromise and aims to rock the dancefloor without relying on the most obvious tracks. Production-wise she's just as fearsome, lacing her tracks with a tough yet bouncy flavour. Her prowess in both disciplines combined with her infectious sense of fun and mind-boggling depth of knowledge make her one of the most revered DJs on the global circuit today.",        
+        "eventDescLong": "Jessica Phillippe is diehard, born with true grit and skills to pay the bills. Despite her success with the Dirtybird gang, she's still out there in record stores on the regular... digging, uncovering precious gems and weaving them into her dynamic sets with panache. She's a hard-working, dedicated lady who refuses to compromise and aims to rock the dancefloor without relying on the most obvious tracks. Production-wise she's just as fearsome, lacing her tracks with a tough yet bouncy flavour. Her prowess in both disciplines combined with her infectious sense of fun and mind-boggling depth of knowledge make her one of the most revered DJs on the global circuit today.",
+        "eventCover"   : "Presale tickets - 4 pack $40 | $15 | $20 at Doors",
+        "eventLink"    : "special-events/" + "j-phlip-at-necto-nightclub-ann-arbor-michigan-jan-10-2017.html",
+        "eventSocial"  : "https://www.facebook.com/events/1346410718820759/",
+        "eventTix"     : "https://jphlip_necto125.eventbrite.com",
+        "eventImgWide" : "img/event-images/" + "j-phlip-at-necto-nightclub-ann-arbor-michigan-jan-10-2017.jpg",
+        "eventWklOvrd" : true,
+        "eventDay"     : 0, // Do not modify
+        "pastEvent"    : false // Do not modify
+    },
+    {
+        "eventDate"    : new Date("Dec 8, 2017 21:00:00"),
+        "eventName"    : "Dragster featuring... SASHA VELOUR winner of RuPaul's Drag Race S9",
+        "eventArtist"  : "Sasha Velour",
+        "eventDesc"    : "Sasha Velour is the creative director of Velour: The Drag Magazine, and produces the critically-acclaimed monthly drag show Nightgowns. Sasha's visual art has been featured in Posture, QU33R, Cicada, The Nib, InkBRICK, Comics Workbook Magazine, as well as in several solo gallery shows.",        
+        "eventDescLong": "Sasha Velour is the creative director of Velour: The Drag Magazine, and produces the critically-acclaimed monthly drag show Nightgowns. Sasha's visual art has been featured in Posture, QU33R, Cicada, The Nib, InkBRICK, Comics Workbook Magazine, as well as in several solo gallery shows.",
+        "eventCover"   : "$5 for 21+ | $10 for 18-20 all night. Express entry and preferred meet & greet are available.",
+        "eventLink"    : "special-events/" + "sasha-velour-at-necto-nightclub-ann-arbor-michigan-dec-8th-2017.html",
+        "eventSocial"  : "https://www.facebook.com/events/860436290801570/",
+        "eventTix"     : "none",
+        "eventImgWide" : "img/event-images/" + "sasha-velour-at-necto-nightclub-ann-arbor-michigan-dec-8th-2017.jpg",
+        "eventWklOvrd" : true,
+        "eventDay"     : 0, // Do not modify
+        "pastEvent"    : false // Do not modify
+    },
+    {
         "eventDate"    : new Date("Dec 7, 2017 21:00:00"),
         "eventName"    : "React presents... Two Friends",
         "eventArtist"  : "Two Friends",

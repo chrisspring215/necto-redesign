@@ -60,6 +60,36 @@ var eventsJSON = [
  "pastEvent" : 0
  },
  {
+ "eventDate" : new Date("Dec 6, 2017 8:30:00"),
+ "eventName" : "Underground Yoga - Elevated Movement",
+ "eventArtist" : "Underground Yoga",
+ "eventDesc" : "Join Carol Ann and Spaceship Earth this December for our newest class, Elevated Movement! This restorative Vin Yin style class will begin with a 60 minute vinyasa practice and slowly transition into yin towards the end. The interdimensional sounds of Spaceship Earth will energize our movement while keeping us grounded during practice. Be sure to bring water, mat, towel, and comfy dancing pants!", 
+ "eventDescLong": "Join Carol Ann and Spaceship Earth this December for our newest class, Elevated Movement! This restorative Vin Yin style class will begin with a 60 minute vinyasa practice and slowly transition into yin towards the end. The interdimensional sounds of Spaceship Earth will energize our movement while keeping us grounded during practice. Be sure to bring water, mat, towel, and comfy dancing pants!",
+ "eventCover" : "$15 / $20",
+ "eventLink" : "special-events/" + "underground-yoga-elevated-movement-at-necto-nightclub-ann-arbor-michigan-dec-6th-2017.html",
+ "eventSocial" : "https://www.facebook.com/events/861231174052101/",
+ "eventTix" : "http://bit.ly/LMvmnt126",
+ "eventImgWide" : "img/event-images/" + "underground-yoga-elevated-movement-at-necto-nightclub-ann-arbor-michigan-dec-6th-2017.jpg",
+ "eventWklOvrd" : 0,
+ "eventDay" : 0,
+ "pastEvent" : 0
+ },
+ {
+ "eventDate" : new Date("Dec 4, 2017 21:00:00"),
+ "eventName" : "Fall Formal 2017",
+ "eventArtist" : "Fall Formal 2017",
+ "eventDesc" : "Get fancy and come party to your favorite music, with the added bonus of at least 10 fantastic pictures with your Factory family. Featuring DJ Voi6 with guest DJ Darks Choir and visuals by Remnant. DJ KnowLedge in the Red Room for Sub:Merge.", 
+ "eventDescLong": "Get fancy and come party to your favorite music, with the added bonus of at least 10 fantastic pictures with your Factory family. Featuring DJ Voi6 with guest DJ Darks Choir and visuals by Remnant. DJ KnowLedge in the Red Room for Sub:Merge. Check out photos from last year <a href='https://www.facebook.com/pg/FactoryAtNecto/photos/?tab=album&album_id=10154502367643941'>here</a>.",
+ "eventCover" : "Free with formal attire. Otherwise, $1 before 10PM, $3 after.",
+ "eventLink" : "special-events/" + "fall-formal-2017-at-necto-nightclub-ann-arbor-michigan-dec-4th-2017.html",
+ "eventSocial" : "https://www.facebook.com/events/342945676111079/",
+ "eventTix" : "none",
+ "eventImgWide" : "img/event-images/" + "fall-formal-2017-at-necto-nightclub-ann-arbor-michigan-dec-4th-2017.jpg",
+ "eventWklOvrd" : 1,
+ "eventDay" : 0,
+ "pastEvent" : 0
+ },
+ {
  "eventDate" : new Date("Nov 30, 2017 21:00:00"),
  "eventName" : "React presents... Figure with Midnight Tyrannosaurus",
  "eventArtist" : "Figure/Midnight Tyrannosaurus",

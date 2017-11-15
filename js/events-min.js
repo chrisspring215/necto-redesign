@@ -1,5 +1,20 @@
 var eventsJSON = [
  {
+ "eventDate" : new Date("Mar 1, 2018 21:00:00"),
+ "eventName" : "MATOMA : One In A Million Tour 2018",
+ "eventArtist" : "Matoma",
+ "eventDesc" : "Matoma returns to the Necto on his One In A Million Tour.", 
+ "eventDescLong": "Norway’s Tom Stræte Lagergren (aka Matoma) is a DJ and producer known for his dance-oriented, tropical house music. Born in Asnes, Norway in 1991, Lagergren initially started out playing classical piano in his youth. It wasn't until his teenage years spent listening to his older brother's music collection -- including albums by Paul van Dyk, Tiesto, and Armin van Buuren -- that he became increasingly interested in electronic dance music. After high school, Lagergren, who had already started remixing and releasing tracks online as Matoma, furthered his studies by earning his Bachelor's degree in Music Technology from the Norwegian University of Science and Technology. By 2014, he had started to gain international recognition for his Matoma remixes, including cuts for Jessie J, Akon, Enrique Iglesias, and others. In 2015, he scored a hit in Europe and New Zealand with a remix of Notorious B.I.G.'s “Old Thing Back.” Also in 2015, Lagergren released his own debut single as Matoma, “Feeling Right (Everything Is Nice),” featuring rapper Wale and Jamaican dancehall singer Popcaan. That track found its way onto his debut LP, Hakuna Matoma, which arrived at the end of the year. Additional guests included Becky Hill, Sean Paul, Astrid S, Akon, Frenship, and remixes of Dua Lipa's “Hotter Than Hell,” Jason Derulo's “Try Me,” and Coldplay's “Adventure of a Lifetime.” In 2017, Lagergren issued the single “Girl at Coachella” featuring Magic! and D.R.A.M. ~ Matt Collar (All Music)",
+ "eventCover" : "Presale tickets - $20 | $25 | $30 at Doors",
+ "eventLink" : "special-events/" + "matoma-at-necto-nightclub-ann-arbor-michigan-mar-1-2018.html",
+ "eventSocial" : "https://www.facebook.com/events/160116684728195/",
+ "eventTix" : "https://www.ticketfly.com/purchase/event/1593024?utm_medium=bks",
+ "eventImgWide" : "img/event-images/" + "matoma-at-necto-nightclub-ann-arbor-michigan-mar-1-2018.jpg",
+ "eventWklOvrd" : 1,
+ "eventDay" : 0,
+ "pastEvent" : 0
+ }, 
+ {
  "eventDate" : new Date("Jan 25, 2018 21:00:00"),
  "eventName" : "Movement presents... J PHLIP",
  "eventArtist" : "J Phlip",

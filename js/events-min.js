@@ -30,6 +30,21 @@ var eventsJSON = [
  "pastEvent" : 0
  },
  {
+ "eventDate" : new Date("Dec 31, 2017 21:00:00"),
+ "eventName" : "New Year’s Eve 2018",
+ "eventArtist" : "New Year’s Eve 2018",
+ "eventDesc" : "Ring in the New Year with your favorite Southeast Michigan Nightclub... Necto! Join DJ Hardy, Nick Donovan & MC Yoda in the Main Room spinning Top 40 & House. DJ DigiMark in the Red Room playing the best music from the late 80s, 90s & early 2000s. Celebration includes live countdown, balloon drop at midnight, and complimentary party favors til 4AM. Check out last year's party <a href='https://www.youtube.com/watch?v=N-Cc_telSsA'>here</a>.", 
+ "eventDescLong": "Ring in the New Year with your favorite Southeast Michigan Nightclub... Necto! Join DJ Hardy, Nick Donovan & MC Yoda in the Main Room spinning Top 40 & House. DJ DigiMark in the Red Room playing the best music from the late 80s, 90s & early 2000s. Celebration includes live countdown, balloon drop at midnight, and complimentary party favors til 4AM. Check out last year's party <a href='https://www.youtube.com/watch?v=N-Cc_telSsA'>here</a>.",
+ "eventCover" : "Pre-sale: $30 for a single ticket | $50 for a pair of tickets | $80 for a 4 pack of tickets. Tickets at doors: $30 for 21+ | $50 for 18-20.",
+ "eventLink" : "special-events/" + "new-years-eve-2018-at-necto-nightclub-ann-arbor-michigan-dec-31-2017.html",
+ "eventSocial" : "https://facebook.com/events/433318377082767/",
+ "eventTix" : "https://nectonye2018.eventbrite.com",
+ "eventImgWide" : "img/event-images/" + "new-years-eve-2018-at-necto-nightclub-ann-arbor-michigan-dec-31-2017.jpg",
+ "eventWklOvrd" : 0,
+ "eventDay" : 0,
+ "pastEvent" : 0
+ },
+ {
  "eventDate" : new Date("Dec 23, 2017 21:00:00"),
  "eventName" : "Plastic Passion presents... Holiday Reunion",
  "eventArtist" : "Plastic Passion",

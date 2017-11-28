@@ -15,6 +15,21 @@ var eventsJSON = [
         "pastEvent"    : false // Do not modify
     },    
     {
+        "eventDate"    : new Date("Feb 1, 2018 21:00:00"),
+        "eventName"    : "CRANKDAT: Outcast Tour",
+        "eventArtist"  : "CRANKDAT",
+        "eventDesc"    : "Ohio native Christian Smith grew up highly athletic, but ultimately turned down a full-ride track-and-field scholarship to Kent State to pursue music, producing energetic and melodically vibrant EDM as Crankdat. Smith began making music while still in high school, juggling duties as an athlete with an obsessive excitement for producing his own tracks. He originally gained recognition for a string of high-energy remixes of other artists' tracks, including a bounding reworking of Fetty Wap's breakout single, ”Trap Queen.“ Eventually these remixes racked up millions of plays and Smith, barely out of his teens, was getting attention from bigger names in EDM such as Skrillex and Chainsmokers. Crankdat would go on to release original tracks as he toured constantly, including the Jauz collaboration “I Hold Still” as well as the triumphant “Dollars,” both in 2017. ~ Fred Thomas (Allmusic.com)",        
+        "eventDescLong": "Ohio native Christian Smith grew up highly athletic, but ultimately turned down a full-ride track-and-field scholarship to Kent State to pursue music, producing energetic and melodically vibrant EDM as Crankdat. Smith began making music while still in high school, juggling duties as an athlete with an obsessive excitement for producing his own tracks. He originally gained recognition for a string of high-energy remixes of other artists' tracks, including a bounding reworking of Fetty Wap's breakout single, ”Trap Queen.“ Eventually these remixes racked up millions of plays and Smith, barely out of his teens, was getting attention from bigger names in EDM such as Skrillex and Chainsmokers. Crankdat would go on to release original tracks as he toured constantly, including the Jauz collaboration “I Hold Still” as well as the triumphant “Dollars,” both in 2017. ~ Fred Thomas (Allmusic.com)",
+        "eventCover"   : "$10 | $12.50 | $15 | $20 Day of Show",
+        "eventLink"    : "special-events/" + "crankdat-outcast-tour-at-necto-nightclub-ann-arbor-michigan-feb-1-2018.html",
+        "eventSocial"  : "https://www.facebook.com/events/1749119825384044/",
+        "eventTix"     : "https://www.ticketfly.com/purchase/event/1598852?utm_medium=bks",
+        "eventImgWide" : "img/event-images/" + "crankdat-outcast-tour-at-necto-nightclub-ann-arbor-michigan-feb-1-2018.jpg",
+        "eventWklOvrd" : true,
+        "eventDay"     : 0, // Do not modify
+        "pastEvent"    : false // Do not modify
+    },
+    {
         "eventDate"    : new Date("Jan 25, 2018 21:00:00"),
         "eventName"    : "Movement presents... J PHLIP",
         "eventArtist"  : "J Phlip",
@@ -116,6 +131,21 @@ var eventsJSON = [
         "eventTix"     : "none",
         "eventImgWide" : "img/event-images/" + "fall-formal-2017-at-necto-nightclub-ann-arbor-michigan-dec-4th-2017.jpg",
         "eventWklOvrd" : true,
+        "eventDay"     : 0, // Do not modify
+        "pastEvent"    : false // Do not modify
+    },
+    {
+        "eventDate"    : new Date("Dec 2, 2017 21:00:00"),
+        "eventName"    : "Rüd featuring... DJ Holographic, Pryse, Nomadica",
+        "eventArtist"  : "Rüd (Red Room)",
+        "eventDesc"    : "Fresh from a string of high-profile events, including her monthly Red Bull Radio show and several shows with The Black Madonna, hometown hero DJ Holographic returns to The Red Room with her favorite blend of booty-shaking house and funky techno cuts.<br><br>Populating the place prior, please welcome Pryse - you've probably seen him at The Grasshopper Underground or The Works getting the floor grooving to bumping tech house or soulful disco jams.<br><br>Last but not least, our lady Nomadica will breathe life into the Red Room at the start of the night. She likes to bring an eclectic but always energetic sound into her mixes.<br><br>As always, bring your dancing shoes, your friends and your positive energy! We can't wait to dance with you!",
+        "eventDescLong": "Fresh from a string of high-profile events, including her monthly Red Bull Radio show and several shows with The Black Madonna, hometown hero DJ Holographic returns to The Red Room with her favorite blend of booty-shaking house and funky techno cuts.<br><br>Populating the place prior, please welcome Pryse - you've probably seen him at The Grasshopper Underground or The Works getting the floor grooving to bumping tech house or soulful disco jams.<br><br>Last but not least, our lady Nomadica will breathe life into the Red Room at the start of the night. She likes to bring an eclectic but always energetic sound into her mixes.<br><br>As always, bring your dancing shoes, your friends and your positive energy! We can't wait to dance with you!",
+        "eventCover"   : "Door cover is $5 for 21+ | $10 for 18-20",
+        "eventLink"    : "special-events/" + "rud-at-necto-nightclub-ann-arbor-michigan-dec-2-2017.html",
+        "eventSocial"  : "https://www.facebook.com/events/371388989983600/",
+        "eventTix"     : "none",
+        "eventImgWide" : "img/event-images/" + "rud-at-necto-nightclub-ann-arbor-michigan-dec-2-2017.jpg",
+        "eventWklOvrd" : false,
         "eventDay"     : 0, // Do not modify
         "pastEvent"    : false // Do not modify
     },

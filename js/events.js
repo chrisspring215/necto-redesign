@@ -45,6 +45,21 @@ var eventsJSON = [
         "pastEvent"    : false // Do not modify
     },
     {
+        "eventDate"    : new Date("Jan 23, 2018 21:00:00"),
+        "eventName"    : "MAKO: Breathe Tour",
+        "eventArtist"  : "MAKO",
+        "eventDesc"    : "To hear MAKO now is to witness them at a creative crossroads, a trip four years in the making for producer/songwriter/vocalist Alex Seaver and producer Logan Light. Following their rapid rise, MAKO now tackle a new sonic challenge via their debut album Hourglass set for release December 9 via Ultra Music.",        
+        "eventDescLong": "To hear MAKO now is to witness them at a creative crossroads, a trip four years in the making for producer/songwriter/vocalist Alex Seaver and producer Logan Light. Following their rapid rise, MAKO now tackle a new sonic challenge via their debut album Hourglass set for release December 9 via Ultra Music.",
+        "eventCover"   : "Presale tickets - $15 | $20 Day of Show",
+        "eventLink"    : "special-events/" + "mako-at-necto-nightclub-ann-arbor-michigan-jan-23-2018.html",
+        "eventSocial"  : "https://www.facebook.com/events/498847003821493/",
+        "eventTix"     : "https://www.ticketfly.com/purchase/event/1598817?utm_medium=bks",
+        "eventImgWide" : "img/event-images/" + "mako-at-necto-nightclub-ann-arbor-michigan-jan-23-2018.jpg",
+        "eventWklOvrd" : false,
+        "eventDay"     : 0, // Do not modify
+        "pastEvent"    : false // Do not modify
+    },
+    {
         "eventDate"    : new Date("Dec 31, 2017 21:00:00"),
         "eventName"    : "New Year’s Eve 2018",
         "eventArtist"  : "New Year’s Eve 2018",

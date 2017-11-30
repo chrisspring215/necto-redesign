@@ -30,6 +30,21 @@ var eventsJSON = [
         "pastEvent"    : false // Do not modify
     },
     {
+        "eventDate"    : new Date("Jan 28, 2018 19:00:00"),
+        "eventName"    : "Miss Necto 2018 : Professional/Amateur Drag Queen Pageant",
+        "eventArtist"  : "Miss Necto 2018: Drag Pageant",
+        "eventDesc"    : "Join us for a night of enchantment! Necto's 4th annual Miss Necto Professional/ Amateur Drag Queen Pageant! This year's theme is Twisted Fairy Tales!",          
+        "eventDescLong": "Necto presents...<br><br>Join us for a night of enchantment! Necto’s 4th annual Miss Necto Professional/ Amateur Drag Queen Pageant! This year's theme is Twisted Fairy Tales!<br><br>Hosted by<br>Chanel Hunter & Jadein Black<br><br>Honoring...<br>The Reigning Miss Necto Professional 2017<br>Sabin<br>and Miss Necto Amateur 2017<br>Candy Gloss Contour <br><br>Miss Necto Professional winner will receive<br>• $500 cash prize<br>• The Beautiful Miss Necto Crown <br>• Lovely Miss Necto 2018 Sash<br>• At least 1 paid booking at Necto in 2018<br><br>Miss Necto Amateur winner will receive<br>• $150 cash prize<br>• The Awesome Miss Necto Amateur Crown <br>• Lovely Miss Necto Amateur 2018 Sash<br>• At least 1 paid booking at Necto in 2018<br><br>For more information or a contestant application, please contact info@necto.com",
+        "eventCover"   : "Registration at 4pm | Doors at 6pm | Show at 7pm",
+        "eventLink"    : "special-events/" + "miss-necto-drag-pageant-at-necto-nightclub-ann-arbor-michigan-jan-28-2018.html",
+        "eventSocial"  : "https://www.facebook.com/events/132003220823334/",
+        "eventTix"     : "https://missnecto2018.eventbrite.com",
+        "eventImgWide" : "img/event-images/" + "miss-necto-drag-pageant-at-necto-nightclub-ann-arbor-michigan-jan-28-2018.jpg",
+        "eventWklOvrd" : true,
+        "eventDay"     : 0, // Do not modify
+        "pastEvent"    : false // Do not modify
+    },
+    {
         "eventDate"    : new Date("Jan 25, 2018 21:00:00"),
         "eventName"    : "Movement presents... J PHLIP",
         "eventArtist"  : "J Phlip",

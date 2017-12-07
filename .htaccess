@@ -61,8 +61,10 @@ Redirect 301 /tix/forgot_password.php https://www.necto.com
 Redirect 301 /tix/contact.php https://www.necto.com
 Redirect 301 /tix/address.php?event_id=33 https://www.necto.com
 
-Redirect 301 /special-events/new-years-eve-party-2015-at-necto-nightclub-ann-arbor-michigan-dec-31st-2014.html https://www.necto.com/special-event-groups/new-years-eve-2017-ann-arbor-necto-nightclub.html
-Redirect 301 /special-events/new-years-eve-2016-winter-garden-party-at-necto-nightclub-ann-arbor-michigan-dec-31st-2015.html https://www.necto.com/special-event-groups/new-years-eve-2017-ann-arbor-necto-nightclub.html
+Redirect 301 /special-events/new-years-eve-party-2015-at-necto-nightclub-ann-arbor-michigan-dec-31st-2014.html https://www.necto.com/special-events/new-years-eve-2018-at-necto-nightclub-ann-arbor-michigan-dec-31-2017.html
+Redirect 301 /special-events/new-years-eve-2016-winter-garden-party-at-necto-nightclub-ann-arbor-michigan-dec-31st-2015.html https://www.necto.com/special-events/new-years-eve-2018-at-necto-nightclub-ann-arbor-michigan-dec-31-2017.html
+Redirect 301 /special-events/new-years-eve-2017-ann-arbor-necto-nightclub.html https://www.necto.com/special-events/new-years-eve-2018-at-necto-nightclub-ann-arbor-michigan-dec-31-2017.html
+
 Redirect 301 /special-events/special-events/throwback-thursday-at-necto-nightclub-ann-arbor-michigan-apr-27th-2017.html https://www.necto.com/special-events/throwback-thursday-apr-27-2017-at-necto-nightclub-ann-arbor-michigan.html
 Redirect 301 /photo-archive/factory-photos-20141027/factory-photos-20141027.html /factory-monday-photos.html
 Redirect 301 /photo-archive/factory-photos-20150921/factory-photos-20150921.html /factory-monday-photos.html

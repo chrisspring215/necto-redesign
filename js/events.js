@@ -22,8 +22,8 @@ var eventsJSON = [
         "eventDescLong": "Electronic duo Pegboard Nerds concocted exuberant future bass fit for dancefloors, bright anime, or kinetic video games (a major influence on their visual aesthetic). Their sound -- a little future bass, a little dubstep, a lot of chiptune -- was the inspired amalgam of Alexander Odden (Norway) and Michael Parsberg-Hansen (Denmark), a pair of producers whose stage name is an anagram of their last names. Starting in 2005, they released a string of EPs and remixes, including a pair of collaborations with Splitbreed. A decade into their pairing, they started a campaign in 2015 called Operation Pink Cloud, aimed at ending breast cancer. The Pink Cloud EP featured guest turns from Max Collins, Johnny Graves, and Jonny Rose. Their fourth EP, Nerds by Nature, arrived in early 2017 and debuted in the Top 15 of Billboard's Electronic Albums chart. ~ Neil Z. Yeung (allmusic.com)",
         "eventCover"   : "Presale tickets - 4 Pack - $40 | General Admission - $15 | Doors - $18",
         "eventLink"    : "special-events/" + "pegboard-nerds-at-necto-nightclub-ann-arbor-michigan-mar-8-2018.html",
-        "eventSocial"  : "https://www.facebook.com/events/160116684728195/",
-        "eventTix"     : "https://www.ticketfly.com/purchase/event/1593024?utm_medium=bks",
+        "eventSocial"  : "https://www.facebook.com/events/1938908766427938/",
+        "eventTix"     : "https://pegboardnerds_necto.eventbrite.com",
         "eventImgWide" : "img/event-images/" + "pegboard-nerds-at-necto-nightclub-ann-arbor-michigan-mar-8-2018.jpg",
         "eventWklOvrd" : true,
         "eventDay"     : 0, // Do not modify

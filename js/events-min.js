@@ -105,6 +105,21 @@ var eventsJSON = [
  "pastEvent" : 0
  },
  {
+ "eventDate" : new Date("Jan 18, 2018 21:00:00"),
+ "eventName" : "ROB $TONE : MPowered Spotlight Takeover",
+ "eventArtist" : "Rob $tone",
+ "eventDesc" : "Rob $tone (b. Jaylen Robinson) is a multidimensional vocalist, producer and songwriter proudly hailing from San Diego’s Lemon Grove region. Drawing from the prolific reggae, rock and hip-hop artists who soundtracked his adolescence growing up in California helped inspire him to manifest the burgeoning career and melodic, genre-fluid approach he is happily cultivating today.",
+ "eventDescLong" : "Rob $tone (b. Jaylen Robinson) is a multidimensional vocalist, producer and songwriter proudly hailing from San Diego’s Lemon Grove region. Drawing from the prolific reggae, rock and hip-hop artists who soundtracked his adolescence growing up in California helped inspire him to manifest the burgeoning career and melodic, genre-fluid approach he is happily cultivating today.<br><br>In 2014, the first song he ever recorded, “Chill Bill”, began to gain traction leading up to its formal release on his debut mixtape, Straight Bummin’ in 2015, a project that was later followed by his first EP, Landing, the same year. In 2016, “Chill Bill”, which was inspired by a run-in with the police, was re-released and climbed its way up the Billboard Hot 100, going on to peak at No. 29 and lead him toward inking his first major label deal with RCA. The Kill Bill-inspired single, which has since been certified 2x Platinum by the RIAA, further ignited his passion to not only create music for himself but to put on for his city.<br><br>From taking the streaming game by storm to receiving cosigns from a slew of reputed artists, Rob $tone continued living up to his reputation as a bona fide rising talent, going on to release his 2016 sophomore mixtape, I’m Almost Ready, while his viral single received the remix treatment from the likes of D.R.A.M., Denzel Curry and Cousin Stizz. Amid the chaos that comes with being an emerging artist, Rob $tone became celebrated for his emotive, lively performances, lending his talents on the road as a supporting act alongside Playboi Carti & A$AP Ferg in 2016 and Desiigner & Ski Mask in 2017. With his first official headlining tour fast-approaching before year’s end, the 22-year-old is currently balancing fatherhood while readying his debut album, Don’t Wait For It.", 
+ "eventCover" : "Presale tickets - Early Bird - $25 | GA - $30 | 4Pack - $90 | 8Pack - $160",
+ "eventLink" : "special-events/" + "rob-stone-at-necto-nightclub-ann-arbor-michigan-jan-18-2018.html",
+ "eventSocial" : "https://www.facebook.com/events/721055674750720/",
+ "eventTix" : "https://rob_stone_mpowered.eventbrite.com",
+ "eventImgWide" : "img/event-images/" + "rob-stone-at-necto-nightclub-ann-arbor-michigan-jan-18-2018.jpg",
+ "eventWklOvrd" : 1,
+ "eventDay" : 0,
+ "pastEvent" : 0
+ },
+ {
  "eventDate" : new Date("Jan 12, 2018 21:00:00"),
  "eventName" : "Dragster featuring... ADORE DELANO (American Idol S6 • RuPaul's Drag Race S7 finalist • All Stars S2",
  "eventArtist" : "ADORE DELANO",

@@ -135,6 +135,21 @@ var eventsJSON = [
  "pastEvent" : 0
  },
  {
+ "eventDate" : new Date("Jan 11, 2018 21:00:00"),
+ "eventName" : "LOUD LUXURY: Body Heat Tour",
+ "eventArtist" : "Loud Luxury",
+ "eventDesc" : "University friends Andrew Fedyk & Joe Depace better known as Loud Luxury have been creating quite a stir in the dance music scene as of late. With just a handful of releases under their belt, the London, Ontario duo has attracted the attention of taste makers such as Oliver Heldens, SNBRN, and Gorgon City to name a few.", 
+ "eventDescLong": "with<br><br>Miller Guth<br>Sam LaPorte<br><br>University friends Andrew Fedyk & Joe Depace better known as Loud Luxury have been creating quite a stir in the dance music scene as of late. With just a handful of releases under their belt, the London, Ontario duo has attracted the attention of taste makers such as Oliver Heldens, SNBRN, and Gorgon City to name a few.",
+ "eventCover" : "Presale tickets - $10 | $15",
+ "eventLink" : "special-events/" + "loud-luxury-at-necto-nightclub-ann-arbor-michigan-jan-11-2018.html",
+ "eventSocial" : "https://www.facebook.com/events/1743632502612579/",
+ "eventTix" : "https://www.ticketfly.com/purchase/event/1614392?utm_medium=bks",
+ "eventImgWide" : "img/event-images/" + "loud-luxury-at-necto-nightclub-ann-arbor-michigan-jan-11-2018.jpg",
+ "eventWklOvrd" : 1,
+ "eventDay" : 0,
+ "pastEvent" : 0
+ },
+ {
  "eventDate" : new Date("Dec 31, 2017 21:00:00"),
  "eventName" : "New Year’s Eve 2018",
  "eventArtist" : "New Year’s Eve 2018",

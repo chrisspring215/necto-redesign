@@ -70,7 +70,7 @@
         "eventSocial"  : "https:www.facebook.com/events/132003220823334/",
         "eventTix"     : "https:missnecto2018.eventbrite.com",
         "eventImgWide" : "img/event-images/miss-necto-drag-pageant-at-necto-nightclub-ann-arbor-michigan-jan-28-2018.jpg",
-        "eventWklOvrd" : true,
+        "eventWklOvrd" : false,
         "eventDay"     : 0,
         "pastEvent"    : false
     },
@@ -190,7 +190,7 @@
         "eventSocial"  : "facebook.com/events/793405474179744/",
         "eventTix"     : "none",
         "eventImgWide" : "img/event-images/pride-noel-2017-at-necto-nightclub-ann-arbor-michigan-dec-22-2017.jpg",
-        "eventWklOvrd" : false,
+        "eventWklOvrd" : true,
         "eventDay"     : 0,
         "pastEvent"    : false
     },

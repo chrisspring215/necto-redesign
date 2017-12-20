@@ -195,6 +195,21 @@ var eventsJSON = [
  "pastEvent" : 0
  },
  {
+ "eventDate" : new Date("Dec 21, 2017 21:00:00"),
+ "eventName" : "Necto Ugly Sweater Party",
+ "eventArtist" : "Ugly Sweater Party",
+ "eventDesc" : "’Tis the season to avoid your family, rock the worst of your winter wardrobe & party with those who know how to do it. Celebrate the season with great drink specials, with Nick Donovan will be spinning the best Top 40, Dance & House.", 
+ "eventDescLong": "’Tis the season to avoid your family, rock the worst of your winter wardrobe & party with those who know how to do it. Celebrate the season with great drink specials, with Nick Donovan will be spinning the best Top 40, Dance & House.",
+ "eventCover" : "Free for 21+ & $10 for 18 to 20.",
+ "eventLink" : "special-events/" + "ugly-sweater-party-at-necto-nightclub-ann-arbor-michigan-dec-21-2017.html",
+ "eventSocial" : "https://www.facebook.com/events/111901199601223/",
+ "eventTix" : "none",
+ "eventImgWide" : "img/event-images/" + "ugly-sweater-party-at-necto-nightclub-ann-arbor-michigan-dec-21-2017.jpg",
+ "eventWklOvrd" : 1,
+ "eventDay" : 0,
+ "pastEvent" : 0
+ },
+ {
  "eventDate" : new Date("Dec 18, 2017 21:00:00"),
  "eventName" : "Dark Noel 2017 featuring... ALLOY ASH",
  "eventArtist" : "Dark Noel 2017",

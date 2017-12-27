@@ -165,6 +165,21 @@ var eventsJSON = [
         "pastEvent"    : false // Do not modify
     },
     {
+        "eventDate"    : new Date("Dec 28, 2017 21:00:00"),
+        "eventName"    : "Necto 2017 Countdown",
+        "eventArtist"  : "Necto 2017 Countdown",
+        "eventDesc"    : "We’re counting down the biggest songs of 2017 this Thursday! Hear hit after hit after hit. Nick Donovan will be spinning the best Top 40, Dance & House of the past year.<br><br>Drink Specials: $3.50 Well drinks, $2.50 Fireball shots, 3 for $10 Jaeger Bombs, $2 Miller Lite Bottles.",     
+        "eventDescLong": "We’re counting down the biggest songs of 2017 this Thursday! Hear hit after hit after hit. Nick Donovan will be spinning the best Top 40, Dance & House of the past year.<br><br>Drink Specials: $3.50 Well drinks, $2.50 Fireball shots, 3 for $10 Jaeger Bombs, $2 Miller Lite Bottles.",
+        "eventCover"   : "Free for 21+ & $10 for 18 to 20",
+        "eventLink"    : "special-events/" + "necto-2017-countdown-at-necto-nightclub-ann-arbor-michigan-dec-28th-2017.html",
+        "eventSocial"  : "https://www.facebook.com/events/1915128578531991/",
+        "eventTix"     : "none",
+        "eventImgWide" : "img/event-images/" + "necto-2017-countdown-at-necto-nightclub-ann-arbor-michigan-dec-28th-2017.jpg",
+        "eventWklOvrd" : false,
+        "eventDay"     : 0, // Do not modify
+        "pastEvent"    : false // Do not modify
+    },
+    {
         "eventDate"    : new Date("Dec 23, 2017 21:00:00"),
         "eventName"    : "Plastic Passion presents... Holiday Reunion",
         "eventArtist"  : "Plastic Passion",

@@ -45,6 +45,21 @@
         "pastEvent"    : false
     },
     {
+        "eventDate"    : "Feb 17, 2018 21:00:00",
+        "eventName"    : "Magical Mitten & Patches O’Malley present “THE RED ROOM”",
+        "eventArtist"  : "The Red Room",
+        "eventDesc"    : "Magical Mitten & Patches O'Malley present “THE RED ROOM” welcoming G-Space to Necto",
+        "eventDescLong": "Magical Mitten & Patches O'Malley present “THE RED ROOM” welcoming G-Space to Necto.<br><br>ailing from Boston MA, G-space will take you on a journey through sound, incorporating his unique “piano wubs” and jaw dropping bass lines. G-space will deliver something new and special to your ears with 60+ minutes of originals and collaborations with some of the bigger names in the scene.<br><br>Line up:<br>G-Space (Boston, MA)<br><a href='https:m.soundcloud.com/gspacemusic'>Soundcloud</a><br><br>Patches O’Malley (Ann Arbor, MI)<br><a href='https:soundcloud.com/patchesomalley'>Soundcloud</a><br><br>Spiritual Gangsters (Detroit, MI)<br><a href='https:soundcloud.com/spiritualgangsters'>Soundcloud</a><br><br>Tetranauts (Detroit MI<br><br>Visuals:<br>Mad Mike's Visuals",
+        "eventCover"   : "$10 presale | $15 at doors",
+        "eventLink"    : "special-events/magical-mitten-patches-omalley-at-necto-nightclub-ann-arbor-michigan-feb-17-2018.html",
+        "eventSocial"  : "https:www.facebook.com/events/1959263654353201/",
+        "eventTix"     : "https:www.eventbrite.com/e/the-red-room-showg-space-patches-omalley-spiritual-gangstertetranauts-tickets-41032075041?aff=efbeventtix",
+        "eventImgWide" : "img/event-images/magical-mitten-patches-omalley-at-necto-nightclub-ann-arbor-michigan-feb-17-2018.jpg",
+        "eventWklOvrd" : false,
+        "eventDay"     : 0,
+        "pastEvent"    : false
+    },
+    {
         "eventDate"    : "Feb 1, 2018 21:00:00",
         "eventName"    : "CRANKDAT: Outcast Tour",
         "eventArtist"  : "CRANKDAT",

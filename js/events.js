@@ -165,6 +165,21 @@ var eventsJSON = [
         "pastEvent"    : false // Do not modify
     },
     {
+        "eventDate"    : new Date("Jan 4, 2018 21:00:00"),
+        "eventName"    : "Necto 2018 Blowout",
+        "eventArtist"  : "Necto 2018 Blowout",
+        "eventDesc"    : "Here’s a little treat to start 2018 off right! Come party & get $2 specials all night as we liquidate our inventory. You get absurd specials on a host of products, and we make room for new year. Nick Donovan will be spinning the best Top 40, Dance & House.",        
+        "eventDescLong": "Here’s a little treat to start 2018 off right! Come party & get $2 specials all night as we liquidate our inventory. You get absurd specials on a host of products, and we make room for new year. Nick Donovan will be spinning the best Top 40, Dance & House.",
+        "eventCover"   : "Free for 21+ & $10 for 18 to 20.",
+        "eventLink"    : "special-events/" + "necto-2018-blowout-at-necto-nightclub-ann-arbor-michigan-jan-4-2018.html",
+        "eventSocial"  : "https://www.facebook.com/events/322896198215600/",
+        "eventTix"     : "none",
+        "eventImgWide" : "img/event-images/" + "necto-2018-blowout-at-necto-nightclub-ann-arbor-michigan-jan-4-2018.jpg",
+        "eventWklOvrd" : true,
+        "eventDay"     : 0, // Do not modify
+        "pastEvent"    : false // Do not modify
+    },
+    {
         "eventDate"    : new Date("Dec 31, 2017 21:00:00"),
         "eventName"    : "New Year’s Eve 2018",
         "eventArtist"  : "New Year’s Eve 2018",

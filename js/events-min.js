@@ -90,6 +90,21 @@ var eventsJSON = [
  "pastEvent" : 0
  },
  {
+ "eventDate" : new Date("Jan 26, 2018 21:00:00"),
+ "eventName" : "Necto Pride presents... CupcakKe",
+ "eventArtist" : "CupcakKe",
+ "eventDesc" : "Elizabeth Eden Harris aka CupcakKe, is an American rapper from Chicago.<br><br>Harris began her career as a rapper by releasing material through the internet in late 2012. In 2015, two of her songs, “Deepthroat” and “Vagina”, went viral on video sharing websites such as YouTube and WorldStarHipHop. The songs were later included on her debut mixtape Cum Cake, which was released in February 2016 and placed at #23 in Rolling Stone's “Best Rap Albums of 2016” list and received attention from Pitchfork.", 
+ "eventDescLong": "Elizabeth Eden Harris aka CupcakKe, is an American rapper from Chicago.<br><br>Harris began her career as a rapper by releasing material through the internet in late 2012. In 2015, two of her songs, “Deepthroat” and “Vagina”, went viral on video sharing websites such as YouTube and WorldStarHipHop. The songs were later included on her debut mixtape Cum Cake, which was released in February 2016 and placed at #23 in Rolling Stone's “Best Rap Albums of 2016” list and received attention from Pitchfork. Her hyper-sexualized and often comical lyrical content has gained her songs notoriety across the internet, and she has since developed a strong online fanbase whom she nicknamed “slurpers”<br><br>Her second mixtape, S.T.D (Shelters to Deltas), was released in 2016 and was included in Rolling Stone's June 2016 list of the “Best Rap Albums of 2016 So Far”. She has also received attention from music publications Complex and The Fader.<br><br>Following the release of her mixtapes, Harris debuted her album Audacious in 2016. Her sophomore studio album Queen Elizabitch was released in 2017.",
+ "eventCover" : "$5 for 21+ | $10 for 18-20 all night.",
+ "eventLink" : "special-events/" + "cupcakke-at-necto-nightclub-ann-arbor-michigan-jan-26-2018.html",
+ "eventSocial" : "https://www.facebook.com/events/1952188001698281/",
+ "eventTix" : "https://cupcakke_necto.eventbrite.com",
+ "eventImgWide" : "img/event-images/" + "cupcakke-at-necto-nightclub-ann-arbor-michigan-jan-26-2018.jpg",
+ "eventWklOvrd" : 1,
+ "eventDay" : 0,
+ "pastEvent" : 0
+ },
+ {
  "eventDate" : new Date("Jan 25, 2018 21:00:00"),
  "eventName" : "Movement presents... J PHLIP",
  "eventArtist" : "J Phlip",
@@ -115,6 +130,21 @@ var eventsJSON = [
  "eventSocial" : "https://www.facebook.com/events/498847003821493/",
  "eventTix" : "https://www.ticketfly.com/purchase/event/1598817?utm_medium=bks",
  "eventImgWide" : "img/event-images/" + "mako-at-necto-nightclub-ann-arbor-michigan-jan-23-2018.jpg",
+ "eventWklOvrd" : 0,
+ "eventDay" : 0,
+ "pastEvent" : 0
+ },
+ {
+ "eventDate" : new Date("Jan 20, 2018 21:00:00"),
+ "eventName" : "DJ LiftOFF presents... Thank God It's The Weekend",
+ "eventArtist" : "DJ LiftOFF",
+ "eventDesc" : "Are you ready to take flight with DJ LiftOFF? Grab your ticket now to come enjoy the hottest Hip-Hop, Rap, and Party hits all night long at one of the hottest venues in Ann Arbor. TGITW is here to bring your weekend to life, and there's no DJ better equipped than LiftOFF! With his seamless transitions and your favorite tracks, your feet will be glued to the dance floor. There's only room for so many on the plane, so secure your tickets before it's too late!",
+ "eventDescLong": "Are you ready to take flight with DJ LiftOFF? Grab your ticket now to come enjoy the hottest Hip-Hop, Rap, and Party hits all night long at one of the hottest venues in Ann Arbor. TGITW is here to bring your weekend to life, and there's no DJ better equipped than LiftOFF! With his seamless transitions and your favorite tracks, your feet will be glued to the dance floor. There's only room for so many on the plane, so secure your tickets before it's too late!", 
+ "eventCover" : "$5 - $10 presale | $10 until 11:30pm & $20 after 11:30pm",
+ "eventLink" : "special-events/" + "dj-liftoff-at-necto-nightclub-ann-arbor-michigan-jan-20-2018.html",
+ "eventSocial" : "https://www.facebook.com/events/152062515445253/",
+ "eventTix" : "https://tgitw.eventbrite.com",
+ "eventImgWide" : "img/event-images/" + "dj-liftoff-at-necto-nightclub-ann-arbor-michigan-jan-20-2018.jpg",
  "eventWklOvrd" : 0,
  "eventDay" : 0,
  "pastEvent" : 0

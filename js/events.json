@@ -60,6 +60,21 @@
         "pastEvent"    : false
     },
     {
+        "eventDate"    : "Feb 9, 2018 21:00:00",
+        "eventName"    : "Dragster presents... BenDeLaCreme",
+        "eventArtist"  : "BenDeLaCreme",
+        "eventDesc"    : "BenDeLaCreme is the stage name of Benjamin Putnam, an American drag performer from Seattle, Washington. Putnam is well known for being a contestant on Season 6 of RuPaul's Drag Race. She finished in 5th place and was voted Miss Congeniality by fans. DeLa is an upcoming contestant for All Stars 3.",        
+        "eventDescLong": "Meet and Greet Tickets Available<br><br>RuPaul’s Drag Race S6 Fan Favorite • All Stars S3<br><br>BenDeLaCreme is the stage name of Benjamin Putnam, an American drag performer from Seattle, Washington. Putnam is well known for being a contestant on Season 6 of RuPaul's Drag Race. She finished in 5th place and was voted Miss Congeniality by fans. DeLa is an upcoming contestant for All Stars 3.",
+        "eventCover"   : "$5 for 21+ | $10 for 18-20",
+        "eventLink"    : "special-events/bendelacreme-at-necto-nightclub-ann-arbor-michigan-feb-9-2018.html",
+        "eventSocial"  : "https:www.facebook.com/events/168311227118126/",
+        "eventTix"     : "https:dela_necto.eventbrite.com",
+        "eventImgWide" : "img/event-images/bendelacreme-at-necto-nightclub-ann-arbor-michigan-feb-9-2018.jpg",
+        "eventWklOvrd" : true,
+        "eventDay"     : 0,
+        "pastEvent"    : false
+    },
+    {
         "eventDate"    : "Feb 1, 2018 21:00:00",
         "eventName"    : "CRANKDAT: Outcast Tour",
         "eventArtist"  : "CRANKDAT",

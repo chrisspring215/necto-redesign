@@ -69,7 +69,7 @@ var eventsJSON = [
  "eventLink" : "special-events/" + "my-bloody-valentine-2018-at-necto-nightclub-ann-arbor-michigan-feb-12-2018.html",
  "eventSocial" : "https://www.facebook.com/events/1969444573374760/",
  "eventTix" : "none",
- "eventImgWide" : "img/event-images/" + "my-bloody-valentine-2018-at-necto-nightclub-ann-arbor-michigan-feb-12-2018.html",
+ "eventImgWide" : "img/event-images/" + "my-bloody-valentine-2018-at-necto-nightclub-ann-arbor-michigan-feb-12-2018.jpg",
  "eventWklOvrd" : 1,
  "eventDay" : 0,
  "pastEvent" : 0

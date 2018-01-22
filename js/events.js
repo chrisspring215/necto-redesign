@@ -60,6 +60,21 @@ var eventsJSON = [
         "pastEvent"    : false // Do not modify
     },
     {
+        "eventDate"    : new Date("Feb 12, 2018 21:00:00"),
+        "eventName"    : "My Bloody Valentine 2018",
+        "eventArtist"  : "My Bloody Valentine 2018",
+        "eventDesc"    : "We're slicing up the little hallmark holiday, leaving a trail of flower & card carnage to the front door. This is a party for everyone, not just couples.",
+        "eventDescLong": "We're slicing up the little hallmark holiday, leaving a trail of flower & card carnage to the front door. This is a party for everyone, not just couples.  Featuring DJ Voi6 with guest Audioflesh and visuals by Remnant. DJ KnowLedge in the Red Room for Sub:Merge. Check out photos from last year <a href='https://facebook.com/315527678940/photos/?tab=album&album_id=10154726338178941'>here</a>.",
+        "eventCover"   : "$1 before 10PM, $3 after",
+        "eventLink"    : "special-events/" + "my-bloody-valentine-2018-at-necto-nightclub-ann-arbor-michigan-feb-12-2018.html",
+        "eventSocial"  : "https://www.facebook.com/events/1969444573374760/",
+        "eventTix"     : "none",
+        "eventImgWide" : "img/event-images/" + "my-bloody-valentine-2018-at-necto-nightclub-ann-arbor-michigan-feb-12-2018.html",
+        "eventWklOvrd" : true,
+        "eventDay"     : 0, // Do not modify
+        "pastEvent"    : false // Do not modify
+    },
+    {
         "eventDate"    : new Date("Feb 9, 2018 21:00:00"),
         "eventName"    : "Dragster presents... BenDeLaCreme",
         "eventArtist"  : "BenDeLaCreme",

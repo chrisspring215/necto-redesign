@@ -90,6 +90,21 @@ var eventsJSON = [
  "pastEvent" : 0
  },
  {
+ "eventDate" : new Date("Feb 5, 2018 21:00:00"),
+ "eventName" : "W1†¢H Ħðµ§ê FɆɃ 18",
+ "eventArtist" : "W1†¢H Ħðµ§ê FɆɃ 18",
+ "eventDesc" : "W1†¢H Ħðµ§ê ØNⱠɎ. The second of our monthly treks into the industrial, chopped and screwed occult soundscape. Preview here. Featuring DJ Void6 with guest Misanthropia Narsissus spinning Witch House on main floor. Visuals by Remnant. DJ KnowLedge with Sub:Merge in the Red Room.", 
+ "eventDescLong": "W1†¢H Ħðµ§ê ØNⱠɎ. The second of our monthly treks into the industrial, chopped and screwed occult soundscape. Preview here. Featuring DJ Void6 with guest Misanthropia Narsissus spinning Witch House on main floor. Visuals by Remnant. DJ KnowLedge with Sub:Merge in the Red Room.",
+ "eventCover" : "$1 before 10PM, $3 after.",
+ "eventLink" : "special-events/" + "witch-house-at-necto-nightclub-ann-arbor-michigan-feb-5-2018.html",
+ "eventSocial" : "https://www.facebook.com/events/1793111930982658/",
+ "eventTix" : "none",
+ "eventImgWide" : "img/event-images/" + "witch-house-at-necto-nightclub-ann-arbor-michigan-feb-5-2018.jpg",
+ "eventWklOvrd" : 1,
+ "eventDay" : 0,
+ "pastEvent" : 0
+ },
+ {
  "eventDate" : new Date("Feb 1, 2018 21:00:00"),
  "eventName" : "CRANKDAT: Outcast Tour",
  "eventArtist" : "CRANKDAT",

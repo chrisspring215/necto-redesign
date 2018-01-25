@@ -4,7 +4,7 @@ var eventsJSON = [
  "eventName" : "March Madness featuring... RiFF RaFF",
  "eventArtist" : "RiFF RaFF",
  "eventDesc" : "Get ready for a concert like we have never done before. Necto welcomes Riff Raff, a rapper and TV personality, for a night of wild entertainment.", 
- "eventDescLong": "Get ready for a concert like we have never done before. Necto welcomes Riff Raff, a rapper and TV personality, for a night of wild entertainment.<br></br>Be sure to wear your <a href='https://youtu.be/JxLS-cpgbe0'>“Dolce & Gabbana”</a>.<br><br><a href='https://soundcloud.com/matoma-official'>SoundCloud</a> - <a href='https://www.instagram.com/matoma/?hl=en'>Instagram</a>",
+ "eventDescLong": "Meet and Greet just added: Includes: 1 GA ticket, express entry, Meet & Greet, photo & autograph with RiFF RaFF. Get Meet and Greet Tickets <a href='https://riffraff_necto.eventbrite.com'>HERE</a>.<br><br>Get ready for a concert like we have never done before. Necto welcomes Riff Raff, a rapper and TV personality, for a night of wild entertainment.<br></br>Be sure to wear your <a href='https://youtu.be/JxLS-cpgbe0'>“Dolce & Gabbana”</a>.<br><br><a href='https://soundcloud.com/matoma-official'>SoundCloud</a> - <a href='https://www.instagram.com/matoma/?hl=en'>Instagram</a>",
  "eventCover" : "Presale tickets - 4 Pack = $40 | 4 Pack = $60 | GA = $20 | Ga = $25",
  "eventLink" : "special-events/" + "riff-raff-at-necto-nightclub-ann-arbor-michigan-mar-15-2018.html",
  "eventSocial" : "https://www.facebook.com/events/130783137595224/",

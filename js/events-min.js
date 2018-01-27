@@ -1,5 +1,20 @@
 var eventsJSON = [
  {
+ "eventDate" : new Date("Sep 20, 2018 21:00:00"),
+ "eventName" : "Movement presents... J PHLIP",
+ "eventArtist" : "J PHLIP",
+ "eventDesc" : "Jessica Phillippe is diehard, born with true grit and skills to pay the bills. Despite her success with the Dirtybird gang, she’s still out there in record stores on the regular... digging, uncovering precious gems and weaving them into her dynamic sets with panache. She's a hard-working, dedicated lady who refuses to compromise and aims to rock the dancefloor without relying on the most obvious tracks. Production-wise she's just as fearsome, lacing her tracks with a tough yet bouncy flavour. Her prowess in both disciplines combined with her infectious sense of fun and mind-boggling depth of knowledge make her one of the most revered DJs on the global circuit today.", 
+ "eventDescLong": "Jessica Phillippe is diehard, born with true grit and skills to pay the bills. Despite her success with the Dirtybird gang, she’s still out there in record stores on the regular... digging, uncovering precious gems and weaving them into her dynamic sets with panache. She's a hard-working, dedicated lady who refuses to compromise and aims to rock the dancefloor without relying on the most obvious tracks. Production-wise she's just as fearsome, lacing her tracks with a tough yet bouncy flavour. Her prowess in both disciplines combined with her infectious sense of fun and mind-boggling depth of knowledge make her one of the most revered DJs on the global circuit today.",
+ "eventCover" : "Presale tickets - 4 pack $40 | $15 | $20 at Doors",
+ "eventLink" : "special-events/" + "j-phlip-at-necto-nightclub-ann-arbor-michigan-sep-20-2018.html",
+ "eventSocial" : "https://www.facebook.com/events/140016763362172/",
+ "eventTix" : "https://jphlip_necto920.eventbrite.com",
+ "eventImgWide" : "img/event-images/" + "j-phlip-at-necto-nightclub-ann-arbor-michigan-sep-20-2018.jpg",
+ "eventWklOvrd" : 1,
+ "eventDay" : 0,
+ "pastEvent" : 0
+ },
+ {
  "eventDate" : new Date("Mar 15, 2018 20:00:00"),
  "eventName" : "March Madness featuring... RiFF RaFF",
  "eventArtist" : "RiFF RaFF",

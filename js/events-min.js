@@ -60,6 +60,21 @@ var eventsJSON = [
  "pastEvent" : 0
  },
  {
+ "eventDate" : new Date("Feb 22, 2018 21:00:00"),
+ "eventName" : "Defiled | Red Room | E͏m̵̕ȩrg̵͡en̶̕c͏̸e̷͞",
+ "eventArtist" : "Defiled | Red Room | E͏m̵̕ȩrg̵͡en̶̕c͏̸e̷͞",
+ "eventDesc" : "We’re bringing the underground industrial club feel to the most immersive setting we can: Necto's Red Room.<br><br>Industrial/aggrotech/EBM and more by Dj Graphite and Wraith, with visuals drawing from the most extreme of Remnant’s collection: gore, horror, and decimation. Dance into the abyss with us for this very special debut, a long time in the making.",
+ "eventDescLong": "We’re bringing the underground industrial club feel to the most immersive setting we can: Necto's Red Room.<br><br>Industrial/aggrotech/EBM and more by Dj Graphite and Wraith, with visuals drawing from the most extreme of Remnant’s collection: gore, horror, and decimation. Dance into the abyss with us for this very special debut, a long time in the making.",
+ "eventCover" : "$5 for 21+ | $10 for 18-20",
+ "eventLink" : "special-events/" + "magical-mitten-patches-omalley-at-necto-nightclub-ann-arbor-michigan-feb-17-2018.html",
+ "eventSocial" : "https://www.facebook.com/events/1327356104076833/",
+ "eventTix" : "none",
+ "eventImgWide" : "img/event-images/" + "magical-mitten-patches-omalley-at-necto-nightclub-ann-arbor-michigan-feb-17-2018.jpg",
+ "eventWklOvrd" : 0,
+ "eventDay" : 0,
+ "pastEvent" : 0
+ },
+ {
  "eventDate" : new Date("Feb 17, 2018 21:00:00"),
  "eventName" : "Magical Mitten & Patches O’Malley present “THE RED ROOM”",
  "eventArtist" : "The Red Room",

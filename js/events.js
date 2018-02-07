@@ -90,6 +90,21 @@ var eventsJSON = [
         "pastEvent"    : false // Do not modify
     },
     {
+        "eventDate"    : new Date("Feb 16, 2018 21:00:00"),
+        "eventName"    : "Pride Mardi Gras w/ Joe Bermudez",
+        "eventArtist"  : "Pride Mardi Gras",
+        "eventDesc"    : "This year, not only are we celebrating Mardi Gras, but also our own DJ Jace's birthday!! So, we have special guest DJ Joe Bermudez to spin high energy dance music for you on the main floor. DJ DigiMark will be in the RR playing Retro Pop, UK Dance and Top 40 music videos. Laissez les bons temps rouler!",
+        "eventDescLong": "This year, not only are we celebrating Mardi Gras, but also our own DJ Jace's birthday!! So, we have special guest DJ Joe Bermudez to spin high energy dance music for you on the main floor. DJ DigiMark will be in the RR playing Retro Pop, UK Dance and Top 40 music videos. Laissez les bons temps rouler!",
+        "eventCover"   : "$5 for 21+ & $10 for 18 to 20.",
+        "eventLink"    : "special-events/" + "pride-mardi-gras-joe-bermudez-at-necto-nightclub-ann-arbor-michigan-feb-16-2018.html",
+        "eventSocial"  : "https://www.facebook.com/events/302855623570578/",
+        "eventTix"     : "none",
+        "eventImgWide" : "img/event-images/" + "pride-mardi-gras-joe-bermudez-at-necto-nightclub-ann-arbor-michigan-feb-16-2018.jpg",
+        "eventWklOvrd" : true,
+        "eventDay"     : 0, // Do not modify
+        "pastEvent"    : false // Do not modify
+    },
+    {
         "eventDate"    : new Date("Feb 12, 2018 21:00:00"),
         "eventName"    : "My Bloody Valentine 2018",
         "eventArtist"  : "My Bloody Valentine 2018",

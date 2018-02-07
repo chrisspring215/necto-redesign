@@ -1,6 +1,6 @@
 var eventsJSON = [
     {
-        "eventDate"    : new Date("Sep 20, 2018 20:00:00"),
+        "eventDate"    : new Date("Sep 20, 2018 21:00:00"),
         "eventName"    : "Movement presents... J PHLIP",
         "eventArtist"  : "J PHLIP",
         "eventDesc"    : "Jessica Phillippe is diehard, born with true grit and skills to pay the bills. Despite her success with the Dirtybird gang, she’s still out there in record stores on the regular... digging, uncovering precious gems and weaving them into her dynamic sets with panache. She's a hard-working, dedicated lady who refuses to compromise and aims to rock the dancefloor without relying on the most obvious tracks. Production-wise she's just as fearsome, lacing her tracks with a tough yet bouncy flavour. Her prowess in both disciplines combined with her infectious sense of fun and mind-boggling depth of knowledge make her one of the most revered DJs on the global circuit today.",  
@@ -86,6 +86,21 @@ var eventsJSON = [
         "eventTix"     : "https://www.eventbrite.com/e/the-red-room-showg-space-patches-omalley-spiritual-gangstertetranauts-tickets-41032075041?aff=efbeventtix",
         "eventImgWide" : "img/event-images/" + "magical-mitten-patches-omalley-at-necto-nightclub-ann-arbor-michigan-feb-17-2018.jpg",
         "eventWklOvrd" : false,
+        "eventDay"     : 0, // Do not modify
+        "pastEvent"    : false // Do not modify
+    },
+    {
+        "eventDate"    : new Date("Feb 16, 2018 21:00:00"),
+        "eventName"    : "Pride Mardi Gras w/ Joe Bermudez",
+        "eventArtist"  : "Pride Mardi Gras",
+        "eventDesc"    : "This year, not only are we celebrating Mardi Gras, but also our own DJ Jace's birthday!! So, we have special guest DJ Joe Bermudez to spin high energy dance music for you on the main floor. DJ DigiMark will be in the RR playing Retro Pop, UK Dance and Top 40 music videos. Laissez les bons temps rouler!",
+        "eventDescLong": "This year, not only are we celebrating Mardi Gras, but also our own DJ Jace's birthday!! So, we have special guest DJ Joe Bermudez to spin high energy dance music for you on the main floor. DJ DigiMark will be in the RR playing Retro Pop, UK Dance and Top 40 music videos. Laissez les bons temps rouler!",
+        "eventCover"   : "$5 for 21+ & $10 for 18 to 20.",
+        "eventLink"    : "special-events/" + "pride-mardi-gras-joe-bermudez-at-necto-nightclub-ann-arbor-michigan-feb-16-2018.html",
+        "eventSocial"  : "https://www.facebook.com/events/302855623570578/",
+        "eventTix"     : "none",
+        "eventImgWide" : "img/event-images/" + "pride-mardi-gras-joe-bermudez-at-necto-nightclub-ann-arbor-michigan-feb-16-2018.jpg",
+        "eventWklOvrd" : true,
         "eventDay"     : 0, // Do not modify
         "pastEvent"    : false // Do not modify
     },

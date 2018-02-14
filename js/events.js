@@ -15,6 +15,21 @@ var eventsJSON = [
         "pastEvent"    : false // Do not modify
     },
     {
+        "eventDate"    : new Date("Apr 19, 2018 20:00:00"),
+        "eventName"    : "Tritonal : 10 Years of Enhanced 2008-2018",
+        "eventArtist"  : "Tritonal",
+        "eventDesc"    : "Get ready for a concert like we have never done before. Necto welcomes Riff Raff, a rapper and TV personality, for a night of wild entertainment.",  
+        "eventDescLong": "Tritonal capped off an outstanding 2015 with the January 2016 release of “Blackout” – the long coveted but previously unavailable single featuring Steph Jones’ delicate vocals and a pop twist on the duo’s melodic sound. “Blackout” quickly became Tritonal’s fastest-selling and -streaming single to date, the latest in a long line of hits for Austin, Texas songwriters and producers Chad Cisneros and Dave Reed.<br><br>In the previous year, Tritonal surpassed 53 million streams in aggregate on Spotify, over 10 million of that attributable to the Chainsmokers collaboration, “Until You Were Gone”. The duo has also remixed Adam Lambert’s hit “Ghost Town”; reached millions of listeners on iTunes, Soundcloud and Sirius via the podcast, Tritonia; and sold out iconic venues New York’s Terminal 5, San Francisco’s Warfield, and L.A.’s Club Nokia along with the majority of the Untouchable tour with Cash Cash. As of early 2016, the tour’s anthem, “Untouchable”, has been streamed over 19 million times.<br><br>Formed in 2008, Tritonal spent their early days on premium imprints like Anjunabeats, before eventually landing at Will Holland’s Enhanced Music, which Cisneros and Reed came to co-own. Key moments on Enhanced include: “We Belong”, a pivotal 2009 Ferry Corsten rework; the hit-laden 2011 debut album, Piercing the Quiet; and the acclaimed 2013-2014 Metamorphic EP trilogy featuring euphoric favorites “Follow Me Home” and “Now or Never”. “Now or Never” cracked the Top Five on Billboard’s Airplay Dance chart, a placement recaptured by follow-ups, “Anchor”,“Colors”, and “Untouchable”. In a first for the duo, “Now Or Never” also became a sports anthem for CBS’s Thursday Night NFL broadcasts in 2015, introducing the duo to millions of new fans weekly.<br><br>Tritonal’s evolution and success prove that compelling songwriting, innovative production, and exuberant performances resonate with music lovers of all kinds, from underground purists to stadium fanatics.",
+        "eventCover"   : "Presale tickets - $15 - $18 | DOS - $25",
+        "eventLink"    : "special-events/" + "tritonal-at-necto-nightclub-ann-arbor-michigan-apr-19-2018.html",
+        "eventSocial"  : "https://www.facebook.com/events/349435985541528/",
+        "eventTix"     : "https://www.ticketfly.com/purchase/event/1647478?utm_medium=bks",
+        "eventImgWide" : "img/event-images/" + "tritonal-at-necto-nightclub-ann-arbor-michigan-apr-19-2018.jpg",
+        "eventWklOvrd" : true,
+        "eventDay"     : 0, // Do not modify
+        "pastEvent"    : false // Do not modify
+    }, 
+    {
         "eventDate"    : new Date("Mar 15, 2018 20:00:00"),
         "eventName"    : "March Madness featuring... RiFF RaFF",
         "eventArtist"  : "RiFF RaFF",

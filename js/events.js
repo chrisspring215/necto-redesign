@@ -75,6 +75,21 @@ var eventsJSON = [
         "pastEvent"    : false // Do not modify
     },
     {
+        "eventDate"    : new Date("Mar 3, 2018 21:00:00"),
+        "eventName"    : "Witch House (Monthly) 3/5 - DJ Textbeak",
+        "eventArtist"  : "Witch House (Monthly)",
+        "eventDesc"    : "Last time Matoma stepped into our building it was a rager –now the tropical house guru is coming back with bigger mixes. Get ready for a night of his infectious danceable tracks.",  
+        "eventDescLong": "W1†¢H Ħðµ§ê ØNⱠɎ. The third of our monthly treks into the industrial, chopped and screwed occult soundscape. Preview here. Featuring DJ Void6 with special guest Textbeak spinning Witch House on main floor. Visuals by Remnant. DJ KnowLedge with Sub:Merge in the Red Room.<br><br>Mike Textbeak is a recent signee to Cleopatra Records for his upcoming album Sick for Songs a Season Eats produced by John Fryer (Nine Inch Nails, Depeche Mode, This Mortal Coil). Textbeak has quite a history in the witch house, industrial, and dark electronic music scenes influenced heavily by bands like Coil, Cabaret Voltaire and Skinny Puppy.<br><br>He has toured nationally and internationally playing festivals and clubs from Los Angeles to Tokyo alongside artists such as Merzbow, Modern English, Sextile, Sinden, Umberto, Tamara Sky, Bestial Mouths, Larry Tee, Nitzer Ebb, David J (of Bauhaus), Light Asylum, RITUALZ, Test Department, Meat Beat Manifesto, Designer Drugs, and The Legendary Pink Dots to name a few. He has featured guest mixes from many artists and labels from the witch house, okkvlt and dark musick scenes including Philipp Strobel [aufnahme + wiedergabe], CRIM3S, ∆AIMON, MASCARA, SΛRIN, BLVCK CEILING, Clan Destine Records, Alessandro Adriani (Mannequin Records), Mushy, The Devil and the Universe and many others.<br><br> Here is the video for his new song “Blood Storm” with Cleopatra Records label mates Bestial Mouths: <a href='https://www.youtube.com/watch?v=VOOCj9WPS7c&feature=youtu.be'>youtu.be/VOOCj9WPS7c</a>.",
+        "eventCover"   : "$1 before 10PM, $3 after.",
+        "eventLink"    : "special-events/" + "witch-house-at-necto-nightclub-ann-arbor-michigan-mar-3-2018.html",
+        "eventSocial"  : "https://www.facebook.com/events/207976013086998/",
+        "eventTix"     : "none",
+        "eventImgWide" : "img/event-images/" + "witch-house-at-necto-nightclub-ann-arbor-michigan-mar-3-2018.jpg",
+        "eventWklOvrd" : true,
+        "eventDay"     : 0, // Do not modify
+        "pastEvent"    : false // Do not modify
+    },
+    {
         "eventDate"    : new Date("Mar 1, 2018 21:00:00"),
         "eventName"    : "MATOMA : One In A Million Tour 2018",
         "eventArtist"  : "Matoma",

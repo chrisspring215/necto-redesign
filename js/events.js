@@ -85,7 +85,7 @@ var eventsJSON = [
         "eventSocial"  : "https://www.facebook.com/events/207976013086998/",
         "eventTix"     : "none",
         "eventImgWide" : "img/event-images/" + "witch-house-at-necto-nightclub-ann-arbor-michigan-mar-3-2018.jpg",
-        "eventWklOvrd" : true,
+        "eventWklOvrd" : false,
         "eventDay"     : 0, // Do not modify
         "pastEvent"    : false // Do not modify
     },

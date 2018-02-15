@@ -28,6 +28,21 @@ var eventsJSON = [
         "eventWklOvrd" : true,
         "eventDay"     : 0, // Do not modify
         "pastEvent"    : false // Do not modify
+    },
+    {
+        "eventDate"    : new Date("Apr 17, 2018 20:00:00"),
+        "eventName"    : "Borgeous with Breathe Carolina : House of Borgeous Tour",
+        "eventArtist"  : "Borgeous/Breathe Carolina",
+        "eventDesc"    : "LA-based Platinum recording artist and DJ/producer is quickly making waves in the EDM scene and has already accomplished three Billboard Dance Radio Top 10’s, three Beatport #1’s and a #1 on the iTunes Dance chart in 15 different countries. His keen ear and innate talent to produce a provocative, textured sound have made people take notice.",  
+        "eventDescLong": "LA-based Platinum recording artist and DJ/producer is quickly making waves in the EDM scene and has already accomplished three Billboard Dance Radio Top 10’s, three Beatport #1’s and a #1 on the iTunes Dance chart in 15 different countries. His keen ear and innate talent to produce a provocative, textured sound have made people take notice.<br></br>BORGEOUS recently released his debut album, 13, on August 13th 2016 on Geousus Records under Armada Music. It includes songs like “Wanna Lose You,” “Ride It,” and “Going Under.” BORGEOUS brings on featured artists from many different ends of the music world, such as Lil Jon, Sean Paul, Neon Hitch, Ragga Twins, and Karmin. 13 touches on an array of different genres and sounds and blends them together to make a distinct and experimental experience for his listeners.<br></br>His biggest hit to-date, “Tsunami” is exactly as its title suggests as the hit single wrecked bars, clubs, festival stages and radio stations around the world, gaining BORGEOUS international acclaim. It reached #1 on iTunes in 15 different countries, #1 on Beatport, went platinum on the ARIA charts, received an EMPO Award for ‘Track of the Year’ and was nominated for the Juno Award ‘Best Dance Recording of the Year’.<br></br>BORGEOUS has a residency with SiriusXM, who picked up his extremely successful weekly podcast “House of Borgeous”. He was also ranked in DJ Mag’s Top 100 DJs at #87.<br></br>BORGEOUS’ remix work is no less impressive. He was recruited to remake Afrojack’s lead single featuring Wrabel, “Ten Feet Tall” for Universal Music as well as Ariana Grande’s “One Last Time.”<br></br>His production prowess combined with a wicked DJ aptitude makes for an unparalleled performance. In the midst of a jam-packed release schedule, he is also touring the globe with shows all over the world.",
+        "eventCover"   : "Presale tickets - $15 - $18 - $20 - $25 | DOS - $30",
+        "eventLink"    : "special-events/" + "borgeous-breath-carolina-at-necto-nightclub-ann-arbor-michigan-apr-17-2018.html",
+        "eventSocial"  : "https://www.facebook.com/events/1704060642949343/",
+        "eventTix"     : "https://www.ticketfly.com/purchase/event/1648603 ",
+        "eventImgWide" : "img/event-images/" + "borgeous-breath-carolina-at-necto-nightclub-ann-arbor-michigan-apr-17-2018.jpg",
+        "eventWklOvrd" : false,
+        "eventDay"     : 0, // Do not modify
+        "pastEvent"    : false // Do not modify
     }, 
     {
         "eventDate"    : new Date("Mar 15, 2018 20:00:00"),

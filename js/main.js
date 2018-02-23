@@ -28,7 +28,7 @@ var videosThurs = [
     "https://www.youtube.com/embed/LGajm9WIb10?ecver=1",
     "https://www.youtube.com/embed/xcxTj61GEfg?ecver=1",
     "https://www.youtube.com/embed/N-Cc_telSsA?ecver=1",
-    "https://www.youtube.com/embed/4YEM7WCRbls?ecver=1",
+    //"https://www.youtube.com/embed/4YEM7WCRbls?ecver=1",
     "https://www.youtube.com/embed/n2zz1Hs_Vp0",
 ];
 var videosFri = [

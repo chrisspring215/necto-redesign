@@ -109,7 +109,7 @@ var eventsJSON = [
  "eventName" : "MATOMA : One In A Million Tour 2018",
  "eventArtist" : "Matoma",
  "eventDesc" : "Last time Matoma stepped into our building it was a rager –now the tropical house guru is coming back with bigger mixes. Get ready for a night of his infectious danceable tracks.", 
- "eventDescLong": "Last time Matoma stepped into our building it was a rager – now the tropical house guru is coming back with bigger mixes. Get ready for a night of his infectious danceable tracks.<br></br>Check out one of his top singles, <a href='https://youtu.be/Sb3XfrCtjVU'>“Old Thing Back”</a>, feat. Ja Rule and Ralph Tresvant.<br></br><a href='https://soundcloud.com/matoma-official'>SoundCloud</a> - <a href='https://www.instagram.com/matoma/?hl=en'>Instagram</a>",
+ "eventDescLong": "Last time Matoma stepped into our building it was a rager – now the tropical house guru is coming back with bigger mixes. Get ready for a night of his infectious danceable tracks.<br></br>Check out one of his top singles, <a href='https://youtu.be/Sb3XfrCtjVU'>“Old Thing Back”</a>, feat. Ja Rule and Ralph Tresvant.<br></br><a href='https://soundcloud.com/matoma-official'>SoundCloud</a> - <a href='https://www.instagram.com/matoma/?hl=en'>Instagram</a><br><br><iframe width='560' height='315' src='https://www.youtube.com/embed/9joqw6JIz6g' frameborder='0' allow='autoplay; encrypted-media' allowfullscreen></iframe>",
  "eventCover" : "Presale tickets - $20 | $25 | $30 at Doors",
  "eventLink" : "special-events/" + "matoma-at-necto-nightclub-ann-arbor-michigan-mar-1-2018.html",
  "eventSocial" : "https://www.facebook.com/events/160116684728195/",

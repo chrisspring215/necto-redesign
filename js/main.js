@@ -28,8 +28,9 @@ var videosThurs = [
     "https://www.youtube.com/embed/LGajm9WIb10?ecver=1",
     "https://www.youtube.com/embed/xcxTj61GEfg?ecver=1",
     "https://www.youtube.com/embed/N-Cc_telSsA?ecver=1",
-    //"https://www.youtube.com/embed/4YEM7WCRbls?ecver=1",
+    "https://www.youtube.com/embed/dukOm_u4KiA",
     "https://www.youtube.com/embed/n2zz1Hs_Vp0",
+    "https://www.youtube.com/embed/9joqw6JIz6g" //matoma preview
 ];
 var videosFri = [
     "https://www.youtube.com/embed/4VOIXPOnfSM?ecver=1",
@@ -43,6 +44,7 @@ var videosSat = [
     "https://www.youtube.com/embed/N-Cc_telSsA?ecver=1",
     "https://www.youtube.com/embed/fWgY1NJ3kj4",
     "https://www.youtube.com/embed/n2zz1Hs_Vp0",
+    "https://www.youtube.com/embed/9joqw6JIz6g" //matoma preview
 ];
 // Populates videos on the Weekly event pages
 function populateWeeklyVideo(day) {

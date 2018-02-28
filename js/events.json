@@ -45,6 +45,21 @@
         "pastEvent"    : false
     }, 
     {
+        "eventDate"    : "Mar 17, 2018 20:00:00",
+        "eventName"    : "St. Paddy's Day Bash 2018",
+        "eventArtist"  : "St. Paddy's Day Bash",
+        "eventDesc"    : "Can you believe our luck that St. Patrick's Day falls on Frequency Saturday? Don't miss out on one of the biggest party nights of the year, and be sure to wear green. DJ Hardy spins the best Top 40, Dance & House with host MC Yoda.",  
+        "eventDescLong": "Can you believe our luck that St. Patrick's Day falls on Frequency Saturday? Don't miss out on one of the biggest party nights of the year, and be sure to wear green. DJ Hardy spins the best Top 40, Dance & House with host MC Yoda.<br><br>Drink Specials:<br>$5 Jameson & Jameson Caskmates<br>$4 Guinness<br>$6 Emerald Isle drink<br>$5.50 Shamrock shooters<br>$4 Lucky Leprechaun<br>$3 Emerald Isle shot<br>",
+        "eventCover"   : "$5 for 21+ | $10 for 18-20",
+        "eventLink"    : "special-events/st-paddys-day-bash-at-necto-nightclub-ann-arbor-michigan-mar-17-2018.html",
+        "eventSocial"  : "https:www.facebook.com/events/405447869914769/",
+        "eventTix"     : "none",
+        "eventImgWide" : "img/event-images/st-paddys-day-bash-at-necto-nightclub-ann-arbor-michigan-mar-17-2018.jpg",
+        "eventWklOvrd" : true,
+        "eventDay"     : 0,
+        "pastEvent"    : false
+    },
+    {
         "eventDate"    : "Mar 15, 2018 20:00:00",
         "eventName"    : "March Madness featuring... RiFF RaFF",
         "eventArtist"  : "RiFF RaFF",
@@ -90,7 +105,7 @@
         "pastEvent"    : false
     },
     {
-        "eventDate"    : "Mar 3, 2018 21:00:00",
+        "eventDate"    : "Mar 5, 2018 21:00:00",
         "eventName"    : "Witch House (Monthly) 3/5 - DJ Textbeak",
         "eventArtist"  : "Witch House (Monthly)",
         "eventDesc"    : "Last time Matoma stepped into our building it was a rager –now the tropical house guru is coming back with bigger mixes. Get ready for a night of his infectious danceable tracks.",  

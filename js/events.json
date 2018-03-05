@@ -43,7 +43,22 @@
         "eventWklOvrd" : false,
         "eventDay"     : 0,
         "pastEvent"    : false
-    }, 
+    },
+    {
+        "eventDate"    : "Mar 22, 2018 20:00:00",
+        "eventName"    : "React presents... Sam Feldt",
+        "eventArtist"  : "Sam Feldt",
+        "eventDesc"    : "Amsterdam's Sam Feldt earned attention in Europe and then worldwide for his melodic house remixes, mixtapes, and collaborations beginning in the mid-2010s. Early releases included 2014's “Bloesem” with De Hofnar and “Hot Skin” with Kav Verhouzer on the Dutch label Spinnin’ Records. After a series of live shows in Europe, which he built over time to contain mostly his own productions, he toured North America for the first time in early 2015.",  
+        "eventDescLong": "Amsterdam's Sam Feldt earned attention in Europe and then worldwide for his melodic house remixes, mixtapes, and collaborations beginning in the mid-2010s. Early releases included 2014's “Bloesem” with De Hofnar and “Hot Skin” with Kav Verhouzer on the Dutch label Spinnin’ Records. After a series of live shows in Europe, which he built over time to contain mostly his own productions, he toured North America for the first time in early 2015. “Midnight Hearts” with the Him featuring ANG13 followed soon after, and that spring, Feldt signed with Universal Music for worldwide release of his song “Show Me Love” featuring English vocalist Kimberly Anne. It charted throughout Western Europe, hitting the Top Five in the U.K., as well as landing on the dance and streaming charts in the U.S. By the end of 2015, he'd performed on five continents. The following summer, he had a hit at home with “Summer on You,” a collaboration with Lucas & Steve and Wulf. That same year, Feldt issued his first EP, Been a While, which featured guests like Dante Klein, Milow, Lulleaux, and Bright Sparks. “Runaways” with Deepend featuring Teemu followed in late 2016 and charted in Europe, later spawning a remix EP. The next year, Feldt released his debut LP, Sunrise, which featured the singles “Yes” with Akon, “Fade Away” with Lush & Simon and Inna, and “Be My Lover” with Alex Schulz. ~ Marcy Donelson (allmusic.com)",
+        "eventCover"   : "Presale tickets - $10 - $15 - $18 | DOS - $20",
+        "eventLink"    : "special-events/sam-feldt-at-necto-nightclub-ann-arbor-michigan-mar-22-2018.html",
+        "eventSocial"  : "https:www.facebook.com/events/362043137538937/?ti=cl",
+        "eventTix"     : "https:www.ticketfly.com/purchase/event/1658576",
+        "eventImgWide" : "img/event-images/sam-feldt-at-necto-nightclub-ann-arbor-michigan-mar-22-2018.jpg",
+        "eventWklOvrd" : true,
+        "eventDay"     : 0,
+        "pastEvent"    : false
+    },
     {
         "eventDate"    : "Mar 17, 2018 20:00:00",
         "eventName"    : "St. Paddy's Day Bash 2018",

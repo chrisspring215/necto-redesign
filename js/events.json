@@ -45,6 +45,36 @@
         "pastEvent"    : false
     },
     {
+        "eventDate"    : "Apr 6, 2018 20:00:00",
+        "eventName"    : "Dragster presents... Aja",
+        "eventArtist"  : "Aja",
+        "eventDesc"    : "Aja is a Brooklyn based Drag Queen who is a unique polymerization of sex, 90's ballroom culture, & kawaii harajuku inspiration. From queer events to bars/clubs/holes in the wall to even a TV near you, this queen will leave you mesmerized with her precision, wit and eclecticism.",  
+        "eventDescLong": "RuPaul's Drag Race S9 • All Stars S3<br><br>Meet and Greet tickests available.<br><br>Aja is a Brooklyn based Drag Queen who is a unique polymerization of sex, 90's ballroom culture, & kawaii harajuku inspiration. From queer events to bars/clubs/holes in the wall to even a TV near you, this queen will leave you mesmerized with her precision, wit and eclecticism.",
+        "eventCover"   : "$5 for 21+ | $10 for 18-20 all night. ",
+        "eventLink"    : "special-events/aja-at-necto-nightclub-ann-arbor-michigan-apr-6-2018.html",
+        "eventSocial"  : "https:www.facebook.com/events/343380812816725/",
+        "eventTix"     : "https:aja_necto.eventbrite.com",
+        "eventImgWide" : "img/event-images/aja-at-necto-nightclub-ann-arbor-michigan-apr-6-2018.jpg",
+        "eventWklOvrd" : false,
+        "eventDay"     : 0,
+        "pastEvent"    : false
+    },
+    {
+        "eventDate"    : "Mar 23, 2018 21:00:00",
+        "eventName"    : "La La Prideland",
+        "eventArtist"  : "La La Prideland",
+        "eventDesc"    : "Get ready for a night with the stars!!! In honor of the Ann Arbor Film Festival, we'll have drag artists here impersonating old Hollywood movie stars, and elegant decor. Walk along the Red Carpet and get pictures taken by our professional photographers in front of the step & repeat like the celebrity you are. Marilyn Monroe, Lucille Ball, and more will be partying with you!",  
+        "eventDescLong": "Get ready for a night with the stars!!! In honor of the Ann Arbor Film Festival, we'll have drag artists here impersonating old Hollywood movie stars, and elegant decor. Walk along the Red Carpet and get pictures taken by our professional photographers in front of the step & repeat like the celebrity you are. Marilyn Monroe, Lucille Ball, and more will be partying with you!",
+        "eventCover"   : "$5 for 21+ | $10 for 18-20 | No cover before 10pm & no cover with college ID before 11pm",
+        "eventLink"    : "special-events/la-la-prideland-at-necto-nightclub-ann-arbor-michigan-mar-23-2018.html",
+        "eventSocial"  : "https:www.facebook.com/events/168962023909524/",
+        "eventTix"     : "none",
+        "eventImgWide" : "img/event-images/la-la-prideland-at-necto-nightclub-ann-arbor-michigan-mar-23-2018.jpg",
+        "eventWklOvrd" : true,
+        "eventDay"     : 0,
+        "pastEvent"    : false
+    },
+    {
         "eventDate"    : "Mar 22, 2018 20:00:00",
         "eventName"    : "React presents... Sam Feldt",
         "eventArtist"  : "Sam Feldt",

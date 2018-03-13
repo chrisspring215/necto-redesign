@@ -105,6 +105,21 @@ var eventsJSON = [
  "pastEvent" : 0
  },
  {
+ "eventDate" : new Date("Mar 16, 2018 21:00:00"),
+ "eventName" : "St. Paddy's Eve Party",
+ "eventArtist" : "St. Paddy's Eve Party",
+ "eventDesc" : "It’s St. Paddy's day at midnight and you know Necto Pride isn't missing the chance to party!! Plus, we're celebrating BOTH Jadein Black's and DJ DigiMark's birthday, with our beloved DVJ Mark coming up from Texas to spin in the Red Room too!<br><br>Drink Specials: Happy Hour is from 9pm - 11pm with 50% off all drinks, shots & bottled beers & $2 Long Islands.", 
+ "eventDescLong": "It’s St. Paddy's day at midnight and you know Necto Pride isn't missing the chance to party!! Plus, we're celebrating BOTH Jadein Black's and DJ DigiMark's birthday, with our beloved DVJ Mark coming up from Texas to spin in the Red Room too!<br><br>Drink Specials: Happy Hour is from 9pm - 11pm with 50% off all drinks, shots & bottled beers & $2 Long Islands.",
+ "eventCover" : "$5 for 21+ | $10 for 18-20",
+ "eventLink" : "special-events/" + "st-paddys-day-eve-bash-at-necto-nightclub-ann-arbor-michigan-mar-16-2018.html",
+ "eventSocial" : "https://www.facebook.com/events/405447869914769/",
+ "eventTix" : "none",
+ "eventImgWide" : "img/event-images/" + "st-paddys-day-eve-bash-at-necto-nightclub-ann-arbor-michigan-mar-16-2018.jpg",
+ "eventWklOvrd" : 1,
+ "eventDay" : 0,
+ "pastEvent" : 0
+ },
+ {
  "eventDate" : new Date("Mar 15, 2018 20:00:00"),
  "eventName" : "March Madness featuring... RiFF RaFF",
  "eventArtist" : "RiFF RaFF",

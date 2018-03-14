@@ -120,7 +120,7 @@ var eventsJSON = [
         "pastEvent"    : false // Do not modify
     },
     {
-        "eventDate"    : new Date("Mar 17, 2018 20:00:00"),
+        "eventDate"    : new Date("Mar 17, 2018 21:00:00"),
         "eventName"    : "St. Paddy's Day Bash 2018",
         "eventArtist"  : "St. Paddy's Day Bash",
         "eventDesc"    : "Can you believe our luck that St. Patrick's Day falls on Frequency Saturday? Don't miss out on one of the biggest party nights of the year, and be sure to wear green. DJ Hardy spins the best Top 40, Dance & House with host MC Yoda.",  

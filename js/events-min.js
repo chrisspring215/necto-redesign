@@ -75,6 +75,21 @@ var eventsJSON = [
  "pastEvent" : 0
  },
  {
+ "eventDate" : new Date("Mar 24, 2018 21:00:00"),
+ "eventName" : "Hollywood Nights",
+ "eventArtist" : "Hollywood Nights",
+ "eventDesc" : "To celebrate Ann Arbor Film Festival, we'll have old Hollywood movie star impersonators, elegant decor, and photographers! Walk along the Red Carpet and get pictures taken by our pro photographers in front of the step & repeat like the celebrity you are. Marilyn Monroe, Ella Fitzgerald, and more will be partying with you!<br><br>DJ Hardy spinning the best Top 40, Dance & House with host MC Yoda.", 
+ "eventDescLong": "To celebrate Ann Arbor Film Festival, we'll have old Hollywood movie star impersonators, elegant decor, and photographers! Walk along the Red Carpet and get pictures taken by our pro photographers in front of the step & repeat like the celebrity you are. Marilyn Monroe, Ella Fitzgerald, and more will be partying with you!<br><br>DJ Hardy spinning the best Top 40, Dance & House with host MC Yoda.",
+ "eventCover" : "$5 for 21+ | $10 for 18-20",
+ "eventLink" : "special-events/" + "hollywood-nights-at-necto-nightclub-ann-arbor-michigan-mar-24-2018.html",
+ "eventSocial" : "https://www.facebook.com/events/168962023909524/",
+ "eventTix" : "none",
+ "eventImgWide" : "img/event-images/" + "hollywood-nights-at-necto-nightclub-ann-arbor-michigan-mar-24-2018.jpg",
+ "eventWklOvrd" : 1,
+ "eventDay" : 0,
+ "pastEvent" : 0
+ },
+ {
  "eventDate" : new Date("Mar 23, 2018 21:00:00"),
  "eventName" : "La La Prideland",
  "eventArtist" : "La La Prideland",

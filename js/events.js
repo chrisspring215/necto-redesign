@@ -15,6 +15,21 @@ var eventsJSON = [
         "pastEvent"    : false // Do not modify
     },
     {
+        "eventDate"    : new Date("Apr 28, 2018 20:00:00"),
+        "eventName"    : "The Sound of Deep House in the Red Room",
+        "eventArtist"  : "Sound of Deep House",
+        "eventDesc"    : "Feel the cool, soulful, funky vibe that is Deep House. From the latest tracks to the underground classics, DJ Matt Prokopp spins records into a smooth, hypnotic sound. Ann Arbor's only House night.",  
+        "eventDescLong": "Feel the cool, soulful, funky vibe that is Deep House. From the latest tracks to the underground classics, DJ Matt Prokopp spins records into a smooth, hypnotic sound. Ann Arbor's only House night.",
+        "eventCover"   : "$5 for 21+ and $10 for 18-20 with proper ID & Attire",
+        "eventLink"    : "special-events/" + "sound-of-deep-house-at-necto-nightclub-ann-arbor-michigan-apr-28-2018.html",
+        "eventSocial"  : "https://www.facebook.com/events/1678860222150856/",
+        "eventTix"     : "none",
+        "eventImgWide" : "img/event-images/" + "sound-of-deep-house-at-necto-nightclub-ann-arbor-michigan-apr-28-2018.jpg",
+        "eventWklOvrd" : false,
+        "eventDay"     : 0, // Do not modify
+        "pastEvent"    : false // Do not modify
+    },
+    {
         "eventDate"    : new Date("Apr 19, 2018 20:00:00"),
         "eventName"    : "Tritonal : 10 Years of Enhanced 2008-2018",
         "eventArtist"  : "Tritonal",

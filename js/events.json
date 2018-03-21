@@ -75,6 +75,21 @@
         "pastEvent"    : false
     },
     {
+        "eventDate"    : "Apr 2, 2018 21:00:00",
+        "eventName"    : "Witch House Monthly ft. Whywølf",
+        "eventArtist"  : "Witch House: Whywølf",
+        "eventDesc"    : "W1†¢H Ħðµ§ê ØNⱠɎ. The fourth of our monthly treks into the industrial, chopped and screwed occult soundscape. Preview <a href='https:www.youtube.com/watch?v=dxzKVFT4esc'>here</a>. Featuring DJ Void6 with guest Whywølf spinning Witch House on main floor. Visuals by Remnant. DJ KnowLedge with Sub:Merge in the Red Room.",  
+        "eventDescLong": "W1†¢H Ħðµ§ê ØNⱠɎ. The fourth of our monthly treks into the industrial, chopped and screwed occult soundscape. Preview <a href='https:www.youtube.com/watch?v=dxzKVFT4esc'>here</a>. Featuring DJ Void6 with guest Whywølf spinning Witch House on main floor. Visuals by Remnant. DJ KnowLedge with Sub:Merge in the Red Room.",
+        "eventCover"   : "$1 before 10PM, $3 after.",
+        "eventLink"    : "special-events/witch-house-whywolf-at-necto-nightclub-ann-arbor-michigan-apr-2-2018.html",
+        "eventSocial"  : "https:www.facebook.com/events/1186172318185268/",
+        "eventTix"     : "none",
+        "eventImgWide" : "img/event-images/witch-house-whywolf-at-necto-nightclub-ann-arbor-michigan-apr-2-2018.jpg",
+        "eventWklOvrd" : false,
+        "eventDay"     : 0,
+        "pastEvent"    : false
+    },
+    {
         "eventDate"    : "Mar 29, 2018 21:00:00",
         "eventName"    : "Defiled | Red Room | R̸et͠͏ú͟rn̸",
         "eventArtist"  : "Defiled | Red Room | R̸et͠͏ú͟rn̸",

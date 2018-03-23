@@ -105,6 +105,21 @@
         "pastEvent"    : false
     },
     {
+        "eventDate"    : "Mar 29, 2018 21:00:00",
+        "eventName"    : "Takeoff Thursday with DJ LiftOFF",
+        "eventArtist"  : "Takeoff Thursday",
+        "eventDesc"    : "Are you ready to take flight with DJ LiftOFF? Grab your ticket now to come enjoy the hottest Top 40, Hip-Hop, EDM, House and Party hits all night long at one of the hottest venues in Ann Arbor. Get ready to Takeoff! There's no DJ better equipped than LiftOFF! With his seamless transitions and your favorite tracks, your feet will be glued to the dance floor. ",  
+        "eventDescLong": "Are you ready to take flight with DJ LiftOFF? Grab your ticket now to come enjoy the hottest Top 40, Hip-Hop, EDM, House and Party hits all night long at one of the hottest venues in Ann Arbor. Get ready to Takeoff! There's no DJ better equipped than LiftOFF! With his seamless transitions and your favorite tracks, your feet will be glued to the dance floor. ",
+        "eventCover"   : "Free for 21+ before 11pm. $5 for 21+ after 11pm. 18-20 is $10 all night.",
+        "eventLink"    : "special-events/takeoff-thursday-return-at-necto-nightclub-ann-arbor-michigan-mar-29-2018.html",
+        "eventSocial"  : "https:www.facebook.com/events/236473076920277/",
+        "eventTix"     : "none",
+        "eventImgWide" : "img/event-images/takeoff-thursday-return-at-necto-nightclub-ann-arbor-michigan-mar-29-2018.jpg",
+        "eventWklOvrd" : true,
+        "eventDay"     : 0,
+        "pastEvent"    : false
+    },
+    {
         "eventDate"    : "Mar 24, 2018 21:00:00",
         "eventName"    : "Hollywood Nights",
         "eventArtist"  : "Hollywood Nights",

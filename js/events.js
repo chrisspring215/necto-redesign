@@ -15,6 +15,21 @@ var eventsJSON = [
         "pastEvent"    : false // Do not modify
     },
     {
+        "eventDate"    : new Date("May 3, 2018 22:00:00"),
+        "eventName"    : "Take Off Thursdays present... DJ Drama",
+        "eventArtist"  : "DJ Drama",
+        "eventDesc"    : "One of the most important, famous, and even infamous players in the mixtape game, Drama certainly lives up to his moniker thanks to some high-profile legal problems. Drama began his career in hip-hop in his native Philadelphia under the name DJ Drama. It was in Philly that he befriended Bahamadia, although he wouldn't become her DJ until he made the move to Atlanta to attend Clark Atlanta University.", 
+        "eventDescLong": "One of the most important, famous, and even infamous players in the mixtape game, Drama certainly lives up to his moniker thanks to some high-profile legal problems. Drama began his career in hip-hop in his native Philadelphia under the name DJ Drama. It was in Philly that he befriended Bahamadia, although he wouldn't become her DJ until he made the move to Atlanta to attend Clark Atlanta University. While at CAU, he also began his popular Automatic Relaxation mixtape series, which focused on neo-soul and soulful rap, plus he formed his crew the Aphilliates, featuring DJ Don Cannon, DJ Jamad, Ox Banger, and DJ Sense. After a short gig as DJ for Slum Village, he began a new mixtape series, Gangsta Grillz, which would become the prime showcase for hardcore artists looking to connect or reconnect with the streets. Lil Wayne, Young Jeezy, and Jim Jones were just a few of the artists to host a volume of Gangsta Grillz, but it was during the making of Vol. 7 that he met his future employer, T.I. As the official DJ of T.I.'s Grand Hustle organization, Drama became better known, and a cameo in the 2006 film ATL didn't hurt either.<br><br>Third Power What did hurt was a January 2007 police raid on the Aphilliates office, which found both Drama and Don Cannon under arrest for racketeering, along with 81,000 mixtape CDs being confiscated. Three months later, legal threats from another DJ Drama forced him to change his name to simply Drama (though it would prove to be only temporary). Despite these legal hassles, Drama took his Gangsta Grillz series aboveground late in the year as the legit release Gangsta Grillz: The Album arrived in December courtesy of Grand Hustle/Atlantic. Lil Wayne, OutKast, Pharrell, T.I., and Young Jeezy were just a few of the artists who contributed to the star-studded album. A second volume followed in 2009. In 2011, Third Power became the first Drama album without the Gangsta Grillz tagging, but the guest list would remain big and powerful, with names like Freddie Gibbs, Wale, and Wiz Khalifa -- the last of whom appeared on the Billboard Hot 100 hit “Oh My” -- all included. Childish Gambino, Kendrick Lamar, 2 Chainz, and Tyler, the Creator were some of the names that landed on the 2012 follow-up, Quality Street Music. In 2013, Drama let his sense of humor show by hosting the Urbane Outfitters, Vol. 1 mixtape from the online hip-hop comedy team ItsTheReal. A Quality Street Music sequel arrived in 2016. “Wishing,” featuring Chris Brown, Skeme, and Lyquin, became Drama's second single to reach the Hot 100. ~ David Jefferies (allmusic.com)",
+        "eventCover"   : "Pre-sale tickets $10 until March 29nd | $15 until April 5th | $20 until day of show. Tickets at doors $10 for 21+ until 11pm & $20 after 11pm. $30 for 18-20 all night",
+        "eventLink"    : "special-events/" + "dj-drama-at-necto-nightclub-ann-arbor-michigan-may-3-2018.html",
+        "eventSocial"  : "https://www.facebook.com/events/2011946882389010/",
+        "eventTix"     : "https://djdrama_necto.eventbrite.com",
+        "eventImgWide" : "img/event-images/" + "dj-drama-at-necto-nightclub-ann-arbor-michigan-may-3-2018.jpg",
+        "eventWklOvrd" : true,
+        "eventDay"     : 0, // Do not modify
+        "pastEvent"    : false // Do not modify
+    },
+    {
         "eventDate"    : new Date("Apr 28, 2018 22:00:00"),
         "eventName"    : "The Sound of Deep House in the Red Room",
         "eventArtist"  : "Sound of Deep House",
@@ -70,7 +85,7 @@ var eventsJSON = [
         "eventSocial"  : "https://www.facebook.com/events/343380812816725/",
         "eventTix"     : "https://aja_necto.eventbrite.com",
         "eventImgWide" : "img/event-images/" + "aja-at-necto-nightclub-ann-arbor-michigan-apr-6-2018.jpg",
-        "eventWklOvrd" : false,
+        "eventWklOvrd" : true,
         "eventDay"     : 0, // Do not modify
         "pastEvent"    : false // Do not modify
     },
@@ -85,7 +100,7 @@ var eventsJSON = [
         "eventSocial"  : "https://www.facebook.com/events/1186172318185268/",
         "eventTix"     : "none",
         "eventImgWide" : "img/event-images/" + "witch-house-whywolf-at-necto-nightclub-ann-arbor-michigan-apr-2-2018.jpg",
-        "eventWklOvrd" : false,
+        "eventWklOvrd" : true,
         "eventDay"     : 0, // Do not modify
         "pastEvent"    : false // Do not modify
     },

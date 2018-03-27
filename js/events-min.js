@@ -45,6 +45,21 @@ var eventsJSON = [
  "pastEvent" : 0
  },
  {
+ "eventDate" : new Date("Apr 26, 2018 22:00:00"),
+ "eventName" : "Take Off Thursdays present... Ying Yang Twins",
+ "eventArtist" : "Ying Yang Twins",
+ "eventDesc" : "The Ying Yang Twins are an American hip hop duo consisting of Kaine (born Eric Jackson on December 16, 1978) and D-Roc (born Deongelo Holmes on February 23, 1979). The group debuted in 2000 and rose to mainstream popularity in 2003 collaborating with Britney Spears on her album In the Zone and with Lil Jon on “Get Low”. In 2004 and 2005, Ying Yang Twins became more popular with party singles “Salt Shaker”, “What’s Happnin”, “Shake” and “Badd”. They have received notoriety for their song “Halftime (featuring Homebwoi)” which is played at New Orleans Saints homegames after most touchdowns. In 2008, the hip hop duo released The Official Work mixtape. In 2009, they followed with their Ying Yang Forever mixtape. Just three months later, the duo released Legendary Status: Ying Yang Twins Greatest Hits. As recently as 2013, the Ying Ying Twins released Ass in session and Twurk or Die mixtape.", 
+ "eventDescLong": "The Ying Yang Twins are an American hip hop duo consisting of Kaine (born Eric Jackson on December 16, 1978) and D-Roc (born Deongelo Holmes on February 23, 1979). The group debuted in 2000 and rose to mainstream popularity in 2003 collaborating with Britney Spears on her album In the Zone and with Lil Jon on “Get Low”. In 2004 and 2005, Ying Yang Twins became more popular with party singles “Salt Shaker”, “What’s Happnin”, “Shake” and “Badd”. They have received notoriety for their song “Halftime (featuring Homebwoi)” which is played at New Orleans Saints homegames after most touchdowns. In 2008, the hip hop duo released The Official Work mixtape. In 2009, they followed with their Ying Yang Forever mixtape. Just three months later, the duo released Legendary Status: Ying Yang Twins Greatest Hits. As recently as 2013, the Ying Ying Twins released Ass in session and Twurk or Die mixtape.",
+ "eventCover" : "Pre-sale tickets $10 until April 5th | $15 until April 12th | $20 until day of show. Tickets at doors $10 for 21+ until 11pm & $20 after 11pm. $30 for 18-20 ",
+ "eventLink" : "special-events/" + "ying-yang-twins-at-necto-nightclub-ann-arbor-michigan-apr-26-2018.html",
+ "eventSocial" : "https://www.facebook.com/events/235195310377327/",
+ "eventTix" : "https://yyt_necto.eventbrite.com",
+ "eventImgWide" : "img/event-images/" + "ying-yang-twins-at-necto-nightclub-ann-arbor-michigan-apr-26-2018.jpg",
+ "eventWklOvrd" : 1,
+ "eventDay" : 0,
+ "pastEvent" : 0
+ },
+ {
  "eventDate" : new Date("Apr 19, 2018 20:00:00"),
  "eventName" : "Tritonal : 10 Years of Enhanced 2008-2018",
  "eventArtist" : "Tritonal",

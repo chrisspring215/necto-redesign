@@ -15,6 +15,21 @@ var eventsJSON = [
         "pastEvent"    : false // Do not modify
     },
     {
+        "eventDate"    : new Date("May 5, 2018 22:00:00"),
+        "eventName"    : "Thank God It's The Weekend presents... Cinco De Mayo Party with DJ LiftOFF",
+        "eventArtist"  : "Cinco De Mayo",
+        "eventDesc"    : "There's no time to siesta, come join the fiesta! With DJ Liftoff spinning the hottest Hip-Hop and Party hits, it'll be a Cinco De Mayo experience you don't want to miss! ", 
+        "eventDescLong": "There's no time to siesta, come join the fiesta! With DJ Liftoff spinning the hottest Hip-Hop and Party hits, it'll be a Cinco De Mayo experience you don't want to miss! ",
+        "eventCover"   : "Tickets: presale - $10 | At Doors - $15 all night",
+        "eventLink"    : "special-events/" + "cinco-de-mayo-at-necto-nightclub-ann-arbor-michigan-may-5-2018.html",
+        "eventSocial"  : "https://www.facebook.com/events/2011946882389010/",
+        "eventTix"     : "https://djdrama_necto.eventbrite.com",
+        "eventImgWide" : "img/event-images/" + "cinco-de-mayo-at-necto-nightclub-ann-arbor-michigan-may-5-2018.jpg",
+        "eventWklOvrd" : true,
+        "eventDay"     : 0, // Do not modify
+        "pastEvent"    : false // Do not modify
+    },
+    {
         "eventDate"    : new Date("May 3, 2018 22:00:00"),
         "eventName"    : "Take Off Thursdays present... DJ Drama",
         "eventArtist"  : "DJ Drama",

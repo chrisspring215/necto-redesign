@@ -22,8 +22,8 @@ var eventsJSON = [
         "eventDescLong": "There's no time to siesta, come join the fiesta! With DJ Liftoff spinning the hottest Hip-Hop and Party hits, it'll be a Cinco De Mayo experience you don't want to miss! ",
         "eventCover"   : "Tickets: presale - $10 | At Doors - $15 all night",
         "eventLink"    : "special-events/" + "cinco-de-mayo-at-necto-nightclub-ann-arbor-michigan-may-5-2018.html",
-        "eventSocial"  : "https://www.facebook.com/events/2011946882389010/",
-        "eventTix"     : "https://djdrama_necto.eventbrite.com",
+        "eventSocial"  : "https://www.facebook.com/events/1056319334508622/",
+        "eventTix"     : "https://tgitw_cincodemayo.eventbrite.com",
         "eventImgWide" : "img/event-images/" + "cinco-de-mayo-at-necto-nightclub-ann-arbor-michigan-may-5-2018.jpg",
         "eventWklOvrd" : true,
         "eventDay"     : 0, // Do not modify

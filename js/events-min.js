@@ -105,6 +105,21 @@ var eventsJSON = [
  "pastEvent" : 0
  },
  {
+ "eventDate" : new Date("Apr 12, 2018 22:00:00"),
+ "eventName" : "Goals4Soles Benefit Club Night",
+ "eventArtist" : "Goals4Soles Benefit",
+ "eventDesc" : "Looking to have a great time well helping an even better cause? Look no further. Goals4Soles is proud to partner with Necto nightclub on Thursday, April 12. Doors open at 10 PM, and it is 18+ with a valid ID to get in. Proceeds benefitting Goals4Soles will help provide under privileged middle school students get proper athletic footwear and school supplies. ", 
+ "eventDescLong": "Looking to have a great time well helping an even better cause? Look no further. Goals4Soles is proud to partner with Necto nightclub on Thursday, April 12. Doors open at 10 PM, and it is 18+ with a valid ID to get in. Proceeds benefitting Goals4Soles will help provide under privileged middle school students get proper athletic footwear and school supplies. ",
+ "eventCover" : "Pre-sale tickets - $10 | at doors $15",
+ "eventLink" : "special-events/" + "goals4soles-at-necto-nightclub-ann-arbor-michigan-apr-12-2018.html",
+ "eventSocial" : "https://www.facebook.com/Goals4Soles/",
+ "eventTix" : "https://goals4soles_necto.eventbrite.com",
+ "eventImgWide" : "img/event-images/" + "goals4soles-at-necto-nightclub-ann-arbor-michigan-apr-12-2018.jpg",
+ "eventWklOvrd" : 1,
+ "eventDay" : 0,
+ "pastEvent" : 0
+ },
+ {
  "eventDate" : new Date("Apr 6, 2018 20:00:00"),
  "eventName" : "Dragster presents... Aja",
  "eventArtist" : "Aja",

@@ -45,6 +45,22 @@ var eventsJSON = [
         "pastEvent"    : false // Do not modify
     },
     {
+        "eventDate"    : new Date("Apr 30, 2018 21:00:00"),
+        "eventName"    : "Halfway to Halloween 2018",
+        "eventArtist"  : "Halfway to Halloween",
+        "eventDesc"    : "We're once again celebrating the halfway point to our favorite holiday. You guys never disappoint with your amazing costumes. We have a costume contest with $500 cash money! 1st place: $300, 2nd place: $200.",  
+        "eventDescLong": "We're once again celebrating the halfway point to our favorite holiday. You guys never disappoint with your amazing costumes. We have a costume contest with $500 cash money! 1st place: $300, 2nd place: $200.<br><br>DJ Void6 with special guest AudioFlesh spinning Goth Industrial, SynthPop, EBM, & more on main floor. Visuals by Remnant. DJ KnowLedge with Sub:Merge in the Red Room. Misanthropia Narcissus will be taking great pictures all night long.<br><br> Halloween Costume Contest Rules<br><br><strong>Entry</strong><br>Costume contest sign-up begins at 9PM with a cut-off time of 10:30PM. It is on a first come, first serve basis with limited spots available, so we recommend arriving early.<br><br><strong>Sign-Up</strong><br>To sign-up up, approach host MC Yoda near the VIP Room or DJ Booth. Entries may be accepted or denied based on the discretion of the Necto staff.<br><br><strong>Criteria</strong><br>The judges will appraise each costume based on originality, quality, and crowd response.<br><br><strong>Contest</strong><br>Contestants will begin lining up near the host at the stage at 11:50pm. The contest begins at midnight. Every contestant will be introduced with their first name and the name of their costume(s), at which point they will be allowed a short time to show off their costume on stage to the crowd.<br><br><strong>Prizes</strong><br>There will be 2 cash prizes awarded shortly after the contest to the first and second place winners.<br><br>Previous Winners Clause<br>Contestants that won Halfway to Halloween's costume contest last year cannot win again this year.",
+        "eventCover"   : "Free cover with costume. Otherwise, $3.",
+        "eventLink"    : "special-events/" + "halfway-to-halloween-2018-at-necto-nightclub-ann-arbor-michigan-apr-30-2018.html",
+        "eventSocial"  : "https://www.facebook.com/events/2011770122423352/",
+        "eventTix"     : "none",
+        "eventImgWide" : "img/event-images/" + "halfway-to-halloween-2018-at-necto-nightclub-ann-arbor-michigan-apr-30-2018.jpg",
+        "eventWklOvrd" : true,
+        "eventDay"     : 0, // Do not modify
+        "pastEvent"    : false // Do not modify
+    },
+    {
+    {
         "eventDate"    : new Date("Apr 28, 2018 22:00:00"),
         "eventName"    : "The Sound of Deep House in the Red Room",
         "eventArtist"  : "Sound of Deep House",
@@ -101,6 +117,21 @@ var eventsJSON = [
         "eventTix"     : "https://www.ticketfly.com/purchase/event/1648603 ",
         "eventImgWide" : "img/event-images/" + "borgeous-breath-carolina-at-necto-nightclub-ann-arbor-michigan-apr-17-2018.jpg",
         "eventWklOvrd" : false,
+        "eventDay"     : 0, // Do not modify
+        "pastEvent"    : false // Do not modify
+    },
+    {
+        "eventDate"    : new Date("Apr 12, 2018 22:00:00"),
+        "eventName"    : "Goals4Soles Benefit Club Night",
+        "eventArtist"  : "Goals4Soles Benefit",
+        "eventDesc"    : "Looking to have a great time well helping an even better cause? Look no further. Goals4Soles is proud to partner with Necto nightclub on Thursday, April 12. Doors open at 10 PM, and it is 18+ with a valid ID to get in. Proceeds benefitting Goals4Soles will help provide under privileged middle school students get proper athletic footwear and school supplies. ",  
+        "eventDescLong": "Looking to have a great time well helping an even better cause? Look no further. Goals4Soles is proud to partner with Necto nightclub on Thursday, April 12. Doors open at 10 PM, and it is 18+ with a valid ID to get in. Proceeds benefitting Goals4Soles will help provide under privileged middle school students get proper athletic footwear and school supplies. ",
+        "eventCover"   : "Pre-sale tickets - $10 | at doors $15",
+        "eventLink"    : "special-events/" + "goals4soles-at-necto-nightclub-ann-arbor-michigan-apr-12-2018.html",
+        "eventSocial"  : "https://www.facebook.com/Goals4Soles/",
+        "eventTix"     : "https://goals4soles_necto.eventbrite.com",
+        "eventImgWide" : "img/event-images/" + "goals4soles-at-necto-nightclub-ann-arbor-michigan-apr-12-2018.jpg",
+        "eventWklOvrd" : true,
         "eventDay"     : 0, // Do not modify
         "pastEvent"    : false // Do not modify
     },

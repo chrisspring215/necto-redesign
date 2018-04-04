@@ -60,7 +60,6 @@ var eventsJSON = [
         "pastEvent"    : false // Do not modify
     },
     {
-    {
         "eventDate"    : new Date("Apr 28, 2018 22:00:00"),
         "eventName"    : "The Sound of Deep House in the Red Room",
         "eventArtist"  : "Sound of Deep House",

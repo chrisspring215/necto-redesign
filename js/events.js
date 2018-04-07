@@ -30,6 +30,21 @@ var eventsJSON = [
         "pastEvent"    : false // Do not modify
     },
     {
+        "eventDate"    : new Date("May 4, 2018 21:00:00"),
+        "eventName"    : "Dragster presents... Shangela",
+        "eventArtist"  : "Shangela",
+        "eventDesc"    : "D.J. Pierce, known by his stage name Shangela Laquifa Wadley, is an American drag queen, reality television personality and actor best known for competing on RuPaul's Drag Race. Shangela was the first contestant eliminated in season two, and returned as a surprise contestant in the series' third season, placing sixth. She returned once again for the third season of RuPaul's Drag Race: All Stars, where she placed joint third. Shangela has also made several television appearances, and regularly performs across the United States and Canada.", 
+        "eventDescLong": "D.J. Pierce, known by his stage name Shangela Laquifa Wadley, is an American drag queen, reality television personality and actor best known for competing on RuPaul's Drag Race. Shangela was the first contestant eliminated in season two, and returned as a surprise contestant in the series' third season, placing sixth. She returned once again for the third season of RuPaul's Drag Race: All Stars, where she placed joint third. Shangela has also made several television appearances, and regularly performs across the United States and Canada.<br><br>NOTE: No ticket necessary, just pay cover to enter the club and see the performances! Meet & greet sold out.",
+        "eventCover"   : "$5 for 21+ | $10 for 18-20 all night. ",
+        "eventLink"    : "special-events/" + "shangela-at-necto-nightclub-ann-arbor-michigan-may-4-2018.html",
+        "eventSocial"  : "https://www.facebook.com/events/1001265513381849/",
+        "eventTix"     : "none",
+        "eventImgWide" : "img/event-images/" + "shangela-at-necto-nightclub-ann-arbor-michigan-may-4-2018.jpg",
+        "eventWklOvrd" : true,
+        "eventDay"     : 0, // Do not modify
+        "pastEvent"    : false // Do not modify
+    },
+    {
         "eventDate"    : new Date("May 3, 2018 22:00:00"),
         "eventName"    : "Take Off Thursdays present... DJ Drama",
         "eventArtist"  : "DJ Drama",

@@ -30,6 +30,36 @@ var eventsJSON = [
         "pastEvent"    : false // Do not modify
     },
     {
+        "eventDate"    : new Date("May 7, 2018 21:00:00"),
+        "eventName"    : "Witch House Monthly ft. Misanthropia Narcissus",
+        "eventArtist"  : "Witch House Monthly",
+        "eventDesc"    : "W1†¢H Ħðµ§ê ØNⱠɎ. The fourth of our monthly treks into the industrial, chopped and screwed occult soundscape. Preview <a href='https://www.youtube.com/watch?v=dxzKVFT4esc'>here</a>. Featuring DJ Void6 with guest Misanthropia Narcissus spinning Witch House on main floor. Visuals by Remnant. DJ KnowLedge with Sub:Merge in the Red Room.", 
+        "eventDescLong": "W1†¢H Ħðµ§ê ØNⱠɎ. The fourth of our monthly treks into the industrial, chopped and screwed occult soundscape. Preview <a href='https://www.youtube.com/watch?v=dxzKVFT4esc'>here</a>. Featuring DJ Void6 with guest Misanthropia Narcissus spinning Witch House on main floor. Visuals by Remnant. DJ KnowLedge with Sub:Merge in the Red Room.",
+        "eventCover"   : "$1 before 10PM, $3 after.",
+        "eventLink"    : "special-events/" + "witchhouse-at-necto-nightclub-ann-arbor-michigan-may-7-2018.html",
+        "eventSocial"  : "https://www.facebook.com/events/367949200378278/",
+        "eventTix"     : "none",
+        "eventImgWide" : "img/event-images/" + "witchhouse-at-necto-nightclub-ann-arbor-michigan-may-7-2018.jpg",
+        "eventWklOvrd" : true,
+        "eventDay"     : 0, // Do not modify
+        "pastEvent"    : false // Do not modify
+    },
+    {
+        "eventDate"    : new Date("May 5, 2018 21:00:00"),
+        "eventName"    : "Cinco de Mayo Bash 2018",
+        "eventArtist"  : "Cinco de Mayo Bash",
+        "eventDesc"    : "We're gonna have una grande fiesta - decked out in festive decor, with music to keep you dancing all night. DJ Hardy spins the best Top 40, Dance & House with host MC Yoda.", 
+        "eventDescLong": "We're gonna have una grande fiesta - decked out in festive decor, with music to keep you dancing all night. DJ Hardy spins the best Top 40, Dance & House with host MC Yoda.<br><br>Drink Specials:<br>$3 Corona bottles<br>$5 Tequila sunrise<br>$7 Cuervo margaritas<br>$5 Cuervo shots",
+        "eventCover"   : "$5 for 21+ | $10 for 18-20",
+        "eventLink"    : "special-events/" + "cinco-de-mayo-bash-at-necto-nightclub-ann-arbor-michigan-may-5-2018.html",
+        "eventSocial"  : "https://www.acebook.com/events/175608349812701/",
+        "eventTix"     : "none",
+        "eventImgWide" : "img/event-images/" + "cinco-de-mayo-bash-at-necto-nightclub-ann-arbor-michigan-may-5-2018.jpg",
+        "eventWklOvrd" : false,
+        "eventDay"     : 0, // Do not modify
+        "pastEvent"    : false // Do not modify
+    },
+    {
         "eventDate"    : new Date("May 5, 2018 22:00:00"),
         "eventName"    : "Thank God It's The Weekend presents... Cinco De Mayo Party with DJ LiftOFF",
         "eventArtist"  : "Cinco De Mayo",

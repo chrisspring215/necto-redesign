@@ -45,21 +45,6 @@ var eventsJSON = [
         "pastEvent"    : false // Do not modify
     },
     {
-        "eventDate"    : new Date("May 5, 2018 21:00:00"),
-        "eventName"    : "Cinco de Mayo Bash 2018",
-        "eventArtist"  : "Cinco de Mayo Bash",
-        "eventDesc"    : "We're gonna have una grande fiesta - decked out in festive decor, with music to keep you dancing all night. DJ Hardy spins the best Top 40, Dance & House with host MC Yoda.", 
-        "eventDescLong": "We're gonna have una grande fiesta - decked out in festive decor, with music to keep you dancing all night. DJ Hardy spins the best Top 40, Dance & House with host MC Yoda.<br><br>Drink Specials:<br>$3 Corona bottles<br>$5 Tequila sunrise<br>$7 Cuervo margaritas<br>$5 Cuervo shots",
-        "eventCover"   : "$5 for 21+ | $10 for 18-20",
-        "eventLink"    : "special-events/" + "cinco-de-mayo-bash-at-necto-nightclub-ann-arbor-michigan-may-5-2018.html",
-        "eventSocial"  : "https://www.acebook.com/events/175608349812701/",
-        "eventTix"     : "none",
-        "eventImgWide" : "img/event-images/" + "cinco-de-mayo-bash-at-necto-nightclub-ann-arbor-michigan-may-5-2018.jpg",
-        "eventWklOvrd" : false,
-        "eventDay"     : 0, // Do not modify
-        "pastEvent"    : false // Do not modify
-    },
-    {
         "eventDate"    : new Date("May 5, 2018 22:00:00"),
         "eventName"    : "Thank God It's The Weekend presents... Cinco De Mayo Party with DJ LiftOFF",
         "eventArtist"  : "Cinco De Mayo",
@@ -71,6 +56,21 @@ var eventsJSON = [
         "eventTix"     : "https://tgitw_cincodemayo.eventbrite.com",
         "eventImgWide" : "img/event-images/" + "cinco-de-mayo-at-necto-nightclub-ann-arbor-michigan-may-5-2018.jpg",
         "eventWklOvrd" : false,
+        "eventDay"     : 0, // Do not modify
+        "pastEvent"    : false // Do not modify
+    },
+    {
+        "eventDate"    : new Date("May 5, 2018 21:00:00"),
+        "eventName"    : "Cinco de Mayo Bash 2018",
+        "eventArtist"  : "Cinco de Mayo Bash",
+        "eventDesc"    : "We're gonna have una grande fiesta - decked out in festive decor, with music to keep you dancing all night. DJ Hardy spins the best Top 40, Dance & House with host MC Yoda.", 
+        "eventDescLong": "We're gonna have una grande fiesta - decked out in festive decor, with music to keep you dancing all night. DJ Hardy spins the best Top 40, Dance & House with host MC Yoda.<br><br>Drink Specials:<br>$3 Corona bottles<br>$5 Tequila sunrise<br>$7 Cuervo margaritas<br>$5 Cuervo shots",
+        "eventCover"   : "$5 for 21+ | $10 for 18-20",
+        "eventLink"    : "special-events/" + "cinco-de-mayo-bash-at-necto-nightclub-ann-arbor-michigan-may-5-2018.html",
+        "eventSocial"  : "https://www.acebook.com/events/175608349812701/",
+        "eventTix"     : "none",
+        "eventImgWide" : "img/event-images/" + "cinco-de-mayo-bash-at-necto-nightclub-ann-arbor-michigan-may-5-2018.jpg",
+        "eventWklOvrd" : true,
         "eventDay"     : 0, // Do not modify
         "pastEvent"    : false // Do not modify
     },

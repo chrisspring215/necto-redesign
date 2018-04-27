@@ -70,7 +70,7 @@ var eventsJSON = [
         "eventSocial"  : "https://www.facebook.com/events/1056319334508622/",
         "eventTix"     : "https://tgitw_cincodemayo.eventbrite.com",
         "eventImgWide" : "img/event-images/" + "cinco-de-mayo-at-necto-nightclub-ann-arbor-michigan-may-5-2018.jpg",
-        "eventWklOvrd" : true,
+        "eventWklOvrd" : false,
         "eventDay"     : 0, // Do not modify
         "pastEvent"    : false // Do not modify
     },

@@ -15,6 +15,21 @@
         "pastEvent"    : false
     },
     {
+        "eventDate"    : "May 21, 2018 21:00:00",
+        "eventName"    : "Heroes vs. Villains 2018",
+        "eventArtist"  : "Heroes vs. Villains 2018",
+        "eventDesc"    : "Good & evil are coming to duke it out on the Factory stage. Who will remain when the dawn comes? Only the power of your cosplay can decide the outcome - go as a hero or villain from any book, movie, comic or even your own creations.", 
+        "eventDescLong": "Good & evil are coming to duke it out on the Factory stage. Who will remain when the dawn comes? Only the power of your cosplay can decide the outcome - go as a hero or villain from any book, movie, comic or even your own creations.<br><br>DJ Void6 with special guest DJ Darks Choir spinning Goth Industrial, SynthPop, EBM, & more on main floor. Visuals by Remnant. DJ KnowLedge with the Alibi crew members Teddy MC, Trip Dubz and Sinistarr for Sub:Merge in the Red Room.Misanthropia Narcissus will be taking great pictures all night long.<br><br>Costume Contest Rules<br><br>Entry<br>Costume contest sign-up begins at 9PM with a cut-off time of 10:30PM. It is on a first come, first serve basis with limited spots available, so we recommend arriving early.<br><br>Sign-Up<br>To sign-up up, approach host MC Yoda near the VIP Room or DJ Booth. Entries may be accepted or denied based on the discretion of the Necto staff.<br><br>Criteria<br>The judges will appraise each costume based on originality, quality, and crowd response.<br><br>Contest<br>Contestants will begin lining up near the host at the stage at 11:50pm. The contest begins at midnight. Every contestant will be introduced with their first name and the name of their costume(s), at which point they will be allowed a short time to show off their costume on stage to the crowd.<br><br>Prizes<br>There will be 2 cash prizes awarded shortly after the contest to the first and second place winners.<br><br>Previous Winners Clause<br>Our typical previous winners clause does not apply, since we did not hold this event last year.",
+        "eventCover"   : "Free cover with costume. Otherwise, $3.",
+        "eventLink"    : "special-events/heros-and-villains-2018-at-necto-nightclub-ann-arbor-michigan-may-21-2018.html",
+        "eventSocial"  : "https:www.facebook.com/events/267789397097217/",
+        "eventTix"     : "none",
+        "eventImgWide" : "img/event-images/heros-and-villains-2018-at-necto-nightclub-ann-arbor-michigan-may-21-2018.jpg",
+        "eventWklOvrd" : true,
+        "eventDay"     : 0,
+        "pastEvent"    : false
+    },
+    {
         "eventDate"    : "May 15, 2018 21:00:00",
         "eventName"    : "Dragster presents... Pangina Heals",
         "eventArtist"  : "Pangina Heals",
@@ -67,7 +82,7 @@
         "eventDescLong": "We're gonna have una grande fiesta - decked out in festive decor, with music to keep you dancing all night. DJ Hardy spins the best Top 40, Dance & House with host MC Yoda.<br><br>Drink Specials:<br>$3 Corona bottles<br>$5 Tequila sunrise<br>$7 Cuervo margaritas<br>$5 Cuervo shots",
         "eventCover"   : "$5 for 21+ | $10 for 18-20",
         "eventLink"    : "special-events/cinco-de-mayo-bash-at-necto-nightclub-ann-arbor-michigan-may-5-2018.html",
-        "eventSocial"  : "https:www.acebook.com/events/175608349812701/",
+        "eventSocial"  : "https:www.facebook.com/events/175608349812701/",
         "eventTix"     : "none",
         "eventImgWide" : "img/event-images/cinco-de-mayo-bash-at-necto-nightclub-ann-arbor-michigan-may-5-2018.jpg",
         "eventWklOvrd" : true,

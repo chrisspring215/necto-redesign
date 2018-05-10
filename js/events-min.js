@@ -120,6 +120,21 @@ var eventsJSON = [
  "pastEvent" : 0
  },
  {
+ "eventDate" : new Date("May 17, 2018 21:00:00"),
+ "eventName" : "Defiled | Red Room | Blitznacht",
+ "eventArtist" : "Defiled | Red Room | Blitznacht",
+ "eventDesc" : "Join us for industrial, aggrotech, dark electronic, and more spun by DJ Graphite and Wraith with rotating guest DJs. Visuals of gore, horror, and destruction by Remnant.<br><br>Immerse yourself in our underground industrial domain monthly in Necto's Red Room. Descend the stairs and dance with us, into the abyss. Lite Bottles.", 
+ "eventDescLong": "Join us for industrial, aggrotech, dark electronic, and more spun by DJ Graphite and Wraith with rotating guest DJs. Visuals of gore, horror, and destruction by Remnant.<br><br>Immerse yourself in our underground industrial domain monthly in Necto's Red Room. Descend the stairs and dance with us, into the abyss. Lite Bottles.",
+ "eventCover" : "$5 for 21+, $10 under 21",
+ "eventLink" : "special-events/" + "defiled-at-necto-nightclub-ann-arbor-michigan-may-17-2018.html",
+ "eventSocial" : "https://www.facebook.com/events/223243301770413/",
+ "eventTix" : "none",
+ "eventImgWide" : "img/event-images/" + "defiled-at-necto-nightclub-ann-arbor-michigan-may-17-2018.jpg",
+ "eventWklOvrd" : 0,
+ "eventDay" : 0,
+ "pastEvent" : 0
+ },
+ {
  "eventDate" : new Date("May 15, 2018 21:00:00"),
  "eventName" : "Dragster presents... Pangina Heals",
  "eventArtist" : "Pangina Heals",

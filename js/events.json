@@ -120,22 +120,7 @@
         "pastEvent"    : false
     },
     {
-        "eventDate"    : "May 17, 2018 21:00:00",
-        "eventName"    : "Defiled | Red Room | Blitznacht",
-        "eventArtist"  : "Defiled | Red Room | Blitznacht",
-        "eventDesc"    : "Join us for industrial, aggrotech, dark electronic, and more spun by DJ Graphite and Wraith with rotating guest DJs. Visuals of gore, horror, and destruction by Remnant.<br><br>Immerse yourself in our underground industrial domain monthly in Necto's Red Room. Descend the stairs and dance with us, into the abyss. Lite Bottles.", 
-        "eventDescLong": "Join us for industrial, aggrotech, dark electronic, and more spun by DJ Graphite and Wraith with rotating guest DJs. Visuals of gore, horror, and destruction by Remnant.<br><br>Immerse yourself in our underground industrial domain monthly in Necto's Red Room. Descend the stairs and dance with us, into the abyss. Lite Bottles.",
-        "eventCover"   : "$5 for 21+, $10 under 21",
-        "eventLink"    : "special-events/defiled-at-necto-nightclub-ann-arbor-michigan-may-17-2018.html",
-        "eventSocial"  : "https:www.facebook.com/events/223243301770413/",
-        "eventTix"     : "none",
-        "eventImgWide" : "img/event-images/defiled-at-necto-nightclub-ann-arbor-michigan-may-17-2018.jpg",
-        "eventWklOvrd" : false,
-        "eventDay"     : 0,
-        "pastEvent"    : false
-    },
-    {
-        "eventDate"    : "May 15, 2018 21:00:00",
+        "eventDate"    : "May 18, 2018 21:00:00",
         "eventName"    : "Dragster presents... Pangina Heals",
         "eventArtist"  : "Pangina Heals",
         "eventDesc"    : "Host and judge of Drag Race Thailand, Pangina Heals is on track to be the number 1 drag queen in Asia. Pangina Heals specializes in insult comedy, and is famous for popularizing a dance genre known as “waacking”, which awes audiences with its wickedly fast, dramatic movements.<br><br>Although she fractured her foot and had to perform from a wheelchair for five weeks, Heals was the winner of the Thailand's first drag competion show T Battle. She also competed on Thailand Dance Now and em>Lip Sync Battle Thailand. She's able to blend western culture into her performances as well, and earned a Fine Arts degree from UCLA after moving from Thailand to California for four years - where she was exposed to drag for the first time.<br><br>Necto Pride is excited to bring you this international star and this utterly unique show will not be one to miss.", 
@@ -146,6 +131,21 @@
         "eventTix"     : "https:pangina_necto.eventbrite.com",
         "eventImgWide" : "img/event-images/pangina-heals-at-necto-nightclub-ann-arbor-michigan-may-15-2018.jpg",
         "eventWklOvrd" : true,
+        "eventDay"     : 0,
+        "pastEvent"    : false
+    },
+    {
+        "eventDate"    : "May 17, 2018 21:00:00",
+        "eventName"    : "Defiled | Red Room | Blitznacht",
+        "eventArtist"  : "Defiled | Red Room | Blitznacht",
+        "eventDesc"    : "Join us for industrial, aggrotech, dark electronic, and more spun by DJ Graphite and Wraith with rotating guest DJs. Visuals of gore, horror, and destruction by Remnant.<br><br>Immerse yourself in our underground industrial domain monthly in Necto's Red Room. Descend the stairs and dance with us, into the abyss. Lite Bottles.", 
+        "eventDescLong": "Join us for industrial, aggrotech, dark electronic, and more spun by DJ Graphite and Wraith with rotating guest DJs. Visuals of gore, horror, and destruction by Remnant.<br><br>Immerse yourself in our underground industrial domain monthly in Necto's Red Room. Descend the stairs and dance with us, into the abyss.<br><br>DRINK SPECIALS: $3.50 Well drinks, $2.50 Fireball shots, 3​​​​​​​​ for $10 Jaeger Bombs, $2 Miller Lite Bottles.",
+        "eventCover"   : "$5 for 21+, $10 under 21",
+        "eventLink"    : "special-events/defiled-at-necto-nightclub-ann-arbor-michigan-may-17-2018.html",
+        "eventSocial"  : "https:www.facebook.com/events/223243301770413/",
+        "eventTix"     : "none",
+        "eventImgWide" : "img/event-images/defiled-at-necto-nightclub-ann-arbor-michigan-may-17-2018.jpg",
+        "eventWklOvrd" : false,
         "eventDay"     : 0,
         "pastEvent"    : false
     },

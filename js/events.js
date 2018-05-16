@@ -15,6 +15,21 @@ var eventsJSON = [
         "pastEvent"    : false // Do not modify
     },
     {
+        "eventDate"    : new Date("Sep 5, 2018 20:00:00"),
+        "eventName"    : "Prime Social Group presents... DJ Pauly D",
+        "eventArtist"  : "DJ Pauly D",
+        "eventDesc"    : "Do you love DJs? If yes, you do know Paul DelVecchio, who goes by the name Pauly D. Yes, he is the one who came to fame after being a cast member of MTV Jersey Shore. And now he has marked his name as a successful Disc Jockey.",  
+        "eventDescLong": "Doors at 8pm - Show Ends at 12am<br><br>Born in Providence, R.I., Paul “DJ Pauly D” DelVecchio is recognized for his musical talent as well as his reality star status on MTV’s highest rated show, “Jersey Shore,” which premiered in December 2009.<br><br>Quickly a fan favorite, MTV announced Pauly as the first cast member to receive his own spinoff, which will chronicle his life as a celebrity DJ, set to air in 2012.<br><br>In December 2011, rapper and mogul 50 Cent signed Pauly to his record label, G-Note records, to release new material showcasing Pauly’s true craft. It was also announced in January 2012, Pauly will be working together with 50 Cent and SMS Audio to develop a full line of headphones.<br><br>On August 7, 2011 Pauly won “Choice TV: Male Reality/Variety Star” at the Teen Choice Awards after being nominated for the second year in a row.<br><br>Pauly received more recognition being voted the #8 Best DJ in America in 2010 and was nominated again in 2011. Pauly was also named one of VIBE Magazine’s “Top 6 DJs Who Rocked 2011,” but his notoriety did not come overnight. At the age of 16, long before his “Jersey Shore” fame, Pauly started as a DJ and that is where his passion remains.<br><br>In September 2011, Pauly DJ’ed for the iHeartRadio Music Festival alongside some of the biggest names in the music industry. Acts included: Lady Gaga, Jennifer Lopez, The Black Eyed Peas, and Alicia Keys, to name a few.<br><br>In Summer 2011, Pauly joined the iconic Britney Spears on select dates of her Femme Fatale Tour, alongside Britney and Nicki Minaj.<br><br>Pauly has spent years honing his skills to fine art. His eclectic track selection, unique style and infectious personality captivate crowds around the globe. Pauly is now one of the most sought after DJs in the world.<br><br>His music library spans nearly every genre of club music and he has the exceptional ability to mix in and out of top 40 and house music, introducing an entirely new demographic to quality dance music.<br><br>Also in 2011, The Palms Casino Resort announced that Pauly will be an exclusive resident DJ for Moon, Rain, and the Palms Pool solidifying his spot amongst the elite group of artists that have had residencies with the Palms.<br><br>Pauly has spent the past year working on a Miracle Whip commercial, his own mobile application with MEDL Mobile, an exclusive line of Tanning Lotions and Sunless Products with Devoted Creations and a partnership in the Dirty Couture clothing line.<br><br>Pauly supports many charitable causes, working closely with The Rhode Island Chapter of St. Jude Children’s Research Hospital, and has worked with many great organizations such as The Boomer Esiason Foundation, Make-A-Wish Foundation, GLAAD, GLSEN, and DoSomething.org.<br><br>This powerhouse DJ has been honored as one of US Weekly’s hottest bodies and came in close second to Vin Diesel in People Magazine’s “Sexiest Man Alive On Facebook” contest. Cosmopolitan Magazine chose him to launch their first iPad application.<br><br>In 2010, he released his first single with Universal Republic Records entitled, “Beat Dat Beat,” which quickly climbed the charts, further establishing his place in pop culture.<br><br>Pauly continues to tour the world DJing while holding down a Vegas residency.",
+        "eventCover"   : "Pre-sale tickets $15 - $28 | DOS $30 | VIP Meet & Greet $60 (Includes 1 general admission entry, meet & greet with photo opportunity with Pauly D)",
+        "eventLink"    : "special-events/" + "dj-pauly-d-at-necto-nightclub-ann-arbor-michigan-sep-5-2018.html",
+        "eventSocial"  : "https://www.facebook.com/events/222255475174205/",
+        "eventTix"     : "https://djpaulydnecto.eventbrite.com",
+        "eventImgWide" : "img/event-images/" + "dj-pauly-d-at-necto-nightclub-ann-arbor-michigan-sep-5-2018.jpg",
+        "eventWklOvrd" : false,
+        "eventDay"     : 0, // Do not modify
+        "pastEvent"    : false // Do not modify
+    },
+    {
         "eventDate"    : new Date("Aug 18, 2018 21:00:00"),
         "eventName"    : "Electric Nectarine: House & EDM with DJ DigiMark in the Red Room",
         "eventArtist"  : "Electric Nectarine",
@@ -60,6 +75,21 @@ var eventsJSON = [
         "pastEvent"    : false // Do not modify
     },
     {
+        "eventDate"    : new Date("June 16, 2018 21:00:00"),
+        "eventName"    : "Witches & Wizards: Frequency Prom",
+        "eventArtist"  : "Witches & Wizards",
+        "eventDesc"    : "Frequency Saturday, get ready for a night of magic & mystery. This year for Prom, we transform into the world of Witches & Wizards for a drinking goblets, fun & dance. Costumed attire encouraged.<br><br>Prom Queen & King contest at midnight.<br><br>DJ Hardy will be spinning the best Top 40, Dance & House with host MC Yoda.<br><br>DRINK SPECIALS: Happy Hour from 9pm - 11pm. $2 Miller Lite, and 3 for $10 Jager / 3 olives Vodka Bombs all night.", 
+        "eventDescLong": "Frequency Saturday, get ready for a night of magic & mystery. This year for Prom, we transform into the world of Witches & Wizards for a drinking goblets, fun & dance. Costumed attire encouraged.<br><br>Prom Queen & King contest at midnight.<br><br>DJ Hardy will be spinning the best Top 40, Dance & House with host MC Yoda.<br><br>DRINK SPECIALS: Happy Hour from 9pm - 11pm. $2 Miller Lite, and 3 for $10 Jager / 3 olives Vodka Bombs all night.",
+        "eventCover"   : " $5 for 21+ | $10 for 18-20",
+        "eventLink"    : "special-events/" + "witches-wizards-at-necto-nightclub-ann-arbor-michigan-june-16-2018.html",
+        "eventSocial"  : "https://www.facebook.com/events/2056939541184788/",
+        "eventTix"     : "none",
+        "eventImgWide" : "img/event-images/" + "witches-wizards-at-necto-nightclub-ann-arbor-michigan-june-16-2018.jpg",
+        "eventWklOvrd" : true,
+        "eventDay"     : 0, // Do not modify
+        "pastEvent"    : false // Do not modify
+    },
+    {
         "eventDate"    : new Date("June 15, 2018 21:00:00"),
         "eventName"    : "Pride Prom 2018: Witches & Wizards Ball",
         "eventArtist"  : "Pride Prom 2018",
@@ -86,6 +116,36 @@ var eventsJSON = [
         "eventTix"     : "https://sharon_needles.eventbrite.com.",
         "eventImgWide" : "img/event-images/" + "sharon-needles-at-necto-nightclub-ann-arbor-michigan-june-8-2018.jpg",
         "eventWklOvrd" : true,
+        "eventDay"     : 0, // Do not modify
+        "pastEvent"    : false // Do not modify
+    },
+    {
+        "eventDate"    : new Date("June 6, 2018 21:00:00"),
+        "eventName"    : "Witch House Monthly ft. Textbeak",
+        "eventArtist"  : "Witch House Monthly",
+        "eventDesc"    : "W1†¢H Ħðμ§ê ØNⱠɎ. The sixth installment of our monthly treks into the industrial, chopped and screwed occult soundscape. DJ Void6 with guest Mike Textbeak spinning Witch House on main floor. Visuals by Remnant. DJ KnowLedge with Sub:Merge in the Red Room.", 
+        "eventDescLong": "1†¢H Ħðμ§ê ØNⱠɎ. The sixth installment of our monthly treks into the industrial, chopped and screwed occult soundscape. DJ Void6 with guest Mike Textbeak spinning Witch House on main floor. Visuals by Remnant. DJ KnowLedge with Sub:Merge in the Red Room.",
+        "eventCover"   : "$1 before 10PM, $3 after",
+        "eventLink"    : "special-events/" + "witch-house-at-necto-nightclub-ann-arbor-michigan-june-6-2018.html",
+        "eventSocial"  : "https://www.facebook.com/events/626882281015252/",
+        "eventTix"     : "none",
+        "eventImgWide" : "img/event-images/" + "witch-house-at-necto-nightclub-ann-arbor-michigan-june-6-2018.jpg",
+        "eventWklOvrd" : true,
+        "eventDay"     : 0, // Do not modify
+        "pastEvent"    : false // Do not modify
+    },
+    {
+        "eventDate"    : new Date("May 31, 2018 22:00:00"),
+        "eventName"    : "Frank Turner (DJ Set) Official After Party in the Red Room",
+        "eventArtist"  : "Frank Turner (DJ Set)",
+        "eventDesc"    : "Straight from his show in Detroit, Frank Turner will be hosting his Official After Party in the Red Room. Opening set by Ayinde Audio. Turner will be offering an intimate DJ Set.", 
+        "eventDescLong": "Be More Kind Tour Official After Party in the Red Room with...<br><br>FRANK TURNER (DJ Set)<br><br>with opening set by Ayinde Audio<br><br>Frank Turner, a former member of punk rock band Million Dead, Frank Turner turned his attention to folkier, acoustic music after the demise of the hardcore outfit. He has since transformed himself into a singer and songwriter of consequential folk-punk rebel songs (that cover topics as such atheism, excessive drinking, and the power of rock & roll). Drawing press comparisons to Billy Bragg and Bruce Springsteen, among others, Turner nonetheless occupies a niche of his own in British popular music, and has developed a large international following.<br><br>Straight from his show in Detroit, Frank Turner will be hosting his Official After Party in the Red Room. Opening set by Ayinde Audio. Turner will be offering an intimate DJ Set.",
+        "eventCover"   : "Pre-sale tickets $10 | DOS $15 ",
+        "eventLink"    : "special-events/" + "frank-turner-at-necto-nightclub-ann-arbor-michigan-may-31-2018.html",
+        "eventSocial"  : "https://www.facebook.com/events/961362014069102/",
+        "eventTix"     : "https://fturner_rr.eventbrite.com",
+        "eventImgWide" : "img/event-images/" + "frank-turner-at-necto-nightclub-ann-arbor-michigan-may-31-2018.jpg",
+        "eventWklOvrd" : false,
         "eventDay"     : 0, // Do not modify
         "pastEvent"    : false // Do not modify
     },
@@ -146,6 +206,21 @@ var eventsJSON = [
         "eventTix"     : "none",
         "eventImgWide" : "img/event-images/" + "defiled-at-necto-nightclub-ann-arbor-michigan-may-17-2018.jpg",
         "eventWklOvrd" : false,
+        "eventDay"     : 0, // Do not modify
+        "pastEvent"    : false // Do not modify
+    },
+    {
+        "eventDate"    : new Date("May 17, 2018 22:00:00"),
+        "eventName"    : "Takeoff Thursday ft. DJ Skoob E",
+        "eventArtist"  : "Takeoff Thursday",
+        "eventDesc"    : "Get ready to Takeoff - on the decks is DJ Skoob E! With his infectious energy and knack for playing your favorite tracks, you'll be enjoying the hottest Top 40, Hip-Hop, and Party hits all night long at one of the hottest venues in Ann Arbor.<br><br>DRINK SPECIALS: $3.50 Well drinks, $2.50 Fireball shots, 3 for $10 Jaeger Bombs, and $2 Miller Lite Bottles.", 
+        "eventDescLong": "Get ready to Takeoff - on the decks is DJ Skoob E! With his infectious energy and knack for playing your favorite tracks, you'll be enjoying the hottest Top 40, Hip-Hop, and Party hits all night long at one of the hottest venues in Ann Arbor.<br><br>DRINK SPECIALS: $3.50 Well drinks, $2.50 Fireball shots, 3 for $10 Jaeger Bombs, and $2 Miller Lite Bottles.",
+        "eventCover"   : "Free for 21+ before 11pm. Cover is $5 for 21 + after 11pm. 18 - 20 cover is $10 all night.",
+        "eventLink"    : "special-events/" + "takeoff-thursday-at-necto-nightclub-ann-arbor-michigan-may-17-2018.html",
+        "eventSocial"  : "https://www.facebook.com/events/1807728602582467/",
+        "eventTix"     : "none",
+        "eventImgWide" : "img/event-images/" + "takeoff-thursday-at-necto-nightclub-ann-arbor-michigan-may-17-2018.jpg",
+        "eventWklOvrd" : true,
         "eventDay"     : 0, // Do not modify
         "pastEvent"    : false // Do not modify
     },

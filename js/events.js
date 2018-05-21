@@ -154,7 +154,7 @@ var eventsJSON = [
         "eventName"    : "Takeoff Thursday with DJ LiftOFF",
         "eventArtist"  : "Takeoff Thursday",
         "eventDesc"    : "Are you ready to take flight with DJ LiftOFF? Come party to the hottest Top 40, Hip-Hop, EDM, House and Party hits all night long at one of the hottest venues in Ann Arbor.<br><br>Drink Specials: $3.50 Well drinks, $2.50 Fireball shots, 3 for $10 Jaeger Bombs, and $2 Miller Lite Bottles.", 
-        "eventDescLong": "re you ready to take flight with DJ LiftOFF? Come party to the hottest Top 40, Hip-Hop, EDM, House and Party hits all night long at one of the hottest venues in Ann Arbor.<br><br>Drink Specials: $3.50 Well drinks, $2.50 Fireball shots, 3 for $10 Jaeger Bombs, and $2 Miller Lite Bottles.",
+        "eventDescLong": "Are you ready to take flight with DJ LiftOFF? Come party to the hottest Top 40, Hip-Hop, EDM, House and Party hits all night long at one of the hottest venues in Ann Arbor.<br><br>Drink Specials: $3.50 Well drinks, $2.50 Fireball shots, 3 for $10 Jaeger Bombs, and $2 Miller Lite Bottles.",
         "eventCover"   : "Free for 21+ before 11pm. Cover is $5 for 21 + after 11pm. 18 - 20 cover is $10 all night",
         "eventLink"    : "special-events/" + "takeoff-thursday-at-necto-nightclub-ann-arbor-michigan-may-24-2018.html",
         "eventSocial"  : "https://www.facebook.com/events/266891823854623/",

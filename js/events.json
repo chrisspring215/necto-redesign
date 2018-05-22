@@ -60,6 +60,21 @@
         "pastEvent"    : false
     },
     {
+        "eventDate"    : "July 18, 2018 21:00:00",
+        "eventName"    : "Goth Prom 2018",
+        "eventArtist"  : "Goth Prom 2018",
+        "eventDesc"    : "Factory, get ready for a magical night. We're celebrate prom our way, dressing our best for a party that celebrates the community.<br><br>Goth Prom King and Queen contest at midnight! DJ Void6, with guest Dj Wraith [Defiled], spinning Goth Industrial, SynthPop, EBM, & more on main floor. Visuals by Remnant. DJ KnowLedge playing oldschool, forgotten classics, remixes and mashups and the newest hits, Sub:Merge in the Red Room.", 
+        "eventDescLong": "actory, get ready for a magical night. We're celebrate prom our way, dressing our best for a party that celebrates the community.<br><br>Goth Prom King and Queen contest at midnight! DJ Void6, with guest Dj Wraith [Defiled], spinning Goth Industrial, SynthPop, EBM, & more on main floor. Visuals by Remnant. DJ KnowLedge playing oldschool, forgotten classics, remixes and mashups and the newest hits, Sub:Merge in the Red Room.",
+        "eventCover"   : "Free cover with formal attire. Otherwise, $3",
+        "eventLink"    : "special-events/goth-prom-2018-at-necto-nightclub-ann-arbor-michigan-july-18-2018.html",
+        "eventSocial"  : "https:www.facebook.com/events/184303138888549/",
+        "eventTix"     : "none",
+        "eventImgWide" : "img/event-images/goth-prom-2018-at-necto-nightclub-ann-arbor-michigan-july-18-2018.jpg",
+        "eventWklOvrd" : false,
+        "eventDay"     : 0,
+        "pastEvent"    : false
+    },
+    {
         "eventDate"    : "June 16, 2018 21:00:00",
         "eventName"    : "Electric Nectarine: House & EDM with DJ DigiMark in the Red Room",
         "eventArtist"  : "Electric Nectarine",

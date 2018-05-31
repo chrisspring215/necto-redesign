@@ -60,6 +60,21 @@ var eventsJSON = [
         "pastEvent"    : false // Do not modify
     },
     {
+        "eventDate"    : new Date("July 20, 2018 21:00:00"),
+        "eventName"    : "PrideFriday presents... Leather Invasion",
+        "eventArtist"  : "Leather Invasion",
+        "eventDesc"    : "It's time to have a little fun!<br><br>LEATHER INVASION featuring...<br><br>AMP (Watts The Safeword)<br>KRISTOFER (Watts The Safeword)<br>     ERIC (Mr Dunes Leather 2018)<br><br>Scandalous adventure includes:<br>Spanking & Bondage demonstrations by Amp, Kristofer & Eric<br>Drag performance by Chanel Hunter & Jadein Black<br>Music by DJ Jace in the Main Room & DJ DigiMark in the Red Room<br>Shop with F Gear", 
+        "eventDescLong": "It's time to have a little fun!<br><br>LEATHER INVASION featuring...<br><br>AMP (Watts The Safeword)<br>KRISTOFER (Watts The Safeword)<br>     ERIC (Mr Dunes Leather 2018)<br><br>Scandalous adventure includes:<br>Spanking & Bondage demonstrations by Amp, Kristofer & Eric<br>Drag performance by Chanel Hunter & Jadein Black<br>Music by DJ Jace in the Main Room & DJ DigiMark in the Red Room<br>Shop with F Gear",
+        "eventCover"   : "$5 for 21+ | $10 for 18 - 20 all night",
+        "eventLink"    : "special-events/" + "leather-invasion-at-necto-nightclub-ann-arbor-michigan-july-20-2018.html",
+        "eventSocial"  : "https://www.facebook.com/events/369233183568236/",
+        "eventTix"     : "none",
+        "eventImgWide" : "img/event-images/" + "leather-invasion-at-necto-nightclub-ann-arbor-michigan-july-20-2018.jpg",
+        "eventWklOvrd" : true,
+        "eventDay"     : 0, // Do not modify
+        "pastEvent"    : false // Do not modify
+    },
+    {
         "eventDate"    : new Date("June 18, 2018 21:00:00"),
         "eventName"    : "Goth Prom 2018",
         "eventArtist"  : "Goth Prom 2018",
@@ -138,7 +153,8 @@ var eventsJSON = [
         "eventDate"    : new Date("June 7, 2018 22:00:00"),
         "eventName"    : "Takeoff Thursday with DJ LiftOFF",
         "eventArtist"  : "Takeoff Thursday",
-        "eventDesc"    : "Are you ready to take flight with DJ LiftOFF? Come party to the hottest Top 40, Hip-Hop, EDM, House and Party hits all night long at one of the hottest venues in Ann Arbor.<br><br>Drink Specials: $3.50 Well drinks, $2.50 Fireball shots, 3 for $10 Jaeger Bombs, and $2 Miller Lite Bottles.",
+        "eventDesc"    : "Are you ready to take flight with DJ LiftOFF & DJ Skoob E? Come party to the hottest Top 40, Hip-Hop, EDM, House and Party hits all night long at one of the hottest venues in Ann Arbor.<br><br>Drink Specials: $3.50 Well drinks, $2.50 Fireball shots, 3 for $10 Jaeger Bombs, and $2 Miller Lite Bottles.",
+        "eventDescLong": "Are you ready to take flight with DJ LiftOFF & DJ Skoob E? Come party to the hottest Top 40, Hip-Hop, EDM, House and Party hits all night long at one of the hottest venues in Ann Arbor.<br><br>Drink Specials: $3.50 Well drinks, $2.50 Fireball shots, 3 for $10 Jaeger Bombs, and $2 Miller Lite Bottles.",
         "eventCover"   : "Free for 21+ before 11pm. $5 for 21 + after 11pm. 18 - 20 cover is $10 all night.",
         "eventLink"    : "special-events/" + "takeoff-thursday-necto-nightclub-ann-arbor-michigan-june-7-2018.html",
         "eventSocial"  : "https://www.facebook.com/events/383135605524792/",
@@ -183,6 +199,7 @@ var eventsJSON = [
         "eventName"    : "Takeoff Thursday with DJ LiftOFF",
         "eventArtist"  : "Takeoff Thursday",
         "eventDesc"    : "Are you ready to take flight with DJ LiftOFF? Come party to the hottest Top 40, Hip-Hop, EDM, House and Party hits all night long at one of the hottest venues in Ann Arbor.<br><br>Drink Specials: $3.50 Well drinks, $2.50 Fireball shots, 3 for $10 Jaeger Bombs, and $2 Miller Lite Bottles.",
+        "eventDescLong": "Are you ready to take flight with DJ LiftOFF? Come party to the hottest Top 40, Hip-Hop, EDM, House and Party hits all night long at one of the hottest venues in Ann Arbor.<br><br>Drink Specials: $3.50 Well drinks, $2.50 Fireball shots, 3 for $10 Jaeger Bombs, and $2 Miller Lite Bottles.",
         "eventCover"   : "Free for 21+ before 11pm. $5 for 21 + after 11pm. 18 - 20 cover is $10 all night.",
         "eventLink"    : "special-events/" + "takeoff-thursday-necto-nightclub-ann-arbor-michigan-may-31-2018.html",
         "eventSocial"  : "https://www.facebook.com/events/383135605524792/",

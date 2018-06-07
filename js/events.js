@@ -75,17 +75,32 @@ var eventsJSON = [
         "pastEvent"    : false // Do not modify
     },
     {
+        "eventDate"    : new Date("June 30, 2018 21:00:00"),
+        "eventName"    : "Plastic Passion presents... Summer Reunion in the Red Room",
+        "eventArtist"  : "Plastic Passion",
+        "eventDesc"    : "Resident DJ JOSH BURGE brings the passion back to the RED ROOM: 80s/90s alternative dance, new wave, post-punk, electro-funk, industrial, EBM, indie, and modern synthicide! Half-off all drinks before 11pm!<br><br>IMPORTANT: When arriving, be sure to tell the fine Necto door staff that you're there for PLASTIC PASSION in the RED ROOM. Follow the steps down on the right for Red Room Fun.", 
+        "eventDescLong": "Resident DJ JOSH BURGE brings the passion back to the RED ROOM: 80s/90s alternative dance, new wave, post-punk, electro-funk, industrial, EBM, indie, and modern synthicide! Half-off all drinks before 11pm!",
+        "eventCover"   : "$5 for 21+ | $10 for 18-20",
+        "eventLink"    : "special-events/" + "plastic-passion-at-necto-nightclub-ann-arbor-michigan-june-30-2018.html",
+        "eventSocial"  : "https://www.facebook.com/events/1939481619403776/",
+        "eventTix"     : "none",
+        "eventImgWide" : "img/event-images/" + "plastic-passion-at-necto-nightclub-ann-arbor-michigan-june-30-2018.jpg",
+        "eventWklOvrd" : false,
+        "eventDay"     : 0, // Do not modify
+        "pastEvent"    : false // Do not modify
+    },
+    {
         "eventDate"    : new Date("June 18, 2018 21:00:00"),
         "eventName"    : "Goth Prom 2018",
         "eventArtist"  : "Goth Prom 2018",
         "eventDesc"    : "Factory, get ready for a magical night. We're celebrate prom our way, dressing our best for a party that celebrates the community.<br><br>Goth Prom King and Queen contest at midnight! DJ Void6, with guest Dj Wraith [Defiled], spinning Goth Industrial, SynthPop, EBM, & more on main floor. Visuals by Remnant. DJ KnowLedge playing oldschool, forgotten classics, remixes and mashups and the newest hits, Sub:Merge in the Red Room.", 
-        "eventDescLong": "actory, get ready for a magical night. We're celebrate prom our way, dressing our best for a party that celebrates the community.<br><br>Goth Prom King and Queen contest at midnight! DJ Void6, with guest Dj Wraith [Defiled], spinning Goth Industrial, SynthPop, EBM, & more on main floor. Visuals by Remnant. DJ KnowLedge playing oldschool, forgotten classics, remixes and mashups and the newest hits, Sub:Merge in the Red Room.",
+        "eventDescLong": "Factory, get ready for a magical night. We're celebrate prom our way, dressing our best for a party that celebrates the community.<br><br>Goth Prom King and Queen contest at midnight! DJ Void6, with guest Dj Wraith [Defiled], spinning Goth Industrial, SynthPop, EBM, & more on main floor. Visuals by Remnant. DJ KnowLedge playing oldschool, forgotten classics, remixes and mashups and the newest hits, Sub:Merge in the Red Room.",
         "eventCover"   : "Free cover with formal attire. Otherwise, $3",
         "eventLink"    : "special-events/" + "goth-prom-2018-at-necto-nightclub-ann-arbor-michigan-june-18-2018.html",
         "eventSocial"  : "https://www.facebook.com/events/184303138888549/",
         "eventTix"     : "none",
         "eventImgWide" : "img/event-images/" + "goth-prom-2018-at-necto-nightclub-ann-arbor-michigan-june-18-2018.jpg",
-        "eventWklOvrd" : false,
+        "eventWklOvrd" : true,
         "eventDay"     : 0, // Do not modify
         "pastEvent"    : false // Do not modify
     },
@@ -161,6 +176,21 @@ var eventsJSON = [
         "eventTix"     : "none",
         "eventImgWide" : "img/event-images/" + "takeoff-thursday-necto-nightclub-ann-arbor-michigan-june-6-2018.jpg",
         "eventWklOvrd" : true,
+        "eventDay"     : 0, // Do not modify
+        "pastEvent"    : false // Do not modify
+    },
+    {
+        "eventDate"    : new Date("June 6, 2018 19:00:00"),
+        "eventName"    : "Roman’s going away BBQ w/ Astronomar",
+        "eventArtist"  : "Roman’s Going Away",
+        "eventDesc"    : "Roman’s heading to NYC so we’re throwing a BBQ bash in his honor! Join us on Wednesday June 6th for:<br><br>Astronomar<br><br>with opening sets by Roman Martinez & DJ Holographic<br><br>Get here early for some burgers & hotdogs. Great house music with awesome friends & amazing vibes all night!", 
+        "eventDescLong": "Roman’s heading to NYC so we’re throwing a BBQ bash in his honor! Join us on Wednesday June 6th for:<br><br>Astronomar<br><br>with opening sets by Roman Martinez & DJ Holographic<br><br>Get here early for some burgers & hotdogs. Great house music with awesome friends & amazing vibes all night!",
+        "eventCover"   : "$10",
+        "eventLink"    : "special-events/" + "romans-going-away-bbq-at-necto-nightclub-ann-arbor-michigan-june-6-2018.html",
+        "eventSocial"  : "https://www.facebook.com/events/2049885341947206/",
+        "eventTix"     : "https://romans_bbq.eventbrite.com",
+        "eventImgWide" : "img/event-images/" + "romans-going-away-bbq-at-necto-nightclub-ann-arbor-michigan-june-6-2018.jpg",
+        "eventWklOvrd" : false,
         "eventDay"     : 0, // Do not modify
         "pastEvent"    : false // Do not modify
     },

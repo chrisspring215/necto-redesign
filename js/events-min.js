@@ -75,6 +75,21 @@ var eventsJSON = [
  "pastEvent" : 0
  },
  {
+ "eventDate" : new Date("July 13, 2018 21:00:00"),
+ "eventName" : "Dragster presents... KAMERON MICHAELS",
+ "eventArtist" : "KAMERON MICHAELS",
+ "eventDesc" : "Kameron is the body builder Barbie. She blurs the line between masculinity & femininity. While thriving on both sides of the spectrum. Kameron loves to dance & lives to lift. When a fantasy gamer grows up & finds muscles & makeup, Kameron Michaels is born.", 
+ "eventDescLong": "Kameron is the body builder Barbie. She blurs the line between masculinity & femininity. While thriving on both sides of the spectrum. Kameron loves to dance & lives to lift. When a fantasy gamer grows up & finds muscles & makeup, Kameron Michaels is born.",
+ "eventCover" : "$5 for 21+ | $10 for 18-20 all night. ",
+ "eventLink" : "special-events/" + "kameron-michaels-at-necto-nightclub-ann-arbor-michigan-july-13-2018.html",
+ "eventSocial" : "https://www.facebook.com/events/223550691570664/",
+ "eventTix" : "none",
+ "eventImgWide" : "img/event-images/" + "kameron-michaels-at-necto-nightclub-ann-arbor-michigan-july-13-2018.jpg",
+ "eventWklOvrd" : 1,
+ "eventDay" : 0,
+ "pastEvent" : 0
+ },
+ {
  "eventDate" : new Date("June 30, 2018 21:00:00"),
  "eventName" : "Plastic Passion presents... Summer Reunion in the Red Room",
  "eventArtist" : "Plastic Passion",

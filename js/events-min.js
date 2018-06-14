@@ -90,6 +90,21 @@ var eventsJSON = [
  "pastEvent" : 0
  },
  {
+ "eventDate" : new Date("July 7, 2018 21:00:00"),
+ "eventName" : "Big Brother's Bass Dystopia in the Red Room",
+ "eventArtist" : "Bass Dystopia",
+ "eventDesc" : "Following up on his recent album release, Big Brother is preparing to bring the bass to the Red Room at Necto! Prepare for a night of face-melting dubstep with a variety of bass artists!", 
+ "eventDescLong": "Following up on his recent album release, Big Brother is preparing to bring the bass to the Red Room at Necto! Prepare for a night of face-melting dubstep with a variety of bass artists!<br><br>Lineup:<br><a href='https://soundcloud.com/b1gbr0ther'>BIG BROTHER</a><br><a href='https://soundcloud.com/brandon-bath'>Bath and Body Twerks</a><br><a href='https://soundcloud.com/tetranauts'>Tetranauts</a><br><a href='https://soundcloud.com/tipskyho'>Tipskyho</a><br>",
+ "eventCover" : "Pre-sale tickets - $10 | $15 at doors",
+ "eventLink" : "special-events/" + "big-brothers-bass-dystopia-at-necto-nightclub-ann-arbor-michigan-july-7-2018.html",
+ "eventSocial" : "https://www.facebook.com/events/1680732415374164/",
+ "eventTix" : "https://bass_dystopia.eventbrite.com",
+ "eventImgWide" : "img/event-images/" + "big-brothers-bass-dystopia-at-necto-nightclub-ann-arbor-michigan-july-7-2018.jpg",
+ "eventWklOvrd" : 0,
+ "eventDay" : 0,
+ "pastEvent" : 0
+ },
+ {
  "eventDate" : new Date("June 30, 2018 21:00:00"),
  "eventName" : "Plastic Passion presents... Summer Reunion in the Red Room",
  "eventArtist" : "Plastic Passion",
@@ -101,6 +116,21 @@ var eventsJSON = [
  "eventTix" : "none",
  "eventImgWide" : "img/event-images/" + "plastic-passion-at-necto-nightclub-ann-arbor-michigan-june-30-2018.jpg",
  "eventWklOvrd" : 0,
+ "eventDay" : 0,
+ "pastEvent" : 0
+ },
+ {
+ "eventDate" : new Date("June 21, 2018 21:00:00"),
+ "eventName" : "Takeoff Thursday with DJ LiftOFF & Skoob E",
+ "eventArtist" : "Takeoff Thursday",
+ "eventDesc" : "Are you ready to take flight with DJ LiftOFF & DJ Skoob E? Come party to the hottest Top 40, Hip-Hop, EDM, House and Party hits all night long at one of the hottest venues in Ann Arbor.",
+ "eventDescLong": "Are you ready to take flight with DJ LiftOFF & DJ Skoob E? Come party to the hottest Top 40, Hip-Hop, EDM, House and Party hits all night long at one of the hottest venues in Ann Arbor.",
+ "eventCover" : "Free for 21+ before 11pm. $5 for 21 + after 11pm. 18 - 20 cover is $10 all night.",
+ "eventLink" : "special-events/" + "takeoff-thursday-necto-nightclub-ann-arbor-michigan-june-21-2018.html",
+ "eventSocial" : "https://www.facebook.com/events/383135605524792/",
+ "eventTix" : "none",
+ "eventImgWide" : "img/event-images/" + "takeoff-thursday-necto-nightclub-ann-arbor-michigan-june-21-2018.jpg",
+ "eventWklOvrd" : 1,
  "eventDay" : 0,
  "pastEvent" : 0
  },
@@ -160,6 +190,21 @@ var eventsJSON = [
  "eventSocial" : "https://www.facebook.com/events/660620164268995/",
  "eventTix" : "none",
  "eventImgWide" : "img/event-images/" + "pride-prom-2018-at-necto-nightclub-ann-arbor-michigan-june-15-2018.jpg",
+ "eventWklOvrd" : 1,
+ "eventDay" : 0,
+ "pastEvent" : 0
+ },
+ {
+ "eventDate" : new Date("June 14, 2018 21:00:00"),
+ "eventName" : "Takeoff Thursday with DJ LiftOFF & Skoob E",
+ "eventArtist" : "Takeoff Thursday",
+ "eventDesc" : "Are you ready to take flight with DJ LiftOFF & DJ Skoob E? Come party to the hottest Top 40, Hip-Hop, EDM, House and Party hits all night long at one of the hottest venues in Ann Arbor.",
+ "eventDescLong": "Are you ready to take flight with DJ LiftOFF & DJ Skoob E? Come party to the hottest Top 40, Hip-Hop, EDM, House and Party hits all night long at one of the hottest venues in Ann Arbor.",
+ "eventCover" : "Free for 21+ before 11pm. $5 for 21 + after 11pm. 18 - 20 cover is $10 all night.",
+ "eventLink" : "special-events/" + "takeoff-thursday-necto-nightclub-ann-arbor-michigan-june-14-2018.html",
+ "eventSocial" : "https://www.facebook.com/events/383135605524792/",
+ "eventTix" : "none",
+ "eventImgWide" : "img/event-images/" + "takeoff-thursday-necto-nightclub-ann-arbor-michigan-june-14-2018.jpg",
  "eventWklOvrd" : 1,
  "eventDay" : 0,
  "pastEvent" : 0

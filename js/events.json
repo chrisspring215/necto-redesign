@@ -90,6 +90,21 @@
         "pastEvent"    : false
     },
     {
+        "eventDate"    : "July 12, 2018 21:00:00",
+        "eventName"    : "Take Off Thursdays present... Polo Frost + LARS (Bizarre of D12 & King Gordy) with DJ LiftOFF & SkoobE",
+        "eventArtist"  : "Polo Frost + LARS",
+        "eventDesc"    : "Irreverent Detroit rap duo LARS was formed by D12's Bizarre and horrorcore emcee and Fat Killahz member King Gordy. The two longtime collaborators had come together in 2008 under the name the Davidians, but in 2017 they changed the name to LARS (shorthand for Last American Rock Stars) and signed a deal with Twiztid-affiliated label Majik Ninja Entertainment.", 
+        "eventDescLong": "Polo Frost - Polo Frost is a Ypsilanti, Mi born and raised hip hop artist. At 25 years old he’s been making for music almost 3 years and has had 6 records on radio.<br><br>Last American Rock Stars - Irreverent Detroit rap duo LARS was formed by D12's Bizarre and horrorcore emcee and Fat Killahz member King Gordy. The two longtime collaborators had come together in 2008 under the name the Davidians, but in 2017 they changed the name to LARS (shorthand for Last American Rock Stars) and signed a deal with Twiztid-affiliated label Majik Ninja Entertainment. In interviews, the duo referred to their unrepentantly wild style as an attempt to bring fun back into what they felt had become an overly serious hip-hop scene. Overflowing with themes of sex, drugs, and violence, LARS released their Foul World mixtape in late 2017 and offered up debut album Last American Rock Stars early the next year.",
+        "eventCover"   : "Pre-sale tickets $5 - $10 | At doors $5 for 21+ & $10 for 18-20 all night",
+        "eventLink"    : "special-events/polo-frost-lars-at-necto-nightclub-ann-arbor-michigan-july-12-2018.html",
+        "eventSocial"  : "https:www.facebook.com/events/448856205567812/",
+        "eventTix"     : "https:polofrost_lars.eventbrite.com",
+        "eventImgWide" : "img/event-images/polo-frost-lars-at-necto-nightclub-ann-arbor-michigan-july-12-2018.jpg",
+        "eventWklOvrd" : true,
+        "eventDay"     : 0,
+        "pastEvent"    : false
+    },
+    {
         "eventDate"    : "July 7, 2018 21:00:00",
         "eventName"    : "Big Brother's Bass Dystopia in the Red Room",
         "eventArtist"  : "Bass Dystopia",

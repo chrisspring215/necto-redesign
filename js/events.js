@@ -45,6 +45,21 @@ var eventsJSON = [
         "pastEvent"    : false // Do not modify
     },
     {
+        "eventDate"    : new Date("Aug 3, 2018 21:00:00"),
+        "eventName"    : "Necto Pride presents... CupcakKe :: Official Ann Arbor Pride Pre-Party Extravaganza!!!",
+        "eventArtist"  : "CupcakKe",
+        "eventDesc"    : "Elizabeth Eden Harris (born May 31, 1997), known professionally as Cupcakke (often stylized as cupcakKe), is an American rapper and singer from Chicago, Illinois.<br><br>Harris began her career as a rapper by releasing material through the internet in late 2012. In 2015, two of her songs, “Deepthroat“ and “Vagina“, went viral on video sharing websites such as YouTube and WorldStarHipHop.", 
+        "eventDescLong": "Elizabeth Eden Harris (born May 31, 1997), known professionally as Cupcakke (often stylized as cupcakKe), is an American rapper and singer from Chicago, Illinois.<br><br>Harris began her career as a rapper by releasing material through the internet in late 2012. In 2015, two of her songs, “Deepthroat“ and “Vagina“, went viral on video sharing websites such as YouTube and WorldStarHipHop. The songs were later included on her debut mixtape Cum Cake, which was released in February 2016 and placed at #23 in Rolling Stones “Best Rap Albums of 2016“ list and received attention from Pitchfork. Her hyper-sexualized, salacious, and often comical lyrical content has gained her songs notoriety across the internet, and she has since developed a strong online fanbase whom she nicknamed “slurpers“. She has also used her songs as a platform of advocacy for causes such as LGBT rights and female empowerment.<br>Her second mixtape, S.T.D (Shelters to Deltas), was released in 2016 and was included in Rolling Stone's June 2016 list of the “Best Rap Albums of 2016 So Far“. She has also received attention from music publications Complex and The Fader.<br>Following the release of her mixtapes, Harris debuted her album Audacious in 2016. Her second studio album Queen Elizabitch was released in 2017. In 2018, it was followed by her third studio album Ephorize.",
+        "eventCover"   : "$5 for 21+ | $10 for 18-20 all night | Meet & Greet Tickets $25",
+        "eventLink"    : "special-events/" + "cupcakke-at-necto-nightclub-ann-arbor-michigan-aug-3-2018.html",
+        "eventSocial"  : "https://www.facebook.com/events/203826473773466/",
+        "eventTix"     : "https://cupcakke_a2pride.eventbrite.com",
+        "eventImgWide" : "img/event-images/" + "cupcakke-at-necto-nightclub-ann-arbor-michigan-aug-3-2018.jpg",
+        "eventWklOvrd" : true,
+        "eventDay"     : 0, // Do not modify
+        "pastEvent"    : false // Do not modify
+    },
+    {
         "eventDate"    : new Date("July 21, 2018 21:00:00"),
         "eventName"    : "Electric Nectarine: House & EDM with DJ DigiMark in the Red Room",
         "eventArtist"  : "Electric Nectarine",
@@ -105,7 +120,7 @@ var eventsJSON = [
         "pastEvent"    : false // Do not modify
     },
     {
-        "eventDate"    : new Date("July 7, 2018 21:00:00"),
+        "eventDate"    : new Date("July 14, 2018 21:00:00"),
         "eventName"    : "Big Brother's Bass Dystopia in the Red Room",
         "eventArtist"  : "Bass Dystopia",
         "eventDesc"    : "Following up on his recent album release, Big Brother is preparing to bring the bass to the Red Room at Necto! Prepare for a night of face-melting dubstep with a variety of bass artists!", 
@@ -116,6 +131,21 @@ var eventsJSON = [
         "eventTix"     : "https://bass_dystopia.eventbrite.com",
         "eventImgWide" : "img/event-images/" + "big-brothers-bass-dystopia-at-necto-nightclub-ann-arbor-michigan-july-7-2018.jpg",
         "eventWklOvrd" : false,
+        "eventDay"     : 0, // Do not modify
+        "pastEvent"    : false // Do not modify
+    },
+    {
+        "eventDate"    : new Date("July 2, 2018 21:00:00"),
+        "eventName"    : "Witch House Monthly ft. Whywølf",
+        "eventArtist"  : "Witch House Monthly",
+        "eventDesc"    : "W1†¢H Ħðμ§ê ØNⱠɎ. The seventh installment of our monthly treks into the industrial, chopped and screwed occult soundscape. DJ Void6 with guest Whywølf spinning Witch House on main floor. Visuals by Remnant. DJ KnowLedge with Sub:Merge in the Red Room.", 
+        "eventDescLong": "W1†¢H Ħðμ§ê ØNⱠɎ. The seventh installment of our monthly treks into the industrial, chopped and screwed occult soundscape. DJ Void6 with guest Whywølf spinning Witch House on main floor. Visuals by Remnant. DJ KnowLedge with Sub:Merge in the Red Room.",
+        "eventCover"   : "$1 before 10PM, $3 after",
+        "eventLink"    : "special-events/" + "witch-house-whywolf-at-necto-nightclub-ann-arbor-michigan-july-2-2018.html",
+        "eventSocial"  : "https://www.facebook.com/events/1847934995511906/",
+        "eventTix"     : "none",
+        "eventImgWide" : "img/event-images/" + "witch-house-whywolf-at-necto-nightclub-ann-arbor-michigan-july-2-2018.jpg",
+        "eventWklOvrd" : true,
         "eventDay"     : 0, // Do not modify
         "pastEvent"    : false // Do not modify
     },
@@ -139,7 +169,7 @@ var eventsJSON = [
         "eventName"    : "Takeoff Thursday with DJ LiftOFF & Skoob E",
         "eventArtist"  : "Takeoff Thursday",
         "eventDesc"    : "Are you ready to take flight with DJ LiftOFF & DJ Skoob E? Come party to the hottest Top 40, Hip-Hop, EDM, House and Party hits all night long at one of the hottest venues in Ann Arbor.",
-        "eventDescLong": "Are you ready to take flight with DJ LiftOFF & DJ Skoob E? Come party to the hottest Top 40, Hip-Hop, EDM, House and Party hits all night long at one of the hottest venues in Ann Arbor.",
+        "eventDescLong": "Are you ready to take flight with DJ LiftOFF & DJ Skoob E? Come party to the hottest Top 40, Hip-Hop, EDM, House and Party hits all night long at one of the hottest venues in Ann Arbor.<br><br>This Thursday, Take Off is throwing VIP night!<br><br>Tag five friends in our <a href='http://facebook.com/NectoNightclub/photos/a.164462181229.129172.23702431229/10155254984776230/'>Facebook post</a> for your chance to WIN exclusive bottle service compliments of DJ Liftoff & Skoob E.<br><br>Winner announced noon. Winners must be 21 years of age or older. Gratuity not included.",
         "eventCover"   : "Free for 21+ before 11pm. $5 for 21 + after 11pm. 18 - 20 cover is $10 all night.",
         "eventLink"    : "special-events/" + "takeoff-thursday-necto-nightclub-ann-arbor-michigan-june-21-2018.html",
         "eventSocial"  : "https://www.facebook.com/events/383135605524792/",

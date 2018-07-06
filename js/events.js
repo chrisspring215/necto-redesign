@@ -45,6 +45,21 @@ var eventsJSON = [
         "pastEvent"    : false // Do not modify
     },
     {
+        "eventDate"    : new Date("Aug 16, 2018 22:00:00"),
+        "eventName"    : "Necto & Embarco Entertainment present... Mix Master Mike of the Beastie Boys with opening sets by DJ Skoob E & DJ LiftOFF",
+        "eventArtist"  : "Mix Master Mike",
+        "eventDesc"    : "DJ DigiMark is burning up the dance floor this summer, with high energy EDM & house in the Red Room! Every third Saturday of the month, head down stairs for Electric Nectarine.", 
+        "eventDescLong": "Named as “the world’s greatest DJ” by USA Today, Mix Master Mike’s status as a premier, award-winning DJ and producer has allowed him to maintain his rank as an influential musician, and become a household name.<br><br>Grammy Award winner Mix Master Mike’s many accomplishments include a 3 time consecutive win of the DMC World title, a win of the 1992 New Music Seminar DJ Battle (where he became the first West Coast DJ to win the title of World Champion), and being inducted into the Rock ’n Roll Hall of Fame in 2012 with the Beastie Boys. His skillful, hard-hitting scratch work has rightfully earned him the status of a pioneer in the hip-hop and DJ communities.<br><br>Recently, Mike has been found opening for the Vancouver Winter Olympics, joining the official Emmy’s orchestra with the legendary Michael Bearden (Lady Gaga's/Michael Jackson's music director), creating music that has been featured on major television networks (i.e. producing the theme music for Teen Titans Go on Cartoon Network), performing on Yo Gabba Gabba, producing the theme music for the FIFA World Cup, working on Andra Day's Grammy nominated album, ”Cheers to the Fall”, and more. In 2016, he was invited to the White House by former President Barack Obama to perform at the Kennedy Center Honors 36th Gala honoring Herbie Hancock.<br><br>2017 has been a whirlwind year for Mix Master Mike, touring stadiums with Metallica, trailblazing the VR world, working on music with the Invisibl Skratch Piklz, DJing A$AP Rocky’s latest album release party, and more. Mike’s Virtual Reality project, “Magma Chamber”, has been winning awards internationally, including the 2017 VR Fest Award for “Best Animated VR Music Video” and two awards from Vega Digital Awards. “Magma Chamber” is being recognized as one of the best and most innovative videos in the VR world. As a result of all the attention “Magma Chamber” has received, Sir Richard Branson extended an invitation for Mix Master Mike to attend the Extreme Tech Challenge awards at the famous Necker Island. His second VR music video, “Moonbase Invasion,” was released to critical acclaim as well, winning honors from Cannes Film Festival, Austin Music Video Festival and Globaltrend Video Awards.<br><br>From his early days in the Bay Area until now, Mix Master Mike has always been looking for new ways to create art that challenges the status quo, keeping his brand relevant and exciting for older fans and millennials alike.",
+        "eventCover"   : "Pre-sale tickets $10 - $15 | At doors $20",
+        "eventLink"    : "special-events/" + "mix-master-mike-at-necto-nightclub-ann-arbor-michigan-aug-16-2018.html",
+        "eventSocial"  : "https://www.facebook.com/events/1948883765124830/",
+        "eventTix"     : "https://mixmastermike_necto.eventbrite.com",
+        "eventImgWide" : "img/event-images/" + "mix-master-mike-at-necto-nightclub-ann-arbor-michigan-aug-16-2018.jpg",
+        "eventWklOvrd" : true,
+        "eventDay"     : 0, // Do not modify
+        "pastEvent"    : false // Do not modify
+    },
+    {
         "eventDate"    : new Date("Aug 3, 2018 21:00:00"),
         "eventName"    : "Necto Pride presents... CupcakKe :: Official Ann Arbor Pride Pre-Party Extravaganza!!!",
         "eventArtist"  : "CupcakKe",
@@ -135,7 +150,7 @@ var eventsJSON = [
         "pastEvent"    : false // Do not modify
     },
     {
-        "eventDate"    : new Date("July 5, 2018 21:00:00"),
+        "eventDate"    : new Date("July 5, 2018 22:00:00"),
         "eventName"    : "Takeoff Thursday with DJ LiftOFF",
         "eventArtist"  : "Takeoff Thursday",
         "eventDesc"    : "Are you ready to take flight with DJ LiftOFF? Come party to the hottest Top 40, Hip-Hop, EDM, House and Party hits all night long at one of the hottest venues in Ann Arbor.",
@@ -180,11 +195,11 @@ var eventsJSON = [
         "pastEvent"    : false // Do not modify
     },
     {
-        "eventDate"    : new Date("June 28, 2018 21:00:00"),
+        "eventDate"    : new Date("June 28, 2018 22:00:00"),
         "eventName"    : "Takeoff Thursday with DJ LiftOFF",
         "eventArtist"  : "Takeoff Thursday",
         "eventDesc"    : "Are you ready to take flight with DJ LiftOFF? Come party to the hottest Top 40, Hip-Hop, EDM, House and Party hits all night long at one of the hottest venues in Ann Arbor.",
-        "eventDescLong": "Are you ready to take flight with DJ LiftOFF? Come party to the hottest Top 40, Hip-Hop, EDM, House and Party hits all night long at one of the hottest venues in Ann Arbor.<br><br>Drink Specials: $3.50 Well drinks, $2.50 Fireball shots, 3 for $10 Jägerbombs, and $2 Miller Lite Bottles.",
+        "eventDescLong": "Are you ready to take flight with DJ LiftOFF? Come party to the hottest Top 40, Hip-Hop, EDM, House and Party hits all night long at one of the hottest venues in Ann Arbor.<br><br>Drink Specials: $3.50 Well drinks, $2.50 Fireball shots, 3 for $10 Jägerbombs, and $2 Miller Lite Bottles.<br><br>This Thursday, Take Off is throwing VIP night!<br><br>Tag five friends in our Facebook post for your chance to WIN exclusive bottle service compliments of DJ Liftoff & Skoob E. <br><br>Winner announced noon. Winners must be 21 years of age or older. Gratuity not included.",
         "eventCover"   : "Free for 21+ before 11pm. $5 for 21 + after 11pm. 18 - 20 cover is $10 all night.",
         "eventLink"    : "special-events/" + "takeoff-thursday-necto-nightclub-ann-arbor-michigan-june-28-2018.html",
         "eventSocial"  : "https://www.facebook.com/events/383135605524792/",

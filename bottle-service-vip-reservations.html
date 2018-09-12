@@ -211,36 +211,36 @@
       <form class="row centered-cols weekly-mailing" action="vip_form.php" method="post">
       
         <label class="col col-12-xs col-8-md">Your Name (required)</br>
-          <input name="renter_name" type="text" placeholder="Enter Your Name" />
+          <input onkeyup="valid()" name="renter_name" type="text" placeholder="Enter Your Name" />
         </label>
        
         <label class="col col-12-xs col-8-md">Phone number (required)</br>
-          <input name="renter_phone" type="tel" placeholder="123-456-7890" />
+          <input onkeyup="valid()" name="renter_phone" type="text" placeholder="123-456-7890" />
         </label>
    
         <label class="col col-12-xs col-8-md">Your Email (required)</br>
-          <input name="renter_email" type="email" placeholder="you@someplace.com" />
+          <input onkeyup="valid()" name="renter_email" type="text" placeholder="you@someplace.com" />
         </label>
 
         <label class="col col-12-xs col-8-md">Date you want to reserve (required)</br>
-          <input name="renter_date" type="text" placeholder="Enter a date" />
+          <input onkeyup="valid()" name="renter_date" type="text" placeholder="Enter a date" />
         </label>
 
         <label class="col col-12-xs col-8-md">What's your favorite brand/type of liquor?</br>
-          <input name="renter_drink" type="text" placeholder="Shorty, what you drank?" />
+          <input onkeyup="valid()" name="renter_drink" type="text" placeholder="Shorty, what you drank?" />
         </label>
 
         <label class="col col-12-xs col-8-md">Referred by? (optional)</br>
-          <input name="renter_ref" type="text" placeholder="" />
+          <input onkeyup="valid()" name="renter_ref" type="text" placeholder="" />
         </label>
     
         <label class="col col-12-xs col-8-md">Message</br>
-          <textarea name="renter_message" placeholder="What should we know about your party?"></textarea>
+          <textarea onkeyup="valid()" name="renter_message" placeholder="What should we know about your party?"></textarea>
         </label>
         <br>
       
         <label class="col col-12-xs col-8-md">Are you a human? (required)</br>
-          <input onchange="valid()" id="human" placeholder="Answer yes if you are" type="text">
+          <input onkeyup="valid()" id="human" placeholder="Answer yes if you are" type="text">
         </label>
         <br>
         

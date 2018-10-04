@@ -1,5 +1,20 @@
 { "events" : [
     {
+        "eventDate"    : "Nov 27, 2018 21:00:00",
+        "eventName"    : "F - Cancer featuring Matoma with opening sets by Miller Guth & Jordan Stone",
+        "eventArtist"  : "F-Cancer w/ Matoma",
+        "eventDesc"    : "Proceeds benefit Fuck Cancer programs</br></br>This event is YOUR opportunity to say FUCK CANCER</br>So come party, wearing your T-shirt and lets raise money for a great cause! Proceeds go towards prevention, early detection and supporting those affected by Cancer.",  
+        "eventDescLong": "Proceeds benefit Fuck Cancer programs</br></br>This event is YOUR opportunity to say FUCK CANCER</br>So come party, wearing your T-shirt and lets raise money for a great cause! Proceeds go towards prevention, early detection and supporting those affected by Cancer.</br></br>ABOUT/HOW IT WORKS:</br></br>TICKETS for the event are in the form of T-SHIRTS</br>In order to get into the party you need to be wearing your T-shirt</br>There are 6 different colors that represent different Cancer ribbons.</br>Please contact the representative of each colour based on which shirt you want.</br></br>Colours:</br>OVARIAN = Teal</br>BREAST = Pink</br>LUNG = White</br>LYMPHOMA = Lime</br>COLON = Royal Blue</br>PANCREATIC = Purple</br></br>Message Noah Segal </br>GENERAL QUESTIONS: email <a href='events@letsfcancer.com'>events@letsfcancer.com</a></br></br>Sizes: S-M-L-XL-XL<br>Please note you are not guaranteed the color / size you choose. We will do our best to fulfill all requests. ",
+        "eventCover"   : "Early Bird $25 - Regular $30",
+        "eventLink"    : "special-events/f-cancer-at-necto-nightclub-ann-arbor-michigan-nov-27-2018.html",
+        "eventSocial"  : "https:www.facebook.com/events/359440081461255/",
+        "eventTix"     : "https:www.squadup.com/events/f-cancer-michigan",
+        "eventImgWide" : "img/event-images/f-cancer-at-necto-nightclub-ann-arbor-michigan-nov-27-2018.jpg",
+        "eventWklOvrd" : true,
+        "eventDay"     : 0,
+        "pastEvent"    : false
+    },  
+    {
         "eventDate"    : "Nov 16, 2018 21:00:00",
         "eventName"    : "Necto Pride presents...  ADA VOX",
         "eventArtist"  : "Ada Vox",
@@ -30,6 +45,66 @@
         "pastEvent"    : false
     },
     {
+        "eventDate"    : "Oct 31, 2018 21:00:00",
+        "eventName"    : "React presents... Halloween w/ Tritonal",
+        "eventArtist"  : "Halloween w/ Tritonal",
+        "eventDesc"    : "React presents... Halloween Bash featuring... Tritonal with opening sets by Miller Guth b2b Zephure and DJ HJC",  
+        "eventDescLong": "React presents... Halloween Bash featuring... Tritonal with opening sets by Miller Guth b2b Zephure and DJ HJC<br><br>Tritonal are an EDM duo from Austin, Texas consisting of producers/DJs Chad Cisneros and David Reed. The duo formed in 2008 and immediately began releasing progressive tracks, often in collaboration with vocalist Cristina Soto, that appeared on labels such as Anjunabeats, Fraction Records, and Coldharbour Recordings. Their euphoric anthems and ecstatic live performances quickly made an impact on the worldwide dance music scene.",
+        "eventLink"    : "special-events/tritonal-at-necto-nightclub-ann-arbor-michigan-oct-31-2018.html",
+        "eventCover"   : "Pre-sale tickets - $18 | $20 | $25 | Doors $30",
+        "eventSocial"  : "https:www.facebook.com/events/238312340199614/",
+        "eventTix"     : "https:wl.seetickets.us/event/Tritonal/371963?afflky=REACTPRESENTS",
+        "eventImgWide" : "img/event-images/tritonal-at-necto-nightclub-ann-arbor-michigan-oct-31-2018.jpg",
+        "eventWklOvrd" : true,
+        "eventDay"     : 0,
+        "pastEvent"    : false
+    },
+    {
+        "eventDate"    : "Oct 29, 2018 21:00:00",
+        "eventName"    : "Defiled Halloween",
+        "eventArtist"  : "Defiled Halloween",
+        "eventDesc"    : "For Halloween this year, Factory at Necto is getting Defiled! Assemble your costumes and come celebrate our dark holiday with us. Along with Factory resident DJ Void6, Defiled residents Dj Graphite and Wraith will unleash the best new industrial, aggrotech, and more. The crew of Defiled has some TrickS up their sleeves. The gears are well in motion and we aim to satisfy your most delicious desires.",  
+        "eventDescLong": "For Halloween this year, Factory at Necto is getting Defiled! Assemble your costumes and come celebrate our dark holiday with us. Along with Factory resident DJ Void6, Defiled residents Dj Graphite and Wraith will unleash the best new industrial, aggrotech, and more. The crew of Defiled has some TrickS up their sleeves. The gears are well in motion and we aim to satisfy your most delicious desires. Remnant shall provide the visual landscape with his most dark and twisted sights. Join us for this special haunting.<br><br>Sub:Merge in the Red Room with DJ KnowLedge & DJ Skoob spinning old school, forgotten classics, remixes, mash-ups and the newest hits<br><br>HOW IT WORKS: Costume contest with cash prizes at midnight - the earlier you sign up, the better. Please note: no metal or hard plastic, toys, or faux weapons are permitted. The costume contest signup will be with Yoda in the red room signup ends at 11<br><br>FREE PICTURES with your friends and of the contest by Misanthropia Narcissus<br><br>DRINK SPECIALS: $3.00 Imports & Craft Beer till 11pm  $2.00 Long Islands until 11pm  3 for 10 Jäger bombs  $2.50 Bud & Bud Lite bottles & $2 Well drinks all night!<br><br>VIP services available. Contact VIP@necto.com, 734-994-5436, or book via necto.com",
+        "eventLink"    : "special-events/defiled-halloween-at-necto-nightclub-ann-arbor-michigan-oct-29-2018.html",
+        "eventCover"   : "$1 before 10pm, $3 after",
+        "eventSocial"  : "https:www.facebook.com/events/336729100229162/",
+        "eventTix"     : "none",
+        "eventImgWide" : "img/event-images/defiled-halloween-at-necto-nightclub-ann-arbor-michigan-oct-29-2018.jpg",
+        "eventWklOvrd" : true,
+        "eventDay"     : 0,
+        "pastEvent"    : false
+    },
+    {
+        "eventDate"    : "Oct 27, 2018 21:00:00",
+        "eventName"    : "Freak-quency Halloween",
+        "eventArtist"  : "Freak-quency Halloween",
+        "eventDesc"    : "The biggest & best Halloween party in Michigan!!<br></br><ul><li>HOW IT WORKS. Costume contest with cash prizes at midnight - the earlier you sign up, the better. ",  
+        "eventDescLong": "The biggest & best Halloween party in Michigan!!<br></br><ul><li>HOW IT WORKS. Costume contest with cash prizes at midnight - the earlier you sign up, the better. Please note: no metal or hard plastic, toys, or faux weapons are permitted.</li><li>MUSIC. DJ Hardy spins the best Top 40, Dance & House with host MC Yoda.</li><li>FREE PICTURES with your friends by a professional photographer.</li><li>DRINK SPECIALS. Happy Hour is from 9pm - 11pm with 50% off all drinks, shots & bottled beers & $2 Long Islands.</li><li>VIP services available. Contact VIP@necto.com, 734-994-5436, or book via necto.com.</li><li>Get here early to avoid the line & for the 50% off drinks happy hour!</li></ul>",
+        "eventLink"    : "special-events/freak-quency-at-necto-nightclub-ann-arbor-michigan-oct-27-2018.html",
+        "eventCover"   : "$5 for 21+ & $10 for 18 to 20 All Night",
+        "eventSocial"  : "https:www.facebook.com/events/306203943511022/",
+        "eventTix"     : "none",
+        "eventImgWide" : "img/event-images/freak-quency-at-necto-nightclub-ann-arbor-michigan-oct-27-2018.jpg",
+        "eventWklOvrd" : true,
+        "eventDay"     : 0,
+        "pastEvent"    : false
+    },
+    {
+        "eventDate"    : "Oct 26, 2018 21:00:00",
+        "eventName"    : "Pride presents... Pride Halloween! ",
+        "eventArtist"  : "Pride Halloween!",
+        "eventDesc"    : "Pride always goes hardddd for Halloween!!! Be sure to get here early to sign up for costume contest.",  
+        "eventDescLong": "Pride always goes hardddd for Halloween!!! Be sure to get here early to sign up for costume contest.</br></br>• HOW IT WORKS. Costume contest with cash prizes at midnight. You'll sign up by talking to our hosts beforehand - the earlier, the better. No metal or hard plastic, toys, or faux weapons are permitted.</br></br>• MUSIC. DJ Jace in the Main Room spinning High Energy Dance. DJ DigiMark in the Red Room playing Retro Pop & Top 40 music videos.</br> • HOSTS. Chanel Hunter & Jadein Black.</br>• FREE PICTURES. with your friends and of the contest by a professional photographer.</br>• VIP services available. Contact VIP@necto.com, 734-994-5436, or book via necto.com.",
+        "eventLink"    : "special-events/pride-halloween-at-necto-nightclub-ann-arbor-michigan-oct-26-2018.html",
+        "eventCover"   : "$5 for 21 + and $10 for 18-20",
+        "eventSocial"  : "https:www.facebook.com/events/715168558820712/",
+        "eventTix"     : "none",
+        "eventImgWide" : "img/event-images/pride-halloween-at-necto-nightclub-ann-arbor-michigan-oct-26-2018.jpg",
+        "eventWklOvrd" : true,
+        "eventDay"     : 0,
+        "pastEvent"    : false
+    },
+    {
         "eventDate"    : "Oct 22, 2018 21:00:00",
         "eventName"    : "Electric Nectarine: House & EDM with DJ DigiMark in the Red Room",
         "eventArtist"  : "Electric Nectarine",
@@ -45,8 +120,23 @@
         "pastEvent"    : false
     },
     {
+        "eventDate"    : "Oct 19, 2018 21:00:00",
+        "eventName"    : "Dragster presents... VANESSA MATEO",
+        "eventArtist"  : "VANESSA MATEO",
+        "eventDesc"    : "Vanessa was named by her Drag Mother, Alexis Mateo. She was called Vanessa because she looks like Ursula's human form (also named Vanessa) from Disney's The Little Mermaid. She received ”Vanjie” because Alexis can't pronounce ”Banjee”. She is a member of the Haus of Mateo, hence her surname.",  
+        "eventDescLong": "Vanessa was named by her Drag Mother, Alexis Mateo. She was called Vanessa because she looks like Ursula's human form (also named Vanessa) from Disney's The Little Mermaid. She received ”Vanjie” because Alexis can't pronounce ”Banjee”. She is a member of the Haus of Mateo, hence her surname.",
+        "eventCover"   : "$5 for 21+ | $10 for 18-20 all night. ",
+        "eventLink"    : "special-events/canessa-mateo-at-necto-nightclub-ann-arbor-michigan-oct-18-2018.html",
+        "eventSocial"  : "https:www.facebook.com/events/1608410749458497/",
+        "eventTix"     : "https:vanjie_necto.eventbrite.com",
+        "eventImgWide" : "img/event-images/canessa-mateo-at-necto-nightclub-ann-arbor-michigan-oct-18-2018.jpg",
+        "eventWklOvrd" : true,
+        "eventDay"     : 0,
+        "pastEvent"    : false
+    },
+    {
         "eventDate"    : "Oct 18, 2018 20:00:00",
-        "eventName"    : "Necto presents... YUNG BAE with openers tba in the Red Room",
+        "eventName"    : "Necto presents... YUNG BAE",
         "eventArtist"  : "YUNG BAE",
         "eventDesc"    : "Like his future funk cohorts, L.A.-based producer Yung Bae taps influences that are as varied as they are danceable: disco, funk, R&B and even Japanese “city pop.” These largely sampled grooves — obscure and otherwise — manifest as undeniably vintage sounds presented in gleaming, modern electronic trappings.",  
         "eventDescLong": "Like his future funk cohorts, L.A.-based producer Yung Bae taps influences that are as varied as they are danceable: disco, funk, R&B and even Japanese “city pop.” These largely sampled grooves — obscure and otherwise — manifest as undeniably vintage sounds presented in gleaming, modern electronic trappings.<br>Doors at 8pm - Show Ends at 12am<br>",
@@ -56,6 +146,21 @@
         "eventTix"     : "https:yungbae_necto.eventbrite.com",
         "eventImgWide" : "img/event-images/yung-bae-at-necto-nightclub-ann-arbor-michigan-oct-18-2018.jpg",
         "eventWklOvrd" : true,
+        "eventDay"     : 0,
+        "pastEvent"    : false
+    },
+    {
+        "eventDate"    : "Oct 13, 2018 20:00:00",
+        "eventName"    : "Defiled presents... Masquerade Ball in the Red Room",
+        "eventArtist"  : "Masquerade Ball",
+        "eventDesc"    : "The month of haunting is upon us! Select your favorite mask. Obscure your preconceived identity and join us for another night of new industrial, aggrotech, and more spun by Dj Graphite and Wraith with the most dark and twisted of Remnant's visuals.",  
+        "eventDescLong": "The month of haunting is upon us! Select your favorite mask. Obscure your preconceived identity and join us for another night of new industrial, aggrotech, and more spun by Dj Graphite and Wraith with the most dark and twisted of Remnant's visuals.<br></br>Tell the door staff you are there for Defiled and head downstairs.<br><br>E̛ņ͘͞d̸͡͡j̵o̷͞y<br><br>DRINK SPECIALS: $3.50 Well drinks, $2.50 Fireball shots, 3 for $10 Jäger Bombs, $2 Miller Lite Bottles",
+        "eventCover"   : "21 + - $5 | 18-20 - $10",
+        "eventLink"    : "special-events/masquerade-ball-at-necto-nightclub-ann-arbor-michigan-oct-13-2018.html",
+        "eventSocial"  : "https:www.facebook.com/events/514970145602894/",
+        "eventTix"     : "https:yungbae_necto.eventbrite.com",
+        "eventImgWide" : "img/event-images/masquerade-ball-at-necto-nightclub-ann-arbor-michigan-oct-13-2018.jpg",
+        "eventWklOvrd" : false,
         "eventDay"     : 0,
         "pastEvent"    : false
     },
@@ -105,21 +210,6 @@
         "pastEvent"    : false
     },
     {
-        "eventDate"    : "Sep 22, 2018 21:00:00",
-        "eventName"    : "Electric Nectarine: House & EDM with DJ DigiMark in the Red Room",
-        "eventArtist"  : "Electric Nectarine",
-        "eventDesc"    : "DJ DigiMark is burning up the dance floor this summer, with high energy EDM & house in the Red Room! Every third Saturday of the month, head down stairs for ElectricNectarine.<br><br>MUSIC. DJ DigiMark spinning EDM & house. Check out mixcloud.com/djdigimark/ for more!",  
-        "eventDescLong": "DJ DigiMark is burning up the dance floor this summer, with high energy EDM & house in the Red Room! Every third Saturday of the month, head down stairs for ElectricNectarine.<br><br>MUSIC. DJ DigiMark spinning EDM & house. Check out <a href='http:www.mixcloud.com/djdigimark/'>mixcloud.com/djdigimark/</a> for more!",
-        "eventLink"    : "special-events/electric-nectarine-at-necto-nightclub-ann-arbor-michigan-sep-22-2018.html",
-        "eventCover"   : "$5 for 21+ | $10 for 18 - 20",
-        "eventSocial"  : "https:www.facebook.com/events/2174555849534616/",
-        "eventTix"     : "none",
-        "eventImgWide" : "img/event-images/electric-nectarine-at-necto-nightclub-ann-arbor-michigan-sep-22-2018.jpg",
-        "eventWklOvrd" : false,
-        "eventDay"     : 0,
-        "pastEvent"    : false
-    },
-    {
         "eventDate"    : "Sep 21, 2018 20:00:00",
         "eventName"    : "Kween: Necto Pride Circuit Party",
         "eventArtist"  : "Kween",
@@ -150,7 +240,7 @@
         "pastEvent"    : false
     },
     {
-        "eventDate"    : "Sep 14, 2018 21:00:00",
+        "eventDate"    : "Sep 14, 2018 20:00:00",
         "eventName"    : "ALASKA THUNDERFUCK 5000",
         "eventArtist"  : "ALASKA THUNDERFUCK 5000",
         "eventDesc"    : "A bizarre cosmic collision propelled Alaska Thunderfuck 5000 to Earth in March 1966… and on to the fifth season of Logo TV’s RuPaul’s Drag Race in January 2013. Still radioactive, no one knows who or what she is yet, but no one cares, as long as she never returns to her native planet. Her age and species remain unknown to the public, but a few of her enemies claim to hold copies of her spawning record and universal passport.",  

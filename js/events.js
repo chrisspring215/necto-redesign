@@ -1,5 +1,185 @@
 var eventsJSON = [
     {
+        "eventDate"    : new Date("Jan 31, 2019 21:00:00"),
+        "eventName"    : "Necto & APG present... LOST KINGS : The So What Tour",
+        "eventArtist"  : "LOST KINGS",
+        "eventDesc"    : "Lost Kings - Melding woozy, party-minded grooves, house influences, and more mainstream electronic styles, EDM duo Lost Kings used a variety of approaches in developing their sound. Los Angeles-based DJs Robert Abisi and Nick Shanholtz bonded over a love of electronic music culture and their shared status as recent transplants to L.A. from the East Coast. In 2014, the two began making tracks together as Lost Kings, focusing prominently on remixes of other artists over original compositions.",  
+        "eventDescLong": "Lost Kings - Melding woozy, party-minded grooves, house influences, and more mainstream electronic styles, EDM duo Lost Kings used a variety of approaches in developing their sound. Los Angeles-based DJs Robert Abisi and Nick Shanholtz bonded over a love of electronic music culture and their shared status as recent transplants to L.A. from the East Coast. In 2014, the two began making tracks together as Lost Kings, focusing prominently on remixes of other artists over original compositions. The act almost immediately drew major attention for unofficial remixes of tracks by artists such as Disclosure, the Killers, and Dirty South, gaining enough momentum to sign a management deal. In 2015 they released The Bad EP, followed the next year by companion piece The Good EP. Amid constant touring and ever-growing popularity, Lost Kings began receiving commissions for official remixes for bigger names. The year 2015 saw them reworking Tori Kelly's hit “Should've Been Us“ and 2016 found them releasing an official remix for Rihanna‘s “Work“ single. In addition to wildly successful remix work, Lost Kings also made it to the charts with their own compositions, including “Phone Down“ featuring Emily Warren and early 2017's “Quit You“ featuring Tinashé. They followed with “Look at Us Now“ featuring Ally Brooke and A$AP Ferg and “First Love“ with Sabrina Carpenter. 2018 saw the releases of the singles “When We Were Young,“ featuring Norma Jean Martine, and “Stuck,“ featuring Tove Styrke. - Fred Thomas (Allmusic.com)",
+        "eventCover"   : "Pre-sale tickets: Early Bird - $15 | General Admission - $20 | DOS - $25",
+        "eventLink"    : "special-events/" + "lost-kings-at-necto-nightclub-ann-arbor-michigan-jan-31-2019.html",
+        "eventSocial"  : "https://www.facebook.com/events/2036127303116297/",
+        "eventTix"     : "https://lostkings_necto.eventbrite.com",
+        "eventImgWide" : "img/event-images/" + "lost-kings-at-necto-nightclub-ann-arbor-michigan-jan-31-2019.jpg",
+        "eventWklOvrd" : true,
+        "eventDay"     : 0, // Do not modify
+        "pastEvent"    : false // Do not modify
+    },
+    {
+        "eventDate"    : new Date("Dec 29, 2018 21:00:00"),
+        "eventName"    : "Electric Nectarine: House & EDM with DJ DigiMark in the Red Room",
+        "eventArtist"  : "Electric Nectarine",
+        "eventDesc"    : "DJ DigiMark is burning up the dance floor with high energy EDM & house in the Red Room! Saturday, December 29th, head downstairs for Electric Nectarine.<br><br>MUSIC. DJ DigiMark spinning EDM & house. Check out mixcloud.com/djdigimark/ for more!",  
+        "eventDescLong": "DJ DigiMark is burning up the dance floor with high energy EDM & house in the Red Room! Saturday, December 29th, head downstairs for Electric Nectarine.<br><br>MUSIC. DJ DigiMark spinning EDM & house. Check out mixcloud.com/djdigimark/ for more!",
+        "eventCover"   : "$5 for 21+ | $10 for 18 - 20",
+        "eventLink"    : "special-events/" + "electric-nectarine-at-necto-nightclub-ann-arbor-michigan-dec-29-2018.html",
+        "eventSocial"  : "https://www.facebook.com/events/192923864976845/",
+        "eventTix"     : "none",
+        "eventImgWide" : "img/event-images/" + "electric-nectarine-at-necto-nightclub-ann-arbor-michigan-dec-29-2018.jpg",
+        "eventWklOvrd" : false,
+        "eventDay"     : 0, // Do not modify
+        "pastEvent"    : false // Do not modify
+    },
+    {
+        "eventDate"    : new Date("Dec 21, 2018 21:00:00"),
+        "eventName"    : "Pride Noel 2018",
+        "eventArtist"  : "Pride Noel 2018",
+        "eventDesc"    : "Get pics with Sandy Klaws & her elves.<br>Hosted by Chanel Hunter & Jadein Black. Music by DJ Jace in the Main Room & DJ DigiMark in the Red Room. Photos by Bruno Postigo<br><br>Drink specials: Happy Hour from 9pm - 11pm<br>1/2 Off All Drinks, Shots and Bottled Beers<br><br>$2 Long Islands until 11pm<br>* Excludes Bottle Service and Specials",  
+        "eventDescLong": "Get pics with Sandy Klaws & her elves.<br>Hosted by Chanel Hunter & Jadein Black. Music by DJ Jace in the Main Room & DJ DigiMark in the Red Room. Photos by Bruno Postigo<br><br>Drink specials: Happy Hour from 9pm - 11pm<br>1/2 Off All Drinks, Shots and Bottled Beers<br><br>$2 Long Islands until 11pm<br>* Excludes Bottle Service and Specials",
+        "eventCover"   : "$5 for 21+ & $10 for 18-20",
+        "eventLink"    : "special-events/" + "pride-noel-at-necto-nightclub-ann-arbor-michigan-dec-21-2018.html",
+        "eventSocial"  : "https://www.facebook.com/events/570302546756183/",
+        "eventTix"     : "none",
+        "eventImgWide" : "img/event-images/" + "pride-noel-at-necto-nightclub-ann-arbor-michigan-dec-21-2018.jpg",
+        "eventWklOvrd" : true,
+        "eventDay"     : 0, // Do not modify
+        "pastEvent"    : false // Do not modify
+    },
+    {
+        "eventDate"    : new Date("Dec 20, 2018 21:00:00"),
+        "eventName"    : "Unholy Night with DJ Skoobe",
+        "eventArtist"  : "Unholy Night with DJ Skoobe",
+        "eventDesc"    : "Naughty elves, dirty Santas, randy reindeer let's get ready to party! This holiday come jam with DJ Skoobe to the latest hip-hop and dance. We're even getting spiritual, with holiday drink specials all night for 21 and up. Dress to sleigh ; )<br><br>Holiday Drink Specials all night",  
+        "eventDescLong": "Naughty elves, dirty Santas, randy reindeer let's get ready to party! This holiday come jam with DJ Skoobe to the latest hip-hop and dance. We're even getting spiritual, with holiday drink specials all night for 21 and up. Dress to sleigh ; )<br><br>Holiday Drink Specials all night",
+        "eventCover"   : "Free cover for 21+ | $10 for 18-20",
+        "eventLink"    : "special-events/" + "unholy-night-at-necto-nightclub-ann-arbor-michigan-dec-20-2018.html",
+        "eventSocial"  : "https://www.facebook.com/events/909219826132846/",
+        "eventTix"     : "none",
+        "eventImgWide" : "img/event-images/" + "unholy-night-at-necto-nightclub-ann-arbor-michigan-dec-20-2018.jpg",
+        "eventWklOvrd" : false,
+        "eventDay"     : 0, // Do not modify
+        "pastEvent"    : false // Do not modify
+    },
+    {
+        "eventDate"    : new Date("Dec 28, 2018 21:00:00"),
+        "eventName"    : "KWEEN with DJ Tracy Young | Circuit Party",
+        "eventArtist"  : "KWEEN w.Tracy Young",
+        "eventDesc"    : "DJ Tracy Young<br>Over the last two decades, the electronic music dynamo has taken her irresistible passion for dance music from the underground to the mainstream. Always finding comfort in music, the Washington DC native began cultivating her eclectic taste music from an early age. It’s been a long, winding road to the top for the spunky Young, who launched her career in 1991 as a hip-hop radio DJ. “I love all kinds of music” the Washington, D.C. born spinstress states.",  
+        "eventDescLong": "DJ Tracy Young<br>Over the last two decades, the electronic music dynamo has taken her irresistible passion for dance music from the underground to the mainstream. Always finding comfort in music, the Washington DC native began cultivating her eclectic taste music from an early age. It’s been a long, winding road to the top for the spunky Young, who launched her career in 1991 as a hip-hop radio DJ. “I love all kinds of music” the Washington, D.C. born spinstress states.<br><br>At the time, Young had no idea of the heights to which she would rise. “If you told me 10 years later I’d be DJ’ing Madonna’s wedding, I’d say you were crazy!” she laughs. Even from its earliest stages, Young’s musical prowess made people take notice, and it wasn’t long before she translated her work at Interscope Records to a thriving career in the DJ booth that allowed her to bring her one-of-a-kind funk, hip-hop and old-school blend of beats to the masses on eastern corridor airwaves and cable television.<br><br>With a move to Miami came a shift in sound that saw Young injecting her hip-hop roots with the house music thump, that emanated from the South Beach nightclub scene. Under the guise of Miami luminary Ingrid Casares, Young carved a niche for herself, bringing a female presence mainstream to the male-dominated DJ and Production industry.<br><br>Bursting on the gay dance scene, Young’s celebrity and popularity skyrocketed putting her live presence and dance compilation cd’s in great demand.<br><br>It wasn’t only the gay community that was drawn to Young’s magnetic musical pull.Musical legends from Cher to Sean Combs and from Shakira to The Smashing Pumpkins, fell under her spell, booking the disc jockey to spin their exclusive parties. During the historical presidential race, Young was handpicked by Hillary Clinton to DJ a rally in Fort Lauderdale, Florida.<br><br>Through Madonna’s personal endorsement as her “go-to” DJ, Young became a global electronic music celebrity. Her demand grew to an international level as both DJ and Producer. Tracy has released over 7 musical compilations on her own record label FEROSH. She has remixed for over 100 musical artists and has racked up 48 #1 Billboard Club hits including 13 Madonna remixes as well as imaginative electronic reinventions of songs by Lady Gaga, Demi Lovato, Beyonce, Katy Perry, Christina Aguilera, Shakira, Pet Shop Boys and Enrique Iglesias.<br><br>• MUSIC. Our very own DJ Jace and special guest DJ Joe Gauthreaux spinning high energy dance music for you on the main floor.<br>• COVER. $5 for 21+ & $10 for 18 to 20.<br>• FEATURING. DJ Jace, Chanel Hunter, Jadein Black & Asio Aviance.<br>• VIP services available. Contact VIP@necto.com, 734-994-5835 or book via necto.com<br>",
+        "eventCover"   : "$5 for 21+ & $10 for 18 to 20",
+        "eventLink"    : "special-events/" + "kween-at-necto-nightclub-ann-arbor-michigan-dec-28-2018.html",
+        "eventSocial"  : "https://www.facebook.com/events/193416534917472/ ",
+        "eventTix"     : "none",
+        "eventImgWide" : "img/event-images/" + "kween-at-necto-nightclub-ann-arbor-michigan-dec-28-2018.jpg",
+        "eventWklOvrd" : true,
+        "eventDay"     : 0, // Do not modify
+        "pastEvent"    : false // Do not modify
+    },
+    {
+        "eventDate"    : new Date("Dec 17, 2018 21:00:00"),
+        "eventName"    : "Dark Noel featuring Sinnamon and Lotus",
+        "eventArtist"  : "Dark Noel",
+        "eventDesc"    : "Hosted by: Sinnamon the sassy naughty Santas helper that was kicked out of the north pole for tying up and spanking  Santa for eating too many cookies.<br><br>Lotus, Santas favorite elf because she is known for Spiking Santas eggnog. Lotus and Sinnamon cant wait to spread Christmas fear.... I mean cheer.<br><br>Presented to you by Blue Crow Talent, the worlds most beautiful but deadly butterfly.",  
+        "eventDescLong": "Hosted by: Sinnamon the sassy naughty Santas helper that was kicked out of the north pole for tying up and spanking  Santa for eating too many cookies.<br><br>Lotus, Santas favorite elf because she is known for Spiking Santas eggnog. Lotus and Sinnamon cant wait to spread Christmas fear.... I mean cheer.<br><br>Presented to you by Blue Crow Talent, the worlds most beautiful but deadly butterfly.<br><br>FREE PICTURES. Get yours with Santa & his helpers all night - by Winchester Media Photography.<br><br>DJ Misanthropia Narcissus & DJ Graphite spinning Goth Industrial, SynthPop, EBM, & more on main floor. DJ KnowLedge spinning a dance music in the Red Room. Visuals by Remnant.<br><br>DRINK SPECIALS. $2 well drinks and $2.50 domestic beers all night. $3 import & craft beers and $2 Long Islands until 11PM.<br><br>COVER. $1 cover before 10PM, $3 after..  (special event no free passes)<br><br>VIP services available. Contact VIP@necto.com<br><br>Come hang out with the Necto Factory crew & let's Drink / Dance / F@#! / Repeat until this holiday is over. ",
+        "eventCover"   : "$1 cover before 10PM, $3 after..  (special event no free passes)",
+        "eventLink"    : "special-events/" + "dark-noel-at-necto-nightclub-ann-arbor-michigan-dec-17-2018.html",
+        "eventSocial"  : "https://www.facebook.com/events/564886300599811/",
+        "eventTix"     : "none",
+        "eventImgWide" : "img/event-images/" + "dark-noel-at-necto-nightclub-ann-arbor-michigan-dec-17-2018.jpg",
+        "eventWklOvrd" : true,
+        "eventDay"     : 0, // Do not modify
+        "pastEvent"    : false // Do not modify
+    },
+    {
+        "eventDate"    : new Date("Dec 13, 2018 20:00:00"),
+        "eventName"    : "Ying Yang Twins: Holidaze Get Down",
+        "eventArtist"  : "Ying Yang Twins",
+        "eventDesc"    : "The Ying Yang Twins are an American hip hop duo consisting of Kaine (born Eric Jackson on December 16, 1978) and D-Roc (born Deongelo Holmes on February 23, 1979). The group debuted in 2000 and rose to mainstream popularity in 2003 collaborating with Britney Spears on her album In the Zone and with Lil Jon on “Get Low“. In 2004 and 2005, Ying Yang Twins became more popular with party singles “Salt Shaker“, “What's Happnin“, “Shake“ and “Badd“. They have received notoriety for their song “Halftime (featuring Homebwoi)“ which is played at New Orleans Saints homegames after most touchdowns. In 2008, the hip hop duo released The Official Work mixtape. In 2009, they followed with their Ying Yang Forever mixtape. Just three months later, the duo released Legendary Status: Ying Yang Twins Greatest Hits. As recently as 2013, the Ying Ying Twins released Ass in session and Twurk or Die mixtape.",  
+        "eventDescLong": "The Ying Yang Twins are an American hip hop duo consisting of Kaine (born Eric Jackson on December 16, 1978) and D-Roc (born Deongelo Holmes on February 23, 1979). The group debuted in 2000 and rose to mainstream popularity in 2003 collaborating with Britney Spears on her album In the Zone and with Lil Jon on “Get Low“. In 2004 and 2005, Ying Yang Twins became more popular with party singles “Salt Shaker“, “What's Happnin“, “Shake“ and “Badd“. They have received notoriety for their song “Halftime (featuring Homebwoi)“ which is played at New Orleans Saints homegames after most touchdowns. In 2008, the hip hop duo released The Official Work mixtape. In 2009, they followed with their Ying Yang Forever mixtape. Just three months later, the duo released Legendary Status: Ying Yang Twins Greatest Hits. As recently as 2013, the Ying Ying Twins released Ass in session and Twurk or Die mixtape.",
+        "eventCover"   : "Pre-sale tickets: General Admission - $10 | 4 Pack General Admission $20. Tickets at doors $10 for 21+ | $20 for 18-20 all night",
+        "eventLink"    : "special-events/" + "ying-yang-twins-at-necto-nightclub-ann-arbor-michigan-dec-13-2018.html",
+        "eventSocial"  : "https://www.facebook.com/events/576820902775256/",
+        "eventTix"     : "https://necto_holidaze.eventbrite.com",
+        "eventImgWide" : "img/event-images/" + "ying-yang-twins-at-necto-nightclub-ann-arbor-michigan-dec-13-2018.jpg",
+        "eventWklOvrd" : true,
+        "eventDay"     : 0, // Do not modify
+        "pastEvent"    : false // Do not modify
+    },
+    {
+        "eventDate"    : new Date("Dec 8, 2018 21:00:00"),
+        "eventName"    : "PLASTIC PASSION - RETURNS for a RARE REUNION dance party in the Red Room!",
+        "eventArtist"  : "PLASTIC PASSION",
+        "eventDesc"    : "LET THE COLD OUTSIDE BRING US TOGETHER ONCE AGAIN TO STEAM UP THE DANCEFLOOR!<br><br>Resident DJ JOSH BURGE brings the passion back to the RED ROOM: 80s/90s alternative dance, new wave, post-punk, electro-funk, industrial, EBM, indie, and modern synthicide! DOC COLONY also returns to splash hot colors on the telescreens. HALF-OFF ALL DRINKS before 11pm! ",  
+        "eventDescLong": "LET THE COLD OUTSIDE BRING US TOGETHER ONCE AGAIN TO STEAM UP THE DANCEFLOOR!<br><br>Resident DJ JOSH BURGE brings the passion back to the RED ROOM: 80s/90s alternative dance, new wave, post-punk, electro-funk, industrial, EBM, indie, and modern synthicide! DOC COLONY also returns to splash hot colors on the telescreens. HALF-OFF ALL DRINKS before 11pm! ",
+        "eventCover"   : "Cover at the door is $5 for 21+ // $10 for 18-20 all night",
+        "eventLink"    : "special-events/" + "plastic-passion-at-necto-nightclub-ann-arbor-michigan-dec-8-2018.html",
+        "eventSocial"  : "https://www.facebook.com/events/511566949311866/",
+        "eventTix"     : "none",
+        "eventImgWide" : "img/event-images/" + "plastic-passion-at-necto-nightclub-ann-arbor-michigan-dec-8-2018.jpg",
+        "eventWklOvrd" : false,
+        "eventDay"     : 0, // Do not modify
+        "pastEvent"    : false // Do not modify
+    },
+    {
+        "eventDate"    : new Date("Dec 7, 2018 21:00:00"),
+        "eventName"    : "Dragster presents... RuPaul's Drag Race Holi-Slay Spectacular Afterparty with KIM CHI (RuPaul's Drag Race S8 Finalist)",
+        "eventArtist"  : "KIM CHI",
+        "eventDesc"    : "Kim Chi is a 7' tall, live-action anime character and high-fashion model. Born in the U.S., raised in South Korea, and currently based in Chicago, Kim is a cultural hybrid with a preternatural understanding of style and conceptual fashion. One cannot bound Kim Chi with any stylistic stereotypes. She deftly absorbs and interprets our contemporary cultural milieu with unflinching focus. An ever-evolving chameleon, Kim never fails to surprise and delight with her larger than life looks and her high standard of work.",  
+        "eventDescLong": "Kim Chi is a 7' tall, live-action anime character and high-fashion model. Born in the U.S., raised in South Korea, and currently based in Chicago, Kim is a cultural hybrid with a preternatural understanding of style and conceptual fashion. One cannot bound Kim Chi with any stylistic stereotypes. She deftly absorbs and interprets our contemporary cultural milieu with unflinching focus. An ever-evolving chameleon, Kim never fails to surprise and delight with her larger than life looks and her high standard of work.",
+        "eventCover"   : "$5 for 21+ | $10 for 18-20 all night. Meet & greet tix $25",
+        "eventLink"    : "special-events/" + "kim-chi-at-necto-nightclub-ann-arbor-michigan-dec-7-2018.html",
+        "eventSocial"  : "https://www.facebook.com/events/352372695335221/",
+        "eventTix"     : "https://kimchi_necto.eventbrite.com",
+        "eventImgWide" : "img/event-images/" + "kim-chi-at-necto-nightclub-ann-arbor-michigan-dec-7-2018.jpg",
+        "eventWklOvrd" : true,
+        "eventDay"     : 0, // Do not modify
+        "pastEvent"    : false // Do not modify
+    },
+    {
+        "eventDate"    : new Date("Dec 3, 2018 21:00:00"),
+        "eventName"    : "Void 6 Retirement Party ",
+        "eventArtist"  : "Void 6 Retirement Party ",
+        "eventDesc"    : "Kim Chi is a 7' tall, live-action anime character and high-fashion model. Born in the U.S., raised in South Korea, and currently based in Chicago, Kim is a cultural hybrid with a preternatural understanding of style and conceptual fashion. One cannot bound Kim Chi with any stylistic stereotypes. She deftly absorbs and interprets our contemporary cultural milieu with unflinching focus. An ever-evolving chameleon, Kim never fails to surprise and delight with her larger than life looks and her high standard of work.",  
+        "eventDescLong": "After 18 years of DJ'ing, Void6 has decided to hang up his headphones and play his final sets!    Void6 began his DJ career in 2000 in Kansas City, Missouri (Misery). It wasn't long after he moved to Detroit that he discovered the electronic side of Industrial and got a residency along side DJ Pleasure Kitten at Luna, in Royal Oak. Soon he was opening up for such acts as Combichrist, Modulate, Ayria, Seabound, VNV Nation, God Module, and Assemblage 23 to name a few.   He's been both a bi-monthy resident and resident DJ for Factory at Necto for over 10years. As well as a former resident for Industrial Is Not Dead at Smalls, in Hamtramck and former resident DJ at Leland City Club in Downtown Detroit. He has spun guest sets at numerous places around the Motor CIty. (Black Sky, Northern Lights, The Works for (DJ Swamp), Vain, Paychecks, Smalls, Fat Katz). As well as guest sets out at the legendary Neo, in Chicago, Illinois.  For a final night, Void6 will be joined by guests DJ Iconian and DJ Biohazard40.  There will be a confetti cannon and cryo jets!! Check out all the sights on the screens with videos provided by Remnant.   Join us as we not only say farewell to Void6, but also welcome our new Resident DJ'S Jay Misanthropia & Graphite!!   Down in the Red Room, Sub:Merge with DJ KnowLedge playing old school, forgotten classics, remixes, mash-ups and newest hits. He may even hit you with some heavy metal  • COVER. $1 before 10 p.m. and $3 after 10 p.m. [Special event no free passes]",
+        "eventCover"   : "$1 before 10 p.m. and $3 after 10 p.m.",
+        "eventLink"    : "special-events/" + "void-6-at-necto-nightclub-ann-arbor-michigan-dec-3-2018.html",
+        "eventSocial"  : "https://www.facebook.com/events/352372695335221/",
+        "eventTix"     : "none",
+        "eventImgWide" : "img/event-images/" + "void-6-at-necto-nightclub-ann-arbor-michigan-dec-3-2018.jpg",
+        "eventWklOvrd" : true,
+        "eventDay"     : 0, // Do not modify
+        "pastEvent"    : false // Do not modify
+    },
+    {
+        "eventDate"    : new Date("Nov 30, 2018 21:00:00"),
+        "eventName"    : "Dragster presents... AQUARIA",
+        "eventArtist"  : "AQUARIA",
+        "eventDesc"    : "Aquaria is the high fashion and high energy drag performer. With trend setting looks and show stopping numbers, Aquaria will always leave you gagging. Her mix of pop culture, unique sense of style and glamour create her complete Aquarian take on drag.",  
+        "eventDescLong": "Aquaria is the high fashion and high energy drag performer. With trend setting looks and show stopping numbers, Aquaria will always leave you gagging. Her mix of pop culture, unique sense of style and glamour create her complete Aquarian take on drag.",
+        "eventCover"   : "$5 for 21+ | $10 for 18-20 all night. Meet & greet tix $25",
+        "eventLink"    : "special-events/" + "aquaria-at-necto-nightclub-ann-arbor-michigan-nov-30-2018.html",
+        "eventSocial"  : "https://www.facebook.com/events/2139043049476448/",
+        "eventTix"     : "https://aquaria_necto.eventbrite.com",
+        "eventImgWide" : "img/event-images/" + "aquaria-at-necto-nightclub-ann-arbor-michigan-nov-30-2018.jpg",
+        "eventWklOvrd" : true,
+        "eventDay"     : 0, // Do not modify
+        "pastEvent"    : false // Do not modify
+    },
+    {
+        "eventDate"    : new Date("Nov 29, 2018 21:00:00"),
+        "eventName"    : "Afrobeats Party",
+        "eventArtist"  : "Afrobeats Party",
+        "eventDesc"    : "The African Business Club @ The Ross Business School presents the biggest Afrobeats Party in Ann Arbor. Put on your dancing shoes and groove the night away!<br>Featuring DJ Mazi (Your Favourite Business School DJ)..........Playing the hottest Afrobeats, Pop, Hip-Hop, Dancehall, and more good vibes! Featuring amazing MBA dance teams.<br>This is a 21+ Event. Must have valid proper ID to enter.",
+        "eventDescLong": "The African Business Club @ The Ross Business School presents the biggest Afrobeats Party in Ann Arbor. Put on your dancing shoes and groove the night away!<br>Featuring DJ Mazi (Your Favourite Business School DJ)..........Playing the hottest Afrobeats, Pop, Hip-Hop, Dancehall, and more good vibes! Featuring amazing MBA dance teams.<br>This is a 21+ Event. Must have valid proper ID to enter.",
+        "eventCover"   : "$5 for 21+ | $10 for 18-20 all night. Meet & greet tix $25",
+        "eventLink"    : "special-events/" + "afrobeats-at--necto-nightclub-ann-arbor-michigan-nov-30-2018.html",
+        "eventSocial"  : "https://www.facebook.com/events/497453547443223/",
+        "eventTix"     : "https://www.eventbrite.com/e/ross-african-mbas-present-the-afrobeats-party-tickets-52284401051",
+        "eventImgWide" : "img/event-images/" + "afrobeats-at--necto-nightclub-ann-arbor-michigan-nov-30-2018.jpg",
+        "eventWklOvrd" : true,
+        "eventDay"     : 0, // Do not modify
+        "pastEvent"    : false // Do not modify
+    },
+    {
         "eventDate"    : new Date("Nov 27, 2018 21:00:00"),
         "eventName"    : "F - Cancer featuring Matoma with opening sets by Miller Guth & Jordan Stone",
         "eventArtist"  : "F-Cancer w/ Matoma",
@@ -13,12 +193,72 @@ var eventsJSON = [
         "eventWklOvrd" : true,
         "eventDay"     : 0, // Do not modify
         "pastEvent"    : false // Do not modify
+    },
+    {
+        "eventDate"    : new Date("Nov 24, 2018 21:00:00"),
+        "eventName"    : "Defiled Red Room | D́͟e͠͠͠c̴͢i̷̛m̨͘a̛t̴̛i̷ǫ̛ǹ̡ ",
+        "eventArtist"  : "Defiled Red Room",
+        "eventDesc"    : "Join us for a night of new industrial, aggrotech, and more spun by Dj Graphite and Wraith with the most dark and twisted of Remnant's visuals. Dance into the abyss with us in Necto Nightclub's Red Room.",  
+        "eventDescLong": "Join us for a night of new industrial, aggrotech, and more spun by Dj Graphite and Wraith with the most dark and twisted of Remnant's visuals. Dance into the abyss with us in Necto Nightclub's Red Room.<br>Tell the door staff you're there for Defiled and head downstairs.<br>E̛ņ͘͞d̸͡͡j̵o̷͞y<br>DRINK SPECIALS: $3.50 Well drinks, $2.50 Fireball shots, 3 for $10 Jäger Bombs, $2 Miller Lite Bottles",
+        "eventCover"   : "$21 + - $5 | 18-20 - $10",
+        "eventLink"    : "special-events/" + "defiled-at-necto-nightclub-ann-arbor-michigan-nov-24-2018.html",
+        "eventSocial"  : "https://www.facebook.com/events/2142402499345507",
+        "eventTix"     : "none",
+        "eventImgWide" : "img/event-images/" + "defiled-at-necto-nightclub-ann-arbor-michigan-nov-24-2018.jpg",
+        "eventWklOvrd" : false,
+        "eventDay"     : 0, // Do not modify
+        "pastEvent"    : false // Do not modify
     },  
+    {
+        "eventDate"    : new Date("Nov 23, 2018 21:00:00"),
+        "eventName"    : "Kween: With DJ Joe Gauthreaux | Circuit Party",
+        "eventArtist"  : "Kween",
+        "eventDesc"    : "We're keeping the hot, sweaty mess going with our THIRD Kween.<br><br>As one of the most sought after DJs in the industry, DJ/Producer Joe Gauthreaux (pronounced “GO TROW”) has a resume full of club appearances and main events that span the last 14 years - with the list growing each passing year.",  
+        "eventDescLong": "We're keeping the hot, sweaty mess going with our THIRD Kween.<br><br>As one of the most sought after DJs in the industry, DJ/Producer Joe Gauthreaux (pronounced “GO TROW”) has a resume full of club appearances and main events that span the last 14 years - with the list growing each passing year. For more information, visit his website at www.DJJoeG.com<br><br>• List our typical drink specials.<br>• SPECIAL APPEARANCE. by the Perry Wayne GoGo Boys<br>• MUSIC. Hosted by our very own DJ Jace, special guest DJ Joe Gauthreaux spinning high energy dance music for you on the main floor.<br>• COVER. $5 for 21+ & $10 for 18 to 20.<br>• FEATURING. DJ Jace, Chanel Hunter, Jadein Black & Asio Aviance.<br>• VIP services available. Contact VIP@necto.com, 734-994-5835 or book via necto.com.<br>• MUSIC. DJ Jace and DJ Joe Gauthreaux<br>• HOSTS. Chanel Hunter, Jadein Black, Maxi Chanel, Asio Aviance<br>",
+        "eventCover"   : "$5 for 21 + and $10 for 18-20",
+        "eventLink"    : "special-events/" + "kween-at-necto-nightclub-ann-arbor-michigan-nov-23-2018.html",
+        "eventSocial"  : "https://www.facebook.com/events/736600326694700/",
+        "eventTix"     : "none",
+        "eventImgWide" : "img/event-images/" + "kween-at-necto-nightclub-ann-arbor-michigan-nov-23-2018.jpg",
+        "eventWklOvrd" : true,
+        "eventDay"     : 0, // Do not modify
+        "pastEvent"    : false // Do not modify
+    },
+    {
+        "eventDate"    : new Date("Nov 22, 2018 21:00:00"),
+        "eventName"    : "Thanksgiving - Closed",
+        "eventArtist"  : "Thanksgiving - Closed",
+        "eventDesc"    : "Necto is closed for Thanksgiving. We hope you have a safe and happy Turkeyday.",  
+        "eventDescLong": "Necto is closed for Thanksgiving. We hope you have a safe and happy Turkeyday.",
+        "eventCover"   : "N/A",
+        "eventLink"    : "special-events/" + "thanksgiving-at-necto-nightclub-ann-arbor-michigan-nov-22-2018.html",
+        "eventSocial"  : "https://www.facebook.com/events/736600326694700/",
+        "eventTix"     : "none",
+        "eventImgWide" : "img/event-images/" + "thanksgiving-at-necto-nightclub-ann-arbor-michigan-nov-22-2018.jpg",
+        "eventWklOvrd" : true,
+        "eventDay"     : 0, // Do not modify
+        "pastEvent"    : false // Do not modify
+    },  
+    {
+        "eventDate" : new Date("Nov 19, 2018 21:00:00"),
+        "eventName" : "Factory Fall Formal",
+        "eventArtist" : "Factory Fall Formal",
+        "eventDesc" : "Factory Fall Formal 2018 - Get fancy and your picture taken with your Factory family.• FREE COVER. All night with formal attire. Otherwise, $1 before 10PM, $3 after.<br>• FREE PICTURES. Get yours with your friends by Misanthropia Narcissus.<br> • MUSIC. DJ Void6 with guest Dj Darks Choir spinning Goth Industrial, SynthPop, EBM, & more on main floor. Visuals by Remnant. DJ KnowLedge with Sub:Merge in the Red Room.<br>• DRINK SPECIALS. $2 well drinks and $2.50 domestic beers all night, with $3 craft beers and $2 Long Islands til 11PM", 
+        "eventDescLong": "Factory Fall Formal 2018 - Get fancy and your picture taken with your Factory family.• FREE COVER. All night with formal attire. Otherwise, $1 before 10PM, $3 after.<br>• FREE PICTURES. Get yours with your friends by Misanthropia Narcissus.<br> • MUSIC. DJ Void6 with guest Dj Darks Choir spinning Goth Industrial, SynthPop, EBM, & more on main floor. Visuals by Remnant. DJ KnowLedge with Sub:Merge in the Red Room.<br>• DRINK SPECIALS. $2 well drinks and $2.50 domestic beers all night, with $3 craft beers and $2 Long Islands til 11PM",
+        "eventCover" : "$FREE all night with formal attire. Otherwise, $1 before 10PM, $3 after",
+        "eventLink" : "special-events/" + "factory-formal-at--necto-nightclub-ann-arbor-michigan-nov-16-2018.html",
+        "eventSocial" : "https://www.facebook.com/events/351783838980354/",
+        "eventTix" : "none",
+        "eventImgWide" : "img/event-images/" + "factory-formal-at--necto-nightclub-ann-arbor-michigan-nov-16-2018.jpg",
+        "eventWklOvrd" : true,
+        "eventDay" : 0,
+        "pastEvent" : false // Do not modify
+    },
     {
         "eventDate"    : new Date("Nov 16, 2018 21:00:00"),
         "eventName"    : "Necto Pride presents...  ADA VOX",
         "eventArtist"  : "Ada Vox",
-        "eventDesc"    : "Elephante is the recording and performing moniker of Tim Wu, a Los Angeles-based EDM DJ/producer known for his big-room progressive house anthems and remixes of artists ranging from Clean Bandit to Lorde. He generally tends to produce pop-leaning vocal dance tracks, but he dips into slower, trap-inspired numbers as well. Born in Ann Arbor, Michigan in 1989, Wu began playing music at an early age, receiving classical piano training before teaching himself to play guitar. He graduated from Harvard University in 2011 and initially tried to break into the music business as an acoustic singer/songwriter before switching to electronic dance music. He started out creating remixes before producing original tracks, and his first EP was released in 2013. Since then, he's released dozens of tracks and remixes, with songs like “I Want You” and “Age of Innocence” receiving millions of online streams. His debut full-length, I Am the Elephante, appeared in 2016. “Troubled,” a collaborative single with singer Deb's Daughter, appeared in early 2017.",  
+        "eventDesc"    : "Ada Vox had her time to shine on season 16 of American Idol, making it all the way to the top 10 before being eliminated on Sunday. The alter ego of 24-year-old Adam Sanders also made Idol history as the first drag queen to become a top 10 finalist with her rousing performance of Jennifer Holliday’s ”And I Am Telling You I’m Not Going.”<br></br>While her run on Idol may be over, Vox’s stage presence and overall fierceness are indicative of someone poised for greatness.",  
         "eventDescLong": "American Idol 2018 - Top 8<br><br>Ada Vox had her time to shine on season 16 of American Idol, making it all the way to the top 10 before being eliminated on Sunday. The alter ego of 24-year-old Adam Sanders also made Idol history as the first drag queen to become a top 10 finalist with her rousing performance of Jennifer Holliday’s “And I Am Telling You I’m Not Going”.<br><br>While her run on Idol may be over, Vox’s stage presence and overall fierceness are indicative of someone poised for greatness.",
         "eventCover"   : "$5 for 21+ | $10 for 18-20 all night. ",
         "eventLink"    : "special-events/" + "ada-vox-at-necto-nightclub-ann-arbor-michigan-nov-16-2018.html",
@@ -26,6 +266,21 @@ var eventsJSON = [
         "eventTix"     : "https://ada_vox_necto.eventbrite.com",
         "eventImgWide" : "img/event-images/" + "ada-vox-at-necto-nightclub-ann-arbor-michigan-nov-16-2018.jpg",
         "eventWklOvrd" : true,
+        "eventDay"     : 0, // Do not modify
+        "pastEvent"    : false // Do not modify
+    },
+    {
+        "eventDate"    : new Date("Nov 10, 2018 21:00:00"),
+        "eventName"    : "House Music for the World ",
+        "eventArtist"  : "House Music",
+        "eventDesc"    : "Do you like to Dance?<br><br>Do love House Music and Techno Like I do?<br><br>Then Join us Saturday, November 10, 2018 at from 9:00pm – 2:00 a.m. In The Red Room at NECTO in Ann Arbor.<br><br>Come Dance the night away and join us for some Deep and Funky House Music. Have fun as we spread love and peace through Art, Music and Dance. ",  
+        "eventDescLong": "Do you like to Dance?<br><br>Do love House Music and Techno Like I do?<br><br>Then Join us Saturday, November 10, 2018 at from 9:00pm – 2:00 a.m. In The Red Room at NECTO in Ann Arbor.<br><br>Come Dance the night away and join us for some Deep and Funky House Music. Have fun as we spread love and peace through Art, Music and Dance. <br><br>A night you don’t want to miss in Ann Arbor. Get down with the sounds of:<br><br>House Music | Minimal | Tech – House | Disco | Funk | Latin <br><br>Music by:<br>Cat – MEMCO<br>Bpasta – MEMCO<br>Tony Nova – DanceDance.com<br>Jeffry Nothing ",
+        "eventCover"   : "$5 for 21+ | $10 for 18-20",
+        "eventLink"    : "special-events/" + "house-music-at-necto-nightclub-ann-arbor-michigan-nov-10-2018.html",
+        "eventSocial"  : "https://www.facebook.com/events/2171050676446209/",
+        "eventTix"     : "none",
+        "eventImgWide" : "img/event-images/" + "house-music-at-necto-nightclub-ann-arbor-michigan-nov-10-2018.jpg",
+        "eventWklOvrd" : false,
         "eventDay"     : 0, // Do not modify
         "pastEvent"    : false // Do not modify
     },    
@@ -44,6 +299,21 @@ var eventsJSON = [
         "eventDay"     : 0, // Do not modify
         "pastEvent"    : false // Do not modify
     },
+    {
+        "eventDate"    : new Date("Nov 3, 2018 22:00:00"),
+        "eventName"    : "Mask Off (UM vs Penn State Afterparty)",
+        "eventArtist"  : "Mask Off (UM vs Penn State Afterparty)",
+        "eventDesc"    : "Mask Off (/Mahsk awf/) – When you just don’t care anymore. To do what you want regardless of what others will think of you. Oftentimes going “Mask Off” can be aligned to wild and sometimes destructive behavior.<br><br>Saturday, November 3rd, there is only one place to be. Rocking with your favorite Ann Arbor deejay, Mazi The DJ, in Necto’s Red Room. Dropping the hottest throwbacks, reggae / afrobeats, hip-hop, top 40’s and more. After what will be a crazy game and weekend, don't miss out on the night everyone goes Mask Off.",
+        "eventDescLong": "<strong>THIS EVENT IS 21+ ONLY WITH PROPER ID & ATTIRE.</strong><br><br>Mask Off (/Mahsk awf/) – When you just don’t care anymore. To do what you want regardless of what others will think of you. Oftentimes going “Mask Off” can be aligned to wild and sometimes destructive behavior.<br><br>Saturday, November 3rd, there is only one place to be. Rocking with your favorite Ann Arbor deejay, Mazi The DJ, in Necto’s Red Room. Dropping the hottest throwbacks, reggae / afrobeats, hip-hop, top 40’s and more. After what will be a crazy game and weekend, don't miss out on the night everyone goes Mask Off.<br><br>A limited amount of pre-sale tickets are available. Prices at the door are subject to inflation.<br><br><strong>THIS EVENT IS 21+ ONLY WITH PROPER ID & ATTIRE.</strong>",
+        "eventCover"   : "Early bird - $5 | General Admission - $10 | At Doors - $10 - $20",
+        "eventLink"    : "special-events/" + "mask-off-at-necto-nightclub-ann-arbor-michigan-nov-3-2018.html",
+        "eventSocial"  : "",
+        "eventTix"     : "https://maskoff_rr_necto.eventbrite.com",
+        "eventImgWide" : "img/event-images/" + "mask-off-at-necto-nightclub-ann-arbor-michigan-nov-3-2018.jpg",
+        "eventWklOvrd" : true,
+        "eventDay"     : 0, // Do not modify
+        "pastEvent"    : false // Do not modify
+    },    
     {
         "eventDate"    : new Date("Oct 31, 2018 21:00:00"),
         "eventName"    : "React presents... Halloween w/ Tritonal",
@@ -105,6 +375,21 @@ var eventsJSON = [
         "pastEvent"    : false // Do not modify
     },
     {
+        "eventDate"    : new Date("Oct 25, 2018 21:00:00"),
+        "eventName"    : "Magical Mitten presents... Night of the Living Dubz ft Purge",
+        "eventArtist"  : "Night of the Living Dubz",
+        "eventDesc"    : "Magical Mitten Productions has come again to resurrect the NIGHT OF THE LIVING DUBZ Halloween Party with a killer line up that is not to miss! This will be Ann Arbor's premier HALLOWEEN PARTY featuring the best in experimental bass, house, trap and dubstep all night! Be sure to bring your costumes and show 'em off!",  
+        "eventDescLong": "Magical Mitten Productions has come again to resurrect the NIGHT OF THE LIVING DUBZ Halloween Party with a killer line up that is not to miss! This will be Ann Arbor's premier HALLOWEEN PARTY featuring the best in experimental bass, house, trap and dubstep all night! Be sure to bring your costumes and show 'em off!<br><br>LINE UP:<br>---------<br>9pm-10pm: D E R K<br>10pm-11pm: Sektor Z<br>11pm-12am: Bowler Bear<br>12am-1am: Tek - Mazter<br>1am-2am: PURGE<br>---------<br>Visuals by Mad Mike's Visuals<br><br>VIP services available. Contact VIP@necto.com, 734-994-5436, or book via necto.com.",
+        "eventLink"    : "special-events/" + "night-of-the-living-dubz-at-necto-nightclub-ann-arbor-michigan-oct-25-2018.html",
+        "eventCover"   : "Presale - $7 | GA before 11PM - $10 | GA after 11PM - $15",
+        "eventSocial"  : "https://www.facebook.com/events/236237977046659/",
+        "eventTix"     : "https://www.eventbrite.com/e/night-of-the-living-dubz-halloween-party-ft-purge-tickets-51173488281",
+        "eventImgWide" : "img/event-images/" + "night-of-the-living-dubz-at-necto-nightclub-ann-arbor-michigan-oct-25-2018.jpg",
+        "eventWklOvrd" : true,
+        "eventDay"     : 0, // Do not modify
+        "pastEvent"    : false // Do not modify
+    },
+    {
         "eventDate"    : new Date("Oct 22, 2018 21:00:00"),
         "eventName"    : "Electric Nectarine: House & EDM with DJ DigiMark in the Red Room",
         "eventArtist"  : "Electric Nectarine",
@@ -150,7 +435,22 @@ var eventsJSON = [
         "pastEvent"    : false // Do not modify
     },
     {
-        "eventDate"    : new Date("Oct 13, 2018 20:00:00"),
+        "eventDate"    : new Date("Oct 11, 2018 21:00:00"),
+        "eventName"    : "Mix Club Night with DJ SkoobE",
+        "eventArtist"  : "Mix Club Night",
+        "eventDesc"    : "Get ready for the Mix featuring DJ Skoob E<br><br>• MUSIC. Come enjoy the hottest Top 40, Hip-Hop, EDM, House and Party hits all night long at one of the hottest venues in Ann Arbor spun by DJ Skoob E",  
+        "eventDescLong": "Get ready for the Mix featuring DJ Skoob E<br><br>• MUSIC. Come enjoy the hottest Top 40, Hip-Hop, EDM, House and Party hits all night long at one of the hottest venues in Ann Arbor spun by DJ Skoob E<br><br>• Drink Specials: $3.50 Well drinks, $2.50 Fireball shots, 3 for $10 Jägerbombs, and $2 Miller Lite Bottles<br></br>• VIP. For bottle services and more, please contact VIP@necto.com",
+        "eventCover"   : "21+ free before 11pm, and $5 after. 18-20 are $10 all night",
+        "eventLink"    : "special-events/" + "mix-club-night-at-necto-nightclub-ann-arbor-michigan-oct-11-2018.html",
+        "eventSocial"  : "https://www.facebook.com/events/240978043430642/",
+        "eventTix"     : "none",
+        "eventImgWide" : "img/event-images/" + "mix-club-night-at-necto-nightclub-ann-arbor-michigan-oct-11-2018.jpg",
+        "eventWklOvrd" : true,
+        "eventDay"     : 0, // Do not modify
+        "pastEvent"    : false // Do not modify
+    },
+    {
+        "eventDate"    : new Date("Oct 13, 2018 21:00:00"),
         "eventName"    : "Defiled presents... Masquerade Ball in the Red Room",
         "eventArtist"  : "Masquerade Ball",
         "eventDesc"    : "The month of haunting is upon us! Select your favorite mask. Obscure your preconceived identity and join us for another night of new industrial, aggrotech, and more spun by Dj Graphite and Wraith with the most dark and twisted of Remnant's visuals.",  

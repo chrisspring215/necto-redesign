@@ -1,5 +1,19 @@
 { "events" : [
     {
+        "eventDate"    : "Mar 23, 2019 21:00:00",
+        "eventName"    : "APG, Necto & React present... SAM FELDT",
+        "eventArtist"  : "Sam Feldt",
+        "eventDesc"    : "Amsterdam's Sam Feldt earned attention in Europe and then worldwide for his melodic house remixes, mixtapes, and collaborations beginning in the mid-2010s. Early releases included 2014's “Bloesem“ with De Hofnar and “Hot Skin“ with Kav Verhouzer on the Dutch label Spinnin' Records.",  
+        "eventDescLong": "Amsterdam's Sam Feldt earned attention in Europe and then worldwide for his melodic house remixes, mixtapes, and collaborations beginning in the mid-2010s. Early releases included 2014's “Bloesem“ with De Hofnar and “Hot Skin“ with Kav Verhouzer on the Dutch label Spinnin' Records. After a series of live shows in Europe, which he built over time to contain mostly his own productions, he toured North America for the first time in early 2015. “Midnight Hearts,“ with the Him featuring ANG13, followed soon after, and that spring, Feldt signed with Universal Music for the worldwide release of his song “Show Me Love,“ featuring English vocalist Kimberly Anne. It charted throughout Western Europe, hitting the Top Five in the U.K., as well as landing on the dance and streaming charts in the U.S. By the end of 2015, he'd performed on five continents. The following summer, he had a hit at home with “Summer on You,“ a collaboration with Lucas & Steve and Wulf. That same year, Feldt issued his first EP, Been a While, which featured guests like Dante Klein, Milow, Lulleaux, and Bright Sparks. “Runaways“ with Deepend featuring Teemu followed in late 2016 and charted in Europe, later spawning a remix EP. The next year, Feldtreleased his debut LP, Sunrise, which featured the singles “Yes“ with Akon, “Fade Away“ with Lush & Simon and Inna, and “Be My Lover“ with Alex Schulz. An album of remixes, After the Sunset, arrived in 2018, as did the single “Heaven (Don't Have a Name),“ which featured vocals from actor Jeremy Renner. - Marcy Donelson (Allmusic.com)",
+        "eventLink"    : "special-events/sam-feldt-at-necto-nightclub-ann-arbor-michigan-mar-23-2019.html",
+        "eventSocial"  : "https:www.facebook.com/events/286690541976434/",
+        "eventTix"     : "https:samfeldt_necto.eventbrite.com",
+        "eventImgWide" : "img/event-images/sam-feldt-at-necto-nightclub-ann-arbor-michigan-mar-23-2019.jpg",
+        "eventWklOvrd" : true,
+        "eventDay"     : 0,
+        "pastEvent"    : false
+    },
+    {
         "eventDate"    : "Feb 22, 2019 20:00:00",
         "eventName"    : "KWEEN with DJ Dan Slater and Skyy Knox",
         "eventArtist"  : "DJ Dan Slater and Skyy Knox",
@@ -45,6 +59,21 @@
         "pastEvent"    : false
     },
     {
+        "eventDate"    : "Feb 11, 2019 21:00:00",
+        "eventName"    : "Factory Fetish Ball",
+        "eventArtist"  : "Factory Fetish Ball",
+        "eventDesc"    : "Presented by Blue Crow Talent, we have the amazing world renowned Rigger Cannon doing Shibari and beautiful gogo dancers.  The fun doesn't stop there! For those of you feeling even more daring come stop by the bondage booth with Sinnamon and Lotus Fire Fox, our resident dominatrices.  Don't forget our beautiful bondage kitties and gogo dancer staring Sophia Stardust.",  
+        "eventDescLong": "Presented by Blue Crow Talent, we have the amazing world renowned Rigger Cannon doing Shibari and beautiful gogo dancers.  The fun doesn't stop there! For those of you feeling even more daring come stop by the bondage booth with Sinnamon and Lotus Fire Fox, our resident dominatrices.  Don't forget our beautiful bondage kitties and gogo dancer staring Sophia Stardust.<br><br>• FREE PICTURES by Winchester Media<br><br>• MUSIC. Dj Graphite and Misanthropia Narcissus spinning Goth Industrial, SynthPop, EBM, & more on main floor. Down in the Red Room, Sub:Merge with DJ KnowLedge playing Old school, forgotten classics, remixes, mash-ups and newest hits<br><br>• VISUALS by Remnant<br><br>• DRINK SPECIALS. $2 well drinks and $2.50 domestic beers all night, with $3 craft beers and $2 Long Islands til 11",
+        "eventCover"   : "$3 Cover at the door",
+        "eventLink"    : "special-events/factory-fetish-ball-at-necto-nightclub-ann-arbor-michigan-feb-11-2019.html",
+        "eventSocial"  : "https:www.facebook.com/events/2124453064282349/",
+        "eventTix"     : "none",
+        "eventImgWide" : "img/event-images/factory-fetish-ball-at-necto-nightclub-ann-arbor-michigan-feb-11-2019.jpg",
+        "eventWklOvrd" : true,
+        "eventDay"     : 0,
+        "pastEvent"    : false
+    },
+    {
         "eventDate"    : "Feb 2, 2019 20:00:00",
         "eventName"    : "Phi Ques presents... A NIGHT OWT",
         "eventArtist"  : "Phi Ques: A NIGHT OWT",
@@ -61,10 +90,10 @@
     },
     {
         "eventDate"    : "Jan 31, 2019 21:00:00",
-        "eventName"    : "Necto & APG present... LOST KINGS : The So What Tour",
+        "eventName"    : "LOST KINGS : The So What Tour Powered by Microsoft Surface",
         "eventArtist"  : "LOST KINGS",
-        "eventDesc"    : "Lost Kings - Melding woozy, party-minded grooves, house influences, and more mainstream electronic styles, EDM duo Lost Kings used a variety of approaches in developing their sound. Los Angeles-based DJs Robert Abisi and Nick Shanholtz bonded over a love of electronic music culture and their shared status as recent transplants to L.A. from the East Coast. In 2014, the two began making tracks together as Lost Kings, focusing prominently on remixes of other artists over original compositions.",  
-        "eventDescLong": "Lost Kings - Melding woozy, party-minded grooves, house influences, and more mainstream electronic styles, EDM duo Lost Kings used a variety of approaches in developing their sound. Los Angeles-based DJs Robert Abisi and Nick Shanholtz bonded over a love of electronic music culture and their shared status as recent transplants to L.A. from the East Coast. In 2014, the two began making tracks together as Lost Kings, focusing prominently on remixes of other artists over original compositions. The act almost immediately drew major attention for unofficial remixes of tracks by artists such as Disclosure, the Killers, and Dirty South, gaining enough momentum to sign a management deal. In 2015 they released The Bad EP, followed the next year by companion piece The Good EP. Amid constant touring and ever-growing popularity, Lost Kings began receiving commissions for official remixes for bigger names. The year 2015 saw them reworking Tori Kelly's hit “Should've Been Us“ and 2016 found them releasing an official remix for Rihanna‘s “Work“ single. In addition to wildly successful remix work, Lost Kings also made it to the charts with their own compositions, including “Phone Down“ featuring Emily Warren and early 2017's “Quit You“ featuring Tinashé. They followed with “Look at Us Now“ featuring Ally Brooke and A$AP Ferg and “First Love“ with Sabrina Carpenter. 2018 saw the releases of the singles “When We Were Young,“ featuring Norma Jean Martine, and “Stuck,“ featuring Tove Styrke. - Fred Thomas (Allmusic.com)",
+        "eventDesc"    : "LOST KINGS : The So What Tour Powered by Microsoft Surface - Melding woozy, party-minded grooves, house influences, and more mainstream electronic styles, EDM duo Lost Kings used a variety of approaches in developing their sound. Los Angeles-based DJs Robert Abisi and Nick Shanholtz bonded over a love of electronic music culture and their shared status as recent transplants to L.A. from the East Coast. In 2014, the two began making tracks together as Lost Kings, focusing prominently on remixes of other artists over original compositions.",  
+        "eventDescLong": "Lost Kings - Melding woozy, party-minded grooves, house influences, and more mainstream electronic styles, EDM duo Lost Kings used a variety of approaches in developing their sound. Los Angeles-based DJs Robert Abisi and Nick Shanholtz bonded over a love of electronic music culture and their shared status as recent transplants to L.A. from the East Coast. In 2014, the two began making tracks together as Lost Kings, focusing prominently on remixes of other artists over original compositions. The act almost immediately drew major attention for unofficial remixes of tracks by artists such as Disclosure, the Killers, and Dirty South, gaining enough momentum to sign a management deal. In 2015 they released The Bad EP, followed the next year by companion piece The Good EP. Amid constant touring and ever-growing popularity, Lost Kings began receiving commissions for official remixes for bigger names. The year 2015 saw them reworking Tori Kelly's hit “Should've Been Us“ and 2016 found them releasing an official remix for Rihanna‘s “Work“ single. In addition to wildly successful remix work, Lost Kings also made it to the charts with their own compositions, including “Phone Down“ featuring Emily Warren and early 2017's “Quit You“ featuring Tinashé. They followed with “Look at Us Now“ featuring Ally Brooke and A$AP Ferg and “First Love“ with Sabrina Carpenter. 2018 saw the releases of the singles “When We Were Young,“ featuring Norma Jean Martine, and “Stuck,“ featuring Tove Styrke. - Fred Thomas (Allmusic.com)<br><br><img src='../img/microsurface.jpg'>",
         "eventCover"   : "Pre-sale tickets: Early Bird - $15 | General Admission - $20 | DOS - $25",
         "eventLink"    : "special-events/lost-kings-at-necto-nightclub-ann-arbor-michigan-jan-31-2019.html",
         "eventSocial"  : "https:www.facebook.com/events/2036127303116297/",

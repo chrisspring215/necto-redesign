@@ -45,6 +45,36 @@
         "pastEvent"    : false
     },
     {
+        "eventDate"    : "Mar 2, 2019 21:00:00",
+        "eventName"    : "Mardi Gras 2019",
+        "eventArtist"  : "Mardi Gras 2019",
+        "eventDesc"    : "Celebrate Mardi Gras at your favorite Nightclub. Necto will have the hottest dance and hit music with DJ Hardy. MC Yoda will be here so come get beads and party with us.<br><br>Drink Specials: Happy Hour from 9pm - 11pm with 50% off all drinks, shots & bottled beers & $2 Long Islands.<br><br>VIP services available. Contact VIP@necto.com, 734-994-5835 or book via necto.com  ",  
+        "eventDescLong": "Celebrate Mardi Gras at your favorite Nightclub. Necto will have the hottest dance and hit music with DJ Hardy. MC Yoda will be here so come get beads and party with us.<br><br>Drink Specials: Happy Hour from 9pm - 11pm with 50% off all drinks, shots & bottled beers & $2 Long Islands.<br><br>VIP services available. Contact VIP@necto.com, 734-994-5835 or book via necto.com  ",
+        "eventCover"   : "$5 for 21+ | $10 for 18-20 all night.",
+        "eventLink"    : "special-events/mardi-gras-2019-at-necto-nightclub-ann-arbor-michigan-mar-2-2019.html",
+        "eventSocial"  : "https:www.facebook.com/events/830407840639786/",
+        "eventTix"     : "none",
+        "eventImgWide" : "img/event-images/mardi-gras-2019-at-necto-nightclub-ann-arbor-michigan-mar-2-2019.jpg",
+        "eventWklOvrd" : true,
+        "eventDay"     : 0,
+        "pastEvent"    : false
+    },
+    {
+        "eventDate"    : "Mar 1, 2019 21:00:00",
+        "eventName"    : "Mardi Gras Pride",
+        "eventArtist"  : "Mardi Gras Pride",
+        "eventDesc"    : "Come celebrate Mardi Gras pride style at Necto! There will be high energy dance music on both floors with DJ Jace upstairs and DJ DigiMark in the Red Room.<br><br>Maxi Chanel will be our host for the evening. There will be beads and full decorations.",  
+        "eventDescLong": "Come celebrate Mardi Gras pride style at Necto! There will be high energy dance music on both floors with DJ Jace upstairs and DJ DigiMark in the Red Room.<br><br>Maxi Chanel will be our host for the evening. There will be beads and full decorations.<br><br>Drink Specials: Happy Hour is from 9pm - 11pm with 50% off all drinks, shots & bottled beers & $2 Long Islands.<br><br>VIP services available. Contact VIP@necto.com, 734-994-5835 or book via necto.com",
+        "eventCover"   : "$5 cover for 21+ and  $10 cover for 18-20.",
+        "eventLink"    : "special-events/mardi-gras-pride-at-necto-nightclub-ann-arbor-michigan-mar-1-2019.html",
+        "eventSocial"  : "https:www.facebook.com/events/428764037665970/",
+        "eventTix"     : "none",
+        "eventImgWide" : "img/event-images/mardi-gras-pride-at-necto-nightclub-ann-arbor-michigan-mar-1-2019.jpg",
+        "eventWklOvrd" : true,
+        "eventDay"     : 0,
+        "pastEvent"    : false
+    },
+    {
         "eventDate"    : "Feb 23, 2019 20:00:00",
         "eventName"    : "Defiled Red Room | O̸bl̷i͝t́͝e̴r̀a̷̧t̶̕io̷͢n̢",
         "eventArtist"  : "Defiled Red Room",

@@ -1,10 +1,25 @@
 { "events" : [
     {
+        "eventDate"    : "June 24, 2019 21:00:00",
+        "eventName"    : "Grendel: Ascending the Abyss 2019",
+        "eventArtist"  : "Grendel",
+        "eventDesc"    : "JD Tucker from GRENDEL makes a special DJ appearance playing tracks from the new album 'Abyssal Light Ascension'!<br>        Tourmates Striplicker, Glass Apple Bonzai and Esoterik will be on hand to join in the fun!<br><br>***THIS IS A DJ ONLY APPEARANCE - THERE WILL BE NO LIVE PERFORMANCE***",  
+        "eventDescLong": "JD Tucker from GRENDEL makes a special DJ appearance playing tracks from the new album 'Abyssal Light Ascension'!<br>        Tourmates Striplicker, Glass Apple Bonzai and Esoterik will be on hand to join in the fun!<br><br>***THIS IS A DJ ONLY APPEARANCE - THERE WILL BE NO LIVE PERFORMANCE***<br><br>MUSIC. Dj Graphite and Misanthropia Narcissus spinning Goth Industrial, SynthPop, EBM, & more on the main floor. Down in the Red Room, Sub:Merge with DJ KnowLedge playing Old school, forgotten classics, remixes, mash-ups and newest hits<br><br>• VISUALS by Remnant<br><br>• PICTURES by Winchester Media  <br><br>• DRINK SPECIALS. $2 well drinks and $2.50 domestic beers all night, with $3 craft beers and $2 Long Islands til 11<br><br>• Cover $3 (special event, no free passes)<br><br>• VIP services available: Contact VIP@necto.com, 734-994-5436, or book via necto.com<br><br>",
+        "eventCover"   : "$3 (special event, no free passes)",
+        "eventLink"    : "special-events/grendel-at-necto-nightclub-ann-arbor-michigan-june-24-2019.html",
+        "eventSocial"  : "https:www.facebook.com/events/1616097101867511/",
+        "eventTix"     : "none",
+        "eventImgWide" : "img/event-images/grendel-at-necto-nightclub-ann-arbor-michigan-june-24-2019.jpg",
+        "eventWklOvrd" : true,
+        "eventDay"     : 0,
+        "pastEvent"    : false
+    },
+    {
         "eventDate"    : "May 10, 2019 21:00:00",
         "eventName"    : "Dragster presents... A'keria Chanel Davenport (RuPaul's Drag Race S11)",
         "eventArtist"  : "A'keria Chanel Davenport",
         "eventDesc"    : "From the legendary 'House of Davenport', A'keria's slick shiny look makes you sit up and pay attention. The current reigning 'Miss Black Universe', this super accomplished pageant drag queen is doing the Davenports proud with her signature aesthetic: 'fit, fashion, mug and body'. Expect big hair, big attitude and big results from this competitor.",  
-        "eventDescLong": "WFrom the legendary 'House of Davenport', A'keria's slick shiny look makes you sit up and pay attention. The current reigning 'Miss Black Universe', this super accomplished pageant drag queen is doing the Davenports proud with her signature aesthetic: 'fit, fashion, mug and body'. Expect big hair, big attitude and big results from this competitor.",
+        "eventDescLong": "From the legendary 'House of Davenport', A'keria's slick shiny look makes you sit up and pay attention. The current reigning 'Miss Black Universe', this super accomplished pageant drag queen is doing the Davenports proud with her signature aesthetic: 'fit, fashion, mug and body'. Expect big hair, big attitude and big results from this competitor.",
         "eventCover"   : "$5 for 21+ | $10 for 18-20 all night. Meet & greet tix $25",
         "eventLink"    : "special-events/akeria-chanel-davenport-at-necto-nightclub-ann-arbor-michigan-may-10-2019.html",
         "eventSocial"  : "https:www.facebook.com/events/403193773839983/",

@@ -15,6 +15,36 @@
         "pastEvent"    : false
     },
     {
+        "eventDate"    : "June 20, 2019 21:00:00",
+        "eventName"    : "Ignyte Events, Panky Ring Productions & Necto present... SUBDOCTA",
+        "eventArtist"  : "SUBDOCTA",
+        "eventDesc"    : "with opening sets by<br>Attak<br>Gypsy<br>Dash Riot",  
+        "eventDescLong": "with opening sets by<br>Attak<br>Gypsy<br>Dash Riot<br><br>Charles is originally from Carson City, Nevada. One of his fondest musical memories was seeing AFI and Yellowcard when he was 13. Seeing Chase & Status was another memorable moment for him as well.<br><br>Growing up, Charles played drums, but switched to DJing/producing once he entered college. He was inspired by old dubstep to create tracks of that sort. Production for Charles was a hobby as he was working a sound engineer at a local concert venue. After touring with Blue October as their Ableton tech/monitor engineer, Charles decided to dive in and create original productions.<br><br>A breakthrough moment in Subdocta's career was when Bassnectar dropped his track '2009 was tight' during his Freestyle sessions in Denver in 2017.<br><br>In April 2018, Subdocta released 'Skeleton Key' via Buyore's Fresh Blood imprint. In May of 2018, he released a remix to Dirt Monkey's 'Lift Off' which was featured on The Dub Rebellion.",
+        "eventCover"   : "Pre-sale tickets: Early Bird - $10 | 4 Pack - $50 |General Admission $15 | DOS - $20",
+        "eventLink"    : "special-events/subdocta-at-necto-nightclub-ann-arbor-michigan-june-20-2019.html",
+        "eventSocial"  : "https:www.facebook.com/events/1616097101867511/",
+        "eventTix"     : "https:subdocta_necto.eventbrite.com",
+        "eventImgWide" : "img/event-images/subdocta-at-necto-nightclub-ann-arbor-michigan-june-20-2019.jpg",
+        "eventWklOvrd" : true,
+        "eventDay"     : 0,
+        "pastEvent"    : false
+    },
+    {
+        "eventDate"    : "May 20, 2019 21:00:00",
+        "eventName"    : "Battle Royale Video Game Night",
+        "eventArtist"  : "Battle Royale",
+        "eventDesc"    : "Celebrating our first Battle Royale video game night!  Video game consoles set up all over the bar!!  Get your raffle ticket at the door for your chance to win a video game console!  We are doing the raffle at 12:30 on the main floor!  Feel free to DM us links to your streamer footage to be featured on the screens.",  
+        "eventDescLong": "Celebrating our first Battle Royale video game night!  Video game consoles set up all over the bar!!  Get your raffle ticket at the door for your chance to win a video game console!  We are doing the raffle at 12:30 on the main floor!  Feel free to DM us links to your streamer footage to be featured on the screens.<br><br>• Cover $3 (special event, no free passes)<br><br>• MUSIC. Dj Graphite and Misanthropia Narcissus spinning Goth Industrial, SynthPop, EBM, & more on the main floor. Down in the Red Room, Sub:Merge with DJ KnowLedge playing Old school, forgotten classics, remixes, mash-ups and newest hits<br><br>• VISUALS by Remnant",
+        "eventCover"   : "$5 for 21+ | $10 for 18-20 all night. Meet & greet tix $25",
+        "eventLink"    : "special-events/battle-royale-video-game-night-at-necto-nightclub-ann-arbor-michigan-may-20-2019.html",
+        "eventSocial"  : "https:www.facebook.com/events/331854704196100/",
+        "eventTix"     : "none",
+        "eventImgWide" : "img/event-images/battle-royale-video-game-night-at-necto-nightclub-ann-arbor-michigan-may-20-2019.jpg",
+        "eventWklOvrd" : true,
+        "eventDay"     : 0,
+        "pastEvent"    : false
+    },
+    {
         "eventDate"    : "May 10, 2019 21:00:00",
         "eventName"    : "Dragster presents... A'keria Chanel Davenport (RuPaul's Drag Race S11)",
         "eventArtist"  : "A'keria Chanel Davenport",
@@ -25,6 +55,21 @@
         "eventSocial"  : "https:www.facebook.com/events/403193773839983/",
         "eventTix"     : "https:akeria_necto.eventbrite.com",
         "eventImgWide" : "img/event-images/akeria-chanel-davenport-at-necto-nightclub-ann-arbor-michigan-may-10-2019.jpg",
+        "eventWklOvrd" : true,
+        "eventDay"     : 0,
+        "pastEvent"    : false
+    },
+    {
+        "eventDate"    : "May 3, 2019 21:00:00",
+        "eventName"    : "KWEEN presents DJ Nina Flowers",
+        "eventArtist"  : "Nina Flowers",
+        "eventDesc"    : "FDJ NINA FLOWERS (AKA Jorge Luis Flores Sanchez, DJ Flowers, Nina Flowers) brings a triple threat of talent to venues across the globe. Be it his infectious understanding of how to bring music alive on the dance floor as a DJ and producer, or powerfully engaging connection to audiences as a drag performer, Nina Flowers is an electric performer. And as a makeup artist his skills cannot be matched. Join us for this KWEEN event and see Nina he continues to amaze audiences worldwide.",  
+        "eventDescLong": "DJ NINA FLOWERS (AKA Jorge Luis Flores Sanchez, DJ Flowers, Nina Flowers) brings a triple threat of talent to venues across the globe. Be it his infectious understanding of how to bring music alive on the dance floor as a DJ and producer, or powerfully engaging connection to audiences as a drag performer, Nina Flowers is an electric performer. And as a makeup artist his skills cannot be matched. Join us for this KWEEN event and see Nina he continues to amaze audiences worldwide.",
+        "eventCover"   : "$5 for 21+  $10 for 18-20 ",
+        "eventLink"    : "special-events/nina-flowers-at-necto-nightclub-ann-arbor-michigan-may-3-2019.html",
+        "eventSocial"  : "https:www.facebook.com/events/1003231590065726/",
+        "eventTix"     : "none",
+        "eventImgWide" : "img/event-images/nina-flowers-at-necto-nightclub-ann-arbor-michigan-may-3-2019.jpg",
         "eventWklOvrd" : true,
         "eventDay"     : 0,
         "pastEvent"    : false

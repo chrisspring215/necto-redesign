@@ -1,5 +1,125 @@
 var eventsJSON = [
     {
+        "eventDate"    : new Date("Oct 10, 2019 21:00:00"),
+        "eventName"    : "G-REX + ZEKE BEATS with opening sets by Attak and Gypsy",
+        "eventArtist"  : "G-REX + ZEKE BEATS",
+        "eventDesc"    : "G-REX + ZEKE BEATS with opening sets by Attak and Gypsy",
+        "eventDescLong"    : "G-Rex bio:<br>Although the origins of G-REX can be dated back to 2015, 2018 was certainly a breakout year for Detroit native producer, Jake Sweeney. As he worked to perfect his brand of high energy trap and bass fused with sinister dubstep sound design, he honed in on a deep dark sound that has become a recognizable signature in his music and earned him the respect and support of leaders in the scene.<br><br>Zeke Beats bio:<br>ZEKE BEATS blends hip-hop and grime influences with his signature analogue basslines for a distinct sound that's dirty, crunchy and always futuristic. It’s the sort of bass that keeps dancefloors burning and sweat dripping down walls.<br><br>VIP services available. Contact: VIP@necto.com",
+        "eventCover"   : "Early Bird - $10 | GA - $17 | 4Pack - $60 | DOS - $20",
+        "eventLink"    : "special-events/" + "g-rex-zeke-beats-at-necto-nightclub-ann-arbor-michigan-oct-10-2019.html",
+        "eventSocial"  : "https://www.facebook.com/events/698648620559238/",
+        "eventTix"     : "https://grex_zekebeats_necto.eventbrite.com",
+        "eventImgWide" : "img/event-images/" + "g-rex-zeke-beats-at-necto-nightclub-ann-arbor-michigan-oct-10-2019.jpg",
+        "eventWklOvrd" : false,
+        "eventDay"     : 0, // Do not modify
+        "pastEvent"    : false // Do not modify
+    },
+    {
+        "eventDate"    : new Date("Sep 26, 2019 20:30:00"),
+        "eventName"    : "Prime Social Group, Arbor Promotion Group & Necto present...<br>CHRIS LAKE : Stay with Me - Fall Tour",
+        "eventArtist"  : "CHRIS LAKE",
+        "eventDesc"    : "Active since the early 2000s, British producer/DJ Chris Lake has built up a massive discography of original productions and remixes, ranging from progressive house and tech-house to vocal-driven EDM. He's scored several charting hits, collaborated with EDM heavyweights such as Deadmau5 and Steve Aoki, and remixed pop stars such as Sia, Kylie Minogue, and Lady Gaga. He's also responsible for the Rising Music label, which has released dozens of tracks since 2005.",
+        "eventDescLong"    : "Active since the early 2000s, British producer/DJ Chris Lake has built up a massive discography of original productions and remixes, ranging from progressive house and tech-house to vocal-driven EDM. He's scored several charting hits, collaborated with EDM heavyweights such as Deadmau5 and Steve Aoki, and remixed pop stars such as Sia, Kylie Minogue, and Lady Gaga. He's also responsible for the Rising Music label, which has released dozens of tracks since 2005.<br><br>CrazyLake first made an impact in 2002, when his bootleg remixes of songs by the Prodigy and the Eurythmics (produced under the pseudonym Christophe D'Abuc) grabbed the attention of in-the-know progressive house DJs. Lake's first original single, ”Santiago de Cuba,” was also released that year. Lake then issued singles on labels such as Pangea Recordings and Statra Recordings, kicking off Rising Music with the release of ”One Too Many” in late 2005. His first big hit was ”Changes” (featuring vocalist Laura V), which reached the Top Ten of Billboard's dance airplay chart and the Top 30 of the U.K. singles chart. Arriving in 2007, ”Carry Me Away” (featuring Emma Hewitt) topped the dance airplay chart, and 2008's ”Only One” and ”If You Knew” were also Top Ten successes. Lake's debut album, Crazy, was released by Nervous Records in 2009, containing several of his previous singles.<br><br>In 2010, Lake split a volume of the Toolroom Knights mix CD series with Tocadisco. Later that year, Lake and frequent collaborator Marco Lys produced the album Cross the Line, released by Rising Music. The single ”I Said” (a collaboration with Deadmau5) was also released that year and became a club hit. In 2012, Lake signed with Ultra Records. He produced several singles for the label over the next few years, including collaborations with Steve Aoki and Anna Lunoe. In 2017, Lake signed to Skrillex's OWSLA, debuting with the single ”I Want You.” The two-track Close Your Eyes EP -- a collaboration with Walker & Royce -- followed the next year. Additional singles ”Y.O.D.O.,” ”Deceiver,” and ”Stay with Me” carried him into 2019. - Paul Simpson (Allmusic.com)",
+        "eventCover"   : "Pre-sale tickets: General Admission $20-$25 | DOS - $30",
+        "eventLink"    : "special-events/" + "chris-lake-at-necto-nightclub-ann-arbor-michigan-sep-26-2019.html",
+        "eventSocial"  : "https://www.facebook.com/events/815035705562768/",
+        "eventTix"     : "https://chrislakenecto.eventbrite.com",
+        "eventImgWide" : "img/event-images/" + "chris-lake-at-necto-nightclub-ann-arbor-michigan-sep-26-2019.jpg",
+        "eventWklOvrd" : false,
+        "eventDay"     : 0, // Do not modify
+        "pastEvent"    : false // Do not modify
+    },
+    {
+        "eventDate"    : new Date("Aug 16, 2019 21:00:00"),
+        "eventName"    : "KWEEN Presents: DJ Toy Armada | Circuit Party",
+        "eventArtist"  : "DJ Toy Armada",
+        "eventDesc"    : "Over the past 5 years, Toy has established himself as one of Asia’s biggest and most respected DJs, with regular bookings across the region and around the world. He has headlined major LGBT events and festivals in Asia and North America, including White Party Palm Springs, New Year’s Eve at White Party Bangkok, and the massive Winter Party Festival Beach Party in Miami, to name a few. He’s also toured extensively across the United States, with bookings in Chicago, Los Angeles, San Francisco, and Aspen, among other cities.",  
+        "eventDescLong": "Necto is bringing you another circuit party in July! Our KWEEN series brings the best gay circuit DJs from around the world each month!<br><br>Featuring DJ Jace & Maxi Chanel | DJ DigiMark in the Red Room<br><br>Born in Quezon City, Philippines, in 1980, Toy Armada started DJing at the age of 23. He served as “Head DJ” of Manila’s biggest nightclub, BED Manila, for nearly 4 years. He made his name with his own signature sound of thunderous tribal beats and soaring vocal anthems that is recognized instantly.<br><br>Over the past 5 years, Toy has established himself as one of Asia’s biggest and most respected DJs, with regular bookings across the region and around the world. He has headlined major LGBT events and festivals in Asia and North America, including White Party Palm Springs, New Year’s Eve at White Party Bangkok, and the massive Winter Party Festival Beach Party in Miami, to name a few. He’s also toured extensively across the United States, with bookings in Chicago, Los Angeles, San Francisco, and Aspen, among other cities.<br><br>After winning, Chad kept performing around the world, worked as a judge on the Cosplay National Championship and made cameos on TV sitcoms such as Jane The Virgin and 2 Broke Girls as a Cher impersonator.",
+        "eventCover"   : "$5 for 21+ | $10 for 18-20 all night",
+        "eventLink"    : "special-events/" + "toy-armada-at-necto-nightclub-ann-arbor-michigan-aug-16-2019.html",
+        "eventSocial"  : "https://www.facebook.com/events/2575617022469947/",
+        "eventTix"     : "none",
+        "eventImgWide" : "img/event-images/" + "toy-armada-at-necto-nightclub-ann-arbor-michigan-aug-16-2019.jpg",
+        "eventWklOvrd" : true,
+        "eventDay"     : 0, // Do not modify
+        "pastEvent"    : false // Do not modify
+    },
+    {
+        "eventDate"    : new Date("Aug 2, 2019 21:00:00"),
+        "eventName"    : "Dragster presents...<br>CHAD MICHAELS (RuPaul's Drag Race S4 Runner Up | All Stars S1 Winner)<br>Official Ann Arbor Pride Pre-Party",
+        "eventArtist"  : "CHAD MICHAELS",
+        "eventDesc"    : "Chad Michaels is a drag queen, performer and cosplayer most well known for her near-perfect impersonation of Cher, as well as be a Season 4 runner-up of RuPaul's Drag Race and the All Stars 1 winner.",  
+        "eventDescLong": "Chad Michaels is a drag queen, performer and cosplayer most well known for her near-perfect impersonation of Cher, as well as be a Season 4 runner-up of RuPaul's Drag Race and the All Stars 1 winner.<br><br>After winning, Chad kept performing around the world, worked as a judge on the Cosplay National Championship and made cameos on TV sitcoms such as Jane The Virgin and 2 Broke Girls as a Cher impersonator.<br><br>Doors at 9pm | 1st show at 9:45PM | Encore at 12AM",
+        "eventCover"   : "$5 for 21+ | $10 for 18-20 all night. Meet & greet tix $25",
+        "eventLink"    : "special-events/" + "chad-michaels-at-necto-nightclub-ann-arbor-michigan-aug-2-2019.html",
+        "eventSocial"  : "https://www.facebook.com/events/439840720190243/",
+        "eventTix"     : "https://chadmichaels_necto.eventbrite.com",
+        "eventImgWide" : "img/event-images/" + "chad-michaels-at-necto-nightclub-ann-arbor-michigan-aug-2-2019.jpg",
+        "eventWklOvrd" : true,
+        "eventDay"     : 0, // Do not modify
+        "pastEvent"    : false // Do not modify
+    },
+    {
+        "eventDate"    : new Date("July 27, 2019 21:00:00"),
+        "eventName"    : "Defiled (Red Room)",
+        "eventArtist"  : "Defiled",
+        "eventDesc"    : "Descend the stairs and dance with us in Necto Nightclub's Red Room: our underground industrial domain. Menacing beats and sinister visuals await",  
+        "eventDescLong": "Descend the stairs and dance with us in Necto Nightclub's Red Room: our underground industrial domain. Menacing beats and sinister visuals await<br><br>New industrial, aggrotech, and more spun by DJ Graphite and Wraith<br><br>Visuals and music videos by Remnant<br><br>IMPORTANT: Tell the door staff you're there for @Defiled and head downstairs. If you pay for upstairs, you won't be able to enter the Red Room<br><br>DRINK SPECIALS: $3.50 well drinks, $2.50 Fireball shots, 3 for $10 Jäger bombs, $2 Miller Lite bottles<br><br>Valid ID required<br><br>Cash only at the door [ATM located on premises]",
+        "eventCover"   : "$5 21+, $10 18-21",
+        "eventLink"    : "special-events/" + "defiled-at-necto-nightclub-ann-arbor-michigan-july-27-2019.html",
+        "eventSocial"  : "https://www.facebook.com/events/391219601599610",
+        "eventTix"     : "none",
+        "eventImgWide" : "img/event-images/" + "defiled-at-necto-nightclub-ann-arbor-michigan-july-27-2019.jpg",
+        "eventWklOvrd" : false,
+        "eventDay"     : 0, // Do not modify
+        "pastEvent"    : false // Do not modify
+    },
+    {
+        "eventDate"    : new Date("July 26, 2019 21:00:00"),
+        "eventName"    : "Pride presents ... Leather Invasion featuring...<br>Amp (Mr Friendly San Francisco 2019 & Watts the Safeword) Kristofer (Watts the Safeword) and Eric (Mr Dunes Leather 2018)",
+        "eventArtist"  : "Leather Invasion",
+        "eventDesc"    : "Factory, it's that time of year again -- where we celebrate Factory 15 years strong Goth Prom style, dressing in your best Goth formal attire!!  Throwback to 2004 encouraged #20ninescene !!!",  
+        "eventDescLong": "This leather invasion will bring you the scandalous fun. There will be demonstrations, drinks, and sweaty dance mixes. The party starts at 9pm, Please leave potentially dangerous accessories at home. Other than that, come ready to party.<br><br>Age: 18+ with proper ID<br><br>Also featuring... The Sisters of Perpetual Indulgence<br><br>Performances by Chanel Hunter & Maxi Chanel<br>Music by: DJ Jace in the Main Room & DJ Digimark in the Red Room<br><br>VIP with Meet & Greet, Priority Entry<br>VIP@necto.com",
+        "eventCover"   : "$5 over 21, $10 18-20",
+        "eventLink"    : "special-events/" + "leather-invasion-at-necto-nightclub-ann-arbor-michigan-july-26-2019.html",
+        "eventSocial"  : "https://www.facebook.com/events/447136699465658/  ",
+        "eventTix"     : "none",
+        "eventImgWide" : "img/event-images/" + "leather-invasion-at-necto-nightclub-ann-arbor-michigan-july-26-2019.jpg",
+        "eventWklOvrd" : true,
+        "eventDay"     : 0, // Do not modify
+        "pastEvent"    : false // Do not modify
+    },
+    {
+        "eventDate"    : new Date("July 22, 2019 21:00:00"),
+        "eventName"    : "Factory 15 Year Anniversary GOTH PROM",
+        "eventArtist"  : "GOTH PROM (Fac's 15th Anniversary)",
+        "eventDesc"    : "Factory, it's that time of year again -- where we celebrate Factory 15 years strong Goth Prom style, dressing in your best Goth formal attire!!  Throwback to 2004 encouraged #20ninescene !!!",  
+        "eventDescLong": "Factory, it's that time of year again -- where we celebrate Factory 15 years strong Goth Prom style, dressing in your best Goth formal attire!!  Throwback to 2004 encouraged #20ninescene !!!<br><br>• Goth Prom King and Queen contest @ MIDNIGHT on the main floor!!  Winners will be crowned & awarded gift cards to Hot Topic!!!<br><br>• Goth Prom King and Queen sign up with Yoda in the Red room cut off for signing up ends at 11:30 p.m.<br><br>• Cover $3 (special event, no free passes)<br><br>• FREE PICTURES. By Nick Vernier.<br><br>• MUSIC. Dj Graphite and Misanthropia Narcissus spinning Oldschool and New Goth Industrial,  SynthPop, EBM, & more on the main floor. Down in the Red Room, Sub:Merge with DJ KnowLedge & DJ Skoob E playing Old school, forgotten classics, remixes, mash-ups and newest hits<br><br>• VISUALS by Remnant<br><br>• DRINK SPECIALS. $2 well drinks and $2.50 domestic beers all night, with $3 craft beers and $2 Long Islands til 11<br><br>• VIP services available. Contact VIP@necto.com, 734-994-5436, or book via necto.com.",
+        "eventCover"   : "$3 (special event, no free passes)",
+        "eventLink"    : "special-events/" + "goth-prom-at-necto-nightclub-ann-arbor-michigan-july-22-2019.html",
+        "eventSocial"  : "https://www.facebook.com/events/655937814857850/",
+        "eventTix"     : "none",
+        "eventImgWide" : "img/event-images/" + "goth-prom-at-necto-nightclub-ann-arbor-michigan-july-22-2019.jpg",
+        "eventWklOvrd" : true,
+        "eventDay"     : 0, // Do not modify
+        "pastEvent"    : false // Do not modify
+    },
+    {
+        "eventDate"    : new Date("July 12, 2019 21:00:00"),
+        "eventName"    : "Dragster presents... LADY BUNNY",
+        "eventArtist"  : "LADY BUNNY",
+        "eventDesc"    : "With her glitzy outfits, sky-high wigs and false eyelashes long enough to embarrass Tammy Faye Baker, multi-talented drag artist Lady Bunny would turn heads even if looking glamorous was her only talent. But “she” isn’t just another man in a dress: Bunny is a successful comedienne, DJ, actress, singer/songwriter and most famously, the emcee and creator of Wigstock, the outrageous drag festival of drag and music which electrified New Yorkers every Labor Day for over 20 years.",  
+        "eventDescLong": "With her glitzy outfits, sky-high wigs and false eyelashes long enough to embarrass Tammy Faye Baker, multi-talented drag artist Lady Bunny would turn heads even if looking glamorous was her only talent. But “she” isn’t just another man in a dress: Bunny is a successful comedienne, DJ, actress, singer/songwriter and most famously, the emcee and creator of Wigstock, the outrageous drag festival of drag and music which electrified New Yorkers every Labor Day for over 20 years.<br><br>1st show at 9:45PM | Encore at 12AM",
+        "eventCover"   : "$5 for 21+ | $10 for 18-20 all night. Meet & greet tix $25",
+        "eventLink"    : "special-events/" + "lady-bunny-at-necto-nightclub-ann-arbor-michigan-july-12-2019.html",
+        "eventSocial"  : "https://www.facebook.com/events/2319628771696980/",
+        "eventTix"     : "https://ladybunny_necto.eventbrite.com",
+        "eventImgWide" : "img/event-images/" + "lady-bunny-at-necto-nightclub-ann-arbor-michigan-july-12-2019.jpg",
+        "eventWklOvrd" : true,
+        "eventDay"     : 0, // Do not modify
+        "pastEvent"    : false // Do not modify
+    },
+    {
         "eventDate"    : new Date("June 24, 2019 21:00:00"),
         "eventName"    : "Grendel: Ascending the Abyss 2019",
         "eventArtist"  : "Grendel",
@@ -41,6 +161,21 @@ var eventsJSON = [
         "eventTix"     : "none",
         "eventImgWide" : "img/event-images/" + "heros-and-villains-at-necto-nightclub-ann-arbor-michigan-june-17-2019.jpg",
         "eventWklOvrd" : true,
+        "eventDay"     : 0, // Do not modify
+        "pastEvent"    : false // Do not modify
+    },
+    {
+        "eventDate"    : new Date("June 15, 2019 21:00:00"),
+        "eventName"    : "Defiled (Red Room)",
+        "eventArtist"  : "Defiled (Red Room)",
+        "eventDesc"    : "Join us for another gruesome night of new industrial, aggrotech, and more spun by @Dj Graphite and @Wraith with visuals and music videos by @Remnant. Dance into the abyss with us in @Necto Nightclub's Red Room: our underground industrial domain",  
+        "eventDescLong": "Join us for another gruesome night of new industrial, aggrotech, and more spun by @Dj Graphite and @Wraith with visuals and music videos by @Remnant. Dance into the abyss with us in @Necto Nightclub's Red Room: our underground industrial domain<br><br>IMPORTANT: Tell the door staff you're there for Defiled and head downstairs. If you pay for upstairs, you won't be able to enter the Red Room<br><br>E̛ņ͘͞d̸͡͡j̵o̷͞y<br><br>DRINK SPECIALS: $3.50 well drinks, $2.50 Fireball shots, 3 for $10 Jäger bombs, $2 Miller Lite bottles",
+        "eventCover"   : "$5 21+, $10 18-21",
+        "eventLink"    : "special-events/" + "defiled-at-necto-nightclub-ann-arbor-michigan-june-15-2019.html",
+        "eventSocial"  : "https://www.facebook.com/events/2403546799689945/",
+        "eventTix"     : "none",
+        "eventImgWide" : "img/event-images/" + "defiled-at-necto-nightclub-ann-arbor-michigan-june-15-2019.jpg",
+        "eventWklOvrd" : false,
         "eventDay"     : 0, // Do not modify
         "pastEvent"    : false // Do not modify
     },

@@ -4,7 +4,7 @@ $renter_name = $_POST['renter_name'];
 $renter_phone = $_POST['renter_phone'];
 $renter_email = $_POST['renter_email'];
 $renter_message = $_POST['renter_message'];
-$to = 'vip@necto.com';
+$to = 'booking@necto.com';
 $subject = 'PRIVATE EVENT Request: ' . $renter_name;
 
 $message =
